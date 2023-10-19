@@ -1,0 +1,156 @@
+.accordionTitle {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+
+.accordionItem {
+  font-family: var(--bmd-font-Secondary);
+}
+
+.flex {
+  display: flex;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.liDecore {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.downArrow {
+  width: 13px;
+  height: 13px;
+  transform: rotate(90deg);
+  margin: auto 8px;
+}
+
+.upArrow {
+  width: 13px;
+  height: 13px;
+  transform: rotate(270deg);
+  margin: auto 4px;
+
+}
+
+.justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.crossed {
+  color: var(--bmd-dark-gray);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--bmd-font-Secondary);
+  text-decoration: line-through;
+}
+
+.section2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.section3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #00A0DD;
+  display: flex;
+  align-items: center;
+}
+
+.section4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #589555;
+  margin: 10px 0;
+}
+
+.section5_2 {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  margin: auto 5px;
+}
+
+.section6_2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  display: grid;
+}
+
+.buyNowBtn {
+  width: 100%;
+  height: 45px;
+  background: #000000;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.selectDiv {
+  /* width: 108px; */
+  height: 25px;
+  background: #F0F1F2;
+  border: 0.5px solid #BBBBBB;
+  border-radius: 10px;
+  display: flex;
+  padding: 0 6px;
+}
+
+.selectNon {
+  outline: none;
+  background: none;
+  border: none;
+  color: #000000;
+}
+
+.accordionContent {
+  margin: 0 30px;
+}
+
+.quntity {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px;
+  margin: auto;
+}
+
+.freq {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 11px;
+  width: 80px;
+  height: 25px;
+  background: #F0F1F2;
+  border: 0.5px solid #BBBBBB;
+  border-radius: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.freqLabel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  margin: 10px 0;
+}

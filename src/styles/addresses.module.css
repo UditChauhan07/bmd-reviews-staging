@@ -1,0 +1,126 @@
+.header {
+  text-align: center;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.addressesContainer {
+  flex-direction: column;
+  align-items: center;
+}
+.dFlex {
+  margin: auto;
+  position: relative;
+}
+.addressContainer {
+  text-align: center;
+  padding: 20px 0px;
+}
+.addressButton {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2em;
+  background: #000000;
+  border: 1px solid #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition: all 0.25s;
+  margin: 0px 10px;
+  min-width: 150px;
+}
+.backLink {
+  position: absolute;
+  top: 30%;
+}
+.dft {
+  background: #d5d3d3;
+  padding: 5px;
+  border-radius: 20%;
+  font-weight: 400;
+  font-family: var(--bmd-font-Primary);
+}
+.aPhone {
+  display: block;
+  height: 40px;
+}
+.logOut {
+  color: #37246b;
+  display: block;
+  font-size: 14px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  transition: all 0.25s linear;
+}
+.addressInfo {
+  font-style: normal;
+  font-family: var(--bmd-font-Secondary);
+}
+.addressSection {
+  min-height: 50vh;
+  padding-top: 3rem;
+}
+
+/* form css */
+.accountHeader {
+  text-align: center;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.deleteButton {
+  display: flex;
+  margin: auto;
+  padding: 0.25rem 0.5rem;
+}
+.addressForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  max-width: 1280px;
+  margin: auto;
+}
+.linkHolder{
+  margin: 1rem 1rem 0;
+}
+.nameWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px 0px 0px;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+}
+.label {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.input {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.verticalInput {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px 0px 0px;
+}
+.inlineWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.btnHover{    
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.btnHover:hover{    
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}

@@ -1,0 +1,20 @@
+{
+  "EU": {
+    "title": "14 Giorni - Soddisfatti o Rimborsati",
+    "theme": null,
+    "badges": [
+      {
+        "src": "\\src\\14-giormi.webp",
+        "alt": "14-giormi"
+      },
+      {
+        "src": "\\src\\con-ordini.webp",
+        "alt": "con-ordini"
+      },
+      {
+        "src": "\\src\\shopify-secure.webp",
+        "alt": "shopify-secure"
+      }
+    ]
+  }
+}

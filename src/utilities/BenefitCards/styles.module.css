@@ -1,0 +1,244 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.boxImagesContainer {
+    max-width: 60%;
+}
+
+.boxImage {
+    max-width: 241px;
+    max-height: 241px;
+}
+
+
+.row {
+    width: 50%;
+    height: 200px;
+    display: -webkit-inline-box;
+    margin: 30px auto 30px;
+}
+
+.title {
+    padding-top: 30px;
+}
+
+.ht75 {
+    height: 75px;
+}
+
+.title h1 {
+
+    color: white;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 50px;
+}
+
+.card2 {
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 40%;
+    height: 241px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 h2 {
+    line-height: 28px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: var(--bmd-font-Secondary);
+    text-transform: uppercase;
+
+}
+
+.card2 p {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--bmd-font-Secondary);
+    margin-top: 10px;
+
+}
+
+.row {
+    width: 50%;
+    padding: 0 10px;
+    height: 200px;
+}
+
+.cardContainer {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.taital h2 {
+    margin-left: 10px;
+    color: white;
+}
+
+.taital h2 {
+    margin-top: -16px;
+    margin-left: 33px;
+    padding-top: 35px;
+    font-size: 45px;
+}
+
+.section {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.taital {
+    margin-left: 29px;
+    margin-top: 50px;
+}
+
+.card2 img {
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: #5032a8;
+}
+
+@media screen and (max-width: 1350px) {
+.title {
+   padding: 30px 25px 0px 25px;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .cardContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    .title {
+       
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        
+        height: unset;
+        width: 100%;
+        margin: 0.5rem auto;
+    }
+
+    .section {
+        width: 90vw;
+    }
+
+    .title h2 {
+        line-height: 65px;
+    }
+
+    .title {
+        padding: 3rem 0 2rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .card2 {
+        margin-left: 25px;
+        height: unset;
+       
+    }
+
+    .boxImage {
+        max-width: 175px;
+       
+        max-height: unset;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    .card2 h2 {
+        font-size: 20px;
+    }
+    .title h1{
+       font-size: 45px;
+    }
+}
+
+.card2 p {
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.card2 {
+    width: 50%;
+}
+
+@media screen and (max-width: 400px) {
+    .boxImage {
+       
+        max-width: 150px;
+    }
+
+    .card2 {
+        /* / height: 150px; / */
+        margin-left: 15px;
+
+    }
+
+    .title h1{
+       font-size: 38px;
+    }
+
+    .title h2 {
+        font-size: 15px;
+    }
+
+    .card2 h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .card2 p {
+        line-height: 16px;
+        font-size: 11px;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .title h2 {
+        font-size: 45px;
+    }
+
+    .cart2 {
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .cart2 h2 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .boxImage {
+        max-width: 125px;
+    }
+}

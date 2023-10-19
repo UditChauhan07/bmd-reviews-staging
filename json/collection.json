@@ -1,0 +1,403 @@
+{
+    "tutti": {
+        "title": null,
+        "item": [
+            {
+                "EXTERNALID": "8097707229499",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc3MDcyMjk0OTk=",
+                "SLUG": "citrak-forte-4g-con-edulcoranti-30-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK FORTE 4g.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097634582843",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2MzQ1ODI4NDM=",
+                "SLUG": "citrak-3g-30-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK 3g.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\07-BMD-Citrak-9O3A5769.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097664631099",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2NjQ2MzEwOTk=",
+                "SLUG": "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK Mg.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\06-BMD-Citrak-MG-9O3A5775.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097694581051",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
+                "SLUG": "cronos-30-compresse-da-850mg",
+                "link": "/prodotti/",
+                "title": "CRONOS",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097677934907",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2Nzc5MzQ5MDc=",
+                "SLUG": "drop-therapeutic-gocce-oculari-lubrificanti-10ml",
+                "link": "/prodotti/",
+                "title": "DROP THERAPEUTIC",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097683702075",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODM3MDIwNzU=",
+                "SLUG": "neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g",
+                "link": "/prodotti/",
+                "title": "NEULENIC",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097688420667",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODg0MjA2Njc=",
+                "SLUG": "nubit-30-compresse-da-850mg",
+                "link": "/prodotti/",
+                "title": "NUBIT",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Nubit-9O3A5730.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8098256224571",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTgyNTYyMjQ1NzE=",
+                "SLUG": "silverphage-crema-gel-50-ml",
+                "link": "/prodotti/",
+                "title": "SILVERPHAGE Crema",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8127313936699",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgxMjczMTM5MzY2OTk=",
+                "SLUG": "silverphage-14-individual-wipes",
+                "link": "/prodotti/",
+                "title": "SILVERPHAGE GARZE MONOUSO",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8615981285701",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzM1MjY1NTQ5MTA3OTU=",
+                "SLUG": "tendoactive-plus-20-stick",
+                "link": "/prodotti/",
+                "title": "TENDOACTIVE PLUS",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\tendo.webp"
+                }
+            }
+        ],
+        "seo": {
+            "title": "Acquista Tutti i Prodotti | Bruno MD",
+            "description": "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Acquista i nostri peptidi di collagene reale e altro ancora."
+        }
+    },
+    "salute-della-pelle": {
+        "title": "Pelle",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "/src/pelle-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "/src/pelle-mob.webp",
+                    "alt": ""
+                },
+                "title": "Pelle"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "item": [
+            {
+                "EXTERNALID": "8098256224571",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTgyNTYyMjQ1NzE=",
+                "SLUG": "silverphage-crema-gel-50-ml",
+                "link": "/prodotti/",
+                "title": "SILVERPHAGE Crema",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
+                }
+            }
+        ],
+        "align": "left",
+        "details": "<h2>Cos’è la pelle?</h2><p>La pelle è il più grande organo del corpo umano e svolge diverse funzioni cruciali, come la protezione dagli agenti esterni, il controllo della temperatura corporea e la comunicazione sensoriale. Una delle caratteristiche più interessanti della pelle è la sua capacità di rigenerarsi.</p><h3>Come avviene la rigenerazione cutanea?</h3><p>La rigenerazione cutanea è un processo complesso che coinvolge diverse fasi e tipi di cellule. Quando si verifica una lesione, come una ferita o una bruciatura, le cellule della pelle circostanti vengono attivate per iniziare il processo di riparazione cutanea. Le cellule chiamate fibroblasti producono una grande quantità di collagene, una proteina che forma una sorta di impalcatura per la guarigione della ferita.</p><h3>Come curare le lesioni cutanee?</h3><p>Un coadiuvante nel trattamento e nella rigenerazione di lesioni cutanee, ferite, ustioni e piaghe da decubito è un prodotto o una sostanza che viene utilizzata per supportare e favorire il processo di guarigione delle lesioni cutanee. Questi coadiuvanti possono essere utilizzati insieme alle cure mediche standard per accelerare il recupero e minimizzare le complicanze.</p><p>Alcuni esempi di coadiuvanti nel trattamento delle lesioni cutanee includono:</p><ol style='list-style-type: auto;margin-left:50px;'><li style='padding:0 10px'><p><b>Topici antinfiammatori:</b> Sono creme o unguenti contenenti sostanze antinfiammatorie che possono ridurre l'infiammazione e il dolore associati alle lesioni cutanee.</p></li><li style='padding:0 10px'><p><b>Antisettici:</b> Sono soluzioni o unguenti che contengono sostanze antibatteriche che aiutano a prevenire le infezioni e promuovono la guarigione.</p></li><li style='padding:0 10px'><p><b>Idrogel o idrocolloidi:</b> Sono sostanze in gel applicate sulla lesione per mantenere l'umidità e favorire la formazione di un ambiente di guarigione ideale. Possono aiutare a prevenire la formazione di croste e ad accelerare la rigenerazione dei tessuti.</p></li><li style='padding:0 10px'><p><b>Bende e cerotti avanzati:</b> Sono prodotti speciali progettati per il trattamento delle lesioni cutanee. Possono includere bende con impregnazioni di sostanze che favoriscono la guarigione, come l'argento o i fattori di crescita, o cerotti con strati che assorbono l'essudato e mantengono l'umidità.</p></li><li style='padding:0 10px'><p><b>Alimentazione corretta e integrazione di nutrienti:</b> Una dieta sana ed equilibrata, ricca di proteine, vitamine e minerali, è fondamentale per supportare la guarigione delle lesioni cutanee. In alcuni casi, possono essere consigliate integrazioni specifiche, come zinco, vitamina C ed E, per favorire il processo di guarigione.</p></li></ol><p>È importante sottolineare che l'utilizzo di coadiuvanti nel trattamento delle lesioni cutanee dovrebbe essere sempre consigliato da un professionista sanitario competente, che valuterà la gravità delle lesioni e le esigenze individuali del paziente. Inoltre, è fondamentale seguire correttamente le istruzioni del prodotto e continuare a monitorare attentamente la lesione durante il processo di guarigione.</p>",
+        "seo": {
+            "title": "Prodotti per la Pelle| Bruno MD",
+            "description": "Migliora la salute della tua pelle per consistenza ed elasticità. Scopri i prodotti per la salute e il benessere radicati nel cuore dell'Italia da Bruno MD."
+        }
+    },
+    "occhi": {
+        "title": "Occhi",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "/src/ochhi-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "/src/ochhi-mob.webp",
+                    "alt": ""
+                },
+                "title": "OCCHI"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "item": [
+            {
+                "EXTERNALID": "8097677934907",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2Nzc5MzQ5MDc=",
+                "SLUG": "drop-therapeutic-gocce-oculari-lubrificanti-10ml",
+                "link": "/prodotti/",
+                "title": "DROP THERAPEUTIC",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8127313936699",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgxMjczMTM5MzY2OTk=",
+                "SLUG": "/silverphage-14-individual-wipes",
+                "link": "/prodotti/",
+                "title": "SILVERPHAGE GARZE MONOUSO",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
+                }
+            }
+        ],
+        "align": "left",
+        "details": "<h2>Quali soluzioni possono aiutare a migliorare la salute dell’occhio?</h2><p>Nei soggetti che sono predisposti o che hanno familiarità con i disturbi oculari, il ricorso a integratori alimentari o soluzioni oftalmiche può essere utile, ovviamente sempre all’interno di uno stile di vita sano e attivo. Nel caso dell’occhio secco, per esempio, l’integrazione nutrizionale rappresenta un valido aiuto sia come prevenzione alla secchezza oculare, sia come coadiuvante della terapia più mirata.  Esistono anche soluzioni oftalmiche che aiutano a proteggere l’epitelio corneale e le strutture sottostanti.</p><h3>Quali possono essere le molecole più utili per l’occhio che si secca facilmente?</h3><ul style='list-style-type: inherit;margin-left:50px;'><li><p>La vitamina A è fondamentale per la vista e la creazione delle sensazioni visive.</p></li><li><p>La vitamina C e la vitamina E compongono un potente sistema antiossidante.</p></li><li><p>La Vitamina B2 (riboflavina) ha un’azione di cross-linking naturale. Grazie all’interazione con la componente ultravioletta (UV) della luce solare, rafforza le fibre di collagene che costituiscono la cornea mediante legami covalenti fra le fibrille dello stroma.</p></li><li><p>La combinazione con la vitamina E, ne facilita l’assorbimento e la biodisponibilità attraverso i vari strati della cornea fino alla retina. Inoltre, la vitamina E svolge una ben nota azione antiossidante che aiuta a riparare i danni causati dalle radiazioni UV e luce blu.</p></li><li><p>Gli amminoacidi (o aminoacidi) sono i mattoni che compongono le proteine. Favoriscono un’efficace azione riparatrice e ripristinano una corretta attività metabolica del turnover lacrimale; quindi, agiscono a livello di prevenzione della sindrome da occhio secco.</p></li><li><p>L’acido ialuronico (sodio ialuronato) è un polisaccaride naturale le cui molecole possiedono la capacità di trattenere una quantità di acqua anche mille volte superiore al proprio peso; inoltre ha una elevata proprietà lubrificante e protettiva.</p></li><li><p>Luteina e zeaxantina proteggono i fotorecettori dallo stress ossidativo; </p><p>La luteina e la zeaxantina funzionano come filtri luminosi e antiossidanti negli occhi. Entrambe supportano la parte posteriore dell'occhio e aiutano a filtrare la dannosa luce blu (radiazioni ultraviolette che penetrano in profondità nell’occhio) e migliorano la visione notturna e la sensibilità al contrasto. Ricordiamo che quando si trascorre molto tempo davanti agli schermi digitali si verifica una maggiore evaporazione del film lacrimale e a una riduzione della frequenza di ammiccamento spontaneo.</p><p>La luteina si accumula principalmente dove i bastoncelli sono i fotorecettori dominanti. I bastoncelli consentono la visione in condizioni di scarsa illuminazione, il rilevamento sensibile del movimento e la visione periferica. La zeaxantina si accumula principalmente dove i coni sono i fotorecettori dominanti. I coni consentono la visione a colori e la capacità di vedere il contrasto tra due oggetti.</p><p>Lavorando insieme, la zeaxantina e la luteina assorbono una larghezza di banda più ampia di luce blu da dispositivi digitali, luci a LED e luce solare rispetto a entrambe le molecole da sole.</p></li><li><p>L'astaxantina, un potente antiossidante, alimenta i mitocondri all'interno dei muscoli microscopici nella parte anteriore del nostro occhio responsabili della messa a fuoco ravvicinata. 'È clinicamente dimostrato che l'astaxantina aiuta ad alleviare i sintomi di affaticamento degli occhi, mal di testa, visione offuscata o lento recupero della concentrazione che associamo a un uso eccessivo', conferma il dott. Paul Karpecki, luminare dell’oftalmologia internazionale, Clinical Director of Advanced Ocular Surface Disease at Kentucky Eye Institute. 'Gli studi hanno dimostrato un aumento di quasi il 22% della capacità di messa a fuoco nei pazienti che hanno avuto questo integratore”</p></li><li><p>Selenio e zinco sono componenti dei potenti enzimi antiossidanti SOD e CAT presenti in grande quantità nella retina; il ginko biloba ha funzioni di vasodilatatore e antiaggregante. Tutte queste molecole, sottoposte anche a studi scientifici, possono a ragione essere comprese in un trattamento di integrazione.</p></li></ul>",
+        "seo": {
+            "title": "Occhi| Bruno MD",
+            "description": ""
+        }
+    },
+    "reverse-aging": {
+        "title": "Reverse-aging",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "/src/agging-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "/src/agging-mob.webp",
+                    "alt": ""
+                },
+                "title": "Reverse-aging"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "align": "left",
+        "item": [
+            {
+                "EXTERNALID": "8097694581051",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
+                "SLUG": "cronos-30-compresse-da-850mg",
+                "link": "/prodotti/",
+                "title": "CRONOS",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                }
+            }
+        ],
+        "seo": {
+            "title": "Prodotti per Reverse-aging | Bruno MD",
+            "description": ""
+        },
+        "details": "<h2>Cosa si intende per reverse-aging?</h2><p>Il reverse-aging, o “invecchiamento inverso”, è un approccio della moderna medicina che sta guadagnando sempre più attenzione. Si tratta di una serie di strategie e processi volti a rallentare o invertire il processo di invecchiamento, consentendo alle persone di vivere una vita più longeva, sana, attiva.</p><p>Il reverse-aging si basa sulla convinzione che l'invecchiamento sia un processo biologico che può essere manipolato e rallentato. Molteplici studi scientifici hanno dimostrato che l'invecchiamento è dovuto all'accumulo di danni nel nostro organismo a causa delle reazioni chimiche che avvengono naturalmente all'interno delle nostre cellule. Principale responsabile lo stress ossidativo. Questi danni portano alla perdita di funzioni fisiologiche e alla comparsa di malattie legate all'età.</p><h3>Come possiamo contrastare questi processi di invecchiamento? </h3><p>Il reverse-aging si basa su una combinazione di diverse strategie che mirano a ridurre i danni cellulari e a stimolare il nostro organismo a rigenerarsi.</p><p>Una delle strategie chiave è la promozione di uno stile di vita salutare. Ciò significa seguire una dieta ricca di nutrienti, come frutta, verdura, cereali integrali, proteine magre e grassi sani. Evitare cibi processati, zuccherati e grassi saturi è fondamentale. Inoltre, bere molta acqua e limitare l'assunzione di alcol e caffeina può contribuire a mantenere la pelle idratata e sana, con un aspetto più giovane.</p><p>Anche gli integratori alimentari possono essere utili in particolare quando contengono sostanze ad alto potere antiossidante e anti-aging. Tra queste, ad esempio, le sirtuine o SIRT (come la polidatina), che regolano importanti vie metaboliche. Numerosi studi hanno documentato un’evidente riduzione della loro produzione endogena con l’invecchiamento.</p><p>L'esercizio fisico moderato e regolare è un'altra strategia importante prevista dal reverse-aging. L'attività fisica aiuta a mantenere i muscoli tonici, favorisce la circolazione sanguigna, migliora l'ossigenazione delle cellule e stimola la produzione di endorfine, che contribuiscono al benessere mentale.</p><p>Dal 13 settembre ’23, l’accesso allo sport è diventato un diritto sancito dalla nostra Costituzione (Art. 33): La Repubblica riconosce il valore educativo, sociale e di promozione di benessere psicofisico dell'attività sportiva in tutte le sue forme.</p><p>La gestione dello stress è altrettanto fondamentale. Lo stress cronico può accelerare l'invecchiamento cellulare. Pertanto, pratiche come la meditazione, lo yoga o altre tecniche di rilassamento possono essere utili per ridurre i livelli di stress e promuovere il benessere psicofisico.</p><p>Alcune terapie mediche, come la terapia ormonale sostitutiva, possono essere utilizzate per equilibrare gli ormoni che diminuiscono con l'età. Questo può aiutare a mantenere più a lungo l'energia, la libido e le funzioni del corpo in generale.</p><p>Infine, esistono anche trattamenti estetici per ridurre le rughe, le macchie e migliorare l'aspetto della pelle. Tuttavia, è importante considerare che questi trattamenti possono avere effetti temporanei e devono essere eseguiti da professionisti qualificati e competenti.</p><p>In sintesi, il reverse-aging si basa su una combinazione di strategie che puntano a promuovere uno stile di vita sano, la gestione dello stress e l'utilizzo di trattamenti medici o estetici anti-aging mirati.</p>"
+    },
+    "dolore": {
+        "title": "Dolore",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "\\src\\dolore-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "\\src\\dolore-mob.webp",
+                    "alt": ""
+                },
+                "title": "Dolore"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "item": [
+            {
+                "EXTERNALID": "8097688420667",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODg0MjA2Njc=",
+                "SLUG": "nubit-30-compresse-da-850mg",
+                "link": "/prodotti/",
+                "title": "NUBIT",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Nubit-9O3A5730.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097683702075",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODM3MDIwNzU=",
+                "SLUG": "neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g",
+                "link": "/prodotti/",
+                "title": "NEULENIC",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8615981285701",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzM1MjY1NTQ5MTA3OTU=",
+                "SLUG": "tendoactive-plus-20-stick",
+                "link": "/prodotti/",
+                "title": "TENDOACTIVE PLUS",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\tendo.webp"
+                }
+            }
+        ],
+        "align": "left",
+        "seo": {
+            "title": "Prodotti per il Dolore | Bruno MD",
+            "description": ""
+        },
+        "details":"<h2>Quali sono le tipologie più comuni di dolore?</h2><p>Il dolore rappresenta una delle manifestazioni più complesse e difficili da affrontare nell'ambito della salute umana. Esso può assumere diverse forme e caratteristiche. Due tipologie particolarmente frequenti sono il dolore post-traumatico e il dolore neuropatico.</p><p>Il dolore post-traumatico è una condizione che molte persone affrontano dopo aver vissuto un evento traumatico fisico o estremamente stressante dal punto di vista emotivo. Questo dolore può manifestarsi in diverse forme, dal dolore fisico post-traumatico (per esempio in corso di tendinite), alla sofferenza emotiva e mentale.</p><p>Questo dolore può essere causato da danni ai tessuti, nervi o muscoli, e può essere accompagnato da altri sintomi come spasmi muscolari, diminuzione della mobilità, disturbi del sonno e cambiamenti nell'umore.</p><p>Il dolore post-traumatico può avere un impatto significativo sulla qualità della vita delle persone. Può limitare la loro capacità di svolgere attività quotidiane, lavorare, fare sport o partecipare alle relazioni sociali. Allo stesso tempo, può creare un circolo vizioso in cui il dolore fisico può contribuire al disagio emotivo, aumentando l'ansia e la depressione.</p><h2>Come si trattano questi tipi di dolore?</h2><p>Il trattamento del dolore post-traumatico dopo un trauma fisico può prevedere un approccio multidisciplinare, in base alla causa che l’ha scatenato. Può includere farmaci per il controllo del dolore, coadiuvanti per la rigenerazione tissutale a base di collagene di tipo 1, condroitinsolfato, vitamina C, aminoacidi e altri componenti (come nel caso di una tendinite), fisioterapia per ripristinare la mobilità e la funzionalità fisica, e terapia psicologica per affrontare e gestire gli eventuali sintomi emotivi.</p><p>Il dolore neuropatico è una condizione che colpisce il sistema nervoso centrale o periferico. Il tessuto nervoso, infatti, è tra i più sensibili all’azione degenerativa dello stress ossidativo. Questo tipo di dolore può manifestarsi con sintomi come bruciore, formicolio, intorpidimento, ma anche con sensazioni di puntura o scosse elettriche. Le cause del dolore neuropatico possono essere molteplici, tra cui patologie degenerative come l'artrite, lesioni del midollo spinale o alterazioni dei nervi periferici come nella neuropatia diabetica, infezioni o malattie autoimmuni.</p><p>Anche il trattamento del dolore neuropatico dipende dalla causa che l’ha generato.</p><p>Nel caso della neuropatia diabetica, la prevenzione resta la terapia migliore, sia per il diabete tipo 1 che per il diabete di tipo 2. Si focalizza soprattutto sul controllo ottimale nel tempo dei valori della glicemia (emoglobina glicata < 7%) e sulla correzione dello stile di vita e dei fattori di rischio modificabili: fumo, sovrappeso/obesità, valori elevati di colesterolo e trigliceridi nel sangue, valori pressori superiori alla norma (ipertensione). Al momento non esiste ancora un farmaco registrato con la specifica indicazione per questa complicanza, che possa agire sulle cause. Buoni risultati sono stati ottenuti con l’acido alfa-lipoico (ALA), un acido grasso con una potente azione antiossidante che aiuta a combattere lo stress ossidativo provocato dai radicali liberi (responsabili dell’invecchiamento e dei danni cellulari) sia all’esterno che all’interno della cellula nervosa. Possono essere utili anche integratori alimentari a base di Vitamina B1 e vitamina B12 che contribuiscono alle normali funzioni del sistema nervoso e di nucleotidi considerati essenziali nei processi di rigenerazione del sistema nervoso periferico.</p>"
+    },
+    "pre-diabete": {
+        "title": "Pre-diabete",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "/src/diabete-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "/src/diabete-mob.webp",
+                    "alt": ""
+                },
+                "title": "Pre-diabete"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "align": "left",
+        "details": "<h2>Cos’e il prediabete?</h2><p>Il prediabete è una condizione, del tutto asintomatica, in cui i livelli di zucchero nel sangue (glicemia) sono più alti del normale (iperglicemia), ma non ancora sufficienti per essere diagnosticati come diabete conclamato. Possiamo considerarlo come un avvertimento che il corpo sta lottando per mantenere un equilibrio appropriato del glucosio e un segnale di allerta per la possibilità di sviluppare il diabete di tipo 2 in futuro. Anche i livelli di insulina nel sangue sono superiori alla norma in condizione di prediabete, a causa di una precoce insulino-resistenza.</p><h3>Quali sono i fattori che contribuiscono al prediabete?</h3><p>Ci sono diversi fattori che possono contribuire al prediabete, come l’obesità, la sedentarietà, una dieta poco equilibrata e la storia familiare di diabete. I soggetti in prediabete hanno un maggior rischio di sviluppare altre malattie come l'ipertensione e le cardiopatie, per citarne due.</p><h3>Cosa si può fare per modificare questa condizione?</h3><p>Il prediabete non è una condanna definitiva al diabete.</p><p>È possibile invertire questa condizione adottando uno stile di vita sano quanto prima possibile. Una dieta equilibrata ricca di frutta, verdura, cereali integrali e proteine magre, insieme all'esercizio fisico regolare, può aiutare a ridurre i livelli di zucchero nel sangue. In alcuni casi, può essere utile anche l’utilizzo di integratori con proprietà antiossidanti, reverse-aging e con azione mirata sul ripristino del ciclo metabolico delle sirtuine (come la polidatina), interessate nella regolazione delle vie metaboliche che risultano compromesse in caso di prediabete e diete ricche di zuccheri, sindrome metabolica. </p><p>È fondamentale anche moderare l'assunzione di alcolici e smettere di fumare per prevenire ulteriori danni alla salute. Inoltre, la perdita di peso può essere un obiettivo importante per coloro che sono in sovrappeso o affetti da obesità; anche una modesta riduzione del peso può portare a una significativa riduzione del rischio di sviluppare in futuro il diabete tipo 2. </p><h3>Cosa occorre fare se sospetti di essere a rischio di prediabete?</h3><p>Se sospetti di essere a rischio di prediabete, è importante consultare il medico per sottoporsi a un test di screening. La diagnosi precoce del prediabete può consentire di prendere misure preventive e adottare un piano terapeutico adeguato a prevenire il diabete.</p>",
+        "item": [
+            {
+                "EXTERNALID": "8097694581051",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
+                "SLUG": "cronos-30-compresse-da-850mg",
+                "link": "/prodotti/",
+                "title": "CRONOS",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                }
+            }
+        ],
+        "seo": {
+            "title": "Prodotti per il Pre-diabete | Bruno MD",
+            "description": ""
+        }
+    },
+    "sali-minerali": {
+        "title": "Sali Minerali",
+        "masterHead": {
+            "img": {
+                "desktopImage": {
+                    "src": "/src/Minerali-desk.webp",
+                    "alt": ""
+                },
+                "mobileImage": {
+                    "src": "/src/Minerali-mob.webp",
+                    "alt": ""
+                },
+                "title": "Sali Minerali"
+            },
+            "wistia": {
+                "id": null
+            }
+        },
+        "item": [
+            {
+                "EXTERNALID": "8097634582843",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2MzQ1ODI4NDM=",
+                "SLUG": "citrak-3g-30-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK 3g.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\07-BMD-Citrak-9O3A5769.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097707229499",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc3MDcyMjk0OTk=",
+                "SLUG": "citrak-forte-4g-con-edulcoranti-30-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK FORTE 4g.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp"
+                }
+            },
+            {
+                "EXTERNALID": "8097664631099",
+                "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2NjQ2MzEwOTk=",
+                "SLUG": "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine",
+                "link": "/prodotti/",
+                "title": "CITRAK Mg.",
+                "btnText": "Shop",
+                "logo": {
+                    "src": "\\src\\06-BMD-Citrak-MG-9O3A5775.webp"
+                }
+            }
+        ],
+        "details": "<h2>Cosa sono i Sali minerali?</h2><p>I sali minerali, noti anche come minerali, sono sostanze inorganiche che il nostro organismo ha bisogno per funzionare in modo corretto. Forniscono gli elementi necessari per la composizione delle ossa, dei denti, dei muscoli e degli organi. I sali minerali sono fondamentali per mantenere l'equilibrio del pH nel sangue, regolare la pressione sanguigna e trasmettere segnali elettrici tra le cellule. Alcuni esempi di sali minerali importanti includono calcio, potassio, magnesio, sodio, ferro e iodio. È essenziale assumere una quantità adeguata di sali minerali attraverso una dieta equilibrata, poiché la mancanza di questi elementi può portare a problemi di salute come osteoporosi, anemia e squilibri elettrolitici e altri.</p><h3>In che casi, occorre assumere sali minerali?</h3><p>L'integrazione di minerali e/o vitamine può essere necessaria in determinate situazioni in cui l'apporto attraverso la dieta non è sufficiente o quando vi è una carenza specifica. Di seguito, alcune delle situazioni in cui potrebbe essere opportuno considerare l'assunzione di integratori minerali o vitaminici: </p><ul style='list-style-type: decimal;margin-left:50px;'><li style='padding:0 10px'><p><b>Carenza nutrizionale</b>, diagnosticata attraverso analisi del sangue o consultazioni mediche. Possono verificarsi carenze di uno o più minerali. La carenza di potassio (ipopotassiemia), per esempio, può verificarsi in caso di condizioni come diarrea, vomito prolungato, uso eccessivo di lassativi o diuretici, malassorbimento intestinale, malattie renali, diabete non controllato o consumo eccessivo di alcolici. In questi casi, il medico potrebbe prescrivere integratori di potassio per ripristinare i livelli normali.</p></li><li style='padding:0 10px'><p><b>Alimentazione carente:</b> se si seguono diete particolarmente restrittive o dieta vegetariana o vegana, potrebbe essere necessario integrare con vitamine come la B12, presente principalmente negli alimenti di origine animale, e con minerali come il ferro e lo zinco, che si trovano in quantità maggiori in alimenti di origine animale.</p></li><li style='padding:0 10px'><p><b>Periodi di particolare stress fisico o mentale:</b> situazioni stressanti, malattia o recupero da interventi chirurgici possono richiedere un maggiore apporto di minerali e vitamine per facilitare la guarigione e il recupero.</p></li><li style='padding:0 10px'><p><b>Sport intensi e/o sudorazione eccessiva:</b> durante l'esercizio fisico intenso o in caso di sudorazione eccessiva, si possono perdere quantità significative di potassio e altri sali minerali (per es. il magnesio) attraverso il sudore. Integrare con potassio può aiutare a mantenere l'equilibrio elettrolitico e la funzione muscolare.</p></li><li style='padding:0 10px'><p><b>Età avanzata:</b> con l'avanzare dell'età, l'assorbimento di alcune vitamine e minerali può essere compromesso. In questi casi, potrebbe essere consigliabile l'assunzione di integratori, soprattutto di vitamina D, vitamina B12 e calcio.</p></li></ul><p>È importante sapere che l'assunzione di integratori di minerali e vitamine dovrebbe essere valutata caso per caso e sempre sotto controllo medico o dietologico, in quanto un'eccessiva assunzione può comportare problemi di salute. Inoltre, è sempre meglio cercare di ottenere i nutrienti necessari attraverso una dieta varia ed equilibrata.</p>",
+        "seo": {
+            "title": "Sali Minerali | Bruno MD",
+            "description": ""
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.landingContainer {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1380px;
+    position: fixed;
+    width: 100vw;
+    top: 37px;
+    z-index: 30;
+    right: 10%;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .navItem {
+    display: flex;
+    font-family: Gotham-Medium;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: #56008c;
+    text-align: center;
+    padding-left: 10px;
+    position: static;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width: 618px) {
+    .landingContainer {
+      top: 57px;
+    }
+  }
+  

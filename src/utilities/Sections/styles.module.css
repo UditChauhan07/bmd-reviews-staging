@@ -1,0 +1,136 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  width: 100%;
+}
+
+.textContainer {
+  font-size: var(--bmd-14px);
+  line-height: 22px;
+  margin: auto;
+  max-width: 1000px;
+  padding: 0 1rem;
+}
+
+.textHolder {
+  color: var(--bmd-black);
+  font-family: var(--bmd-font-Secondary);
+  font-size: var(--bmd-16px);
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  font-family: var(--bmd-font-Secondary);
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.flex > * {
+  width: 50vw;
+  margin: 10px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectionTitle {
+  font-family: var(--bmd-font-Primary);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  padding: 0 16px;
+}
+
+.contentTitle {
+  color: var(--bmd-black);
+  font-family: var(--bmd-font-Secondary);
+  line-height: 1.5;
+  padding-bottom: 1rem;
+  color: #000;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.sectionImg {
+  width: 100%;
+}
+
+.revert {
+  margin: revert;
+}
+
+.quoteHeader {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 35px;
+  color: #000;
+}
+
+.quoteOuterContainer {
+  width: 1000px;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.quoteContainer {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 16.8px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.strong {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  /* color: #37246b; */
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.quoted {
+  margin-bottom: 0;
+  color: var(--bmd-royal-purple);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flex {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex > * {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .quoteOuterContainer {
+    width: 100%;
+    padding: 0px 1rem 2rem;
+  }
+
+  .strong {
+    font-size: 24px;
+  }
+}

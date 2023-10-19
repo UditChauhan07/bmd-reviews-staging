@@ -1,0 +1,65 @@
+.informationContainer {
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: black;
+  }
+  .frequencyDisclaimer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 9px;
+    font-weight: 400;
+    color: black;
+  }
+  .supplementalInfoWrapper {
+    max-width: 520px;
+    padding-top: 10px;
+  }
+  .centerDisclaimer {
+    padding-top: 5px;
+  }
+  .subscribeAndSave {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 9px;
+    font-weight: 400;
+    color: #2a2a2a;
+    text-transform: uppercase;
+  }
+  
+  .infoGraphic {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .additionalInfo {
+    display: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin-top: 10px;
+  }
+  
+  .visible {
+    display: block;
+    animation: fadeIn 0.7s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

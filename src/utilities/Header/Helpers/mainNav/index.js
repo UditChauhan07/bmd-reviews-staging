@@ -1,0 +1,108 @@
+import { CartIcon, SearchIcon } from '../../../SvgIcons/index'
+import Link from 'next/link'
+import NavList from '../Navlist'
+import React, { useEffect, useState } from 'react'
+import styles from './styles.module.css'
+import { useRouter } from 'next/router'
+import MobileNav from '../MobileNav'
+import Image from 'next/image';
+import { useMatchMedia } from '@/utilities/Sections/Hooks/useMatchMedia'
+import { CartItemNumber } from '@/data/lib'
+import { useAmp } from 'next/amp'
+
+const MainNav = ({ navMenuLinks,iconLink}) => {
+  const loadAmp = useAmp()
+  const [isMobile] = useMatchMedia('(max-width: 380px)', true)
+  const [isSearchOpened, setIsSearchOpened] = useState(false)
+  let [isMobileNavOpen, setIsMobileNavOpen] = useState(false)
+  let cartUrl = iconLink?.cart || null
+  const [itemNumber, setItemNumber] = useState(0)
+  const router = useRouter()
+  useEffect(()=>{
+    CartItemNumber().then((response)=>{
+      setItemNumber(response?.data?.cart?.lines?.edges?.length>0 ? response?.data?.cart?.lines?.edges?.length:0)
+    }).catch((err)=>{
+      console.log({err});
+    })
+  },[])
+
+  const [logInText, setLogIntext] = useState(iconLink.login?.title)
+  const [logInLink, setLogInLink] = useState(iconLink.login?.url)
+
+  const handleSearchSubmit = React.useCallback(query => router.push(`/search?q=${query}`), [router])
+  if(isMobileNavOpen){
+    return(
+      <MobileNav navMenuLinks={navMenuLinks} setIsMobileNavOpenProp={setIsMobileNavOpen} />
+    )
+  }
+  if(!isMobileNavOpen)
+  return (
+    <div className={styles.navContainer}>
+      <div className={styles.logoWrapper}>
+        {!isMobileNavOpen && <a href={'/'} className={styles.logo} aria-label="">
+        {loadAmp ? (
+        <amp-img
+          width="300"
+          height="300"
+          src="/amp-image.jpg"
+          alt="a amp image"
+          layout="responsive"
+        />
+      ) : (
+        <>          {!isMobile ? <Image
+            alt="Bruno logo"
+            src={"/Bruno-White.webp"}
+            width={180}
+            height={30}
+          /> : <Image
+            alt="Bruno logo"
+            src={"/Bruno-White.webp"}
+            width={120}
+            height={20}
+          />}
+        </>
+        )}
+        </a>}
+        {false ? (
+          <></>
+        ) : (
+          <div className={styles.navItemsContainer}>
+            <NavList navMenuLinks={navMenuLinks} />
+            <div className={styles.MobileNavContainer}>
+              {isMobileNavOpen ? (
+                <></>
+              ) : (
+                <div onClick={() => setIsMobileNavOpen(true)}>
+                  <div className={styles.burgerButtonContainer} onClick={() => setIsMobileNavOpen(true)}>
+                    <button className={styles.burgerLineContainer} id="hamburger" title="hamburger">
+                      <span className={styles.burgerLineTop}></span>
+                      <span className={styles.burgerLine}></span>
+                      <span className={styles.burgerLineBottom}></span>
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className={styles.iconContainer}>
+              <div onClick={() => setIsSearchOpened(true)}>
+                <SearchIcon />
+              </div>
+              <div>
+                <div className={styles.loginButton}>
+                  <Link href={logInLink} className={styles.btnLink1} alt="customer login">
+                    <span className={styles.loginText}>{logInText}</span>
+                  </Link>
+                  <a href={cartUrl} className={styles.btnLink} aria-label="Cart">
+                    <CartIcon number={(!itemNumber) ? "" : itemNumber} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default MainNav

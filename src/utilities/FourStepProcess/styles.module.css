@@ -1,0 +1,34 @@
+.processHeader {
+    font-size: var(--bmd-32px);
+    text-align: center;
+    font-weight: 100;
+    font-family: var(--bmd-font-Primary);
+    padding: 2rem 1rem;
+  }
+  
+  .processCardGrid {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    padding-bottom: 100px;
+  }
+  @media (max-width: 1023px) {
+    .processCardGrid {
+    padding-bottom: 40px;
+   }
+    }
+  @media (min-width: 960px) {
+    .processCardGrid {
+      grid-template-columns: auto auto;
+      column-gap: 5rem;
+      justify-content: center;
+      
+    }
+    .processHeader {
+      font-size: 55px;
+      padding: 3rem;
+    }
+  }
+  

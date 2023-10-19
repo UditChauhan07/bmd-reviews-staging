@@ -1,0 +1,30 @@
+{
+  "name": "t-1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "run": "next dev -p 5001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "next lint --fix"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^13.4.19",
+    "@rechargeapps/storefront-client": "^1.8.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "gsap": "^3.11.5",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-visibility-sensor": "^5.1.1",
+    "shopify-buy": "^2.19.0",
+    "swr": "^2.1.2"
+  }
+}

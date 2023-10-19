@@ -1,0 +1,360 @@
+{
+    "tendo": {
+      "seo": {
+        "title": "Tendo | Bruno MD",
+        "description": "Tendo"
+      },
+      "product": "Tendo",
+      "variantId": "8615981285701",
+      "theme": "#0033A1",
+      "announcement": {
+        "title": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
+        "theme": {
+          "backgroundColor": "#0033A1",
+          "position": "fixed"
+        }
+      },
+      "wistiaVideoId": "c3yyeogere",
+      "video":{
+        "src":"https://cdn.shopify.com/videos/c/o/v/e152a5dc490f4e36987485b8b7367209.mp4",
+        "alt":"..."
+      },
+      "ImageAside": {
+        "title": "<h1>TendoActive Plus</h1>",
+        "subTitle": "<h2>Integratore alimentare con azione completa per tendini e legamenti</h2>",
+        "titleDescription": [
+          ""
+        ],
+        "legalText": ""
+      },
+      "ProductArticleModal": {
+        "bannerDesk": {
+            "src": "\\utility\\products\\tendoactive\\Tendoactive_Plus_Newsletter.jpg",
+          "alt":"Tendo"
+        },
+        "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
+        "buttonTitle": "Acquista Adesso",
+        "buttonDescription": "Risparmia 5 € con questa offerta",
+        "offerTagLine": "Sconto del 20% sull'acquisto periodico.",
+        "offerTagDescription": "Sconto sara' applicato all'interno della pagina di checkout",
+        "colorTheme": "#0033A1",
+        "offerTextColor": "#fff"
+      },
+      "ProductSlideAccordion": {
+        "src": "\\utility\\products\\tendoactive\\tendo-active.png",
+        "heading": "Tendo Active",
+        "subHeading": null,
+        "subtitle": "Forte alleato contro il dolore e",
+        "text":"il recupero dall'infortunio",
+        "items": [
+          {
+            "title": "Fornisce forza e flessibilità",
+            "description": "Aiuta a fornire forza e flessibilità alle strutture fibrose di collagene presenti nel tessuto corporeo. Ciò contribuisce a mantenere la forma del tessuto e può essere particolarmente utile per i tessuti che richiedono una maggiore resistenza, come i tendini."
+          },
+          {
+            "title": "Stimola la sintesi del collagene",
+            "description": "Stimola la sintesi del collagene, proteina fondamentale per la salute e l'integrità dei tessuti connettivi. Aumenta la produzione di collagene e favorisce la guarigione e il recupero dei tessuti danneggiati. Aiuta a proteggere le cellule dal danno ossidativo."
+          },
+          {
+            "title": "Azione analgesica e antinfiammatoria",
+            "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
+          },
+          {
+            "title": "Biodisponibilita'",
+            "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
+          }
+        ]
+      },
+      "ProductTrustBadges": [
+        {
+          "src": "\\utility\\trust\\BioAvailable-icon-v1-Black-300x300.png",
+          "alt":"BioAvailable"
+        },
+        {
+          "src": "\\utility\\trust\\cGMP-Icon-v1-Black 1.png",
+          "alt":"cGMP"
+        },
+        {
+          "src": "\\utility\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
+          "alt":"Clean"
+        },
+        {
+          "src": "\\utility\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
+          "alt":"Clinically_Proven"
+        },
+        {
+          "src": "\\utility\\trust\\Gluten-Free-Icon-v2-Black 1.png",
+          "alt":"Gluten"
+        },
+        {
+          "src": "\\utility\\trust\\Low-Carb-Icon-V1-Black 1.png",
+          "alt":"Low-Carb"
+        },
+        {
+          "src": "\\utility\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
+          "alt":"Non-GMO"
+        },
+        {
+          "src": "\\utility\\trust\\Sugar-Free-Icon-V1-Black 1.png",
+          "alt":"Sugar-Free"
+        },
+        {
+          "src": "\\utility\\trust\\Vegan-Icon-v1-Black 1.png",
+          "alt":"Vegan"
+        }
+      ],
+      "FourStepProcess": {
+        "title": "passaggi per ottenere un'azione sintomatica e un rinforzo anabolico",
+        "items": [
+          {
+            "stepNumber": 1,
+            "title": "Boswellia",
+            "body": "nuovo effetto analgesico",
+            "expanded": "BOSWELLIA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
+            "image": {
+              "src": "\\utility\\products\\tendoactive\\BMD-FIO_6039+landing.jpg",
+              "alt": "..."
+            }
+          },
+          {
+            "stepNumber": 2,
+            "title": "Curcumina",
+            "body": "Effetto antinfiammatorio",
+            "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia.",
+            "image": {
+              "src": "\\utility\\products\\tendoactive\\BMD-GG-P1107585+landing.jpg",
+              "alt": "..."
+            }
+          },
+          {
+            "stepNumber": 3,
+            "title": "Aminoacidi",
+            "body": "Effetto di rinforzo anabolico",
+            "expanded": "L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini L-lisina e L-prolina si trovano in proteine significative per il meccanismo di rinnovamento del tendine.",
+            "image": {
+              "src": "\\utility\\products\\tendoactive\\BMD-i2-FIO_2319+landing.jpg",
+              "alt": "..."
+            }
+          },
+          {
+            "stepNumber": 4,
+            "title": "Rame",
+            "body": "Effetto di rinforzo anabolico",
+            "expanded": "Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini Collagene tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti ",
+            "image": {
+              "src": "\\utility\\products\\tendoactive\\BMD-P1072538+landing.jpg",
+              "alt": "..."
+            }
+          }
+        ]
+      },
+      "ReasonsToBelieve": {
+        "ingredients1": {
+          "src": "\\utility\\products\\tendoactive\\Tendoactive_Plus_Newsletter.jpg"
+        },
+        "productName": "Tendo Active",
+        "accordanTitle": "Ingredienti e studi clinici",
+        "items": [
+          {
+            "note": "Fitosoma di Boswellia ",
+            "expanded": ""
+          },
+          {
+            "note": "Fitosoma di Curcumina",
+            "expanded": ""
+          },
+          {
+            "note": "L-arginina ",
+            "expanded": ""
+          },
+          {
+            "note": "L-lisina e L-prolina ",
+            "expanded": ""
+          },
+          {
+            "note": "Rame",
+            "expanded": ""
+          },
+          {
+            "note": "Collagene tipo I",
+            "expanded": ""
+          },
+          {
+            "note": "Condroitina solfata",
+            "expanded": ""
+          },
+          {
+            "note": "Vitamina C",
+            "expanded": ""
+          },
+          {
+            "note": "Manganese",
+            "expanded": ""
+          }
+        ]
+      },
+      "NewsLetter": {
+        "title": "Iscriviti alla newsletter",
+        "portalId": "19647191",
+        "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
+        "desktopImage": "\\utility\\products\\tendoactive\\Tenod-Desk-01.webp",
+        "mobileImage": "\\utility\\products\\tendoactive\\Tenod-Mob-01.webp",
+        "desktopWidth":1380,
+        "desktopHeight":503,
+        "mobileWidth":672,
+        "mobileHeight":837,
+        "landing": true
+      },
+      "review":false,
+      "bottomBar": {
+        "title1": "CODE AUTOMATICALLY APPLIED AT CHECKOUT FOR 30% OFF ONE-TIME PURCHASE",
+        "title2": "100% SATISFACTION 30-DAY MONEY-BACK GUARANTEE",
+        "maxQty": 2,
+        "price": 25.00,
+        "subscriptionBox": {
+          "price": 21.25,
+          "buttonText": [
+            "SUBSCRIBE",
+            "& SAVE"
+          ],
+          "modalBtnText": "SAVE $12.60 WITH SUBSCRIBE & SAVE",
+          "desc": "<p>SAVE 20% WITH SUBSCRIBE &amp; SAVE ON ALL FUTURE DELIVERIES</p><ul style='list-style: inside disc;'><li>NO FEES</li><li>CANCEL ANYTIME</li></ul>",
+          "btnText": "Subscribe"
+        },
+        "onetimeBox": {
+          "price": 25.00,
+          "buttonText": [
+            "ONE-TIME ",
+            "PURCHASE"
+          ],
+          "modalBtnText": "EXCLUSIVE OFFER. SAVE 30% ($18.89)",
+          "discount": "RW30FEB",
+          "desc": "<p>SAVINGS APPLIED AT CHECKOUT. ONE-TIME PURCHASE ONLY, LIMIT TWO PER HOUSEHOLD</p>",
+          "btnText": "Checkout",
+          "freeShip": true,
+          "autoQty": 2
+        },
+        "productImg": {
+          "src": "\\utility\\products\\tendoactive\\tendo-active.png"
+        }
+      },
+      "footer": {
+        "links": [
+            {
+                "url": "/collections/all-products",
+                "title": "Prodotti",
+                "name": "Products",
+                "navMenuLinks": [
+                    {
+                        "name": "Collezione Citrak",
+                        "url": "/collezioni/sali-minerali"
+                    },
+                    {
+                        "name": "Neulenic",
+                        "url": "/prodotti/neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g"
+                    },
+                    {
+                        "name": "Nubit",
+                        "url": "/prodotti/nubit-30-compresse-da-850mg"
+                    },
+                    {
+                        "name": "Tendoactive Plus",
+                        "url": "/prodotti/tendoactive-plus-20-stick"
+                    },
+                    {
+                        "name": "Cronos",
+                        "url": "/prodotti/cronos-30-compresse-da-850mg"
+                    },
+                    {
+                        "name": "Drop Therapeutic",
+                        "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
+                    },
+                    {
+                        "name": "Silverphage Crema Gel",
+                        "url": "/prodotti/silverphage-crema-gel-50-ml"
+                    },
+                    {
+                        "name": "Silverphage Garze Monouso",
+                        "url": "/prodotti/silverphage-14-individual-wipes"
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "title": "Chi siamo",
+                "name": "Company",
+                "navMenuLinks": [
+                    {
+                        "name": "La nostra storia",
+                        "url": "/la-nostra-storia"
+                    },
+                    {
+                        "name": "Responsabilità sociale",
+                        "url": "/responsabilita-sociale"
+                    },
+                    {
+                        "name": "Domande Frequenti",
+                        "url": "/domande-frequenti"
+                    },
+                    {
+                        "name": "Contattaci",
+                        "url": "/contattaci"
+                    },
+                    {
+                        "name": "Spedizioni",
+                        "url": "/politica-di-spedizione"
+                    },
+                    {
+                        "name": "Portale per il reso",
+                        "url": "https://pharmalab.return-order.com"
+                    },
+                    {
+                        "name": "Reso",
+                        "url": "/politica-di-restituzione-e-cancellazione"
+                    },
+                    {
+                        "name": "Termini e condizioni di vendita",
+                        "url": "/termini-e-condizioni"
+                    },
+                    {
+                        "name": "Termini e condizioni di privacy",
+                        "url": "/politica-sullariservatezza"
+                    }
+                ]
+            },
+            {
+                "url": "",
+                "title": "Contattaci",
+                "name": "Company",
+                "navMenuLinks": [
+                    {
+                        "name": "Pharmalab S.r.l.",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Via dell’Artigianato, 83",
+                        "url": "#"
+                    },
+                    {
+                        "name": "30023 Concordia Sagittaria",
+                        "url": "#"
+                    },
+                    {
+                        "name": "VE",
+                        "url": "#"
+                    },
+                    {
+                        "name": "",
+                        "url": "#"
+                    },
+                    {
+                        "name": "Codice Fiscale e P.Iva : 11462711000",
+                        "url": "#"
+                    }
+                ]
+            }
+        ],
+        "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
+    }
+    }
+  }

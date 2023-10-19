@@ -1,0 +1,211 @@
+{
+    "EU": {
+        "announcementBar": {
+            "title": "Spedizione gratuita per ordini superiori a €60. Lo sconto viene automaticamente applicato alla cassa",
+            "textColor": "#fff",
+            "backgroundColor": "#3a3a3a"
+        },
+        "links": [
+            {
+                "subMenuLinks": [
+                    {
+                        "url": "/collezioni/salute-della-pelle",
+                        "displayText": "PELLE"
+                    },
+                    {
+                        "url": "/collezioni/occhi",
+                        "displayText": "OCCHI"
+                    },
+                    {
+                        "url": "/collezioni/reverse-aging",
+                        "displayText": "REVERSE-AGING"
+                    },
+                    {
+                        "url": "/collezioni/dolore",
+                        "displayText": "DOLORE"
+                    },
+                    {
+                        "url": "/collezioni/pre-diabete",
+                        "displayText": "PRE-DIABETICO"
+                    },
+                    {
+                        "url": "/collezioni/sali-minerali",
+                        "displayText": "SALI MINERALI / ELETTROLITI"
+                    }
+                ],
+                "name": "Shop",
+                "url": "/collezioni/tutti",
+                "displayText": "Shop"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "La Nostra Storia",
+                "url": "/la-nostra-storia",
+                "displayText": "La storia"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "Our science",
+                "url": "/scienza",
+                "displayText": "La scienza"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "FAQS",
+                "url": "/domande-frequenti",
+                "displayText": "FAQ"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "Blog",
+                "url": "https://blog.brunomd.eu",
+                "displayText": "Blog"
+            },
+            {
+                "subMenuLinks": [],
+                "name": "Contact",
+                "url": "/contattaci",
+                "displayText": "Contattaci"
+            }
+        ],
+        "footer": {
+            "links": [
+                {
+                    "url": "/collections/all-products",
+                    "title": "Prodotti",
+                    "name": "Products",
+                    "navMenuLinks": [
+                        {
+                            "name": "Collezione Citrak",
+                            "url": "/collezioni/sali-minerali"
+                        },
+                        {
+                            "name": "Neulenic",
+                            "url": "/prodotti/neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g"
+                        },
+                        {
+                            "name": "Nubit",
+                            "url": "/prodotti/nubit-30-compresse-da-850mg"
+                        },
+                        {
+                            "name": "Tendoactive Plus",
+                            "url": "/prodotti/tendoactive-plus-20-stick"
+                        },
+                        {
+                            "name": "Cronos",
+                            "url": "/prodotti/cronos-30-compresse-da-850mg"
+                        },
+                        {
+                            "name": "Drop Therapeutic",
+                            "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
+                        },
+                        {
+                            "name": "Silverphage Crema Gel",
+                            "url": "/prodotti/silverphage-crema-gel-50-ml"
+                        },
+                        {
+                            "name": "Silverphage Garze Monouso",
+                            "url": "/prodotti/silverphage-14-individual-wipes"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "title": "Chi siamo",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "La nostra storia",
+                            "url": "/la-nostra-storia"
+                        },
+                        {
+                            "name": "Responsabilità sociale",
+                            "url": "/responsabilita-sociale"
+                        },
+                        {
+                            "name": "Domande Frequenti",
+                            "url": "/domande-frequenti"
+                        },
+                        {
+                            "name": "Contattaci",
+                            "url": "/contattaci"
+                        },
+                        {
+                            "name": "Spedizioni",
+                            "url": "/politica-di-spedizione"
+                        },
+                        {
+                            "name": "Portale per il reso",
+                            "url": "https://pharmalab.return-order.com"
+                        },
+                        {
+                            "name": "Reso",
+                            "url": "/politica-di-restituzione-e-cancellazione"
+                        },
+                        {
+                            "name": "Termini e condizioni di vendita",
+                            "url": "/termini-e-condizioni"
+                        },
+                        {
+                            "name": "Termini e condizioni di privacy",
+                            "url": "/politica-sullariservatezza"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "title": "Contattaci",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "Pharmalab S.r.l.",
+                            "url": "#"
+                        },
+                        {
+                            "name": "Via dell’Artigianato, 83",
+                            "url": "#"
+                        },
+                        {
+                            "name": "30023 Concordia Sagittaria",
+                            "url": "#"
+                        },
+                        {
+                            "name": "VE",
+                            "url": "#"
+                        },
+                        {
+                            "name": "",
+                            "url": "#"
+                        },
+                        {
+                            "name": "Codice Fiscale e P.Iva : 11462711000",
+                            "url": "#"
+                        }
+                    ]
+                }
+            ],
+            "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
+        },
+        "featureInfo": [
+            "Spedizione gratuita con ordini superiori a € 60",
+            "Sconto del 20% su tutti ordini con acquisto periodico",
+            "14 Giorni - Soddisfatti o Rimborsati"
+        ],
+        "bottomBar": {
+            "textColor": "#fff",
+            "backgroundColor": "#3a3a3a",
+            "content": [
+                "<a href='/politica-sullariservatezza'>Politica Sulla Riservatezza</a>",
+                "<a href='/gestione-dei-cookie'>Dichiarazione dei Cookie</a>",
+                "<a href='/disclaimer'>Disclaimer</a>",
+                "<a href='/site-map'>Site Map</a>"
+            ]
+        },
+        "cartLink":"/carrello",
+        "login":{
+            "title":"Accedi",
+            "url":"/account/login"
+        },
+        "redirection":null
+    }
+}

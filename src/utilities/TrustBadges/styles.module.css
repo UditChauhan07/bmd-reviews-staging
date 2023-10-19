@@ -1,0 +1,130 @@
+.productBadgesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bmd-deep-purple);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.productBadgesCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
+}
+
+.svgHolder {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+
+.headline {
+  font-family: var(--bmd-font-Primary);
+  font-size: 24px;
+  font-weight: var(--bmd-IvyPresto-regular);
+  color: var(--bmd-white);
+  line-height: 1;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.p5 {
+  padding: 15px;
+}
+
+.badgeGroup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+}
+.badgeGroup img{
+  max-width: 200px;
+  height: auto;
+}
+
+.badgeContainer {
+  width: 130px;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .headline {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .productBadgesContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .productBadgesCenter {
+    flex-direction: row;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 80%;
+    max-width: 1300px;
+  }
+
+  .badgeGroup {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+  }
+
+  .headline {
+    font-size: 36px;
+    padding-left: 1rem;
+    flex: 1;
+    text-align: left;
+    padding: 0;
+  }
+
+  .titleGroup {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .badgeGroup {
+    justify-content: center;
+  }
+
+    .productBadgesContainer {
+      margin: 3rem auto;
+    }
+  
+}
+@media screen and (max-width: 500px) {
+  .badgeGroup img{
+    max-width: 150px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .p5 {
+    height: 100px;
+  }
+  .badgeGroup img{
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .badgeGroup {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,269 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  position: relative;
+}
+
+.react-multi-carousel-track>li {
+  overflow: hidden !important;
+  background-color: aqua;
+}
+
+.testimonialSlide {
+  display: flex;
+  flex-direction: row;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.testimonialSliderTrack {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s;
+}
+
+.slideInfo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--bmd-font-Primary);
+  font-weight: var(--bmd-IvyPresto-regular);
+  justify-content: center;
+  margin-right: 1rem;
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width 0.25s, opacity 0.5s;
+  width: 500px;
+  max-width: 500px;
+  overflow: visible;
+}
+
+.slideInfoWidth {
+  width: 500px;
+}
+
+.slideInfoQuote {
+  color: #000;
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.slideInfoAuthor {
+  color: #37246b;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 18px;
+}
+
+.headingContainer {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.headingContainer h1 {
+  font-family: var(--bmd-font-Primary);
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.playButton {
+  background-color: #000;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  height: 60px;
+  left: 50%;
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s;
+  width: 90px;
+  z-index: 3;
+}
+
+.slideVideo {
+  cursor: pointer;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: relative;
+  transform: scale(0.74);
+  transform-origin: top center;
+  transition: transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  width: 374px;
+  margin: auto;
+}
+
+.customBtn {
+  outline: none;
+  color: red;
+  width: 50px !important;
+  background-color: #fff;
+  display: grid;
+  padding-left: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 9;
+  opacity: 0.7;
+  cursor: pointer;
+  line-height: 1.2em;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.slideVideo:hover .playerHolder {
+  opacity: 1;
+}
+
+.ButtonGroup {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  left: 40%;
+  height: 17px;
+  width: 100%;
+}
+
+.dFlex {
+  align-items: center;
+  bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.dFlex p,
+.ButtonGroup p {
+  word-wrap: normal;
+  color: transparent;
+  content: none;
+  display: block;
+  font-size: 0;
+  height: 9px;
+  opacity: 0.7;
+  padding: 24px 0;
+  position: relative;
+  transition: opacity 0.4s;
+  width: 53px;
+  margin: auto 5px;
+  cursor: pointer;
+}
+
+.dFlex p:before,
+.ButtonGroup p:before {
+  background-color: #000;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.dFlex p:after,
+.ButtonGroup p:after {
+  background: linear-gradient(135deg, #000 50%, hsla(0, 0%, 100%, 0) 0);
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 8px;
+}
+
+.dFlex p:nth-child(2),
+.ButtonGroup p:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .testimonialSlide {
+    flex-direction: column;
+  }
+
+  .slideInfo {
+    max-height: 500px;
+  }
+
+  .slideInfoQuote {
+    font-size: 26px;
+    line-height: 32px;
+    min-height: 100px;
+    overflow: hidden;
+  }
+
+  .dFlex {
+    right: -75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slideInfo {
+    width: 320px;
+    margin: auto;
+  }
+
+  .slideInfoWidth {
+    width: 300px;
+  }
+
+  .dFlex {
+    position: relative;
+    bottom: 0;
+  }
+
+  .headingContainer {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headingContainer h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* .headingContainer {
+    margin-top: 60px;
+  } */
+  .container {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .slideVideo {
+    width: 280px;
+  }
+
+  .slideInfoQuote {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

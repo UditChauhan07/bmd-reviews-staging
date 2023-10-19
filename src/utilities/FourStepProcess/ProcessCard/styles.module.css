@@ -1,0 +1,175 @@
+.processCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: var(--bmd-font-Secondary);
+    color: var(--bmd-black);
+    font-size: var(--bmd-18px);
+    font-weight: var(--bmd-Gotham-bold);
+    width: 100%;
+    max-width: 400px;
+    padding-top: 45px;
+  }
+  .accordionColor{
+    color: #000000;
+  }
+  .stepNumber {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    z-index: 10;
+    line-height: 1;
+    color: var(--bmd-deep-purple);
+    font-weight: var(--bmd-Gotham-bold);
+    font-size: 100px;
+    opacity: 65%;
+  }
+  
+  .stepNumberBluerex{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    z-index: 10;
+    line-height: 1;
+    color: #00a0dd;
+    font-weight: var(--bmd-Gotham-bold);
+    font-size: 100px;
+    opacity: 65%;
+  }
+  .processImage {
+    width: 100%;
+    max-width: 400px;
+    height: 264px;
+    object-fit: cover;
+  }
+  .processVideo{
+    width: 400;
+    max-width: 400px;
+    height: 215px;
+  }
+  .processTitle {
+    font-size: var(--bmd-14px);
+    color: var(--bmd-deep-purple);
+    padding: 1rem 0.5rem;
+  }
+  .processTitleBluerex {
+    font-size: var(--bmd-14px);
+    color: #00a0dd;
+    padding: 1rem 0.5rem;
+  }
+  .processBody {
+    font-size: var(--bmd-14px);
+    font-weight: var(--bmd-Gotham-book);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .accordionButton {
+    font-size: var(--bmd-12px);
+    font-weight: var(--bmd-Gotham-book);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    justify-content: left;
+  }
+  .accordionButtonBluerex {
+    font-size: var(--bmd-12px);
+    color: #00a0dd;
+    font-weight: var(--bmd-Gotham-book);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    justify-content: left;
+  }
+  /*alighn accordian arrow*/
+  .accordionButton > div {
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+  }
+  .accordionButtonBluerex > div {
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+  }
+  .accordionPanel {
+    font-size: var(--bmd-14px);
+    font-weight: var(--bmd-Gotham-book);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .slideVideoPlaceholderPlay {
+    width: 90px;
+    height: 60px;
+    background-color: #004a98;
+    box-shadow: 0 0 30px rgb(0 0 0 / 60%);
+    z-index: 3;
+    opacity: 0.6;
+    border-radius: 6px;
+  
+    position: absolute;
+    top: 175px;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+    transition: opacity 0.4s;
+    cursor: pointer;
+  }
+  
+   .slideVideoPlaceholderPlay {
+    opacity: 1;
+  }
+  
+  .slideVideoPlaceholderPlay:hover {
+    opacity: 70%;
+  }
+  
+  
+  .slideVideoPlaceholderPlay::before {
+    border-style: solid;
+    border-width: 15px 0 15px 26px;
+    border-color: transparent transparent transparent #fff;
+  
+    content: '';
+  
+    left: 50%;
+    top: 50%;
+  
+    position: absolute;
+  
+    transform: translate(-50%, -50%);
+  }
+  
+  .slideVideoPlaceholderImage {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  
+  @media (min-width: 400px) {
+    .processTitle {
+      padding: 1rem 0rem;
+    }
+    .processTitleBluerex {
+      padding: 1rem 0rem;
+    }
+    .processBody {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .accordionButton {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .accordionButtonBluerex {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .accordionPanel {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  

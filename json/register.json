@@ -1,0 +1,10 @@
+{
+    "title":"Accedi al tuo account",
+    "form":{
+        "firstNameLabel":"Nome",
+        "lastNameLabel":"Cognome" ,
+        "emailLabel": "Email" ,
+        "passwordLabel": "Password",
+        "submitButtonTitle": "Accedi"
+    }
+}

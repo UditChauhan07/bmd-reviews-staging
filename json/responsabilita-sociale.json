@@ -1,0 +1,28 @@
+{
+    "EU": {
+        "masterHead": {
+            "desktopImage": {
+                "src": "/src/respo-desk.webp",
+                "alt": ""
+            },
+            "mobileImage":{
+                "src":"/src/respo-mob.webp"
+            },
+            "title": "La Nostra Storia"
+        },
+        "sectionOne": {
+            "content": "<p>L'impegno di Bruno MD per la sostenibilità ambientale è iniziato con il Dr. Bruno stesso e il suo profondo rispetto per la natura. La nostra azienda promuove la sostenibilità da oltre un quarto di secolo attraverso i suoi sforzi di conservazione dell'acqua e dell'energia e la protezione della biodiversità. </p><p>Apprezziamo le elevate aspettative dei nostri clienti e delle parti interessate in merito all'impatto ambientale dei medici di Bruno. I nostri approcci all'innovazione a conduzione familiare e basati sulla scienza incoraggiano la trasparenza e consentono a Bruno MD di iterare rapidamente le pratiche commerciali che affrontano il nostro clima in evoluzione.</p>"
+        },
+        "sectionTwo": [
+            {
+                "sectionContent": [
+                    "Il nostro programma Global Resource Stewardship valuta i nostri prodotti, processi, fonti naturali e fornitori in tutto il mondo per individuare le opportunità di ridurne l'impatto. Il nostro impegno per la chimica verde, l'efficienza delle risorse, l'eliminazione della tossicità dei rifiuti o degli scarichi di acque reflue e gli imballaggi rispettosi dell'ambiente non è semplicemente il nostro modo di fare business; è la MDiterranean Life."
+                ],
+                "sectionImg": {
+                    "src": "/src/respo-sec.webp",
+                    "imgPostion": "left"
+                }
+            }
+        ]
+    }
+}

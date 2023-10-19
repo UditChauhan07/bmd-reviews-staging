@@ -1,0 +1,68 @@
+.twoCol {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem 0rem 1rem;
+    font-family: var(--bmd-font-Secondary);
+    font-size: .875rem;
+    font-weight: var(--bmd-Gotham-book);
+  }
+  .contentHolder{
+    padding: 2rem 1rem 2rem 3rem;
+  }
+  .twoCol img{
+    height: 100%;
+    max-width: 700px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    padding-right: 1rem;
+    margin: auto;
+  }
+   .twoCol a{
+    background-color: var(--bmd-black);
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 12px;
+    font-weight: var(--bmd-Gotham-bold);
+    line-height: 1.2em;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    transition: all .25s;
+  }
+  .twoCol h1{
+    font-family: var(--bmd-font-Primary);
+    font-size: 1.875rem;
+    line-height: 1;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 500;
+  }
+  .twoCol h2{
+    color: var(--bmd-deep-purple);
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .twoCol p{
+    padding-bottom: 1rem;
+  }
+  @media screen and (min-width: 800px) {
+    .twoCol img{
+      width: 50%
+  }
+  .twoCol h1{
+    font-size: 3.75rem;
+  line-height: 1;
+  }
+  }
+  @media screen and (max-width: 960px) {
+    .twoCol {
+      flex-direction: column;
+      padding: 3rem 0rem;
+    }
+}

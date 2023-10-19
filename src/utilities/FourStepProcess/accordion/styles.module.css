@@ -1,0 +1,117 @@
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-family: none!important;
+  }
+  
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  
+  /* arrow-default variant */
+  .icon.arrow-default {
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .icon.arrow-default::before {
+    content: '';
+    height: 0;
+    width: 8px;
+    border-top: 1px solid;
+    transform: translateX(1.5px) rotate(-45deg);
+  }
+  
+  .icon.arrow-default::after {
+    content: '';
+    height: 0;
+    width: 8px;
+    border-top: 1px solid;
+    transform: translateX(-1.5px) rotate(45deg);
+  }
+  
+  .icon.arrow-default.isExpanded {
+    display: flex;
+    transform: rotate(0deg);
+  }
+  /* end arrow-default variant */
+  
+  /* -------------------------------------------------------------------------- */
+  
+  /* plus-minus variant */
+  .icon.plus-minus {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .icon.plus-minus::before {
+    content: '';
+    height: 0;
+    width: 12px;
+    border-top: 1px solid;
+  }
+  
+  .icon.plus-minus::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 12px;
+    border-top: 1px solid;
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .icon.plus-minus.isExpanded::after {
+    transform: rotate(0deg);
+  }
+  /* end plus-minus variant */
+  
+  /* -------------------------------------------------------------------------- */
+  
+  /* arrow-minus variant */
+  .icon.arrow-minus {
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .icon.arrow-minus::before,
+  .icon.arrow-minus::after {
+    content: '';
+    height: 0;
+    width: 8px;
+    border-top: 1px solid;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .icon.arrow-minus::before {
+    transform: translateX(1.5px) rotate(-45deg);
+  }
+  
+  .icon.arrow-minus::after {
+    transform: translateX(-1.5px) rotate(45deg);
+  }
+  
+  .icon.arrow-minus.isExpanded {
+    transform: scaleX(0.8) rotate(180deg);
+  }
+  
+  .icon.arrow-minus.isExpanded::before {
+    transform: translateX(0) rotate(0deg);
+  }
+  
+  .icon.arrow-minus.isExpanded::after {
+    transform: translateX(0) rotate(0deg);
+  }
+  /* end arrow-minus variant */
+  

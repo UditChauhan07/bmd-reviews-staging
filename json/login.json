@@ -1,0 +1,21 @@
+{
+    "EU":{
+        "EmailLabel":"Indirizzo Email",
+        "PasswordLabel":"Password",
+        "btnLabel":"ACCEDI",
+        "Forget":{
+            "label":"Hai dimenticato la password?",
+            "href":"/account/forgot-password"
+        },
+        "create":{
+            "label":"Crea un account",
+            "href":"/account/register"
+        },
+        "cta":"Hai bisogno di aiuto ad accedere all' acquisto periodico?",
+        "Subscription":{
+            "label":"Gestisci l'aquisto periodico",
+            "href":"https://brunomd.eu/tools/recurring/login"
+        }
+
+    }
+}

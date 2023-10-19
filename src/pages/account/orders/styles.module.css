@@ -1,0 +1,305 @@
+.itemLine{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: end;
+}
+.lineImage{
+  width: 100px;
+}
+.total{
+ display: flex;
+ justify-content: flex-end;
+}
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+.dflex1 {
+  display: flex;
+}
+.table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: unset;
+}
+.orderContainer {
+  font-family: var(--bmd-font-Secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 95%;
+  overflow: auto;
+  padding: 0 1rem;
+}
+.item {
+  flex: 1;
+}
+.orderContainer th{ 
+    background: #eee;
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    font-weight: 600;
+}
+.qtyInputHolder{
+  background-color: #f5f8fa;
+  border: 1px solid #cbd6e2;
+  box-sizing: border-box;
+  color: var(--bmd-royal-purple);
+  font-size: 16px;
+  height: 40px;
+  line-height: 22px;
+  min-height: 27px;
+  padding: 0 15px;
+  transition: border .2s;
+  max-width: 75px;
+}
+.addressesButton {
+  font-family: Gotham-Book, Arial, serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2em;
+  background: #000000;
+  border: 1px solid #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition: all 0.25s;
+  margin: 2rem auto 0;
+}
+.btnHover{    
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.btnHover:hover{    
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.orderContainer td{
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+    font-weight: 400;
+}
+.orderContainer table {
+  width: 100%;
+  margin: 1rem 0 0;
+  border: 1px solid #ccc;
+  border-bottom: unset;
+}
+
+.orderContainer th {
+  font-weight: 600;
+  font-size: .875rem;
+  color: #000;
+  background: #eee;
+  position: sticky;
+  top: 0;
+}
+.orderContainer .infoBox {
+  font-weight: 600;
+  font-size: .875rem;
+  color: #000;
+  background: #eee;
+  position: sticky;
+  top: 0;
+  width: 200px;
+  vertical-align: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: unset;
+  border-bottom: unset;
+}
+.orderContainer .infoBoxBN{
+    font-weight: 600;
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 25px;
+  vertical-align: center;
+  margin: 1px 0;
+  padding-left: 5px;
+  border-right: unset;
+}
+.orderContainer .infoBoxWhite {
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  vertical-align: center;
+  border: 1px solid #ccc;
+  border-bottom: unset;
+  padding: 8px;
+}
+.orderContainer .infoBoxWhiteLink {
+  font-size: .875rem;
+  color: var(--bmd-royal-purple);
+  position: sticky;
+  top: 0;
+  width: 150px;
+  vertical-align: center;
+  border: 1px solid #ccc;
+  border-bottom: unset;
+  padding: 8px;
+}
+.orderContainer .infoBoxWhiteLink:hover{
+  text-decoration: underline;
+}
+.orderContainer .infoBox1 {
+  font-weight: 600;
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 25px;
+  vertical-align: center;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  text-align:end;
+}
+
+.orderContainer .infoBoxWhiteT {
+  font-size: .875rem;
+  color: var(--bmd-royal-purple);
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 35px;
+  vertical-align: center;
+  margin: 1px 0;
+  padding: 5px;
+   font-weight: 600;
+}
+.orderContainer .infoBoxT {
+  font-weight: 600;
+  font-size: .875rem;
+  color: var(--bmd-royal-purple);
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 35px;
+  vertical-align: center;
+  text-align:end;
+  padding: 5px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+
+.orderContainer .infoBox2 {
+  font-weight: 600;
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 25px;
+  vertical-align: center;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
+  text-align: end;
+}
+.orderContainer .infoBoxWhite1 {
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 25px;
+  vertical-align: center;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+}
+.orderContainer .infoBoxWhite2 {
+  font-size: .875rem;
+  color: #000;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 25px;
+  vertical-align: center;
+  padding-left: 5px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.leftAlign{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 1px solid #ccc;
+      border-top: unset;
+}
+.header{
+  text-align: center;
+  font-family: var(--bmd-font-Primary);
+}
+.shippingWrapper{
+  align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+}
+.shipping{
+  margin-right: 15px;
+}
+.backLink{
+  position: relative;
+    top: 10px;
+    color: var(--bmd-deep-purple);
+    text-decoration: underline;
+}
+.section {
+  min-height: 37.7vh;
+}
+@media screen and (max-width: 800px) {
+  .accountContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+  .accountInfoContainer {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .table {
+    font-size: 8px;
+  }
+  .orderContainer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 690px){
+  .lineImage{
+    margin-right: 0;
+  }
+  
+}
+@media screen and (max-width: 1380px){
+.itemLine{
+    padding: 1rem 1rem;
+  }
+  .total{
+    padding-right: 1rem;
+  }
+  .date{
+    padding-left: 1rem;
+  }
+  .backLink{
+    left: 1rem;
+  }
+}

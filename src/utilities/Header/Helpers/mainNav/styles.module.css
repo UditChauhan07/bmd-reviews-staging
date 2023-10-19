@@ -1,0 +1,106 @@
+.navContainer {
+    background-color: var(--bmd-black);
+    padding: 20px;
+  }
+  .navItemsContainer {
+    max-width: 1380px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+    justify-content: space-between;
+    z-index: 10;
+    height: 60px;
+  }
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    height: 60px;
+  }
+  .btnLink {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    position: absolute;
+    text-align: -webkit-center;
+    margin: auto;
+    z-index: 111;
+  }
+  .loginButton {
+    position: relative;
+    width: 40px;
+  }
+  .loginText {
+    position: absolute;
+    left: -4px;
+    top: -24px;
+    font-family: var(--bmd-font-Secondary);
+    color: #fff;
+    font-size: var(--bmd-12px);
+  }
+  .burgerLine {
+    width: 25px;
+    background: var(--bmd-white);
+    height: 3px;
+    display: block;
+    border-radius: 4px;
+  }
+  .burgerLineTop {
+    width: 25px;
+    background: var(--bmd-white);
+    height: 3px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .burgerLineBottom {
+    width: 25px;
+    background: var(--bmd-white);
+    height: 3px;
+    display: block;
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  .burgerButtonContainer {
+    position: absolute;
+    padding-top: 20px;
+    left: 25px;
+    z-index: 10;
+  }
+  .MobileNavContainer{
+    display: none;
+  }
+  @media screen and (max-width: 875px) {
+    .MobileNavContainer{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .iconContainer{
+      height: unset;
+      padding: unset;
+    }
+    .loginButton{
+      width: unset;
+      top: 0;
+      left: 0;
+    }
+    .loginButton > *{
+      display: block;
+      margin-bottom: 10px;
+    }
+    .btnLink{
+      margin-top: 20px;
+    }
+  }

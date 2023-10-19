@@ -1,0 +1,35 @@
+.text{
+    font-size: 52px;
+    max-width: 500px;
+    
+  }
+  .textCenter{
+    font-size: 52px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  .homeGalleryContainer{
+    margin-bottom: 5rem;
+  }
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%;
+  }
+  .strong{
+    color: var(--bmd-royal-purple);
+  }
+  
+  @media screen and (max-width: 1380px){
+    .text{
+      padding-left: 1rem;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .text{
+      font-size: 28px;
+      max-width: 275px
+    }
+  }

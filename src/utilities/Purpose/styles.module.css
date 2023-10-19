@@ -1,0 +1,97 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%;
+}
+.ourPurposeContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+    /* padding-bottom: 4rem; */
+  }
+  .ourPurposeImage {
+    width: 792px;
+    height: auto;
+  }
+  .textBodyContainer {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .textBodyHeader {
+    font-family: var(--bmd-font-Primary);
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 60px;
+  }
+  .textBodyParagraph {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+    font-weight: var(--bmd-Gotham-book);
+    line-height: 24px;
+  
+    margin: revert;
+  }
+  .textBodyOuterContainer {
+    width: 357px;
+  }
+  .ourPurposeButton {
+    display: inline-block;
+    background-color: var(--bmd-black);
+    color: white;
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2em;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    transition: all 0.25s;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .ourPurposeButton:hover {
+    background-color: var(--bmd-deep-purple);
+    border: 1px solid var(--bmd-deep-purple);
+  }
+  @media screen and (max-width: 900px) {
+    .textBodyOuterContainer {
+      width: 100%;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+    .textBodyHeader {
+      font-size: 30px;
+    }
+    .textBodyParagraph {
+      font-size: 14px;
+    }
+    .ourPurposeButton {
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1224px) {
+    .ourPurposeImage {
+      width: 100%;
+    }
+    .ourPurposeContainer {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .ourPurposeContainer {
+      grid-template-columns: auto;
+      padding: 0;
+    }
+  }
+  

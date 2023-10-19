@@ -1,0 +1,15 @@
+.wrapper{
+  width:100%;
+  padding-right: 2rem; 
+  padding-left: 2rem;
+}
+.wrapper >div {
+  max-width: 1380px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper{
+    padding-right: 1rem; 
+    padding-left: 1rem;
+  }
+}

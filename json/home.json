@@ -1,0 +1,121 @@
+{
+  "EU": {
+    "PatnerData": true,
+    "wistia": {
+      "id": {
+        "desktop":"ile0o2zvsm",
+        "mobile":"lr5hu7lr8o"
+      },
+      "video":{
+        "desk":"https://cdn.shopify.com/videos/c/o/v/75495028ec3044c1abe83dc8b85cfaeb.mp4",
+        "mob":"https://cdn.shopify.com/videos/c/o/v/8a7eb3758aca4cc8906ade60f5f41f5c.mp4"
+      },
+      "content": {
+        "title": "Benvenuti <br/><h2> nella MDiterranean Life®</h2>",
+        "btnText": "shop",
+        "btnLink": "/collezioni/tutti",
+        "subTitle": "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali."
+      }
+    },
+    "categories": {
+      "title": "Le nostre soluzioni",
+      "items": [
+        {
+          "name": "Dolore",
+          "link": "/collezioni/dolore",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Dolore-opt.webp?v=1695035668",
+            "alt": "Dolore"
+          }
+        },
+        {
+          "name": "Occhi",
+          "link": "/collezioni/occhi",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Occhi.webp?v=1695029700",
+            "alt": "Occhi"
+          }
+        },
+        {
+          "name": "Pre-Diabetic",
+          "link": "/collezioni/pre-diabete",
+          "logo": {
+            "src": "\\src\\Pre-diabete.webp",
+            "alt": "Pre-Diabetic"
+          }
+        },
+        {
+          "name": "Pelle",
+          "link": "/collezioni/salute-della-pelle",
+          "logo": {
+            "src": "\\src\\Pelle.webp",
+            "alt": "Pelle"
+          }
+        },
+        {
+          "name": "Reverse-aging",
+          "link": "/collezioni/reverse-aging",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Reverse-aging-opt.webp?v=1695035669",
+            "alt": "Reverse-aging"
+          }
+        },
+        {
+          "name": "Sali Minerali",
+          "link": "/collezioni/sali-minerali",
+          "logo": {
+            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/sali-minerali.webp?v=1695029782",
+            "alt": "Sali Minerali"
+          }
+        }
+      ]
+    },
+    "trustBages": {
+      "title": "14 Giorni - Soddisfatti o Rimborsati",
+      "theme": null,
+      "badges": [
+        {
+          "src": "/src/14-giormi.webp",
+          "alt": "14-giormi"
+        },
+        {
+          "src": "/src/con-ordini.webp",
+          "alt": "con-ordini"
+        },
+        {
+          "src": "/src/shopify-secure.webp",
+          "alt": "shopify-secure"
+        }
+      ]
+    },
+    "purpose": {
+      "title": "La Nostra Missione",
+      "buttonText": "Leggi di piu'",
+      "buttonUrl": "/scienza",
+      "image": {
+        "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp?v=1695029992",
+        "alt": "La Nostra Missione"
+      },
+      "paragraphs": [
+        "Bruno MD permette di vivere la vita in modo più sano grazie ad ingredienti naturali senza compromessi e all'immaginazione scientifica.",
+        "Siamo italiani e a conduzione familiare, quindi mettere in contatto le persone con i trattamenti farmacologici più innovativi ed efficaci e con i migliori ingredienti naturali ci porta gioia, sostenuta dalla sana alimentazione e dalle abitudini sociali tipiche del Mediterraneo. Non è a caso che due delle cinque Zone Blu del mondo si trovino nel Mediterraneo, dove le persone superano regolarmente i 100 anni di vita.",
+        "Il nostro percorso è iniziato come azienda farmaceutica, ma utilizziamo gli stessi principi scientifici per realizzare i nostri prodotti naturali per la salute. Ogni ingrediente che utilizziamo è clinicamente testato per fornire i massimi benefici per la salute. Abbiamo anche reso più biodisponibili gli ingredienti difficili da assorbire grazie alla tecnologia dei fitosomi.",
+        "Bruno MD si trova al crocevia delle tradizioni e della storia che hanno dato vita al mondo moderno. Abbracciamo la semplicità della famiglia, della tavola condivisa e degli ingredienti freschi ad ogni pasto. Abbracciamo la scienza innovativa per offrire questi ingredienti e creare una vita più sana."
+      ]
+    },
+    "homeGallery": {
+      "title": "Vita Mediterraneo",
+      "subTitle": "Scopri con noi lo stile di ",
+      "id": "jEbEI2jY9vvLxI8yyKzuyJz2I0PQz9Mn0SaZJTMJ",
+      "galleryId": "6411911c72b20e001784b649",
+      "invert":true
+    },
+    "newsletter": {
+      "title": "Iscriviti alla newsletter",
+      "portalId": "19647191",
+      "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
+      "desktopImage": "/src/home-news-desk.webp",
+      "mobileImage": "/src/home-news-mob.webp"
+    }
+  }
+}

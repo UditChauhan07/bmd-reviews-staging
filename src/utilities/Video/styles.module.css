@@ -1,0 +1,35 @@
+.videoEmbbed{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.playerHolder{
+    background-color: #000;
+    border-radius: 6px;
+    box-shadow: 0 0 30px rgba(0,0,0,.6);
+    height: 60px;
+    left: 50%;
+    opacity: .6;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity .4s;
+    width: 90px;
+    z-index: 3;
+}
+.playerHolder:before{
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 15px 0 15px 26px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.holder:hover .playerHolder{
+    opacity: 1;
+}

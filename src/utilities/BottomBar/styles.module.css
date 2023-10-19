@@ -1,0 +1,70 @@
+.bar {
+  height: 40px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--bmd-font-Secondary);
+  font-size: var(--bmd-12px);
+  font-weight: var(--bmd-Gotham-book);
+  line-height: 16px;
+}
+
+.bar span div{
+  margin: 5px 0;
+}
+.bar a {
+  text-decoration: none;
+  padding: 2px 0 2px 5px;
+}
+.bar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .bar {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px 10px;
+    line-height: 22px;
+  }
+  .hyphen {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .bar {
+    display: grid;
+    grid-template-columns: 50.667% 49.334%;
+  }
+  .bar a {
+    text-decoration: unset !important;
+  }
+  .disc {
+    font-size: 12px;
+  }
+  .disc div:before {
+    content: "\2022";
+  }
+  .borderB {
+    border-bottom: 1px solid #fff;
+  }
+  .borderRB {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  .bar .borderRB:hover {
+    background: #2a2a2a;
+  }
+  .bar .borderB:hover {
+    background: #2a2a2a;
+  }
+}
+
+@media (max-width: 420px) {
+  .disc {
+    font-size: 10px;
+  }
+}

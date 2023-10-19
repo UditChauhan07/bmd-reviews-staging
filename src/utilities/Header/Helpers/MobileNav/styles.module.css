@@ -1,0 +1,80 @@
+.mobileNavDropdownContainer {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+  }
+  .mobileNavDropdownLeftContainer {
+    flex: 1;
+    background-color: var(--bmd-deep-purple);
+    padding: 80px 0;
+  }
+  .mobileNavDropdownRightContainer {
+    flex: 1;
+    background-color: white;
+    padding-top: 80px;
+  }
+  .mobileNavDropdownLeft {
+    list-style: none;
+  }
+  .mobileNavDropdownLeftWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .mobileDropDownItem {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-book);
+    line-height: 37px;
+    font-size: var(--bmd-16px);
+    color: var(--bmd-white);
+    padding-left: 30px;
+    text-transform: uppercase;
+  }
+  
+  .mobileDropDownItemActive {
+    color: var(--bmd-deep-purple);
+    background-color: white;
+  }
+  .mobileDropDownItemSelected {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-book);
+    line-height: 37px;
+    font-size: var(--bmd-16px);
+    color: var(--bmd-deep-purple);
+    padding-left: 30px;
+  }
+  .itemSelectedListRow {
+    background-color: white;
+  }
+  .mobileNavDropdownRightWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .mobileNavDropdownRight {
+    list-style: none;
+  }
+  .mobileDropDownItemRight {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-book);
+    line-height: 37px;
+    font-size: var(--bmd-16px);
+    color: var(--bmd-deep-purple);
+    padding-left: 30px;
+  }
+  .exitButton {
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    width: 15px;
+    fill: white;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,139 @@
+.cartItem {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.productImage {
+  object-fit: contain;
+  object-position: top;
+}
+
+.productBody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.productName {
+  font-weight: bold;
+
+  font-size: 14px;
+  font-family: var(--bmd-font-Secondary);
+
+  transition: color 0.2s;
+}
+
+.productName:hover {
+  color: var(--bmd-royal-purple);
+}
+
+.productPrice {
+  font-weight: 700;
+
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+.productActions {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.qtyInputHolder{
+  background-color: #f5f8fa;
+  border: 1px solid #cbd6e2;
+  box-sizing: border-box;
+  color: var(--bmd-royal-purple);
+  font-size: 16px;
+  height: 40px;
+  line-height: 22px;
+  min-height: 27px;
+  padding: 0 15px;
+  transition: border .2s;
+  max-width: 75px;
+}
+.productActionsQuantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  max-width: 60px;
+}
+
+.productActionsQuantityLabel {
+  font-size: 11px;
+  font-family: var(--bmd-font-Secondary);
+}
+
+.productActionsRemove {
+  font-size: 12px;
+  font-family: var(--bmd-font-Secondary);
+  padding: 10px 20px;
+}
+
+.subscribeAndSaveContainer {
+  border-top: 1px solid var(--bmd-light-gray);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  /* display: none; */
+}
+
+.subscribeDeliveryIntervalLabel {
+  font-size: 12px;
+  font-family: var(--bmd-font-Secondary);
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.inputTime{
+  font-family: Gotham-Book, Arial, serif;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: #fff;
+  box-sizing: border-box;
+  margin-right: 12px;
+}
+.inputTime:checked{
+  background: black;
+  appearance: inherit;
+}
+.inputTimeContainer{
+  display: flex;
+    margin-bottom: 6px;
+}
+.btnHover{    
+  color: #fff;
+  background: #000;
+  border: 1px solid #fff;
+}
+.btnHover:hover{    
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 1280px) {
+  .cartItem {
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productImage {
+    max-width: 100px;
+  }
+  .productActionsQuantity{
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 425px) {
+  .productActionsQuantity{
+    flex-direction: column;
+  }
+  .productActionsRemove{
+    margin-top: 16px;
+  }
+}
