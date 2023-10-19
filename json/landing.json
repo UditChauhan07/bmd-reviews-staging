@@ -29,7 +29,7 @@
       },
       "ProductArticleModal": {
         "bannerDesk": {
-            "src": "\\utility\\products\\tendoactive\\Tendoactive_Plus_Newsletter.jpg",
+            "src": "\\images\\landing\\Tendoactive_Plus_Newsletter.jpg",
           "alt":"Tendo"
         },
         "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
@@ -41,7 +41,7 @@
         "offerTextColor": "#fff"
       },
       "ProductSlideAccordion": {
-        "src": "\\utility\\products\\tendoactive\\tendo-active.png",
+        "src": "\\images\\landing\\tendo-active.png",
         "heading": "Tendo Active",
         "subHeading": null,
         "subtitle": "Forte alleato contro il dolore e",
@@ -67,39 +67,39 @@
       },
       "ProductTrustBadges": [
         {
-          "src": "\\utility\\trust\\BioAvailable-icon-v1-Black-300x300.png",
+          "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
           "alt":"BioAvailable"
         },
         {
-          "src": "\\utility\\trust\\cGMP-Icon-v1-Black 1.png",
+          "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
           "alt":"cGMP"
         },
         {
-          "src": "\\utility\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
+          "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
           "alt":"Clean"
         },
         {
-          "src": "\\utility\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
+          "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
           "alt":"Clinically_Proven"
         },
         {
-          "src": "\\utility\\trust\\Gluten-Free-Icon-v2-Black 1.png",
+          "src": "\\images\\landing\\trust\\Gluten-Free-Icon-v2-Black 1.png",
           "alt":"Gluten"
         },
         {
-          "src": "\\utility\\trust\\Low-Carb-Icon-V1-Black 1.png",
+          "src": "\\images\\landing\\trust\\Low-Carb-Icon-V1-Black 1.png",
           "alt":"Low-Carb"
         },
         {
-          "src": "\\utility\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
+          "src": "\\images\\landing\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
           "alt":"Non-GMO"
         },
         {
-          "src": "\\utility\\trust\\Sugar-Free-Icon-V1-Black 1.png",
+          "src": "\\images\\landing\\trust\\Sugar-Free-Icon-V1-Black 1.png",
           "alt":"Sugar-Free"
         },
         {
-          "src": "\\utility\\trust\\Vegan-Icon-v1-Black 1.png",
+          "src": "\\images\\landing\\trust\\Vegan-Icon-v1-Black 1.png",
           "alt":"Vegan"
         }
       ],
@@ -112,7 +112,7 @@
             "body": "nuovo effetto analgesico",
             "expanded": "BOSWELLIA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
             "image": {
-              "src": "\\utility\\products\\tendoactive\\BMD-FIO_6039+landing.jpg",
+              "src": "\\images\\landing\\BMD-FIO_6039+landing.jpg",
               "alt": "..."
             }
           },
@@ -122,7 +122,7 @@
             "body": "Effetto antinfiammatorio",
             "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia.",
             "image": {
-              "src": "\\utility\\products\\tendoactive\\BMD-GG-P1107585+landing.jpg",
+              "src": "\\images\\landing\\BMD-GG-P1107585+landing.jpg",
               "alt": "..."
             }
           },
@@ -132,7 +132,7 @@
             "body": "Effetto di rinforzo anabolico",
             "expanded": "L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini L-lisina e L-prolina si trovano in proteine significative per il meccanismo di rinnovamento del tendine.",
             "image": {
-              "src": "\\utility\\products\\tendoactive\\BMD-i2-FIO_2319+landing.jpg",
+              "src": "\\images\\landing\\BMD-i2-FIO_2319+landing.jpg",
               "alt": "..."
             }
           },
@@ -142,7 +142,7 @@
             "body": "Effetto di rinforzo anabolico",
             "expanded": "Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini Collagene tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti ",
             "image": {
-              "src": "\\utility\\products\\tendoactive\\BMD-P1072538+landing.jpg",
+              "src": "\\images\\landing\\BMD-P1072538+landing.jpg",
               "alt": "..."
             }
           }
@@ -150,7 +150,7 @@
       },
       "ReasonsToBelieve": {
         "ingredients1": {
-          "src": "\\utility\\products\\tendoactive\\Tendoactive_Plus_Newsletter.jpg"
+          "src": "\\images\\landing\\Tendoactive_Plus_Newsletter.jpg"
         },
         "productName": "Tendo Active",
         "accordanTitle": "Ingredienti e studi clinici",
@@ -197,8 +197,8 @@
         "title": "Iscriviti alla newsletter",
         "portalId": "19647191",
         "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
-        "desktopImage": "\\utility\\products\\tendoactive\\Tenod-Desk-01.webp",
-        "mobileImage": "\\utility\\products\\tendoactive\\Tenod-Mob-01.webp",
+        "desktopImage": "\\images\\landing\\Tenod-Desk-01.webp",
+        "mobileImage": "\\images\\landing\\Tenod-Mob-01.webp",
         "desktopWidth":1380,
         "desktopHeight":503,
         "mobileWidth":672,
@@ -235,7 +235,7 @@
           "autoQty": 2
         },
         "productImg": {
-          "src": "\\utility\\products\\tendoactive\\tendo-active.png"
+          "src": "\\images\\landing\\tendo-active.png"
         }
       },
       "footer": {

@@ -4,8 +4,11 @@
             "id": {
                 "desktop":"wjbv2ss2xt"
               },
+              "video":{
+                "desk":"\\videos\\Science-Rev04.mp4"
+              },
             "desktopImage": {
-                "src": "\\src\\scienza.webp",
+                "src": "\\images\\scienza.webp",
                 "alt": ""
             },
             "title": "Science",
@@ -19,7 +22,7 @@
 "Bruno MD inizia con la stessa missione di utilizzare la scienza per perfezionare il meglio che la natura offre. Se i nostri ingredienti non possono essere coltivati sul suolo italiano, cerchiamo in tutto il mondo ingredienti all'altezza degli stessi standard e li trasformiamo in prodotti che offrono una composizione alimentare al 100% e la massima biodisponibilità e benefici che si possono ottenere senza prescrizione medica."
             ],
             "sectionImage": {
-                "src": "\\src\\scienza.webp"
+                "src": "\\images\\scienza.webp"
             }
         },
         "sectionTwo": [
@@ -27,7 +30,7 @@
                 "title": null,
                 "contentTitle": "La tecnologia fitosomica",
                 "sectionImg": {
-                    "src": "\\src\\brunoMD-our-science-phytosome-technology.webp",
+                    "src": "\\images\\brunoMD-our-science-phytosome-technology.webp",
                     "alt": "",
                     "imgPostion": "left"
                 },
@@ -42,7 +45,7 @@
             "author": {
                 "name": "Dr. Paul Karpecki, O.D., FAAO",
                 "img": {
-                    "src": "\\src\\auth-default.webp",
+                    "src": "\\images\\auth-default.webp",
                     "alt": ""
                 }
             }
@@ -51,8 +54,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
-            "desktopImage": "/src/home-news-desk.webp",
-            "mobileImage": "/src/home-news-mob.webp"
+            "desktopImage": "/images/newsletters/home-news-desk.webp",
+            "mobileImage": "/images/newsletters/home-news-mob.webp"
         }
     }
 }

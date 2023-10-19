@@ -10,7 +10,7 @@
                 "title": "CITRAK FORTE 4g.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp"
+                    "src": "\\images\\06-BMD-Citrack-Forte-9O3A5764.webp"
                 }
             },
             {
@@ -21,7 +21,7 @@
                 "title": "CITRAK 3g.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\07-BMD-Citrak-9O3A5769.webp"
+                    "src": "\\images\\07-BMD-Citrak-9O3A5769.webp"
                 }
             },
             {
@@ -32,7 +32,7 @@
                 "title": "CITRAK Mg.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\06-BMD-Citrak-MG-9O3A5775.webp"
+                    "src": "\\images\\06-BMD-Citrak-MG-9O3A5775.webp"
                 }
             },
             {
@@ -43,7 +43,7 @@
                 "title": "CRONOS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                    "src": "\\images\\07-BMD-Cronos-9O3A5820.webp"
                 }
             },
             {
@@ -54,7 +54,7 @@
                 "title": "DROP THERAPEUTIC",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
+                    "src": "\\images\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
                 }
             },
             {
@@ -65,7 +65,7 @@
                 "title": "NEULENIC",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp"
+                    "src": "\\images\\01-BMD-Neulenic-600-9O3A5741.webp"
                 }
             },
             {
@@ -76,7 +76,7 @@
                 "title": "NUBIT",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Nubit-9O3A5730.webp"
+                    "src": "\\images\\01-BMD-Nubit-9O3A5730.webp"
                 }
             },
             {
@@ -87,7 +87,7 @@
                 "title": "SILVERPHAGE Crema",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
+                    "src": "\\images\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
                 }
             },
             {
@@ -98,7 +98,7 @@
                 "title": "SILVERPHAGE GARZE MONOUSO",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
+                    "src": "\\images\\01-BMD-Silverphage-9O3A5964_1.webp"
                 }
             },
             {
@@ -109,7 +109,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\tendo.webp"
+                    "src": "\\images\\tendo.webp"
                 }
             }
         ],
@@ -123,11 +123,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "/src/pelle-desk.webp",
+                    "src": "/images/pelle-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "/src/pelle-mob.webp",
+                    "src": "/images/pelle-mob.webp",
                     "alt": ""
                 },
                 "title": "Pelle"
@@ -145,7 +145,7 @@
                 "title": "SILVERPHAGE Crema",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
+                    "src": "\\images\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
                 }
             }
         ],
@@ -161,11 +161,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "/src/ochhi-desk.webp",
+                    "src": "/images/ochhi-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "/src/ochhi-mob.webp",
+                    "src": "/images/ochhi-mob.webp",
                     "alt": ""
                 },
                 "title": "OCCHI"
@@ -183,7 +183,7 @@
                 "title": "DROP THERAPEUTIC",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
+                    "src": "\\images\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
                 }
             },
             {
@@ -194,7 +194,7 @@
                 "title": "SILVERPHAGE GARZE MONOUSO",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
+                    "src": "\\images\\01-BMD-Silverphage-9O3A5964_1.webp"
                 }
             }
         ],
@@ -210,11 +210,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "/src/agging-desk.webp",
+                    "src": "/images/agging-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "/src/agging-mob.webp",
+                    "src": "/images/agging-mob.webp",
                     "alt": ""
                 },
                 "title": "Reverse-aging"
@@ -233,7 +233,7 @@
                 "title": "CRONOS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                    "src": "\\images\\07-BMD-Cronos-9O3A5820.webp"
                 }
             }
         ],
@@ -248,11 +248,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "\\src\\dolore-desk.webp",
+                    "src": "\\images\\dolore-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "\\src\\dolore-mob.webp",
+                    "src": "\\images\\dolore-mob.webp",
                     "alt": ""
                 },
                 "title": "Dolore"
@@ -270,7 +270,7 @@
                 "title": "NUBIT",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Nubit-9O3A5730.webp"
+                    "src": "\\images\\01-BMD-Nubit-9O3A5730.webp"
                 }
             },
             {
@@ -281,7 +281,7 @@
                 "title": "NEULENIC",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp"
+                    "src": "\\images\\01-BMD-Neulenic-600-9O3A5741.webp"
                 }
             },
             {
@@ -292,7 +292,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\tendo.webp"
+                    "src": "\\images\\tendo.webp"
                 }
             }
         ],
@@ -308,11 +308,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "/src/diabete-desk.webp",
+                    "src": "/images/diabete-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "/src/diabete-mob.webp",
+                    "src": "/images/diabete-mob.webp",
                     "alt": ""
                 },
                 "title": "Pre-diabete"
@@ -332,7 +332,7 @@
                 "title": "CRONOS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
+                    "src": "\\images\\07-BMD-Cronos-9O3A5820.webp"
                 }
             }
         ],
@@ -346,11 +346,11 @@
         "masterHead": {
             "img": {
                 "desktopImage": {
-                    "src": "/src/Minerali-desk.webp",
+                    "src": "/images/Minerali-desk.webp",
                     "alt": ""
                 },
                 "mobileImage": {
-                    "src": "/src/Minerali-mob.webp",
+                    "src": "/images/Minerali-mob.webp",
                     "alt": ""
                 },
                 "title": "Sali Minerali"
@@ -368,7 +368,7 @@
                 "title": "CITRAK 3g.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\07-BMD-Citrak-9O3A5769.webp"
+                    "src": "\\images\\07-BMD-Citrak-9O3A5769.webp"
                 }
             },
             {
@@ -379,7 +379,7 @@
                 "title": "CITRAK FORTE 4g.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp"
+                    "src": "\\images\\06-BMD-Citrack-Forte-9O3A5764.webp"
                 }
             },
             {
@@ -390,7 +390,7 @@
                 "title": "CITRAK Mg.",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\src\\06-BMD-Citrak-MG-9O3A5775.webp"
+                    "src": "\\images\\06-BMD-Citrak-MG-9O3A5775.webp"
                 }
             }
         ],

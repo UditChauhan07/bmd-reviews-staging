@@ -2,11 +2,11 @@
     "EU": {
         "masterHead": {
             "desktopImage": {
-                "src": "/src/respo-desk.webp",
+                "src": "/images/respo-desk.webp",
                 "alt": ""
             },
             "mobileImage":{
-                "src":"/src/respo-mob.webp"
+                "src":"/images/respo-mob.webp"
             },
             "title": "La Nostra Storia"
         },
@@ -19,7 +19,7 @@
                     "Il nostro programma Global Resource Stewardship valuta i nostri prodotti, processi, fonti naturali e fornitori in tutto il mondo per individuare le opportunità di ridurne l'impatto. Il nostro impegno per la chimica verde, l'efficienza delle risorse, l'eliminazione della tossicità dei rifiuti o degli scarichi di acque reflue e gli imballaggi rispettosi dell'ambiente non è semplicemente il nostro modo di fare business; è la MDiterranean Life."
                 ],
                 "sectionImg": {
-                    "src": "/src/respo-sec.webp",
+                    "src": "/images/respo-sec.webp",
                     "imgPostion": "left"
                 }
             }

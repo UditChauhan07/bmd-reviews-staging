@@ -9,9 +9,7 @@
         "btnText": "Shop",
         "price": 25.00,
         "productColorTheme": "#2c7abf",
-        "logo": {
-            "src": "\\src\\07-BMD-Cronos-9O3A5820.webp"
-        },
+        
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -44,25 +42,6 @@
                 "desc": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato"
             }
         },
-        "declaimer": {
-            "title": "<h1>CRONOS</h1>",
-            "subTitle": "<strong>30 COMPRESSE DA 850MG</strong>",
-            "content": "<p>CRONOS è un integratore alimentare a base di Polidatina, Estrattidi Mirtillo e Vitamine.La Polidatina è una molecola naturale polifenolica con spiccate proprietà antiossidanti, attiva contro la formazione dei radicali liberi,che sono alla base dei processi di invecchiamento cellulare e di reverse-aging. La Polidatina, anche detta trans-resveratrolo, è il glucoside naturale nonché precursore,del resveratrolo e ne costituisce una forma più attiva e d' efficace. Pterostilbene è anch’esso un composto della famiglia del resveratrolo, ma con più alta biodisponibilità. Questa sostanza è biologicamente classificata nel gruppo delle fitoalessine,s ostanze che fanno parte del sistema difensivo delle piante. Le Antocianine e le Vitamine, contenute in CRONOS, aggiungono protezione antiossidante di membrana e contribuiscono al regolare funzionamento del Sistema nervosa.</p>"
-        },
-        "images": [
-            {
-                "src": "\\src\\07-BMD-Cronos-9O3A5820.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\cronos\\05-BMD-Cronos-9O3A5829.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\cronos\\08-BMD-Cronos-9O3A5823.webp",
-                "alt": ""
-            }
-        ],
         "benefits": {
             "title": "Scheda Prodotto",
             "productColorTheme": "#2c7abf",
@@ -71,7 +50,7 @@
                     "title": "Antiossidante e reverse-aging",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-GG-P1037649.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-GG-P1037649.webp",
                         "alt": ""
                     },
                     "description": "Contiene proprietà antiossidanti e reverse-aging"
@@ -80,7 +59,7 @@
                     "title": "RIPRISTINA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i3-P1020681.webp",
+                        "src": "\\images\\products\\BMD-GG-i3-P1020681.webp",
                         "alt": ""
                     },
                     "description": "Contribuisce al ripristino del ciclo metabolico delle sirtuine contribuendo ai meccanismi di difesa dell’organismo contro il rischio di sindrome metabolica e delle alterazioni del metabolismo del glucosio"
@@ -89,7 +68,7 @@
                     "title": "CONTROLLO GLICEMICO",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-FIO_2319.webp",
+                        "src": "\\images\\products\\BMD-i2-FIO_2319.webp",
                         "alt": ""
                     },
                     "description": "Aiuta l' azione di sinergia sul controllo glicemico in pazienti diabetici"
@@ -98,7 +77,7 @@
                     "title": "SUPPORTA E AZIONA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-FilippoFior-FIO_1119.webp",
+                        "src": "\\images\\products\\BMD-i3-FilippoFior-FIO_1119.webp",
                         "alt": ""
                     },
                     "description": "Aiuta l' azione di supporto nei pazienti a rischio cardiovascolare e l' azione benefica in pazienti con sindrome metabolica"
@@ -138,7 +117,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-GG_BMDROM1_21-64-Cropped-01-1140x522-1.webp",
+                                "thumb": "\\images\\products\\BMD-GG_BMDROM1_21-64-Cropped-01-1140x522-1.webp",
                                 "title": "Sirtuine: proteine “antinvecchiamento”",
                                 "link": "https://blog.brunomd.eu/sirtuine-proteine-antinvecchiamento/"
                             }
@@ -148,7 +127,7 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\01-1.webp",
+                                "thumb": "\\images\\products\\01-1.webp",
                                 "title": "Diabete: quale rischio per cuore e vasi? Diabete: quale rischio cardiovascolare? Il rischio per cuore e vasi per la persona con diabete",
                                 "link": "https://blog.brunomd.eu/diabete-quale-rischio-per-cuore-e-vasi-diabete-quale-rischio-cardiovascolare-il-rischio-per-cuore-e-vasi-per-la-persona-con-diabete/"
                             }
@@ -158,7 +137,7 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i3-FilippoFior-FIO_0635-Cropped-01-1140x647-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-FilippoFior-FIO_0635-Cropped-01-1140x647-1.webp",
                                 "title": "Il progetto cuore: cibi amici e nemici",
                                 "link": "https://blog.brunomd.eu/il-progetto-cuore-cibi-amici-e-nemici/"
                             }
@@ -171,8 +150,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "7fdbaec1-ef58-4ebd-9879-b5f34b091893",
-            "desktopImage": "\\src\\05.webp",
-            "mobileImage": "\\src\\05-mob.webp"
+            "desktopImage": "\\images\\newsletters\\05.webp",
+            "mobileImage": "\\images\\newsletters\\05-mob.webp"
         },
         "seo": {
             "title": "CRONOS | Bruno MD",
@@ -189,7 +168,7 @@
         "btnText": "Shop",
         "price": 14.00,
         "logo": {
-            "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp"
+            "src": "\\images\\products\\06-BMD-Citrack-Forte-9O3A5764.webp"
         },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
@@ -223,25 +202,6 @@
                 "desc": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato"
             }
         },
-        "declaimer": {
-            "title": "<h1>CITRAK FORTE 4G.</h1>",
-            "subTitle": "<strong>30 BUSTINE</strong>",
-            "content": "<p>Forte e' un integratore dietetico di potassio consigliato nei casi di ridotto apporto con la dieta o di aumentato fabbisogno fisiologico. Citrak non contiene zuccheri e può quindi essere assunto anche da soggetti con metabolismo del glucosio compromesso.</p>"
-        },
-        "images": [
-            {
-                "src": "\\src\\06-BMD-Citrack-Forte-9O3A5764.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\03-BMD-Citrack-Forte-9O3A5784.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\07-BMD-Citrack-Forte-9O3A5767.webp",
-                "alt": ""
-            }
-        ],
         "benefits": {
             "title": "Scheda Prodotto",
             "productColorTheme": "rgb(0, 175, 240)",
@@ -250,7 +210,7 @@
                     "title": "Reintegra",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-Beach-Workout-1845.webp",
+                        "src": "\\images\\products\\BMD-Beach-Workout-1845.webp",
                         "alt": ""
                     },
                     "description": "Integratore di potassio indicato nei casi di ridotto apporto con la dieta"
@@ -259,7 +219,7 @@
                     "title": "INTEGRA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-FIO1437+.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-FIO1437+.webp",
                         "alt": ""
                     },
                     "description": "Integra il potassio nei casi di aumentato fabbisogno fisiologico."
@@ -268,7 +228,7 @@
                     "title": "NON CONTIENE ZUCCHERI",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
+                        "src": "\\images\\products\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
                         "alt": ""
                     },
                     "description": "Può essere assunto anche da soggetti con alterato metabolismo del glucosio"
@@ -277,7 +237,7 @@
                     "title": "RIPRISTINA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
+                        "src": "\\images\\products\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
                         "alt": ""
                     },
                     "description": "Ripristina la fatica muscolare e da' energia dopo l'attivita' sportiva"
@@ -317,7 +277,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_5332-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_5332-1140x760-1.webp",
                                 "title": "Vitamine e Sali minerali: salute e vitalità",
                                 "link": "https://blog.brunomd.eu/vitamine-e-sali-minerali-salute-e-vitalita/"
                             }
@@ -327,7 +287,7 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_1359-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_1359-1140x760-1.webp",
                                 "title": "Il Potassio: che cos’è, a cosa serve?",
                                 "link": "https://blog.brunomd.eu/il-potassio-che-cose-a-cosa-serve/"
                             }
@@ -337,12 +297,12 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
                                 "title": "Stile di vita: le buone abitudini antiossidanti",
                                 "link": "https://blog.brunomd.eu/stile-di-vita-le-buone-abitudini-antiossidanti/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_4534-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_4534-1140x760-1.webp",
                                 "title": "Lo sport nella vita quotidiana: ne migliora la qualità e la durata",
                                 "link": "https://blog.brunomd.eu/lo-sport-nella-vita-quotidiana-ne-migliora-la-qualita-e-la-durata/"
                             }
@@ -355,8 +315,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "65e33639-1716-4cd6-99e2-b413cfd1141b",
-            "desktopImage": "\\src\\01.webp",
-            "mobileImage": "\\src\\01_mob.webp"
+            "desktopImage": "\\images\\newsletters\\01.webp",
+            "mobileImage": "\\images\\newsletters\\01_mob.webp"
         },
         "seo": {
             "title": "Citrak Forte | Bruno MD",
@@ -372,28 +332,6 @@
         "title": "DROP THERAPEUTIC",
         "btnText": "Shop",
         "price": 18.00,
-        "logo": {
-            "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
-        },
-        "images": [
-            {
-                "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_3000.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\BMD-Drop-Therapeutic-9O3A5578_A3000.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\BMD-Drop-Therapeutic-9O3A5587_90.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>DROP THERAPEUTIC</h1>",
-            "subTitle": "<strong>GOCCE OCULARI LUBRIFICANTI 10ML</strong>",
-            "content": "<p>Ristabilisce l’attività metabolica oculare e il turnover del film lacrimale. Soluzione oftalmica lubrificante con formulazione brevettata a base di Vitamina B2, Vitamina E TPGS, sodio ialuronato ed amminoacidi. Contribuisce alla stabilità della superficie oculare, regolandone pH e osmolarità. Protegge gli epiteli sottoposti a stress di varia natura.</p>"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -434,7 +372,7 @@
                     "title": "Idrata e rigenera",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-Hair_0884b.webp",
+                        "src": "\\images\\products\\BMD-Hair_0884b.webp",
                         "alt": ""
                     },
                     "description": "Migliora l'idratazione e la rigenerazione dei tessuti e il rispristino del naturale equilibrio del film lacrimale"
@@ -443,7 +381,7 @@
                     "title": "Stabilizza",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i3-P1016891.webp",
+                        "src": "\\images\\products\\BMD-GG-i3-P1016891.webp",
                         "alt": ""
                     },
                     "description": "Contribuisce alla stabilita' della superficie oculare e regola il pH e l'osmolarità e protegge l'epitelio corneale"
@@ -452,7 +390,7 @@
                     "title": "Protegge",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-FilippoFior-FIO_0192+.webp",
+                        "src": "\\images\\products\\BMD-i3-FilippoFior-FIO_0192+.webp",
                         "alt": ""
                     },
                     "description": "Migliora l'azione protettiva sull'epitelio corneale accellerando il naturale processo di riparazione nel Dry Eye."
@@ -461,7 +399,7 @@
                     "title": "Promuove",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-FIO_5394+.webp",
+                        "src": "\\images\\products\\BMD-i2-FIO_5394+.webp",
                         "alt": ""
                     },
                     "description": "Promuove la bagnabilità della superficie oculare e fornisce nutrienti essenziali per il post-operatorio della superficie oculare"
@@ -501,7 +439,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i3-Amalfi-Coast-FIO_0757-1-1140x732-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-Amalfi-Coast-FIO_0757-1-1140x732-1.webp",
                                 "title": "Vitamine: piccole quantità indispensabili per la vita!",
                                 "link": "https://blog.brunomd.eu/vitamine-piccole-quantita-indispensabili-per-la-vita/"
                             }
@@ -511,22 +449,22 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-CDG-P1072544-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-CDG-P1072544-1140x760-1.webp",
                                 "title": "Cheratocono: cause e sintomi",
                                 "link": "https://blog.brunomd.eu/cheratocono-cause-e-sintomi/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i4-Tuscany_FIOR7700cropped-01-1140x617-1.webp",
+                                "thumb": "\\images\\products\\BMD-i4-Tuscany_FIOR7700cropped-01-1140x617-1.webp",
                                 "title": "Le lacrime di cosa sono fatte e che funzione hanno?",
                                 "link": "https://blog.brunomd.eu/le-lacrime-di-cosa-sono-fatte-e-che-funzione-hanno/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i4-Tusccany-FIOR0180-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i4-Tusccany-FIOR0180-1140x760-1.webp",
                                 "title": "Occhio: com’è fatto, come funziona?",
                                 "link": "https://blog.brunomd.eu/occhio-come-fatto-come-funziona/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_2332-1-1140x650-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_2332-1-1140x650-1.webp",
                                 "title": "Occhio secco: le principali cause della disidratazione",
                                 "link": "https://blog.brunomd.eu/occhio-secco-le-principali-cause-della-disidratazione/"
                             }
@@ -536,12 +474,12 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i3-FilippoFior-DSCF0097-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-FilippoFior-DSCF0097-1140x760-1.webp",
                                 "title": "Occhio secco: 10 consigli per chi utilizza spesso computer, tablet e cellulari",
                                 "link": "https://blog.brunomd.eu/occhio-secco-10-consigli-per-chi-utilizza-spesso-computer-tablet-e-cellulari/"
                             },
                             {
-                                "thumb": "\\src\\BMD-GG-i3-P1017093-1-1140x621-1.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-P1017093-1-1140x621-1.webp",
                                 "title": "Occhio secco: benessere a sapersi",
                                 "link": "https://blog.brunomd.eu/occhio-secco-benessere-a-sapersi/"
                             }
@@ -554,8 +492,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "4b865a98-e0fc-432c-8a5a-d8a3ddad8989",
-            "desktopImage": "\\src\\04.webp",
-            "mobileImage": "\\src\\04-mob.webp"
+            "desktopImage": "\\images\\newsletters\\04.webp",
+            "mobileImage": "\\images\\newsletters\\04-mob.webp"
         },
         "seo": {
             "title": "DROP therapeutic | Bruno MD",
@@ -571,28 +509,6 @@
         "title": "CITRAK 3g.",
         "btnText": "Shop",
         "price": 12.00,
-        "logo": {
-            "src": "\\src\\07-BMD-Citrak-9O3A5769.webp"
-        },
-        "images": [
-            {
-                "src": "\\utility\\products\\citrak\\07-BMD-Citrak-9O3A5769.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\citrak\\03-BMD-Citrak-9O3A5790.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\citrak\\08-BMD-Citrak-9O3A5772.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>CITRAK 3G.</h1>",
-            "subTitle": "<strong>30 BUSTINE</strong>",
-            "content": "<p>Citrak e' un integratore dietetico di potassio consigliato nei casi di ridotto apporto con la dieta o di aumentato fabbisogno fisiologico. Citrak non contiene zuccheri e può quindi essere assunto anche da soggetti con metabolismo del glucosio compromesso.</p>"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -633,7 +549,7 @@
                     "title": "Reintegra",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-Beach-Workout-1845.webp",
+                        "src": "\\images\\products\\BMD-Beach-Workout-1845.webp",
                         "alt": ""
                     },
                     "description": "Integratore di potassio indicato nei casi di ridotto apporto con la dieta"
@@ -642,7 +558,7 @@
                     "title": "INTEGRA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-FIO1437+.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-FIO1437+.webp",
                         "alt": ""
                     },
                     "description": "Integra il potassio nei casi di aumentato fabbisogno fisiologico."
@@ -651,7 +567,7 @@
                     "title": "NON CONTIENE ZUCCHERI",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
+                        "src": "\\images\\products\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
                         "alt": ""
                     },
                     "description": "Può essere assunto anche da soggetti con alterato metabolismo del glucosio"
@@ -660,7 +576,7 @@
                     "title": "RIPRISTINA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
+                        "src": "\\images\\products\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
                         "alt": ""
                     },
                     "description": "Ripristina la fatica muscolare e da' energia dopo l'attivita' sportiva"
@@ -700,7 +616,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_5332-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_5332-1140x760-1.webp",
                                 "title": "Vitamine e Sali minerali: salute e vitalità",
                                 "link": "https://blog.brunomd.eu/vitamine-e-sali-minerali-salute-e-vitalita/"
                             }
@@ -710,7 +626,7 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_1359-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_1359-1140x760-1.webp",
                                 "title": "Il Potassio: che cos’è, a cosa serve?",
                                 "link": "https://blog.brunomd.eu/il-potassio-che-cose-a-cosa-serve/"
                             }
@@ -720,12 +636,12 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
                                 "title": "Stile di vita: le buone abitudini antiossidanti",
                                 "link": "https://blog.brunomd.eu/stile-di-vita-le-buone-abitudini-antiossidanti/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_4534-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_4534-1140x760-1.webp",
                                 "title": "Lo sport nella vita quotidiana: ne migliora la qualità e la durata",
                                 "link": "https://blog.brunomd.eu/lo-sport-nella-vita-quotidiana-ne-migliora-la-qualita-e-la-durata/"
                             }
@@ -738,8 +654,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "65e33639-1716-4cd6-99e2-b413cfd1141b",
-            "desktopImage": "\\src\\01.webp",
-            "mobileImage": "\\src\\01_mob.webp"
+            "desktopImage": "\\images\\newsletters\\01.webp",
+            "mobileImage": "\\images\\newsletters\\01_mob.webp"
         },
         "seo": {
             "title": "Citrak | Bruno MD",
@@ -755,28 +671,6 @@
         "title": "CITRAK Mg.",
         "btnText": "Shop",
         "price": 14.00,
-        "logo": {
-            "src": "\\src\\06-BMD-Citrak-MG-9O3A5775.webp"
-        },
-        "images": [
-            {
-                "src": "\\utility\\products\\mg\\06-BMD-Citrak-MG-9O3A5775.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\mg\\03-BMD-Citrak-MG-9O3A5788.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\mg\\07-BMD-Citrak-MG-9O3A5778.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>CITRAK MG.</h1>",
-            "subTitle": "<strong>CITRATO DI POTASSIO 1,5g. + CITRATO DI MAGNESIO 1.g 20 BUSTINE</strong>",
-            "content": "<p>magnesio. E' consigliato nei casi di attività sportiva, intensa sudorazione e nella prevenzione e correzione degli stati di deplezione potassica dell’organismo. E' indicato in caso di carenza di potassio accompagnata a sensazione di stanchezza e astenia muscolare non contiene zuccheri e può pertanto essere assunto anche da soggetti con alterato metabolismo glucidico fornisce 1,5 g di citrato di potassio e 1 g di citrato di magnesio per bustina</p>"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -817,7 +711,7 @@
                     "title": "Reintegra",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-Beach-Workout-1845.webp",
+                        "src": "\\images\\products\\BMD-Beach-Workout-1845.webp",
                         "alt": ""
                     },
                     "description": "Integratore di potassio indicato nei casi di ridotto apporto con la dieta"
@@ -826,7 +720,7 @@
                     "title": "INTEGRA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-FIO1437+.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-FIO1437+.webp",
                         "alt": ""
                     },
                     "description": "Integra il potassio nei casi di aumentato fabbisogno fisiologico."
@@ -835,7 +729,7 @@
                     "title": "NON CONTIENE ZUCCHERI",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
+                        "src": "\\images\\products\\BMD-i3-Amalfi-Coast-GG-P1020923+.webp",
                         "alt": ""
                     },
                     "description": "Può essere assunto anche da soggetti con alterato metabolismo del glucosio"
@@ -844,7 +738,7 @@
                     "title": "RIPRISTINA",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
+                        "src": "\\images\\products\\BMD-GG-i1-Donna-Fugata-P1106965+.webp",
                         "alt": ""
                     },
                     "description": "Ripristina la fatica muscolare e da' energia dopo l'attivita' sportiva"
@@ -884,7 +778,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_5332-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_5332-1140x760-1.webp",
                                 "title": "Vitamine e Sali minerali: salute e vitalità",
                                 "link": "https://blog.brunomd.eu/vitamine-e-sali-minerali-salute-e-vitalita/"
                             }
@@ -894,7 +788,7 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_1359-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_1359-1140x760-1.webp",
                                 "title": "Il Potassio: che cos’è, a cosa serve?",
                                 "link": "https://blog.brunomd.eu/il-potassio-che-cose-a-cosa-serve/"
                             }
@@ -904,12 +798,12 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-CCDGP-P1084477-1-1064x855-2.webp",
                                 "title": "Stile di vita: le buone abitudini antiossidanti",
                                 "link": "https://blog.brunomd.eu/stile-di-vita-le-buone-abitudini-antiossidanti/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_4534-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_4534-1140x760-1.webp",
                                 "title": "Lo sport nella vita quotidiana: ne migliora la qualità e la durata",
                                 "link": "https://blog.brunomd.eu/lo-sport-nella-vita-quotidiana-ne-migliora-la-qualita-e-la-durata/"
                             }
@@ -922,8 +816,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "65e33639-1716-4cd6-99e2-b413cfd1141b",
-            "desktopImage": "\\src\\01.webp",
-            "mobileImage": "\\src\\01_mob.webp"
+            "desktopImage": "\\images\\newsletters\\01.webp",
+            "mobileImage": "\\images\\newsletters\\01_mob.webp"
         },
         "seo": {
             "title": "Citrak Mg | Bruno MD",
@@ -939,28 +833,7 @@
         "theme": "#f58543",
         "price": 26,
         "btnText": "Shop",
-        "logo": {
-            "src": "\\src\\01-BMD-Nubit-9O3A5730.webp"
-        },
-        "images": [
-            {
-                "src": "\\utility\\products\\Nubit\\01-BMD-Nubit-9O3A5730.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\Nubit\\02-BMD-Nubit-9O3A5735.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\Nubit\\04-BMD-Nubit-9O3A5793.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>NUBIT</h1>",
-            "subTitle": "<strong>30 COMPRESSE DA 850MG</strong>",
-            "content": "<p>Nubit e' un integratore alimentare a base di vitamine B1 e B12, che contribuiscono al normale funzionamento del sistema nervoso, e a base di alte dose di nucleotidi (Uridina 5-monofosfato e Citidina 5-monofosfato) considerati essenziali in determinate situazioni. Adatto ai diabetici.</p>"
-        },
+       
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -1001,7 +874,7 @@
                     "title": "Dolore Neuropatico",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-FIO_3281.webp",
+                        "src": "\\images\\products\\BMD-i2-FIO_3281.webp",
                         "alt": ""
                     },
                     "description": "Aiuta a ridurre il dolore neuropatico"
@@ -1010,7 +883,7 @@
                     "title": "Sistema nervoso",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-FIO_FIO0731.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-FIO_FIO0731.webp",
                         "alt": ""
                     },
                     "description": "Contribuisce al normale funzionamento del sistema nervoso"
@@ -1019,7 +892,7 @@
                     "title": "Cellule nervose",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-GG_BMDROM1_21-31.webp",
+                        "src": "\\images\\products\\BMD-i2-GG_BMDROM1_21-31.webp",
                         "alt": ""
                     },
                     "description": "Stimola la sintesi delle cellule nervose"
@@ -1028,7 +901,7 @@
                     "title": "Rigenera",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i1-P1072522.webp",
+                        "src": "\\images\\products\\BMD-i1-P1072522.webp",
                         "alt": ""
                     },
                     "description": "Aiuta a rigenerare i nervi periferici"
@@ -1068,7 +941,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-Rome-FIO_3256-Cropped-01-1140x547-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-Rome-FIO_3256-Cropped-01-1140x547-1.webp",
                                 "title": "ll ruolo dei nucleotidi nella rigenerazione del nervo",
                                 "link": "https://blog.brunomd.eu/ll-ruolo-dei-nucleotidi-nella-rigenerazione-del-nervo/"
                             }
@@ -1078,12 +951,12 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\man28-08.webp",
+                                "thumb": "\\images\\products\\man28-08.webp",
                                 "title": "Neuropatia diabetica: conosci i fattori di rischio e i principali sintomi ?",
                                 "link": "https://blog.brunomd.eu/neuropatia-diabetica-conosci-i-fattori-di-rischio-e-i-principali-sintomi/?q=2"
                             },
                             {
-                                "thumb": "\\src\\BMD-GG-i3-Amalfi-Coast-P1021304-22.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-Amalfi-Coast-P1021304-22.webp",
                                 "title": "Buon sonno, buon umore! Dormire bene, riposare di più",
                                 "link": "https://blog.brunomd.eu/buon-sonno-buon-umore-dormire-bene-riposare-di-piu/"
                             }
@@ -1093,7 +966,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-GG_BMDROM2-59-Cropped-01-1140x585-2.webp",
+                                "thumb": "\\images\\products\\BMD-i2-GG_BMDROM2-59-Cropped-01-1140x585-2.webp",
                                 "title": "L’ambiente ideale per una sana dormita",
                                 "link": "https://blog.brunomd.eu/lambiente-ideale-per-una-sana-dormita/"
                             }
@@ -1106,8 +979,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "12cce9d1-8ccd-4782-a7ed-b5db55fb906d",
-            "desktopImage": "\\src\\07.webp",
-            "mobileImage": "\\src\\07-mob.webp"
+            "desktopImage": "\\images\\newsletters\\07.webp",
+            "mobileImage": "\\images\\newsletters\\07-mob.webp"
         },
         "seo": {
             "title": "Nubit | Bruno MD",
@@ -1123,28 +996,6 @@
         "theme": "#d50032",
         "btnText": "Shop",
         "price": 26.00,
-        "logo": {
-            "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp"
-        },
-        "images": [
-            {
-                "src": "\\src\\01-BMD-Neulenic-600-9O3A5741.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\Neulenic\\05-BMD-Neulenic-600-9O3A5747.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\Neulenic\\02-BMD-Neulenic-600-9O3A5744.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>NEULENIC</h1>",
-            "subTitle": "<strong>600 CONFEZIONE DA 15 COMPRESSE RIVESTITE DA 1 G. PESO NETTO: 15.0 G</strong>",
-            "content": "<p>Neulenic e' un Integratore alimentare di acido alfa-lipoico, vitamine e rame. Le vitamine del gruppo B presenti nel prodotto, ovvero niacina, vitamina B2, vitamina B6 e vitamina B12 contribuiscono, insieme alla biotina, al normale funzionamento del sistema nervoso. Il rame contribuisce alla protezione delle cellule dallo stress ossidativo. E' il coenzima utile del metabolismo cellulare per la sintesi di ATP, la fonte principale di energia cellulare. É un potente antiossidante e contrasta l'azione dei radicali liberi coinvolti in molti processi dannosi per l'organismo. L'Acido Alfa Lipoico ha mostrato di possedere spiccate proprietà nel trofismo nervoso e vascolare</p>"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -1185,7 +1036,7 @@
                     "title": "Coopera",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i3-P1020672+.webp",
+                        "src": "\\images\\products\\BMD-GG-i3-P1020672+.webp",
                         "alt": ""
                     },
                     "description": "Contribuisce al normale funzionamento del sistema nervoso"
@@ -1194,7 +1045,7 @@
                     "title": "Protegge",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-FIO_5329+.webp",
+                        "src": "\\images\\products\\BMD-i2-FIO_5329+.webp",
                         "alt": ""
                     },
                     "description": "Contribuisce alla protezione delle cellule dallo stato ossidativo"
@@ -1203,7 +1054,7 @@
                     "title": "Agisce",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-FilippoFior-FIO_0067+.webp",
+                        "src": "\\images\\products\\BMD-i3-FilippoFior-FIO_0067+.webp",
                         "alt": ""
                     },
                     "description": "Agisce sulla causa ovvero sui processi ossidativi responsabili del percorso verso la patologia"
@@ -1212,7 +1063,7 @@
                     "title": "Agisce",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i1-P1072516+.webp",
+                        "src": "\\images\\products\\BMD-GG-i1-P1072516+.webp",
                         "alt": ""
                     },
                     "description": "Agisce sul sintomo ovvero sul dolore generato dall’infiammazione e dalla lesione della membrana nervosa"
@@ -1252,7 +1103,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i4-Tuscany-FIO0636-scaled-1.webp",
+                                "thumb": "\\images\\products\\BMD-i4-Tuscany-FIO0636-scaled-1.webp",
                                 "title": "Acido alfa-lipoico: il potente antiossidante che protegge i nostri nervi",
                                 "link": "https://blog.brunomd.eu/acido-alfa-lipoico-il-potente-antiossidante-che-protegge-i-nostri-nervi/"
                             }
@@ -1262,12 +1113,12 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-GG-i3-Amalfi-Coast-P1021304-22.webp",
+                                "thumb": "\\images\\products\\BMD-GG-i3-Amalfi-Coast-P1021304-22.webp",
                                 "title": "Stress ossidativo e radicali liberi",
                                 "link": "https://blog.brunomd.eu/buon-sonno-buon-umore-dormire-bene-riposare-di-piu/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i3-FilippoFior-DSCF1215-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-FilippoFior-DSCF1215-1140x760-1.webp",
                                 "title": "Neuropatia diabetica: conosci i fattori di rischio e i principali sintomi ?",
                                 "link": "https://blog.brunomd.eu/stress-ossidativo-e-radicali-liberi/"
                             }
@@ -1277,7 +1128,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i4-Tuscany-FIOR9181-1-1140x585-.webp",
+                                "thumb": "\\images\\products\\BMD-i4-Tuscany-FIOR9181-1-1140x585-.webp",
                                 "title": "Frutti di bosco: una preziosa riserva di antiossidanti e non solo",
                                 "link": "https://blog.brunomd.eu/frutti-di-bosco-una-preziosa-riserva-di-antiossidanti-e-non-solo/"
                             }
@@ -1290,8 +1141,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "a97c8b24-a3f9-4896-b126-475d3ece5a8d",
-            "desktopImage": "\\src\\06.webp",
-            "mobileImage": "\\src\\06-mob.webp"
+            "desktopImage": "\\images\\newsletters\\06.webp",
+            "mobileImage": "\\images\\newsletters\\06-mob.webp"
         },
         "seo": {
             "title": "Neulenic | Bruno MD",
@@ -1307,28 +1158,7 @@
         "title": "SILVERPHAGE Crema",
         "btnText": "Shop",
         "price": 18.00,
-        "logo": {
-            "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
-        },
-        "declaimer": {
-            "title": "<h1>SILVERPHAGE</h1>",
-            "subTitle": "<strong>SILVERPHAGE CREMA GEL 50 ML</strong>",
-            "content": "<p>Silverphage crema e' un dispositivo medico coadiuvante per la protezione di lesioni cutanee ed abrasioni.</p>"
-        },
-        "images": [
-            {
-                "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\03-BMD-Silverphage-Crema_Gel-9O3A5893.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\src\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp",
-                "alt": ""
-            }
-        ],
+       
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -1369,7 +1199,7 @@
                     "title": "Barriera per lesioni cutanee",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i4-Tuscany-GG-P1040909+.webp",
+                        "src": "\\images\\products\\BMD-i4-Tuscany-GG-P1040909+.webp",
                         "alt": ""
                     },
                     "description": "Costruisce una barriera non tradizionale (bende o cerotti) per le lesioni cutanee (trattamento delle ferite, del punto di inserzione del catetere venoso centrale o periferico, e arterioso, delle lesioni da decubito, delle irritazioni, e degli arrossamenti da pannoloni negli anziani etc,)"
@@ -1378,7 +1208,7 @@
                     "title": "Protezione",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-Beach_Workout_1896.webp",
+                        "src": "\\images\\products\\BMD-Beach_Workout_1896.webp",
                         "alt": ""
                     },
                     "description": "Isola e protegge la cute da fattori irritanti esterni e favorire una normale guarigione"
@@ -1387,7 +1217,7 @@
                     "title": "Effetto barriera",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i1-BCDG-P1072451+.webp",
+                        "src": "\\images\\products\\BMD-GG-i1-BCDG-P1072451+.webp",
                         "alt": ""
                     },
                     "description": "Conferisce significativo apporto all’azione filmogena del dispositivo svolgendo, a supporto, un effetto barriera."
@@ -1396,7 +1226,7 @@
                     "title": "Duplice azione",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-01-Sicily-P1095965+.webp",
+                        "src": "\\images\\products\\BMD-GG-01-Sicily-P1095965+.webp",
                         "alt": ""
                     },
                     "description": "Agisce con una duplice azione: isola il punto di applicazione dalle aggressioni microbiche esterne; limita la colonizzazione microbica nel punto di applicazione creando le condizioni migliori condizioni per la rigenerazione del tessuto cutaneo."
@@ -1436,12 +1266,12 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-FIO_5394-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-FIO_5394-1140x760-1.webp",
                                 "title": "L’uso del dimeticone per proteggere la pelle",
                                 "link": "https://blog.brunomd.eu/luso-del-dimeticone-per-proteggere-la-pelle/"
                             },
                             {
-                                "thumb": "\\src\\BMD-i3-FilippoFior-FIO_0039-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-FilippoFior-FIO_0039-1140x760-1.webp",
                                 "title": "Com’è fatta la nostra pelle: la struttura cutanea",
                                 "link": "https://blog.brunomd.eu/come-fatta-la-nostra-pelle-la-struttura-cutanea/"
                             }
@@ -1451,7 +1281,7 @@
                         "title": "PROBLEMI E SINTOMI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i2-Rome-FIO_2590-1140x760-1.webp",
+                                "thumb": "\\images\\products\\BMD-i2-Rome-FIO_2590-1140x760-1.webp",
                                 "title": "Le funzioni della nostra pelle",
                                 "link": "https://blog.brunomd.eu/le-funzioni-della-nostra-pelle/"
                             }
@@ -1461,7 +1291,7 @@
                         "title": "Stile di Vita",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i3-FilippoFior-DSCF0131-1-1140x685.webp",
+                                "thumb": "\\images\\products\\BMD-i3-FilippoFior-DSCF0131-1-1140x685.webp",
                                 "title": "Piedi e diabete: consigli per l’igiene quotidiana",
                                 "link": "https://blog.brunomd.eu/piedi-e-diabete-consigli-per-ligiene-quotidiana/"
                             }
@@ -1474,8 +1304,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "c775500b-31a6-49af-9eed-7bc4c60b5395",
-            "desktopImage": "\\src\\03.webp",
-            "mobileImage": "\\src\\03-mob.webp"
+            "desktopImage": "\\images\\newsletters\\03.webp",
+            "mobileImage": "\\images\\newsletters\\03-mob.webp"
         },
         "seo": {
             "title": "Silverphage Crema  | Bruno MD",
@@ -1491,28 +1321,6 @@
         "title": "SILVERPHAGE GARZE MONOUSO",
         "btnText": "Shop",
         "price": 19.00,
-        "logo": {
-            "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp"
-        },
-        "images": [
-            {
-                "src": "\\src\\01-BMD-Silverphage-9O3A5964_1.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\SILVERPHAGE-GARZE\\03-BMD-Silverphage-9O3A5757.webp",
-                "alt": ""
-            },
-            {
-                "src": "\\utility\\products\\SILVERPHAGE-GARZE\\02-BMD-Silverphage-9O3A5970.webp",
-                "alt": ""
-            }
-        ],
-        "declaimer": {
-            "title": "<h1>SILVERPHAGE GARZE MONOUSO</h1>",
-            "subTitle": "<strong>SILVERPHAGE 14 GARZE MONOUSO</strong>",
-            "content": "<p>SILVERPHAGE e’ un dispositivo medico per la detersione dell'area perioc</p>"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
@@ -1553,7 +1361,7 @@
                     "title": "Umettante",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-01-Sicily-SCILI-P1106849+.webp",
+                        "src": "\\images\\products\\BMD-GG-01-Sicily-SCILI-P1106849+.webp",
                         "alt": ""
                     },
                     "description": "Svolge un'attivita detergente"
@@ -1562,7 +1370,7 @@
                     "title": "Coadiuvante",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-i3-P1016912+.webp",
+                        "src": "\\images\\products\\BMD-GG-i3-P1016912+.webp",
                         "alt": ""
                     },
                     "description": "Indicato come coadiuvante in caso di infiammazioni, infezioni, allergie anche in presenza di secrezioni oculari. Coadiuvante nel trattamento di congiuntiviti di varia natura, anche in presenza disecrezioni oculare"
@@ -1571,7 +1379,7 @@
                     "title": "Proteggente",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-ROM3-27+.webp",
+                        "src": "\\images\\products\\BMD-GG-ROM3-27+.webp",
                         "alt": ""
                     },
                     "description": "Crea un a barriera umida che protegge l’area perioculare e aiuta a prevenire le infezioni batteriche e virali."
@@ -1580,7 +1388,7 @@
                     "title": "Rigenerante",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i3-FilippoFior-FIO.webp",
+                        "src": "\\images\\products\\BMD-i3-FilippoFior-FIO.webp",
                         "alt": ""
                     },
                     "description": "Favorisce il mantenimento delle condizioni fisiologiche della zona perioculare"
@@ -1620,7 +1428,7 @@
                         "title": "INGREDIENTI E BENEFICI",
                         "blogs": [
                             {
-                                "thumb": "\\src\\BMD-i3-Amalfi-Coast-FilippoFior-FIO_0208-Cropped-01-1140x499-1.webp",
+                                "thumb": "\\images\\products\\BMD-i3-Amalfi-Coast-FilippoFior-FIO_0208-Cropped-01-1140x499-1.webp",
                                 "title": "La congiuntivite: cause, forme e sintomi",
                                 "link": "https://blog.brunomd.eu/la-congiuntivite-cause-forme-e-sintomi/"
                             }
@@ -1633,8 +1441,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "569a2af9-b397-486f-8ac7-98d462d81ec1",
-            "desktopImage": "\\src\\02.webp",
-            "mobileImage": "\\src\\02-mob.webp"
+            "desktopImage": "\\images\\newsletters\\02.webp",
+            "mobileImage": "\\images\\newsletters\\02-mob.webp"
         },
         "seo": {
             "title": "Silverphage Garze | Bruno MD",
@@ -1652,9 +1460,6 @@
         "btnText": "Shop",
         "price": 0,
         "productColorTheme": "#2c7abf",
-        "logo": {
-            "src": "\\src\\tendo.webp"
-        },
         "priceBox": {
             "qtyUnitMultiplierLabel": "scatola 20 sticks",
             "discount": 15,
@@ -1688,17 +1493,7 @@
                 "desc": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato"
             }
         },
-        "declaimer": {
-            "title": "<h1>Tendoactive</h1>",
-            "subTitle": "<strong>Tendoactive plus 20 sticks</strong>",
-            "content": "<p>Tendoactive plus e' un imtegratore alimentare con azione completa per tendini e legamenti</p>"
-        },
-        "images": [
-            {
-                "src": "\\src\\tendo.webp",
-                "alt": ""
-            }
-        ],
+        
         "benefits": {
             "title": "Scheda prodotto",
             "productColorTheme": "#37246b",
@@ -1707,7 +1502,7 @@
                     "title": "Fornisce forza e flessibilità",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-i2-FIO_2319.webp",
+                        "src": "\\images\\products\\BMD-i2-FIO_2319.webp",
                         "alt": ""
                     },
                     "description": "Aiuta a fornire forza e flessibilità alle strutture fibrose di collagene presenti nel tessuto corporeo. Ciò contribuisce a mantenere la forma del tessuto e può essere particolarmente utile per i tessuti che richiedono una maggiore resistenza, come i tendini."
@@ -1716,7 +1511,7 @@
                     "title": "Stimola la sintesi del collagene",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-GG-P1107585.webp",
+                        "src": "\\images\\products\\BMD-GG-P1107585.webp",
                         "alt": ""
                     },
                     "description": "Stimola la sintesi del collagene, proteina fondamentale per la salute e l'integrità dei tessuti connettivi. Aumenta la produzione di collagene e favorisce la guarigione e il recupero dei tessuti danneggiati. Aiuta a proteggere le cellule dal danno ossidativo."
@@ -1725,7 +1520,7 @@
                     "title": "Azione analgesica e antinfiammatoria",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-P1072538+cropped.webp",
+                        "src": "\\images\\products\\BMD-P1072538+cropped.webp",
                         "alt": ""
                     },
                     "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
@@ -1734,7 +1529,7 @@
                     "title": "Biodisponibilita'",
                     "icon": "",
                     "img": {
-                        "src": "\\src\\BMD-FIO_6039.webp",
+                        "src": "\\images\\products\\BMD-FIO_6039.webp",
                         "alt": ""
                     },
                     "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
@@ -1780,19 +1575,12 @@
                 "details":[]
             }
         ],
-        "newsletter-1": {
-            "title": "Iscriviti alla newsletter",
-            "portalId": "19647191",
-            "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
-            "desktopImage": "\\src\\05.webp",
-            "mobileImage": "\\src\\05-mob.webp"
-        },
         "newsletter": {
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "a6e87520-c370-4d81-9dbb-8b3766066776",
-            "desktopImage": "/src/06.webp",
-            "mobileImage": "/src/06-mob.webp"
+            "desktopImage": "/images/newsletters/06.webp",
+            "mobileImage": "/images/newsletters/06-mob.webp"
         },
         "seo": {
             "title": "Tendoactive | Bruno MD",

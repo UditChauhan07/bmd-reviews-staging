@@ -4,15 +4,15 @@
     "theme": null,
     "badges": [
       {
-        "src": "\\src\\14-giormi.webp",
+        "src": "\\images\\14-giormi.webp",
         "alt": "14-giormi"
       },
       {
-        "src": "\\src\\con-ordini.webp",
+        "src": "\\images\\con-ordini.webp",
         "alt": "con-ordini"
       },
       {
-        "src": "\\src\\shopify-secure.webp",
+        "src": "\\images\\shopify-secure.webp",
         "alt": "shopify-secure"
       }
     ]

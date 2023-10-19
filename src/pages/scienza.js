@@ -1,19 +1,30 @@
 import React from 'react'
 import scienza from '../../json/scienza.json'
-import { WistiaHero } from '@/utilities/WistiaHero';
 import { NewsLetter } from '@/utilities/NewsLetter';
 import TextText from '@/utilities/Sections/Text&Text';
 import ImgText from '@/utilities/Sections/Img&Text';
 import Quote from '@/utilities/Sections/Quote';
 import PageHead from '@/utilities/Head';
-import SEO from '../../json/SEO.json'
+import SEO from '../../json/SEO.json';
+import dynamic from "next/dynamic";
+
+const DynamicVideoComponent = dynamic(
+  () => import("@/utilities/Video/master"),
+  {
+    loading: () => (
+      <div class="center-body" style={{ height: "200px" }}>
+        <div class="loader-circle-2"></div>
+      </div>
+    ),
+  }
+);
 
 export default function Scienza({version,script}) {
     const {masterHead, sectionOne,sectionTwo,quote,newsletter} = scienza[version] || {};
     return(
         <section>
             <PageHead content={SEO[version].scienza.SEO} />
-            <WistiaHero id={masterHead.id} content={masterHead.content}/>
+            <DynamicVideoComponent  content={masterHead.content} src={masterHead.video}/>
             <div style={{margin:'3rem auto'}}><TextText data={sectionOne.sectionContent} /></div>
             <img src={sectionOne.sectionImage.src} alt="..." style={{width:'100%'}}/>
             <ImgText data={sectionTwo} />

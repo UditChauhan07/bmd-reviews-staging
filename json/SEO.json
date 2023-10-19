@@ -4,108 +4,84 @@
          "title": "Pagina iniziale",
          "SEO": {
             "title": "BrunoMD | Prodotti per la Salute e il Benessere",
-            "description": "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro.",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro."
          }
       },
       "storia": {
          "title": "La Nostra Storia",
          "SEO": {
             "title": "BrunoMD | La Nostra Storia | Integratore di Grado di Prescrizione",
-            "description": "Per 25 anni, BrunoMD ha offerto alcuni degli integratori di grado di prescrizione più innovativi ed efficaci disponibili. Leggi la nostra storia.",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Per 25 anni, BrunoMD ha offerto alcuni degli integratori di grado di prescrizione più innovativi ed efficaci disponibili. Leggi la nostra storia."
          }
       },
       "scienza": {
          "title": "Scienza",
          "SEO": {
             "title": "Scienza | Bruno MD",
-            "description": "Come italiani, siamo estremamente orgogliosi di perfezionare le cose. La vita mediterranea inizia usando la scienza per perfezionare il meglio della natura. Scopri la nostra scienza.",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Come italiani, siamo estremamente orgogliosi di perfezionare le cose. La vita mediterranea inizia usando la scienza per perfezionare il meglio della natura. Scopri la nostra scienza."
          }
       },
       "frequenti": {
          "title": "Scienza",
          "SEO": {
             "title": "Scienza | Bruno MD",
-            "description": "Come italiani, siamo estremamente orgogliosi di perfezionare le cose. La vita mediterranea inizia usando la scienza per perfezionare il meglio della natura. Scopri la nostra scienza.",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Come italiani, siamo estremamente orgogliosi di perfezionare le cose. La vita mediterranea inizia usando la scienza per perfezionare il meglio della natura. Scopri la nostra scienza."
          }
       },
       "register": {
          "title": "Register",
          "SEO": {
             "title": "Accedi al tuo account | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Accedi al tuo account"
          }
       },
       "login": {
          "title": "Login",
          "SEO": {
             "title": "Login | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Login"
          }
       },
       "account": {
          "title": "Account",
          "SEO": {
             "title": "Account | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Account"
          }
       },
       "addresses": {
          "title": "I tuoi indirizzi",
          "SEO": {
             "title": "I tuoi indirizzi | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "I tuoi indirizzi"
          }
       },
       "createAddress": {
          "title": "Creare indirizzo",
          "SEO": {
             "title": "Creare indirizzo | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Creare indirizzo"
          }
       },
       "EditAddress": {
          "title": "Modiica indirizzo",
          "SEO": {
             "title": "Modiica indirizzo | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Modiica indirizzo"
          }
       },
       "OrderDetails": {
          "title": "Dettagli ordine",
          "SEO": {
             "title": "Dettagli ordine | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Dettagli ordine"
          }
       },
       "forgot":{
          "title": "Dimenticare la password",
          "SEO": {
             "title": "Dimenticare la password | Bruno MD",
-            "description": "",
-            "siteName": "© 2023 brunomd.com. Diritti riservati",
-            "image": "\\src\\Bruno-Logo-WhiteKO.webp"
+            "description": "Dimenticare la password"
          }
       }
    }

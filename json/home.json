@@ -40,7 +40,7 @@
           "name": "Pre-Diabetic",
           "link": "/collezioni/pre-diabete",
           "logo": {
-            "src": "\\src\\Pre-diabete.webp",
+            "src": "\\images\\Pre-diabete.webp",
             "alt": "Pre-Diabetic"
           }
         },
@@ -48,7 +48,7 @@
           "name": "Pelle",
           "link": "/collezioni/salute-della-pelle",
           "logo": {
-            "src": "\\src\\Pelle.webp",
+            "src": "\\images\\Pelle.webp",
             "alt": "Pelle"
           }
         },
@@ -67,24 +67,6 @@
             "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/sali-minerali.webp?v=1695029782",
             "alt": "Sali Minerali"
           }
-        }
-      ]
-    },
-    "trustBages": {
-      "title": "14 Giorni - Soddisfatti o Rimborsati",
-      "theme": null,
-      "badges": [
-        {
-          "src": "/src/14-giormi.webp",
-          "alt": "14-giormi"
-        },
-        {
-          "src": "/src/con-ordini.webp",
-          "alt": "con-ordini"
-        },
-        {
-          "src": "/src/shopify-secure.webp",
-          "alt": "shopify-secure"
         }
       ]
     },
@@ -114,8 +96,8 @@
       "title": "Iscriviti alla newsletter",
       "portalId": "19647191",
       "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
-      "desktopImage": "/src/home-news-desk.webp",
-      "mobileImage": "/src/home-news-mob.webp"
+      "desktopImage": "/images/newsletters/home-news-desk.webp",
+      "mobileImage": "/images/newsletters/home-news-mob.webp"
     }
   }
 }

@@ -2,11 +2,11 @@
     "EU": {
         "masterHead": {
             "desktopImage": {
-                "src": "/src/storia-desk.webp",
+                "src": "/images/storia-desk.webp",
                 "alt": ""
             },
             "mobileImage": {
-                "src": "/src/storia-mob.webp",
+                "src": "/images/storia-mob.webp",
                 "alt": ""
             },
             "title": "La Nostra Storia"
@@ -14,77 +14,77 @@
         "timelineDesc": "Da 25 anni, Bruno MD offre i piu' innovativi ed efficienti integratori che sono al livello dei farmaci da prescrizione.",
         "timeline": [
             {
-                "src": "\\src\\Gennaio-1996.webp",
+                "src": "\\images\\Gennaio-1996.webp",
                 "alt": "",
                 "title": "1996",
                 "subTitle": "Gennaio 1996",
                 "Desc": "La Bruno Farmaceutici e' stata fondata dal Dottor Antonio Bruno, e dal figlio Vincenzo."
             },
             {
-                "src": "\\src\\Luglio-1996.webp",
+                "src": "\\images\\Luglio-1996.webp",
                 "alt": "",
                 "title": "1996",
                 "subTitle": "Luglio 1996",
                 "Desc": "La Bruno Farmaceutici ha acquisito un portafoglio di farmaci della Hoechst Marion Roussel (Germania) e comincia le sue operazioni commerciali in Italia."
             },
             {
-                "src": "\\src\\1997-2001.webp",
+                "src": "\\images\\1997-2001.webp",
                 "alt": "",
                 "title": "1997",
                 "subTitle": "1997 - 2001",
                 "Desc": "La Bruno Farmaceutici allarga il suo portafoglio acquisendo piu' farmaci dalle multinazionali compagnie farmaceutiche."
             },
             {
-                "src": "\\src\\2001.webp",
+                "src": "\\images\\2001.webp",
                 "alt": "",
                 "title": "2001",
                 "Desc": "La figlia del Dottor Bruno, Mariolina entra a far parte della societa'."
             },
             {
-                "src": "\\src\\2001-2011.webp",
+                "src": "\\images\\2001-2011.webp",
                 "alt": "",
                 "title": "2011",
                 "subTitle": "2001 - 2011",
                 "Desc": "La Bruno Farmaceutici si sviluppa in Italia come azienda specializzata in osteoporosi, gestione del dolore e cardiovascolare"
             },
             {
-                "src": "\\src\\2012.1.webp",
+                "src": "\\images\\2012.1.webp",
                 "alt": "",
                 "title": "2012",
                 "Desc": "La Bruno Farmaceutici acquista un portafoglio di prodotti antidiabetici dalla Merck."
             },
             {
-                "src": "\\src\\2012.2.webp",
+                "src": "\\images\\2012.2.webp",
                 "alt": "",
                 "title": "2012",
                 "Desc": "La Bruno Farmaceutici lancia in Italia la prima bevanda liquida Alendronate"
             },
             {
-                "src": "\\src\\2015.webp",
+                "src": "\\images\\2015.webp",
                 "alt": "",
                 "title": "2015",
                 "Desc": "La Bruno Farmaceutici lancia in Italia il primo Flecainide a rilascio controllato."
             },
             {
-                "src": "\\src\\2017.webp",
+                "src": "\\images\\2017.webp",
                 "alt": "",
                 "title": "2017",
                 "Desc": "La Bruno Farmaceutici inizia le sue operazioni commerciali negli Stati Uniti D'America, fondando Bruno MD"
             },
             {
-                "src": "\\src\\2019.webp",
+                "src": "\\images\\2019.webp",
                 "alt": "",
                 "title": "2019",
                 "Desc": "La Bruno Farmaceutici sviluppa la prima capsula soft-gel contenente Calcidiolo (Vitamina D)"
             },
             {
-                "src": "\\src\\2021.webp",
+                "src": "\\images\\2021.webp",
                 "alt": "",
                 "title": "2021",
                 "Desc": "La Bruno Farmaceutici raggiunge una presenza commerciale globale internazionale."
             },
             {
-                "src": "\\src\\2021.1.webp",
+                "src": "\\images\\2021.1.webp",
                 "alt": "",
                 "title": "2021",
                 "Desc": "La Bruno Farmaceutici celebra l'anniversario dei suoi 25 anni."
@@ -94,7 +94,7 @@
             {
                 "title": "La nostra azienda",
                 "sectionImg": {
-                    "src": "\\src\\La-nostra-compagnia.webp",
+                    "src": "\\images\\La-nostra-compagnia.webp",
                     "alt": "",
                     "imgPostion": "left"
                 },
@@ -108,7 +108,7 @@
             {
                 "title": null,
                 "sectionImg": {
-                    "src": "\\src\\storia-2.webp",
+                    "src": "\\images\\storia-2.webp",
                     "alt": "",
                     "imgPostion": "right"
                 },
@@ -126,8 +126,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
-            "desktopImage": "/src/home-news-desk.webp",
-            "mobileImage": "/src/home-news-mob.webp"
+            "desktopImage": "/images/newsletters/home-news-desk.webp",
+            "mobileImage": "/images/newsletters/home-news-mob.webp"
         }
     }
 }
