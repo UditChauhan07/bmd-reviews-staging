@@ -6,7 +6,7 @@ return(
     <section className={styles.container} >
         {isDesktopImage &&
           <div className={styles.dFlex}>
-            <img src={content.bannerDesk?.src} alt={content.bannerDesk?.alt} className={styles.col1} />
+            <img src={content.bannerDesk?.src} alt={content.bannerDesk?.alt} className={styles.col1} width={'auto'} height={auto} />
             <div className={styles.col2}>
               <div className={styles.textContainer} style={{'background-color':content.colorTheme}}>
                 <div className={styles.wBorder}>
