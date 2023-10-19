@@ -60,7 +60,7 @@ const Product = ({ version,script }) => {
             method: "POST",
             headers: {
               id: EXTERNALID,
-              type:4
+              type:2
             },
           })
           .then((response) => response.json())
@@ -72,7 +72,7 @@ const Product = ({ version,script }) => {
                   element.subscription_preferences.charge_interval_frequency
                 )
                   freq.push({
-                    id: element.id,
+                    id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
                     value:
                       element.subscription_preferences
                         .charge_interval_frequency +

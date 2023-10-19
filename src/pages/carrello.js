@@ -34,6 +34,7 @@ const [ removeState, setRemoveState] = useState();
   }, [removeState]);
   const listItem = async () => {
     getCartList().then((response)=>{
+      if(response?.data?.cart?.lines?.edges?.length == 0) location.removeItem("e6S4JJM9G");
       setData({
                 url: response?.data?.cart?.checkoutUrl,
                 price: parseFloat(response?.data?.cart?.cost?.totalAmount?.amount),

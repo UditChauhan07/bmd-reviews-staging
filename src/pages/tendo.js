@@ -21,7 +21,7 @@ import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
 
-const Bicycling = ({ version, script }) => {
+const Tendo = ({ version, script }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [ clickedType, setClickedType] = useState('Onetime');
 
@@ -41,7 +41,7 @@ const Bicycling = ({ version, script }) => {
       {pageData?.announcement &&<AnnouncementBar announcement={pageData.announcement.title} theme={pageData.announcement.theme} ModalHandler={ModalHandler}/>}
       {pageData?.nav &&<StickyNav theme={pageData.announcement.theme}/>}
       {pageData?.wistiaVideoId &&<WistiaHero id={pageData.wistiaVideoId} content={{ buyNow: true, ModalHandler, btnLandingText:"Shop" }} theme={pageData.announcement.theme} video={pageData.video}/>}
-      {pageData?.bottomBar &&<ModalBoxInner content={pageData.bottomBar} isOpen={isOpen} ModalHandler={ModalHandler} externalId={pageData.variantId} clickedType={clickedType} version={version}/>}
+      {pageData?.bottomBar &&<ModalBoxInner content={pageData.bottomBar} isOpen={isOpen} ModalHandler={ModalHandler} externalId={pageData.externalId} productVariantId={pageData.variantId} clickedType={clickedType} version={version}/>}
       {PatnerData &&<MarkqueCarousel image={PatnerData} />}
       {pageData?.ImageAside &&<ImageAside content={pageData.ImageAside} />}
       {pageData?.ProductArticleModal &&<ProductArticleModal content={pageData.ProductArticleModal} ModalHandler={ModalHandler} />}
@@ -60,5 +60,5 @@ const Bicycling = ({ version, script }) => {
     </>
   )
 }
-Bicycling.hideLayout = true;
-export default Bicycling;
+Tendo.hideLayout = true;
+export default Tendo;

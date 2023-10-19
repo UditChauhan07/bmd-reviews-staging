@@ -43,7 +43,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
 
   const handleFreqChange = (e) => {
     const { value } = e.target;
-    setCurrentShippingInterval(parseInt(value));
+    setCurrentShippingInterval(value);
     data.freq.map((element) => {
       if (element.id == value) {
         setFreq(element.value);

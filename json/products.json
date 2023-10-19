@@ -1481,8 +1481,7 @@
                 "btnText": "Acquisto periodico",
                 "interval": "giorni",
                 "saveLabel": "Risparmia subito",
-                "extraLabel": "acquisto periodico",
-                "hide":true 
+                "extraLabel": "acquisto periodico"
             },
             "moneyBackInfo": {
                 "title": "14 Giorni - Soddisfatti o Rimborsati ",
