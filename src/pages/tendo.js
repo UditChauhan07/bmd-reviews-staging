@@ -51,8 +51,8 @@ const Bicycling = ({ version, script }) => {
       {pageData?.FourStepProcess &&<FourStepProcess processCards={pageData.FourStepProcess.items} theme={pageData.theme} header={pageData.FourStepProcess.title} stepAlignment={true}/>}
       {pageData?.ReasonsToBelieve &&<ReasonsToBelieve ingredients={pageData.ReasonsToBelieve.ingredients} content={pageData.ReasonsToBelieve.items} theme={pageData.theme} product={pageData.product} accordanTitle={"Ingredienti e studi clinici"}/>}
       {/* {pageData?.variantId &&<ProductReviews variantId={pageData.variantId} />} */}
-      {script &&<>{pageData?.NewsLetter &&<NewsLetter content={pageData.NewsLetter} />}</>}
-      {!pageData?.chat&&<Chat />}
+      {script &&<>{pageData?.NewsLetter &&<NewsLetter content={pageData.NewsLetter} />}
+      {!pageData?.chat&&<Chat />}</>}
       {pageData?.footer && <Footer data={pageData.footer} />}
       {!isOpen &&<SubscriptionBar content={pageData.bottomBar} ModalHandler={ModalHandler} />}
       </>
