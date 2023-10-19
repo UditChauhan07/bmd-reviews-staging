@@ -92,9 +92,9 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
                   <Link href={logInLink} className={styles.btnLink1} alt="customer login">
                     <span className={styles.loginText}>{logInText}</span>
                   </Link>
-                  <a href={cartUrl} className={styles.btnLink} aria-label="Cart">
-                    <CartIcon number={(!itemNumber) ? "" : itemNumber} />
-                  </a>
+                  <div onClick={()=>window.location.href = cartUrl} className={styles.btnLink}>
+                        <CartIcon number={(itemNumber === 0) ? "" : itemNumber} styles={{paddingTop:'2px'}}/>
+                      </div>
                 </div>
               </div>
             </div>
