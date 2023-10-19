@@ -37,10 +37,10 @@ export default function Home({ data }) {
                     <div className={styles.legalCol}>
                         <div className={styles.dFlex}>
                             <div>
-                                <Image className={styles.m10px} src={'/src/shopify-foo.webp'} width={85} height={36} alt='...' />
+                                <Image className={styles.m10px} src={'/images/shopify-foo.webp'} width={85} height={36} alt='...' />
                             </div>
                             <div>
-                                <Image className={styles.m10px} src='/src/paymentcard-foo.webp' alt='...' height={20} width={199}/>
+                                <Image className={styles.m10px} src='/images/paymentcard-foo.webp' alt='...' height={20} width={199}/>
                             </div>
                         </div>
                         <div className={styles.textContainer} dangerouslySetInnerHTML={{ __html: data?.text }} />

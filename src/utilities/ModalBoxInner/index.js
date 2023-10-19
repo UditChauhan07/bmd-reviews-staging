@@ -85,7 +85,7 @@ const ModalBoxInner = ({ isOpen, content, ModalHandler,clickedType,externalId ,v
                                             <p>Buy 2 Get</p>
                                             <p><span>FREE SHIPPING</span></p>
                                         </div>
-                                        <img src='\utility\free-shipping-32.png' alt='...'/>
+                                        <img src='\images\landing\free-shipping-32.png' alt='...'/>
                                     </div>}</>}
                             </div>
                             <div className={styles.boxEight}>
@@ -112,7 +112,7 @@ const ModalBoxInner = ({ isOpen, content, ModalHandler,clickedType,externalId ,v
                                             <p>Buy 2 Get</p>
                                             <p><span>FREE SHIPPING</span></p>
                                         </div>
-                                        <img src='\utility\free-shipping-32.png' />
+                                        <img src='\images\landing\free-shipping-32.png' />
                                     </div>}
                                 </div>
                             </div>
