@@ -40,7 +40,7 @@
           "name": "Pre-Diabetic",
           "link": "/collezioni/pre-diabete",
           "logo": {
-            "src": "\\images\\Pre-diabete.webp",
+            "src": "\\images\\Pre-diabete-collection.webp",
             "alt": "Pre-Diabetic"
           }
         },
@@ -48,7 +48,7 @@
           "name": "Pelle",
           "link": "/collezioni/salute-della-pelle",
           "logo": {
-            "src": "\\images\\Pelle.webp",
+            "src": "\\images\\Pelle-collection.webp",
             "alt": "Pelle"
           }
         },
