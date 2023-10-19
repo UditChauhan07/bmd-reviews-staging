@@ -21,7 +21,7 @@ import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
 
-const Bicycling = ({ version }) => {
+const Bicycling = ({ version, script }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [ clickedType, setClickedType] = useState('Onetime');
 
@@ -51,7 +51,7 @@ const Bicycling = ({ version }) => {
       {pageData?.FourStepProcess &&<FourStepProcess processCards={pageData.FourStepProcess.items} theme={pageData.theme} header={pageData.FourStepProcess.title} stepAlignment={true}/>}
       {pageData?.ReasonsToBelieve &&<ReasonsToBelieve ingredients={pageData.ReasonsToBelieve.ingredients} content={pageData.ReasonsToBelieve.items} theme={pageData.theme} product={pageData.product} accordanTitle={"Ingredienti e studi clinici"}/>}
       {/* {pageData?.variantId &&<ProductReviews variantId={pageData.variantId} />} */}
-      {pageData?.NewsLetter &&<NewsLetter content={pageData.NewsLetter} />}
+      {script &&<>{pageData?.NewsLetter &&<NewsLetter content={pageData.NewsLetter} />}</>}
       {!pageData?.chat&&<Chat />}
       {pageData?.footer && <Footer data={pageData.footer} />}
       {!isOpen &&<SubscriptionBar content={pageData.bottomBar} ModalHandler={ModalHandler} />}

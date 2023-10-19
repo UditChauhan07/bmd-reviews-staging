@@ -8,7 +8,7 @@ import Quote from '@/utilities/Sections/Quote';
 import PageHead from '@/utilities/Head';
 import SEO from '../../json/SEO.json'
 
-export default function Scienza({version}) {
+export default function Scienza({version,script}) {
     const {masterHead, sectionOne,sectionTwo,quote,newsletter} = scienza[version] || {};
     return(
         <section>
@@ -18,7 +18,7 @@ export default function Scienza({version}) {
             <img src={sectionOne.sectionImage.src} alt="..." style={{width:'100%'}}/>
             <ImgText data={sectionTwo} />
             <Quote data={quote}/>
-            <NewsLetter content={newsletter}/>
+            {script&&<NewsLetter content={newsletter}/>}
         </section>
     )
 

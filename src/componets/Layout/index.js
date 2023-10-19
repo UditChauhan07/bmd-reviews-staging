@@ -12,7 +12,7 @@ const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
   loading: () => <p>Loading...</p>,
 })
 
-export default function Layout({ children,version }) {
+export default function Layout({ children,version,script }) {
     return (
         <>
         {data[version] &&
@@ -20,7 +20,7 @@ export default function Layout({ children,version }) {
             {data[version].announcementBar &&<AnnouncementBar announcement={data[version].announcementBar.title} theme={{ textColor: data[version].announcementBar.textColor, backgroundColor: data[version].announcementBar.backgroundColor }} />}
             {data[version].links &&<Header link={data[version].links} version={version} iconLink={{cart:data[version].cartLink, login:data[version].login}}/>}
             <main>{children}</main>
-            <DynamicChat />
+            {script &&<DynamicChat />}
             {data[version].redirection &&<GeoRedirect redirect={data[version].redirection}/>}
             <FeatureInfo infoBanners={data[version].featureInfo} />
             <Footer data={data[version].footer} />

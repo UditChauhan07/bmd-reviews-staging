@@ -5,7 +5,7 @@ import HomePageData from "../../json/home.json";
 import ContactData from "../../json/contattaci.json";
 import PageHead from "@/utilities/Head";
 
-export default function Contattaci({ version }) {
+export default function Contattaci({ version,script }) {
   const { firstSection, term } = ContactData[version] || null;
   const [state1, setState1] = useState(false);
   const [state2, setState2] = useState(false);
@@ -150,7 +150,7 @@ export default function Contattaci({ version }) {
           {/* <ContactUsForm /> */}
         </div>
       </div>
-      <NewsLetter content={HomePageData[version].newsletter} />
+      {script && <NewsLetter content={HomePageData[version].newsletter} />}
     </section>
   );
 }

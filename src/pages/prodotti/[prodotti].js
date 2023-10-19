@@ -17,7 +17,7 @@ import FourStepProcess from "@/utilities/FourStepProcess";
 import { HomeGallery } from "@/utilities/HomeGallery";
 import { getProduct } from "@/data/lib";
 
-const Product = ({ version }) => {
+const Product = ({ version,script }) => {
   const [load, setLoad] = useState(true);
   const [product, setProduct] = useState();
   const [shopifyP, setSProduct] = useState();
@@ -182,7 +182,7 @@ const Product = ({ version }) => {
       {testimonial && (
         <Testimonial content={{ slides: testimonial, theme: theme }} />
       )}
-      {homeGallery && (
+      {script &&<>{homeGallery && (
         <HomeGallery
           id={homeGallery.id}
           galleryId={homeGallery.galleryId}
@@ -190,7 +190,7 @@ const Product = ({ version }) => {
         />
       )}
       {!review && <ProductReviews product={shopifyP} />}
-      <NewsLetter content={newsletter} />
+      {newsletter &&<NewsLetter content={newsletter} />}</>}
     </section>
   );
 };

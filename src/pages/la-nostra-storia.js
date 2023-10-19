@@ -8,7 +8,7 @@ import PageHead from '@/utilities/Head';
 import SEO from '../../json/SEO.json'
 import styles from '@/styles/frequenti.module.css'
 
-export default function Storia({version}) {
+export default function Storia({version,script}) {
     const {masterHead,timelineDesc, section,timeline,newsletter} = storia[version] || {};
     return(
         <section>
@@ -21,7 +21,7 @@ export default function Storia({version}) {
         </div>
         <TimeLine data={timeline}/>
         <ImgText data={section}/>
-        <NewsLetter content={newsletter}/>
+        {script&&<NewsLetter content={newsletter}/>}
         </section>
     )
 

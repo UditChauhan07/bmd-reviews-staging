@@ -6,7 +6,7 @@ import Accordion from '@/utilities/Accordion';
 import styles from '@/styles/frequenti.module.css'
 import PageHead from '@/utilities/Head';
 
-export default function Frequenti({version}) {
+export default function Frequenti({version,script}) {
     const { masterHead, section, newsletter, seo } = frequenti[version] || {};
     return (
         <section>
@@ -26,7 +26,7 @@ export default function Frequenti({version}) {
                     }
                 </div>
             </div>
-            <NewsLetter content={newsletter} />
+            {script &&<NewsLetter content={newsletter} />}
         </section>
     )
 }
