@@ -32,9 +32,9 @@ const ProductSlideAccordion = ({ content, theme,ModalHandler=null }) => {
                     {content.buyNow && <span className={styles.buyNow} id="productAslideTrigger" onClick={ModalHandler} style={{background: color}}>Buy Now</span>}
                 </div>
                 <div className={styles.wrapper}>
-                    <h1 className={styles.header}>{content?.heading}</h1>
-                    {content.subHeading &&<h2 className={styles.subHeader}>{content.subHeading}</h2>}
-                    <h3 className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</h3>
+                    <p className={styles.header}>{content?.heading}</p>
+                    {content.subHeading &&<p className={styles.subHeader}>{content.subHeading}</p>}
+                    <p className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</p>
                     <p className={styles.underHeaderNote}>{content.text}</p>
                     <Accordion allowMultiple className={styles.accordion}>
                         {content.items.map((element, idx) => {
