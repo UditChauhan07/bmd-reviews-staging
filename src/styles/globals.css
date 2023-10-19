@@ -251,6 +251,7 @@ ol {
 }
 .xyz{
   display: block;
+  color:#fff;
 }
 #hubspot-messages-iframe-container iframe {
   top: 0!important;
