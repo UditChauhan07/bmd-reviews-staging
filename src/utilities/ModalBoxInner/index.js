@@ -123,6 +123,7 @@ const ModalBoxInner = ({
       .then((response) => {
         console.log({ response, freq });
         if (response?.data?.cartCreate?.cart?.checkoutUrl) {
+          setCartLoad(false);
           if (content?.onetimeBox?.discount && type == "Onetime") {
             window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}?discount=${content?.onetimeBox?.discount}`;
           } else {
