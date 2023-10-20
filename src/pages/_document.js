@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-  let script = false;
+  let script = true;
   return (
     <Html lang="en">
       <Head>
