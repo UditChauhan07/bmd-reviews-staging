@@ -25,7 +25,8 @@
 }
 
 .col1 {
-    width: 60%;
+    width: 100%;
+    flex: 0 0 60%;
     height: auto;
 }
 
