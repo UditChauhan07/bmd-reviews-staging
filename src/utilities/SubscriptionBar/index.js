@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './styles.module.css'
-const SubscriptionBar = ({content,ModalHandler}) => {
+const SubscriptionBar = ({content,ModalHandler,active}) => {
     return (
         <section className={styles.SubscriptionBar}>
             <div className={styles.SubscriptoionInner}>
@@ -14,9 +14,9 @@ const SubscriptionBar = ({content,ModalHandler}) => {
                         </div>
                         <div className={styles.colxl5}>
                             <div className={styles.SubOneTime}>
-                                <div className={styles.button01} onClick={ModalHandler} data-value="Subscribe">
+                                <div className={active == 'Subscribe'?styles.button02:styles.button01} onClick={ModalHandler} data-value="Subscribe">
                                     <div data-value="Subscribe">
-                                        <p className={styles.priceCross} data-value="Subscribe">${content.subscriptionBox.price}</p>
+                                        <p className={styles.priceCross} data-value="Subscribe">€{content.subscriptionBox.price.toFixed(2)}</p>
                                     </div>
                                     <div className={styles.btnText} data-value="Subscribe">
                                         <div data-value="Subscribe">
@@ -28,9 +28,9 @@ const SubscriptionBar = ({content,ModalHandler}) => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={styles.button02} onClick={ModalHandler}>
+                                <div className={active != 'Subscribe'?styles.button02:styles.button01} onClick={ModalHandler}>
                                     <div>
-                                        <p className={styles.priceCross}>${content.onetimeBox.price}</p>
+                                        <p className={styles.priceCross}>€{content.onetimeBox.price.toFixed(2)}</p>
                                     </div>
                                     <div className={styles.btnText}>
                                         <div>

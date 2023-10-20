@@ -15,7 +15,7 @@ import ProductReviews from "@/utilities/ProductReviews";
 import Testimonial from "@/utilities/Testimonial";
 import FourStepProcess from "@/utilities/FourStepProcess";
 import { HomeGallery } from "@/utilities/HomeGallery";
-import { getProduct } from "@/data/lib";
+import { getProduct, getSubscription } from "@/data/lib";
 
 const Product = ({ version,script }) => {
   const [load, setLoad] = useState(true);
@@ -56,75 +56,67 @@ const Product = ({ version,script }) => {
         })
       }
         if (EXTERNALID && rechargeProduct?.product_id != EXTERNALID) {
-          fetch("https://dev.beautyfashionsales.com/brunoeu/2vFjH93gPTu", {
-            method: "POST",
-            headers: {
-              id: EXTERNALID,
-              type:2
-            },
-          })
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.data?.plans?.length) {
-              let freq = [];
-              data.data.plans.map((element) => {
-                if (
-                  element.subscription_preferences.charge_interval_frequency
-                )
-                  freq.push({
-                    id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
-                    value:
-                      element.subscription_preferences
-                        .charge_interval_frequency +
-                      " giorni",
-                  });
-              });
-              freq.sort((a, b) => {
-                if (a.value < b.value) {
-                  return -1;
-                }
-                if (a.value > b.value) {
-                  return 1;
-                }
-              });
-              setRProduct({
-                product_id: EXTERNALID,
-                subscription_preferences: freq,
-                
-              });
-            }
-            if(data?.data?.selling_plan_groups.length > 0){
-              let freq = [];
-              data.data.selling_plan_groups[0].selling_plans.map((plans)=>{
-                if (
-                  plans.order_interval_frequency
-                ){
-                  freq.push({
-                    id:`gid://shopify/SellingPlan/${plans.selling_plan_id}`,
-                    value:
+          getSubscription({id:EXTERNALID}).then((response)=>{
+            console.log({response});
+            if (response?.plans?.length) {
+                let freqs = [];
+                response.plans.map((element) => {
+                  if (
+                    element.subscription_preferences.charge_interval_frequency
+                  )
+                    freqs.push({
+                      id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
+                      value:
+                        element.subscription_preferences
+                          .charge_interval_frequency +
+                        " giorni",
+                    });
+                });
+                freqs.sort((a, b) => {
+                  if (a.value < b.value) {
+                    return -1;
+                  }
+                  if (a.value > b.value) {
+                    return 1;
+                  }
+                });
+                setRProduct({
+                  product_id: EXTERNALID,
+                  subscription_preferences: freqs,
+                });
+              }
+              if(response?.selling_plan_groups?.length > 0){
+                let freqs = [];
+                response.selling_plan_groups[0].selling_plans.map((plans)=>{
+                  if (
                     plans.order_interval_frequency
-                     +
-                    " giorni",
-                  });
-                }
-              })
-              freq.sort((a, b) => {
-                if (a.value < b.value) {
-                  return -1;
-                }
-                if (a.value > b.value) {
-                  return 1;
-                }
-              });
-              setRProduct({
-                product_id: EXTERNALID,
-                subscription_preferences: freq,
-              });
-            }
-          })
-          .catch((err) => {
-            console.log(err);
-          });
+                  ){
+                    freqs.push({
+                      id:`gid://shopify/SellingPlan/${plans.selling_plan_id}`,
+                      value:
+                      plans.order_interval_frequency
+                       +
+                      " giorni",
+                    });
+                  }
+                })
+                freqs.sort((a, b) => {
+                  if (a.value < b.value) {
+                    return -1;
+                  }
+                  if (a.value > b.value) {
+                    return 1;
+                  }
+                });
+                setRProduct({
+                        product_id: EXTERNALID,
+                        subscription_preferences: freqs,
+                        
+                      });
+              }
+        }).catch((err)=>{
+            console.error({err});
+        })
         }
         setProduct(product);
       } else {

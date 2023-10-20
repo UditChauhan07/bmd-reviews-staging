@@ -182,9 +182,9 @@ const ModalBoxInner = ({
                 />
                 <label className={styles.label} for={"Subscribe"}>
                   <p>
-                    ${content.subscriptionBox.price}{" "}
+                  €{content.subscriptionBox.price.toFixed(2)}{" "}
                     {content?.price && (
-                      <span className={styles.strike}>${content?.price}</span>
+                     <span className={styles.strike}>€{content?.price.toFixed(2)}</span>
                     )}
                   </p>
                   <p className={styles.ft12}>
@@ -204,9 +204,9 @@ const ModalBoxInner = ({
                 />
                 <label className={styles.label} for={"Onetime"}>
                   <p>
-                    ${content.onetimeBox.price}{" "}
+                  €{content.onetimeBox.price.toFixed(2)}{" "}
                     {content?.price && (
-                      <span className={styles.strike}>${content?.price}</span>
+                      <span className={styles.strike}>€{content?.price.toFixed(2)}</span>
                     )}
                   </p>
                   <p className={styles.ft12}>
@@ -237,7 +237,7 @@ const ModalBoxInner = ({
                 {type == "Subscribe" ? (
                   <div className={styles.freqHolder}>
                     <label className={styles.selectLabel}>
-                      Delivery every:
+                    Consegna ogni:
                     </label>
                     <select
                       className={styles.selectHolder}
@@ -272,7 +272,7 @@ const ModalBoxInner = ({
               </div>
               <div className={styles.boxEight}>
                 <div className={styles.qtyHolder}>
-                  <label className={styles.selectLabel}>QTY:</label>
+                  <label className={styles.selectLabel}>Quantita&apos;:</label>
                   <select
                     className={styles.selectHolder}
                     onChange={QtyIncrement}
@@ -287,8 +287,8 @@ const ModalBoxInner = ({
                       </option>
                     ))}
                   </select>
-                  <p style={{ marginLeft: "2.5rem" }}>
-                    {quantity * 30} servings
+                  <p style={{ marginLeft: "3.5rem",marginTop:'2px',fontSize:'12px' }}>
+                    {quantity} scatola 20 sticks
                   </p>
                 </div>
               </div>
