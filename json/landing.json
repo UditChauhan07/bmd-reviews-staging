@@ -9,6 +9,7 @@
       "externalId":"8615981285701",
       "theme": "#0033A1",
       "reviewHide":true,
+      "checkout":true,
       "announcement": {
         "title": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
         "theme": {
@@ -43,7 +44,7 @@
         "offerTextColor": "#fff"
       },
       "ProductSlideAccordion": {
-        "src": "\\images\\landing\\tendo-active.png",
+        "src": "\\images\\landing\\tendo.webp",
         "heading": "Tendo Active",
         "subHeading": null,
         "subtitle": "Forte alleato contro",
@@ -220,7 +221,7 @@
             "PERIODICO"
           ],
           "modalBtnText": "SAVE €3.75 WITH SUBSCRIBE & SAVE",
-          "desc": "<p>SAVE 20% WITH SUBSCRIBE &amp; SAVE ON ALL FUTURE DELIVERIES</p><ul style='list-style: inside disc;'><li>NO FEES</li><li>CANCEL ANYTIME</li></ul>",
+          "desc": "<p>SAVE 20% WITH SUBSCRIBE &amp; SAVE ON ALL FUTURE DELIVERIES</p><ul style='list-style: inside disc;'><li>Nessun costo</li><li>Cancella quando vuoi</li></ul>",
           "btnText": "Subscribe"
         },
         "onetimeBox": {
@@ -229,14 +230,14 @@
             "ACQUISTO ",
             "SINGOLO"
           ],
-          "modalBtnText": "One-time Purchase",
+          "modalBtnText": "Acquisto Singolo",
           "discount": null,
           "desc": null,
           "btnText": "Checkout",
           "autoQty": 2
         },
         "productImg": {
-          "src": "\\images\\landing\\tendo-active.png"
+          "src": "\\images\\landing\\tendo.webp"
         }
       },
       "footer": {

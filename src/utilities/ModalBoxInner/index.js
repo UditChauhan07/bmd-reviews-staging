@@ -126,10 +126,10 @@ const ModalBoxInner = ({
           if (content?.onetimeBox?.discount && type == "Onetime") {
             window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}?discount=${content?.onetimeBox?.discount}`;
           } else {
-            let id = response?.data?.cartCreate?.cart?.id;
-            localStorage.setItem("e6S4JJM9G", id);
-            window.location.href = "/carrello";
-            //   window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}`;
+            // let id = response?.data?.cartCreate?.cart?.id;
+            // localStorage.setItem("e6S4JJM9G", id);
+            // window.location.href = "/carrello";
+              window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}`;
           }
         }
       })
@@ -304,7 +304,7 @@ const ModalBoxInner = ({
                     {cartLoad ? (
                       <Spinner className={styles.spinner} size={20} />
                     ) : (
-                      <>{type == "Subscribe" ? "Subscribe" : "Checkout"}</>
+                      <>{type == "Subscribe" ? "Acquisto periodico" : "Aggiungi al carrello"}</>
                     )}
                   </p>
                   {type == "Onetime" && content?.onetimeBox?.freeShip && (

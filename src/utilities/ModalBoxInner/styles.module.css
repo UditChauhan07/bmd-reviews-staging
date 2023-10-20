@@ -204,6 +204,7 @@
     display: flex;
     font-size: 20px;
     justify-content: center;
+    max-width: 300px;
 }
 
 .btn:hover {
@@ -213,7 +214,7 @@
 
 .btnContainer {
     display: -webkit-box;
-    margin-left: 20rem;
+    margin-left: 32rem;
     margin-top: 1rem;
 }
 
