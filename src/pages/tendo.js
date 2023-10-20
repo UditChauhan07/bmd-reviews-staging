@@ -1,6 +1,6 @@
 import LandingPage from "@/componets/LandingLayout";
 
-const Tendo = ({ version, script, page })=>{
+const Tendo = ({ version, script })=>{
   return(
     <LandingPage version={version} script={script} page={'tendo'}/>
   )
