@@ -23,8 +23,8 @@ const ReasonsToBelieve = ({ content, ingredients, theme,product,accordanTitle=nu
       <div>
         <div className={styles.reasonsContainer}>
           <h3 className={styles.reasonsHeader}>
-            Reasons To
-            <p className={styles.believeBluerex} style={{ color: theme }}>Believe</p>
+         Ragioni per
+            <p className={styles.believeBluerex} style={{ color: theme }}>Credere</p>
           </h3>
           <div className={styles.clinicalStudy}>
             <h3 className={styles.clinicalHeadlineBluerex} style={{ color: theme }}>{accordanTitle||"Ingredients and Clinical Studies"}</h3>
