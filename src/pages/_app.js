@@ -3,7 +3,7 @@ import Layout from "@/componets/Layout"
 import { RouteGuard } from '@/componets/RouteGuard'
 export default function App({ Component, pageProps }) {
   let version = "EU";
-  let script = true;
+  let script = false;
   
   if (Component?.hideLayout) {
     return (

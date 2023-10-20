@@ -1,12 +1,13 @@
 import styles from './styles.module.css'
 import { useMatchMedia } from '../Hooks/useMatchMedia'
+import Image from 'next/image'
 const ProductArticleModal = ({content,ModalHandler})=>{
     const [isDesktopImage] = useMatchMedia('(min-width: 1024px)', true)
 return(
     <section className={styles.container} >
         {isDesktopImage &&
           <div className={styles.dFlex}>
-            <img src={content.bannerDesk?.src} alt={content.bannerDesk?.alt} className={styles.col1} width={'auto'} height={'auto'} />
+            <Image src={content.bannerDesk?.src} alt={content.bannerDesk?.alt} className={styles.col1} width={1000} height={600} />
             <div className={styles.col2}>
               <div className={styles.textContainer} style={{'background-color':content.colorTheme}}>
                 <div className={styles.wBorder}>

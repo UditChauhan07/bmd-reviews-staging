@@ -31,7 +31,7 @@
       },
       "ProductArticleModal": {
         "bannerDesk": {
-            "src": "\\images\\landing\\Tendoactive_Plus_Newsletter.webp",
+            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015",
           "alt":"Tendo"
         },
         "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
@@ -152,7 +152,7 @@
       },
       "ReasonsToBelieve": {
         "ingredients1": {
-          "src": "\\images\\landing\\Tendoactive_Plus_Newsletter.webp"
+          "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015"
         },
         "productName": "Tendo Active",
         "accordanTitle": "Ingredienti e studi clinici",
