@@ -59,5 +59,5 @@ const LandingPage = ({ version, script, page }) => {
     </>
   )
 }
-LandingPage.hideLayout = true;
+
 export default LandingPage;

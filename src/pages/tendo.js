@@ -5,4 +5,5 @@ const Tendo = ({ version, script, page })=>{
     <LandingPage version={version} script={script} page={'tendo'}/>
   )
 }
+Tendo.hideLayout = true;
 export default Tendo;
