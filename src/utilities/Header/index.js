@@ -20,6 +20,7 @@ export default function Home({link, version,iconLink}) {
         }
       }
     }
+    if(document.getElementById("hubspot-messages-iframe-container")) document.getElementById("hubspot-messages-iframe-container").style.top = 'unset';
   }, [isDesktop])
     return(
         <header className={styles.header} id="header">

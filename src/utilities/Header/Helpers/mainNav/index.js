@@ -28,9 +28,9 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
   },[])
   const Hamtoggle = (value)=>{
     if(value){
-      document.getElementById("hubspot-conversations-iframe").style.opacity = "0";
+      if(document.getElementById("hubspot-messages-iframe-container")) document.getElementById("hubspot-messages-iframe-container").style.top = "3000px";
     }else{
-      document.getElementById("hubspot-conversations-iframe").style.opacity = "1";
+      if(document.getElementById("hubspot-messages-iframe-container")) document.getElementById("hubspot-messages-iframe-container").style.top = "unset";
     }
     setIsMobileNavOpen(value)
   }
