@@ -39,6 +39,27 @@ export async function createCustomerAddress({ address, customerAccessToken }) {
   }
 }
 
+export async function getProductSearch(){
+  console.log(url+"uvdvFvQz1BXdWQC");
+  let response = await fetch(url+"uvdvFvQz1BXdWQC", { 
+    method: "POST",
+    headers: {
+     Accept: '*/*',
+     'Content-Type': 'application/json',
+   },
+   body:JSON.stringify({token:"uvdvFvQz1BXdWQC"})
+  });
+  
+  let data = JSON.parse(await response.text());
+  console.log({data});
+  if(data?.status == 200){
+    let cdata = JSON.parse(data.data)
+     return cdata;
+   }else{
+     return Promise.resolve({});
+   }
+}
+
 export async function ResetUser({ email }) {
   let response = await fetch(url + "AC81LEr02sbbhLM", {
     method: "POST",

@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { useMatchMedia } from '@/utilities/Sections/Hooks/useMatchMedia'
 import { CartItemNumber } from '@/data/lib'
 import { useAmp } from 'next/amp'
+// import SearchBox from '../../SearchBox'
 
 const MainNav = ({ navMenuLinks,iconLink}) => {
   const loadAmp = useAmp()
@@ -25,6 +26,14 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
       console.log({err});
     })
   },[])
+  const Hamtoggle = (value)=>{
+    if(value){
+      document.getElementById("hubspot-conversations-iframe").style.opacity = "0";
+    }else{
+      document.getElementById("hubspot-conversations-iframe").style.opacity = "1";
+    }
+    setIsMobileNavOpen(value)
+  }
 
   const [logInText, setLogIntext] = useState(iconLink.login?.title)
   const [logInLink, setLogInLink] = useState(iconLink.login?.url)
@@ -32,7 +41,7 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
   const handleSearchSubmit = React.useCallback(query => router.push(`/search?q=${query}`), [router])
   if(isMobileNavOpen){
     return(
-      <MobileNav navMenuLinks={navMenuLinks} setIsMobileNavOpenProp={setIsMobileNavOpen} />
+      <MobileNav navMenuLinks={navMenuLinks} setIsMobileNavOpenProp={Hamtoggle} />
     )
   }
   if(!isMobileNavOpen)
@@ -72,8 +81,8 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
               {isMobileNavOpen ? (
                 <></>
               ) : (
-                <div onClick={() => setIsMobileNavOpen(true)}>
-                  <div className={styles.burgerButtonContainer} onClick={() => setIsMobileNavOpen(true)}>
+                <div onClick={() => Hamtoggle(true)}>
+                  <div className={styles.burgerButtonContainer} onClick={() => Hamtoggle(true)}>
                     <button className={styles.burgerLineContainer} id="hamburger" title="hamburger">
                       <span className={styles.burgerLineTop}></span>
                       <span className={styles.burgerLine}></span>
@@ -85,7 +94,7 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
             </div>
             <div className={styles.iconContainer}>
               <div onClick={() => setIsSearchOpened(true)}>
-                <SearchIcon />
+              <SearchIcon />
               </div>
               <div>
                 <div className={styles.loginButton}>
