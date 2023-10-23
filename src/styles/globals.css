@@ -508,3 +508,16 @@ https://flickity.metafizzy.co
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) {
+  #hubspot-conversations-iframe {
+    height: 70%!important;
+  }
+  #hubspot-messages-iframe-container.widget-align-left {
+    z-index: 11!important;
+    bottom: 15%!important;
+    max-height: 75%!important;
+}
+  .react-multi-carousel-item {
+    overflow: hidden;
+  }
+}

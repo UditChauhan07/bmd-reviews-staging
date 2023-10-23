@@ -1,4 +1,12 @@
 .header {
   width: 100%;
   z-index: 11;
+  position: fixed;
+  top: 0;
+}
+@media screen and (max-width: 768px){
+  .header{
+    bottom: 0!important;
+    top: unset!important;
+  }
 }
