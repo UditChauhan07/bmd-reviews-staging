@@ -106,8 +106,8 @@
             "title": "Iscriviti alla newsletter",
             "portalId": "19647191",
             "formId": "7b270a73-336b-4895-8b55-286a3f49b1f2",
-            "desktopImage": "/images/home-news-desk.webp",
-            "mobileImage": "/images/home-news-mob.webp"
+            "desktopImage": "/images/newsletters/home-news-desk.webp",
+            "mobileImage": "/images/newsletters/home-news-mob.webp"
         }
     }
 }
