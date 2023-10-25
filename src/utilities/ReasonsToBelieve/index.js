@@ -23,8 +23,8 @@ const ReasonsToBelieve = ({ content, ingredients, theme,product,accordanTitle=nu
       <div>
         <div className={styles.reasonsContainer}>
           <h3 className={styles.reasonsHeader}>
-         Ragioni per
-            <p className={styles.believeBluerex} style={{ color: theme }}>Credere</p>
+         Ingredienti e
+            <p className={styles.believeBluerex} style={{ color: theme }}>Studi clinici</p>
           </h3>
           <div className={styles.clinicalStudy}>
             <h3 className={styles.clinicalHeadlineBluerex} style={{ color: theme }}>{accordanTitle||"Ingredients and Clinical Studies"}</h3>
@@ -39,7 +39,9 @@ const ReasonsToBelieve = ({ content, ingredients, theme,product,accordanTitle=nu
                       </div>
                     </AccordionButton>
                     <AccordionPanel className={styles.AccordionPanel}>
-                      <div className={styles.expanded}>{element.expanded}</div>
+                    <div className={styles.expanded} dangerouslySetInnerHTML={{
+                      __html: element.expanded,
+                    }}></div>
                     </AccordionPanel>
                   </AccordionItem>
                 )

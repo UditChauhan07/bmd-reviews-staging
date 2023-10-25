@@ -69,7 +69,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
-          {pageData?.ImageAside && <ImageAside content={pageData.ImageAside} />}
+          {pageData?.ImageAside && <ImageAside content={pageData.ImageAside} theme={pageData.announcement.theme} />}
           {pageData?.ProductArticleModal && (
             <ProductArticleModal
               content={pageData.ProductArticleModal}

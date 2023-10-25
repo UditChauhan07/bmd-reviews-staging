@@ -14,7 +14,7 @@ export const NewsLetter = ({ content }) => {
         setImage(mobileImage);
       }
       if (portalId || formId) {
-        if(!window?.hbspt?.forms?.create){
+        if (!window?.hbspt?.forms?.create) {
           const script = document.createElement("script");
           script.src = "https://js.hsforms.net/forms/v2.js";
           document.body.appendChild(script);
@@ -27,8 +27,8 @@ export const NewsLetter = ({ content }) => {
               });
             }
           });
-        }else{
-          console.log({aa:window.hbspt.forms});
+        } else {
+          console.log({ aa: window.hbspt.forms });
         }
       }
     }
@@ -59,7 +59,7 @@ export const NewsLetter = ({ content }) => {
   } else {
     return (
       <section>
-        <div className={styles.container}>
+        <div className={!content?.alignWidth && styles.container}>
           <div
             className={styles.grid}
             style={formWidth && { gridTemplateColumns: formWidth }}

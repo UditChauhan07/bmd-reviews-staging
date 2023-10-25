@@ -1,17 +1,16 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-const ImageAside = ({ content }) => {
-    const { image, title, subTitle, titleDescription, legalText } = content
-
+const ImageAside = ({ content,theme }) => {
+    const { image, title, subTitle, titleDescription, legalText,subTitleColor,titleColor } = content
     if (!title || !subTitle) return null
     return (
         <section>
             <div className={styles.Container}>
                 <div className={styles.imageAsideContainer}>
                     <div className={styles.headingContainer}>
-                        <div className={styles.title} dangerouslySetInnerHTML={{ __html: title }} />
-                        <div className={styles.subTitle} dangerouslySetInnerHTML={{ __html: subTitle }} />
+                        <div className={styles.title} dangerouslySetInnerHTML={{ __html: title }} style={titleColor&&{color:theme.backgroundColor}}/>
+                        <div className={styles.subTitle} dangerouslySetInnerHTML={{ __html: subTitle }} style={subTitleColor&&{color:theme.backgroundColor}}/>
                         <div className={styles.mt15}>
                             {titleDescription.length && titleDescription.map((e,i)=>{
                                 return(
