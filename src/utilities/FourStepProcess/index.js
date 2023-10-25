@@ -7,8 +7,7 @@ const FourStepProcess = ({ processCards, header, theme,stepAlignment,buttonTittl
   return (
     <section>
       <div>
-        <h2 className={styles.processHeader}>
-        {header}
+        <h2 className={styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
         </h2>
         <div className={styles.processCardGrid }>
           {processCards?.map((el, idx) => {

@@ -28,6 +28,7 @@
         "titleDescription": [
           ""
         ],
+        "subTitleColor":true,
         "legalText": ""
       },
       "ProductArticleModal": {
@@ -44,11 +45,11 @@
         "offerTextColor": "#fff"
       },
       "ProductSlideAccordion": {
-        "src": "\\images\\landing\\tendo.webp",
+        "src": "\\images\\landing\\tendo-2.webp",
         "heading": "Tendo Active",
-        "subHeading": null,
-        "subtitle": "Forte alleato contro",
-        "text":"il dolore e il recupero dall'infortunio",
+        "subHeading": "Forte alleato contro",
+        "subtitle": "il dolore e il recupero dall'infortunio",
+        "text":null,
         "items": [
           {
             "title": "Fornisce forza e flessibilità",
@@ -107,13 +108,13 @@
         }
       ],
       "FourStepProcess": {
-        "title": "passaggi per ottenere un'azione sintomatica e un rinforzo anabolico",
+        "title": "Come ottenere un'azione sintomatica ed un</br> rinforzo anabolico in 4 semplici passaggi",
         "items": [
           {
             "stepNumber": 1,
-            "title": "Boswellia",
-            "body": "nuovo effetto analgesico",
-            "expanded": "BOSWELLIA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
+            "title": "Boswellia Serrata",
+            "body": "Nuovo effetto analgesico",
+            "expanded": "La BOSWELLIA SERRATA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
             "image": {
               "src": "\\images\\landing\\BMD-6039-landing.webp",
               "alt": "..."
@@ -131,9 +132,9 @@
           },
           {
             "stepNumber": 3,
-            "title": "Aminoacidi",
+            "title": "Aminoacidi e Rame",
             "body": "Effetto di rinforzo anabolico",
-            "expanded": "L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini L-lisina e L-prolina si trovano in proteine significative per il meccanismo di rinnovamento del tendine.",
+            "expanded": "La L-ARGININA favorisce la sintesi del collagene, chiave per il recupero dei tendini.\n La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini",
             "image": {
               "src": "\\images\\landing\\BMD-2319-landing.webp",
               "alt": "..."
@@ -141,9 +142,9 @@
           },
           {
             "stepNumber": 4,
-            "title": "Rame",
-            "body": "Effetto di rinforzo anabolico",
-            "expanded": "Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini Collagene tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti ",
+            "title": "Collagene",
+            "body": "di tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti.",
+            "expanded": "Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti.La VITAMINA C stimola la sintesi del collagene.",
             "image": {
               "src": "\\images\\landing\\BMD-P1072538-landing.webp",
               "alt": "..."
@@ -159,16 +160,16 @@
         "accordanTitle": "Ingredienti e studi clinici",
         "items": [
           {
-            "note": "Fitosoma di Boswellia ",
-            "expanded": ""
+            "note": "La Fitosoma di Boswellia Serrata",
+            "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>"
           },
           {
-            "note": "Fitosoma di Curcumina",
-            "expanded": ""
+            "note": "La Fitosoma di Curcumina",
+            "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>"
           },
           {
-            "note": "L-arginina ",
-            "expanded": ""
+            "note": "La L-arginina",
+            "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>"
           },
           {
             "note": "L-lisina e L-prolina ",
@@ -202,16 +203,12 @@
         "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
         "desktopImage": "\\images\\landing\\Tenod-Desk-01.webp",
         "mobileImage": "\\images\\landing\\Tenod-Mob-01.webp",
-        "desktopWidth":1380,
-        "desktopHeight":503,
-        "mobileWidth":672,
-        "mobileHeight":837,
-        "landing": true
+        "alignWidth":true
       },
       "review":false,
       "bottomBar": {
-        "title1": "CODE AUTOMATICALLY APPLIED AT CHECKOUT FOR 30% OFF ONE-TIME PURCHASE",
-        "title2": "100% SATISFACTION 30-DAY MONEY-BACK GUARANTEE",
+        "title1": "IL 20% DI SCONTO VERRA’ APPLICATO AUTOMATICAMENTE AL CHEKOUT QUANDO SCEGLI UN ACQUISTO PERIODICO",
+        "title2": "100% SODDISFAZIONE GARANZIA - SODDISFATTI O RIMBORSATI ENTRO 14 GIORNI",
         "maxQty": 2,
         "price": 25.00,
         "subscriptionBox": {
@@ -221,7 +218,7 @@
             "PERIODICO"
           ],
           "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
-          "desc": "<p>SAVE 20% WITH SUBSCRIBE &amp; SAVE ON ALL FUTURE DELIVERIES</p><ul style='list-style: inside disc;'><li>Nessun costo</li><li>Cancella quando vuoi</li></ul>",
+          "desc": "<p>SCONTO DEL 20% SU TUTTI GLI ORDINI CON ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>Nessun costo</li><li>Cancella quando vuoi</li></ul>",
           "btnText": "Subscribe"
         },
         "onetimeBox": {
@@ -237,7 +234,7 @@
           "autoQty": 2
         },
         "productImg": {
-          "src": "\\images\\landing\\tendo.webp"
+          "src": "\\images\\landing\\tendo-2.webp"
         }
       },
       "footer": {
@@ -326,7 +323,7 @@
             },
             {
                 "url": "",
-                "title": "Contattaci",
+                "title": "Centro di Distribuzione",
                 "name": "Company",
                 "navMenuLinks": [
                     {
