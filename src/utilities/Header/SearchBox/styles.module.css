@@ -35,8 +35,8 @@
 .resultHolder {
     height: fit-content;
     overflow-x: hidden;
-    position: fixed;
-    top: 90px;
+    position: relative;
+    top: 5px;
     width: 50%;
     /* background-color: rgba(0, 0, 0, .25); */
     background-color: #FFF;
@@ -139,6 +139,7 @@
         width: 90%;
     }
     .resultHolder{
+        position: fixed;
         bottom: 90px;
         top: unset;
     }
