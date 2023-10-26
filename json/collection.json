@@ -66,7 +66,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Neulenic-600-9O3A5741.webp"
-                }
+                },
+                "hide":true
             },
             {
                 "EXTERNALID": "8097688420667",
@@ -109,7 +110,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\images\\tendo.webp"
+                    "src": "\\images\\landing\\Tendoactive_Plus.webp"
                 }
             }
         ],
@@ -292,7 +293,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\images\\tendo.webp"
+                    "src": "\\images\\landing\\Tendoactive_Plus.webp"
                 }
             }
         ],
