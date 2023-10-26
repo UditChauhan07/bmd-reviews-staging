@@ -282,7 +282,8 @@
                 "title": "NEULENIC",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\images\\01-BMD-Neulenic-600-9O3A5741.webp"
+                    "src": "\\images\\01-BMD-Neulenic-600-9O3A5741.webp",
+                    "hide":true
                 }
             },
             {
