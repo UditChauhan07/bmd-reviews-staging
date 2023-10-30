@@ -1,356 +1,356 @@
 {
-    "tendo": {
-      "seo": {
-        "title": "Tendo | Bruno MD",
-        "description": "Tendo"
-      },
-      "product": "Tendo",
-      "variantId": "gid://shopify/ProductVariant/46920208318789",
-      "externalId":"8615981285701",
-      "theme": "#0033A1",
-      "reviewHide":true,
-      "checkout":true,
-      "announcement": {
-        "title": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
-        "theme": {
-          "backgroundColor": "#0033A1",
-          "position": "fixed"
-        }
-      },
-      "wistiaVideoId": "c3yyeogere",
-      "video":{
-        "src":"https://cdn.shopify.com/videos/c/o/v/e152a5dc490f4e36987485b8b7367209.mp4",
-        "mob":"\\videos\\Tendo_Active_Plus_MOBILE.mp4",
-        "alt":"..."
-      },
-      "ImageAside": {
-        "title": "<h1>TendoActive Plus</h1>",
-        "subTitle": "<h2>Integratore alimentare con azione completa per tendini e legamenti</h2>",
-        "titleDescription": [
-          ""
-        ],
-        "subTitleColor":true,
-        "legalText": ""
-      },
-      "ProductArticleModal": {
-        "bannerDesk": {
-            "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015",
-          "alt":"Tendo"
-        },
-        "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
-        "buttonTitle": "Acquista Adesso",
-        "buttonDescription": "Risparmia 5 € con questa offerta",
-        "offerTagLine": "Sconto del 20% sull'acquisto periodico.",
-        "offerTagDescription": "Sconto sara' applicato all'interno della pagina di checkout",
-        "colorTheme": "#0033A1",
-        "offerTextColor": "#fff"
-      },
-      "ProductSlideAccordion": {
-        "src": "\\images\\Tendoactive_Plus.webp",
-        "heading": "Tendo Active",
-        "subHeading": "Forte alleato contro",
-        "subtitle": "il dolore e il recupero dall'infortunio",
-        "text":null,
-        "items": [
-          {
-            "title": "Fornisce forza e flessibilità",
-            "description": "Aiuta a fornire forza e flessibilità alle strutture fibrose di collagene presenti nel tessuto corporeo. Ciò contribuisce a mantenere la forma del tessuto e può essere particolarmente utile per i tessuti che richiedono una maggiore resistenza, come i tendini."
-          },
-          {
-            "title": "Stimola la sintesi del collagene",
-            "description": "Stimola la sintesi del collagene, proteina fondamentale per la salute e l'integrità dei tessuti connettivi. Aumenta la produzione di collagene e favorisce la guarigione e il recupero dei tessuti danneggiati. Aiuta a proteggere le cellule dal danno ossidativo."
-          },
-          {
-            "title": "Azione analgesica e antinfiammatoria",
-            "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
-          },
-          {
-            "title": "Biodisponibilita'",
-            "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
-          }
-        ]
-      },
-      "ProductTrustBadges": [
-        {
-          "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
-          "alt":"BioAvailable"
-        },
-        {
-          "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
-          "alt":"cGMP"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
-          "alt":"Clean"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
-          "alt":"Clinically_Proven"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Gluten-Free-Icon-v2-Black 1.png",
-          "alt":"Gluten"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Low-Carb-Icon-V1-Black 1.png",
-          "alt":"Low-Carb"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
-          "alt":"Non-GMO"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Sugar-Free-Icon-V1-Black 1.png",
-          "alt":"Sugar-Free"
-        },
-        {
-          "src": "\\images\\landing\\trust\\Vegan-Icon-v1-Black 1.png",
-          "alt":"Vegan"
-        }
+  "tendo": {
+    "seo": {
+      "title": "Tendo | Bruno MD",
+      "description": "Tendo"
+    },
+    "product": "Tendo",
+    "variantId": "gid://shopify/ProductVariant/46920208318789",
+    "externalId":"8615981285701",
+    "theme": "#0033A1",
+    "reviewHide":true,
+    "checkout":true,
+    "announcement": {
+      "title": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
+      "theme": {
+        "backgroundColor": "#0033A1",
+        "position": "fixed"
+      }
+    },
+    "wistiaVideoId": "c3yyeogere",
+    "video":{
+      "src":"https://cdn.shopify.com/videos/c/o/v/e152a5dc490f4e36987485b8b7367209.mp4",
+      "mob":"\\videos\\Tendo_Active_Plus_MOBILE.mp4",
+      "alt":"..."
+    },
+    "ImageAside": {
+      "title": "<h1>TendoActive Plus</h1>",
+      "subTitle": "<h2>Integratore alimentare con azione completa per tendini e legamenti</h2>",
+      "titleDescription": [
+        ""
       ],
-      "FourStepProcess": {
-        "title": "Come ottenere un'azione sintomatica ed un</br> rinforzo anabolico in 4 semplici passaggi",
-        "items": [
-          {
-            "stepNumber": 1,
-            "title": "Boswellia Serrata",
-            "body": "Nuovo effetto analgesico",
-            "expanded": "La BOSWELLIA SERRATA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
-            "image": {
-              "src": "\\images\\landing\\BMD-6039-landing.webp",
-              "alt": "..."
-            }
-          },
-          {
-            "stepNumber": 2,
-            "title": "Curcumina",
-            "body": "Effetto antinfiammatorio",
-            "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia.",
-            "image": {
-              "src": "\\images\\landing\\BMD-P1107585-landing.webp",
-              "alt": "..."
-            }
-          },
-          {
-            "stepNumber": 3,
-            "title": "Aminoacidi e Rame",
-            "body": "Effetto di rinforzo anabolico",
-            "expanded": "La L-ARGININA favorisce la sintesi del collagene, chiave per il recupero dei tendini.\n La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini",
-            "image": {
-              "src": "\\images\\landing\\BMD-2319-landing.webp",
-              "alt": "..."
-            }
-          },
-          {
-            "stepNumber": 4,
-            "title": "Collagene",
-            "body": "di tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti.",
-            "expanded": "Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti.La VITAMINA C stimola la sintesi del collagene.",
-            "image": {
-              "src": "\\images\\landing\\BMD-P1072538-landing.webp",
-              "alt": "..."
-            }
-          }
-        ]
+      "subTitleColor":true,
+      "legalText": ""
+    },
+    "ProductArticleModal": {
+      "bannerDesk": {
+          "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015",
+        "alt":"Tendo"
       },
-      "ReasonsToBelieve": {
-        "ingredients1": {
-          "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015"
+      "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
+      "buttonTitle": "Acquista Adesso",
+      "buttonDescription": "Risparmia 5 € con questa offerta",
+      "offerTagLine": "Sconto del 20% sull'acquisto periodico.",
+      "offerTagDescription": "Sconto sara' applicato all'interno della pagina di checkout",
+      "colorTheme": "#0033A1",
+      "offerTextColor": "#fff"
+    },
+    "ProductSlideAccordion": {
+      "src": "\\images\\Tendoactive_Plus.webp",
+      "heading": "Tendo Active",
+      "subHeading": null,
+      "subtitle": "Forte alleato contro\nil dolore e il recupero dall'infortunio",
+      "text":null,
+      "items": [
+        {
+          "title": "Fornisce forza e flessibilità",
+          "description": "Aiuta a fornire forza e flessibilità alle strutture fibrose di collagene presenti nel tessuto corporeo. Ciò contribuisce a mantenere la forma del tessuto e può essere particolarmente utile per i tessuti che richiedono una maggiore resistenza, come i tendini."
         },
-        "productName": "Tendo Active",
-        "accordanTitle": "Ingredienti e studi clinici",
-        "items": [
-          {
-            "note": "La Fitosoma di Boswellia Serrata",
-            "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>"
-          },
-          {
-            "note": "La Fitosoma di Curcumina",
-            "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>"
-          },
-          {
-            "note": "La L-arginina",
-            "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>"
-          },
-          {
-            "note": "L-lisina e L-prolina ",
-            "expanded": ""
-          },
-          {
-            "note": "Rame",
-            "expanded": ""
-          },
-          {
-            "note": "Collagene tipo I",
-            "expanded": ""
-          },
-          {
-            "note": "Condroitina solfata",
-            "expanded": ""
-          },
-          {
-            "note": "Vitamina C",
-            "expanded": ""
-          },
-          {
-            "note": "Manganese",
-            "expanded": ""
-          }
-        ]
-      },
-      "NewsLetter": {
-        "title": "Iscriviti alla newsletter",
-        "portalId": "19647191",
-        "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
-        "desktopImage": "\\images\\landing\\Tenod-Desk-01.webp",
-        "mobileImage": "\\images\\landing\\Tenod-Mob-01.webp",
-        "alignWidth":true
-      },
-      "review":false,
-      "bottomBar": {
-        "title1": "IL 20% DI SCONTO VERRA’ APPLICATO AUTOMATICAMENTE AL CHEKOUT QUANDO SCEGLI UN ACQUISTO PERIODICO",
-        "title2": "100% SODDISFAZIONE GARANZIA - SODDISFATTI O RIMBORSATI ENTRO 14 GIORNI",
-        "maxQty": 2,
-        "price": 25.00,
-        "subscriptionBox": {
-          "price": 21.25,
-          "buttonText": [
-            "ACQUISTO ",
-            "PERIODICO"
-          ],
-          "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
-          "desc": "<p>SCONTO DEL 20% SU TUTTI GLI ORDINI CON ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>Nessun costo</li><li>Cancella quando vuoi</li></ul>",
-          "btnText": "Subscribe"
+        {
+          "title": "Stimola la sintesi del collagene",
+          "description": "Stimola la sintesi del collagene, proteina fondamentale per la salute e l'integrità dei tessuti connettivi. Aumenta la produzione di collagene e favorisce la guarigione e il recupero dei tessuti danneggiati. Aiuta a proteggere le cellule dal danno ossidativo."
         },
-        "onetimeBox": {
-          "price": 25.00,
-          "buttonText": [
-            "ACQUISTO ",
-            "SINGOLO"
-          ],
-          "modalBtnText": "Acquisto Singolo",
-          "discount": null,
-          "desc": null,
-          "btnText": "Checkout",
-          "autoQty": 2
+        {
+          "title": "Azione analgesica e antinfiammatoria",
+          "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
         },
-        "productImg": {
-          "src": "\\images\\Tendoactive_Plus.webp"
+        {
+          "title": "Biodisponibilita'",
+          "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
         }
+      ]
+    },
+    "ProductTrustBadges": [
+      {
+        "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
+        "alt":"BioAvailable"
       },
-      "footer": {
-        "links": [
-            {
-                "url": "/collections/all-products",
-                "title": "Prodotti",
-                "name": "Products",
-                "navMenuLinks": [
-                    {
-                        "name": "Collezione Citrak",
-                        "url": "/collezioni/sali-minerali"
-                    },
-                    {
-                        "name": "Nubit",
-                        "url": "/prodotti/nubit-30-compresse-da-850mg"
-                    },
-                    {
-                        "name": "Tendoactive Plus",
-                        "url": "/prodotti/tendoactive-plus-20-stick"
-                    },
-                    {
-                        "name": "Cronos",
-                        "url": "/prodotti/cronos-30-compresse-da-850mg"
-                    },
-                    {
-                        "name": "Drop Therapeutic",
-                        "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
-                    },
-                    {
-                        "name": "Silverphage Crema Gel",
-                        "url": "/prodotti/silverphage-crema-gel-50-ml"
-                    },
-                    {
-                        "name": "Silverphage Garze Monouso",
-                        "url": "/prodotti/silverphage-14-individual-wipes"
-                    }
-                ]
-            },
-            {
-                "url": "",
-                "title": "Chi siamo",
-                "name": "Company",
-                "navMenuLinks": [
-                    {
-                        "name": "La nostra storia",
-                        "url": "/la-nostra-storia"
-                    },
-                    {
-                        "name": "Responsabilità sociale",
-                        "url": "/responsabilita-sociale"
-                    },
-                    {
-                        "name": "Domande Frequenti",
-                        "url": "/domande-frequenti"
-                    },
-                    {
-                        "name": "Contattaci",
-                        "url": "/contattaci"
-                    },
-                    {
-                        "name": "Spedizioni",
-                        "url": "/politica-di-spedizione"
-                    },
-                    {
-                        "name": "Portale per il reso",
-                        "url": "https://pharmalab.return-order.com"
-                    },
-                    {
-                        "name": "Reso",
-                        "url": "/politica-di-restituzione-e-cancellazione"
-                    },
-                    {
-                        "name": "Termini e condizioni di vendita",
-                        "url": "/termini-e-condizioni"
-                    },
-                    {
-                        "name": "Termini e condizioni di privacy",
-                        "url": "/politica-sullariservatezza"
-                    }
-                ]
-            },
-            {
-                "url": "",
-                "title": "Centro di Distribuzione",
-                "name": "Company",
-                "navMenuLinks": [
-                    {
-                        "name": "Pharmalab S.r.l.",
-                        "url": "#"
-                    },
-                    {
-                        "name": "Via dell’Artigianato, 83",
-                        "url": "#"
-                    },
-                    {
-                        "name": "30023 Concordia Sagittaria",
-                        "url": "#"
-                    },
-                    {
-                        "name": "VE",
-                        "url": "#"
-                    },
-                    {
-                        "name": "",
-                        "url": "#"
-                    },
-                    {
-                        "name": "Codice Fiscale e P.Iva : 11462711000",
-                        "url": "#"
-                    }
-                ]
-            }
+      {
+        "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
+        "alt":"cGMP"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
+        "alt":"Clean"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
+        "alt":"Clinically_Proven"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Gluten-Free-Icon-v2-Black 1.png",
+        "alt":"Gluten"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Low-Carb-Icon-V1-Black 1.png",
+        "alt":"Low-Carb"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
+        "alt":"Non-GMO"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Sugar-Free-Icon-V1-Black 1.png",
+        "alt":"Sugar-Free"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Vegan-Icon-v1-Black 1.png",
+        "alt":"Vegan"
+      }
+    ],
+    "FourStepProcess": {
+      "title": "Come ottenere un'azione sintomatica ed un</br> rinforzo anabolico in 4 semplici passaggi",
+      "items": [
+        {
+          "stepNumber": 1,
+          "title": "Boswellia Serrata",
+          "body": "Nuovo effetto analgesico",
+          "expanded": "La BOSWELLIA SERRATA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
+          "image": {
+            "src": "\\images\\landing\\BMD-6039-landing.webp",
+            "alt": "..."
+          }
+        },
+        {
+          "stepNumber": 2,
+          "title": "Curcumina",
+          "body": "Effetto antinfiammatorio",
+          "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia.",
+          "image": {
+            "src": "\\images\\landing\\BMD-P1107585-landing.webp",
+            "alt": "..."
+          }
+        },
+        {
+          "stepNumber": 3,
+          "title": "Aminoacidi e Rame",
+          "body": "Effetto di rinforzo anabolico",
+          "expanded": "La L-ARGININA favorisce la sintesi del collagene, chiave per il recupero dei tendini.\n La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini",
+          "image": {
+            "src": "\\images\\landing\\BMD-2319-landing.webp",
+            "alt": "..."
+          }
+        },
+        {
+          "stepNumber": 4,
+          "title": "Collagene",
+          "body": "di tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti.",
+          "expanded": "Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti.La VITAMINA C stimola la sintesi del collagene.",
+          "image": {
+            "src": "\\images\\landing\\BMD-P1072538-landing.webp",
+            "alt": "..."
+          }
+        }
+      ]
+    },
+    "ReasonsToBelieve": {
+      "ingredients1": {
+        "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015"
+      },
+      "productName": "Tendo Active",
+      "accordanTitle": "Ingredienti e studi clinici",
+      "items": [
+        {
+          "note": "La Fitosoma di Boswellia Serrata",
+          "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>"
+        },
+        {
+          "note": "La Fitosoma di Curcumina",
+          "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>"
+        },
+        {
+          "note": "La L-arginina",
+          "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>"
+        },
+        {
+          "note": "L-lisina e L-prolina ",
+          "expanded": ""
+        },
+        {
+          "note": "Rame",
+          "expanded": ""
+        },
+        {
+          "note": "Collagene tipo I",
+          "expanded": ""
+        },
+        {
+          "note": "Condroitina solfata",
+          "expanded": ""
+        },
+        {
+          "note": "Vitamina C",
+          "expanded": ""
+        },
+        {
+          "note": "Manganese",
+          "expanded": ""
+        }
+      ]
+    },
+    "NewsLetter": {
+      "title": "Iscriviti alla newsletter",
+      "portalId": "19647191",
+      "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
+      "desktopImage": "\\images\\landing\\Tenod-Desk-01.webp",
+      "mobileImage": "\\images\\landing\\Tenod-Mob-01.webp",
+      "alignWidth":true
+    },
+    "review":false,
+    "bottomBar": {
+      "title1": "IL 20% DI SCONTO VERRA’ APPLICATO AUTOMATICAMENTE AL CHEKOUT QUANDO SCEGLI UN ACQUISTO PERIODICO",
+      "title2": "100% SODDISFAZIONE GARANZIA - SODDISFATTI O RIMBORSATI ENTRO 14 GIORNI",
+      "maxQty": 2,
+      "price": 25.00,
+      "subscriptionBox": {
+        "price": 21.25,
+        "buttonText": [
+          "ACQUISTO ",
+          "PERIODICO"
         ],
-        "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
-    }
-    }
+        "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
+        "desc": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "btnText": "Subscribe"
+      },
+      "onetimeBox": {
+        "price": 25.00,
+        "buttonText": [
+          "ACQUISTO ",
+          "SINGOLO"
+        ],
+        "modalBtnText": "Acquisto Singolo",
+        "discount": null,
+        "desc": null,
+        "btnText": "Checkout",
+        "autoQty": 2
+      },
+      "productImg": {
+        "src": "\\images\\Tendoactive_Plus.webp"
+      }
+    },
+    "footer": {
+      "links": [
+          {
+              "url": "/collections/all-products",
+              "title": "Prodotti",
+              "name": "Products",
+              "navMenuLinks": [
+                  {
+                      "name": "Collezione Citrak",
+                      "url": "/collezioni/sali-minerali"
+                  },
+                  {
+                      "name": "Nubit",
+                      "url": "/prodotti/nubit-30-compresse-da-850mg"
+                  },
+                  {
+                      "name": "Tendoactive Plus",
+                      "url": "/prodotti/tendoactive-plus-20-stick"
+                  },
+                  {
+                      "name": "Cronos",
+                      "url": "/prodotti/cronos-30-compresse-da-850mg"
+                  },
+                  {
+                      "name": "Drop Therapeutic",
+                      "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
+                  },
+                  {
+                      "name": "Silverphage Crema Gel",
+                      "url": "/prodotti/silverphage-crema-gel-50-ml"
+                  },
+                  {
+                      "name": "Silverphage Garze Monouso",
+                      "url": "/prodotti/silverphage-14-individual-wipes"
+                  }
+              ]
+          },
+          {
+              "url": "",
+              "title": "Chi siamo",
+              "name": "Company",
+              "navMenuLinks": [
+                  {
+                      "name": "La nostra storia",
+                      "url": "/la-nostra-storia"
+                  },
+                  {
+                      "name": "Responsabilità sociale",
+                      "url": "/responsabilita-sociale"
+                  },
+                  {
+                      "name": "Domande Frequenti",
+                      "url": "/domande-frequenti"
+                  },
+                  {
+                      "name": "Contattaci",
+                      "url": "/contattaci"
+                  },
+                  {
+                      "name": "Spedizioni",
+                      "url": "/politica-di-spedizione"
+                  },
+                  {
+                      "name": "Portale per il reso",
+                      "url": "https://pharmalab.return-order.com"
+                  },
+                  {
+                      "name": "Reso",
+                      "url": "/politica-di-restituzione-e-cancellazione"
+                  },
+                  {
+                      "name": "Termini e condizioni di vendita",
+                      "url": "/termini-e-condizioni"
+                  },
+                  {
+                      "name": "Termini e condizioni di privacy",
+                      "url": "/politica-sullariservatezza"
+                  }
+              ]
+          },
+          {
+              "url": "",
+              "title": "Centro di Distribuzione",
+              "name": "Company",
+              "navMenuLinks": [
+                  {
+                      "name": "Pharmalab S.r.l.",
+                      "url": "#"
+                  },
+                  {
+                      "name": "Via dell’Artigianato, 83",
+                      "url": "#"
+                  },
+                  {
+                      "name": "30023 Concordia Sagittaria",
+                      "url": "#"
+                  },
+                  {
+                      "name": "VE",
+                      "url": "#"
+                  },
+                  {
+                      "name": "",
+                      "url": "#"
+                  },
+                  {
+                      "name": "Codice Fiscale e P.Iva : 11462711000",
+                      "url": "#"
+                  }
+              ]
+          }
+      ],
+      "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
   }
+  }
+}

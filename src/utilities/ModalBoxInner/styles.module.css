@@ -103,7 +103,8 @@
 }
 
 .boxFive p,
-.boxFive li,
+.boxFive ol,
+.boxFive ul,
 .boxSix p,
 .selectLabel {
     word-wrap: break-word;

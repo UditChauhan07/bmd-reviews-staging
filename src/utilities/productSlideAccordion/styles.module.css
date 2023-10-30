@@ -127,3 +127,13 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 425px) {
+    .subHeader{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .header{
+        font-size: 34px;
+        line-height: 36px;
+    }
+}
