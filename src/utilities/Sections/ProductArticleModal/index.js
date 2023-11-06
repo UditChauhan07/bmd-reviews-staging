@@ -26,7 +26,7 @@ return(
             </div>
           </div>
         }
-        {!isDesktopImage && <img src={content.bannerMob?.src || content.bannerDesk?.src} alt={content.bannerMob?.alt ||content.bannerDesk?.alt} className={styles.mobIMG} onClick={ModalHandler} width={800} height={534}/>}
+        {!isDesktopImage && <Image src={content.bannerMob?.src || content.bannerDesk?.src} alt={content.bannerMob?.alt ||content.bannerDesk?.alt} className={styles.mobIMG} onClick={ModalHandler} width={800} height={534}/>}
       </section>
 )
 }
