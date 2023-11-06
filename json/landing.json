@@ -196,7 +196,9 @@
           "note": "Manganese",
           "expanded": ""
         }
-      ]
+      ],
+      "versionV2":false,
+      "readMoreLabel":"Read more"
     },
     "NewsLetter": {
       "title": "Iscriviti alla newsletter",

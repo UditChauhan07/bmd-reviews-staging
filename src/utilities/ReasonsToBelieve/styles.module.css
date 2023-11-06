@@ -37,6 +37,29 @@
     left: 0;
     z-index: 15;
   }
+  .modalContainer1{
+    max-width: 1490px;
+    width: 85%;
+    background-color: #ffffff;
+    padding: 4rem;
+    height: fit-content;
+    max-height: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }
   .modalOverlay {
     width: 100%;
     height: 100vh;
@@ -71,6 +94,16 @@
     position: relative;
     top: 4px;
   }
+  .exitButton1 {
+    z-index: 20;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+    padding: 0px;
+    position: relative;
+    top: -300px;
+    left: 95%;
+    border-radius: 15px;
+  }
   .reasonsHeader {
     font-family: ivypresto-display, 'Times New Roman', Times, serif;
     font-size: 52px;
@@ -88,6 +121,8 @@
     color: black;
   }
   .expanded{
+    margin-top: 15px;
+    min-height: 50px;
     color: black;
     font-family: 'Gotham-Medium';
   }
@@ -126,13 +161,84 @@
     color: #004a98;
     margin-bottom: 12px;
   }
-  @media screen and (max-width: 1000px) {
-    .reasonsContainer {
-      grid-template-columns: 100%;
-      margin: auto;
-      width: 90%;
-      flex-direction: column;
+
+  .v2Container{
+    display: grid;
+    max-width: 1200px;
+    /* grid-template-rows: repeat(auto-fill, 50%); */
+    grid-template-columns: repeat(auto-fill, 50%);
+  }
+  .cardContainer{
+    display: flex;
+    margin: 10px 0;
+  }
+  .modalCardContainer{
+    display: flex;
+    margin: 10px 0;
+  }
+  .modalCardContainer .expanded p{
+    margin-bottom: 10px;
+  }
+  .imgHolder{
+    width: 100%;
+    height: auto;
+    max-width: 125px;
+    min-width: 125px;
+    max-height: 125px;
+    min-height: 125px;
+    margin: 0 25px 0 35px;
+    border-radius: 12px;
+  }
+  .title{
+    font-family: var(--bmd-font-Secondary);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .desc{
+    margin: 10px 0 0px;
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-book);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .modalImgHolder{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 0.25);
+  }
+  .readMore{
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  @media screen and (max-width: 1500px) {
+    .v2Container{
+      max-width: 1024px;
     }
+  }
+  @media screen and (max-width: 1440px) {
+    .v2Container{
+      max-width: 768px;
+    }
+  }
+    @media screen and (max-width: 1024px) {
+      .reasonsContainer {
+        grid-template-columns: 100%;
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+      }
+    }
+      @media screen and (max-width: 1000px) {
     .clinicalHeadline {
       margin-top: 32px;
     }
@@ -145,9 +251,29 @@
     .supplementalHeadlineBluerex {
       margin-top: 32px;
     }
+    .v2Container{
+      grid-template-columns: repeat(auto-fill, 90%);
+    }
   }
-  @media screen and (max-width: 610px){
+  @media screen and (max-width: 769px){
+    .title{
+      font-size: 16px;
+    }
+    .desc{
+      margin: 0;
+      font-size: 14px;
+    }
+    .readMore{
+      font-size: 12px;
+    }
+  }
+    @media screen and (max-width: 610px){
     .ing{
       width: 100%;
+    }
+    .cardContainer .expanded{
+      height: 50px;
+      width: 90%;
+      overflow: hidden;
     }
   }

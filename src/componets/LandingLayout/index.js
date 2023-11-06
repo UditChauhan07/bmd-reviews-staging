@@ -107,8 +107,10 @@ const LandingPage = ({ version, script, page }) => {
             <ReasonsToBelieve
               ingredients={pageData.ReasonsToBelieve.ingredients}
               content={pageData.ReasonsToBelieve.items}
+              versionV2={pageData.ReasonsToBelieve.versionV2}
               theme={pageData.theme}
               product={pageData.product}
+              readMoreLabel={pageData.ReasonsToBelieve.readMoreLabel}
               accordanTitle={"Ingredienti e studi clinici"}
             />
           )}
