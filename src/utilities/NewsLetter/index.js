@@ -41,7 +41,7 @@ export const NewsLetter = ({ content }) => {
     return (
       <section className={styles.newsletterSection} id="NewLetterFrom">
         <div className={styles.container}>
-          <img className={styles.imgHolder} src={image} alt="..." />
+          <img className={styles.imgHolder} src={image} alt="..." width={'100%'} height={'auto'}/>
 
           <div className={styles.formContainer}>
             <div className={styles.form}>
@@ -66,7 +66,7 @@ export const NewsLetter = ({ content }) => {
           >
             {image && (
               <div className={styles.imageContainer}>
-                <img className={styles.image} src={image} alt="..." />
+                <img className={styles.image} src={image} alt="..." width={'100%'} height={'auto'}/>
               </div>
             )}
             {image ? (
