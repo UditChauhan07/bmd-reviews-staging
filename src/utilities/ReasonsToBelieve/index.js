@@ -146,7 +146,7 @@ const ReasonsToBelieve = ({
       <div className={styles.v2Container}>
         {content.map((element,key)=>(
         <div className={styles.cardContainer} key={key}>
-          <img src="http://localhost:5001/images/landing/BMD-2319-landing.webp" className={styles.imgHolder} alt="..." width={125} height={125} onClick={()=>handleClick1(element)}/>
+          <img src="/images/landing/BMD-2319-landing.webp" className={styles.imgHolder} alt="..." width={125} height={125} onClick={()=>handleClick1(element)}/>
           <div>
             <h3 className={styles.title} style={{ color: theme }}>{element.note}</h3>
             <p className={styles.expanded} dangerouslySetInnerHTML={{
@@ -170,7 +170,7 @@ const ReasonsToBelieve = ({
                 <ExitIcon />
               </button>
               <div className={styles.modalCardContainerV2}>
-                <img alt={modalTitle} className={styles.modalImgHolder} src={modalImg||"http://localhost:5001/images/landing/BMD-2319-landing.webp"} width={200} height={200} />
+                <img alt={modalTitle} className={styles.modalImgHolder} src={modalImg||"/images/landing/BMD-2319-landing.webp"} width={200} height={200} />
                 <div>
                   <h1 className={styles.title} style={{ color: theme }}>{modalTitle}</h1>
                   <div className={styles.expanded} dangerouslySetInnerHTML={{__html:modalDesc}}></div>
