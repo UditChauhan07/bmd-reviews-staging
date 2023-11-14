@@ -1,10 +1,23 @@
+.ingredientsHolder{
+  margin-bottom: 4rem;
+}
+
 .reasonsContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+.reasonsContainerV2{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  grid-template-rows: repeat(auto-fill, 75%);
+}
 .accordionPanel {
   padding: 0.25rem 0.5rem 0.5rem;
+}
+.v2{
+  margin: 25px auto;
+  max-width: 1200px;
 }
 .accordionButton {
   padding: 0.5rem 0rem;
@@ -99,7 +112,7 @@
   font-family: var(--bmd-font-Secondary);
     font-size: 18px;
     font-weight: 500;
-    margin: 25px calc(10% + 15px);
+    margin: 15px 0 5px;
 }
 .exitButton {
   z-index: 20;
@@ -206,6 +219,7 @@
   min-height: 125px;
   margin: 0 25px 0 0;
   border-radius: 12px;
+  cursor: pointer;
 }
 .title {
   font-family: var(--bmd-font-Secondary);
@@ -237,15 +251,22 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1500px) {
-  .v2Container {
-    max-width: 1024px;
+  .v2Container,.v2 {
+    max-width: 1200px;
   }
 }
 @media screen and (max-width: 1440px) {
-  .v2Container {
+  .v2Container,.v2 {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .v2Container ,.v2{
     max-width: 768px;
   }
 }
@@ -282,6 +303,9 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .v2,.v2Container{
+    margin-left: 5%;
+  }
   .title {
     font-size: 16px;
   }
@@ -311,5 +335,20 @@
   }
   .modalImgHolder{
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .modalContainer1{
+    top: 40%;
+    height: 75%;
+    max-height: 400px;
+    padding: 10px;
+  }
+  .modalImgHolder{
+    width: 100%;
+    height: auto;
+  }
+  .modalCardContainerV2{
+    max-height: 380px;
   }
 }
