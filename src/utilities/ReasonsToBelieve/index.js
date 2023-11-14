@@ -7,6 +7,7 @@ import {
   AccordionIcon,
   AccordionPanel,
 } from "../FourStepProcess/accordion";
+import { ExitIcon } from "../SvgIcons";
 
 const ReasonsToBelieve = ({
   content,
@@ -157,26 +158,18 @@ const ReasonsToBelieve = ({
         ))}
       </div>
       {modal1 === true && (
-          <div className={styles.modal}>
-            <div className={styles.modalOverlay}></div>
+        <div className={styles.modal}>
+            <div className={styles.modalOverlayV2}>
+            </div>
             <div className={styles.modalContainer1}>
               <button
                 onClick={() => setModal1(false)}
-                className={styles.exitButton}
+                className={styles.exitButton1}
                 style={{border:`1px solid ${theme}`}}
               >
-                <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="white" fill-rule="evenodd">
-                    <path d="M0 0h40v40H0z" />
-                    <path
-                      fill={theme}
-                      fill-rule="nonzero"
-                      d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
-                    />
-                  </g>
-                </svg>
+                <ExitIcon />
               </button>
-              <div className={styles.modalCardContainer}>
+              <div className={styles.modalCardContainerV2}>
                 <img alt={modalTitle} className={styles.modalImgHolder} src={modalImg||"http://localhost:5001/images/landing/BMD-2319-landing.webp"} width={200} height={200} />
                 <div>
                   <h1 className={styles.title} style={{ color: theme }}>{modalTitle}</h1>
@@ -192,16 +185,16 @@ const ReasonsToBelieve = ({
   return (
     <section id="ingredients">
       <div>
-        <div className={styles.reasonsContainer}>
+        <div className={styles.reasonsContainer} style={versionV2?{justifyContent:'start',marginLeft:'30px'}:{}}>
           <h3 className={styles.reasonsHeader}>
             Ingredienti e
             <p className={styles.believeBluerex} style={{ color: theme }}>
               Studi clinici
             </p>
           </h3>
-          {!versionV2 ?<V1 />:
-          <V2 />}
+          {!versionV2 &&<V1 />}
         </div>
+          {versionV2 &&<V2 />}
       </div>
     </section>
   );
