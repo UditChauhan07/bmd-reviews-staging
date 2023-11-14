@@ -105,7 +105,7 @@
   left: 50%;
   top: 50%;
   position: absolute;
-  padding: 50px 75px;
+  padding: 50px 30px;
 }
 .v2ContainerSubtitle{
   text-transform: uppercase;
@@ -320,6 +320,9 @@
     overflow: scroll;
     max-height: 200px;
   }
+  .modalContainer1{
+    padding: 50px;
+  }
 }
 @media screen and (max-width: 610px) {
   .ing {
@@ -329,9 +332,6 @@
     height: 50px;
     width: 90%;
     overflow: hidden;
-  }
-  .modalContainer1{
-    padding: 60px;
   }
   .modalImgHolder{
     margin-bottom: 10px;
@@ -351,4 +351,5 @@
   .modalCardContainerV2{
     max-height: 380px;
   }
+
 }
