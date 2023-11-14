@@ -318,10 +318,18 @@
   }
   .modalCardContainerV2{
     overflow: scroll;
-    max-height: 200px;
+    max-height: 300px;
+  }
+  .modalContainer1{
+    top: 40%;
+    max-height: 400px;
   }
   .modalContainer1{
     padding: 50px;
+  }
+  .modalImgHolder{
+    width: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 610px) {

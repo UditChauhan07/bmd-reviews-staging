@@ -46,7 +46,7 @@
       "offerTextColor": "#fff"
     },
     "ProductSlideAccordion": {
-      "src": "\\images\\Tendoactive_Plus.webp",
+      "src": "\\images\\Tendoactive_Plus.png",
       "heading": "Tendo Active",
       "subHeading": null,
       "subtitle": "Forte alleato contro\nil dolore e il recupero dall'infortunio",
@@ -264,7 +264,7 @@
         "autoQty": 2
       },
       "productImg": {
-        "src": "\\images\\Tendoactive_Plus.webp"
+        "src": "\\images\\Tendoactive_Plus.png"
       }
     },
     "footer": {

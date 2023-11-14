@@ -110,7 +110,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\images\\landing\\Tendoactive_Plus.webp"
+                    "src": "\\images\\landing\\Tendoactive_Plus.png"
                 }
             }
         ],
@@ -294,7 +294,7 @@
                 "title": "TENDOACTIVE PLUS",
                 "btnText": "Shop",
                 "logo": {
-                    "src": "\\images\\landing\\Tendoactive_Plus.webp"
+                    "src": "\\images\\landing\\Tendoactive_Plus.png"
                 }
             }
         ],
