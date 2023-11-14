@@ -330,6 +330,7 @@
   .modalImgHolder{
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 610px) {
@@ -340,9 +341,6 @@
     height: 50px;
     width: 90%;
     overflow: hidden;
-  }
-  .modalImgHolder{
-    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 500px) {
