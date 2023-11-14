@@ -143,6 +143,7 @@ const ReasonsToBelieve = ({
   const V2 = () => {
     return (
       <>
+      <p className={styles.v2ContainerSubtitle}>Ingredients and Clinical Studies</p>
       <div className={styles.v2Container}>
         {content.map((element,key)=>(
         <div className={styles.cardContainer} key={key}>
@@ -185,7 +186,7 @@ const ReasonsToBelieve = ({
   return (
     <section id="ingredients">
       <div>
-        <div className={styles.reasonsContainer} style={versionV2?{justifyContent:'start',marginLeft:'30px'}:{}}>
+        <div className={styles.reasonsContainer} style={versionV2?{justifyContent:'start',marginLeft:'calc(10% + 15px)'}:{}}>
           <h3 className={styles.reasonsHeader}>
             Ingredienti e
             <p className={styles.believeBluerex} style={{ color: theme }}>

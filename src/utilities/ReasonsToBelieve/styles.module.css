@@ -94,6 +94,13 @@
   position: absolute;
   padding: 50px 75px;
 }
+.v2ContainerSubtitle{
+  text-transform: uppercase;
+  font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 25px calc(10% + 15px);
+}
 .exitButton {
   z-index: 20;
   color: purple;
@@ -132,10 +139,10 @@
   color: black;
 }
 .expanded {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   min-height: 50px;
   color: black;
-  font-family: "Gotham-Medium";
+  font-family: var(--bmd-font-Secondary);
 }
 .clinicalHeadline {
   font-family: "Gotham-Medium";
@@ -177,18 +184,18 @@
   max-width: 1200px;
   /* grid-template-rows: repeat(auto-fill, 50%); */
   grid-template-columns: repeat(auto-fill, 50%);
-  margin: auto;
+  margin: 20px auto;
 }
 .cardContainer {
   display: flex;
-  margin: 10px 0;
+  margin: 10px 0 10px 10px;
 }
 .modalCardContainer {
   display: flex;
   margin: 10px 0;
 }
-.modalCardContainer .expanded p {
-  margin-bottom: 10px;
+.modalCardContainerV2 > p {
+  margin-bottom: 20px;
 }
 .imgHolder {
   width: 100%;
@@ -197,7 +204,7 @@
   min-width: 125px;
   max-height: 125px;
   min-height: 125px;
-  margin: 0 25px 0 35px;
+  margin: 0 25px 0 0;
   border-radius: 12px;
 }
 .title {
@@ -225,7 +232,8 @@
   box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 0.25);
 }
 .readMore {
-  font-family: var(--bmd-font-Secondary);
+  font-size: var(--bmd-12px);
+  font-weight: var(--bmd-Gotham-book);
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
