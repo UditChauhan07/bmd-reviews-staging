@@ -35,7 +35,7 @@ const ReasonsToBelieve = ({
     setModal1(true);
     setModalTitle(element.note);
     setModalDesc(element.expanded);
-    setModalImg(element.image?.src);
+    setModalImg(element?.image?.src);
   };
 
   const V1 = () => {
@@ -170,9 +170,9 @@ const ReasonsToBelieve = ({
           {content.map((element, key) => (
             <div className={styles.cardContainer} key={key}>
               <img
-                src={element.image.src}
+                src={element?.image?.src}
                 className={styles.imgHolder}
-                alt={element.image.alt}
+                alt={element?.image?.alt}
                 width={125}
                 height={125}
                 onClick={() => handleClick1(element)}

@@ -159,56 +159,17 @@
       },
       "productName": "Tendo Active",
       "accordanTitle": "Ingredienti e studi clinici",
-      "item": [
-        {
-          "note": "La Fitosoma di Boswellia Serrata",
-          "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>"
-        },
-        {
-          "note": "La Fitosoma di Curcumina",
-          "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>"
-        },
-        {
-          "note": "La L-arginina",
-          "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>"
-        },
-        {
-          "note": "L-lisina e L-prolina ",
-          "expanded": ""
-        },
-        {
-          "note": "Rame",
-          "expanded": ""
-        },
-        {
-          "note": "Collagene tipo I",
-          "expanded": ""
-        },
-        {
-          "note": "Condroitina solfata",
-          "expanded": ""
-        },
-        {
-          "note": "Vitamina C",
-          "expanded": ""
-        },
-        {
-          "note": "Manganese",
-          "expanded": ""
-        }
-      ],
       "items": [
         {
-          "note": "La Fitosoma di Boswellia Serrata",
+          "note": "La FITOSOMA DI BOSWELLIA SERRATA",
           "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
           "image":{
             "src":"\\images\\1.png",
             "alt":"..."
           }
-          
         },
         {
-          "note": "La Fitosoma di Curcumina",
+          "note": "La FITOSOMA DI CURCUMINA",
           "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>",
           "image":{
             "src":"\\images\\2.png",
@@ -216,8 +177,40 @@
           }
         },
         {
-          "note": "La L-arginina",
+          "note": "La L-ARGININA",
           "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>",
+          "image":{
+            "src":"\\images\\3.png",
+            "alt":"..."
+          }
+        },
+        {
+          "note": "La L-LISINA e la L-PROLINA",
+          "expanded": "<p>La L-lisina e la L-prolina sono due amminoacidi essenziali che svolgono ruoli importanti per la salute umana.</p><p>La L-lisina è fondamentale per la sintesi delle proteine, il mantenimento dei tessuti muscolari e la produzione di anticorpi. Inoltre, la lisina è coinvolta nella formazione di collagene, una proteina essenziale per la salute della pelle, dei capelli e delle unghie. Alcuni studi suggeriscono che la lisina può contribuire a migliorare la salute ossea e a ridurre il rischio di osteoporosi.</p><p>La L-prolina è un altro amminoacido che gioca un ruolo chiave nella formazione del collagene. La prolina è anche essenziale per mantenere la flessibilità e la resistenza della pelle, dei capelli e delle unghie.  Inoltre, è coinvolta nella riparazione delle ferite e nella cicatrizzazione, favorendo la rigenerazione dei tessuti danneggiati.</p>",
+          "image":{
+            "src":"\\images\\4.png",
+            "alt":"..."
+          }
+        },
+        {
+          "note": "Il COLLAGENE DI TIPO I",
+          "expanded": "<p>Il collagene di tipo I è una proteina essenziale con molteplici benefici per la tua salute. Il collagene di tipo I costituisce la struttura di pelle, capelli, unghie, ossa, e articolazioni. I benefici più comuni sono per:</p><ol><li>La pelle: Il collagene di tipo I contribuisce a mantenere la pelle elastica e idratata, riducendo la comparsa di rughe e linee sottili.</li><li>I capelli e le unghie: Favorisce la crescita e la resistenza dei capelli e delle unghie, rendendoli più forti e sani.</li><li>Le ossa: Il collagene di tipo I è un componente fondamentale del tessuto osseo, contribuendo a mantenerlo solido e resistente.</li><li>Le articolazioni: Aiuta a migliorare la salute delle articolazioni, riducendo l'usura e migliorando la mobilità.</li><li>Il miglioramento generale: Integrando il collagene di tipo I nella tua dieta, puoi contribuire a mantenere una pelle giovane, un aspetto sano e articolazioni flessibili.</li></ol>",
+          "image":{
+            "src":"\\images\\1.png",
+            "alt":"..."
+          }
+        },
+        {
+          "note": "La CONTROITINA SOLFATO",
+          "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: La condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: La condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
+          "image":{
+            "src":"\\images\\2.png",
+            "alt":"..."
+          }
+        },
+        {
+          "note": "Il MANGANESE",
+          "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. . I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
           "image":{
             "src":"\\images\\3.png",
             "alt":"..."

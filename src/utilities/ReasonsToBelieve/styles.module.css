@@ -157,6 +157,12 @@
   color: black;
   font-family: var(--bmd-font-Secondary);
 }
+.expanded ul{
+  list-style: disc inside;
+}
+.expanded ol{
+  list-style: decimal inside;
+}
 .clinicalHeadline {
   font-family: "Gotham-Medium";
   text-transform: uppercase;
