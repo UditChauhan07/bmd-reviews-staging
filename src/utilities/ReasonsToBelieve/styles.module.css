@@ -253,11 +253,12 @@
 }
 .readMore {
   font-size: var(--bmd-12px);
+  font-family: var(--bmd-font-Secondary);
   font-weight: var(--bmd-Gotham-book);
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   cursor: pointer;
 }
 
