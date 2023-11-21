@@ -224,9 +224,10 @@
       "title": "Iscriviti alla newsletter",
       "portalId": "19647191",
       "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
-      "desktopImage": "\\images\\landing\\Tenod-Desk-01.webp",
+      "desktopImage": "\\images\\landing\\Tenod-Desk-02.webp",
       "mobileImage": "\\images\\landing\\Tenod-Mob-01.webp",
-      "alignWidth":true
+      "alignWidth":true,
+      "layout":2
     },
     "review":false,
     "bottomBar": {

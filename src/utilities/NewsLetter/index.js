@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 import styles from "./styles.module.css";
 export const NewsLetter = ({ content }) => {
-  const [isDesktop] = useMatchMedia("(min-width: 768px)", true);
+  const [isDesktop] = useMatchMedia("(min-width: 769px)", true);
   const [image, setImage] = useState();
   useEffect(() => {
     if (content) {
@@ -57,8 +57,63 @@ export const NewsLetter = ({ content }) => {
       </section>
     );
   } else {
+    if(content.layout == 2){
+      return (
+        <section id="NewLetterSection">
+          <div className={!content?.alignWidth && styles.container}>
+            <div
+              className={styles.flex}
+              style={formWidth && { gridTemplateColumns: formWidth }}
+            >
+              {image && (
+                <div className={styles.imageContainerFlex}>
+                  <img className={styles.image} src={image} alt="..." width={'100%'} height={'auto'}/>
+                </div>
+              )}
+              {image ? (
+                <div className={styles.flexContainer} style={{ position: "relative" }}>
+                  <div className={styles.details}>
+                    <div
+                      className={styles.headingContainer}
+                      style={titleFont && { fontSize: titleFont }}
+                    >
+                      {title}
+                    </div>
+                    <div className={styles.formContainer}>
+                      <div id="hubspotForm">
+                        <div className="center-body" style={{ height: "200px" }}>
+                          <div className="loader-circle-2"></div>
+                        </div>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div>
+                  <div className={styles.details} style={{ position: "unset" }}>
+                    <div
+                      className={styles.headingContainer}
+                      style={titleFont && { fontSize: titleFont }}
+                    >
+                      {title}
+                    </div>
+                    <div className={styles.formContainer}>
+                      <div id="hubspotForm">
+                        <div className="center-body" style={{ height: "200px" }}>
+                          <div className="loader-circle-2"></div>
+                        </div>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      );
+    }else{
     return (
-      <section>
+      <section id="NewLetterSection">
         <div className={!content?.alignWidth && styles.container}>
           <div
             className={styles.grid}
@@ -110,6 +165,7 @@ export const NewsLetter = ({ content }) => {
         </div>
       </section>
     );
+            }
   }
 };
 export default NewsLetter;
