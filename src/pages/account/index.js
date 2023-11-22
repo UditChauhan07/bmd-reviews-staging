@@ -25,16 +25,22 @@ const Index = () => {
     isLoggedIn: false,
   });
   const [authenticated, setAuthenticated] = React.useState(true);
+  function dateSort(a, b) {
+    let dateA = new Date(a?.node?.processedAt).getTime();
+    let dateB = new Date(b?.node?.processedAt).getTime();
+    return dateA < dateB ? 1 : -1;
+  }
   useEffect(() => {
     let data = Decrypt();
     console.log({ data });
     if (data == null) {
-      Clear();
+      Destroy(router);
     }
     RecoverUser({ token: data}).then((response)=>{
       if (response?.data?.customer) {
         let data = response?.data?.customer;
         data.isLoggedIn = true;
+        // data.orders.edges.sort(dateSort)
         setCustomer(data);
       } else {
         setAuthenticated(false);

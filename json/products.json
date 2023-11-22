@@ -1492,7 +1492,6 @@
                 "desc": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato"
             }
         },
-        
         "benefits": {
             "title": "Scheda prodotto",
             "productColorTheme": "#37246b",
@@ -1569,9 +1568,46 @@
                 "details": [
                     "<p>Maltodestrina, fruttosio, L-arginina, correttore di acidità, acido citrico anidro, condroitin solfato, L-prolina, estratto secco di rizoma di curcuma (Curcuma longa L.), L-lisina, aroma limone, estratto secco di Boswellia (Boswellia serrata Roxb. Colebr), collagene di tipo I, acido L-ascorbico (VItamina C), aroma arancia, gluconato di rame, edulcoranti, sucralosio, saccarina sodica, solfato di manganese.</p>"
                 ]
-            },{
+            },
+            {
                 "title":"FAQ",
                 "details":[]
+            },
+            {
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "PROBLEMI E SINTOMI",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-01.png",
+                                "title": "Tendinite: cause e fattori di rischio",
+                                "link": "https://blog.brunomd.eu/tendinite-cause-e-fattori-di-rischio/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "INGREDIENTI E BENEFICI",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-02.png",
+                                "title": "Tendini e legamenti: amici superorganizzati, ricchi di collagene",
+                                "link": "https://blog.brunomd.eu/tendini-e-legamenti-amici-superorganizzati-ricchi-di-collagene/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Stile di Vita",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-03.png",
+                                "title": "Tendinite: quali benefici dagli integratori alimentari?",
+                                "link": "https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/"
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "newsletter": {
