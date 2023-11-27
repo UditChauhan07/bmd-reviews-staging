@@ -40,7 +40,7 @@ const Index = () => {
       if (response?.data?.customer) {
         let data = response?.data?.customer;
         data.isLoggedIn = true;
-        // data.orders.edges.sort(dateSort)
+        data.orders.edges.sort(dateSort)
         setCustomer(data);
       } else {
         setAuthenticated(false);
