@@ -247,4 +247,7 @@
   .headingContainer {
     font-size: 32px;
   }
+  .flexContainer .details{
+    padding: 15px;
+  }
 }
