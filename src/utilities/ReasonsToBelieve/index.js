@@ -53,7 +53,7 @@ const ReasonsToBelieve = ({
               className={styles.clinicalHeadlineBluerex}
               style={{ color: theme }}
             >
-              {accordanTitle || "Ingredients and Clinical Studies"}
+              {accordanTitle}
             </h3>
             <Accordion allowMultiple className={styles.accordion}>
               {content.map((element, idx) => {
@@ -162,9 +162,9 @@ const ReasonsToBelieve = ({
               Studi clinici
             </p>
           </h3>
-        <p className={styles.v2ContainerSubtitle}>
-          Ingredients and Clinical Studies
-        </p>
+        {accordanTitle &&<p className={styles.v2ContainerSubtitle}>
+        {accordanTitle}
+        </p>}
         </div>
         <div className={styles.v2Container}>
           {content.map((element, key) => (

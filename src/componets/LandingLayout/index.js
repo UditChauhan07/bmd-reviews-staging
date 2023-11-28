@@ -101,6 +101,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
               header={pageData.FourStepProcess.title}
               stepAlignment={true}
+              buttonTittle={'Leggi di più'}
             />
           )}
           {pageData?.ReasonsToBelieve && (
@@ -111,7 +112,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
               product={pageData.product}
               readMoreLabel={pageData.ReasonsToBelieve.readMoreLabel}
-              accordanTitle={"Ingredienti e studi clinici"}
+              accordanTitle={""}
             />
           )}
           {script && (

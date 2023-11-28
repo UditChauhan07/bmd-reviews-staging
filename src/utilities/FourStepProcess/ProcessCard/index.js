@@ -46,7 +46,7 @@ const ProcessCard = ({
             <Accordion allowMultiple className={styles.accordion}>
                 <AccordionItem className={styles.accordionItem}>
                     <AccordionButton className={styles.accordionButton}>
-                        <p style={{ color: titleColor }}>{buttonTittle}</p>
+                        <p style={{ color: titleColor,textTransform:'uppercase' }}>{buttonTittle}</p>
                         <div className={styles.accordionColor} style={{ 'color': titleColor }}>
                             <AccordionIcon variant="arrow-default" className={styles.accordionIcon} />
                         </div>

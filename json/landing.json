@@ -158,7 +158,7 @@
         "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015"
       },
       "productName": "Tendo Active",
-      "accordanTitle": "Ingredienti e studi clinici",
+      "accordanTitle": null,
       "items": [
         {
           "note": "La FITOSOMA DI BOSWELLIA SERRATA",
@@ -218,7 +218,7 @@
         }
       ],
       "versionV2":true,
-      "readMoreLabel":"Read More"
+      "readMoreLabel":"Leggi di più"
     },
     "NewsLetter": {
       "title": "Iscriviti alla newsletter",
