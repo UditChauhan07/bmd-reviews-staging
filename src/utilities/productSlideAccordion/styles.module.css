@@ -16,15 +16,15 @@
 }
 
 .header {
-    font-family: ivypresto-display, 'Times New Roman', Times, serif;
-    font-size: 44px;
+    font-family: ivypresto-display, "Times New Roman", Times, serif;
+    font-size: 48px;
     font-weight: 400;
-    color: #2a2a2a;
+    color: #000000;
 }
 
 .subHeader {
-    font-family: ivypresto-display, 'Times New Roman', Times, serif;
-    font-size: 44px;
+    font-family: ivypresto-display, "Times New Roman", Times, serif;
+    font-size: 48px;
     font-weight: 400;
 }
 .dGrid{
@@ -79,6 +79,7 @@
     padding-right: 10px;
     color: black;
     text-transform: uppercase;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .titleColor {

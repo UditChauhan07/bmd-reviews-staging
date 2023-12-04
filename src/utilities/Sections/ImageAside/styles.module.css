@@ -23,10 +23,15 @@
 }
 
 .headingContainer h1 {
-  font-size: 40px;
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-size: 48px;
   font-weight: 400;
-  font-family: ivypresto-display, Times New Roman, Times, serif;
-
+  color: #000000;
+}
+.headingContainer h2{
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 400;
 }
 
 .title {
@@ -42,12 +47,6 @@
   font-family: var(--bmd-font-Secondary);
   font-size: 14px;
   font-weight: 400;
-}
-
-.headingContainer h2 {
-  font-size: 34px;
-  font-weight: 400;
-  font-family: ivypresto-display, Times New Roman, Times, serif;
 }
 
 .titleDescription small {
@@ -119,6 +118,10 @@
 
   .imageContainer {
     bottom: 40px;
+  }
+  .headingContainer h1 ,.headingContainer h2 {
+    font-size: 32px;
+    line-height: 38px;
   }
 }
 @media screen and (max-width: 470px) {

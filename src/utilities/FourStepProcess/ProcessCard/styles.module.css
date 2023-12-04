@@ -48,9 +48,13 @@
     height: 215px;
   }
   .processTitle {
-    font-size: var(--bmd-14px);
+    font-size: var(--bmd-16px);
     color: var(--bmd-deep-purple);
     padding: 1rem 0.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* font-family: Gotham-Medium; */
+    font-family: var(--bmd-font-Secondary);
   }
   .processTitleBluerex {
     font-size: var(--bmd-14px);

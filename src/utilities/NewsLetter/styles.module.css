@@ -107,8 +107,10 @@
 .headingContainer {
   line-height: 1.1;
   padding-bottom: 1rem;
-  font-size: 52px;
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-size: 48px;
   font-weight: 400;
+  color: #000000;
 }
 
 .dis {
