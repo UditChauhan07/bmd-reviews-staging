@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    font-family: none!important;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 12px;
+    font-weight: 300;
   }
   
   .panel {

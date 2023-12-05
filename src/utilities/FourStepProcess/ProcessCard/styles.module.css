@@ -62,8 +62,9 @@
     padding: 1rem 0.5rem;
   }
   .processBody {
-    font-size: var(--bmd-14px);
-    font-weight: var(--bmd-Gotham-book);
+    font-size: var(--bmd-16px);
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 300;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 1rem;
@@ -95,8 +96,10 @@
     margin-bottom: 0.2rem;
   }
   .accordionPanel {
-    font-size: var(--bmd-14px);
-    font-weight: var(--bmd-Gotham-book);
+    font-size: var(--bmd-16px);
+    font-weight: 300;
+    color: black;
+    font-family: var(--bmd-font-Secondary);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
