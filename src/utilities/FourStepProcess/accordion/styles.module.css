@@ -116,4 +116,8 @@
     transform: translateX(0) rotate(0deg);
   }
   /* end arrow-minus variant */
-  
+  /* @media (max-width: 400px) {
+    .button{
+      font-size: 10px;
+    }
+  } */

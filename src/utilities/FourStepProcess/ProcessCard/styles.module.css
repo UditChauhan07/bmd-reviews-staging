@@ -55,6 +55,7 @@
     font-weight: 300;
     /* font-family: Gotham-Medium; */
     font-family: var(--bmd-font-Secondary);
+    line-height: 22px;
   }
   .processTitleBluerex {
     font-size: var(--bmd-14px);
@@ -179,4 +180,9 @@
       padding-right: 0;
     }
   }
-  
+  /* @media (max-width: 400px) {
+    .processTitle,.processBody,.accordionPanel{
+      font-size: 12px;
+      line-height: 18px;
+    }
+  } */

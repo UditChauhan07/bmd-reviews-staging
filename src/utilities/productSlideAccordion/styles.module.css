@@ -130,14 +130,18 @@
         max-width: 768px;
         width: 100%;
     }
+    .note,.expanded{
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 @media screen and (max-width: 425px) {
-    .subHeader{
+    .subHeader,.header{
         font-size: 32px;
         line-height: 38px;
     }
-    .header{
-        font-size: 34px;
-        line-height: 36px;
-    }
+    /* .note,.expanded{
+        font-size: 12px;
+        line-height: 18px;
+    } */
 }

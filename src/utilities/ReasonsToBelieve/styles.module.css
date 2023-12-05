@@ -140,6 +140,7 @@
   font-size: 48px;
   font-weight: 400;
   color: #000000;
+  line-height: 58px;
 }
 .believe {
   color: var(--bmd-royal-purple);

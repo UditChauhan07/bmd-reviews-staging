@@ -26,10 +26,11 @@
     justify-content: center;
   }
   .processHeader {
-    font-family: ivypresto-display, "Times New Roman", Times, serif;
+    font-family: ivypresto-display,Times New Roman,Times,serif;
     font-size: 48px;
     font-weight: 400;
-    color: #000000;
+    color: #000;
+    line-height: 58px;
   }
 }
 @media (max-width: 769px) {
