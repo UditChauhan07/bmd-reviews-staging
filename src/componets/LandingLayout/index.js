@@ -120,9 +120,10 @@ const LandingPage = ({ version, script, page }) => {
           {(!pageData?.reviewHide && pageData?.externalId) && (
             <ProductReviews variantId={pageData.externalId} />
           )}
-              {pageData?.NewsLetter && (
+              <div style={{marginBottom:'4rem'}}>{pageData?.NewsLetter && (
                 <NewsLetter content={pageData.NewsLetter} />
               )}
+              </div>
               {!pageData?.chat && <Chat />}
             </>
           )}
