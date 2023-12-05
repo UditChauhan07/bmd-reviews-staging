@@ -12,7 +12,7 @@
   justify-items: center;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
-  padding-bottom: 100px;
+  margin-bottom: 4rem;
 }
 @media (max-width: 1023px) {
   .processCardGrid {
