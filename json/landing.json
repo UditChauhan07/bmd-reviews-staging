@@ -72,40 +72,28 @@
     },
     "ProductTrustBadges": [
       {
-        "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
-        "alt":"BioAvailable"
-      },
-      {
-        "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
-        "alt":"cGMP"
-      },
-      {
-        "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
-        "alt":"Clean"
-      },
-      {
-        "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
-        "alt":"Clinically_Proven"
-      },
-      {
         "src": "\\images\\landing\\trust\\Gluten-Free-Icon-v2-Black 1.png",
         "alt":"Gluten"
-      },
-      {
-        "src": "\\images\\landing\\trust\\Low-Carb-Icon-V1-Black 1.png",
-        "alt":"Low-Carb"
       },
       {
         "src": "\\images\\landing\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
         "alt":"Non-GMO"
       },
       {
-        "src": "\\images\\landing\\trust\\Sugar-Free-Icon-V1-Black 1.png",
-        "alt":"Sugar-Free"
+        "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
+        "alt":"Clinically_Proven"
       },
       {
-        "src": "\\images\\landing\\trust\\Vegan-Icon-v1-Black 1.png",
-        "alt":"Vegan"
+        "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
+        "alt":"BioAvailable"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
+        "alt":"Clean"
+      },
+      {
+        "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
+        "alt":"cGMP"
       }
     ],
     "FourStepProcess": {
