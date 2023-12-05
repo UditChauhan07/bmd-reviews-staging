@@ -153,6 +153,7 @@
   color: black;
 }
 .expanded {
+  font-size: 14px;
   /* margin-top: 15px; */
   min-height: 50px;
   color: black;

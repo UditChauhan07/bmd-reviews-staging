@@ -100,7 +100,7 @@
 .expanded {
     margin-bottom: 2rem;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21px;
     font-family: var(--bmd-font-Secondary);
 }
@@ -139,9 +139,5 @@
     .subHeader,.header{
         font-size: 32px;
         line-height: 38px;
-    }
-    .note,.expanded{
-        font-size: 16px;
-        line-height: 18px;
     }
 }
