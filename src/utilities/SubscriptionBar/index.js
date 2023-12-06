@@ -7,10 +7,8 @@ const SubscriptionBar = ({content,ModalHandler,active}) => {
                 <div className={styles.container}>
                     <div className={styles.row}>
                         <div className={styles.colxl7}>
-                            <div className="codeAutomaticaly">
                                 <p className={styles.firstLineHeader}>{content.title1}</p>
                                 <p className={styles.secondLineHeader}>{content.title2}</p>
-                            </div>
                         </div>
                         <div className={styles.colxl5}>
                             <div className={styles.SubOneTime}>

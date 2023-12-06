@@ -37,15 +37,17 @@
 
 .firstLineHeader {
     color: #ffbf3c;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 0;
+    letter-spacing: 0.5px;
 }
 
 .secondLineHeader {
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     padding-bottom: 10px;
     margin-bottom: 0;
+    letter-spacing: 0.5px;
 }
 
 .SubOneTime {
@@ -98,5 +100,31 @@
 @media screen and (max-width: 775px) {
     .colxl7{
         text-align: center;
+        margin: 0 5px;
+    }
+    .firstLineHeader{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .secondLineHeader{
+        font-size: 11px;
+    }
+    .firstLineHeader{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .secondLineHeader,.firstLineHeader{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .button02,.button01{
+        padding: 10px 15px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .button02,.button01{
+        padding: 10px;
     }
 }

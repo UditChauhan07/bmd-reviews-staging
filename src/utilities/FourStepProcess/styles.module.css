@@ -14,19 +14,20 @@
   grid-gap: 2rem;
   margin-bottom: 4rem;
 }
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
   .processCardGrid {
     padding-bottom: 40px;
   }
-}
+} */
 @media (min-width: 960px) {
   .processCardGrid {
     grid-template-columns: auto auto;
     column-gap: 5rem;
+    grid-gap: 1rem;
     justify-content: center;
   }
   .processHeader {
-    font-family: ivypresto-display,Times New Roman,Times,serif;
+    font-family: ivypresto-display, Times New Roman, Times, serif;
     font-size: 48px;
     font-weight: 400;
     color: #000;

@@ -27,9 +27,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         }}
         onClick={ModalHandler}
       >
-        <div>
-          <p>{announcement}</p>
-        </div>
+        <div dangerouslySetInnerHTML={{__html:announcement}}/>
       </section>
     )
   } else {
@@ -41,9 +39,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
           backgroundColor: theme?.backgroundColor
         }}
       >
-        <div>
-          <p>{announcement}</p>
-        </div>
+        <div dangerouslySetInnerHTML={{__html:announcement}}/>
       </section>
     )
   }
