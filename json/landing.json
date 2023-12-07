@@ -73,27 +73,27 @@
     },
     "ProductTrustBadges": [
       {
-        "src": "\\images\\landing\\trust\\Gluten-Free-Icon-v2-Black 1.png",
+        "src": "\\images\\landing\\trust\\Gluten-Free-Icon-Italian-White.png",
         "alt":"Gluten"
       },
       {
-        "src": "\\images\\landing\\trust\\Non-GMO-Icon-v1-Black-300x300 1.png",
-        "alt":"Non-GMO"
+        "src": "\\images\\landing\\trust\\Lactose-Free-Italian-White.png",
+        "alt":"Lactose"
       },
       {
-        "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-Black 1.png",
+        "src": "\\images\\landing\\trust\\Non_GMO-Icon-v1-White.png",
+        "alt":"Non_GMO"
+      },
+      {
+        "src": "\\images\\landing\\trust\\Clinically_Proven-Icon-v1-White.png",
         "alt":"Clinically_Proven"
       },
       {
-        "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-Black-300x300.png",
+        "src": "\\images\\landing\\trust\\BioAvailable-icon-v1-White-Italian.png",
         "alt":"BioAvailable"
       },
       {
-        "src": "\\images\\landing\\trust\\Clean+Pure-Icon-v1-Black-300x300.png",
-        "alt":"Clean"
-      },
-      {
-        "src": "\\images\\landing\\trust\\cGMP-Icon-v1-Black 1.png",
+        "src": "\\images\\landing\\trust\\cGMP-Icon-v1-White.png",
         "alt":"cGMP"
       }
     ],

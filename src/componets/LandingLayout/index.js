@@ -84,7 +84,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {pageData?.ProductTrustBadges && (
-            <ProductTrustBadges images={pageData.ProductTrustBadges} />
+            <ProductTrustBadges images={pageData.ProductTrustBadges} backgroundColor={'rgb(0, 51, 161)'}/>
           )}
           {pageData?.testimonial && (
             <Testimonial

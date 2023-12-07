@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 
-const ProductTrustBadges = ({ images }) => {
+const ProductTrustBadges = ({ images,backgroundColor=null }) => {
   const [isDesktop] = useMatchMedia('(min-width: 1025px)', true)
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
@@ -47,7 +47,7 @@ const ProductTrustBadges = ({ images }) => {
   }
   if (images) {
     return (
-      <section style={{ backgroundColor: '#f7f7f7' }}>
+      <section style={{ backgroundColor: backgroundColor ||'#f7f7f7' }}>
         {isDesktop ? (
           <div className={styles.productBadgesContainer}>
             <div className={styles.productBadgesCenter}>
