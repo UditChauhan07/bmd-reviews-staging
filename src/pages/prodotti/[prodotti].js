@@ -181,7 +181,7 @@ const Product = ({ version,script }) => {
           productid={EXTERNALID}
         />
       )}
-      {!review && <ProductReviews product={shopifyP} />}
+      {!review && <ProductReviews product={shopifyP} variantId={EXTERNALID}/>}
       {newsletter &&<NewsLetter content={newsletter} />}</>}
     </section>
   );

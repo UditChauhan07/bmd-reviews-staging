@@ -5,6 +5,7 @@
         "SLUG": "cronos-30-compresse-da-850mg",
         "link": "/prodotti/",
         "theme": "#2c7abf",
+        "review": true,
         "title": "CRONOS",
         "btnText": "Shop",
         "price": 25.00,
@@ -166,6 +167,7 @@
         "theme": "#00aff0",
         "title": "CITRAK FORTE 4g.",
         "btnText": "Shop",
+        "review": true,
         "price": 14.00,
         "logo": {
             "src": "\\images\\products\\06-BMD-Citrack-Forte-9O3A5764.webp"
@@ -331,6 +333,7 @@
         "theme": "#00A7E1",
         "title": "DROP THERAPEUTIC",
         "btnText": "Shop",
+        "review": true,
         "price": 18.00,
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
@@ -507,6 +510,7 @@
         "link": "/prodotti/",
         "theme": "#00aff0",
         "title": "CITRAK 3g.",
+        "review": true,
         "btnText": "Shop",
         "price": 12.00,
         "priceBox": {
@@ -667,6 +671,7 @@
         "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2NjQ2MzEwOTk=",
         "SLUG": "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine",
         "link": "/prodotti/",
+        "review": true,
         "theme": "#00aff0",
         "title": "CITRAK Mg.",
         "btnText": "Shop",
@@ -831,6 +836,7 @@
         "link": "/prodotti/",
         "title": "NUBIT",
         "theme": "#f58543",
+        "review": true,
         "price": 26,
         "btnText": "Shop",
        
@@ -994,6 +1000,7 @@
         "link": "/prodotti/",
         "title": "NEULENIC",
         "theme": "#d50032",
+        "review": true,
         "btnText": "Shop",
         "price": 26.00,
         "priceBox": {
@@ -1155,6 +1162,7 @@
         "SLUG": "silverphage-crema-gel-50-ml",
         "link": "/prodotti/",
         "theme": "#0033A1",
+        "review": true,
         "title": "SILVERPHAGE Crema",
         "btnText": "Shop",
         "price": 18.00,
@@ -1317,6 +1325,7 @@
         "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgxMjczMTM5MzY2OTk=",
         "SLUG": "silverphage-14-individual-wipes",
         "link": "/prodotti/",
+        "review": true,
         "theme": "#0033A1",
         "title": "SILVERPHAGE GARZE MONOUSO",
         "btnText": "Shop",
@@ -1451,7 +1460,6 @@
     },
     "tendoactive-plus-20-stick": {
         "EXTERNALID": "8615981285701",
-        "review": true,
         "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
         "SLUG": "tendoactive-plus-20-stick",
         "link": "/prodotti/",

@@ -118,7 +118,7 @@
           "stepNumber": 2,
           "title": "Curcumina",
           "body": "Effetto antinfiammatorio",
-          "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia.",
+          "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia.",
           "image": {
             "src": "\\images\\landing\\BMD-P1107585-landing.webp",
             "alt": "..."
@@ -136,8 +136,8 @@
         },
         {
           "stepNumber": 4,
-          "title": "Collagene",
-          "body": "di tipo I, condroitina solfato, vitamina C, e il manganese forniscono struttura ai tessuti.",
+          "title": "Collagene, Di Tipo I, Condroitina Solfato, E Il Manganese",
+          "body": "Foniscono struttura ai tessuti",
           "expanded": "Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti.La VITAMINA C stimola la sintesi del collagene.",
           "image": {
             "src": "\\images\\landing\\BMD-P1072538-landing.webp",
@@ -154,7 +154,7 @@
       "accordanTitle": null,
       "items": [
         {
-          "note": "La FITOSOMA DI BOSWELLIA SERRATA",
+          "note": "iI FITOSOMA DI BOSWELLIA SERRATA",
           "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa si favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la Boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
           "image":{
             "src":"\\images\\1.png",
@@ -162,7 +162,7 @@
           }
         },
         {
-          "note": "La FITOSOMA DI CURCUMINA",
+          "note": "II FITOSOMA DI CURCUMINA",
           "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>",
           "image":{
             "src":"\\images\\2.png",
@@ -203,9 +203,17 @@
         },
         {
           "note": "Il MANGANESE",
-          "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. . I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
+          "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
           "image":{
             "src":"\\images\\3.png",
+            "alt":"..."
+          }
+        },
+        {
+          "note": "VITAMINA C",
+          "expanded": "<p>LLa vitamina C, anche conosciuta come acido ascorbico, è un nutriente essenziale per il corpo umano con diversi benefici per la salute. Alcuni dei principali benefici della vitamina C sono:</p><ol><li>Il sistema immunitario potenziato: svolge un ruolo cruciale nel sostenere il sistema immunitario, aiutando il corpo a difendersi contro le infezioni. È coinvolta nella produzione e nella funzione dei globuli bianchi, che combattono le infezioni.</li><li>Le proprietà antiossidanti: è un potente antiossidante che aiuta a proteggere le cellule dai danni causati dai radicali liberi. Questi ultimi possono contribuire all'invecchiamento cellulare e ad alcune malattie.</li><li>La salute della pelle: contribuisce alla produzione di collagene, una proteina fondamentale per la salute della pelle, favorendo la guarigione delle ferite e mantenendo la pelle sana ed elastica.</li><li>L’assorbimento del ferro: aiuta il corpo ad assorbire il ferro.</li><li>L’antistress ossidativo: può contribuire a ridurre lo stress ossidativo nel corpo, che è associato a diverse condizioni patologiche.</li></ol>",
+          "image":{
+            "src":"\\images\\4.png",
             "alt":"..."
           }
         }
