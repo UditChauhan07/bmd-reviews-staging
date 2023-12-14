@@ -219,12 +219,12 @@
   margin-bottom: 20px;
 }
 .imgHolder {
-  width: 100%;
-  height: auto;
-  max-width: 125px;
+  /* width: 100%;
+  height: auto; */
+  /* max-width: 125px;
   min-width: 125px;
   max-height: 125px;
-  min-height: 125px;
+  min-height: 125px; */
   margin: 0 25px 0 0;
   border-radius: 12px;
   cursor: pointer;
