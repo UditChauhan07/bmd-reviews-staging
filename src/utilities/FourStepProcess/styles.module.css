@@ -19,6 +19,7 @@
     padding-bottom: 40px;
   }
 } */
+/* let me be your men */
 @media (min-width: 960px) {
   .processCardGrid {
     grid-template-columns: auto auto;
