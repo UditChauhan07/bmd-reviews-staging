@@ -18,8 +18,9 @@
 }
 
 .title {
-  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(.25, .46, .45, .94) forwards;
-  animation-delay: .5s;
+  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    forwards;
+  animation-delay: 0.5s;
   color: var(--bmd-white);
   font-size: 126px;
   font-family: var(--bmd-font-Primary);
@@ -27,10 +28,11 @@
   line-height: 4rem;
   margin-bottom: 3rem;
 }
-.title  h2{
+.title h2 {
   font-size: 62px;
-  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(.25, .46, .45, .94) forwards;
-  animation-delay: .5s;
+  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    forwards;
+  animation-delay: 0.5s;
   color: var(--bmd-white);
   font-family: var(--bmd-font-Primary);
   font-weight: var(--bmd-Gotham-book);
@@ -40,12 +42,13 @@
 }
 
 .subTitle {
-  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(.25, .46, .45, .94) forwards;
-  animation-delay: .6s;
+  animation: styles_scaleIn__Xxf7L 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    forwards;
+  animation-delay: 0.6s;
   color: var(--bmd-white);
   font-family: var(--bmd-font-Secondary);
   font-weight: var(--bmd-Gotham-book);
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   font-size: 26px;
   line-height: 1.2em;
   margin: revert;
@@ -68,34 +71,35 @@
   padding: 1rem 2rem;
   pointer-events: all;
   text-transform: uppercase;
-  transition: background .25s, color .25s, border .25s;
+  transition: background 0.25s, color 0.25s, border 0.25s;
 }
-.buyNow{
+.buyNow {
   position: absolute;
-top: 50%;
-right: 5%;
-z-index: 1;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-color: #000000;
-    border: 1px solid transparent;
-    padding: 0.7rem 2.5rem;
-    font-size: 1.5rem;
-    border-radius: 0;
-    transition: color .1s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  top: 50%;
+  right: 5%;
+  z-index: 1;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #000000;
+  border: 1px solid transparent;
+  padding: 0.7rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 0;
+  transition: color 0.1s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.buyNow:hover{
+.buyNow:hover {
   background-color: #e65300;
 }
-@media screen and (max-width: 2500px){
+/* @media screen and (max-width: 2500px){
   .buyNow{
    top: 32%;
   }
-}
+} */
 @media screen and (max-width: 1810px) {
   .heroButtonAndTextContainer {
     position: absolute;
@@ -104,11 +108,11 @@ z-index: 1;
     padding-left: 32px;
   }
 }
-@media screen and (max-width: 1025px){
-  .buyNow{
-   font-size: 1rem;
-   padding: 0.5rem 1.25rem;
-   top: 30%;
+@media screen and (max-width: 1025px) {
+  .buyNow {
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    top: 40%;
   }
 }
 
@@ -119,29 +123,32 @@ z-index: 1;
   }
 }
 @media screen and (max-width: 768px) {
-  .heroButtonAndTextContainer{
-    top:155px;
+  .heroButtonAndTextContainer {
+    top: 155px;
   }
-  .subTitle{
+  .subTitle {
     font-size: 22px;
     line-height: 1em;
   }
+  .buyNow {
+    top: 55%;
+  }
 }
-@media screen and (max-width: 700px){
-  .buyNow{
-   right: 4%;
- top: 20%;
+@media screen and (max-width: 700px) {
+  .buyNow {
+    right: 4%;
+    top: 40%;
   }
 }
 @media screen and (max-width: 650px) {
-  .heroButtonAndTextContainer{
+  .heroButtonAndTextContainer {
     top: 200px;
   }
-  .title{
+  .title {
     font-size: 75px;
     line-height: 2rem;
   }
-  .subTitle{
+  .subTitle {
     font-size: 18px;
   }
 }
@@ -150,18 +157,18 @@ z-index: 1;
   .heroButtonAndTextContainer {
     top: 180px;
   }
-  .subTitle{
+  .subTitle {
     margin-bottom: 1rem;
   }
-  .title{
+  .title {
     font-size: 50px;
     margin-bottom: 1rem;
   }
-  .titleHolder{
+  .titleHolder {
     margin-top: 45px;
     margin-bottom: 30px;
   }
-  .title h2{
+  .title h2 {
     font-size: 30px;
     line-height: 0px;
   }
@@ -171,23 +178,26 @@ z-index: 1;
   .heroButtonAndTextContainer {
     top: 190px;
   }
-  
-  .subTitle{
+
+  .subTitle {
     max-width: 90vw;
     font-size: 13px;
     line-height: 1.3em;
     margin-bottom: 1rem;
   }
-  .btn{
-    padding: .75rem 1.5rem;
+  .btn {
+    padding: 0.75rem 1.5rem;
+  }
+  .buyNow{
+    top: 35%;
   }
 }
 @media screen and (max-width: 321px) {
-  .title{
+  .title {
     font-size: 32px;
     line-height: 0em;
   }
-  .title h2{
+  .title h2 {
     font-size: 25px;
     line-height: 0px;
   }

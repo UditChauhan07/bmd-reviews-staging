@@ -10,7 +10,7 @@ import { NewsLetter } from "@/utilities/NewsLetter";
 import ProductReviews from "@/utilities/ProductReviews";
 import ImageAside from "@/utilities/Sections/ImageAside";
 import ModalBoxInner from "@/utilities/ModalBoxInner";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import ProductArticleModal from "@/utilities/Sections/ProductArticleModal";
 import ProductTrustBadges from "@/utilities/ProductTrustBadges";
 import Testimonial from "@/utilities/Testimonial";
@@ -19,8 +19,20 @@ import ReasonsToBelieve from "@/utilities/ReasonsToBelieve";
 import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
+import dynamic from "next/dynamic";
 
 const LandingPage = ({ version, script, page }) => {
+  const DynamicGalleryComponent = dynamic(
+    () => import("@/utilities/HomeGallery"),
+    {
+      loading: () => (
+        <div class="center-body" style={{ height: "200px" }}>
+          <div class="loader-circle-2"></div>
+        </div>
+      ),
+    }
+  );
+  const VideoRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
 
@@ -69,7 +81,12 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
-          {pageData?.ImageAside && <ImageAside content={pageData.ImageAside} theme={pageData.announcement.theme} />}
+          {pageData?.ImageAside && (
+            <ImageAside
+              content={pageData.ImageAside}
+              theme={pageData.announcement.theme}
+            />
+          )}
           {pageData?.ProductArticleModal && (
             <ProductArticleModal
               content={pageData.ProductArticleModal}
@@ -84,7 +101,10 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {pageData?.ProductTrustBadges && (
-            <ProductTrustBadges images={pageData.ProductTrustBadges} backgroundColor={'rgb(0, 51, 161)'}/>
+            <ProductTrustBadges
+              images={pageData.ProductTrustBadges}
+              backgroundColor={"rgb(0, 51, 161)"}
+            />
           )}
           {pageData?.testimonial && (
             <Testimonial
@@ -101,7 +121,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
               header={pageData.FourStepProcess.title}
               stepAlignment={true}
-              buttonTittle={'Leggi di più'}
+              buttonTittle={"Leggi di più"}
             />
           )}
           {pageData?.ReasonsToBelieve && (
@@ -117,12 +137,28 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {script && (
             <>
-          {(!pageData?.reviewHide && pageData?.externalId) && (
-            <ProductReviews variantId={pageData.externalId} />
-          )}
-              <div style={{marginBottom:'4rem'}}>{pageData?.NewsLetter && (
-                <NewsLetter content={pageData.NewsLetter} />
+            <>
+            {pageData?.homeGallery && (
+              <div ref={VideoRef} id="homeGallerySection">
+                <DynamicGalleryComponent
+                  id={pageData.homeGallery.id}
+                  galleryId={pageData.homeGallery.galleryId}
+                  content={{
+                    title: pageData.homeGallery.title,
+                    desc: pageData.homeGallery.subTitle,
+                    invert: pageData.homeGallery.invert,
+                  }}
+                />
+              </div>
+            )}
+            </>
+              {!pageData?.reviewHide && pageData?.externalId && (
+                <ProductReviews variantId={pageData.externalId} />
               )}
+              <div style={{ marginBottom: "4rem" }}>
+                {pageData?.NewsLetter && (
+                  <NewsLetter content={pageData.NewsLetter} />
+                )}
               </div>
               {!pageData?.chat && <Chat />}
             </>
