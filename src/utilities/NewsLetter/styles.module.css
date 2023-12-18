@@ -167,7 +167,15 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1025px) {
+  .details{
+    padding: 1rem;
+  }
+  .headingContainer{
+    font-size: 40px;
+  }
+}
+  @media (min-width: 1024px) {
   .grid {
     grid-template-columns: 6fr 4fr;
   }

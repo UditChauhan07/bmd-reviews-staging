@@ -23,7 +23,7 @@
   .processCardGrid {
     grid-template-columns: auto auto;
     column-gap: 5rem;
-    grid-gap: 1rem;
+    grid-gap: 6rem;
     justify-content: center;
   }
   .processHeader {
