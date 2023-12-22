@@ -64,7 +64,7 @@
             "btnText": "Aggiungi al carrello",
             "accordanTitle":"Dettagli",
             "themeColor":true,
-            "accordanBody":"<p>Il tuo abbonamento a questo prodotto si rinnoverà ogni 15 giorni e riceverai il prodotto a pagamento effettuato</p><ul> <li>Nessun costo</li> <li>Cancella quando vuoi</li></ul>"
+            "accordanBody":"Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>"
         },
         "subscribe": {
             "title": "Acquisto periodico",

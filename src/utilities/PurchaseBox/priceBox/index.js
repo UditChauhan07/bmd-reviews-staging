@@ -8,39 +8,48 @@ import { useRouter } from "next/navigation";
 const PriceBox = ({ isActive, data, variantId }) => {
   const router = useRouter();
   const [learnMore, setLearnMore] = useState(false);
+  const [detailsMore, setDetailsMore] = useState(true);
   const [quantity, setQuantity] = useState(1);
   const [isAddingToCart, setIsAddingToCart] = useState(true);
   const [subscriptionInit, setInit] = useState(false);
   const [currentShippingInterval, setCurrentShippingInterval] = useState();
   const [freqText, setFreq] = useState();
-  const [color, setColor] = useState(data?.priceBox?.isCheckoutTheme?data.theme:"#ffffff");
-  const [background, setBackgroundColor] = useState(data?.priceBox?.isCheckoutTheme?"#ffffff":data.theme);
+  const [color, setColor] = useState(
+    data?.priceBox?.isCheckoutTheme ? data.theme : "#ffffff"
+  );
+  const [background, setBackgroundColor] = useState(
+    data?.priceBox?.isCheckoutTheme ? "#ffffff" : data.theme
+  );
   useEffect(() => {
     if (isActive == 2 && data?.freq?.length > 0) {
       setCurrentShippingInterval(data?.freq[0]?.id);
-      if(!subscriptionInit){
+      if (!subscriptionInit) {
         setIsAddingToCart(false);
         setInit(true);
       }
     }
     if (isActive == 1) {
-      if(!subscriptionInit){
+      if (!subscriptionInit) {
         setIsAddingToCart(false);
         setInit(true);
       }
     }
-    if(data?.priceBox?.isCheckoutTheme){
+    if (data?.priceBox?.isCheckoutTheme) {
       const onMouseEnter = () => {
-        setColor("#ffffff" || '#56008C');
-        setBackgroundColor(data?.theme || '#56008C');
+        setColor("#ffffff" || "#56008C");
+        setBackgroundColor(data?.theme || "#56008C");
       };
-      
+
       const onMouseLeave = () => {
         setColor(data.theme);
         setBackgroundColor("#ffffff");
-      }; 
-      document.getElementById("checkoutBtnContainer")?.addEventListener("mouseenter", onMouseEnter);
-      document.getElementById("checkoutBtnContainer")?.addEventListener("mouseleave", onMouseLeave);
+      };
+      document
+        .getElementById("checkoutBtnContainer")
+        ?.addEventListener("mouseenter", onMouseEnter);
+      document
+        .getElementById("checkoutBtnContainer")
+        ?.addEventListener("mouseleave", onMouseLeave);
     }
   }, [data]);
   if (!data) return null;
@@ -91,40 +100,56 @@ const PriceBox = ({ isActive, data, variantId }) => {
       }
     }
     if (cId) {
-      addCartItems({ items: lineItemsToAdd }).then((response)=>{
-        if(response?.data?.cartLinesAdd?.userErrors?.length){
-          if(response?.data?.cartLinesAdd?.userErrors[0].message){
-            if(response?.data?.cartLinesAdd?.userErrors[0].message == "Il carrello specificato non esiste."){
-              AddtoCart({ lineItems: lineItemsToAdd }).then((response)=>{
-                let id= response?.data?.cartCreate?.cart?.id;
-                localStorage.setItem("e6S4JJM9G",id);
-                // router.push('/carrello')
-                window.location.href = "/carrello"
-              }).catch((err)=>{
-                console.log({err});
-              })
+      addCartItems({ items: lineItemsToAdd })
+        .then((response) => {
+          if (response?.data?.cartLinesAdd?.userErrors?.length) {
+            if (response?.data?.cartLinesAdd?.userErrors[0].message) {
+              if (
+                response?.data?.cartLinesAdd?.userErrors[0].message ==
+                "Il carrello specificato non esiste."
+              ) {
+                AddtoCart({ lineItems: lineItemsToAdd })
+                  .then((response) => {
+                    let id = response?.data?.cartCreate?.cart?.id;
+                    localStorage.setItem("e6S4JJM9G", id);
+                    // router.push('/carrello')
+                    window.location.href = "/carrello";
+                  })
+                  .catch((err) => {
+                    console.log({ err });
+                  });
+              }
             }
+          } else {
+            // router.push('/carrello')
+            window.location.href = "/carrello";
           }
-        }else{
-          // router.push('/carrello')
-          window.location.href = "/carrello"
-        }
-      }).catch((err)=>{
-        console.log({err});
-      })
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
     } else {
-      AddtoCart({ lineItems: lineItemsToAdd }).then((response)=>{
-        let id= response?.data?.cartCreate?.cart?.id;
-        localStorage.setItem("e6S4JJM9G",id);
-        // router.push('/carrello')
-        window.location.href = '/carrello';
-      }).catch((err)=>{
-        console.log({err});
-      })
+      AddtoCart({ lineItems: lineItemsToAdd })
+        .then((response) => {
+          let id = response?.data?.cartCreate?.cart?.id;
+          localStorage.setItem("e6S4JJM9G", id);
+          // router.push('/carrello')
+          window.location.href = "/carrello";
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
     }
   };
-  let regex = /\d\d giorni/gi
-  let subscriptionDetails= data.priceBox.subscriptionDetails.replaceAll(regex, freqText ? freqText + ' giorni' : data?.freq?.length ?data?.freq[0]?.value:'25 giorni',);
+  let regex = /\d\d giorni/gi;
+  let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(
+    regex,
+    freqText
+      ? freqText + " giorni"
+      : data?.freq?.length
+      ? data?.freq[0]?.value
+      : "25 giorni"
+  );
   return (
     <div className={styles.accordionItem}>
       <div className={styles.accordionContent}>
@@ -157,17 +182,26 @@ const PriceBox = ({ isActive, data, variantId }) => {
                 style={{ color: data.theme }}
                 onClick={() => setLearnMore(!learnMore)}
               >
-                {data?.priceBox.moreInfoBtnText
-                  &&<> {data?.priceBox.moreInfoBtnText}
-                <div className={learnMore ? styles.upArrow : styles.downArrow}>
-                  <svg className="flickity-button-icon" viewBox="0 0 100 100">
-                    <path
-                      d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"
-                      className="arrow"
-                      transform="translate(100, 100) rotate(180) "
-                    ></path>
-                  </svg>
-                </div></>}
+                {data?.priceBox.moreInfoBtnText && (
+                  <>
+                    {" "}
+                    {data?.priceBox.moreInfoBtnText}
+                    <div
+                      className={learnMore ? styles.upArrow : styles.downArrow}
+                    >
+                      <svg
+                        className="flickity-button-icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <path
+                          d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"
+                          className="arrow"
+                          transform="translate(100, 100) rotate(180) "
+                        ></path>
+                      </svg>
+                    </div>
+                  </>
+                )}
               </div>
               {learnMore && (
                 <div className={styles.m5}>
@@ -180,7 +214,12 @@ const PriceBox = ({ isActive, data, variantId }) => {
               )}
             </>
           )}
-          <div className={styles.section4} style={data?.priceBox?.isStockBack?{color:'#000'}:{}}>{data?.priceBox?.stock}</div>
+          <div
+            className={styles.section4}
+            style={data?.priceBox?.isStockBack ? { color: "#000" } : {}}
+          >
+            {data?.priceBox?.stock}
+          </div>
           <div className={styles.flex}>
             <div className={styles.selectDiv}>
               <div className={styles.quntity}>
@@ -238,22 +277,52 @@ const PriceBox = ({ isActive, data, variantId }) => {
             <div
               className={styles.buyNowBtn}
               id="checkoutBtnContainer"
-              style={!subscriptionInit ? {background:data.theme}:data?.priceBox?.isCheckoutTheme?{background,border:`2px solid ${data.theme}`,color,fontWeight:'bolder'}:{}}
+              style={
+                !subscriptionInit
+                  ? { background: data.theme }
+                  : data?.priceBox?.isCheckoutTheme
+                  ? {
+                      background,
+                      border: `2px solid ${data.theme}`,
+                      color,
+                      fontWeight: "bolder",
+                    }
+                  : {}
+              }
               onClick={() => cartHandler()}
             >
               <p>
                 {isAddingToCart ? (
-                  <Spinner className={styles.spinner} size={20} />
+                  <Spinner className={styles.spinner} size={20} theme={color}/>
                 ) : (
                   buttonText
                 )}
               </p>
             </div>
           </div>
-          {(isActive == 1 && data?.priceBox?.oneTime?.accordanTitle) && (<div>
-            <b>{data.priceBox.oneTime.accordanTitle}</b>
-            <p dangerouslySetInnerHTML={{__html:data.priceBox.oneTime.accordanBody}}/>
-          </div>)}
+          {isActive == 1 && data?.priceBox?.oneTime?.accordanTitle && (
+            <div style={{paddingBottom:'2rem'}}>
+              <div className={styles.section7} onClick={()=>setDetailsMore(!detailsMore)}>
+                <b>{data.priceBox.oneTime.accordanTitle}</b>
+                <div
+                  className={detailsMore ? styles.upArrow : styles.downArrow}
+                >
+                  <svg className="flickity-button-icon" viewBox="0 0 100 100">
+                    <path
+                      d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"
+                      className="arrow"
+                      transform="translate(100, 100) rotate(180) "
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              {detailsMore &&<p
+                dangerouslySetInnerHTML={{
+                  __html: data.priceBox.oneTime.accordanBody,
+                }}
+              />}
+            </div>
+          )}
         </div>
       </div>
     </div>
