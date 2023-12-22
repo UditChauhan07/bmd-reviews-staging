@@ -10,7 +10,7 @@ import { NewsLetter } from "@/utilities/NewsLetter";
 import ProductReviews from "@/utilities/ProductReviews";
 import ImageAside from "@/utilities/Sections/ImageAside";
 import ModalBoxInner from "@/utilities/ModalBoxInner";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ProductArticleModal from "@/utilities/Sections/ProductArticleModal";
 import ProductTrustBadges from "@/utilities/ProductTrustBadges";
 import Testimonial from "@/utilities/Testimonial";
@@ -20,8 +20,12 @@ import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
 import dynamic from "next/dynamic";
+import { getProduct, getSubscription } from "@/data/lib";
+import Loader2 from "@/utilities/Loader/index2";
 
 const LandingPage = ({ version, script, page }) => {
+  const [shopifyP, setSProduct] = useState();
+  const [ rechargeProduct, setRProduct] = useState();
   const DynamicGalleryComponent = dynamic(
     () => import("@/utilities/HomeGallery"),
     {
@@ -46,8 +50,77 @@ const LandingPage = ({ version, script, page }) => {
     setIsOpen(!isOpen);
   };
 
-  const pageData = landingData[page] || {};
+  useEffect(()=>{
+    if (pageData.externalId) {
+      const productId = `gid://shopify/Product/${pageData.externalId}`;
+      getProduct({productId}).then((response)=>{
+        let product = response?.data?.product;
+        setSProduct(product)
+      }).catch((err)=>{
+        console.log({err});
+      })
 
+    getSubscription({ id: pageData.externalId })
+    .then((response) => {
+      if (response?.plans?.length) {
+        let freqs = [];
+        response.plans.map((element) => {
+          if (
+            element.subscription_preferences.charge_interval_frequency
+          )
+            freqs.push({
+              id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
+              value:
+                element.subscription_preferences
+                  .charge_interval_frequency + " giorni",
+            });
+        });
+        freqs.sort((a, b) => {
+          if (a.value < b.value) {
+            return -1;
+          }
+          if (a.value > b.value) {
+            return 1;
+          }
+        });
+        setRProduct({
+          product_id: pageData.externalId,
+          subscription_preferences: freqs,
+        });
+      }
+      if (response?.selling_plan_groups?.length > 0) {
+        let freqs = [];
+        response.selling_plan_groups[0].selling_plans.map((plans) => {
+          if (plans.order_interval_frequency) {
+            freqs.push({
+              id: `gid://shopify/SellingPlan/${plans.selling_plan_id}`,
+              value: plans.order_interval_frequency + " giorni",
+            });
+          }
+        });
+        freqs.sort((a, b) => {
+          if (a.value < b.value) {
+            return -1;
+          }
+          if (a.value > b.value) {
+            return 1;
+          }
+        });
+        setRProduct({
+          product_id: EXTERNALID,
+          subscription_preferences: freqs,
+        });
+      }
+    })
+    .catch((err) => {
+      console.error({ err });
+    });
+  }
+  
+  },[])
+
+  const pageData = landingData[page] || {};
+  if(!shopifyP) return <Loader2 />
   return (
     <>
       {pageData && (
@@ -78,6 +151,8 @@ const LandingPage = ({ version, script, page }) => {
               productVariantId={pageData.variantId}
               clickedType={clickedType}
               version={version}
+              defaultFreq={rechargeProduct?.subscription_preferences[0].id}
+              sellingPlans={rechargeProduct?.subscription_preferences}
             />
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
@@ -89,6 +164,10 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {pageData?.ProductArticleModal && (
             <ProductArticleModal
+            priceBox={{EXTERNALID:pageData.externalId,priceBox:pageData.ProductArticleModal.priceBox,freq:rechargeProduct?.subscription_preferences,theme:pageData.theme,price: shopifyP?.variants?.edges?.length
+              ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+              : 0}}
+              variantId={pageData.variantId}
               content={pageData.ProductArticleModal}
               ModalHandler={ModalHandler}
             />

@@ -43,7 +43,46 @@
       "offerTagLine": "Sconto del 20% sull'acquisto periodico.",
       "offerTagDescription": "Sconto sara' applicato all'interno della pagina di checkout",
       "colorTheme": "#0033A1",
-      "offerTextColor": "#fff"
+      "offerTextColor": "#fff",
+      "isPriceBox":true,
+      "priceBox": {
+        "qtyUnitMultiplierLabel": "scatola 20 sticks",
+        "discount": 15,
+        "maxQty": 10,
+        "defaultQtyMultiplayer": 1,
+        "qtyMultiplierShowOnExtraDesc": false,
+        "qtyExtraDesc": null,
+        "subscriptionDetails": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>",
+        "moreInfoBtnText1": "Maggiori informazioni",
+        "qtyLabelText": "Quantita'",
+        "freqLabelText": "Consegna ogni",
+        "stock": "Disponibilita' immediata.",
+        "isStockBack":true,
+        "isCheckoutTheme":true,
+        "oneTime": {
+            "title": "Acquisto singolo",
+            "btnText": "Aggiungi al carrello",
+            "accordanTitle":"Dettagli",
+            "themeColor":true,
+            "accordanBody":"Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>"
+        },
+        "subscribe": {
+            "title": "Acquisto periodico",
+            "btnText": "Acquisto periodico",
+            "interval": "giorni",
+            "themeColor":true,
+            "saveLabel": "Risparmia subito",
+            "extraLabel": "acquisto periodico"
+        },
+        "moneyBackInfo": {
+            "title": "14 Giorni - Soddisfatti o Rimborsati ",
+            "desc": "Come funziona? Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell’ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il feedback per aiutarci a migliorare la qualità del nostro servizio."
+        },
+        "termPurchase": {
+            "title": "Modalita' per l'acquisto periodico",
+            "desc": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato"
+        }
+    }
     },
     "ProductSlideAccordion": {
       "src": "\\images\\tendoActive.webp",
