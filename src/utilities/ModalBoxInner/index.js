@@ -10,7 +10,6 @@ const ModalBoxInner = ({
   clickedType,
   externalId,
   productVariantId,
-  version,
 }) => {
   const [type, setType] = useState(clickedType);
   const [quantity, setQuantity] = useState(1);
@@ -31,7 +30,6 @@ const ModalBoxInner = ({
     if (externalId) {
       getSubscription({ id: externalId })
         .then((response) => {
-          console.log({ response });
           if (response?.plans?.length) {
             let freqs = [];
             response.plans.map((element) => {

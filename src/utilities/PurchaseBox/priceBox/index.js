@@ -13,6 +13,8 @@ const PriceBox = ({ isActive, data, variantId }) => {
   const [subscriptionInit, setInit] = useState(false);
   const [currentShippingInterval, setCurrentShippingInterval] = useState();
   const [freqText, setFreq] = useState();
+  const [color, setColor] = useState(data?.priceBox?.isCheckoutTheme?data.theme:"#ffffff");
+  const [background, setBackgroundColor] = useState(data?.priceBox?.isCheckoutTheme?"#ffffff":data.theme);
   useEffect(() => {
     if (isActive == 2 && data?.freq?.length > 0) {
       setCurrentShippingInterval(data?.freq[0]?.id);
@@ -26,6 +28,19 @@ const PriceBox = ({ isActive, data, variantId }) => {
         setIsAddingToCart(false);
         setInit(true);
       }
+    }
+    if(data?.priceBox?.isCheckoutTheme){
+      const onMouseEnter = () => {
+        setColor("#ffffff" || '#56008C');
+        setBackgroundColor(data?.theme || '#56008C');
+      };
+      
+      const onMouseLeave = () => {
+        setColor(data.theme);
+        setBackgroundColor("#ffffff");
+      }; 
+      document.getElementById("checkoutBtnContainer")?.addEventListener("mouseenter", onMouseEnter);
+      document.getElementById("checkoutBtnContainer")?.addEventListener("mouseleave", onMouseLeave);
     }
   }, [data]);
   if (!data) return null;
@@ -143,8 +158,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                 onClick={() => setLearnMore(!learnMore)}
               >
                 {data?.priceBox.moreInfoBtnText
-                  ? data?.priceBox.moreInfoBtnText
-                  : "Maggiori informazioni"}
+                  &&<> {data?.priceBox.moreInfoBtnText}
                 <div className={learnMore ? styles.upArrow : styles.downArrow}>
                   <svg className="flickity-button-icon" viewBox="0 0 100 100">
                     <path
@@ -153,7 +167,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                       transform="translate(100, 100) rotate(180) "
                     ></path>
                   </svg>
-                </div>
+                </div></>}
               </div>
               {learnMore && (
                 <div className={styles.m5}>
@@ -166,7 +180,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
               )}
             </>
           )}
-          <div className={styles.section4}>{data?.priceBox?.stock}</div>
+          <div className={styles.section4} style={data?.priceBox?.isStockBack?{color:'#000'}:{}}>{data?.priceBox?.stock}</div>
           <div className={styles.flex}>
             <div className={styles.selectDiv}>
               <div className={styles.quntity}>
@@ -223,7 +237,8 @@ const PriceBox = ({ isActive, data, variantId }) => {
           <div className={styles.flex}>
             <div
               className={styles.buyNowBtn}
-              style={!subscriptionInit ? { background: "#3b2268" } : {}}
+              id="checkoutBtnContainer"
+              style={!subscriptionInit ? {background:data.theme}:data?.priceBox?.isCheckoutTheme?{background,border:`2px solid ${data.theme}`,color,fontWeight:'bolder'}:{}}
               onClick={() => cartHandler()}
             >
               <p>
@@ -235,6 +250,10 @@ const PriceBox = ({ isActive, data, variantId }) => {
               </p>
             </div>
           </div>
+          {(isActive == 1 && data?.priceBox?.oneTime?.accordanTitle) && (<div>
+            <b>{data.priceBox.oneTime.accordanTitle}</b>
+            <p dangerouslySetInnerHTML={{__html:data.priceBox.oneTime.accordanBody}}/>
+          </div>)}
         </div>
       </div>
     </div>
