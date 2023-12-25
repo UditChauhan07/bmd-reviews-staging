@@ -22,6 +22,7 @@ import StickyNav from "@/utilities/Nav";
 import dynamic from "next/dynamic";
 import { getProduct, getSubscription } from "@/data/lib";
 import Loader2 from "@/utilities/Loader/index2";
+import PriceBoxModal from "@/utilities/ModalBoxInner/priceBox";
 
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
@@ -143,7 +144,18 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {pageData?.bottomBar && (
-            <ModalBoxInner
+            <>
+            {pageData?.isPriceBoxModal ?
+              <PriceBoxModal
+              content={pageData.bottomBar}
+              priceBox={{EXTERNALID:pageData.externalId,priceBox:pageData.ProductArticleModal.priceBox,freq:rechargeProduct?.subscription_preferences,theme:pageData.theme,price: shopifyP?.variants?.edges?.length
+                ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+                : 0}}
+                variantId={pageData.variantId}
+              isOpen={isOpen}
+              theme={pageData.theme}
+              ModalHandler={ModalHandler}
+              /> :<ModalBoxInner
               content={pageData.bottomBar}
               isOpen={isOpen}
               ModalHandler={ModalHandler}
@@ -153,7 +165,8 @@ const LandingPage = ({ version, script, page }) => {
               version={version}
               defaultFreq={rechargeProduct?.subscription_preferences[0].id}
               sellingPlans={rechargeProduct?.subscription_preferences}
-            />
+            />}
+            </>
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
           {pageData?.ImageAside && (
@@ -248,6 +261,7 @@ const LandingPage = ({ version, script, page }) => {
               content={pageData.bottomBar}
               ModalHandler={ModalHandler}
               active={clickedType}
+              themed={pageData.theme}
             />
           )}
         </>

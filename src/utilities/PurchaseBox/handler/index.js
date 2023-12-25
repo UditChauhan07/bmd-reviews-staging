@@ -14,14 +14,14 @@ const Handler = ({ data, variantId }) => {
     return (
         <div className={styles.accordionItem}>
            {!data.priceBox.oneTime.hide&& <><div className={`${styles.accordionTitle} { ${isActive == 1 && styles.accordionTitleActive} ${isActive == 1 && styles.p25_15}`} onClick={() => setIsActive(1)} style={isActive == 2 &&data.priceBox.subscribe.themeColor?{background:data.theme,color:"#fff"}:{}}>
-                <div className={styles.flex}><div className={styles.circle}>{isActive == 1 && <div className={styles.circleActive}></div>}</div><div className={styles.title}>{data.priceBox?.oneTime?.title ? data.priceBox?.oneTime?.title :'Acquisto singolo'}</div></div>
+                <div className={styles.flex}><div className={styles.circle}>{isActive == 1 && <div className={styles.circleActive} style={data.priceBox.isPriceBoxTheme?{background:data.theme}:{}}></div>}</div><div className={styles.title}>{data.priceBox?.oneTime?.title ? data.priceBox?.oneTime?.title :'Acquisto singolo'}</div></div>
                 <div className={styles.price}><div className={styles.titlePrice}>€</div><div className={styles.priceFirstIndex}>{OTST[0]}</div><div className={styles.titlePrice}>{OTST[1]}</div></div>
             </div>
             {isActive == 1 && <div><PriceBox isActive={isActive} data={data} variantId={variantId}/>
             </div>}
             </>}
             {!data.priceBox.subscribe.hide&& <><div className={`${styles.accordionTitle} ${isActive == 2 && styles.accordionTitleActive}`} onClick={() => setIsActive(2)} style={isActive == 1 &&data.priceBox.subscribe.themeColor?{background:data.theme,color:"#fff"}:{}}>
-                <div className={styles.flex}><div className={styles.circle}>{isActive == 2 && <div className={styles.circleActive}></div>}</div><div className={styles.title}>{data.priceBox?.subscribe?.title ? data.priceBox?.subscribe?.title :'Acquisto periodico'}</div></div>
+                <div className={styles.flex}><div className={styles.circle}>{isActive == 2 && <div className={styles.circleActive} style={data.priceBox.isPriceBoxTheme?{background:data.theme}:{}}></div>}</div><div className={styles.title}>{data.priceBox?.subscribe?.title ? data.priceBox?.subscribe?.title :'Acquisto periodico'}</div></div>
                 <div className={styles.price}><div className={styles.titlePrice}>€</div><div className={styles.priceFirstIndex}>{SEST[0]}</div><div className={styles.titlePrice}>{SEST[1]}</div> &nbsp;<div className={styles.crossed} style={isActive == 1 &&data.priceBox.subscribe.themeColor?{color:"#fff"}:{}}> €{oneTimePrice}</div></div>
                 <div className={styles.titleDesc}>
                     <div className={styles.saveInfo}>{data.priceBox?.subscribe?.saveLabel} €{DiscountPrice}</div>

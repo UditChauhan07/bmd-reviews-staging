@@ -34,12 +34,15 @@
 .colxl5 {
     flex: 1 0 40%;
 }
-
 .firstLineHeader {
     color: #ffbf3c;
     font-size: 15px;
     margin-bottom: 0;
     letter-spacing: 0.5px;
+}
+.themedTextWhite{
+    color: #fff;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .secondLineHeader {
@@ -81,11 +84,45 @@
     margin: 0 8px;
 }
 
-.button02 .priceCross {
-    color: #000;
-    font-size: 22px;
+.button03 {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+    font-family: var(--bmd-font-Secondary);
+    color: #fff;
 }
 
+
+.button04 {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.button02 .priceCross {
+    color: #000;
+}
+
+.button03 .priceCross {
+    color: #fff;
+    font-weight: bold;
+}
+.button04 .priceCross {
+    font-weight: bold;
+    color: #000;
+}
 .priceCross {
     color: #ffbf3c;
     font-size: 22px;
@@ -118,8 +155,9 @@
     .secondLineHeader,.firstLineHeader{
         font-size: 10px;
         line-height: 16px;
+        /* padding: 0 25px; */
     }
-    .button02,.button01{
+    .button02,.button01,.button03,.button04{
         padding: 10px 15px;
     }
 }
@@ -127,4 +165,11 @@
     .button02,.button01{
         padding: 10px;
     }
+    .button03,.button04{
+        margin: 0 2px;
+        padding: 5px;
+    }
+    /* .secondLineHeader,.firstLineHeader{
+        padding: 0 60px;
+    } */
 }

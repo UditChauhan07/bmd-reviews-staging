@@ -216,7 +216,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
           )}
           <div
             className={styles.section4}
-            style={data?.priceBox?.isStockBack ? { color: "#000" } : {}}
+            style={data?.priceBox?.isStockBack ? { color: "#000" } : data?.priceBox?.isStockTheme?{color:data.theme}:{}}
           >
             {data?.priceBox?.stock}
           </div>
@@ -230,6 +230,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
               </div>
               <select
                 className={styles.selectNon}
+                style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}
                 onChange={handleQuantityChange}
               >
                 {QUANTITY_OPTIONS.map((val) => (
@@ -262,7 +263,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                   : "Consegna ogni"}
                 :
               </b>
-              <select className={styles.freq} onChange={handleFreqChange}>
+              <select className={styles.freq} onChange={handleFreqChange} style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}>
                 {data.freq?.length &&
                   data.freq?.map((val) => (
                     <option key={val.id} value={val.id}>

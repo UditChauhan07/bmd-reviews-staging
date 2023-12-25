@@ -7,6 +7,7 @@
     "product": "Tendo",
     "variantId": "gid://shopify/ProductVariant/46920208318789",
     "externalId":"8615981285701",
+    "isPriceBoxModal":true,
     "theme": "#0033A1",
     "checkout":true,
     "announcement": {
