@@ -99,6 +99,16 @@ const PriceBox = ({ isActive, data, variantId }) => {
         return;
       }
     }
+    if(data.priceBox.isCheckoutRedirected){
+      AddtoCart({ lineItems: lineItemsToAdd })
+      .then((response) => {
+        let URL = response.data.cartCreate.cart.checkoutUrl
+        window.location.href = URL
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
+    }else{
     if (cId) {
       addCartItems({ items: lineItemsToAdd })
         .then((response) => {
@@ -140,6 +150,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
           console.log({ err });
         });
     }
+  }
   };
   let regex = /\d\d giorni/gi;
   let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(
@@ -216,7 +227,8 @@ const PriceBox = ({ isActive, data, variantId }) => {
           )}
           <div
             className={styles.section4}
-            style={data?.priceBox?.isStockBack ? { color: "#000" } : {}}
+            id={data.priceBox.modalPriceBoxContainerID+"_stockHolder"}
+            style={data?.priceBox?.isStockBack ? { color: "#000" } : data?.priceBox?.isStockTheme?{color:data.theme}:{}}
           >
             {data?.priceBox?.stock}
           </div>
@@ -230,6 +242,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
               </div>
               <select
                 className={styles.selectNon}
+                style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}
                 onChange={handleQuantityChange}
               >
                 {QUANTITY_OPTIONS.map((val) => (
@@ -262,7 +275,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                   : "Consegna ogni"}
                 :
               </b>
-              <select className={styles.freq} onChange={handleFreqChange}>
+              <select className={styles.freq} onChange={handleFreqChange} style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}>
                 {data.freq?.length &&
                   data.freq?.map((val) => (
                     <option key={val.id} value={val.id}>
@@ -301,7 +314,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
             </div>
           </div>
           {isActive == 1 && data?.priceBox?.oneTime?.accordanTitle && (
-            <div style={{paddingBottom:'2rem'}}>
+            <div style={{paddingBottom:'2rem'}} id={data.priceBox.modalPriceBoxContainerID+"_detailsHolder"}>
               <div className={styles.section7} onClick={()=>setDetailsMore(!detailsMore)}>
                 <b>{data.priceBox.oneTime.accordanTitle}</b>
                 <div

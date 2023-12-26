@@ -7,6 +7,7 @@
     "product": "Tendo",
     "variantId": "gid://shopify/ProductVariant/46920208318789",
     "externalId":"8615981285701",
+    "isPriceBoxModal":true,
     "theme": "#0033A1",
     "checkout":true,
     "announcement": {
@@ -48,17 +49,21 @@
       "priceBox": {
         "qtyUnitMultiplierLabel": "scatola 20 sticks",
         "discount": 15,
-        "maxQty": 10,
+        "maxQty": 2,
+        "modalPriceBoxContainerID":"Tendo_PLP_PriceBox_Container",
         "defaultQtyMultiplayer": 1,
         "qtyMultiplierShowOnExtraDesc": false,
         "qtyExtraDesc": null,
+        "isCheckoutRedirected":true,
         "subscriptionDetails": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>",
         "moreInfoBtnText1": "Maggiori informazioni",
         "qtyLabelText": "Quantita'",
         "freqLabelText": "Consegna ogni",
         "stock": "Disponibilita' immediata.",
         "isStockBack":true,
+        "isStockTheme":false,
         "isCheckoutTheme":true,
+        "isPriceBoxTheme":false,
         "oneTime": {
             "title": "Acquisto singolo",
             "btnText": "Aggiungi al carrello",
@@ -288,7 +293,8 @@
           "PERIODICO"
         ],
         "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
-        "desc": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "desc1": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "desc":"<p>Il tuo abbonamento a questo prodotto si rinnoverà ogni 15 giorni e riceverai il prodotto a pagamento effettuato</p><ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>",
         "btnText": "Subscribe"
       },
       "onetimeBox": {

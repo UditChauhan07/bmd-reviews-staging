@@ -417,6 +417,17 @@ https://flickity.metafizzy.co
   align-items: center;
 }
 
+/* PLP */
+#Tendo_PLP_PriceBox_Container * select{
+color: rgb(0, 51, 161)!important;
+}
+#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_stockHolder{
+  color: rgb(0, 51, 161)!important;
+}
+#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_detailsHolder{
+  display: none!important;
+}
+/* PLP CSS End Here */
 
 /* mine */
 /* loader css belongs here */
