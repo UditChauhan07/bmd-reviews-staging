@@ -204,7 +204,7 @@ const ModalBoxInner = ({
                 <label className={themed?styles.themeLabel:styles.label} for={"Onetime"} style={type == "Onetime" &&themed?{color:themed}:{}}>
                   <p>
                   €{content.onetimeBox.price.toFixed(2)}{" "}
-                    {content?.price && (
+                    {(content.onetimeBox.price != content?.price && content?.price) && (
                       <span className={styles.strike}>€{content?.price.toFixed(2)}</span>
                     )}
                   </p>

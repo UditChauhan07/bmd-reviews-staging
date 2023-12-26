@@ -16,7 +16,7 @@ const PriceBoxModal = ({
     // temp.priceBox.isPriceBoxTheme = true
     // temp.priceBox.oneTime.accordanTitle = false
   return (
-    <section>
+    <section id={priceBox.priceBox.modalPriceBoxContainerID}>
       {isOpen === true && (
         <div className={styles.holder} style={{ background: theme }}>
           {isOpen && (

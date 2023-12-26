@@ -49,7 +49,8 @@
       "priceBox": {
         "qtyUnitMultiplierLabel": "scatola 20 sticks",
         "discount": 15,
-        "maxQty": 10,
+        "maxQty": 2,
+        "modalPriceBoxContainerID":"Tendo_PLP_PriceBox_Container",
         "defaultQtyMultiplayer": 1,
         "qtyMultiplierShowOnExtraDesc": false,
         "qtyExtraDesc": null,
@@ -59,9 +60,10 @@
         "qtyLabelText": "Quantita'",
         "freqLabelText": "Consegna ogni",
         "stock": "Disponibilita' immediata.",
-        "isStockBack":false,
-        "isStockTheme":true,
+        "isStockBack":true,
+        "isStockTheme":false,
         "isCheckoutTheme":true,
+        "isPriceBoxTheme":false,
         "oneTime": {
             "title": "Acquisto singolo",
             "btnText": "Aggiungi al carrello",

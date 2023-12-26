@@ -227,6 +227,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
           )}
           <div
             className={styles.section4}
+            id={data.priceBox.modalPriceBoxContainerID+"_stockHolder"}
             style={data?.priceBox?.isStockBack ? { color: "#000" } : data?.priceBox?.isStockTheme?{color:data.theme}:{}}
           >
             {data?.priceBox?.stock}
@@ -313,7 +314,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
             </div>
           </div>
           {isActive == 1 && data?.priceBox?.oneTime?.accordanTitle && (
-            <div style={{paddingBottom:'2rem'}}>
+            <div style={{paddingBottom:'2rem'}} id={data.priceBox.modalPriceBoxContainerID+"_detailsHolder"}>
               <div className={styles.section7} onClick={()=>setDetailsMore(!detailsMore)}>
                 <b>{data.priceBox.oneTime.accordanTitle}</b>
                 <div
