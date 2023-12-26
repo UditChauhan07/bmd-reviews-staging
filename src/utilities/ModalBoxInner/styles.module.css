@@ -139,6 +139,22 @@
     display: block;
     height: 100%;
 }
+.themeLabel{
+    appearance: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 500;
+    margin-right: 32px;
+    max-width: 275px;
+    outline: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
 
 .hide {
     display: none;
@@ -147,6 +163,12 @@
 .boxTwo .hide:checked+.label,
 .boxThree .hide:checked+.label {
     background: #ffbf3c;
+    color: #000;
+}
+
+.boxTwo .hide:checked+.themeLabel,
+.boxThree .hide:checked+.themeLabel {
+    background: #fff;
     color: #000;
 }
 
@@ -178,6 +200,22 @@
     font-size: 18px;
     padding-left: 10px;
 }
+.themeLabel p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.themeLabel .ft12 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.themeLabel .strike {
+    text-decoration: line-through;
+    font-size: 18px;
+    padding-left: 10px;
+}
 
 .btn {
     padding: 1rem 2rem;
@@ -195,6 +233,33 @@
     transition: background-color 0.3s ease-out;
     margin-top: 16px;
     border: 1px solid #ffbf3c;
+    appearance: none;
+    outline: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    max-width: 300px;
+}
+.btnThemed {
+    padding: 1rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-out;
+    margin-top: 16px;
+    border: 1px solid #fff;
     appearance: none;
     outline: none;
     padding: 10px 22px;
@@ -308,6 +373,24 @@
         font-size: 14px;
         padding-left: 0px;
     }
+    .themeLabel {
+        padding: 10px;
+    }
+
+    .themeLabel p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .themeLabel .ft12 {
+        line-height: 14px;
+        font-size: 10px;
+    }
+
+    .themeLabel .strike {
+        font-size: 14px;
+        padding-left: 0px;
+    }
 
     .boxFive p,
     .boxFive li,
@@ -346,6 +429,9 @@
     .boxOne{
         font-size: 10px;
     }
+    .boxSeven .boxTen {
+        margin: 0.5rem 0;
+    }
 }
 
 @media (max-width: 490px) {
@@ -356,11 +442,6 @@
     .boxSeven .boxTen {
         display: block;
         margin: 0;
-    }
-
-    .boxSeven {
-        display: block;
-        margin: auto;
     }
 }
 @media (max-width: 426px) {

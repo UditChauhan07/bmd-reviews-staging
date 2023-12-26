@@ -53,6 +53,7 @@
         "defaultQtyMultiplayer": 1,
         "qtyMultiplierShowOnExtraDesc": false,
         "qtyExtraDesc": null,
+        "isCheckoutRedirected":true,
         "subscriptionDetails": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>",
         "moreInfoBtnText1": "Maggiori informazioni",
         "qtyLabelText": "Quantita'",
@@ -289,7 +290,8 @@
           "PERIODICO"
         ],
         "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
-        "desc": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "desc1": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "desc":"<p>Il tuo abbonamento a questo prodotto si rinnoverà ogni 15 giorni e riceverai il prodotto a pagamento effettuato</p><ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>",
         "btnText": "Subscribe"
       },
       "onetimeBox": {

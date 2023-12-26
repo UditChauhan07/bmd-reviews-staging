@@ -10,6 +10,7 @@ const ModalBoxInner = ({
   clickedType,
   externalId,
   productVariantId,
+  themed=false
 }) => {
   const [type, setType] = useState(clickedType);
   const [quantity, setQuantity] = useState(1);
@@ -119,7 +120,6 @@ const ModalBoxInner = ({
     }
     AddtoCart({ lineItems: lineItemsToAdd })
       .then((response) => {
-        console.log({ response, freq });
         if (response?.data?.cartCreate?.cart?.checkoutUrl) {
           setCartLoad(false);
           if (content?.onetimeBox?.discount && type == "Onetime") {
@@ -139,14 +139,14 @@ const ModalBoxInner = ({
   return (
     <section>
       {isOpen === true && (
-        <div className={styles.holder}>
+        <div className={styles.holder} style={themed?{background:themed}:{}}>
           {isOpen && (
-            <div className={styles.exitButton} onClick={ModalHandler}>
+            <div className={styles.exitButton} onClick={ModalHandler} style={themed?{border:'1px solid #fff'}:{}}>
               <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
                 <g fill="white" fill-rule="evenodd">
-                  <path fill="#FFBF3C" d="M0 0h40v40H0z" />
+                  <path fill={themed?'none':'#FFBF3C'} d="M0 0h40v40H0z" />
                   <path
-                    fill="#00A0DD"
+                    fill={themed?'#fff':'#00A0DD'}
                     fill-rule="nonzero"
                     d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
                   />
@@ -157,8 +157,8 @@ const ModalBoxInner = ({
           <div className={styles.conHolder}>
             <div className={styles.container}>
               <div className={styles.boxOne}>
-                <div style={{ color: "#ffbf3c" }}>{content.title1}</div>
-                <div>{content.title2}</div>
+                <div style={themed?{fontFamily: 'var(--bmd-font-Secondary)',fontWeight:"bolder"}:{ color: "#ffbf3c" }}>{content.title1}</div>
+                <div style={themed?{fontFamily: 'var(--bmd-font-Secondary)'}:{}}>{content.title2}</div>
               </div>
               <div className={styles.boxHide}>
                 <img
@@ -179,7 +179,7 @@ const ModalBoxInner = ({
                   value={"Subscribe"}
                   checked={type == "Subscribe" ? true : false}
                 />
-                <label className={styles.label} for={"Subscribe"}>
+                <label className={themed?styles.themeLabel:styles.label} for={"Subscribe"} style={themed && type == "Subscribe"?{color:themed}:{}}>
                   <p>
                   €{content.subscriptionBox.price.toFixed(2)}{" "}
                     {content?.price && (
@@ -201,7 +201,7 @@ const ModalBoxInner = ({
                   value={"Onetime"}
                   onClick={typeHandler}
                 />
-                <label className={styles.label} for={"Onetime"}>
+                <label className={themed?styles.themeLabel:styles.label} for={"Onetime"} style={type == "Onetime" &&themed?{color:themed}:{}}>
                   <p>
                   €{content.onetimeBox.price.toFixed(2)}{" "}
                     {content?.price && (
@@ -295,13 +295,14 @@ const ModalBoxInner = ({
                 <div className={styles.mobHide}></div>
                 <div className={styles.btnContainer}>
                   <p
-                    className={styles.btn}
+                    className={themed ?styles.btnThemed :styles.btn}
+                    style={themed?{color:themed}:{}}
                     onClick={() => {
                         AddToCartHandler();
                     }}
                   >
                     {cartLoad ? (
-                      <Spinner className={styles.spinner} size={20} />
+                      <Spinner className={styles.spinner} size={20} theme={themed}/>
                     ) : (
                       <>{type == "Subscribe" ? "Acquisto periodico" : "Aggiungi al carrello"}</>
                     )}

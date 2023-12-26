@@ -99,6 +99,16 @@ const PriceBox = ({ isActive, data, variantId }) => {
         return;
       }
     }
+    if(data.priceBox.isCheckoutRedirected){
+      AddtoCart({ lineItems: lineItemsToAdd })
+      .then((response) => {
+        let URL = response.data.cartCreate.cart.checkoutUrl
+        window.location.href = URL
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
+    }else{
     if (cId) {
       addCartItems({ items: lineItemsToAdd })
         .then((response) => {
@@ -140,6 +150,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
           console.log({ err });
         });
     }
+  }
   };
   let regex = /\d\d giorni/gi;
   let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(

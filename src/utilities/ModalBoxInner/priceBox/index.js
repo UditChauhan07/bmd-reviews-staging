@@ -11,13 +11,19 @@ const PriceBoxModal = ({
   clickedType,
   theme,
 }) => {
-    if(priceBox) {
-        priceBox.priceBox.isStockBack = false
-        priceBox.priceBox.isStockTheme = true
-        priceBox.priceBox.isPriceBoxTheme = true
-        priceBox.priceBox.oneTime.accordanTitle = false
-    }
-    console.warn({priceBox});
+    const [modalPriceBoxContent,setModalPriceBoxContent] = useState();
+    useState(()=>{
+        setModalPriceBoxContent(priceBox);
+        let temp = modalPriceBoxContent;
+        if(temp) {
+            temp.priceBox.isStockBack = false
+            temp.priceBox.isStockTheme = true
+            temp.priceBox.isPriceBoxTheme = true
+            temp.priceBox.oneTime.accordanTitle = false
+        }
+        setModalPriceBoxContent(temp)
+    },[])
+    console.log({modalPriceBoxContent});
   return (
     <section>
       {isOpen === true && (
@@ -53,7 +59,7 @@ const PriceBoxModal = ({
                 style={{color: theme}}
                 className={styles.flexBox2}
               >
-                <PurchaseBox data={priceBox} variantId={variantId} />
+                <PurchaseBox data={modalPriceBoxContent} variantId={variantId} />
               </div>
             </div>
           </div>
