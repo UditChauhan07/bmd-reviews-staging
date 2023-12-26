@@ -59,7 +59,8 @@
         "qtyLabelText": "Quantita'",
         "freqLabelText": "Consegna ogni",
         "stock": "Disponibilita' immediata.",
-        "isStockBack":true,
+        "isStockBack":false,
+        "isStockTheme":true,
         "isCheckoutTheme":true,
         "oneTime": {
             "title": "Acquisto singolo",
