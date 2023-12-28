@@ -4,7 +4,6 @@ import AnnouncementBar from '@/utilities/announcementBar';
 import FeatureInfo from '@/utilities/FeatureInfo'
 import BottomBar from '@/utilities/BottomBar';
 import data from '../../../json/layout.json'
-import GeoRedirect from '@/utilities/GeoRedirect';
 import dynamic from 'next/dynamic'
 
  
@@ -21,7 +20,6 @@ export default function Layout({ children,version,script }) {
             {data[version].links &&<Header link={data[version].links} version={version} iconLink={{cart:data[version].cartLink, login:data[version].login}}/>}
             <main>{children}</main>
             {script &&<DynamicChat />}
-            {data[version].redirection &&<GeoRedirect redirect={data[version].redirection}/>}
             <FeatureInfo infoBanners={data[version].featureInfo} />
             <Footer data={data[version].footer} />
             <BottomBar contents={data[version].bottomBar} />
