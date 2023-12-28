@@ -264,7 +264,7 @@ const Index = () => {
                 </Link>
                 <Link
                   target="_blank"
-                  href="https://www.brunomd.eu/tools/recurring/login/"
+                  href="https://www.brunomd.eu/tools/recurring/get-subscription-access"
                 >
                   {" "}
                   <button
