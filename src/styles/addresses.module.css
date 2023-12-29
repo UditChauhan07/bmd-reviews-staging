@@ -124,3 +124,19 @@
   color: #000;
   border: 1px solid #000;
 }
+@media screen and (max-width: 800px) {
+  .backLink{
+    position: unset;
+  }
+  .header{
+    margin-top: 1rem;
+    font-size: 28px;
+  }
+.btnHolder{
+  display: flex;
+  justify-content: center;
+}
+.addressButton{
+  padding: 1rem;
+}
+}
