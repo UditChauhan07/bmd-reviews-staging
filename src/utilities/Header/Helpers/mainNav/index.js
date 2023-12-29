@@ -9,6 +9,7 @@ import Image from 'next/image';
 import { useMatchMedia } from '@/utilities/Sections/Hooks/useMatchMedia'
 import { CartItemNumber } from '@/data/lib'
 import { useAmp } from 'next/amp'
+import { AuthCheck } from '@/data/Auth'
 // import SearchBox from '../../SearchBox'
 
 const MainNav = ({ navMenuLinks,iconLink}) => {
@@ -36,7 +37,7 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
   }
 
   const [logInText, setLogIntext] = useState(iconLink.login?.title)
-  const [logInLink, setLogInLink] = useState(iconLink.login?.url)
+  const [logInLink, setLogInLink] = useState(AuthCheck()? iconLink.login?.Authurl: iconLink.login?.url)
 
   const handleSearchSubmit = React.useCallback(query => router.push(`/search?q=${query}`), [router])
   if(isMobileNavOpen){

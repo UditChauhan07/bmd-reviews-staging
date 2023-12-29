@@ -12,7 +12,8 @@ import SEO from '../../../json/SEO.json'
 
 const Addresses = () => {
   if (!AuthCheck()) {
-    window.location.href = "/account/login";
+    // window.location.href = "/account/login";
+    Destroy()
   }
   const router = useRouter();
   const [customer, setCustomer] = React.useState({

@@ -4,6 +4,7 @@ const characters =
 
 export function AuthCheck() {
   let auth = localStorage.getItem(key);
+  sessionCheck();
   if (auth) {
     return true;
   } else {
@@ -31,7 +32,9 @@ export function Decrypt() {
 }
 export function Destroy(router) {
   localStorage.removeItem(key);
-  router.push('/account/login')
+  // router.push('/account/login')
+  window.location.href = "https://www.brunomd.eu/pages/logged-out";
+
   // window.location.href = "/account/login";
 }
 
@@ -58,4 +61,37 @@ export function ShareDrive (data, remove = false){
     let strData = localStorage.getItem(shareKey);
     return JSON.parse(strData);
   }
+}
+export function sessionCheck(autoLogout= false){
+  var startTime = localStorage.lastExternalReferrerTime;
+  var currentTime = new Date().getTime();
+  var timeDifference = currentTime - startTime;
+    var formattedDifference = [];
+    var timeUnits = [
+        ['day', 24 * 60 * 60 * 1000],
+        ['hour', 60 * 60 * 1000],
+        ['minute', 60 * 1000],
+        ['second', 1000],
+        ['millisecond', 1]
+    ];
+
+    timeUnits.forEach(function(unit) {
+        var count = Math.floor(timeDifference / unit[1]);
+        if (count > 0) {
+            formattedDifference.push(count + ' ' + unit[0] + (count > 1 ? 's' : ''));
+        }
+        timeDifference %= unit[1];
+    });
+    if(autoLogout){
+      if(formattedDifference.length>=4){
+        localStorage.removeItem(key)
+        localStorage.removeItem(shareKey)
+        // alert("session expired")
+        return false;
+      }else{
+        return true;
+      }
+    }else{
+      // console.log({formattedDifference});
+    }
 }

@@ -33,7 +33,8 @@ const RegisterForm = () => {
     const { firstName, lastName, email, password } = registerData;
     createUserShop({user:registerData}).then((response)=>{
       if(response?.data?.customerCreate){
-        router.push("/account/login")
+        // router.push("/account/login")
+        window.location.href = "https://www.brunomd.eu/account/login`"
       }
       if(response?.errors){
         setRegisterErrors(response?.errors)
