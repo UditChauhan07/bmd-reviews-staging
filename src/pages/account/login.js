@@ -30,7 +30,7 @@ const LoginForm = ({ version }) => {
         setLoginErrors(response?.data.customerAccessTokenCreate.customerUserErrors)
       }
       if(response?.data?.customerAccessTokenCreate.customerAccessToken){
-        Encrypt(response.data.customerAccessTokenCreate.customerAccessToken.accessToken);
+        Encrypt(response.data.customerAccessTokenCreate.customerAccessToken);
         router.push('/account')
       }
     }).catch((err)=>{
