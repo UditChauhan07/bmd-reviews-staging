@@ -144,7 +144,7 @@ const Addresses = () => {
                           )}
                         </p>
                       </address>
-                      <div>
+                      <div className={styles.btnHolder}>
                         <a
                           href={"/account/address"}
                           onClick={() =>
