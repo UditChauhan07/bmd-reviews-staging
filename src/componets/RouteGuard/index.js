@@ -46,7 +46,6 @@ function RouteGuard({ children }) {
               } else {
                 Encrypt(
                   response?.data?.customerAccessTokenCreate?.customerAccessToken
-                    ?.accessToken
                 );
                 window.location.href = "/account"
               }
