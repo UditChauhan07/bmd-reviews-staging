@@ -1,15 +1,15 @@
-.itemLine{
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: end;
+.itemLine {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: end;
 }
-.lineImage{
+.lineImage {
   width: 100px;
 }
-.total{
- display: flex;
- justify-content: flex-end;
+.total {
+  display: flex;
+  justify-content: flex-end;
 }
 .dflex {
   display: flex;
@@ -37,16 +37,16 @@
 .item {
   flex: 1;
 }
-.orderContainer th{ 
-    background: #eee;
-    position: sticky;
-    top: 0;
-    padding: 1rem 2rem;
-    font-family: var(--bmd-font-Secondary);
-    font-size: 16px;
-    font-weight: 600;
+.orderContainer th {
+  background: #eee;
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  font-weight: 600;
 }
-.qtyInputHolder{
+.qtyInputHolder {
   background-color: #f5f8fa;
   border: 1px solid #cbd6e2;
   box-sizing: border-box;
@@ -56,7 +56,7 @@
   line-height: 22px;
   min-height: 27px;
   padding: 0 15px;
-  transition: border .2s;
+  transition: border 0.2s;
   max-width: 75px;
 }
 .addressesButton {
@@ -73,23 +73,23 @@
   transition: all 0.25s;
   margin: 2rem auto 0;
 }
-.btnHover{    
+.btnHover {
   color: #fff;
   background: #000;
   border: 1px solid #fff;
 }
-.btnHover:hover{    
+.btnHover:hover {
   background: #fff;
   color: #000;
   border: 1px solid #000;
 }
-.orderContainer td{
-    border-bottom: 1px solid #ddd;
-    padding: 1rem 2rem;
-    text-align: center;
-    font-family: var(--bmd-font-Secondary);
-    font-size: 14px;
-    font-weight: 400;
+.orderContainer td {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 14px;
+  font-weight: 400;
 }
 .orderContainer table {
   width: 100%;
@@ -100,7 +100,7 @@
 
 .orderContainer th {
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   background: #eee;
   position: sticky;
@@ -108,7 +108,7 @@
 }
 .orderContainer .infoBox {
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   background: #eee;
   position: sticky;
@@ -120,9 +120,9 @@
   border-right: unset;
   border-bottom: unset;
 }
-.orderContainer .infoBoxBN{
-    font-weight: 600;
-  font-size: .875rem;
+.orderContainer .infoBoxBN {
+  font-weight: 600;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -134,7 +134,7 @@
   border-right: unset;
 }
 .orderContainer .infoBoxWhite {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -144,8 +144,12 @@
   border-bottom: unset;
   padding: 8px;
 }
+.infoBoxWhite,
+.infoBoxWhiteLink {
+  width: 300px !important;
+}
 .orderContainer .infoBoxWhiteLink {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: var(--bmd-royal-purple);
   position: sticky;
   top: 0;
@@ -155,12 +159,12 @@
   border-bottom: unset;
   padding: 8px;
 }
-.orderContainer .infoBoxWhiteLink:hover{
+.orderContainer .infoBoxWhiteLink:hover {
   text-decoration: underline;
 }
 .orderContainer .infoBox1 {
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -170,11 +174,11 @@
   padding: 0 5px;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #fff;
-  text-align:end;
+  text-align: end;
 }
 
 .orderContainer .infoBoxWhiteT {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: var(--bmd-royal-purple);
   position: sticky;
   top: 0;
@@ -183,18 +187,18 @@
   vertical-align: center;
   margin: 1px 0;
   padding: 5px;
-   font-weight: 600;
+  font-weight: 600;
 }
 .orderContainer .infoBoxT {
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: var(--bmd-royal-purple);
   position: sticky;
   top: 0;
   width: 150px;
   height: 35px;
   vertical-align: center;
-  text-align:end;
+  text-align: end;
   padding: 5px;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #fff;
@@ -202,7 +206,7 @@
 
 .orderContainer .infoBox2 {
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -215,7 +219,7 @@
   text-align: end;
 }
 .orderContainer .infoBoxWhite1 {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -226,7 +230,7 @@
   padding-left: 5px;
 }
 .orderContainer .infoBoxWhite2 {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #000;
   position: sticky;
   top: 0;
@@ -237,33 +241,61 @@
   /* border-bottom: 1px solid #ccc; */
 }
 
-.leftAlign{
+.leftAlign {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   border: 1px solid #ccc;
-      border-top: unset;
+  border-top: unset;
 }
-.header{
+.header {
   text-align: center;
   font-family: var(--bmd-font-Primary);
 }
-.shippingWrapper{
+.shippingWrapper {
   align-items: flex-start;
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
-.shipping{
+.shipping {
   margin-right: 15px;
 }
-.backLink{
+.backLink {
   position: relative;
-    top: 10px;
-    color: var(--bmd-deep-purple);
-    text-decoration: underline;
+  top: 10px;
+  color: var(--bmd-deep-purple);
+  text-decoration: underline;
+}
+.noShipping {
+  color: #ccc;
+  width: 300px;
+  height: 115px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.shippingTextHolder {
+  width: 300px !important;
+  font-weight: 400 !important;
+  background: #fff !important;
+  border-bottom: 1px solid rgb(204, 204, 204) !important;
+  border-right: 1px solid rgb(204, 204, 204) !important;
 }
 .section {
   min-height: 37.7vh;
+}
+@media screen and (max-width: 1380px) {
+  .itemLine {
+    padding: 1rem 1rem;
+  }
+  .total {
+    padding-right: 1rem;
+  }
+  .date {
+    padding-left: 1rem;
+  }
+  .backLink {
+    left: 1rem;
+  }
 }
 @media screen and (max-width: 800px) {
   .accountContainer {
@@ -280,26 +312,65 @@
   }
   .orderContainer {
     text-align: center;
+    width: 100%;
+  }
+  .infoBoxWhite,
+  .infoBoxWhiteLink {
+    width: 150px !important;
+  }
+  .infoBox,
+  .orderContainer {
+    font-size: 0.75rem !important;
+  }
+  .orderContainer th {
+    padding: 1rem;
+    font-size: 0.75rem;
+  }
+  .orderContainer td {
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 690px){
-  .lineImage{
+@media screen and (max-width: 690px) {
+  .lineImage {
     margin-right: 0;
   }
-  
+  .dflex {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+  .dflex .dflex {
+    flex-direction: row;
+  }
+  .infoBoxWhite,
+  .infoBoxWhiteLink {
+    width: calc(100% - 150px) !important;
+  }
+  .infoBox {
+    text-align: start;
+  }
+  .header {
+    margin: 1.5rem auto 0.5rem;
+  }
+  .shippingTextHolder {
+    width: 100% !important;
+  }
+  .noShipping {
+    width: 100%;
+    text-align: start;
+  }
 }
-@media screen and (max-width: 1380px){
-.itemLine{
-    padding: 1rem 1rem;
+@media screen and (max-width: 426px) {
+  .orderContainer th {
+    padding: 5px;
+    font-size: 0.6rem;
   }
-  .total{
-    padding-right: 1rem;
+  .lineImage {
+    width: 75px;
+    height: auto;
   }
-  .date{
-    padding-left: 1rem;
-  }
-  .backLink{
-    left: 1rem;
+  .item {
+    font-size: 12px !important;
   }
 }

@@ -42,7 +42,7 @@ const ForgotPasswordForm = () => {
                 resettare e modificare la tua password
               </p>
               <p>
-                <Link href={"/account/login"}>← Torna indietro</Link>
+                <Link href={"https://www.brunomd.eu/account/login"||"/account/login"}>← Torna indietro</Link>
               </p>
             </div>
           </React.Fragment>
@@ -75,7 +75,7 @@ const ForgotPasswordForm = () => {
                 >
                   Invia
                 </button>
-                <Link className={styles.linkBack} href="/account/login">
+                <Link className={styles.linkBack} href={"https://www.brunomd.eu/account/login"||"/account/login"}>
                   Cancella
                 </Link>
                 {submitErrors && (

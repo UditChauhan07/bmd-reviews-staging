@@ -12,7 +12,8 @@ import RewardsPOP from "@/utilities/RewardsModal";
 const Index = () => {
   let router = useRouter();
   if (!AuthCheck()) {
-    router.push("/account/login");
+    // router.push("/account/login");
+    Destroy();
     // window.location.href = '/account/login'
   }
   const [load, setLoad] = React.useState(false);

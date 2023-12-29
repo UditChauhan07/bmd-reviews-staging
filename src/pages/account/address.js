@@ -12,7 +12,8 @@ import { useRouter } from 'next/navigation';
 const AccountAddress = () => {
   const router = useRouter();
   if(!AuthCheck()){
-    window.location.href = '/account/login'
+    // window.location.href = '/account/login'
+    Destroy()
   }
   let [Address, setAddress] = useState();
   useEffect(()=>{

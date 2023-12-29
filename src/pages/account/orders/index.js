@@ -10,7 +10,7 @@ const OrderDetails = () => {
   const [order, setOrder] = useState();
   const [discount, setDiscount] = useState();
   const [subTotal, setSubTotal] = useState();
-  const [ note, setNote] = useState();
+  const [note, setNote] = useState();
   useEffect(() => {
     if (ShareDrive()) {
       let data = ShareDrive();
@@ -23,7 +23,9 @@ const OrderDetails = () => {
         });
         let orderPrice = parseFloat(data.totalPrice.amount);
         let totalShippingPrice = parseFloat(data.totalShippingPrice.amount);
-        if(totalShippingPrice) {orderPrice=orderPrice-totalShippingPrice};
+        if (totalShippingPrice) {
+          orderPrice = orderPrice - totalShippingPrice;
+        }
         let discountAmount = itemPrice - orderPrice;
         setSubTotal(orderPrice);
         if (discountAmount == 0) setDiscount(0);
@@ -38,32 +40,42 @@ const OrderDetails = () => {
     }
   }, []);
 
-  const updateCartQty = ({variantId,qty})=>{
-    return
-    console.log({variantId,qty});
-    let filterOrderLineItem = {};
-    let calculatedOrderData = order.init?.data?.orderEditBegin?.calculatedOrder
-    let calculatedOrderId = calculatedOrderData?.id
-    if(calculatedOrderId){
-      calculatedOrderData?.lineItems?.edges.map(element=>{
-        if(element.node.variant.id == variantId){
-          filterOrderLineItem = element.node
-        }
-      })
-      console.log({id:calculatedOrderId,lineItemId:filterOrderLineItem.id,quantity:qty});
-      EditOrder({id:calculatedOrderId,lineItemId:filterOrderLineItem.id,quantity:qty})
-    }
-  }
-  const updateOrder= ()=>{
+  const updateCartQty = ({ variantId, qty }) => {
     return;
-    let calculatedOrderData = order.init?.data?.orderEditBegin?.calculatedOrder
-    let calculatedOrderId = calculatedOrderData?.id
-    CompleteEditOrder({id:calculatedOrderId,note}).then((response)=>{
-      console.log({response});
-    }).catch((err)=>{
-      console.log({err});
-    })
-  }
+    console.log({ variantId, qty });
+    let filterOrderLineItem = {};
+    let calculatedOrderData = order.init?.data?.orderEditBegin?.calculatedOrder;
+    let calculatedOrderId = calculatedOrderData?.id;
+    if (calculatedOrderId) {
+      calculatedOrderData?.lineItems?.edges.map((element) => {
+        if (element.node.variant.id == variantId) {
+          filterOrderLineItem = element.node;
+        }
+      });
+      console.log({
+        id: calculatedOrderId,
+        lineItemId: filterOrderLineItem.id,
+        quantity: qty,
+      });
+      EditOrder({
+        id: calculatedOrderId,
+        lineItemId: filterOrderLineItem.id,
+        quantity: qty,
+      });
+    }
+  };
+  const updateOrder = () => {
+    return;
+    let calculatedOrderData = order.init?.data?.orderEditBegin?.calculatedOrder;
+    let calculatedOrderId = calculatedOrderData?.id;
+    CompleteEditOrder({ id: calculatedOrderId, note })
+      .then((response) => {
+        console.log({ response });
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
+  };
   return (
     <section className={styles.section}>
       <PageHead content={SEO["EU"]?.register?.SEO} />
@@ -71,30 +83,34 @@ const OrderDetails = () => {
         <Link className={styles.backLink} href="/account">
           &#8592; Torna a tutti gli ordini
         </Link>
-        <h1 className={styles.header}>{order?.edit ? "Order" : "Order Details"}</h1>
+        <h1 className={styles.header}>
+          {order?.edit ? "Order" : "Order Details"}
+        </h1>
         {order && (
           <div className={styles.orderContainer}>
             <div className={styles.dflex}>
               <div className={styles.addressInfo}>
                 <div className={styles.dflex}>
                   <p className={styles.infoBox}>Numero d&apos;ordine</p>{" "}
-                  <p className={styles.infoBoxWhite} style={{ width: "300px" }}>
-                    {order.name}
-                  </p>
+                  <p className={styles.infoBoxWhite}>{order.name}</p>
                 </div>
                 <div className={styles.dflex}>
                   <p className={styles.infoBox}>Ordinato il</p>{" "}
-                  <p className={styles.infoBoxWhite} style={order.successfulFulfillments?.length > 1?{ width: "300px"}:{ width: "300px", borderBottom: "1px solid #ccc" }}>
+                  <p
+                    className={styles.infoBoxWhite}
+                    style={
+                      order.successfulFulfillments?.length > 0
+                        ? {}
+                        : { borderBottom: "1px solid #ccc" }
+                    }
+                  >
                     {new Date(order.processedAt).toLocaleDateString()}
                   </p>
                 </div>
                 {order.successfulFulfillments?.length > 0 && (
                   <div className={styles.dflex}>
                     <p className={styles.infoBox}>Società di monitoraggio</p>{" "}
-                    <p
-                      className={styles.infoBoxWhite}
-                      style={{ width: "300px" }}
-                    >
+                    <p className={styles.infoBoxWhite}>
                       {order.successfulFulfillments[0].trackingCompany}
                     </p>
                   </div>
@@ -114,7 +130,6 @@ const OrderDetails = () => {
                           order.successfulFulfillments[0].trackingInfo[0].url
                         }
                         style={{
-                          width: "300px",
                           borderBottom: "1px solid #ccc",
                         }}
                       >
@@ -124,7 +139,6 @@ const OrderDetails = () => {
                       <p
                         className={styles.infoBoxWhiteLink}
                         style={{
-                          width: "300px",
                           borderBottom: "1px solid #ccc",
                         }}
                       ></p>
@@ -133,45 +147,58 @@ const OrderDetails = () => {
                 )}
               </div>
               <div>
-                <p style={{ fontWeight: "600", width:'100%' }} class={styles.infoBox}>Spedire a:</p>
+                <p
+                  style={{ fontWeight: "600", width: "100%" }}
+                  className={styles.infoBox}
+                >
+                  Spedire a:
+                </p>
                 {order.shippingAddress ? (
                   <>
-                    <p style={{ width: "300px",fontWeight:'400',background:'#fff', borderBottom:"1px solid #ccc", borderRight:'1px solid #ccc' }} class={styles.infoBox}>
+                    <p
+                      className={`${styles.infoBox} ${styles.shippingTextHolder}`}
+                    >
                       {order.shippingAddress?.address1}
                     </p>
                     {order.shippingAddress?.address2 && (
-                      <p style={{ width: "300px",fontWeight:'400',background:'#fff', borderBottom:"1px solid #ccc", borderRight:'1px solid #ccc' }} class={styles.infoBox}>
+                      <p
+                        className={`${styles.infoBox} ${styles.shippingTextHolder}`}
+                      >
                         {order.shippingAddress?.address2}
                       </p>
                     )}
-                    <p style={{ width: "300px",fontWeight:'400',background:'#fff', borderBottom:"1px solid #ccc", borderRight:'1px solid #ccc' }} class={styles.infoBox}>
+                    <p
+                      className={`${styles.infoBox} ${styles.shippingTextHolder}`}
+                    >
                       {order.shippingAddress?.city &&
                         order.shippingAddress?.city}
                       {/* {order.shippingAddress?.province && order.shippingAddress?.province+','},{" "} */}
-                      {order.shippingAddress?.zip &&", "+order.shippingAddress?.zip}
+                      {order.shippingAddress?.zip &&
+                        ", " + order.shippingAddress?.zip}
                     </p>
-                    <p style={{ width: "300px",fontWeight:'400',background:'#fff', borderBottom:"1px solid #ccc", borderRight:'1px solid #ccc' }} class={styles.infoBox}>
+                    <p
+                      className={`${styles.infoBox} ${styles.shippingTextHolder}`}
+                    >
                       {order.shippingAddress?.country}
                     </p>
                     {order.shippingAddress?.phone && (
                       <a
                         href={"tel:" + order.shippingAddress?.phone}
                         target="_blank"
-                        className={styles.infoBoxWhiteLink}
-                        style={{ width: "300px",fontWeight:'400',background:'#fff', borderBottom:"1px solid #ccc", borderRight:'1px solid #ccc' }} class={styles.infoBox}
+                        className={`${styles.infoBox} ${styles.infoBoxWhiteLink} ${styles.shippingTextHolder}`}
                       >
                         {order.shippingAddress?.phone}
                       </a>
                     )}
                   </>
                 ) : (
-                  <p style={{ width: "300px", color: "grey" }}>
+                  <p className={styles.noShipping}>
                     Nessun indirizzo di spedizione
                   </p>
                 )}
               </div>
             </div>
-            <table class="table">
+            <table className="table">
               <thead>
                 <tr>
                   <th scope="col">Immagine del prodotto</th>
@@ -191,9 +218,23 @@ const OrderDetails = () => {
                         />
                       </td>
                       <td className={styles.item}>{item.node?.title}</td>
-                      <td
-                        className={styles.item}
-                      >{order?.edit?<input type="number" value={item.node?.quantity} className={styles.qtyInputHolder} onChange={(event)=>updateCartQty({variantId:item.node?.variant?.id,qty:event.target.value})}/>:`QTY: ${item.node?.quantity}`}</td>
+                      <td className={styles.item}>
+                        {order?.edit ? (
+                          <input
+                            type="number"
+                            value={item.node?.quantity}
+                            className={styles.qtyInputHolder}
+                            onChange={(event) =>
+                              updateCartQty({
+                                variantId: item.node?.variant?.id,
+                                qty: event.target.value,
+                              })
+                            }
+                          />
+                        ) : (
+                          `QTY: ${item.node?.quantity}`
+                        )}
+                      </td>
                       <td className={styles.item}>
                         $
                         {item.node?.originalTotalPrice?.amount.toLocaleString(
@@ -208,57 +249,68 @@ const OrderDetails = () => {
                 })}
               </tbody>
             </table>
-            {order?.edit?(
+            {order?.edit ? (
               <>
-              <textarea rows={4} placeholder="add notes..." onKeyDown={(event)=>setNote(event.target.value)}></textarea>
-              <div className={`${styles.addressesButton} ${styles.btnHover}`} onClick={()=>updateOrder()}>Update</div>
+                <textarea
+                  rows={4}
+                  placeholder="add notes..."
+                  onKeyDown={(event) => setNote(event.target.value)}
+                ></textarea>
+                <div
+                  className={`${styles.addressesButton} ${styles.btnHover}`}
+                  onClick={() => updateOrder()}
+                >
+                  Update
+                </div>
               </>
-            ):(<div className={styles.leftAlign}>
-              {true && (
+            ) : (
+              <div className={styles.leftAlign}>
+                {true && (
+                  <div className={styles.dflex1}>
+                    <p className={styles.infoBox1} style={{ width: "200px" }}>
+                      Percentuale di sconto:
+                    </p>{" "}
+                    <p className={styles.infoBoxWhite1}>{discount}%</p>
+                  </div>
+                )}
+                {/* {order?.discountApplications.edges[0].node.value.amount && <div className={styles.dflex1}><p className={styles.infoBox2} style={{width: '200px'}}>Discount Amount:</p>  <p className={styles.infoBoxWhite2}>${order.discountApplications.edges[0].node.value.amount}</p></div>} */}
                 <div className={styles.dflex1}>
                   <p className={styles.infoBox1} style={{ width: "200px" }}>
-                  Percentuale di sconto:
+                    Totale parziale:
                   </p>{" "}
-                  <p className={styles.infoBoxWhite1}>{discount}%</p>
-                </div>
-              )}
-              {/* {order?.discountApplications.edges[0].node.value.amount && <div className={styles.dflex1}><p className={styles.infoBox2} style={{width: '200px'}}>Discount Amount:</p>  <p className={styles.infoBoxWhite2}>${order.discountApplications.edges[0].node.value.amount}</p></div>} */}
-              <div className={styles.dflex1}>
-                <p className={styles.infoBox1} style={{ width: "200px" }}>
-                Totale parziale:
-                </p>{" "}
-                <p className={styles.infoBoxWhite1}>
-                  $
-                  {subTotal.toLocaleString("en-US", {
-                    minimumFractionDigits: 2,
-                  })}
-                </p>
-              </div>
-              {order?.totalShippingPrice.amount && (
-                <div className={styles.dflex1}>
-                  <p className={styles.infoBox2} style={{ width: "200px" }}>
-                  Spese di spedizione:
-                  </p>{" "}
-                  <p className={styles.infoBoxWhite2}>
+                  <p className={styles.infoBoxWhite1}>
                     $
-                    {order.totalShippingPrice.amount.toLocaleString("en-US", {
+                    {subTotal.toLocaleString("en-US", {
                       minimumFractionDigits: 2,
                     })}
                   </p>
                 </div>
-              )}
-              <div className={styles.dflex1}>
-                <p className={styles.infoBoxT} style={{ width: "200px" }}>
-                Totale:
-                </p>{" "}
-                <p className={styles.infoBoxWhiteT}>
-                  $
-                  {order.totalPrice.amount.toLocaleString("en-US", {
-                    minimumFractionDigits: 2,
-                  })}
-                </p>
+                {order?.totalShippingPrice.amount && (
+                  <div className={styles.dflex1}>
+                    <p className={styles.infoBox2} style={{ width: "200px" }}>
+                      Spese di spedizione:
+                    </p>{" "}
+                    <p className={styles.infoBoxWhite2}>
+                      $
+                      {order.totalShippingPrice.amount.toLocaleString("en-US", {
+                        minimumFractionDigits: 2,
+                      })}
+                    </p>
+                  </div>
+                )}
+                <div className={styles.dflex1}>
+                  <p className={styles.infoBoxT} style={{ width: "200px" }}>
+                    Totale:
+                  </p>{" "}
+                  <p className={styles.infoBoxWhiteT}>
+                    $
+                    {order.totalPrice.amount.toLocaleString("en-US", {
+                      minimumFractionDigits: 2,
+                    })}
+                  </p>
+                </div>
               </div>
-            </div>)}
+            )}
           </div>
         )}
       </div>
