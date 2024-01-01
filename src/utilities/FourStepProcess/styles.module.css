@@ -57,12 +57,15 @@
 }
 @media (max-width: 1025px) {
   .processHeaderCenter{
-    padding: 2rem;
+    padding: 2rem 0;
   }
 }
   @media (max-width: 769px) {
   .processHeader {
     font-size: 32px;
     line-height: 38px;
+  }
+  .processHeaderCenter{
+    padding: 2rem;
   }
 }
