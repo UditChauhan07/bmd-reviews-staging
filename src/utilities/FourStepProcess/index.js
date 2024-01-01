@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './styles.module.css'
 import ProcessCard from './ProcessCard'
 
-const FourStepProcess = ({ processCards, header, theme,stepAlignment,buttonTittle }) => {
+const FourStepProcess = ({ processCards, header, theme,stepAlignment,buttonTittle,centerAlign=false }) => {
   if (!processCards?.length) return null
   return (
     <section>
       <div>
-        <h2 className={styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
+        <h2 className={centerAlign? styles.processHeaderCenter:styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
         </h2>
         <div className={styles.processCardGrid }>
           {processCards?.map((el, idx) => {
