@@ -237,6 +237,7 @@ const LandingPage = ({ version, script, page }) => {
                 <DynamicGalleryComponent
                   id={pageData.homeGallery.id}
                   galleryId={pageData.homeGallery.galleryId}
+                  theme={pageData.theme}
                   content={{
                     title: pageData.homeGallery.title,
                     desc: pageData.homeGallery.subTitle,
