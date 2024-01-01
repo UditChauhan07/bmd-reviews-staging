@@ -215,6 +215,7 @@ const LandingPage = ({ version, script, page }) => {
               header={pageData.FourStepProcess.title}
               stepAlignment={true}
               buttonTittle={"Leggi di più"}
+              centerAlign
             />
           )}
           {pageData?.ReasonsToBelieve && (

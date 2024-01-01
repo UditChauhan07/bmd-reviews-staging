@@ -39,8 +39,8 @@ const PriceBoxModal = ({
                 <div className={styles.title1Holder}>{content.title1}</div>
                 <div className={styles.title2Holder}>{content.title2}</div>
                 <img
-                  width="225"
-                  height="225"
+                  width="325"
+                  height="325"
                   src={content?.productImg?.src}
                   alt={content?.productImg?.alt || "..."}
                   className={styles.imgHolder}
