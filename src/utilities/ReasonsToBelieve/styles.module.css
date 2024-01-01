@@ -373,5 +373,13 @@
   .modalCardContainerV2{
     max-height: 380px;
   }
-
+}
+@media screen and (max-width: 426px) {
+  .v2Container{
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+  .cardContainer{
+    margin: 10px 0;
+  }
 }
