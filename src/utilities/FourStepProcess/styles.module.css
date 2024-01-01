@@ -55,12 +55,14 @@
   }
   
 }
-@media (max-width: 769px) {
+@media (max-width: 1025px) {
+  .processHeaderCenter{
+    padding: 2rem;
+  }
+}
+  @media (max-width: 769px) {
   .processHeader {
     font-size: 32px;
     line-height: 38px;
-  }
-  .processHeaderCenter{
-    padding: 2rem;
   }
 }
