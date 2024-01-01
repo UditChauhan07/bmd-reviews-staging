@@ -194,8 +194,8 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 426px) {
     .col2v2{
-        padding:  0 10px;
+        padding:  0 1rem;
     }
 }

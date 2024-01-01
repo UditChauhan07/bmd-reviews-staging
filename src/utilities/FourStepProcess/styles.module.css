@@ -53,19 +53,27 @@
     color: #000;
     line-height: 58px;
   }
-  
 }
 @media (max-width: 1025px) {
-  .processHeaderCenter{
+  .processHeaderCenter {
     padding: 2rem 0;
   }
 }
-  @media (max-width: 769px) {
+@media (max-width: 769px) {
   .processHeader {
     font-size: 32px;
     line-height: 38px;
   }
-  .processHeaderCenter{
+  .processHeaderCenter {
     padding: 2rem;
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 426px) {
+  .processHeaderCenter {
+    padding: 2rem 1rem;
+    font-size: 32px;
+    line-height: 38px;
   }
 }
