@@ -236,13 +236,8 @@ const OrderDetails = () => {
                         )}
                       </td>
                       <td className={styles.item}>
-                        $
-                        {item.node?.originalTotalPrice?.amount.toLocaleString(
-                          "en-US",
-                          {
-                            minimumFractionDigits: 2,
-                          }
-                        )}
+                      €
+                        {parseFloat(item.node?.originalTotalPrice?.amount).toFixed(2)}
                       </td>
                     </tr>
                   );
@@ -279,10 +274,8 @@ const OrderDetails = () => {
                     Totale parziale:
                   </p>{" "}
                   <p className={styles.infoBoxWhite1}>
-                    $
-                    {subTotal.toLocaleString("en-US", {
-                      minimumFractionDigits: 2,
-                    })}
+                  €
+                    {subTotal.toFixed(2)}
                   </p>
                 </div>
                 {order?.totalShippingPrice.amount && (
@@ -291,10 +284,8 @@ const OrderDetails = () => {
                       Spese di spedizione:
                     </p>{" "}
                     <p className={styles.infoBoxWhite2}>
-                      $
-                      {order.totalShippingPrice.amount.toLocaleString("en-US", {
-                        minimumFractionDigits: 2,
-                      })}
+                    €
+                      {parseFloat(order.totalShippingPrice.amount).toFixed(2)}
                     </p>
                   </div>
                 )}
@@ -303,10 +294,8 @@ const OrderDetails = () => {
                     Totale:
                   </p>{" "}
                   <p className={styles.infoBoxWhiteT}>
-                    $
-                    {order.totalPrice.amount.toLocaleString("en-US", {
-                      minimumFractionDigits: 2,
-                    })}
+                  €
+                    {parseFloat(order.totalPrice.amount).toFixed(2)}
                   </p>
                 </div>
               </div>
