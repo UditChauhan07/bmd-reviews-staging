@@ -19,25 +19,15 @@ import ReasonsToBelieve from "@/utilities/ReasonsToBelieve";
 import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
-import dynamic from "next/dynamic";
 import { getProduct, getSubscription } from "@/data/lib";
 import Loader2 from "@/utilities/Loader/index2";
 import PriceBoxModal from "@/utilities/ModalBoxInner/priceBox";
 import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
+import HomeGallery from "@/utilities/HomeGallery";
 
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [ rechargeProduct, setRProduct] = useState();
-  const DynamicGalleryComponent = dynamic(
-    () => import("@/utilities/HomeGallery"),
-    {
-      loading: () => (
-        <div class="center-body" style={{ height: "200px" }}>
-          <div class="loader-circle-2"></div>
-        </div>
-      ),
-    }
-  );
   const VideoRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
@@ -234,7 +224,7 @@ const LandingPage = ({ version, script, page }) => {
             <>
             {pageData?.homeGallery && (
               <div ref={VideoRef} id="homeGallerySection">
-                <DynamicGalleryComponent
+                <HomeGallery
                   id={pageData.homeGallery.id}
                   galleryId={pageData.homeGallery.galleryId}
                   theme={pageData.theme}

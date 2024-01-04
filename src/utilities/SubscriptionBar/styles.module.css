@@ -161,6 +161,16 @@
         font-size: 12px;
     }
 }
+@media screen and (max-width: 420px) {
+    .secondLineHeader,.firstLineHeader{
+        width: 90%;
+        margin: auto;
+    }
+    .button03,.button04{
+        padding: 5px 18px;
+        margin: 0 5px;
+    }
+}
 @media screen and (max-width: 376px) {
     .secondLineHeader,.firstLineHeader{
         font-size: 10px;
@@ -171,7 +181,7 @@
         padding: 10px 15px;
     }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 335px) {
     .button02,.button01{
         padding: 10px;
     }

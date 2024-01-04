@@ -177,7 +177,7 @@ const Index = () => {
                                   {fulfillmentStatus}
                                 </td>
                                 <td className={styles.item}>
-                                  ${originalTotalPrice?.amount}
+                                €{parseFloat(originalTotalPrice?.amount).toFixed(2)}
                                 </td>
                                 <td>
                                   {/* <Link
