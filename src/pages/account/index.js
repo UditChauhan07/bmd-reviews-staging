@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 import PageHead from "@/utilities/Head";
 import SEO from "../../../json/SEO.json";
 import RewardsPOP from "@/utilities/RewardsModal";
+import Loader2 from "@/utilities/Loader/index2";
 
 const Index = () => {
   let router = useRouter();
@@ -26,6 +27,7 @@ const Index = () => {
     isLoggedIn: false,
   });
   const [authenticated, setAuthenticated] = React.useState(true);
+  const [isLoaded,setIsLoaded] = React.useState(false)
   function dateSort(a, b) {
     let dateA = new Date(a?.node?.processedAt).getTime();
     let dateB = new Date(b?.node?.processedAt).getTime();
@@ -43,6 +45,7 @@ const Index = () => {
         data.isLoggedIn = true;
         data.orders.edges.sort(dateSort)
         setCustomer(data);
+        setIsLoaded(true)
       } else {
         setAuthenticated(false);
       }
@@ -105,7 +108,7 @@ const Index = () => {
       console.log({err});
     })
   }
-
+  if(!isLoaded) return <Loader2/>
   return (
     <section className={styles.accountSection}>
       {!load ? (
