@@ -9,6 +9,7 @@ import PageHead from "@/utilities/Head";
 import SEO from "../../../json/SEO.json";
 import RewardsPOP from "@/utilities/RewardsModal";
 import Loader2 from "@/utilities/Loader/index2";
+import { ItalianStatus } from "@/data/status";
 
 const Index = () => {
   let router = useRouter();
@@ -173,11 +174,11 @@ const Index = () => {
                                 <td className={styles.item}>
                                   {new Date(processedAt).toLocaleDateString()}
                                 </td>
-                                <td className={styles.item}>
-                                  {financialStatus}
+                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                  {ItalianStatus(financialStatus)}
                                 </td>
-                                <td className={styles.item}>
-                                  {fulfillmentStatus}
+                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                  {ItalianStatus(fulfillmentStatus)}
                                 </td>
                                 <td className={styles.item}>
                                 €{parseFloat(originalTotalPrice?.amount).toFixed(2)}
