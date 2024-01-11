@@ -174,11 +174,11 @@ const Index = () => {
                                 <td className={styles.item}>
                                   {new Date(processedAt).toLocaleDateString()}
                                 </td>
-                                <td className={styles.item}>
-                                  {ItalianStatus(financialStatus).toUpperCase()}
+                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                  {ItalianStatus(financialStatus)}
                                 </td>
-                                <td className={styles.item}>
-                                  {ItalianStatus(fulfillmentStatus).toUpperCase()}
+                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                  {ItalianStatus(fulfillmentStatus)}
                                 </td>
                                 <td className={styles.item}>
                                 €{parseFloat(originalTotalPrice?.amount).toFixed(2)}
