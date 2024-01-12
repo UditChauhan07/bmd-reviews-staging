@@ -5,6 +5,7 @@ import FeatureInfo from '@/utilities/FeatureInfo'
 import BottomBar from '@/utilities/BottomBar';
 import data from '../../../json/layout.json'
 import dynamic from 'next/dynamic'
+import { useEffect } from 'react';
 
  
 const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
@@ -12,8 +13,19 @@ const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
 })
 
 export default function Layout({ children,version,script }) {
+    useEffect(()=>{
+        (function e() {
+            var e = document.createElement("script");
+            (e.type = "text/javascript"),
+              (e.async = true),
+              (e.src = `https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA`);
+            var t = document.getElementsByTagName("script")[0];
+            t.parentNode.insertBefore(e, t);
+          })();
+    },[])
     return (
         <>
+        <div class="yotpo-widget-instance" data-yotpo-instance-id="583415"></div>
         {data[version] &&
         <>
             {data[version].announcementBar &&<AnnouncementBar announcement={data[version].announcementBar.title} theme={{ textColor: data[version].announcementBar.textColor, backgroundColor: data[version].announcementBar.backgroundColor }} />}
