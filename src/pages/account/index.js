@@ -279,7 +279,7 @@ const Index = () => {
                     Gestisci l&apos;aquisto periodico{" "}
                   </button>
                 </Link>       
-                <RewardsPOP className={`${styles.addressesButton2} ${styles.btnHover}`}/>
+                {/* <RewardsPOP className={`${styles.addressesButton2} ${styles.btnHover}`}/> */}
               </div>
             </div>
           </div>
