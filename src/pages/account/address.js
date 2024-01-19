@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Link from "next/link";
+// import Link from "next/link";
 import styles from "@/styles/addresses.module.css";
 import { Decrypt, Destroy, AuthCheck, ShareDrive } from "@/data/Auth";
 import { createCustomerAddress, deleteCustomerAddress, updateCustomerAddress } from '@/data/lib';
@@ -202,9 +202,9 @@ Numero di telefono </label>
               </div>
             )}
             <div className={styles.linkHolder}>
-            <Link href="/account" aria-label="Go back to account's dashboard">
+            <a href="/account" aria-label="Go back to account's dashboard">
               ← Cancella
-              </Link> &nbsp;
+              </a> &nbsp;
               <button type="submit" 
                           className={`${styles.addressButton} ${styles.btnHover}`}
               
