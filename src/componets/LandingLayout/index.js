@@ -24,8 +24,10 @@ import Loader2 from "@/utilities/Loader/index2";
 import PriceBoxModal from "@/utilities/ModalBoxInner/priceBox";
 import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
 import HomeGallery from "@/utilities/HomeGallery";
+import RewardRemoveScript from "@/utilities/RewardScript";
 
 const LandingPage = ({ version, script, page }) => {
+  
   const [shopifyP, setSProduct] = useState();
   const [ rechargeProduct, setRProduct] = useState();
   const VideoRef = useRef(null);
@@ -113,7 +115,7 @@ const LandingPage = ({ version, script, page }) => {
 
   const pageData = landingData[page] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
-  if(!shopifyP) return <Loader2 />
+  if(!shopifyP) return (<><RewardRemoveScript/><Loader2 /></>)
   return (
     <>
       {pageData && (
@@ -249,6 +251,7 @@ const LandingPage = ({ version, script, page }) => {
             </>
           )}
           {pageData?.footer && <Footer data={pageData.footer} />}
+          <RewardRemoveScript/>
           {!isOpen && (
             <SubscriptionBar
               content={pageData.bottomBar}
