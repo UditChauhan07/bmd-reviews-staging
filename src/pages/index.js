@@ -48,6 +48,11 @@ export default function Home({ version, script }) {
   const VideoRef = useRef(null);
   return (
     <>
+    <script
+            dangerouslySetInnerHTML={{
+              __html: `(function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();`,
+            }}
+          ></script>
       <section>
         {SEO[version] && <PageHead content={SEO[version]?.home?.SEO} />}
         {HomePageData[version] && (
