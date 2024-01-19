@@ -35,7 +35,6 @@ const Index = () => {
     return dateA < dateB ? 1 : -1;
   }
   useEffect(() => {
-      (function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();
     let data = Decrypt();
     console.log({ data });
     if (data == null) {
