@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 // import styles from '@/styles/Home.module.css'
 import MarkqueCarousel from "@/utilities/MarkqueCarousel";
 import Cards from "@/utilities/CategoriesCards";
@@ -46,13 +46,11 @@ const DynamicNewLetterComponent = dynamic(
 );
 export default function Home({ version, script }) {
   const VideoRef = useRef(null);
+  useEffect(()=>{
+    (function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();
+  },[])
   return (
     <>
-    <script
-            dangerouslySetInnerHTML={{
-              __html: `(function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();`,
-            }}
-          ></script>
       <section>
         {SEO[version] && <PageHead content={SEO[version]?.home?.SEO} />}
         {HomePageData[version] && (

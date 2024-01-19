@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import collection from "../../../json/collection.json";
 import { CollectionList } from '@/utilities/CollectionCard'
 import MasterHeadImg from '@/utilities/MasterHeadImg';
@@ -12,16 +12,17 @@ const Collection = () => {
         DataisLoaded: false
     });
     useEffect(() => {
+        (function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();
         if (!collezioni) {
             let url = window.location.href;
             let splitUrl = url.split('/collezioni/');
             if (splitUrl.length == 2) {
-                if(splitUrl[1]){
+                if (splitUrl[1]) {
                     setCategory({
                         name: splitUrl[1],
                         DataisLoaded: true
                     })
-                }else{
+                } else {
                     setCategory({
                         name: false,
                         DataisLoaded: true
@@ -76,11 +77,6 @@ const Collection = () => {
                 </div>
 
             }
-            <script
-            dangerouslySetInnerHTML={{
-              __html: `(function e() { var e = document.createElement("script"); e.type = "text/javascript", e.async = true, e.src = 'https://cdn-widgetsrepository.yotpo.com/v1/loader/XUsO8fePARFSG9R48rttzA'; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) })();`,
-            }}
-          ></script>
         </section>
     )
 }
