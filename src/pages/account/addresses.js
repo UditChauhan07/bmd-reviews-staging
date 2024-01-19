@@ -86,9 +86,9 @@ const Addresses = () => {
     <section className={styles.addressSection}>
       <PageHead content={SEO['EU']?.addresses?.SEO}/>
       <div className={styles.dFlex}>
-        <Link href="/account" className={styles.backLink}>
+        <a href="/account" className={styles.backLink}>
           <button className={styles.logOut}>← Ritorna ai dettagli dell&apos;account</button>
-        </Link>
+        </a>
         <h1 className={styles.header}>I tuoi indirizzi</h1>
       </div>
       <div>

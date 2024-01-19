@@ -260,13 +260,13 @@ const Index = () => {
                     )}
                   </div>
                 )}
-                <Link href="/account/addresses">
+                <a href="/account/addresses">
                   <button
                     className={`${styles.addressesButton} ${styles.btnHover}`}
                   >
                     Visiona indirizzi
                   </button>
-                </Link>
+                </a>
                 <Link
                   target="_blank"
                   href="https://www.brunomd.eu/tools/recurring/login"
