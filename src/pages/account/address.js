@@ -202,9 +202,9 @@ Numero di telefono </label>
               </div>
             )}
             <div className={styles.linkHolder}>
-            <a href="/account" aria-label="Go back to account's dashboard">
+            <Link href="/account" aria-label="Go back to account's dashboard">
               ← Cancella
-              </a> &nbsp;
+              </Link> &nbsp;
               <button type="submit" 
                           className={`${styles.addressButton} ${styles.btnHover}`}
               
