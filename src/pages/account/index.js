@@ -241,9 +241,9 @@ const Index = () => {
                           </p>
                           <p>{defaultAddress.country}</p>
                           {defaultAddress.phone && (
-                            <a href={"tel:" + defaultAddress.phone}>
+                            <Link href={"tel:" + defaultAddress.phone}>
                               {defaultAddress.phone}
-                            </a>
+                            </Link>
                           )}
                         </address>
                         <div>
@@ -260,13 +260,13 @@ const Index = () => {
                     )}
                   </div>
                 )}
-                <a href="/account/addresses">
+                <Link href="/account/addresses">
                   <button
                     className={`${styles.addressesButton} ${styles.btnHover}`}
                   >
                     Visiona indirizzi
                   </button>
-                </a>
+                </Link>
                 <Link
                   target="_blank"
                   href="https://www.brunomd.eu/tools/recurring/login"
