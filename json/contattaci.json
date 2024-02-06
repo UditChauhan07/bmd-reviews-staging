@@ -1,6 +1,6 @@
 {
-"EU":{
-    "firstSection":"<h1>Come possiamo aiutarti?</h1><h2>Per domande legate ai prodotti</h2><p>Accedi alle <a href='/pages/faqs'>FAQ’s</a> per ottenere informazioni sui prodotti, sulle spedizioni e su tant'altro.</p><h2>Per tutte le altre domande</h2><p>Se desideri farci delle domande, inserisci i tuoi dati nel modulo sottostante</p>",
-    "term":false
-}
+    "EU": {
+        "firstSection": "<h1>Come possiamo aiutarti?</h1><h2>Per domande legate ai prodotti</h2><p>Accedi alle <a href='/pages/faqs'>FAQ’s</a> per ottenere informazioni sui prodotti, sulle spedizioni e su tant'altro.</p><h2>Per tutte le altre domande</h2><p>Se desideri farci delle domande, inserisci i tuoi dati nel modulo sottostante</p>",
+        "term": false
+    }
 }
