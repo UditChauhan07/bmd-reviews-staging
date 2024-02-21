@@ -267,6 +267,7 @@ const LandingPage = ({ version, script, page }) => {
                   <NewsLetter content={pageData.NewsLetter} />
                 )}
               </div>
+
               {pageData?.featureInfo && (
                 <FeatureInfo
                   infoBanners={pageData.featureInfo}
