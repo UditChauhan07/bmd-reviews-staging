@@ -262,7 +262,7 @@ const LandingPage = ({ version, script, page }) => {
               {!pageData?.reviewHide && pageData?.externalId && (
                 <ProductReviews variantId={pageData.externalId} />
               )}
-              <div style={{ marginBottom: "4rem" }}>
+              <div>
                 {pageData?.NewsLetter && (
                   <NewsLetter content={pageData.NewsLetter} />
                 )}
