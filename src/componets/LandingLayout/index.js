@@ -25,11 +25,11 @@ import PriceBoxModal from "@/utilities/ModalBoxInner/priceBox";
 import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
 import HomeGallery from "@/utilities/HomeGallery";
 import RewardRemoveScript from "@/utilities/RewardScript";
+import FeatureInfo from "@/utilities/FeatureInfo";
 
 const LandingPage = ({ version, script, page }) => {
-  
   const [shopifyP, setSProduct] = useState();
-  const [ rechargeProduct, setRProduct] = useState();
+  const [rechargeProduct, setRProduct] = useState();
   const VideoRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
@@ -44,78 +44,83 @@ const LandingPage = ({ version, script, page }) => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     if (pageData.externalId) {
       const productId = `gid://shopify/Product/${pageData.externalId}`;
-      getProduct({productId}).then((response)=>{
-        let product = response?.data?.product;
-        setSProduct(product)
-      }).catch((err)=>{
-        console.log({err});
-      })
+      getProduct({ productId })
+        .then((response) => {
+          let product = response?.data?.product;
+          setSProduct(product);
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
 
-    getSubscription({ id: pageData.externalId })
-    .then((response) => {
-      if (response?.plans?.length) {
-        let freqs = [];
-        response.plans.map((element) => {
-          if (
-            element.subscription_preferences.charge_interval_frequency
-          )
-            freqs.push({
-              id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
-              value:
-                element.subscription_preferences
-                  .charge_interval_frequency + " giorni",
+      getSubscription({ id: pageData.externalId })
+        .then((response) => {
+          if (response?.plans?.length) {
+            let freqs = [];
+            response.plans.map((element) => {
+              if (element.subscription_preferences.charge_interval_frequency)
+                freqs.push({
+                  id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
+                  value:
+                    element.subscription_preferences.charge_interval_frequency +
+                    " giorni",
+                });
             });
-        });
-        freqs.sort((a, b) => {
-          if (a.value < b.value) {
-            return -1;
-          }
-          if (a.value > b.value) {
-            return 1;
-          }
-        });
-        setRProduct({
-          product_id: pageData.externalId,
-          subscription_preferences: freqs,
-        });
-      }
-      if (response?.selling_plan_groups?.length > 0) {
-        let freqs = [];
-        response.selling_plan_groups[0].selling_plans.map((plans) => {
-          if (plans.order_interval_frequency) {
-            freqs.push({
-              id: `gid://shopify/SellingPlan/${plans.selling_plan_id}`,
-              value: plans.order_interval_frequency + " giorni",
+            freqs.sort((a, b) => {
+              if (a.value < b.value) {
+                return -1;
+              }
+              if (a.value > b.value) {
+                return 1;
+              }
+            });
+            setRProduct({
+              product_id: pageData.externalId,
+              subscription_preferences: freqs,
             });
           }
-        });
-        freqs.sort((a, b) => {
-          if (a.value < b.value) {
-            return -1;
+          if (response?.selling_plan_groups?.length > 0) {
+            let freqs = [];
+            response.selling_plan_groups[0].selling_plans.map((plans) => {
+              if (plans.order_interval_frequency) {
+                freqs.push({
+                  id: `gid://shopify/SellingPlan/${plans.selling_plan_id}`,
+                  value: plans.order_interval_frequency + " giorni",
+                });
+              }
+            });
+            freqs.sort((a, b) => {
+              if (a.value < b.value) {
+                return -1;
+              }
+              if (a.value > b.value) {
+                return 1;
+              }
+            });
+            setRProduct({
+              product_id: EXTERNALID,
+              subscription_preferences: freqs,
+            });
           }
-          if (a.value > b.value) {
-            return 1;
-          }
+        })
+        .catch((err) => {
+          console.error({ err });
         });
-        setRProduct({
-          product_id: EXTERNALID,
-          subscription_preferences: freqs,
-        });
-      }
-    })
-    .catch((err) => {
-      console.error({ err });
-    });
-  }
-  
-  },[])
+    }
+  }, []);
 
   const pageData = landingData[page] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
-  if(!shopifyP) return (<><RewardRemoveScript/><Loader2 /></>)
+  if (!shopifyP)
+    return (
+      <>
+        <RewardRemoveScript />
+        <Loader2 />
+      </>
+    );
   return (
     <>
       {pageData && (
@@ -139,26 +144,35 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {pageData?.bottomBar && (
             <>
-            {pageData?.isPriceBoxModal &&isDesktopModal ?
-              <PriceBoxModal
-              content={pageData.bottomBar}
-              priceBox={{EXTERNALID:pageData.externalId,priceBox:pageData.ProductArticleModal.priceBox,freq:rechargeProduct?.subscription_preferences,theme:pageData.theme,price: shopifyP?.variants?.edges?.length
-                ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
-                : 0}}
-                variantId={pageData.variantId}
-              isOpen={isOpen}
-              theme={pageData.theme}
-              ModalHandler={ModalHandler}
-              /> :<ModalBoxInner
-              content={pageData.bottomBar}
-              isOpen={isOpen}
-              ModalHandler={ModalHandler}
-              externalId={pageData.externalId}
-              productVariantId={pageData.variantId}
-              clickedType={clickedType}
-              version={version}
-              themed={pageData.theme}
-            />}
+              {pageData?.isPriceBoxModal && isDesktopModal ? (
+                <PriceBoxModal
+                  content={pageData.bottomBar}
+                  priceBox={{
+                    EXTERNALID: pageData.externalId,
+                    priceBox: pageData.ProductArticleModal.priceBox,
+                    freq: rechargeProduct?.subscription_preferences,
+                    theme: pageData.theme,
+                    price: shopifyP?.variants?.edges?.length
+                      ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+                      : 0,
+                  }}
+                  variantId={pageData.variantId}
+                  isOpen={isOpen}
+                  theme={pageData.theme}
+                  ModalHandler={ModalHandler}
+                />
+              ) : (
+                <ModalBoxInner
+                  content={pageData.bottomBar}
+                  isOpen={isOpen}
+                  ModalHandler={ModalHandler}
+                  externalId={pageData.externalId}
+                  productVariantId={pageData.variantId}
+                  clickedType={clickedType}
+                  version={version}
+                  themed={pageData.theme}
+                />
+              )}
             </>
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
@@ -170,9 +184,15 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {pageData?.ProductArticleModal && (
             <ProductArticleModal
-            priceBox={{EXTERNALID:pageData.externalId,priceBox:pageData.ProductArticleModal.priceBox,freq:rechargeProduct?.subscription_preferences,theme:pageData.theme,price: shopifyP?.variants?.edges?.length
-              ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
-              : 0}}
+              priceBox={{
+                EXTERNALID: pageData.externalId,
+                priceBox: pageData.ProductArticleModal.priceBox,
+                freq: rechargeProduct?.subscription_preferences,
+                theme: pageData.theme,
+                price: shopifyP?.variants?.edges?.length
+                  ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+                  : 0,
+              }}
               variantId={pageData.variantId}
               content={pageData.ProductArticleModal}
               ModalHandler={ModalHandler}
@@ -223,22 +243,22 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {script && (
             <>
-            <>
-            {pageData?.homeGallery && (
-              <div ref={VideoRef} id="homeGallerySection">
-                <HomeGallery
-                  id={pageData.homeGallery.id}
-                  galleryId={pageData.homeGallery.galleryId}
-                  theme={pageData.theme}
-                  content={{
-                    title: pageData.homeGallery.title,
-                    desc: pageData.homeGallery.subTitle,
-                    invert: pageData.homeGallery.invert,
-                  }}
-                />
-              </div>
-            )}
-            </>
+              <>
+                {pageData?.homeGallery && (
+                  <div ref={VideoRef} id="homeGallerySection">
+                    <HomeGallery
+                      id={pageData.homeGallery.id}
+                      galleryId={pageData.homeGallery.galleryId}
+                      theme={pageData.theme}
+                      content={{
+                        title: pageData.homeGallery.title,
+                        desc: pageData.homeGallery.subTitle,
+                        invert: pageData.homeGallery.invert,
+                      }}
+                    />
+                  </div>
+                )}
+              </>
               {!pageData?.reviewHide && pageData?.externalId && (
                 <ProductReviews variantId={pageData.externalId} />
               )}
@@ -247,11 +267,17 @@ const LandingPage = ({ version, script, page }) => {
                   <NewsLetter content={pageData.NewsLetter} />
                 )}
               </div>
+              {pageData?.featureInfo && (
+                <FeatureInfo
+                  infoBanners={pageData.featureInfo}
+                  theme={pageData.theme}
+                />
+              )}
               {!pageData?.chat && <Chat />}
             </>
           )}
           {pageData?.footer && <Footer data={pageData.footer} />}
-          <RewardRemoveScript/>
+          <RewardRemoveScript />
           {!isOpen && (
             <SubscriptionBar
               content={pageData.bottomBar}
