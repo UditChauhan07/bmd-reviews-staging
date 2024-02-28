@@ -83,7 +83,7 @@ function RouteGuard({ children }) {
       let check = router.asPath.split("#");
       let check1 = check[0].split("?");
       if (check1[0] == "/account/login") {
-        window.location.href = "https://www.brunomd.eu/account/login";
+        // window.location.href = "https://www.brunomd.eu/account/login";
       }
       authCheck(check1[0]);
       // authCheck(router.route ||router.asPath);

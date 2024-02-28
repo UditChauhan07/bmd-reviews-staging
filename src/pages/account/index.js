@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import styles from "@/styles/account.module.css";
 import { Decrypt, Destroy, AuthCheck, ShareDrive } from "@/data/Auth";
-import { AddtoCart, RecoverUser, orderInit } from "@/data/lib";
+import { AddtoCart, RecoverUser, orderInit, addCartItems } from "@/data/lib";
 import { useRouter } from "next/navigation";
 import PageHead from "@/utilities/Head";
 import SEO from "../../../json/SEO.json";
@@ -28,7 +28,7 @@ const Index = () => {
     isLoggedIn: false,
   });
   const [authenticated, setAuthenticated] = React.useState(true);
-  const [isLoaded,setIsLoaded] = React.useState(false)
+  const [isLoaded, setIsLoaded] = React.useState(false);
   function dateSort(a, b) {
     let dateA = new Date(a?.node?.processedAt).getTime();
     let dateB = new Date(b?.node?.processedAt).getTime();
@@ -40,19 +40,21 @@ const Index = () => {
     if (data == null) {
       Destroy(router);
     }
-    RecoverUser({ token: data}).then((response)=>{
-      if (response?.data?.customer) {
-        let data = response?.data?.customer;
-        data.isLoggedIn = true;
-        data.orders.edges.sort(dateSort)
-        setCustomer(data);
-        setIsLoaded(true)
-      } else {
-        setAuthenticated(false);
-      }
-    }).catch((err)=>{
-      console.log({err});
-    })
+    RecoverUser({ token: data })
+      .then((response) => {
+        if (response?.data?.customer) {
+          let data = response?.data?.customer;
+          data.isLoggedIn = true;
+          data.orders.edges.sort(dateSort);
+          setCustomer(data);
+          setIsLoaded(true);
+        } else {
+          setAuthenticated(false);
+        }
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
     setLoad(true);
     // yotpoWidgetsContainer.initWidgets()
     // console.log({});
@@ -70,46 +72,110 @@ const Index = () => {
   };
 
   const editOrder = (id) => {
-    let p = orderInit({ orderId: id }).then((response)=>{
-      let order = {};
-      orders.edges.map((element) => {
-        if (element.node.id == id) order = element.node;
+    let p = orderInit({ orderId: id })
+      .then((response) => {
+        let order = {};
+        orders.edges.map((element) => {
+          if (element.node.id == id) order = element.node;
+        });
+        order.edit = true;
+        order.order = true;
+        order.init = response;
+        ShareDrive(order);
+        router.push("/account/orders");
+      })
+      .catch((err) => {
+        console.log(err);
       });
-      order.edit = true;
-      order.order = true;
-      order.init = response;
-      ShareDrive(order)
-      router.push("/account/orders");
-    }).catch((err)=>{
-      console.log(err);
-    })
   };
-  const reOrder =(id)=>{
+  const reOrder = (id) => {
     let lineItems = [];
     orders.edges.map((element) => {
-      if (element.node.id == id){
-        element.node.lineItems.edges.map((items)=>{
-          if(items.node){
-            console.log({items});
+      if (element.node.id == id) {
+        element.node.lineItems.edges.map((items) => {
+          if (items.node) {
+            console.log({ items });
             lineItems.push({
-              merchandiseId:items.node.variant?.id,
-              quantity:items.node.quantity
-            })
+              merchandiseId: items.node.variant?.id,
+              quantity: items.node.quantity,
+            });
           }
-        })
+        });
       }
     });
-    AddtoCart({lineItems}).then((response)=>{
-      if(response?.data?.cartCreate?.cart){
-        let id= response?.data?.cartCreate?.cart?.id;
-        localStorage.setItem("e6S4JJM9G",id);
-        router.push('/carrello')
+    AddtoCart({ lineItems })
+      .then((response) => {
+        if (response?.data?.cartCreate?.cart) {
+          let id = response?.data?.cartCreate?.cart?.id;
+          localStorage.setItem("e6S4JJM9G", id);
+          router.push("/carrello");
+        }
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
+  };
+
+  const reOrder1 = (id) => {
+    let cId = localStorage.getItem("e6S4JJM9G");
+    let lineItems = [];
+    orders.edges.map((element) => {
+      if (element.node.id == id) {
+        element.node.lineItems.edges.map((items) => {
+          if (items.node) {
+            console.log({ items });
+            lineItems.push({
+              merchandiseId: items.node.variant?.id,
+              quantity: items.node.quantity,
+            });
+          }
+        });
       }
-    }).catch((err)=>{
-      console.log({err});
-    })
-  }
-  if(!isLoaded) return <Loader2/>
+    });
+    if (cId) {
+      addCartItems({ items: lineItems })
+        .then((response) => {
+          if (response?.data?.cartLinesAdd?.userErrors?.length) {
+            if (response?.data?.cartLinesAdd?.userErrors[0].message) {
+              if (
+                response?.data?.cartLinesAdd?.userErrors[0].message ==
+                "Il carrello specificato non esiste."
+              ) {
+                AddtoCart({ lineItems: lineItems })
+                  .then((response) => {
+                    let id = response?.data?.cartCreate?.cart?.id;
+                    localStorage.setItem("e6S4JJM9G", id);
+                    // router.push('/carrello')
+                    window.location.href = "/carrello";
+                  })
+                  .catch((err) => {
+                    console.log({ err });
+                  });
+              }
+            }
+          } else {
+            // router.push('/carrello')
+            window.location.href = "/carrello";
+          }
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
+    } else {
+      AddtoCart({ lineItems })
+        .then((response) => {
+          if (response?.data?.cartCreate?.cart) {
+            let id = response?.data?.cartCreate?.cart?.id;
+            localStorage.setItem("e6S4JJM9G", id);
+            router.push("/carrello");
+          }
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
+    }
+  };
+  if (!isLoaded) return <Loader2 />;
   return (
     <section className={styles.accountSection}>
       {!load ? (
@@ -145,7 +211,7 @@ const Index = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {orders?.edges?.length > 0 ?
+                      {orders?.edges?.length > 0 ? (
                         orders?.edges?.map(
                           ({
                             node: {
@@ -174,14 +240,23 @@ const Index = () => {
                                 <td className={styles.item}>
                                   {new Date(processedAt).toLocaleDateString()}
                                 </td>
-                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                <td
+                                  className={styles.item}
+                                  style={{ textTransform: "capitalize" }}
+                                >
                                   {ItalianStatus(financialStatus)}
                                 </td>
-                                <td className={styles.item} style={{textTransform:'capitalize'}}>
+                                <td
+                                  className={styles.item}
+                                  style={{ textTransform: "capitalize" }}
+                                >
                                   {ItalianStatus(fulfillmentStatus)}
                                 </td>
                                 <td className={styles.item}>
-                                €{parseFloat(originalTotalPrice?.amount).toFixed(2)}
+                                  €
+                                  {parseFloat(
+                                    originalTotalPrice?.amount
+                                  ).toFixed(2)}
                                 </td>
                                 <td>
                                   {/* <Link
@@ -198,21 +273,28 @@ const Index = () => {
                                 Riordina
                               </Link> */}
                                   {/* onClick={()=>OrderEdit(id)} */}
-                                  <button className={styles.firstLink} onClick={()=>editOrder(id)}>
+                                  <button
+                                    className={styles.firstLink}
+                                    onClick={() => editOrder(id)}
+                                  >
                                     {" "}
                                     Cancella o Modifica
                                   </button>
                                   <br />
-                                  <button className={styles.firstLink} onClick={()=>reOrder(id)}>
+                                  <button
+                                    className={styles.firstLink}
+                                    onClick={() => reOrder1(id)}
+                                  >
                                     Riordina
                                   </button>
                                 </td>
                               </tr>
                             );
                           }
-                        ):
-                        (<tr>
-                          </tr>)}
+                        )
+                      ) : (
+                        <tr></tr>
+                      )}
                     </tbody>
                   </table>
                 </div>
@@ -278,7 +360,7 @@ const Index = () => {
                     {" "}
                     Gestisci l&apos;aquisto periodico{" "}
                   </button>
-                </Link>       
+                </Link>
                 {/* <RewardsPOP className={`${styles.addressesButton2} ${styles.btnHover}`}/> */}
               </div>
             </div>
