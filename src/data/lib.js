@@ -377,3 +377,18 @@ export async function getSubscription({ id }) {
   let data = JSON.parse(await response.text());
   return data.data;
 }
+
+export async function getSubscriptionFrequency({ id }) {
+  let response = await fetch(url + "8vAjH93gPTB", {
+    method: "POST",
+    headers: {
+      Accept: "*/*",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ id }),
+  });
+
+  let data = JSON.parse(await response.text());
+
+  return data;
+}
