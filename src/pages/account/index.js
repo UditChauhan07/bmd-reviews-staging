@@ -125,6 +125,60 @@ const Index = () => {
       });
   };
 
+  const cartAdd = (lineItems) => {
+    let cId = localStorage.getItem("e6S4JJM9G");
+    if (lineItems.length > 0) {
+      console.log("kkkk");
+      console.log(lineItems);
+      if (cId) {
+        console.log(lineItems);
+        addCartItems({ items: lineItems })
+          .then((response) => {
+            if (response?.data?.cartLinesAdd?.userErrors?.length) {
+              if (response?.data?.cartLinesAdd?.userErrors[0].message) {
+                if (
+                  response?.data?.cartLinesAdd?.userErrors[0].message ==
+                  "Il carrello specificato non esiste."
+                ) {
+                  AddtoCart({
+                    lineItems: lineItems,
+                  })
+                    .then((response) => {
+                      let id = response?.data?.cartCreate?.cart?.id;
+                      localStorage.setItem("e6S4JJM9G", id);
+                      //router.push("/carrello");
+                      window.location.href = "/carrello";
+                    })
+                    .catch((err) => {
+                      console.log({ err });
+                    });
+                }
+              }
+            } else {
+              //router.push("/carrello");
+              window.location.href = "/carrello";
+            }
+          })
+          .catch((err) => {
+            console.log({ err });
+          });
+      } else {
+        AddtoCart({ lineItems })
+          .then((response) => {
+            if (response?.data?.cartCreate?.cart) {
+              let id = response?.data?.cartCreate?.cart?.id;
+              localStorage.setItem("e6S4JJM9G", id);
+              //router.push("/carrello");
+              window.location.href = "/carrello";
+            }
+          })
+          .catch((err) => {
+            console.log({ err });
+          });
+      }
+    }
+  };
+
   const reOrder1 = (id) => {
     let cId = localStorage.getItem("e6S4JJM9G");
     let lineItems = [];
@@ -179,71 +233,8 @@ const Index = () => {
                                   quantity: items.node.quantity,
                                   sellingPlanId: selling_plan_id,
                                 });
-                                if (lineItems.length > 0) {
-                                  console.log("kkkk");
-                                  console.log(lineItems);
-                                  if (cId) {
-                                    console.log(lineItems);
-                                    addCartItems({ items: lineItems })
-                                      .then((response) => {
-                                        if (
-                                          response?.data?.cartLinesAdd
-                                            ?.userErrors?.length
-                                        ) {
-                                          if (
-                                            response?.data?.cartLinesAdd
-                                              ?.userErrors[0].message
-                                          ) {
-                                            if (
-                                              response?.data?.cartLinesAdd
-                                                ?.userErrors[0].message ==
-                                              "Il carrello specificato non esiste."
-                                            ) {
-                                              AddtoCart({
-                                                lineItems: lineItems,
-                                              })
-                                                .then((response) => {
-                                                  let id =
-                                                    response?.data?.cartCreate
-                                                      ?.cart?.id;
-                                                  localStorage.setItem(
-                                                    "e6S4JJM9G",
-                                                    id
-                                                  );
-                                                  //router.push("/carrello");
-                                                  window.location.href =
-                                                    "/carrello";
-                                                })
-                                                .catch((err) => {
-                                                  console.log({ err });
-                                                });
-                                            }
-                                          }
-                                        } else {
-                                          //router.push("/carrello");
-                                          window.location.href = "/carrello";
-                                        }
-                                      })
-                                      .catch((err) => {
-                                        console.log({ err });
-                                      });
-                                  } else {
-                                    AddtoCart({ lineItems })
-                                      .then((response) => {
-                                        if (response?.data?.cartCreate?.cart) {
-                                          let id =
-                                            response?.data?.cartCreate?.cart
-                                              ?.id;
-                                          localStorage.setItem("e6S4JJM9G", id);
-                                          //router.push("/carrello");
-                                          window.location.href = "/carrello";
-                                        }
-                                      })
-                                      .catch((err) => {
-                                        console.log({ err });
-                                      });
-                                  }
-                                }
+
+                                cartAdd(lineItems);
                               }
                             });
                           }
@@ -257,61 +248,7 @@ const Index = () => {
                       merchandiseId: items.node.variant?.id,
                       quantity: items.node.quantity,
                     });
-                    if (lineItems.length > 0) {
-                      console.log("kkkk");
-                      console.log(lineItems);
-                      if (cId) {
-                        console.log(lineItems);
-                        addCartItems({ items: lineItems })
-                          .then((response) => {
-                            if (
-                              response?.data?.cartLinesAdd?.userErrors?.length
-                            ) {
-                              if (
-                                response?.data?.cartLinesAdd?.userErrors[0]
-                                  .message
-                              ) {
-                                if (
-                                  response?.data?.cartLinesAdd?.userErrors[0]
-                                    .message ==
-                                  "Il carrello specificato non esiste."
-                                ) {
-                                  AddtoCart({ lineItems: lineItems })
-                                    .then((response) => {
-                                      let id =
-                                        response?.data?.cartCreate?.cart?.id;
-                                      localStorage.setItem("e6S4JJM9G", id);
-                                      //router.push("/carrello");
-                                      window.location.href = "/carrello";
-                                    })
-                                    .catch((err) => {
-                                      console.log({ err });
-                                    });
-                                }
-                              }
-                            } else {
-                              //router.push("/carrello");
-                              window.location.href = "/carrello";
-                            }
-                          })
-                          .catch((err) => {
-                            console.log({ err });
-                          });
-                      } else {
-                        AddtoCart({ lineItems })
-                          .then((response) => {
-                            if (response?.data?.cartCreate?.cart) {
-                              let id = response?.data?.cartCreate?.cart?.id;
-                              localStorage.setItem("e6S4JJM9G", id);
-                              //router.push("/carrello");
-                              window.location.href = "/carrello";
-                            }
-                          })
-                          .catch((err) => {
-                            console.log({ err });
-                          });
-                      }
-                    }
+                    cartAdd(lineItems);
                   }
 
                   console.log(response);
