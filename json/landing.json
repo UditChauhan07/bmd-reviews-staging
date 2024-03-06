@@ -279,14 +279,52 @@
       "color":"#D7E4FF"
     },
     "Cure": {
-      "title": "Lo studio in vitro: gli effetti antinfiammatori e anti catabolici di Tendoactive® sui tenociti umani ",
-      "subTitle": "",
+      "title": "Why heart disease is rising and five simple habits to improve heart health.",
+      "subTitle": "Many countries offer programs to help individuals reduce their cholesterol and blood pressure.",
       "buttonText":"Scopri di piu’",
       "popupTitle":"",
-      "popupText":"<b>In-Vitro study: Anti-inflammatory and anti-catabolic</b><br/><b>effects of Tendoactive® on human tenocytes</b><br/><br/><b>OBJECTIVE</b><br/>To investigate an in-vitro model of tendinitis to evaluate the effects of Tendoactive® on IL-1ß signaling and to determine whether  Tendoactive® can suppress NF-kß-activation (anticatabolic effect) and NF- kß-regulated gene products (anaboliceffect).<br/><br/><b>METHODS</b><br/>Primary cultures of human tenocytes (the cells that are responsible for producing the extracellular matrix and therefore, proteoglycans and type I collagen) were treated with IL-1ß for up to 72h. Expression of collagen type I, integrin ß1, cyclo-oxygenase-2 (COX-2), caspase-3 and matrix metalloproteinase-1 (MMP-1) was monitored by western blotting (anabolic effect).<br/>The effects of Tendoactive® on the expression, phosphorylation and nuclear translocation of protein components of the NF- kß system were studied by western blotting andimmunofluorescence respectively (anticatabolic effect).<br/>The state of the cells (cell proliferation, cell viability and apoptosis) was also evaluated by transmission electron microscopy when treated with Tendoactive® and /orIL-1ß.<br/><br/><b>RESULTS</b><br/>Treatment of tenocytes with Tendoactive® suppressed IL-1ß-induced NF-kß activation and p65 nuclear translocation. These events correlated with down regulation of NF-kß targets including COX-2, MMP-1and activated caspase-3 (anticatabolic effects).Tendoactive® also reversed the IL-1ß-induced downregulation of type-I collagen (Figure 2) and ß1-integrin receptor expression (anabolic effect).<br/>Regarding the results of the state of the cells, at 72h, the tenocytes completely recovered the adhesion and proliferation potential and no signs of apoptosis were observed. In addition, the transmission electron microscopy showed that the cells synthesized high amounts of extracellular matrix, which is necessary for the tensile strength of the tendon (Figure1).<br/><br/><b>CONCLUSION</b><br/>These results indicate that Tendoactive® is effective in the prophylaxis of tendinopathies and has nutraceutical potential as an anti-inflammatory agent for treating tendinopathy through suppression of NF-kß mediated IL-1ß catabolic signaling pathways in tenocytes.In addition, Tendoactive® increases the proliferation and viability of tenocytes. These results indicate that Tendoactive® could be useful in the prevention and/or treatment of tendinopathies.",
+      "popupText":"Pop-up Content <br/> Coming Soon...",
       "color":"#D7E4FF",
-      "image":"\\images\\landing\\cure_chart.jpg"
+      "image":""
     },
+     "ScienceVideos":[
+      {
+        "video":"https://cdn.shopify.com/videos/c/o/v/7693c0d645074ecab2339087b5d8cea4.mp4",
+        "title":"The science of a healthy cardiovascular system",
+        "subtitle":"We use natural science to benefit the cardiovascular system.",
+        "button":"Scopri di piu’",
+        "popupText":"Curcumin is derived from the rhizome of Curcuma longa L., an East Indian plant commonly called turmeric. Bruno MD delivers curcumin using Curcumin Phytosome, and it’s the #1 doctor-recommended curcumin formulation by the Cleveland Clinic because it works through multiple pathways on multiple targets to provide complete relief throughout the body and contains the whole bouquet of curcuminoids.<br/><br/>Clinical results show that turmeric has several beneficial effects on the cardiovascular system by preventing or delaying the development of atherosclerosis in healthy people. It can protect the heart from inflammation, regulate or help lower high blood pressure, restore antioxidant levels, and improve age-related stiffening of blood vessels, especially when combined with exercise. Daily intake of curcumin has also been shown to reduce heart damage caused by kidney, help stop the formation of blood clots that cause strokes, and prevent cardiac hypertrophy from high blood pressure, heart attack, high salt intake, or diabetes."
+      },
+       {
+        "video":"https://cdn.shopify.com/videos/c/o/v/fac78e30eed64ebdb99fdbe57a5cf2be.mp4",
+        "title":"The science of heart health",
+	 "subtitle":"How we use science to protect against cardiovascular issues by supporting healthy cholesterol levels.",
+        "button":"Scopri di piu’",
+        "popupText":"<b>Bergamot Phytosome</b> is clinically proven to protect against cardiovascular issues by supporting healthy cholesterol levels. It also helps govern metabolic conditions that increase the risk of heart disease, and TYPE II diabetes. <b>Bergamot Phytosome</b> optimizes the biological absorption of polyphenols, normally characterized by poor bioavailability."
+      },
+       {
+        "video":"https://cdn.shopify.com/videos/c/o/v/18218e3f0aad40f69b2399b1b96a8aaf.mp4",
+        "title":"The science of healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure",
+        "subtitle":"How we use science to promote longevity and a more active lifestyle. ",
+        "button":"Scopri di piu’",
+        "popupText":"<b>Coenzyme Q10 Phytosome</b> delivers up to 116% higher CoQ10 levels vs. standard curcumin. CholestQ10 health benefits have been validated in more than 40 randomized, double-blind, placebo-controlled studies. CoQ10 is concentrated in organs with high energy requirements, like the heart, and supports ATP production and mitochondrial function, which are vital to heart health. A potent antioxidant, CoQ10 Phytosome also protects DNA from damage and promotes overall longevity. CoQ10 Phytosome® is delivered in a crystal-free liquid solution to maximize absorption."
+      },
+       {
+        "video":"https://cdn.shopify.com/videos/c/o/v/6f05f3c6c1ca40d7967e8fe268e74872.mp4",
+        "title":"The science of healthy liver",
+        "subtitle":"How we use science to promote a healthy liver",
+        "button":"Scopri di piu’",
+        "popupText":"The active biophenols and flavonoids harvested from the endemic variety of Cardoon leaf we use (<b>Cynara Cardunculus L. Var. AltilisDC and Scolymus</b>) inhibit the creation of fatty lipids in the liver cells. Excessive accumulation of lipids in hepatocytes can lead to a condition called hepatic steatosis or fatty liver disease, which increases the risk of cardiovascular diseases such as atherosclerosis, heart attack, and stroke."
+      },
+       {
+        "video":"https://cdn.shopify.com/videos/c/o/v/b70f5a4ee5d34688bc5538d0379faa1f.mp4",
+        "title":"The science of preventing oxidation of LDL cholesterol",
+        "subtitle":"How we use science to reduce the cause of atherosclerosis",
+        "button":"Scopri di piu’",
+        "popupText":"Natural Vitamin E (d-alpha tocopheryl succinate) is a must-take nutrient for your heart. It helps prevent the oxidation of LDL Cholesterol. Research has shown that natural Vitamin E combined with CoQ10 helps maintain its antioxidant state. It also reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis — and thus reduces the risk of cardiovascular disease."
+      }
+    
+    ],
     "NewsLetter": {
       "title": "Iscriviti alla newsletter",
       "portalId": "19647191",
@@ -732,13 +770,13 @@
       "color":"#D7E4FF"
     },
     "Cure": {
-      "title": "Lo studio in vitro: gli effetti antinfiammatori e anti catabolici di Tendoactive® sui tenociti umani ",
-      "subTitle": "",
+      "title": "Why heart disease is rising and five simple habits to improve heart health.",
+      "subTitle": "Many countries offer programs to help individuals reduce their cholesterol and blood pressure.",
       "buttonText":"Scopri di piu’",
       "popupTitle":"",
-      "popupText":"<b>In-Vitro study: Anti-inflammatory and anti-catabolic</b><br/><b>effects of Tendoactive® on human tenocytes</b><br/><br/><b>OBJECTIVE</b><br/>To investigate an in-vitro model of tendinitis to evaluate the effects of Tendoactive® on IL-1ß signaling and to determine whether  Tendoactive® can suppress NF-kß-activation (anticatabolic effect) and NF- kß-regulated gene products (anaboliceffect).<br/><br/><b>METHODS</b><br/>Primary cultures of human tenocytes (the cells that are responsible for producing the extracellular matrix and therefore, proteoglycans and type I collagen) were treated with IL-1ß for up to 72h. Expression of collagen type I, integrin ß1, cyclo-oxygenase-2 (COX-2), caspase-3 and matrix metalloproteinase-1 (MMP-1) was monitored by western blotting (anabolic effect).<br/>The effects of Tendoactive® on the expression, phosphorylation and nuclear translocation of protein components of the NF- kß system were studied by western blotting andimmunofluorescence respectively (anticatabolic effect).<br/>The state of the cells (cell proliferation, cell viability and apoptosis) was also evaluated by transmission electron microscopy when treated with Tendoactive® and /orIL-1ß.<br/><br/><b>RESULTS</b><br/>Treatment of tenocytes with Tendoactive® suppressed IL-1ß-induced NF-kß activation and p65 nuclear translocation. These events correlated with down regulation of NF-kß targets including COX-2, MMP-1and activated caspase-3 (anticatabolic effects).Tendoactive® also reversed the IL-1ß-induced downregulation of type-I collagen (Figure 2) and ß1-integrin receptor expression (anabolic effect).<br/>Regarding the results of the state of the cells, at 72h, the tenocytes completely recovered the adhesion and proliferation potential and no signs of apoptosis were observed. In addition, the transmission electron microscopy showed that the cells synthesized high amounts of extracellular matrix, which is necessary for the tensile strength of the tendon (Figure1).<br/><br/><b>CONCLUSION</b><br/>These results indicate that Tendoactive® is effective in the prophylaxis of tendinopathies and has nutraceutical potential as an anti-inflammatory agent for treating tendinopathy through suppression of NF-kß mediated IL-1ß catabolic signaling pathways in tenocytes.In addition, Tendoactive® increases the proliferation and viability of tenocytes. These results indicate that Tendoactive® could be useful in the prevention and/or treatment of tendinopathies.",
+      "popupText":"Pop-up Content <br/> Coming Soon...",
       "color":"#D7E4FF",
-      "image":"\\images\\landing\\cure_chart.jpg"
+      "image":""
     },
       "ScienceVideos":[
       {
