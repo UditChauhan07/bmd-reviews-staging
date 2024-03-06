@@ -16,6 +16,9 @@ import ProductTrustBadges from "@/utilities/ProductTrustBadges";
 import Testimonial from "@/utilities/Testimonial";
 import FourStepProcess from "@/utilities/FourStepProcess";
 import ReasonsToBelieve from "@/utilities/ReasonsToBelieve";
+import Disorder from "@/utilities/Disorder";
+import Cure from "@/utilities/Cure";
+import ScienceVideos from "@/utilities/ScienceVideos";
 import SubscriptionBar from "@/utilities/SubscriptionBar";
 import ProductSlideAccordion from "@/utilities/productSlideAccordion";
 import StickyNav from "@/utilities/Nav";
@@ -230,6 +233,24 @@ const LandingPage = ({ version, script, page }) => {
               centerAlign
             />
           )}
+
+          {pageData?.Disorder && (
+            <Disorder
+              content={pageData.Disorder}
+              theme={pageData.theme}
+              theme3={pageData.theme3 ? pageData.theme3 : ""}
+              isLayout={pageData.isFontLayout}
+            />
+          )}
+          {pageData?.Cure && (
+            <Cure
+              content={pageData.Cure}
+              theme={pageData.theme}
+              theme3={pageData.theme3 ? pageData.theme3 : ""}
+              isLayout={pageData.isFontLayout}
+            />
+          )}
+
           {pageData?.ReasonsToBelieve && (
             <ReasonsToBelieve
               ingredients={pageData.ReasonsToBelieve.ingredients}
@@ -239,6 +260,13 @@ const LandingPage = ({ version, script, page }) => {
               product={pageData.product}
               readMoreLabel={pageData.ReasonsToBelieve.readMoreLabel}
               accordanTitle={""}
+            />
+          )}
+
+          {pageData?.ScienceVideos && (
+            <ScienceVideos
+              data={pageData.ScienceVideos}
+              theme={pageData.theme}
             />
           )}
           {script && (
