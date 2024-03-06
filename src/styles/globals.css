@@ -14,16 +14,18 @@
   font-display: swap;
 } */
 @font-face {
-  font-family:  "Gotham","Arial",serif;
-  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Book_Web.woff?v=123089468096664502741694422972) format('truetype'); 
+  font-family: "Gotham", "Arial", serif;
+  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Book_Web.woff?v=123089468096664502741694422972)
+    format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family:  "Gotham","Arial",serif;
-  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Bold_Web.woff?v=157480398884470569741694422932) format('truetype'); 
+  font-family: "Gotham", "Arial", serif;
+  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Bold_Web.woff?v=157480398884470569741694422932)
+    format("truetype");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -77,20 +79,24 @@
   --background-end-rgb: 0, 0, 0;
 
   --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-  --secondary-glow: linear-gradient(to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3));
+  --secondary-glow: linear-gradient(
+    to bottom right,
+    rgba(1, 65, 255, 0),
+    rgba(1, 65, 255, 0),
+    rgba(1, 65, 255, 0.3)
+  );
 
   --tile-start-rgb: 2, 13, 46;
   --tile-end-rgb: 2, 5, 19;
-  --tile-border: conic-gradient(#ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80);
+  --tile-border: conic-gradient(
+    #ffffff80,
+    #ffffff40,
+    #ffffff30,
+    #ffffff20,
+    #ffffff10,
+    #ffffff10,
+    #ffffff80
+  );
 
   --callout-rgb: 20, 20, 20;
   --callout-border-rgb: 108, 108, 108;
@@ -109,8 +115,8 @@
   --bmd-14px: 0.875rem;
   --bmd-12px: 0.75rem;
 
-  --bmd-font-Primary: 'ivypresto-display', 'Times New Roman', Times, serif;
-  --bmd-font-Secondary: 'Gotham', 'Arial', serif;
+  --bmd-font-Primary: "ivypresto-display", "Times New Roman", Times, serif;
+  --bmd-font-Secondary: "Gotham", "Arial", serif;
 
   --bmd-IvyPresto-regular: 400;
   --bmd-Gotham-book: 400;
@@ -133,20 +139,24 @@
     --background-end-rgb: 0, 0, 0;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(to bottom right,
-        rgba(1, 65, 255, 0),
-        rgba(1, 65, 255, 0),
-        rgba(1, 65, 255, 0.3));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
 
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(#ffffff80,
-        #ffffff40,
-        #ffffff30,
-        #ffffff20,
-        #ffffff10,
-        #ffffff10,
-        #ffffff80);
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
 
     --callout-rgb: 20, 20, 20;
     --callout-border-rgb: 108, 108, 108;
@@ -165,8 +175,8 @@
     --bmd-14px: 0.875rem;
     --bmd-12px: 0.75rem;
 
-    --bmd-font-Primary: 'ivypresto-display', 'Times New Roman', Times, serif;
-    --bmd-font-Secondary: 'Gotham', 'Arial', serif;
+    --bmd-font-Primary: "ivypresto-display", "Times New Roman", Times, serif;
+    --bmd-font-Secondary: "Gotham", "Arial", serif;
 
     --bmd-IvyPresto-regular: 400;
     --bmd-Gotham-book: 400;
@@ -249,13 +259,13 @@ ol {
 .none {
   display: none;
 }
-.xyz{
+.xyz {
   display: block;
-  color:#9b6767;
+  color: #9b6767;
   background-color: #362424;
 }
 #hubspot-messages-iframe-container iframe {
-  top: 0!important;
+  top: 0 !important;
 }
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
@@ -409,7 +419,7 @@ https://flickity.metafizzy.co
 .swell-tab {
   display: none !important;
 }
-.abc{
+.abc {
   height: auto;
   width: auto;
   display: flex;
@@ -418,14 +428,14 @@ https://flickity.metafizzy.co
 }
 
 /* PLP */
-#Tendo_PLP_PriceBox_Container * select{
-color: rgb(0, 51, 161)!important;
+#Tendo_PLP_PriceBox_Container * select {
+  color: rgb(0, 51, 161) !important;
 }
-#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_stockHolder{
-  color: rgb(0, 51, 161)!important;
+#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_stockHolder {
+  color: rgb(0, 51, 161) !important;
 }
-#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_detailsHolder{
-  display: none!important;
+#Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_detailsHolder {
+  display: none !important;
 }
 /* PLP CSS End Here */
 
@@ -521,14 +531,113 @@ color: rgb(0, 51, 161)!important;
 }
 @media screen and (max-width: 768px) {
   #hubspot-conversations-iframe {
-    height: 70%!important;
+    height: 70% !important;
   }
   #hubspot-messages-iframe-container.widget-align-left {
-    z-index: 11!important;
-    bottom: 15%!important;
-    max-height: 75%!important;
-}
+    z-index: 11 !important;
+    bottom: 15% !important;
+    max-height: 75% !important;
+  }
   .react-multi-carousel-item {
     overflow: hidden;
   }
+}
+
+button.slick-next {
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 -20px 0px 0px;
+  padding: 6px;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.slider-container button.slick-next img {
+  width: 30px !important;
+}
+
+.slider-container button.slick-prev img {
+  width: 30px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: unset !important;
+}
+
+.slick-slider.center.slick-initialized {
+  margin: 0 13px;
+}
+
+@media (max-width: 1250px) {
+  .slick-prev,
+  .slick-next {
+    top: 35% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slick-prev {
+    display: none !important;
+  }
+  .slick-next {
+    display: none !important;
+  }
+  .slick-dots li {
+    width: 13px !important;
+    height: 3px !important;
+    margin: 0 2px;
+    background-color: #e7e7e7;
+  }
+}
+
+.slidercrot .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+
+/* .slick-dots li button:before {
+  width: 28px !important;
+  height: 4px !important;
+  color: transparent;
+  background-color: #d9d9d9;
+} */
+
+.slick-dots li {
+  width: 28px !important;
+  height: 4px !important;
+  color: transparent !important;
+  background-color: #d9d9d9 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #000;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: none !important;
+  color: black !important;
+}
+
+.slick-dots li.slick-active button:before {
+  width: 28px;
+  height: 4px;
+}
+
+.slick-dots li button:before {
+  color: transparent !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: transparent !important;
 }
