@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { GetUserDetails } from "@/data/lib";
-import { Encrypt } from "@/data/Auth";
+import { Encrypt, Destroy } from "@/data/Auth";
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
 export { RouteGuard };
@@ -17,16 +17,26 @@ function RouteGuard({ children }) {
     let newPath1 = path.split("/tools/");
     let newPath2 = path.split("/account/activate/");
     let autologin = path.split("/94evMaXAmEmvCH5/");
+    let logoutStatus = path.split("/MghBdR8wHtBU6/");
+    if (logoutStatus.length == 2) {
+      let statusValue = logoutStatus[1];
+      console.log(statusValue);
+      if (statusValue == 1) {
+        Destroy(router);
+      } else {
+        window.location.href = "https://brunomd.eu/account";
+      }
+    }
     if (autologin.length == 2) {
       let removeStr = autologin[1].split("auto/");
       if (removeStr.length == 2) {
         let split = removeStr[1].split("/");
         if (split.length == 2) {
           GetUserDetails({
-            loginFields: { email: atob(split[0]), password: atob(split[1]) }
+            loginFields: { email: atob(split[0]), password: atob(split[1]) },
           })
             .then((response) => {
-                console.log({response});
+              console.log({ response });
               var errors =
                 response?.data?.customerAccessTokenCreate?.customerUserErrors ||
                 [];
@@ -47,13 +57,13 @@ function RouteGuard({ children }) {
                 Encrypt(
                   response?.data?.customerAccessTokenCreate?.customerAccessToken
                 );
-                window.location.href = "/account"
+                window.location.href = "/account";
               }
             })
             .catch((err) => {
               console.log({ err });
             });
-            return
+          return;
         } else {
           router.push("/");
         }
@@ -73,7 +83,7 @@ function RouteGuard({ children }) {
       let check = router.asPath.split("#");
       let check1 = check[0].split("?");
       if (check1[0] == "/account/login") {
-        window.location.href = "https://www.brunomd.eu/account/login";
+        // window.location.href = "https://www.brunomd.eu/account/login";
       }
       authCheck(check1[0]);
       // authCheck(router.route ||router.asPath);
@@ -146,6 +156,7 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
+      "/tendo-V2",
     ];
     if (!publicPaths.length) {
       // publicPaths = ["/404-page"];

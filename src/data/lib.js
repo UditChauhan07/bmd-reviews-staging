@@ -1,4 +1,4 @@
-let url = "https://be-cms.brunomd.com/brunoeu/";
+let url = "https://be-cms.brunomd.com/dev/brunoeu/";
 
 export async function updateCustomerAddress({ address, customerAccessToken }) {
   address.customerAccessToken = customerAccessToken;
@@ -39,25 +39,25 @@ export async function createCustomerAddress({ address, customerAccessToken }) {
   }
 }
 
-export async function getProductSearch(){
-  console.log(url+"uvdvFvQz1BXdWQC");
-  let response = await fetch(url+"uvdvFvQz1BXdWQC", { 
+export async function getProductSearch() {
+  console.log(url + "uvdvFvQz1BXdWQC");
+  let response = await fetch(url + "uvdvFvQz1BXdWQC", {
     method: "POST",
     headers: {
-     Accept: '*/*',
-     'Content-Type': 'application/json',
-   },
-   body:JSON.stringify({token:"uvdvFvQz1BXdWQC"})
+      Accept: "*/*",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ token: "uvdvFvQz1BXdWQC" }),
   });
-  
+
   let data = JSON.parse(await response.text());
-  console.log({data});
-  if(data?.status == 200){
-    let cdata = JSON.parse(data.data)
-     return cdata;
-   }else{
-     return Promise.resolve({});
-   }
+  console.log({ data });
+  if (data?.status == 200) {
+    let cdata = JSON.parse(data.data);
+    return cdata;
+  } else {
+    return Promise.resolve({});
+  }
 }
 
 export async function ResetUser({ email }) {
@@ -376,4 +376,19 @@ export async function getSubscription({ id }) {
 
   let data = JSON.parse(await response.text());
   return data.data;
+}
+
+export async function getSubscriptionFrequency({ id }) {
+  let response = await fetch(url + "8vAjH93gPTB", {
+    method: "POST",
+    headers: {
+      Accept: "*/*",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ id }),
+  });
+
+  let data = JSON.parse(await response.text());
+
+  return data;
 }
