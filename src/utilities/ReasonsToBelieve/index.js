@@ -151,7 +151,6 @@ const ReasonsToBelieve = ({
       </>
     );
   };
-  
 
   const V2 = () => {
     return (
@@ -163,9 +162,9 @@ const ReasonsToBelieve = ({
               Studi clinici
             </p>
           </h3>
-        {accordanTitle &&<p className={styles.v2ContainerSubtitle}>
-        {accordanTitle}
-        </p>}
+          {accordanTitle && (
+            <p className={styles.v2ContainerSubtitle}>{accordanTitle}</p>
+          )}
         </div>
         <div className={styles.v2Container}>
           {content.map((element, key) => (
@@ -174,11 +173,11 @@ const ReasonsToBelieve = ({
                 src={element?.image?.src}
                 className={styles.imgHolder}
                 alt={element?.image?.alt}
-                width={125}
-                height={125}
+                width={200}
+                height={"auto"}
                 onClick={() => handleClick1(element)}
               />
-              <div>
+              <div className="styles.marginAuto">
                 <h3 className={styles.title} style={{ color: theme }}>
                   {element.note}
                 </h3>
