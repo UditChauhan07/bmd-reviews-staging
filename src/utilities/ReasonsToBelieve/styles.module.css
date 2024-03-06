@@ -1,4 +1,4 @@
-.ingredientsHolder{
+.ingredientsHolder {
   margin-bottom: 4rem;
 }
 
@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
-.reasonsContainerV2{
+.reasonsContainerV2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 100%);
   grid-template-rows: repeat(auto-fill, 75%);
@@ -15,7 +15,7 @@
 .accordionPanel {
   padding: 0.25rem 0.5rem 0.5rem;
 }
-.v2{
+.v2 {
   margin: 25px auto;
   max-width: 1200px;
 }
@@ -25,6 +25,13 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
+.marginText {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
 .accordion {
   font-family: Gotham-Medium;
 
@@ -107,12 +114,12 @@
   position: absolute;
   padding: 50px 30px;
 }
-.v2ContainerSubtitle{
+.v2ContainerSubtitle {
   text-transform: uppercase;
   font-family: var(--bmd-font-Secondary);
-    font-size: 18px;
-    font-weight: 500;
-    margin: 15px 0 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0 5px;
 }
 .exitButton {
   z-index: 20;
@@ -159,10 +166,10 @@
   color: black;
   font-family: var(--bmd-font-Secondary);
 }
-.expanded ul{
+.expanded ul {
   list-style: disc inside;
 }
-.expanded ol{
+.expanded ol {
   list-style: decimal inside;
 }
 .clinicalHeadline {
@@ -266,17 +273,20 @@
 }
 
 @media screen and (max-width: 1500px) {
-  .v2Container,.v2 {
+  .v2Container,
+  .v2 {
     max-width: 1200px;
   }
 }
 @media screen and (max-width: 1440px) {
-  .v2Container,.v2 {
+  .v2Container,
+  .v2 {
     max-width: 1024px;
   }
 }
 @media screen and (max-width: 1220px) {
-  .v2Container ,.v2{
+  .v2Container,
+  .v2 {
     max-width: 768px;
   }
 }
@@ -287,10 +297,10 @@
     width: 90%;
     flex-direction: column;
   }
-  .modalContainer1{
+  .modalContainer1 {
     max-height: 300px;
   }
-  .modalCardContainerV2{
+  .modalCardContainerV2 {
     overflow: scroll;
     max-height: 250px;
   }
@@ -313,11 +323,12 @@
   }
 }
 @media screen and (max-width: 769px) {
-  .reasonsHeader{
+  .reasonsHeader {
     font-size: 32px;
     line-height: 38px;
   }
-  .v2,.v2Container{
+  .v2,
+  .v2Container {
     margin-left: 5%;
   }
   .title {
@@ -330,26 +341,26 @@
   .readMore {
     font-size: 12px;
   }
-  .modalCardContainerV2{
+  .modalCardContainerV2 {
     overflow: scroll;
     max-height: 300px;
   }
-  .modalContainer1{
+  .modalContainer1 {
     top: 40%;
     max-height: 400px;
   }
-  .modalContainer1{
+  .modalContainer1 {
     padding: 50px;
   }
 }
 @media screen and (max-width: 767px) {
-  .modalImgHolder{
+  .modalImgHolder {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
 }
-  @media screen and (max-width: 610px) {
+@media screen and (max-width: 610px) {
   .ing {
     width: 100%;
   }
@@ -360,26 +371,26 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .modalContainer1{
+  .modalContainer1 {
     top: 40%;
     height: 75%;
     max-height: 400px;
     padding: 10px;
   }
-  .modalImgHolder{
+  .modalImgHolder {
     width: 100%;
     height: auto;
   }
-  .modalCardContainerV2{
+  .modalCardContainerV2 {
     max-height: 380px;
   }
 }
 @media screen and (max-width: 426px) {
-  .v2Container{
+  .v2Container {
     margin-left: 0;
     padding-left: 1rem;
   }
-  .cardContainer{
+  .cardContainer {
     margin: 10px 0;
   }
 }
