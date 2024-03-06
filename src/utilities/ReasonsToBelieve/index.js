@@ -177,7 +177,7 @@ const ReasonsToBelieve = ({
                 height={"auto"}
                 onClick={() => handleClick1(element)}
               />
-              <div className="styles.marginAuto">
+              <div className={styles.marginText}>
                 <h3 className={styles.title} style={{ color: theme }}>
                   {element.note}
                 </h3>
