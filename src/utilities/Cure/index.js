@@ -53,6 +53,16 @@ const Cure = ({ content, theme, theme3, isLayout = false }) => {
                   className={styles.expanded}
                   dangerouslySetInnerHTML={{ __html: content.popupText }}
                 ></div>
+                <div>
+                  {content.image && (
+                    <img
+                      src={content.image}
+                      alt={"..."}
+                      height={600}
+                      width={600}
+                    />
+                  )}
+                </div>
               </div>
             </div>
           </div>
