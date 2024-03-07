@@ -11,6 +11,43 @@ function ScienceVideos({ data, theme }) {
   const [modalSubTitle, setModalSubTitle] = React.useState(false);
   const [modalDesc, setModalDesc] = React.useState(false);
 
+  const handleBeforeChange = (oldIndex, newIndex) => {
+    // Remove active class from the previous active video
+    const prevActiveVideo = document.querySelector(
+      ".slick-slide .video .active-video"
+    );
+    if (prevActiveVideo) {
+      prevActiveVideo.pause();
+      prevActiveVideo.classList.remove("active-video");
+    }
+  };
+
+  const handleAfterChange = (currentSlide) => {
+    // Add active class to the video within the current active slide
+    const currentActiveVideo = document.querySelector(
+      `.slick-slide[data-index="${currentSlide}"] .video`
+    );
+    const oldActiveVideo = document.querySelector(
+      `.slick-slide[data-index="${currentSlide - 1}"] .video`
+    );
+    const newActiveVideo = document.querySelector(
+      `.slick-slide[data-index="${currentSlide + 1}"] .video`
+    );
+    if (oldActiveVideo) {
+      oldActiveVideo.pause();
+      oldActiveVideo.classList.remove("active-video");
+    }
+    if (newActiveVideo) {
+      newActiveVideo.pause();
+      newActiveVideo.classList.remove("active-video");
+    }
+    if (currentActiveVideo) {
+      currentActiveVideo.classList.add("active-video");
+      currentActiveVideo.play();
+      currentActiveVideo.loop = true;
+    }
+  };
+
   const handleClick1 = (element) => {
     setModal(true);
     setModalTitle(element.title);
@@ -34,7 +71,7 @@ function ScienceVideos({ data, theme }) {
 
   // Settings object with custom arrows
   const settings = {
-    className: "center",
+    className: "center vSlider",
     centerMode: true,
     infinite: true,
     centerPadding: "20%",
@@ -55,6 +92,8 @@ function ScienceVideos({ data, theme }) {
     ],
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
+    beforeChange: handleBeforeChange,
+    afterChange: handleAfterChange,
   };
 
   // test const settings = {
@@ -95,11 +134,10 @@ function ScienceVideos({ data, theme }) {
           {data.map((videos, key) => (
             <div className={styles.imageControl} key={"science-section-" + key}>
               <video
-                autoPlay={true}
+                className="sVideo video"
                 muted={"muted"}
                 playsInline
                 controls
-                loop
                 src={videos.video}
               >
                 <track src="" kind="captions" />
@@ -107,7 +145,7 @@ function ScienceVideos({ data, theme }) {
               <h3 style={{ color: theme }}>{videos.title}</h3>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
               <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
-                Scopri di piu’
+                Learn More
               </p>
             </div>
           ))}
