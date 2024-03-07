@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ExitIcon } from "../SvgIcons";
+import Link from "next/link";
 
 function ScienceVideos({ data, theme }) {
   const [modal, setModal] = React.useState(false);
@@ -144,8 +145,10 @@ function ScienceVideos({ data, theme }) {
               </video>
               <h3 style={{ color: theme }}>{videos.title}</h3>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
-              <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
-                Learn More
+              <p style={{ color: theme }}>
+                <Link href="https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/?l=1">
+                  Learn More
+                </Link>
               </p>
             </div>
           ))}
