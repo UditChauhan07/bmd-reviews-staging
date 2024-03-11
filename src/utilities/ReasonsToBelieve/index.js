@@ -157,9 +157,9 @@ const ReasonsToBelieve = ({
       <>
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`}>
           <h3 className={styles.reasonsHeader}>
-            Ingredienti e
+            Per un’ azione sintomatica e strutturale:
             <p className={styles.believeBluerex} style={{ color: theme }}>
-              Studi clinici
+              gli ingredienti della nostra formula supportati da 5 studi clinici
             </p>
           </h3>
           {accordanTitle && (
