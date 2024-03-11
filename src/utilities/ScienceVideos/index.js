@@ -145,14 +145,12 @@ function ScienceVideos({ data, theme }) {
               </video>
               <h3 style={{ color: theme }}>{videos.title}</h3>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
-              <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
+              {/* <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
                 Learn More
-              </p>
-              {/* <p style={{ color: theme }}>
-                <Link href="https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/?l=1">
-                  Learn More
-                </Link>
               </p> */}
+              <p style={{ color: theme }}>
+                <Link href={videos.blog}>Scopri di piu’</Link>
+              </p>
             </div>
           ))}
         </Slider>
