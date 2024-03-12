@@ -149,7 +149,7 @@ function ScienceVideos({ data, theme }) {
                 Learn More
               </p> */}
               <p style={{ color: theme }}>
-                <Link href={videos.blog}>Scopri di piu’</Link>
+                <Link href={videos.blog + "?l=1"}>Scopri di piu’</Link>
               </p>
             </div>
           ))}
