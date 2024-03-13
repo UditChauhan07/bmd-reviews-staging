@@ -313,7 +313,7 @@
         "popupText":"<b>Coenzyme Q10 Phytosome</b> delivers up to 116% higher CoQ10 levels vs. standard curcumin. CholestQ10 health benefits have been validated in more than 40 randomized, double-blind, placebo-controlled studies. CoQ10 is concentrated in organs with high energy requirements, like the heart, and supports ATP production and mitochondrial function, which are vital to heart health. A potent antioxidant, CoQ10 Phytosome also protects DNA from damage and promotes overall longevity. CoQ10 Phytosome® is delivered in a crystal-free liquid solution to maximize absorption."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/973da50669e84547bc4ba53be49aef3d.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/f2ba00df7bc542e693ee2a5f8e45a199.mp4",
         "title":"Lo studio osservazionale, prospettico, aperto e multicentrico per valutare l'efficacia e la sicurezza di Tendoactive® in pazienti con tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -492,7 +492,54 @@
           }
       ],
       "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
-  }
+  },
+   "faq":{
+  "title": "FAQs",
+  "id": "tendo",
+  "details": [
+    {
+      "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",
+      "content": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi.  Consigliamo di seguire il trattamento per evitare recidive, la tendinopatia può durare anche più di 1 anno."
+    },
+    {
+      "title": "Qual è il dosaggio?",
+      "content": "1 bustina/giorno principalmente in 1 dose singola."
+    },
+    {
+      "title": "È meglio assumerlo prima o dopo i pasti?",
+      "content": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
+    },
+    {
+      "title": "A partire da che età si può assumere Tendoactive?",
+      "content": "Dai 12 ai 13 anni"
+    },
+    {
+      "title": "Le persone celiache o intolleranti al lattosio possono assumerlo?",
+      "content": "Sì. Non contiene glutine né lattosio."
+    },
+    {
+      "title": "È indicato per le donne in gravidanza o in allattamento?",
+      "content": "Non ci sono studi in merito. Si consiglia di consultare il medico per ulteriori chiarimenti."
+    },
+ {
+      "title": "Se il dolore tendineo si verifica a causa dell'assunzione cronica di farmaci come chinoloni o corticosteroidi, Tendoactive potrebbe essere da supporto contro il dolore? I FANS (Farmaci Antinfiammatori Non Steroidei sono adatti per il trattamento delle tendinopatie)?",
+      "content": "Non ci sono studi specifici su questo argomento, ma come dimostrato da uno degli studi clinici effettuati sul prodotto, Tendoactive sarebbe indicato in quanto uno studio ha dimostrano un effetto ristrutturante sul tendine. Inoltre, i FANS sono consigliati solo per un massimo di 4-5 giorni. Mascherare il dolore fa sì che il paziente continui a sovraccaricare il tendine e questo può causarne la cronicizzazione o la rottura, richiedendo un intervento chirurgico. Studi recenti hanno dimostrato che sono necessari più trattamenti fisiologici che promuovono la migrazione dei tenociti per riparare la struttura del tendine. E quindi, i FANS non sarebbero il trattamento appropriato. Inoltre, i FANS non possono essere assunti cronicamente a causa dei loro effetti collaterali a livello gastrointestinale, cardiovascolare, renale ed epatico."
+    },
+ {
+      "title": "Tendoactive è indicato per le distorsioni e per la fascite plantare?",
+      "content": "Non abbiamo studi specifici sulle distorsioni. Tuttavia, tenendo conto che il manganese (uno dei componenti di Tendoactive) contribuisce alla normale formazione del tessuto connettivo (tendini e legamenti) non possiamo escludere che possa avere un effetto benefico. Inoltre, Tendoactive ha dimostrato efficacia e sicurezza nei pazienti con fascite plantare nello studio pubblicato da Nadal et al nel 2009.<br/><br/>La fascia plantare è un tessuto connettivo, proprio come i tendini e i legamenti.Non dimentichiamo inoltre che le statine (farmaci ipocolesterolemizzanti) hanno effetti deleteri sulla fascia plantare e quindi Tendoactive è una buona opzione."
+    },
+ {
+      "title": "Tendoactive PLUS può essere assunto con anticoagulanti come l'acenocumarolo o il warfarin?",
+      "content": "Non ci risultano reazioni avverse o interazioni farmacologiche, ma è sempre consigliabile rivolgersi al medico perché i test INR eseguiti sui pazienti in trattamento anticoagulante potrebbero essere alterati. I test INR vengono eseguiti per aggiustare la dose di anticoagulanti."
+    },
+    {
+ "title": "I suoi ingredienti sono inclusi nelle liste di doping?",
+      "content": "No. Nessuno dei suoi ingredienti o l'intero prodotto sono nelle liste di doping."
+    }
+      ],
+  "faq": true
+   }
   },
   "tendo-LP-V2": {
     "isFontLayout": true,
@@ -809,7 +856,7 @@
         "popupText":"<b>Coenzyme Q10 Phytosome</b> delivers up to 116% higher CoQ10 levels vs. standard curcumin. CholestQ10 health benefits have been validated in more than 40 randomized, double-blind, placebo-controlled studies. CoQ10 is concentrated in organs with high energy requirements, like the heart, and supports ATP production and mitochondrial function, which are vital to heart health. A potent antioxidant, CoQ10 Phytosome also protects DNA from damage and promotes overall longevity. CoQ10 Phytosome® is delivered in a crystal-free liquid solution to maximize absorption."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/973da50669e84547bc4ba53be49aef3d.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/f2ba00df7bc542e693ee2a5f8e45a199.mp4",
         "title":"Lo studio osservazionale, prospettico, aperto e multicentrico per valutare l'efficacia e la sicurezza di Tendoactive® in pazienti con tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -988,6 +1035,53 @@
           }
       ],
       "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
-  }
+  },
+  "faq":{
+  "title": "FAQs",
+  "id": "tendo",
+  "details": [
+    {
+      "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",
+      "content": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi.  Consigliamo di seguire il trattamento per evitare recidive, la tendinopatia può durare anche più di 1 anno."
+    },
+    {
+      "title": "Qual è il dosaggio?",
+      "content": "1 bustina/giorno principalmente in 1 dose singola."
+    },
+    {
+      "title": "È meglio assumerlo prima o dopo i pasti?",
+      "content": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
+    },
+    {
+      "title": "A partire da che età si può assumere Tendoactive?",
+      "content": "Dai 12 ai 13 anni"
+    },
+    {
+      "title": "Le persone celiache o intolleranti al lattosio possono assumerlo?",
+      "content": "Sì. Non contiene glutine né lattosio."
+    },
+    {
+      "title": "È indicato per le donne in gravidanza o in allattamento?",
+      "content": "Non ci sono studi in merito. Si consiglia di consultare il medico per ulteriori chiarimenti."
+    },
+ {
+      "title": "Se il dolore tendineo si verifica a causa dell'assunzione cronica di farmaci come chinoloni o corticosteroidi, Tendoactive potrebbe essere da supporto contro il dolore? I FANS (Farmaci Antinfiammatori Non Steroidei sono adatti per il trattamento delle tendinopatie)?",
+      "content": "Non ci sono studi specifici su questo argomento, ma come dimostrato da uno degli studi clinici effettuati sul prodotto, Tendoactive sarebbe indicato in quanto uno studio ha dimostrano un effetto ristrutturante sul tendine. Inoltre, i FANS sono consigliati solo per un massimo di 4-5 giorni. Mascherare il dolore fa sì che il paziente continui a sovraccaricare il tendine e questo può causarne la cronicizzazione o la rottura, richiedendo un intervento chirurgico. Studi recenti hanno dimostrato che sono necessari più trattamenti fisiologici che promuovono la migrazione dei tenociti per riparare la struttura del tendine. E quindi, i FANS non sarebbero il trattamento appropriato. Inoltre, i FANS non possono essere assunti cronicamente a causa dei loro effetti collaterali a livello gastrointestinale, cardiovascolare, renale ed epatico."
+    },
+ {
+      "title": "Tendoactive è indicato per le distorsioni e per la fascite plantare?",
+      "content": "Non abbiamo studi specifici sulle distorsioni. Tuttavia, tenendo conto che il manganese (uno dei componenti di Tendoactive) contribuisce alla normale formazione del tessuto connettivo (tendini e legamenti) non possiamo escludere che possa avere un effetto benefico. Inoltre, Tendoactive ha dimostrato efficacia e sicurezza nei pazienti con fascite plantare nello studio pubblicato da Nadal et al nel 2009.<br/><br/>La fascia plantare è un tessuto connettivo, proprio come i tendini e i legamenti.Non dimentichiamo inoltre che le statine (farmaci ipocolesterolemizzanti) hanno effetti deleteri sulla fascia plantare e quindi Tendoactive è una buona opzione."
+    },
+ {
+      "title": "Tendoactive PLUS può essere assunto con anticoagulanti come l'acenocumarolo o il warfarin?",
+      "content": "Non ci risultano reazioni avverse o interazioni farmacologiche, ma è sempre consigliabile rivolgersi al medico perché i test INR eseguiti sui pazienti in trattamento anticoagulante potrebbero essere alterati. I test INR vengono eseguiti per aggiustare la dose di anticoagulanti."
+    },
+    {
+ "title": "I suoi ingredienti sono inclusi nelle liste di doping?",
+      "content": "No. Nessuno dei suoi ingredienti o l'intero prodotto sono nelle liste di doping."
+    }
+      ],
+  "faq": true
+   }
   }
 }
