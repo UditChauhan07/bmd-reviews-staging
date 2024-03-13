@@ -10,7 +10,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
   const [learnMore, setLearnMore] = useState(false);
   const [detailsMore, setDetailsMore] = useState(true);
   const [quantity, setQuantity] = useState(1);
-  const [isAddingToCart, setIsAddingToCart] = useState(true);
+  const [isAddingToCart, setIsAddingToCart] = useState(false);
   const [subscriptionInit, setInit] = useState(false);
   const [currentShippingInterval, setCurrentShippingInterval] = useState();
   const [freqText, setFreq] = useState();
@@ -99,58 +99,58 @@ const PriceBox = ({ isActive, data, variantId }) => {
         return;
       }
     }
-    if(data.priceBox.isCheckoutRedirected){
+    if (data.priceBox.isCheckoutRedirected) {
       AddtoCart({ lineItems: lineItemsToAdd })
-      .then((response) => {
-        let URL = response.data.cartCreate.cart.checkoutUrl
-        window.location.href = URL
-      })
-      .catch((err) => {
-        console.log({ err });
-      });
-    }else{
-    if (cId) {
-      addCartItems({ items: lineItemsToAdd })
         .then((response) => {
-          if (response?.data?.cartLinesAdd?.userErrors?.length) {
-            if (response?.data?.cartLinesAdd?.userErrors[0].message) {
-              if (
-                response?.data?.cartLinesAdd?.userErrors[0].message ==
-                "Il carrello specificato non esiste."
-              ) {
-                AddtoCart({ lineItems: lineItemsToAdd })
-                  .then((response) => {
-                    let id = response?.data?.cartCreate?.cart?.id;
-                    localStorage.setItem("e6S4JJM9G", id);
-                    // router.push('/carrello')
-                    window.location.href = "/carrello";
-                  })
-                  .catch((err) => {
-                    console.log({ err });
-                  });
-              }
-            }
-          } else {
-            // router.push('/carrello')
-            window.location.href = "/carrello";
-          }
+          let URL = response.data.cartCreate.cart.checkoutUrl;
+          window.location.href = URL;
         })
         .catch((err) => {
           console.log({ err });
         });
     } else {
-      AddtoCart({ lineItems: lineItemsToAdd })
-        .then((response) => {
-          let id = response?.data?.cartCreate?.cart?.id;
-          localStorage.setItem("e6S4JJM9G", id);
-          // router.push('/carrello')
-          window.location.href = "/carrello";
-        })
-        .catch((err) => {
-          console.log({ err });
-        });
+      if (cId) {
+        addCartItems({ items: lineItemsToAdd })
+          .then((response) => {
+            if (response?.data?.cartLinesAdd?.userErrors?.length) {
+              if (response?.data?.cartLinesAdd?.userErrors[0].message) {
+                if (
+                  response?.data?.cartLinesAdd?.userErrors[0].message ==
+                  "Il carrello specificato non esiste."
+                ) {
+                  AddtoCart({ lineItems: lineItemsToAdd })
+                    .then((response) => {
+                      let id = response?.data?.cartCreate?.cart?.id;
+                      localStorage.setItem("e6S4JJM9G", id);
+                      // router.push('/carrello')
+                      window.location.href = "/carrello";
+                    })
+                    .catch((err) => {
+                      console.log({ err });
+                    });
+                }
+              }
+            } else {
+              // router.push('/carrello')
+              window.location.href = "/carrello";
+            }
+          })
+          .catch((err) => {
+            console.log({ err });
+          });
+      } else {
+        AddtoCart({ lineItems: lineItemsToAdd })
+          .then((response) => {
+            let id = response?.data?.cartCreate?.cart?.id;
+            localStorage.setItem("e6S4JJM9G", id);
+            // router.push('/carrello')
+            window.location.href = "/carrello";
+          })
+          .catch((err) => {
+            console.log({ err });
+          });
+      }
     }
-  }
   };
   let regex = /\d\d giorni/gi;
   let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(
@@ -227,8 +227,14 @@ const PriceBox = ({ isActive, data, variantId }) => {
           )}
           <div
             className={styles.section4}
-            id={data.priceBox.modalPriceBoxContainerID+"_stockHolder"}
-            style={data?.priceBox?.isStockBack ? { color: "#000" } : data?.priceBox?.isStockTheme?{color:data.theme}:{}}
+            id={data.priceBox.modalPriceBoxContainerID + "_stockHolder"}
+            style={
+              data?.priceBox?.isStockBack
+                ? { color: "#000" }
+                : data?.priceBox?.isStockTheme
+                ? { color: data.theme }
+                : {}
+            }
           >
             {data?.priceBox?.stock}
           </div>
@@ -242,7 +248,9 @@ const PriceBox = ({ isActive, data, variantId }) => {
               </div>
               <select
                 className={styles.selectNon}
-                style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}
+                style={
+                  data.priceBox.isPriceBoxTheme ? { color: data.theme } : {}
+                }
                 onChange={handleQuantityChange}
               >
                 {QUANTITY_OPTIONS.map((val) => (
@@ -275,7 +283,13 @@ const PriceBox = ({ isActive, data, variantId }) => {
                   : "Consegna ogni"}
                 :
               </b>
-              <select className={styles.freq} onChange={handleFreqChange} style={data.priceBox.isPriceBoxTheme?{color:data.theme}:{}}>
+              <select
+                className={styles.freq}
+                onChange={handleFreqChange}
+                style={
+                  data.priceBox.isPriceBoxTheme ? { color: data.theme } : {}
+                }
+              >
                 {data.freq?.length &&
                   data.freq?.map((val) => (
                     <option key={val.id} value={val.id}>
@@ -289,7 +303,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
           <div className={styles.flex}>
             <div
               className={styles.buyNowBtn}
-              id="checkoutBtnContainer"
+              id=""
               style={
                 !subscriptionInit
                   ? { background: data.theme }
@@ -306,7 +320,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
             >
               <p>
                 {isAddingToCart ? (
-                  <Spinner className={styles.spinner} size={20} theme={color}/>
+                  <Spinner className={styles.spinner} size={20} theme={color} />
                 ) : (
                   buttonText
                 )}
@@ -314,8 +328,14 @@ const PriceBox = ({ isActive, data, variantId }) => {
             </div>
           </div>
           {isActive == 1 && data?.priceBox?.oneTime?.accordanTitle && (
-            <div style={{paddingBottom:'2rem'}} id={data.priceBox.modalPriceBoxContainerID+"_detailsHolder"}>
-              <div className={styles.section7} onClick={()=>setDetailsMore(!detailsMore)}>
+            <div
+              style={{ paddingBottom: "2rem" }}
+              id={data.priceBox.modalPriceBoxContainerID + "_detailsHolder"}
+            >
+              <div
+                className={styles.section7}
+                onClick={() => setDetailsMore(!detailsMore)}
+              >
                 <b>{data.priceBox.oneTime.accordanTitle}</b>
                 <div
                   className={detailsMore ? styles.upArrow : styles.downArrow}
@@ -329,11 +349,13 @@ const PriceBox = ({ isActive, data, variantId }) => {
                   </svg>
                 </div>
               </div>
-              {detailsMore &&<p
-                dangerouslySetInnerHTML={{
-                  __html: data.priceBox.oneTime.accordanBody,
-                }}
-              />}
+              {detailsMore && (
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: data.priceBox.oneTime.accordanBody,
+                  }}
+                />
+              )}
             </div>
           )}
         </div>
