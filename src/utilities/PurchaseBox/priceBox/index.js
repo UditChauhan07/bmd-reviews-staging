@@ -10,7 +10,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
   const [learnMore, setLearnMore] = useState(false);
   const [detailsMore, setDetailsMore] = useState(true);
   const [quantity, setQuantity] = useState(1);
-  const [isAddingToCart, setIsAddingToCart] = useState(false);
+  const [isAddingToCart, setIsAddingToCart] = useState(true);
   const [subscriptionInit, setInit] = useState(false);
   const [currentShippingInterval, setCurrentShippingInterval] = useState();
   const [freqText, setFreq] = useState();
