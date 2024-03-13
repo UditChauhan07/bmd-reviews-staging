@@ -236,6 +236,10 @@
     font-size: 14px;
   }
 
+  .modalImgHolder {
+    margin-right: 70px;
+  }
+
   .CollaButton {
     width: 300px;
   }
