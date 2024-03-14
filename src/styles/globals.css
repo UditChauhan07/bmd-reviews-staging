@@ -262,7 +262,7 @@ ol {
 .xyz {
   display: block;
   color: #431b1b;
-  background-color: #a66262;
+  background-color: #42af7c;
 }
 #hubspot-messages-iframe-container iframe {
   top: 0 !important;
@@ -571,6 +571,24 @@ button.slick-next {
 
 .slick-slider.center.slick-initialized {
   margin: 0 13px;
+}
+
+button.slick-prev {
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 0 0 -20px;
+  padding: 6px;
+  box-shadow: 0 8px 24px hsla(210, 8%, 62%, 0.2);
+  top: 40%;
+}
+
+.slick-prev {
+  left: -26px !important;
 }
 
 @media (max-width: 1250px) {
