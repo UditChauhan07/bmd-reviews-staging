@@ -1,0 +1,162 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  width: 95%;
+  margin-bottom: 80px;
+}
+
+.subHeader {
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 48px;
+  line-height: 50px;
+  text-align: start;
+  color: #000;
+  font-weight: 500;
+}
+.underHeaderNote {
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: Gotham-Book, Arial, serif;
+  margin: 5px 0 0 0;
+}
+.mainaccorhead {
+  font-size: 18px;
+  /* margin: 4px 0 0 0; */
+  line-height: 24px;
+  color: #000;
+  text-align: start;
+  font-weight: 400;
+  font-family: var(--bmd-font-Secondary);
+}
+
+.parainner {
+  font-size: 14px;
+  line-height: 20px;
+  color: #676767;
+  text-align: start;
+  font-family: Gotham-Book, Arial, serif;
+  padding: 14px 0 0 0;
+  /* margin: 0 0 0 0; */
+}
+
+.twoCol {
+  display: flex;
+  gap: 30px;
+  /* margin-bottom: 100px; */
+  /* padding: 0 1rem; */
+}
+
+.FaqImage {
+  /* max-width: 424px; */
+  /* max-height: 695px; */
+}
+
+.FaqImage img {
+  /* width: 100%; */
+  border: 1px solid #eaeaea;
+}
+.accordionItem {
+  border-bottom: 1px solid #d9d9d9;
+  /* margin: 18px 0 18px 0; */
+  padding: 18px 0 18px 0;
+}
+
+.dGrid {
+  margin: auto;
+}
+
+.accordionItem.mainaccorhead .isExpanded {
+  color: #f46028 !important;
+  background-color: red;
+}
+
+@media screen and (max-width: 1380px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 95%;
+  }
+  .subHeader {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .mainaccorhead {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1024px; */
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accordion {
+    width: 90%;
+  }
+
+  .twoCol {
+    display: grid;
+    margin: auto;
+  }
+  .FaqImage {
+    max-height: 500px;
+  }
+
+  .FaqImage img {
+    max-height: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 768px; */
+    width: 95%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .subHeader {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .mainaccorhead {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .FaqImage {
+    /* max-width: 424px; */
+    /* max-height: 695px; */
+    margin: 80px 0 0 0;
+    display: none;
+  }
+
+  .FaqImage img {
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .parainner {
+    font-size: 12px;
+    padding: 8px 0 0 0;
+  }
+  .subHeader {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 321px) {
+}
+
+@media screen and (max-width: 800px) {
+}

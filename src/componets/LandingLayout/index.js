@@ -29,6 +29,7 @@ import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
 import HomeGallery from "@/utilities/HomeGallery";
 import RewardRemoveScript from "@/utilities/RewardScript";
 import FeatureInfo from "@/utilities/FeatureInfo";
+import LandingFaq from "@/utilities/LandingFaq";
 
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
@@ -222,6 +223,9 @@ const LandingPage = ({ version, script, page }) => {
                 invertDesign: false,
               }}
             />
+          )}
+          {pageData?.faq && (
+            <LandingFaq data={pageData?.faq} theme={pageData.theme} />
           )}
           {pageData?.FourStepProcess && (
             <FourStepProcess
