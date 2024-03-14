@@ -29,10 +29,8 @@ function LandingFaq({ data, theme }) {
             </div>
           </div>
           <div className={styles.wrapper}>
-            <h3 className={styles.subHeader}>Frequently Asked Questions</h3>
-            <p className={styles.underHeaderNote}>
-              Questions you might ask about our products and services.
-            </p>
+            <h3 className={styles.subHeader}>Domande frequenti</h3>
+            <p className={styles.underHeaderNote}></p>
             <Accordion>
               {data.details &&
                 data.details.map((faqItem, index) => (
