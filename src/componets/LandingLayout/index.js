@@ -224,9 +224,7 @@ const LandingPage = ({ version, script, page }) => {
               }}
             />
           )}
-          {pageData?.faq && (
-            <LandingFaq data={pageData?.faq} theme={pageData.theme} />
-          )}
+
           {pageData?.FourStepProcess && (
             <FourStepProcess
               processCards={pageData.FourStepProcess.items}
@@ -272,6 +270,10 @@ const LandingPage = ({ version, script, page }) => {
               data={pageData.ScienceVideos}
               theme={pageData.theme}
             />
+          )}
+
+          {pageData?.faq && (
+            <LandingFaq data={pageData?.faq} theme={pageData.theme} />
           )}
           {script && (
             <>
