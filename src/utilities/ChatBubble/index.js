@@ -7,7 +7,7 @@ const RECYCLEChatBubble = () => {
       id="hs-script-loader"
       async
       defer
-      src="//js-na1.hs-scripts.com/19647191.js"
+      src="//js.hs-scripts.com/19647191.js"
       strategy={"lazyOnload"}
     />
   );
