@@ -378,8 +378,11 @@
     padding: 10px;
   }
   .modalImgHolder {
-    width: 100%;
+    /* width: 100%;
+    height: auto; */
+    width: 150px;
     height: auto;
+    margin-right: 200px;
   }
   .modalCardContainerV2 {
     max-height: 380px;
