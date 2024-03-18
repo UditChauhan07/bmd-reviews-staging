@@ -255,7 +255,7 @@
   width: 200px;
   height: 200px;
   margin-right: 10px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 15px;
   float: left;
   box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 0.25);
@@ -377,9 +377,17 @@
     max-height: 400px;
     padding: 10px;
   }
+  .modalCardImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
   .modalImgHolder {
     width: 100%;
     height: auto;
+    border: none;
+    text-align: center;
+    max-width: 150px;
   }
   .modalCardContainerV2 {
     max-height: 380px;

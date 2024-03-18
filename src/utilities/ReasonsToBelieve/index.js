@@ -212,13 +212,15 @@ const ReasonsToBelieve = ({
                 <ExitIcon />
               </button>
               <div className={styles.modalCardContainerV2}>
-                <img
-                  alt={modalTitle}
-                  className={styles.modalImgHolder}
-                  src={modalImg}
-                  width={200}
-                  height={200}
-                />
+                <div className={styles.modalCardImage}>
+                  <img
+                    alt={modalTitle}
+                    className={styles.modalImgHolder}
+                    src={modalImg}
+                    width={200}
+                    height={200}
+                  />
+                </div>
                 <div>
                   <h1 className={styles.title} style={{ color: theme }}>
                     {modalTitle}
