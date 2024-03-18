@@ -146,7 +146,7 @@
   }
 }
 @media screen and (max-width: 426px) {
-    .twoCol {
-        padding: 0 1rem;
-    }
+  .twoCol {
+    padding: 0 1rem;
+  }
 }
