@@ -11,6 +11,7 @@ import BenefitCards from "@/utilities/BenefitCards";
 import Tabs from "@/utilities/Tabs";
 import PageHead from "@/utilities/Head";
 import Loader2 from "@/utilities/Loader/index2";
+import StickyPriceBox from "@/utilities/StickyPriceBox";
 import ProductReviews from "@/utilities/ProductReviews";
 import Testimonial from "@/utilities/Testimonial";
 import FourStepProcess from "@/utilities/FourStepProcess";
@@ -147,6 +148,22 @@ const Product = ({ version, script }) => {
               freq: rechargeProduct?.subscription_preferences,
             },
             review,
+          }}
+          variantId={shopifyP.variants.edges[0].node?.id}
+        />
+      )}
+      {true && (
+        <StickyPriceBox
+          priceDescription={{
+            EXTERNALID,
+            STOREFRONTID,
+            SLUG,
+            price: shopifyP?.variants?.edges?.length
+              ? parseFloat(shopifyP.variants.edges[0].node?.price?.amount)
+              : 0,
+            theme,
+            priceBox,
+            freq: rechargeProduct?.subscription_preferences,
           }}
           variantId={shopifyP.variants.edges[0].node?.id}
         />

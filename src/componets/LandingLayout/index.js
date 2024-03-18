@@ -9,6 +9,7 @@ import Footer from "@/utilities/Footer/";
 import { NewsLetter } from "@/utilities/NewsLetter";
 import ProductReviews from "@/utilities/ProductReviews";
 import ImageAside from "@/utilities/Sections/ImageAside";
+import StickyPriceBox from "@/utilities/StickyPriceBox";
 import ModalBoxInner from "@/utilities/ModalBoxInner";
 import { useEffect, useRef, useState } from "react";
 import ProductArticleModal from "@/utilities/Sections/ProductArticleModal";
@@ -180,6 +181,20 @@ const LandingPage = ({ version, script, page }) => {
             </>
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
+          {pageData?.isSticky && (
+            <StickyPriceBox
+              priceDescription={{
+                EXTERNALID: pageData.externalId,
+                priceBox: pageData.ProductArticleModal.priceBox,
+                freq: rechargeProduct?.subscription_preferences,
+                theme: pageData.theme,
+                price: shopifyP?.variants?.edges?.length
+                  ? parseFloat(shopifyP.variants.edges[0].node?.price?.amount)
+                  : 0,
+              }}
+              variantId={pageData.variantId}
+            />
+          )}
           {pageData?.ImageAside && (
             <ImageAside
               content={pageData.ImageAside}

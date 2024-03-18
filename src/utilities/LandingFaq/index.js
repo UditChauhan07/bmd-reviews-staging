@@ -40,7 +40,7 @@ function LandingFaq({ data, theme }) {
                         <h2
                           className={styles.mainaccorhead}
                           style={{
-                            color: openIndex === index ? theme : "inherit",
+                            color: openIndex === index ? theme : " ",
                           }}
                         >
                           {faqItem.title}
