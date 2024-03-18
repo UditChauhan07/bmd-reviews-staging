@@ -191,6 +191,17 @@
 }
 
 @media (max-width: 1024.98px) {
+  .modalImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .modalImage img {
+    max-width: 100%;
+    /* width: 100%; */
+    margin: auto;
+  }
   .grid {
     display: block;
 
@@ -237,7 +248,7 @@
   }
 
   .modalImgHolder {
-    margin-right: 100px;
+    margin-right: 150px;
   }
 
   .CollaButton {

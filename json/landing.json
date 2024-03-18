@@ -9,6 +9,7 @@
             "Sconto del 20% su tutti ordini con acquisto periodico",
             "14 Giorni - Soddisfatti o Rimborsati"
     ],
+    "isSticky":true,
     "product": "Tendo",
     "variantId": "gid://shopify/ProductVariant/46920208318789",
     "externalId":"8615981285701",
@@ -552,6 +553,7 @@
             "Sconto del 20% su tutti ordini con acquisto periodico",
             "14 Giorni - Soddisfatti o Rimborsati"
     ],
+    "isSticky":true,
     "product": "Tendo",
     "variantId": "gid://shopify/ProductVariant/46920208318789",
     "externalId":"8615981285701",
