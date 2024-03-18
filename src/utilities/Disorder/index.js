@@ -56,7 +56,7 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
             </button>
             <div className={styles.modalCardContainerV2}>
               <div className={styles.OverflowDiv}>
-                <div>
+                <div className={styles.modalImage}>
                   <img
                     alt={content.popupTitle}
                     className={styles.modalImgHolder}
