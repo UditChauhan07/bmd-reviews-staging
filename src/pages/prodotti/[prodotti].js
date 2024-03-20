@@ -169,7 +169,11 @@ const Product = ({ version, script }) => {
         />
       )}
       {benefits && <BenefitCards data={benefits} productColorTheme={theme} />}
-      <Tabs data={details} productColorTheme={theme} />
+      <Tabs
+        data={details}
+        productColorTheme={theme}
+        productString={product.EXTERNALID}
+      />
       {fourStepProcess?.content && (
         <FourStepProcess
           processCards={fourStepProcess.content}
