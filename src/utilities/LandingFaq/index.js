@@ -25,7 +25,7 @@ function LandingFaq({ data, theme }) {
         <div className={styles.twoCol}>
           <div className={styles.dGrid}>
             <div className={styles.FaqImage}>
-              <img src="/images/landing/FAQimage.webp" alt="FAQ" />
+              {<img src={data.image} width="100%" alt="FAQ" />}
             </div>
           </div>
           <div className={styles.wrapper}>

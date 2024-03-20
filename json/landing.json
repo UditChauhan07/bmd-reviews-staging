@@ -2,7 +2,8 @@
   "tendo": {
     "seo": {
       "title": "Tendo | Bruno MD",
-      "description": "Tendo"
+      "description": "Tendo",
+      "image":"\\images\\tendoActive.webp"
     },
      "featureInfo": [
             "Spedizione gratuita con ordini superiori a €49.95",
@@ -497,6 +498,7 @@
    "faq":{
   "title": "FAQs",
   "id": "tendo",
+   "image":"/images/landing/FAQimage.webp",
   "details": [
     {
       "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",
@@ -546,7 +548,8 @@
     "isFontLayout": true,
     "seo": {
       "title": "Tendo | Bruno MD",
-      "description": "Tendo"
+      "description": "Tendo",
+      "image":"\\images\\tendoActive.webp"
     },
      "featureInfo": [
             "Spedizione gratuita con ordini superiori a €49.95",
@@ -1041,6 +1044,7 @@
   "faq":{
   "title": "FAQs",
   "id": "tendo",
+  "image":"/images/landing/FAQimage.webp",
   "details": [
     {
       "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",
