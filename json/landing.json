@@ -2,7 +2,8 @@
   "tendo": {
     "seo": {
       "title": "Tendo | Bruno MD",
-      "description": "Tendo"
+      "description": "Tendo",
+      "image":"\\images\\tendoActive.webp"
     },
      "featureInfo": [
             "Spedizione gratuita con ordini superiori a €49.95",
@@ -547,7 +548,8 @@
     "isFontLayout": true,
     "seo": {
       "title": "Tendo | Bruno MD",
-      "description": "Tendo"
+      "description": "Tendo",
+      "image":"\\images\\tendoActive.webp"
     },
      "featureInfo": [
             "Spedizione gratuita con ordini superiori a €49.95",
