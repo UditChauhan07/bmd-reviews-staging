@@ -260,9 +260,9 @@ ol {
   display: none;
 }
 .xyz {
-  display: none;
-  color: #8c3535;
-  background-color: #20e689;
+  display: block;
+  color: #cf2a2a;
+  background-color: #49af7c;
 }
 #hubspot-messages-iframe-container iframe {
   top: 0 !important;

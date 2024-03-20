@@ -393,6 +393,11 @@
   .modalCardContainerV2 {
     max-height: 380px;
   }
+
+  .imgHolder {
+    width: 100px;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 426px) {
   .v2Container {
