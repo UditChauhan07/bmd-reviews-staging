@@ -31,6 +31,8 @@ import HomeGallery from "@/utilities/HomeGallery";
 import RewardRemoveScript from "@/utilities/RewardScript";
 import FeatureInfo from "@/utilities/FeatureInfo";
 import LandingFaq from "@/utilities/LandingFaq";
+import ProductsBlogData from "../../../json/productBlog.json";
+import LandingBlog from "@/utilities/LandingBlog";
 
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
@@ -118,6 +120,7 @@ const LandingPage = ({ version, script, page }) => {
   }, []);
 
   const pageData = landingData[page] || {};
+  let BlogData = ProductsBlogData[pageData.externalId] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
   if (!shopifyP)
     return (
@@ -308,6 +311,14 @@ const LandingPage = ({ version, script, page }) => {
                   </div>
                 )}
               </>
+              {BlogData?.Blog && (
+                <LandingBlog
+                  data={BlogData.Blog}
+                  theme={pageData.theme}
+                  productString={pageData.externalId}
+                  isLanding={BlogData.is_landing}
+                />
+              )}
               {!pageData?.reviewHide && pageData?.externalId && (
                 <ProductReviews variantId={pageData.externalId} />
               )}

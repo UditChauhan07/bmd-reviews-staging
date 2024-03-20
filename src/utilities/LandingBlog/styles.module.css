@@ -1,0 +1,138 @@
+.reasonsContainerV2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  grid-template-rows: repeat(auto-fill, 75%);
+}
+
+.v2 {
+  margin: 25px auto;
+  max-width: 1200px;
+}
+
+.v2Container {
+  /* display: grid; */
+  max-width: 1200px;
+  /* grid-template-rows: repeat(auto-fill, 50%); */
+  /* grid-template-columns: repeat(auto-fill, 50%); */
+  margin: 20px auto;
+}
+
+.title {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.reasonsHeader {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 52px;
+  color: #000000;
+}
+
+.v2ContainerSubtitle {
+  text-transform: uppercase;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0 5px;
+}
+
+.MarginAuto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 1000px) {
+  .reasonsContainer {
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .v2Container,
+  .v2 {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .v2Container,
+  .v2 {
+    max-width: 1024px;
+  }
+  .modalCardContainerV2 {
+    overflow: scroll;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .v2Container,
+  .v2 {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .reasonsContainer {
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 90%;
+    flex-direction: column;
+  }
+  .modalContainer1 {
+    max-height: 300px;
+  }
+  .modalCardContainerV2 {
+    overflow: scroll;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .v2Container {
+    grid-template-columns: repeat(auto-fill, 90%);
+  }
+}
+@media screen and (max-width: 769px) {
+  .reasonsHeader {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .v2,
+  .v2Container {
+    margin-left: 5%;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .desc {
+    margin: 0;
+    font-size: 14px;
+  }
+  .readMore {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .ing {
+    width: 100%;
+  }
+  .cardContainer .expanded {
+    height: 65px;
+    width: 90%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .v2Container {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+  .cardContainer {
+    margin: 10px 0;
+  }
+}

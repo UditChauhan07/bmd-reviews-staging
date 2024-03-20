@@ -1,0 +1,46 @@
+{
+    "8615981285701": {
+        "EXTERNALID": "8615981285701",
+        "SLUG": "tendo",
+        "title": "tendo",
+        "is_landing":true,
+        "Blog":    {
+                "title": "Blog",
+                "blog": true,
+                "details": [
+                    {
+                        "title": "PROBLEMI E SINTOMI",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-01.png",
+                                "title": "Tendinite: cause e fattori di rischio",
+                                "link": "https://blog.brunomd.eu/tendinite-cause-e-fattori-di-rischio/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "INGREDIENTI E BENEFICI",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-02.png",
+                                "title": "Tendini e legamenti: amici superorganizzati, ricchi di collagene",
+                                "link": "https://blog.brunomd.eu/tendini-e-legamenti-amici-superorganizzati-ricchi-di-collagene/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Stile di Vita",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-03.png",
+                                "title": "Tendinite: quali benefici dagli integratori alimentari?",
+                                "link": "https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/"
+                            }
+                        ]
+                    }
+                ]
+            }
+          
+        
+    }
+}
