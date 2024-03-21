@@ -8,7 +8,7 @@ export const HomeGallery = ({
   title,
   content,
   productid = null,
-  theme=null
+  theme = null,
 }) => {
   useEffect(() => {
     if (id) {
@@ -34,11 +34,21 @@ export const HomeGallery = ({
               <>
                 <span dangerouslySetInnerHTML={{ __html: content.desc }} />
                 <br />
-                <strong className={styles.strong} style={theme?{color:theme}:{}}>{content.title} </strong>
+                <span
+                  className={styles.strong}
+                  style={theme ? { color: theme } : {}}
+                >
+                  {content.title}{" "}
+                </span>
               </>
             ) : (
               <>
-                <strong className={styles.strong} style={theme?{color:theme}:{}}>{content.title} </strong>
+                <strong
+                  className={styles.strong}
+                  style={theme ? { color: theme } : {}}
+                >
+                  {content.title}{" "}
+                </strong>
                 <span dangerouslySetInnerHTML={{ __html: content.desc }} />
               </>
             )}
