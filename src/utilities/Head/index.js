@@ -10,16 +10,16 @@ function PageHead({ content }) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <title>{content?.title}</title>
       <meta name="description" content={content?.description} />
-      <meta
+      {/* <meta
         property="og:image"
         content={
           content.image
             ? content.image
             : "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp?v=1695029992"
         }
-      />
+      /> */}
 
-      <meta property="og:image:type" content="image/webp" />
+      {/* <meta property="og:image:type" content="image/webp" /> */}
     </Head>
   );
 }
