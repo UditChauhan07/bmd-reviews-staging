@@ -8,18 +8,18 @@ function PageHead({ content }) {
       <meta name="viewport" content="width=device-width,initial-scale=1" />
       <meta name="theme-color" content="#000000" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <title>{content?.title}</title>
-      <meta name="description" content={content?.description} />
-      {/* <meta
+      <meta
         property="og:image"
         content={
           content.image
             ? content.image
-            : "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp?v=1695029992"
+            : "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp"
         }
-      /> */}
-
-      {/* <meta property="og:image:type" content="image/webp" /> */}
+      />
+      <title>{content?.title}</title>
+      <meta name="description" content={content?.description} />
+      
+      
     </Head>
   );
 }
