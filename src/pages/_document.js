@@ -11,9 +11,9 @@ export default function Document() {
           content="Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro."
         />
         <script>
-        const currentPageLink = window.location.href;
-        const currentPagePath = window.location.pathname
-        console.log(currentPageLink, currentPagePath);
+        var currentPageLink = window.location.href;
+        var currentPagePath = window.location.pathname
+        console.log("Currentpage", currentPageLink, currentPagePath);
        
         </script>
         <meta
