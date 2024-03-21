@@ -18,6 +18,8 @@ function PageHead({ content }) {
             : "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp?v=1695029992"
         }
       />
+
+      <meta property="og:image:type" content="image/webp" />
     </Head>
   );
 }
