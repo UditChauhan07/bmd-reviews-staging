@@ -290,38 +290,42 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
+          {BlogData?.Blog && (
+            <LandingBlog
+              data={BlogData.Blog}
+              theme={pageData.theme}
+              productString={pageData.externalId}
+              isLanding={BlogData.is_landing}
+            />
+          )}
+          {script && (
+            <>
+              {!pageData?.reviewHide && pageData?.externalId && (
+                <ProductReviews variantId={pageData.externalId} />
+              )}
+            </>
+          )}
+
           {pageData?.faq && (
             <LandingFaq data={pageData?.faq} theme={pageData.theme} />
           )}
           {script && (
             <>
-              <>
-                {pageData?.homeGallery && (
-                  <div ref={VideoRef} id="homeGallerySection">
-                    <HomeGallery
-                      id={pageData.homeGallery.id}
-                      galleryId={pageData.homeGallery.galleryId}
-                      theme={pageData.theme}
-                      content={{
-                        title: pageData.homeGallery.title,
-                        desc: pageData.homeGallery.subTitle,
-                        invert: pageData.homeGallery.invert,
-                      }}
-                    />
-                  </div>
-                )}
-              </>
-              {BlogData?.Blog && (
-                <LandingBlog
-                  data={BlogData.Blog}
-                  theme={pageData.theme}
-                  productString={pageData.externalId}
-                  isLanding={BlogData.is_landing}
-                />
+              {pageData?.homeGallery && (
+                <div ref={VideoRef} id="homeGallerySection">
+                  <HomeGallery
+                    id={pageData.homeGallery.id}
+                    galleryId={pageData.homeGallery.galleryId}
+                    theme={pageData.theme}
+                    content={{
+                      title: pageData.homeGallery.title,
+                      desc: pageData.homeGallery.subTitle,
+                      invert: pageData.homeGallery.invert,
+                    }}
+                  />
+                </div>
               )}
-              {!pageData?.reviewHide && pageData?.externalId && (
-                <ProductReviews variantId={pageData.externalId} />
-              )}
+
               <div>
                 {pageData?.NewsLetter && (
                   <NewsLetter content={pageData.NewsLetter} />
