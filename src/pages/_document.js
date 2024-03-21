@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { useRouter } from "next/navigation";
+
 export default function Document() {
   let script = true;
   return (
@@ -10,12 +11,6 @@ export default function Document() {
           name="description"
           content="Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro."
         />
-        <script>
-        var currentPageLink = window.location.href;
-        var currentPagePath = window.location.pathname
-        console.log("Currentpage", currentPageLink, currentPagePath);
-       
-        </script>
         <meta
           property="og:image"
           content="https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp"
