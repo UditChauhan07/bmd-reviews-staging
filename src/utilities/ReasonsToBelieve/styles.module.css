@@ -17,7 +17,7 @@
 }
 .v2 {
   margin: 25px auto;
-  max-width: 1200px;
+  max-width: 1380px;
 }
 .accordionButton {
   padding: 0.5rem 0rem;
@@ -209,7 +209,7 @@
 
 .v2Container {
   display: grid;
-  max-width: 1200px;
+  max-width: 1380px;
   /* grid-template-rows: repeat(auto-fill, 50%); */
   grid-template-columns: repeat(auto-fill, 50%);
   margin: 20px auto;

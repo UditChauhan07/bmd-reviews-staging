@@ -130,6 +130,9 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .dGrid {
+    width: unset;
+  }
   .subHeader {
     font-size: 30px;
     line-height: 40px;
