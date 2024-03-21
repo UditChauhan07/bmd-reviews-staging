@@ -2,11 +2,11 @@ import { Html, Head, Main, NextScript } from "next/document";
 import { useRouter } from "next/navigation";
 
 export default function Document() {
-  let script = true;
+  let script = true; 
   return (
     <Html lang="en">
       <Head>
-        <title>BrunoMD | Prodotti per la Salute e il Benessere</title>
+        {/* <title>BrunoMD | Prodotti per la Salute e il Benessere</title>
         <meta
           name="description"
           content="Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro."
@@ -22,7 +22,9 @@ export default function Document() {
           href="https://cdn.shopify.com/s/files/1/0674/0518/5339/files/ivypresto.css?v=1695031279"
           as="style"
           onload="this.onload=null;this.rel='stylesheet'"
-        />
+        /> */}
+
+        
         {script && (
           <script
             dangerouslySetInnerHTML={{
