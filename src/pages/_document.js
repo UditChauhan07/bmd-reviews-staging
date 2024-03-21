@@ -13,7 +13,7 @@ export default function Document() {
         <script>
         const currentPageLink = window.location.href;
         const currentPagePath = window.location.pathname
-        console.log(currentPageLink);
+        console.log(currentPageLink, currentPagePath);
        
         </script>
         <meta
