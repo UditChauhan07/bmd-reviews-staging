@@ -47,12 +47,13 @@
 }
 
 .FaqImage {
-  /* max-width: 424px; */
-  /* max-height: 695px; */
+  max-width: 424px;
+  max-height: 695px;
+  margin: auto;
 }
 
 .FaqImage img {
-  /* width: 100%; */
+  width: 100%;
   border: 1px solid #eaeaea;
 }
 .accordionItem {
@@ -132,7 +133,8 @@
 }
 @media screen and (max-width: 769px) {
   .dGrid {
-    width: unset;
+    width: 95%;
+    margin: auto;
   }
   .subHeader {
     font-size: 30px;
@@ -150,15 +152,13 @@
     /* display: none; */
   }
 
-  .FaqImage img {
-    max-height: 400px;
-  }
   .container {
     margin-top: 10px;
   }
   .wrapper {
-    width: 90%;
-    margin-left: 20px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 426px) {
