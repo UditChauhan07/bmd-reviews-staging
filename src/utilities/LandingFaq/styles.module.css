@@ -46,12 +46,13 @@
 }
 
 .FaqImage {
-  /* max-width: 424px; */
-  /* max-height: 695px; */
+  max-width: 424px;
+  max-height: 695px;
+  margin: auto;
 }
 
 .FaqImage img {
-  /* width: 100%; */
+  width: 100%;
   border: 1px solid #eaeaea;
 }
 .accordionItem {
