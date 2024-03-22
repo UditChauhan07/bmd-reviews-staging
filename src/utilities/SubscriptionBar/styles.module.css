@@ -1,192 +1,300 @@
 .SubscriptionBar {
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100vw;
-    bottom: 0px;
-    height: auto;
-    z-index: 111;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  height: auto;
+  z-index: 111;
 }
 
 .SubscriptoionInner {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 .container {
-    width: 100vw;
-    max-width: 1380px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
+  width: 100vw;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .colxl7 {
-    flex: 1 0 50%;
+  flex: 1 0 50%;
 }
 
 .colxl5 {
-    flex: 1 0 40%;
+  flex: 1 0 40%;
 }
 .firstLineHeader {
-    color: #ffbf3c;
-    font-size: 15px;
-    margin-bottom: 0;
-    letter-spacing: 0.5px;
+  color: #ffbf3c;
+  font-size: 15px;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
 }
-.themedTextWhite{
-    color: #fff;
-    font-family: var(--bmd-font-Secondary);
+.themedTextWhite {
+  color: #fff;
+  font-family: var(--bmd-font-Secondary);
 }
 
 .secondLineHeader {
-    color: #fff;
-    font-size: 12px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    letter-spacing: 0.5px;
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
 }
 
 .SubOneTime {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .button01 {
-    background: #000;
-    color: #ffbf3c;
-    border: 1px solid #ffbf3c;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 8px;
-    cursor: pointer;
+  background: #000;
+  color: #ffbf3c;
+  border: 1px solid #ffbf3c;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  cursor: pointer;
 }
 
 .button02 {
-    cursor: pointer;
-    background: #ffbf3c;
-    color: #000;
-    border: 1px solid #ffbf3c;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 8px;
+  cursor: pointer;
+  background: #ffbf3c;
+  color: #000;
+  border: 1px solid #ffbf3c;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
 }
 
 .button03 {
-    cursor: pointer;
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 8px;
-    font-family: var(--bmd-font-Secondary);
-    color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+  color: #fff;
 }
 
-
 .button04 {
-    cursor: pointer;
-    background: #fff;
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 8px;
-    font-family: var(--bmd-font-Secondary);
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
 }
 
 .button02 .priceCross {
-    color: #000;
+  color: #000;
 }
 
 .button03 .priceCross {
-    color: #fff;
-    font-weight: bold;
+  color: #fff;
+  font-weight: bold;
 }
 .button04 .priceCross {
-    font-weight: bold;
-    color: #000;
+  font-weight: bold;
+  color: #000;
 }
 .priceCross {
-    color: #ffbf3c;
-    font-size: 22px;
+  color: #ffbf3c;
+  font-size: 22px;
 }
 
 .btnText {
-    font-size: 12px;
-    line-height: 16px;
-    padding-left: 0.5rem;
-    text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 0.5rem;
+  text-transform: uppercase;
 }
+
+.arrowBox {
+  /* background-color: #fff; */
+  margin: -32px 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+}
+
+.arrowBox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.arrowBox::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000000;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.arrowBox::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: "";
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 10s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrowcontrol {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  place-content: center;
+}
+.hidden {
+  display: none;
+}
+
 @media (max-width: 1400px) {
-    .container{
-        max-width: 99%;
-        width: 100%;
-    }
+  .container {
+    max-width: 99%;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 775px) {
-    .colxl7{
-        text-align: center;
-        margin: 0 5px;
-    }
-    .firstLineHeader{
-        font-size: 14px;
-    }
+  .SubscriptoionInner {
+    padding: 5px 0;
+  }
+  .arrowcontrol {
+    display: block;
+  }
+  .colxl7 {
+    text-align: center;
+    margin: 0 5px;
+  }
+  .firstLineHeader {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 426px) {
-    .secondLineHeader{
-        font-size: 11px;
-    }
-    .firstLineHeader{
-        font-size: 12px;
-    }
+  .secondLineHeader {
+    font-size: 11px;
+  }
+  .firstLineHeader {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 420px) {
-    .secondLineHeader,.firstLineHeader{
-        width: 90%;
-        margin: auto;
-    }
-    .button03,.button04{
-        padding: 5px 18px;
-        margin: 0 5px;
-    }
+  .secondLineHeader,
+  .firstLineHeader {
+    width: 90%;
+    margin: auto;
+  }
+  .button03,
+  .button04 {
+    padding: 5px 18px;
+    margin: 0 5px;
+  }
 }
 @media screen and (max-width: 376px) {
-    .secondLineHeader,.firstLineHeader{
-        font-size: 10px;
-        line-height: 16px;
-        /* padding: 0 25px; */
-    }
-    .button02,.button01,.button03,.button04{
-        padding: 10px 15px;
-    }
+  .secondLineHeader,
+  .firstLineHeader {
+    font-size: 10px;
+    line-height: 16px;
+    /* padding: 0 25px; */
+  }
+  .button02,
+  .button01,
+  .button03,
+  .button04 {
+    padding: 10px 15px;
+  }
 }
 @media screen and (max-width: 335px) {
-    .button02,.button01{
-        padding: 10px;
-    }
-    .button03,.button04{
-        margin: 0 2px;
-        padding: 5px;
-    }
+  .button02,
+  .button01 {
+    padding: 10px;
+  }
+  .button03,
+  .button04 {
+    margin: 0 2px;
+    padding: 5px;
+  }
 }
