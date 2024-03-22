@@ -349,6 +349,7 @@ const LandingPage = ({ version, script, page }) => {
               ModalHandler={ModalHandler}
               active={clickedType}
               themed={pageData.theme}
+              themedb={pageData.theme2}
             />
           )}
         </>

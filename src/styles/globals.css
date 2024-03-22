@@ -261,8 +261,8 @@ ol {
 }
 .xyz {
   display: block;
-  color: #d72525;
-  background-color: #49af7c;
+  color: hsl(0, 36%, 60%);
+  background-color: #2fc379;
 }
 #hubspot-messages-iframe-container iframe {
   top: 0 !important;

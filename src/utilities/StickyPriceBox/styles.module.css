@@ -64,7 +64,7 @@
   }
   .stickyModalConatinerArrow {
     position: absolute;
-    right:-7%;
+    right: -7%;
     top: 50%;
     transform: rotate(-90deg);
     z-index: 11;
@@ -75,41 +75,43 @@
     }
   }
 }
+
 @media screen and (max-width: 1025px) {
-  .stickyModalConatiner{
+  .stickyModalConatiner {
     right: 10%;
   }
 }
 @media screen and (max-width: 769px) {
-  .btnStickyContainer{
+  .btnStickyContainer {
     width: 50px;
     height: 275px;
     z-index: 1111;
+    display: none;
   }
-  .stickyModalConatiner{
+  .stickyModalConatiner {
     right: 13%;
   }
   .btnStickyTitle {
-  font-size: 18px;
+    font-size: 18px;
   }
-  .titlePrice{
+  .titlePrice {
     font-size: 9px;
   }
-  .priceFirstIndex{
+  .priceFirstIndex {
     font-size: 18px;
   }
   @media screen and (max-width: 426px) {
-    .stickyModalConatiner{
+    .stickyModalConatiner {
       right: 18%;
     }
   }
   @media screen and (max-width: 376px) {
-    .stickyModalConatiner{
+    .stickyModalConatiner {
       right: 10%;
     }
   }
   @media screen and (max-width: 400px) {
-    .stickyModalConatiner{
+    .stickyModalConatiner {
       right: 20%;
       width: 80%;
     }

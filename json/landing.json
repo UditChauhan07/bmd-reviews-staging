@@ -3,7 +3,7 @@
     "seo": {
       "title": "Tendo | Bruno MD",
       "description": "Tendo",
-      "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015"
+      "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp"
     },
      "featureInfo": [
             "Spedizione gratuita con ordini superiori a €49.95",
@@ -74,10 +74,7 @@
         "oneTime": {
             "title": "Acquisto singolo",
             "btnText": "Aggiungi al carrello",
-            "accordanTitle":"Dettagli",
-            "themeColor":true,
-            "accordanBody":"Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>"
-        },
+            "themeColor":true        },
         "subscribe": {
             "title": "Acquisto periodico",
             "btnText": "Acquisto periodico",
@@ -244,8 +241,8 @@
           }
         },
         {
-          "note": "La CONTROITINA SOLFATO",
-          "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: La condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: La condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
+          "note": "La CONDROITINA SOLFATO",
+          "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: la condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: la condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
           "image":{
             "src":"\\images\\Tendoactive-Icon-v1-Running-Chondroitin.png",
             "alt":"..."
@@ -562,6 +559,7 @@
     "externalId":"8615981285701",
     "isPriceBoxModal":true,
     "theme": "#0033A1",
+    "theme2":"#D7E4FF",
     "checkout":true,
     "announcement": {
       "title1": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
@@ -620,10 +618,8 @@
         "oneTime": {
             "title": "Acquisto singolo",
             "btnText": "Aggiungi al carrello",
-            "accordanTitle":"Dettagli",
-            "themeColor":true,
-            "accordanBody":"Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi</li></ul>"
-        },
+            "themeColor":true       
+           },
         "subscribe": {
             "title": "Acquisto periodico",
             "btnText": "Acquisto periodico",
@@ -790,8 +786,8 @@
           }
         },
         {
-          "note": "La CONTROITINA SOLFATO",
-          "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: La condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: La condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
+          "note": "La CONDROITINA SOLFATO",
+           "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: la condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: la condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
           "image":{
             "src":"\\images\\Tendoactive-Icon-v1-Running-Chondroitin.png",
             "alt":"..."

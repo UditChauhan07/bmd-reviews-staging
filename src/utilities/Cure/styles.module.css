@@ -201,4 +201,8 @@
   .CollagenButton {
     width: 300px;
   }
+
+  .CollagenText p {
+    padding: 0 20px;
+  }
 }

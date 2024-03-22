@@ -11,11 +11,11 @@ export default function Document() {
           name="description"
           content="Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro."
         />
-        {/* <meta
+        <meta
           property="og:image"
-          content="https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp?v=1695029992"
-        /> */}
-        <meta property="og:image:type" content="image/png" />
+          content="https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp"
+        />
+        <meta property="og:image:type" content="image/webp" />
         <link rel="shortcut icon" href="/favicon-black.png" />
         <link
           rel="stylesheet"
