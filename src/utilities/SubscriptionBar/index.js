@@ -1,31 +1,31 @@
 import React, { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 const SubscriptionBar = ({ content, ModalHandler, active, themed = false }) => {
-  if (themed) {
-    const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
+  // Function to toggle visibility
+  const toggleVisibility = () => {
+    setIsVisible((prevState) => !prevState);
+  };
 
-    // Function to toggle visibility
-    const toggleVisibility = () => {
-      setIsVisible((prevState) => !prevState);
+  // Effect to handle visibility based on screen width
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 767) {
+        setIsVisible(false); // Show the component if screen width is less than or equal to 767px
+      } else {
+        setIsVisible(true); // Hide the component if screen width is greater than 767px
+      }
     };
 
-    // Effect to handle visibility based on screen width
-    useEffect(() => {
-      const handleResize = () => {
-        if (window.innerWidth <= 767) {
-          setIsVisible(false); // Show the component if screen width is less than or equal to 767px
-        } else {
-          setIsVisible(true); // Hide the component if screen width is greater than 767px
-        }
-      };
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
-      handleResize();
-      window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }, []);
+  if (themed) {
     return (
       <section
         className={styles.SubscriptionBar}
