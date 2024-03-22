@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from "react";
 import styles from "./styles.module.css";
-const SubscriptionBar = ({ content, ModalHandler, active, themed = false }) => {
+const SubscriptionBar = ({
+  content,
+  ModalHandler,
+  active,
+  themed = false,
+  themedb = false,
+}) => {
   const [isVisible, setIsVisible] = useState(true);
+  const [arrowRotation, setArrowRotation] = useState(0);
   // Function to toggle visibility
   const toggleVisibility = () => {
     setIsVisible((prevState) => !prevState);
+    setArrowRotation((prevRotation) => (prevRotation === 0 ? 180 : 0));
   };
 
   // Effect to handle visibility based on screen width
@@ -34,7 +42,13 @@ const SubscriptionBar = ({ content, ModalHandler, active, themed = false }) => {
       >
         <div className={styles.SubscriptoionInner}>
           <div className={styles.arrowcontrol}>
-            <div className={styles.arrowBox} onClick={toggleVisibility}></div>
+            <div
+              className={`${styles.arrowBox} ${
+                isVisible ? styles.rotated : ""
+              }`}
+              style={{ background: themedb }}
+              onClick={toggleVisibility}
+            ></div>
           </div>
           <div className={styles.container}>
             <div className={styles.row}>
