@@ -241,7 +241,11 @@
   }
 }
 @media screen and (max-width: 775px) {
-  .SubscriptionBar {
+  /* .SubscriptionBar {
+    display: none;
+  } */
+  .secondLineHeader,
+  .firstLineHeader {
     display: none;
   }
   .rotated {
