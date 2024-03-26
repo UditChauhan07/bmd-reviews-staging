@@ -64,75 +64,128 @@ export const NewsLetter = ({ content }) => {
     );
   } else {
     if (content.layout == 2) {
-      return (
-        <section id="NewLetterSection">
-          <div className={!content?.alignWidth && styles.container}>
-            <div
-              className={styles.flex}
-              style={formWidth && { gridTemplateColumns: formWidth }}
-            >
-              {image && (
-                <div className={styles.imageContainerFlex}>
-                  <img
-                    className={styles.image}
-                    src={image}
-                    alt="..."
-                    width={"100%"}
-                    height={"auto"}
-                  />
-                </div>
-              )}
-              {image ? (
-                <div
-                  className={styles.flexContainer}
-                  style={{ position: "relative" }}
-                >
-                  <div className={styles.details}>
-                    <div
-                      className={styles.headingContainer}
-                      style={titleFont && { fontSize: titleFont }}
-                    >
-                      {title}
-                    </div>
-                    <div className={styles.formContainer}>
-                      <div id="hubspotForm">
-                        <div
-                          className="center-body"
-                          style={{ height: "200px" }}
-                        >
-                          <div className="loader-circle-2"></div>
-                        </div>{" "}
+      console.log("def");
+      if (isDesktop) {
+        return (
+          <section id="NewLetterSection">
+            <div className={!content?.alignWidth && styles.container}>
+              <div
+                className={styles.flex}
+                style={formWidth && { gridTemplateColumns: formWidth }}
+              >
+                {image && (
+                  <div className={styles.imageContainerFlex}>
+                    <img
+                      className={styles.image}
+                      src={image}
+                      alt="..."
+                      width={"100%"}
+                      height={"auto"}
+                    />
+                  </div>
+                )}
+                {image ? (
+                  <div
+                    className={styles.flexContainer}
+                    style={{ position: "relative" }}
+                  >
+                    <div className={styles.details}>
+                      <div
+                        className={styles.headingContainer}
+                        style={titleFont && { fontSize: titleFont }}
+                      >
+                        {title}
+                      </div>
+                      <div className={styles.formContainer}>
+                        <div id="hubspotForm">
+                          <div
+                            className="center-body"
+                            style={{ height: "200px" }}
+                          >
+                            <div className="loader-circle-2"></div>
+                          </div>{" "}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ) : (
-                <div>
-                  <div className={styles.details} style={{ position: "unset" }}>
+                ) : (
+                  <div>
                     <div
-                      className={styles.headingContainer}
-                      style={titleFont && { fontSize: titleFont }}
+                      className={styles.details}
+                      style={{ position: "unset" }}
                     >
-                      {title}
-                    </div>
-                    <div className={styles.formContainer}>
-                      <div id="hubspotForm">
-                        <div
-                          className="center-body"
-                          style={{ height: "200px" }}
-                        >
-                          <div className="loader-circle-2"></div>
-                        </div>{" "}
+                      <div
+                        className={styles.headingContainer}
+                        style={titleFont && { fontSize: titleFont }}
+                      >
+                        {title}
+                      </div>
+                      <div className={styles.formContainer}>
+                        <div id="hubspotForm">
+                          <div
+                            className="center-body"
+                            style={{ height: "200px" }}
+                          >
+                            <div className="loader-circle-2"></div>
+                          </div>{" "}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
-          </div>
-        </section>
-      );
+          </section>
+        );
+      } else {
+        console.log("hghghghg");
+        return (
+          <section id="NewLetterSection">
+            <div className={!content?.alignWidth && styles.container}>
+              <div
+                className={styles.flex}
+                style={formWidth && { gridTemplateColumns: formWidth }}
+              >
+                <div className={styles.formContainer}>
+                  {image && (
+                    <div className={styles.imageContainerFlex}>
+                      <img
+                        className={styles.image}
+                        src={image}
+                        alt="..."
+                        width={"100%"}
+                        height={"auto"}
+                      />
+                    </div>
+                  )}
+
+                  <div className={styles.details1}>
+                    <div
+                      className={styles.headingContainer}
+                      style={titleFont && { fontSize: titleFont }}
+                    >
+                      {title}
+                    </div>
+                    <div className={styles.formContainer}>
+                      <div id="hubspotForm">
+                        <div
+                          className="center-body"
+                          style={{ height: "200px" }}
+                        >
+                          <div className="loader-circle-2"></div>
+                        </div>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      }
     } else {
+      console.log("ghi");
+
       return (
         <section id="NewLetterSection">
           <div className={!content?.alignWidth && styles.container}>
