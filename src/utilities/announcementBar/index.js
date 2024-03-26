@@ -1,48 +1,64 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styles from './styles.module.css'
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./styles.module.css";
 
 const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
-  React.useEffect(()=>{
-    window.onscroll = function() {scrollFunction()};
+  React.useEffect(() => {
+    window.onscroll = function () {
+      scrollFunction();
+    };
     function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        if(document.getElementById("fixedAnnouncementBar")) document.getElementById("fixedAnnouncementBar").style.position = "fixed";
-        if(document.getElementById("fixedAnnouncementBar")){ 
-            document.getElementById("fixedAnnouncementBar").style.top = "0";
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      ) {
+        if (document.getElementById("fixedAnnouncementBar"))
+          document.getElementById("fixedAnnouncementBar").style.position =
+            "fixed";
+        if (document.getElementById("fixedAnnouncementBar")) {
+          document.getElementById("fixedAnnouncementBar").style.top = "0";
         }
       } else {
-        if(document.getElementById("fixedAnnouncementBar")) document.getElementById("fixedAnnouncementBar").style.position = "unset";
+        if (document.getElementById("fixedAnnouncementBar"))
+          document.getElementById("fixedAnnouncementBar").style.position =
+            "unset";
       }
     }
-},[])
+  }, []);
   if (ModalHandler) {
     return (
       <section
         className={styles.announcementBar}
-        id='fixedAnnouncementBar'
+        id="fixedAnnouncementBar"
         style={{
           color: theme?.textColor,
-          backgroundColor: theme?.backgroundColor
+          backgroundColor: theme?.backgroundColor,
         }}
         onClick={ModalHandler}
       >
-        <div dangerouslySetInnerHTML={{__html:announcement}}/>
+        {/* <div dangerouslySetInnerHTML={{__html:announcement}}/> */}
+        <marquee
+          behavior="scroll"
+          scrollamount="10"
+          dangerouslySetInnerHTML={{ __html: announcement }}
+        ></marquee>
       </section>
-    )
+    );
   } else {
     return (
       <section
-        className={position ? styles.fixedAnnouncementBar : styles.announcementBar}
+        className={
+          position ? styles.fixedAnnouncementBar : styles.announcementBar
+        }
         style={{
           color: theme?.textColor,
-          backgroundColor: theme?.backgroundColor
+          backgroundColor: theme?.backgroundColor,
         }}
       >
-        <div dangerouslySetInnerHTML={{__html:announcement}}/>
+        <div dangerouslySetInnerHTML={{ __html: announcement }} />
       </section>
-    )
+    );
   }
-}
+};
 
-export default AnnouncementBar
+export default AnnouncementBar;

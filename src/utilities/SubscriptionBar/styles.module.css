@@ -241,7 +241,11 @@
   }
 }
 @media screen and (max-width: 775px) {
-  .SubscriptionBar {
+  /* .SubscriptionBar {
+    display: none;
+  } */
+  .secondLineHeader,
+  .firstLineHeader {
     display: none;
   }
   .rotated {
@@ -249,8 +253,11 @@
     transition: 0.5s;
   }
   .SubscriptoionInner {
-    padding: 27px 0 15px 0;
+    padding: 15px 0 15px 0;
     transition: 0.5s;
+  }
+  .SubOneTime {
+    padding-top: 0;
   }
   .arrowcontrol {
     display: block;
