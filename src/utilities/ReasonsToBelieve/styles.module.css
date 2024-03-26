@@ -399,6 +399,12 @@
   }
 }
 @media screen and (max-width: 426px) {
+  .modalContainer1 {
+    top: 55%;
+    height: 75%;
+    max-height: 400px;
+    padding: 10px;
+  }
   .v2Container {
     margin-left: 0;
     padding-left: 1rem;
