@@ -100,6 +100,16 @@
   bottom: 50px;
   background: #eeeeee;
 }
+
+.details1 {
+  /* display: grid;
+  grid-template-rows: auto 1fr; */
+  padding: 1rem;
+  /* position: relative; */
+  bottom: 50px;
+  background: #eeeeee;
+  margin-top: -10px;
+}
 .flexContainer {
   flex: 1 1 40%;
 }
