@@ -241,6 +241,9 @@
   }
 }
 @media screen and (max-width: 775px) {
+  .SubscriptionBar {
+    display: none;
+  }
   .rotated {
     transform: rotate(180deg);
     transition: 0.5s;
