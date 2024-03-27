@@ -8,7 +8,8 @@ function LandingBlog({ data, theme, isLanding = null }) {
       <div>
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`}>
           <h3 className={styles.reasonsHeader}>
-            Lively Health &<p style={{ color: theme }}>Wellness Hub</p>
+            Blog: rimedi e consigli su
+            <p style={{ color: theme }}>salute e benessere</p>
           </h3>
         </div>
         <div className={styles.v2Container}>
