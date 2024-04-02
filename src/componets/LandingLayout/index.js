@@ -168,6 +168,7 @@ const LandingPage = ({ version, script, page }) => {
                   isOpen={isOpen}
                   theme={pageData.theme}
                   ModalHandler={ModalHandler}
+                  clickedType={clickedType}
                 />
               ) : (
                 <ModalBoxInner
