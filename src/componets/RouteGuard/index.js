@@ -156,15 +156,14 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
-      "/tendo-V2",
     ];
     if (!publicPaths.length) {
-      // publicPaths = ["/404-page"];
+      //publicPaths = ["/404-page"];
     }
     if (publicPaths.includes(url)) {
       setAuthorized(true);
     } else {
-      // router.push("/404-page");
+      router.push("/404-page");
       setAuthorized(false);
     }
   }
