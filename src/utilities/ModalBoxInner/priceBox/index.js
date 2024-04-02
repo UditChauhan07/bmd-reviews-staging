@@ -11,10 +11,10 @@ const PriceBoxModal = ({
   clickedType,
   theme,
 }) => {
-    // temp.priceBox.isStockBack = false
-    // temp.priceBox.isStockTheme = true
-    // temp.priceBox.isPriceBoxTheme = true
-    // temp.priceBox.oneTime.accordanTitle = false
+  // temp.priceBox.isStockBack = false
+  // temp.priceBox.isStockTheme = true
+  // temp.priceBox.isPriceBoxTheme = true
+  // temp.priceBox.oneTime.accordanTitle = false
   return (
     <section id={priceBox.priceBox.modalPriceBoxContainerID}>
       {isOpen === true && (
@@ -46,11 +46,12 @@ const PriceBoxModal = ({
                   className={styles.imgHolder}
                 />
               </div>
-              <div
-                style={{color: theme}}
-                className={styles.flexBox2}
-              >
-                <PurchaseBox data={priceBox} variantId={variantId} />
+              <div style={{ color: theme }} className={styles.flexBox2}>
+                <PurchaseBox
+                  data={priceBox}
+                  variantId={variantId}
+                  ActiveBox={clickedType == "Onetime" ? 1 : 0}
+                />
               </div>
             </div>
           </div>
