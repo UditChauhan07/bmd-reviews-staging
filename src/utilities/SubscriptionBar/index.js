@@ -60,16 +60,21 @@ const SubscriptionBar = ({ content, ModalHandler, active, themed = false }) => {
                       active != "Subscribe" ? styles.button04 : styles.button03
                     }
                     onClick={ModalHandler}
+                    data-value="Onetime"
                   >
-                    <div>
-                      <p className={styles.priceCross}>
+                    <div data-value="Onetime">
+                      <p className={styles.priceCross} data-value="Onetime">
                         €{content.onetimeBox.price.toFixed(2)}
                       </p>
                     </div>
-                    <div className={styles.btnText}>
-                      <div>
+                    <div className={styles.btnText} data-value="Onetime">
+                      <div data-value="Onetime">
                         {content?.onetimeBox?.buttonText?.map((e, i) => {
-                          return <p key={i}>{e}</p>;
+                          return (
+                            <p key={i} data-value="Onetime">
+                              {e}
+                            </p>
+                          );
                         })}
                       </div>
                     </div>
@@ -122,16 +127,21 @@ const SubscriptionBar = ({ content, ModalHandler, active, themed = false }) => {
                       active != "Subscribe" ? styles.button02 : styles.button01
                     }
                     onClick={ModalHandler}
+                    data-value="Onetime"
                   >
-                    <div>
-                      <p className={styles.priceCross}>
+                    <div data-value="Onetime">
+                      <p className={styles.priceCross} data-value="Onetime">
                         €{content.onetimeBox.price.toFixed(2)}
                       </p>
                     </div>
-                    <div className={styles.btnText}>
-                      <div>
+                    <div className={styles.btnText} data-value="Onetime">
+                      <div data-value="Onetime">
                         {content?.onetimeBox?.buttonText?.map((e, i) => {
-                          return <p key={i}>{e}</p>;
+                          return (
+                            <p key={i} data-value="Onetime">
+                              {e}
+                            </p>
+                          );
                         })}
                       </div>
                     </div>
