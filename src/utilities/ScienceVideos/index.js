@@ -145,10 +145,10 @@ function ScienceVideos({ data, theme }) {
               </video>
               <h3 style={{ color: theme }}>{videos.title}</h3>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
-              {/* <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
+              {/* -<p onClick={() => handleClick1(videos)} style={{ color: theme }}>
                 Learn More
               </p> */}
-              <p style={{ color: theme }}>
+              <p style={{ color: theme, textDecoration: "underline" }}>
                 <Link href={videos.blog + "?l=2"}>Scopri di piu’</Link>
               </p>
             </div>
