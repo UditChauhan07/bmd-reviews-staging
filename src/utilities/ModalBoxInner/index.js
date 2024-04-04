@@ -10,7 +10,7 @@ const ModalBoxInner = ({
   clickedType,
   externalId,
   productVariantId,
-  themed=false
+  themed = false,
 }) => {
   const [type, setType] = useState(clickedType);
   const [quantity, setQuantity] = useState(1);
@@ -128,7 +128,7 @@ const ModalBoxInner = ({
             // let id = response?.data?.cartCreate?.cart?.id;
             // localStorage.setItem("e6S4JJM9G", id);
             // window.location.href = "/carrello";
-              window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}`;
+            window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}`;
           }
         }
       })
@@ -139,14 +139,21 @@ const ModalBoxInner = ({
   return (
     <section>
       {isOpen === true && (
-        <div className={styles.holder} style={themed?{background:themed}:{}}>
+        <div
+          className={styles.holder}
+          style={themed ? { background: themed } : {}}
+        >
           {isOpen && (
-            <div className={styles.exitButton} onClick={ModalHandler} style={themed?{border:'1px solid #fff'}:{}}>
+            <div
+              className={styles.exitButton}
+              onClick={ModalHandler}
+              style={themed ? { border: "1px solid #fff" } : {}}
+            >
               <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
                 <g fill="white" fill-rule="evenodd">
-                  <path fill={themed?'none':'#FFBF3C'} d="M0 0h40v40H0z" />
+                  <path fill={themed ? "none" : "#FFBF3C"} d="M0 0h40v40H0z" />
                   <path
-                    fill={themed?'#fff':'#00A0DD'}
+                    fill={themed ? "#fff" : "#00A0DD"}
                     fill-rule="nonzero"
                     d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
                   />
@@ -157,8 +164,25 @@ const ModalBoxInner = ({
           <div className={styles.conHolder}>
             <div className={styles.container}>
               <div className={styles.boxOne}>
-                <div style={themed?{fontFamily: 'var(--bmd-font-Secondary)',fontWeight:"bolder"}:{ color: "#ffbf3c" }}>{content.title1}</div>
-                <div style={themed?{fontFamily: 'var(--bmd-font-Secondary)'}:{}}>{content.title2}</div>
+                <div
+                  style={
+                    themed
+                      ? {
+                          fontFamily: "var(--bmd-font-Secondary)",
+                          fontWeight: "bolder",
+                        }
+                      : { color: "#ffbf3c" }
+                  }
+                >
+                  {content.title1}
+                </div>
+                <div
+                  style={
+                    themed ? { fontFamily: "var(--bmd-font-Secondary)" } : {}
+                  }
+                >
+                  {content.title2}
+                </div>
               </div>
               <div className={styles.boxHide}>
                 <img
@@ -179,11 +203,17 @@ const ModalBoxInner = ({
                   value={"Subscribe"}
                   checked={type == "Subscribe" ? true : false}
                 />
-                <label className={themed?styles.themeLabel:styles.label} for={"Subscribe"} style={themed && type == "Subscribe"?{color:themed}:{}}>
+                <label
+                  className={themed ? styles.themeLabel : styles.label}
+                  for={"Subscribe"}
+                  style={themed && type == "Subscribe" ? { color: themed } : {}}
+                >
                   <p>
-                  €{content.subscriptionBox.price.toFixed(2)}{" "}
+                    €{content.subscriptionBox.price.toFixed(2)}{" "}
                     {content?.price && (
-                     <span className={styles.strike}>€{content?.price.toFixed(2)}</span>
+                      <span className={styles.strike}>
+                        €{content?.price.toFixed(2)}
+                      </span>
                     )}
                   </p>
                   <p className={styles.ft12}>
@@ -201,12 +231,19 @@ const ModalBoxInner = ({
                   value={"Onetime"}
                   onClick={typeHandler}
                 />
-                <label className={themed?styles.themeLabel:styles.label} for={"Onetime"} style={type == "Onetime" &&themed?{color:themed}:{}}>
+                <label
+                  className={themed ? styles.themeLabel : styles.label}
+                  for={"Onetime"}
+                  style={type == "Onetime" && themed ? { color: themed } : {}}
+                >
                   <p>
-                  €{content.onetimeBox.price.toFixed(2)}{" "}
-                    {(content.onetimeBox.price != content?.price && content?.price) && (
-                      <span className={styles.strike}>€{content?.price.toFixed(2)}</span>
-                    )}
+                    €{content.onetimeBox.price.toFixed(2)}{" "}
+                    {content.onetimeBox.price != content?.price &&
+                      content?.price && (
+                        <span className={styles.strike}>
+                          €{content?.price.toFixed(2)}
+                        </span>
+                      )}
                   </p>
                   <p className={styles.ft12}>
                     {content.onetimeBox.modalBtnText}
@@ -225,7 +262,7 @@ const ModalBoxInner = ({
               <div
                 className={styles.boxFive}
                 dangerouslySetInnerHTML={{
-                  __html: content.subscriptionBox.desc,
+                  __html: type == "Onetime" ? "" : content.subscriptionBox.desc,
                 }}
               />
               <div
@@ -235,9 +272,7 @@ const ModalBoxInner = ({
               <div className={styles.boxSeven}>
                 {type == "Subscribe" ? (
                   <div className={styles.freqHolder}>
-                    <label className={styles.selectLabel}>
-                    Consegna ogni:
-                    </label>
+                    <label className={styles.selectLabel}>Consegna ogni:</label>
                     <select
                       className={styles.selectHolder}
                       onChange={(e) => setFreq(e.target.value)}
@@ -286,7 +321,13 @@ const ModalBoxInner = ({
                       </option>
                     ))}
                   </select>
-                  <p style={{ marginLeft: "3.5rem",marginTop:'2px',fontSize:'12px' }}>
+                  <p
+                    style={{
+                      marginLeft: "3.5rem",
+                      marginTop: "2px",
+                      fontSize: "12px",
+                    }}
+                  >
                     {quantity} scatola 20 sticks
                   </p>
                 </div>
@@ -295,16 +336,24 @@ const ModalBoxInner = ({
                 <div className={styles.mobHide}></div>
                 <div className={styles.btnContainer}>
                   <p
-                    className={themed ?styles.btnThemed :styles.btn}
-                    style={themed?{color:themed}:{}}
+                    className={themed ? styles.btnThemed : styles.btn}
+                    style={themed ? { color: themed } : {}}
                     onClick={() => {
-                        AddToCartHandler();
+                      AddToCartHandler();
                     }}
                   >
                     {cartLoad ? (
-                      <Spinner className={styles.spinner} size={20} theme={themed}/>
+                      <Spinner
+                        className={styles.spinner}
+                        size={20}
+                        theme={themed}
+                      />
                     ) : (
-                      <>{type == "Subscribe" ? "Acquisto periodico" : "Aggiungi al carrello"}</>
+                      <>
+                        {type == "Subscribe"
+                          ? "Acquisto periodico"
+                          : "Aggiungi al carrello"}
+                      </>
                     )}
                   </p>
                   {type == "Onetime" && content?.onetimeBox?.freeShip && (
