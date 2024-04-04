@@ -148,7 +148,7 @@ function ScienceVideos({ data, theme }) {
               {/* <p onClick={() => handleClick1(videos)} style={{ color: theme }}>
                 Learn More
               </p> */}
-              <p style={{ color: theme }}>
+              <p style={{ color: theme, textDecoration: "underline" }}>
                 <Link href={videos.blog + "?l=2"}>Scopri di piu’</Link>
               </p>
             </div>
