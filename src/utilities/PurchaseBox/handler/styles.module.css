@@ -120,4 +120,8 @@
   .accordionTitle {
     padding: 10px 10px 10px;
   }
+
+  .saveInfo {
+    margin-top: 10px !important;
+  }
 }
