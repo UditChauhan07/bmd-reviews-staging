@@ -74,5 +74,54 @@
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/BMD-Tendoactive_Plus-01.webp?v=1701699330",
             "description": "TendoActive Plus"
         }
+    }, 
+    "tutti": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Acquista Tutti i Prodotti | Bruno MD",
+            "description": "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Acquista i nostri peptidi di collagene reale e altro ancora."
+        }
+    },
+    "salute-della-pelle": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Prodotti per la Pelle| Bruno MD",
+            "description": "Migliora la salute della tua pelle per consistenza ed elasticità. Scopri i prodotti per la salute e il benessere radicati nel cuore dell'Italia da Bruno MD."
+        }
+    },
+    "occhi": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Occhi| Bruno MD",
+            "description": ""
+        }
+    },
+    "reverse-aging": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Prodotti per Reverse-aging | Bruno MD",
+            "description": ""
+        }    
+    },
+    "dolore": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Prodotti per il Dolore | Bruno MD",
+            "description": ""
+        }    
+    },
+    "pre-diabete": {
+        "seo": {
+        "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Prodotti per il Pre-diabete | Bruno MD",
+            "description": ""
+        }
+    },
+    "sali-minerali": {
+        "seo": {
+            "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp",
+            "title": "Sali Minerali | Bruno MD",
+            "description": ""
+        }
     }
 }
