@@ -3,7 +3,7 @@ import Layout from "@/componets/Layout";
 import { RouteGuard } from "@/componets/RouteGuard";
 import GeoRedirect from "@/utilities/GeoRedirect";
 import App from "next/app";
-import productMeta from "../../json/productMeta.json";
+import productMeta from "../../json/meta.json";
 import { useRouter } from "next/router";
 
 class MyApp extends App {
