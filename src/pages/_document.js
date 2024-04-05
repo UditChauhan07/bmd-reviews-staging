@@ -20,6 +20,14 @@ class MyDocument extends Document {
               : "BrunoMD | Prodotti per la Salute e il Benessere"}
           </title>
           <meta
+            name="title"
+            content={
+              customParams.title
+                ? customParams.title
+                : "BrunoMD | Prodotti per la Salute e il Benessere"
+            }
+          />
+          <meta
             name="description"
             content={
               customParams.description
