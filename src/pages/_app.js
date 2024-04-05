@@ -22,9 +22,9 @@ class MyApp extends App {
       let description =
         "Prodotti per la salute e il benessere radicati nel cuore dell'Italia, realizzati con ingredienti completamente naturali. Integratori di grado farmaceutico per alimentare il tuo futuro.";
       if (metaData) {
-        og_image = metaData?.seo?.image;
-        title = metaData?.seo?.title;
-        description = metaData?.seo?.description;
+        og_image = metaData?.meta?.image;
+        title = metaData?.meta?.title;
+        description = metaData?.meta?.description;
       }
       if (Component.getInitialProps) {
         pageProps = await Component.getInitialProps(ctx);

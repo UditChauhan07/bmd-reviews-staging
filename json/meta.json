@@ -1,111 +1,78 @@
 {
     "cronos-30-compresse-da-850mg": {
-        "EXTERNALID": "8097694581051",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
-        "SLUG": "cronos-30-compresse-da-850mg",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/07-BMD-Cronos-9O3A5820.webp?v=1696842003",
             "title": "CRONOS | Bruno MD",
             "description": "CRONOS è un integratore alimentare a base di Polidatina, Estratti di Mirtillo e Vitamine."
         }
     },
     "citrak-forte-4g-con-edulcoranti-30-bustine": {
-        "EXTERNALID": "8097707229499",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc3MDcyMjk0OTk=",
-        "SLUG": "citrak-forte-4g-con-edulcoranti-30-bustine",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/06-BMD-Citrack-Forte-9O3A5764.webp?v=1696841612",
             "title": "Citrak Forte | Bruno MD",
             "description": "Citrak Forte è un integratore alimentare di potassio indicato nei casi di ridotto apporto con la dieta o nei casi di aumentato fabbisogno fisiologico."
         }
     },
     "drop-therapeutic-gocce-oculari-lubrificanti-10ml": {
-        "EXTERNALID": "8097677934907",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2Nzc5MzQ5MDc=",
-        "SLUG": "drop-therapeutic-gocce-oculari-lubrificanti-10ml",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/BMD-Drop-Therapeutic-9O3A5578_3000.webp?v=1696842097",
             "title": "DROP therapeutic | Bruno MD",
             "description": "DROP therapeutic è una soluzione oftalmica a base di VIT B2, VIT E, sodio ialuronato ed amminoacidi."
         }
     },
     "citrak-3g-30-bustine": {
-        "EXTERNALID": "8097634582843",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2MzQ1ODI4NDM=",
-        "SLUG": "citrak-3g-30-bustine",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/07-BMD-Citrak-9O3A5769.webp?v=1696841469",
             "title": "Citrak | Bruno MD",
             "description": "Citrak è un integratore alimentare di potassio indicato nei casi di ridotto apporto con la dieta o nei casi di aumentato fabbisogno fisiologico."
         }
     },
     "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine": {
-        "EXTERNALID": "8097664631099",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2NjQ2MzEwOTk=",
-        "SLUG": "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/06-BMD-Citrak-MG-9O3A5775.webp?v=1696841855",
             "title": "Citrak Mg | Bruno MD",
             "description": "Citrak Mg è un integratore alimentare di potassio e magnesio. E' consigliato nei casi di attività sportiva, intensa sudorazione e nella prevenzione e correzione degli stati di deplezione potassica dell’organismo."
         }
     },
    "nubit-30-compresse-da-850mg": {
-        "EXTERNALID": "8097688420667",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODg0MjA2Njc=",
-        "SLUG": "nubit-30-compresse-da-850mg",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/01-BMD-Nubit-9O3A5730.webp?v=1696842438",
             "title": "Nubit | Bruno MD",
             "description": "Nubit e' un integratore alimentare a base di vitamine B1 e B12, che contribuiscono al normale funzionamento del sistema nervoso, e a base di alte dose di nucleotidi."
         }
     },
     "neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g": {
-        "EXTERNALID": "8097683702075",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2ODM3MDIwNzU=",
-        "SLUG": "neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g",
-        "seo": {
+        "meta": {
             "title": "Neulenic | Bruno MD",
             "description": "Neulenic e' un Integratore alimentare di acido alfa-lipoico, vitamine e rame."
         }
     },
     "silverphage-crema-gel-50-ml": {
-        "EXTERNALID": "8098256224571",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTgyNTYyMjQ1NzE=",
-        "SLUG": "silverphage-crema-gel-50-ml",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/01-BMD-Silverphage-Crema_Gel-9O3A5808.webp?v=1696843012",
             "title": "Silverphage Crema  | Bruno MD",
             "description": "Silverphage Crema e' un dispositivo medico coadiuvante per la protezione di lesioni cutanee ed abrasioni"
         }
     },
     "silverphage-14-individual-wipes": {
-        "EXTERNALID": "8127313936699",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgxMjczMTM5MzY2OTk=",
-        "SLUG": "silverphage-14-individual-wipes",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/01-BMD-Silverphage-9O3A5964_1.webp?v=1696843232",
             "title": "Silverphage Garze | Bruno MD",
             "description": "Silverphage Garze  e’ un dispositivo medico per la detersione dell'area perioculare"
         }
     },
     "tendoactive-plus-20-stick": {
-        "EXTERNALID": "8615981285701",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
-        "SLUG": "tendoactive-plus-20-stick",
-        "seo": {
+        "meta": {
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/BMD-Tendoactive_Plus-01.webp?v=1701699330",
-            "title": "Tendoactive | Bruno MD",
-            "description": "CRONOS è un integratore alimentare a base di Polidatina, Estratti di Mirtillo e Vitamine."
+            "title": "TendoActive Plus | Bruno MD",
+            "description": "TendoActive Plus"
         }
     },
      "tendo": {
-        "EXTERNALID": "8615981285701",
-        "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2OTQ1ODEwNTE=",
-        "SLUG": "tendoactive-plus-20-stick",
-        "seo": {
-            "title": "Tendoactive | Bruno MD",
+        "meta": {
+            "title": "TendoActive Plus by BrunoMD | Azione completa per tendini e legamenti",
             "image":"https://cdn.shopify.com/s/files/1/0674/0518/5339/files/BMD-Tendoactive_Plus-01.webp?v=1701699330",
-            "description": "CRONOS è un integratore alimentare a base di Polidatina, Estratti di Mirtillo e Vitamine."
+            "description": "TendoActive Plus"
         }
     }
 }
