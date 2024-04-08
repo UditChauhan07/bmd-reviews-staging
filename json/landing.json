@@ -203,16 +203,18 @@
         {
           "note": "iI FITOSOMA DI BOSWELLIA SERRATA",
           "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Stairs- boswellia serrata.png",
+         "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Stairs- boswx100.webp",
             "alt":"..."
           }
         },
         {
           "note": "II FITOSOMA DI CURCUMINA",
           "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Tennis - curcumin.png",
+         "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Tennis - cur.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Tennis - curx100.webp",
             "alt":"..."
           }
         },
@@ -220,7 +222,8 @@
           "note": "La L-ARGININA",
           "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Vollyball-L-arginina.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Vollyball-L-.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Vollyball-L-x100.webp",
             "alt":"..."
           }
         },
@@ -228,7 +231,8 @@
           "note": "La L-LISINA e la L-PROLINA",
           "expanded": "<p>La L-lisina e la L-prolina sono due amminoacidi essenziali che svolgono ruoli importanti per la salute umana.</p><p>La L-lisina è fondamentale per la sintesi delle proteine, il mantenimento dei tessuti muscolari e la produzione di anticorpi. Inoltre, la lisina è coinvolta nella formazione di collagene, una proteina essenziale per la salute della pelle, dei capelli e delle unghie. Alcuni studi suggeriscono che la lisina può contribuire a migliorare la salute ossea e a ridurre il rischio di osteoporosi.</p><p>La L-prolina è un altro amminoacido che gioca un ruolo chiave nella formazione del collagene. La prolina è anche essenziale per mantenere la flessibilità e la resistenza della pelle, dei capelli e delle unghie.  Inoltre, è coinvolta nella riparazione delle ferite e nella cicatrizzazione, favorendo la rigenerazione dei tessuti danneggiati.</p>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisina and L-prolina.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisin.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisinx100.webp",
             "alt":"..."
           }
         },
@@ -236,7 +240,8 @@
           "note": "Il COLLAGENE DI TIPO I",
           "expanded": "<p>Il collagene di tipo I è una proteina essenziale con molteplici benefici per la tua salute. Il collagene di tipo I costituisce la struttura di pelle, capelli, unghie, ossa, e articolazioni. I benefici più comuni sono per:</p><ol><li>La pelle: Il collagene di tipo I contribuisce a mantenere la pelle elastica e idratata, riducendo la comparsa di rughe e linee sottili.</li><li>I capelli e le unghie: Favorisce la crescita e la resistenza dei capelli e delle unghie, rendendoli più forti e sani.</li><li>Le ossa: Il collagene di tipo I è un componente fondamentale del tessuto osseo, contribuendo a mantenerlo solido e resistente.</li><li>Le articolazioni: Aiuta a migliorare la salute delle articolazioni, riducendo l'usura e migliorando la mobilità.</li><li>Il miglioramento generale: Integrando il collagene di tipo I nella tua dieta, puoi contribuire a mantenere una pelle giovane, un aspetto sano e articolazioni flessibili.</li></ol>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Swimming-Collagen.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Swimming-Col.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Swimming-Colx100.webp",
             "alt":"..."
           }
         },
@@ -244,23 +249,26 @@
           "note": "La CONDROITINA SOLFATO",
           "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: la condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: la condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Running-Chondroitin.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Running-Chon.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Running-Chonx100.webp",
             "alt":"..."
           }
         },
         {
           "note": "Il MANGANESE",
           "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Skiing-Manganese.png",
+           "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Skiing-Manga.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Skiing-Mangax100.webp",
             "alt":"..."
           }
         },
         {
           "note": "VITAMINA C",
           "expanded": "<p>La vitamina C, anche conosciuta come acido ascorbico, è un nutriente essenziale per il corpo umano con diversi benefici per la salute. Alcuni dei principali benefici della vitamina C sono:</p><ol><li>Il sistema immunitario potenziato: svolge un ruolo cruciale nel sostenere il sistema immunitario, aiutando il corpo a difendersi contro le infezioni. È coinvolta nella produzione e nella funzione dei globuli bianchi, che combattono le infezioni.</li><li>Le proprietà antiossidanti: è un potente antiossidante che aiuta a proteggere le cellule dai danni causati dai radicali liberi. Questi ultimi possono contribuire all'invecchiamento cellulare e ad alcune malattie.</li><li>La salute della pelle: contribuisce alla produzione di collagene, una proteina fondamentale per la salute della pelle, favorendo la guarigione delle ferite e mantenendo la pelle sana ed elastica.</li><li>L’assorbimento del ferro: aiuta il corpo ad assorbire il ferro.</li><li>L’antistress ossidativo: può contribuire a ridurre lo stress ossidativo nel corpo, che è associato a diverse condizioni patologiche.</li></ol>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-bicycling-Vitamin C.png",
+           "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-bicycling-Vi.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-bicycling-Vix100.webp",
             "alt":"..."
           }
         }
@@ -288,7 +296,7 @@
     },
        "ScienceVideos":[
       {
-        "video":"https://cdn.shopify.com/videos/c/o/v/30f1aa7e4f4945038d23deb24710d412.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/f50819ece00d4656919358b072f3c6bf.mp4",
         "title":"Lo studio in vitro: gli effetti antinfiammatori e anti catabolici di Tendoactive® sui tenociti umani",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -296,7 +304,7 @@
         "popupText":"Curcumin is derived from the rhizome of Curcuma longa L., an East Indian plant commonly called turmeric. Bruno MD delivers curcumin using Curcumin Phytosome, and it’s the #1 doctor-recommended curcumin formulation by the Cleveland Clinic because it works through multiple pathways on multiple targets to provide complete relief throughout the body and contains the whole bouquet of curcuminoids.<br/><br/>Clinical results show that turmeric has several beneficial effects on the cardiovascular system by preventing or delaying the development of atherosclerosis in healthy people. It can protect the heart from inflammation, regulate or help lower high blood pressure, restore antioxidant levels, and improve age-related stiffening of blood vessels, especially when combined with exercise. Daily intake of curcumin has also been shown to reduce heart damage caused by kidney, help stop the formation of blood clots that cause strokes, and prevent cardiac hypertrophy from high blood pressure, heart attack, high salt intake, or diabetes."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/586c5cd0046d484fa99c03f99dfe8446.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/a869a579da8b4b16a0a8abc00b7ca5ed.mp4",
         "title":" Lo studio in vitro: gli effetti di Tendoactive® sulla fibrillogenesi del collagene in una coltura tridimensionale dei tenociti umani",
 	      "subtitle":"",
         "button":"Scopri di piu’",
@@ -304,7 +312,7 @@
         "popupText":"<b>Bergamot Phytosome</b> is clinically proven to protect against cardiovascular issues by supporting healthy cholesterol levels. It also helps govern metabolic conditions that increase the risk of heart disease, and TYPE II diabetes. <b>Bergamot Phytosome</b> optimizes the biological absorption of polyphenols, normally characterized by poor bioavailability."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/973da50669e84547bc4ba53be49aef3d.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/e0d6faf446374a66bbb22ef30d46bdc5.mp4",
         "title":"Lo studio osservazionale e prospettico per valutare l'efficacia di Tendoactive® nel trattamento delle tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -312,7 +320,7 @@
         "popupText":"<b>Coenzyme Q10 Phytosome</b> delivers up to 116% higher CoQ10 levels vs. standard curcumin. CholestQ10 health benefits have been validated in more than 40 randomized, double-blind, placebo-controlled studies. CoQ10 is concentrated in organs with high energy requirements, like the heart, and supports ATP production and mitochondrial function, which are vital to heart health. A potent antioxidant, CoQ10 Phytosome also protects DNA from damage and promotes overall longevity. CoQ10 Phytosome® is delivered in a crystal-free liquid solution to maximize absorption."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/f2ba00df7bc542e693ee2a5f8e45a199.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/c6bc5f5fd1da469ca29a480d6872d41a.mp4",
         "title":"Lo studio osservazionale, prospettico, aperto e multicentrico per valutare l'efficacia e la sicurezza di Tendoactive® in pazienti con tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -320,7 +328,7 @@
         "popupText":"The active biophenols and flavonoids harvested from the endemic variety of Cardoon leaf we use (<b>Cynara Cardunculus L. Var. AltilisDC and Scolymus</b>) inhibit the creation of fatty lipids in the liver cells. Excessive accumulation of lipids in hepatocytes can lead to a condition called hepatic steatosis or fatty liver disease, which increases the risk of cardiovascular diseases such as atherosclerosis, heart attack, and stroke."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/be8d4c5adc644138b5f3853803d8f542.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/0472e53c79404a8c9317e522d0e93688.mp4",
         "title":"Lo studio randomizzato controllato per valutare l'efficacia di Tendoactive® associato ad esercizi eccentrici o stretching passivo per il trattamento della tendinopatia di Achille",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -496,6 +504,7 @@
   "title": "FAQs",
   "id": "tendo",
    "image":"/images/landing/FAQimage.webp",
+   "mImage":"/images/landing/FAQimage-mobile.webp",
   "details": [
     {
       "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",
@@ -746,16 +755,18 @@
         {
           "note": "iI FITOSOMA DI BOSWELLIA SERRATA",
           "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Stairs- boswellia serrata.png",
+         "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Stairs- boswx100.webp",
             "alt":"..."
           }
         },
         {
           "note": "II FITOSOMA DI CURCUMINA",
           "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Tennis - curcumin.png",
+         "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Tennis - cur.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Tennis - curx100.webp",
             "alt":"..."
           }
         },
@@ -763,7 +774,8 @@
           "note": "La L-ARGININA",
           "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Vollyball-L-arginina.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Vollyball-L-.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Vollyball-L-x100.webp",
             "alt":"..."
           }
         },
@@ -771,7 +783,8 @@
           "note": "La L-LISINA e la L-PROLINA",
           "expanded": "<p>La L-lisina e la L-prolina sono due amminoacidi essenziali che svolgono ruoli importanti per la salute umana.</p><p>La L-lisina è fondamentale per la sintesi delle proteine, il mantenimento dei tessuti muscolari e la produzione di anticorpi. Inoltre, la lisina è coinvolta nella formazione di collagene, una proteina essenziale per la salute della pelle, dei capelli e delle unghie. Alcuni studi suggeriscono che la lisina può contribuire a migliorare la salute ossea e a ridurre il rischio di osteoporosi.</p><p>La L-prolina è un altro amminoacido che gioca un ruolo chiave nella formazione del collagene. La prolina è anche essenziale per mantenere la flessibilità e la resistenza della pelle, dei capelli e delle unghie.  Inoltre, è coinvolta nella riparazione delle ferite e nella cicatrizzazione, favorendo la rigenerazione dei tessuti danneggiati.</p>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisina and L-prolina.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisin.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Yoga-L-lisinx100.webp",
             "alt":"..."
           }
         },
@@ -779,7 +792,8 @@
           "note": "Il COLLAGENE DI TIPO I",
           "expanded": "<p>Il collagene di tipo I è una proteina essenziale con molteplici benefici per la tua salute. Il collagene di tipo I costituisce la struttura di pelle, capelli, unghie, ossa, e articolazioni. I benefici più comuni sono per:</p><ol><li>La pelle: Il collagene di tipo I contribuisce a mantenere la pelle elastica e idratata, riducendo la comparsa di rughe e linee sottili.</li><li>I capelli e le unghie: Favorisce la crescita e la resistenza dei capelli e delle unghie, rendendoli più forti e sani.</li><li>Le ossa: Il collagene di tipo I è un componente fondamentale del tessuto osseo, contribuendo a mantenerlo solido e resistente.</li><li>Le articolazioni: Aiuta a migliorare la salute delle articolazioni, riducendo l'usura e migliorando la mobilità.</li><li>Il miglioramento generale: Integrando il collagene di tipo I nella tua dieta, puoi contribuire a mantenere una pelle giovane, un aspetto sano e articolazioni flessibili.</li></ol>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Swimming-Collagen.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Swimming-Col.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Swimming-Colx100.webp",
             "alt":"..."
           }
         },
@@ -787,23 +801,26 @@
           "note": "La CONDROITINA SOLFATO",
           "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: la condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: la condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
           "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Running-Chondroitin.png",
+            "src":"\\images\\Tendoactive-Icon-v1-Running-Chon.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Running-Chonx100.webp",
             "alt":"..."
           }
         },
         {
           "note": "Il MANGANESE",
           "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-Skiing-Manganese.png",
+           "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-Skiing-Manga.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-Skiing-Mangax100.webp",
             "alt":"..."
           }
         },
         {
           "note": "VITAMINA C",
           "expanded": "<p>La vitamina C, anche conosciuta come acido ascorbico, è un nutriente essenziale per il corpo umano con diversi benefici per la salute. Alcuni dei principali benefici della vitamina C sono:</p><ol><li>Il sistema immunitario potenziato: svolge un ruolo cruciale nel sostenere il sistema immunitario, aiutando il corpo a difendersi contro le infezioni. È coinvolta nella produzione e nella funzione dei globuli bianchi, che combattono le infezioni.</li><li>Le proprietà antiossidanti: è un potente antiossidante che aiuta a proteggere le cellule dai danni causati dai radicali liberi. Questi ultimi possono contribuire all'invecchiamento cellulare e ad alcune malattie.</li><li>La salute della pelle: contribuisce alla produzione di collagene, una proteina fondamentale per la salute della pelle, favorendo la guarigione delle ferite e mantenendo la pelle sana ed elastica.</li><li>L’assorbimento del ferro: aiuta il corpo ad assorbire il ferro.</li><li>L’antistress ossidativo: può contribuire a ridurre lo stress ossidativo nel corpo, che è associato a diverse condizioni patologiche.</li></ol>",
-          "image":{
-            "src":"\\images\\Tendoactive-Icon-v1-bicycling-Vitamin C.png",
+           "image":{
+            "src":"\\images\\Tendoactive-Icon-v1-bicycling-Vi.webp",
+            "msrc":"\\images\\Tendoactive-Icon-v1-bicycling-Vix100.webp",
             "alt":"..."
           }
         }
@@ -831,7 +848,7 @@
     },
        "ScienceVideos":[
       {
-        "video":"https://cdn.shopify.com/videos/c/o/v/30f1aa7e4f4945038d23deb24710d412.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/f50819ece00d4656919358b072f3c6bf.mp4",
         "title":"Lo studio in vitro: gli effetti antinfiammatori e anti catabolici di Tendoactive® sui tenociti umani",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -839,7 +856,7 @@
         "popupText":"Curcumin is derived from the rhizome of Curcuma longa L., an East Indian plant commonly called turmeric. Bruno MD delivers curcumin using Curcumin Phytosome, and it’s the #1 doctor-recommended curcumin formulation by the Cleveland Clinic because it works through multiple pathways on multiple targets to provide complete relief throughout the body and contains the whole bouquet of curcuminoids.<br/><br/>Clinical results show that turmeric has several beneficial effects on the cardiovascular system by preventing or delaying the development of atherosclerosis in healthy people. It can protect the heart from inflammation, regulate or help lower high blood pressure, restore antioxidant levels, and improve age-related stiffening of blood vessels, especially when combined with exercise. Daily intake of curcumin has also been shown to reduce heart damage caused by kidney, help stop the formation of blood clots that cause strokes, and prevent cardiac hypertrophy from high blood pressure, heart attack, high salt intake, or diabetes."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/586c5cd0046d484fa99c03f99dfe8446.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/a869a579da8b4b16a0a8abc00b7ca5ed.mp4",
         "title":" Lo studio in vitro: gli effetti di Tendoactive® sulla fibrillogenesi del collagene in una coltura tridimensionale dei tenociti umani",
 	      "subtitle":"",
         "button":"Scopri di piu’",
@@ -847,7 +864,7 @@
         "popupText":"<b>Bergamot Phytosome</b> is clinically proven to protect against cardiovascular issues by supporting healthy cholesterol levels. It also helps govern metabolic conditions that increase the risk of heart disease, and TYPE II diabetes. <b>Bergamot Phytosome</b> optimizes the biological absorption of polyphenols, normally characterized by poor bioavailability."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/973da50669e84547bc4ba53be49aef3d.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/e0d6faf446374a66bbb22ef30d46bdc5.mp4",
         "title":"Lo studio osservazionale e prospettico per valutare l'efficacia di Tendoactive® nel trattamento delle tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -855,7 +872,7 @@
         "popupText":"<b>Coenzyme Q10 Phytosome</b> delivers up to 116% higher CoQ10 levels vs. standard curcumin. CholestQ10 health benefits have been validated in more than 40 randomized, double-blind, placebo-controlled studies. CoQ10 is concentrated in organs with high energy requirements, like the heart, and supports ATP production and mitochondrial function, which are vital to heart health. A potent antioxidant, CoQ10 Phytosome also protects DNA from damage and promotes overall longevity. CoQ10 Phytosome® is delivered in a crystal-free liquid solution to maximize absorption."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/f2ba00df7bc542e693ee2a5f8e45a199.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/c6bc5f5fd1da469ca29a480d6872d41a.mp4",
         "title":"Lo studio osservazionale, prospettico, aperto e multicentrico per valutare l'efficacia e la sicurezza di Tendoactive® in pazienti con tendinopatie",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -863,7 +880,7 @@
         "popupText":"The active biophenols and flavonoids harvested from the endemic variety of Cardoon leaf we use (<b>Cynara Cardunculus L. Var. AltilisDC and Scolymus</b>) inhibit the creation of fatty lipids in the liver cells. Excessive accumulation of lipids in hepatocytes can lead to a condition called hepatic steatosis or fatty liver disease, which increases the risk of cardiovascular diseases such as atherosclerosis, heart attack, and stroke."
       },
        {
-        "video":"https://cdn.shopify.com/videos/c/o/v/be8d4c5adc644138b5f3853803d8f542.mp4",
+        "video":"https://cdn.shopify.com/videos/c/o/v/0472e53c79404a8c9317e522d0e93688.mp4",
         "title":"Lo studio randomizzato controllato per valutare l'efficacia di Tendoactive® associato ad esercizi eccentrici o stretching passivo per il trattamento della tendinopatia di Achille",
         "subtitle":"",
         "button":"Scopri di piu’",
@@ -1039,6 +1056,7 @@
   "title": "FAQs",
   "id": "tendo",
    "image":"/images/landing/FAQimage.webp",
+   "mImage":"/images/landing/FAQimage-mobile.webp",
   "details": [
     {
       "title": "Per quanto tempo è consigliato il trattamento minino per la tendinopatia? ",

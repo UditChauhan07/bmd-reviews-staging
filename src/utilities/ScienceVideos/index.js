@@ -58,15 +58,15 @@ function ScienceVideos({ data, theme }) {
 
   // Define custom arrow components
   const CustomPrevArrow = ({ onClick }) => (
-    <button className="slick-prev" onClick={onClick}>
-      <img src="\images\ArrowRightSvg.svg" />
+    <button className="slick-prev" onClick={onClick} title="previous">
+      <img src="\images\ArrowRightSvg.svg" alt="previous" />
     </button>
   );
 
   const CustomNextArrow = ({ onClick }) => (
-    <button className="slick-next" onClick={onClick}>
+    <button className="slick-next" onClick={onClick} title="next">
       Next
-      <img src="\images\arrowSvg.svg" />
+      <img src="\images\arrowSvg.svg" alt="next" />
     </button>
   );
 

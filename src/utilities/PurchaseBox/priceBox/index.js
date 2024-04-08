@@ -247,6 +247,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                 :
               </div>
               <select
+                aria-label="quantiy"
                 className={styles.selectNon}
                 style={
                   data.priceBox.isPriceBoxTheme ? { color: data.theme } : {}
@@ -284,6 +285,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                 :
               </b>
               <select
+                aria-label="frequency"
                 className={styles.freq}
                 onChange={handleFreqChange}
                 style={
