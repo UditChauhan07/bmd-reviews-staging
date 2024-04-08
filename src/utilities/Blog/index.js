@@ -38,7 +38,7 @@ const Blogs = ({ categories, isLanding = null }) => {
                                 <img
                                   src={post.thumb}
                                   alt={post.title}
-                                  width={55}
+                                  width={"55px"}
                                   height={"auto"}
                                 />
                               </a>
@@ -46,7 +46,7 @@ const Blogs = ({ categories, isLanding = null }) => {
                               <img
                                 src={post.thumb}
                                 alt={post.title}
-                                width={55}
+                                width={"55px"}
                                 height={"auto"}
                               />
                             )}
