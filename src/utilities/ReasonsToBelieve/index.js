@@ -232,7 +232,7 @@ const ReasonsToBelieve = ({
                     className={styles.modalImgHolder}
                     src={modalImg}
                     width={200}
-                    height={200}
+                    height={"auto"}
                   />
                 </div>
                 <div>
