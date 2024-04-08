@@ -12,7 +12,7 @@
 .v2Container {
   display: grid;
   max-width: 1380px;
-  /* grid-template-rows: repeat(auto-fill, 50%); */
+  /* -grid-template-rows: repeat(auto-fill, 50%); */
   /* grid-template-columns: repeat(auto-fill, 50%); */
   margin: 20px auto;
 }
