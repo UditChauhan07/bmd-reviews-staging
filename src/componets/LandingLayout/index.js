@@ -301,9 +301,11 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {script && (
             <>
-              {!pageData?.reviewHide && pageData?.externalId && (
-                <ProductReviews variantId={pageData.externalId} />
-              )}
+              {!pageData?.reviewHide &&
+                pageData?.externalId &&
+                !pageData?.isHideScript && (
+                  <ProductReviews variantId={pageData.externalId} />
+                )}
             </>
           )}
 
@@ -312,7 +314,7 @@ const LandingPage = ({ version, script, page }) => {
           )}
           {script && (
             <>
-              {pageData?.homeGallery && (
+              {pageData?.homeGallery && !pageData?.isHideScript && (
                 <div ref={VideoRef} id="homeGallerySection">
                   <HomeGallery
                     id={pageData.homeGallery.id}
@@ -328,7 +330,7 @@ const LandingPage = ({ version, script, page }) => {
               )}
 
               <div>
-                {pageData?.NewsLetter && (
+                {pageData?.NewsLetter && !pageData?.isHideScript && (
                   <NewsLetter content={pageData.NewsLetter} />
                 )}
               </div>
@@ -339,7 +341,7 @@ const LandingPage = ({ version, script, page }) => {
                   theme={pageData.theme}
                 />
               )}
-              {!pageData?.chat && <Chat />}
+              {!pageData?.chat && !pageData?.isHideScript && <Chat />}
             </>
           )}
           {pageData?.footer && <Footer data={pageData.footer} />}
