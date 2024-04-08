@@ -35,10 +35,20 @@ const Blogs = ({ categories, isLanding = null }) => {
                                 target="_blank"
                                 className={styles.postTitle}
                               >
-                                <img src={post.thumb} alt={post.title} />
+                                <img
+                                  src={post.thumb}
+                                  alt={post.title}
+                                  width={55}
+                                  height={"auto"}
+                                />
                               </a>
                             ) : (
-                              <img src={post.thumb} alt={post.title} />
+                              <img
+                                src={post.thumb}
+                                alt={post.title}
+                                width={55}
+                                height={"auto"}
+                              />
                             )}
                           </div>
                           <div className={styles.postTitle}>
