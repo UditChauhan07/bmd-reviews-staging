@@ -143,7 +143,9 @@ function ScienceVideos({ data, theme }) {
               >
                 <track src="" kind="captions" />
               </video>
-              <h3 style={{ color: theme }}>{videos.title}</h3>
+              <p class={styles.subtitleh} style={{ color: theme }}>
+                {videos.title}
+              </p>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
               {/* -<p onClick={() => handleClick1(videos)} style={{ color: theme }}>
                 Learn More
