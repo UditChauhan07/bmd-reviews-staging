@@ -40,6 +40,17 @@
   font-family: var(--bmd-font-Secondary);
 }
 
+.imageControl .subtitleh {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #56008c;
+  margin: 28px 0 10px 0;
+  font-family: var(--bmd-font-Secondary);
+  text-transform: capitalize;
+}
+
 .imageControl .subtitlep {
   text-align: center;
   font-size: 14px;
@@ -278,6 +289,12 @@
 
 @media (max-width: 767px) {
   .imageControl h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+    font-weight: 300;
+  }
+
+  .imageControl .subtitleh {
     font-size: 16px;
     margin: 10px 0 5px 0;
     font-weight: 300;
