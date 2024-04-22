@@ -156,7 +156,7 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
-      "/tendo-V2",
+      // "/tendo-V2",
     ];
     if (!publicPaths.length) {
       //publicPaths = ["/404-page"];
