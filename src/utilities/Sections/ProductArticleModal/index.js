@@ -13,13 +13,25 @@ const ProductArticleModal = ({
     return (
       <section className={styles.container}>
         <div className={styles.dFlexv2}>
-          <img
-            src={content.bannerDesk?.src}
-            alt={content.bannerDesk?.alt}
-            className={styles.col1}
-            width={1000}
-            height={600}
-          />
+          {isDesktopImage ? (
+            <img
+              src={content.bannerDesk?.src}
+              alt={content.bannerDesk?.alt}
+              className={styles.col1}
+              width={1000}
+              height={600}
+              fetchpriority="high"
+            />
+          ) : (
+            <img
+              src={content.bannerMob?.src}
+              alt={content.bannerMob?.alt}
+              className={styles.col1}
+              width={430}
+              height={"auto"}
+              fetchpriority="high"
+            />
+          )}
           <div className={styles.col2v2}>
             <PurchaseBox data={priceBox} variantId={variantId} />
           </div>
