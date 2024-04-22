@@ -554,6 +554,7 @@ button.slick-next {
   margin: 0 -20px 0px 0px;
   padding: 6px;
   box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+  top: 40%;
 }
 
 .slider-container button.slick-next img {
