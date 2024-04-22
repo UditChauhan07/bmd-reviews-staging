@@ -45,6 +45,10 @@
           "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015",
         "alt":"Tendo"
       },
+      "bannerMob": {
+        "src": "\\images\\landing\\Tendoactive_Plus_Newsletter_mobile.webp",
+        "alt":"Tendo"
+      },
       "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
       "buttonTitle": "Acquista Adesso",
       "buttonDescription": "Risparmia 5 € con questa offerta",
@@ -595,6 +599,10 @@
     "ProductArticleModal": {
       "bannerDesk": {
           "src": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp?v=1697792015",
+        "alt":"Tendo"
+      },
+       "bannerMob": {
+        "src": "\\images\\landing\\Tendoactive_Plus_Newsletter_mobile.webp",
         "alt":"Tendo"
       },
       "title": "Supportato da studi clinici che dimostrano benefici dall’unione tra il collagene di tipo 1, la condroitina solfato, la vitamina C, il manganese, i fitosomi di Boswellia e curcumina, gli aminoacidi e il rame.",
