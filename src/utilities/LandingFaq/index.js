@@ -7,10 +7,12 @@ import {
   AccordionPanel,
 } from "../FourStepProcess/accordion";
 import styles from "./styles.module.css";
+import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 
 function LandingFaq({ data, theme }) {
   const [colorIndex, setColorIndex] = useState("");
   const [openIndex, setOpenIndex] = useState(null);
+  const [isDesktop] = useMatchMedia("(min-width: 769px)", true);
 
   const handleAccordionClick = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -25,7 +27,8 @@ function LandingFaq({ data, theme }) {
         <div className={styles.twoCol}>
           <div className={styles.dGrid}>
             <div className={styles.FaqImage}>
-              {<img src={data.image} width="100%" alt="FAQ" />}
+              {isDesktop && <img src={data.image} width="100%" alt="FAQ" />}
+              {!isDesktop && <img src={data.mImage} width="100%" alt="FAQ" />}
             </div>
           </div>
           <div className={styles.wrapper}>
