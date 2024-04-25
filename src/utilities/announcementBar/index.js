@@ -39,7 +39,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         {/* <div dangerouslySetInnerHTML={{__html:announcement}}/> */}
         <marquee
           behavior="scroll"
-          scrollamount="4"
+          scrollamount="6"
           dangerouslySetInnerHTML={{ __html: announcement }}
         ></marquee>
       </section>
