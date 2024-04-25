@@ -8,6 +8,7 @@ import {
   AccordionPanel,
 } from "../FourStepProcess/accordion";
 import { ExitIcon } from "../SvgIcons";
+import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 
 const ReasonsToBelieve = ({
   content,
@@ -24,6 +25,8 @@ const ReasonsToBelieve = ({
   const [modalDesc, setModalDesc] = React.useState(false);
   const [modalImg, setModalImg] = React.useState(false);
   const [imageSource, setImageSource] = React.useState("/");
+  const [isDesktop] = useMatchMedia("(min-width: 769px)", true);
+
   if (!content) return null;
   const handleClick = (e) => {
     if (ingredients?.src) {
@@ -37,6 +40,14 @@ const ReasonsToBelieve = ({
     setModalDesc(element.expanded);
     setModalImg(element?.image?.src);
   };
+
+  if (modal1) {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
+  }
 
   const V1 = () => {
     return (
@@ -169,14 +180,25 @@ const ReasonsToBelieve = ({
         <div className={styles.v2Container}>
           {content.map((element, key) => (
             <div className={styles.cardContainer} key={key}>
-              <img
-                src={element?.image?.src}
-                className={styles.imgHolder}
-                alt={element?.image?.alt}
-                width={200}
-                height={"auto"}
-                onClick={() => handleClick1(element)}
-              />
+              {isDesktop ? (
+                <img
+                  src={element?.image?.src}
+                  className={styles.imgHolder}
+                  alt={element?.image?.alt}
+                  width={200}
+                  height={"auto"}
+                  onClick={() => handleClick1(element)}
+                />
+              ) : (
+                <img
+                  src={element?.image?.msrc}
+                  className={styles.imgHolder}
+                  alt={element?.image?.alt}
+                  width={100}
+                  height={"auto"}
+                  onClick={() => handleClick1(element)}
+                />
+              )}
               <div className={styles.marginText}>
                 <h3 className={styles.title} style={{ color: theme }}>
                   {element.note}
@@ -218,7 +240,7 @@ const ReasonsToBelieve = ({
                     className={styles.modalImgHolder}
                     src={modalImg}
                     width={200}
-                    height={200}
+                    height={"auto"}
                   />
                 </div>
                 <div>
