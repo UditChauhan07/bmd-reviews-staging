@@ -86,19 +86,7 @@
 .modalCardContainerV2 .OverflowDiv {
   overflow: auto;
 }
-.btn {
-  cursor: pointer;
-  background: black;
-  border: 1px solid #fff;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  align-items: center;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  margin: 0 8px;
-  font-family: var(--bmd-font-Secondary);
-}
+
 .exitButton1 {
   position: absolute;
   right: 20px;
