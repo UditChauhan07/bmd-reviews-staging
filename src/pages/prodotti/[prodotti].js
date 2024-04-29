@@ -201,7 +201,14 @@ const Product = ({ version, script }) => {
             />
           )}
           {!review && (
-            <ProductReviews product={shopifyP} variantId={EXTERNALID} />
+            <ProductReviews
+              product_details={{
+                sku: product.sku,
+                product_title: product.product_title,
+                product_url: product.product_url,
+              }}
+              variantId={EXTERNALID}
+            />
           )}
           {newsletter && <NewsLetter content={newsletter} />}
         </>
