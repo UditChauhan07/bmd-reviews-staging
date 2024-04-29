@@ -1,1 +1,154 @@
-.wrapper{width:100%;padding-right:2rem;padding-left:2rem}.wrapper>div{max-width:1380px;margin:auto}@media screen and (max-width:600px){.wrapper{padding-right:1rem;padding-left:1rem}}
+.wrapper {
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.wrapper > div {
+  max-width: 1380px;
+  margin: auto;
+}
+.reviewContainerV2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  grid-template-rows: repeat(auto-fill, 75%);
+}
+.v2 {
+  margin: 25px auto;
+  max-width: 1380px;
+}
+.reviewHeader {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 52px;
+  color: #000;
+}
+.reviewBtn {
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+}
+.reviewbtn {
+  cursor: pointer;
+  background: black;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+}
+
+.modal {
+  opacity: 1;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0, 43, 78, 0.58);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1115;
+}
+.modalOverlayV2 {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  position: absolute;
+}
+.modalContainer1 {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  padding: 50px 30px;
+  margin: 30px 0;
+}
+.modalCardContainerV2 .OverflowDiv {
+  overflow: auto;
+}
+.btn {
+  cursor: pointer;
+  background: black;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  font-family: var(--bmd-font-Secondary);
+}
+.exitButton1 {
+  position: absolute;
+  right: 20px;
+  top: -16px;
+  border-radius: 10px;
+  border: 0.5px solid #000;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .v2,
+  .v2Container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .v2,
+  .v2Container {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .v2,
+  .v2Container {
+    margin-left: 5%;
+  }
+  .reasonsHeader {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .v2,
+  .v2Container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1350.98px) {
+  .modalCardContainerV2 .OverflowDiv {
+    height: 46vh;
+    overflow: auto;
+  }
+}
