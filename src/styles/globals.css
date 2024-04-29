@@ -260,7 +260,7 @@ ol {
   display: none;
 }
 .xyz {
-  display: none;
+  display: block;
   color: hsl(0, 57%, 35%);
   background-color: #82f1ba;
 }
