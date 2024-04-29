@@ -3,6 +3,11 @@
   padding-right: 2rem;
   padding-left: 2rem;
 }
+.error {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: red;
+}
 .wrapper > div {
   max-width: 1380px;
   margin: auto;
@@ -15,6 +20,7 @@
 .v2 {
   margin: 25px auto;
   max-width: 1380px;
+  text-align: center;
 }
 .reviewHeader {
   font-family: ivypresto-display, "Times New Roman", Times, serif;
@@ -38,15 +44,17 @@
   cursor: pointer;
   background: black;
   border: 1px solid #fff;
-  padding: 10px 30px;
+  padding: 15px 40px;
+  border-radius: 24px !important;
   text-transform: uppercase;
   color: #fff;
   align-items: center;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  margin: 0 8px;
+  margin: auto;
   font-family: var(--bmd-font-Secondary);
+  font-size: 18px;
 }
 
 .modal {
@@ -82,6 +90,9 @@
   position: absolute;
   padding: 50px 30px;
   margin: 30px 0;
+  max-width: 650px;
+  height: 90vh;
+  overflow: auto;
 }
 .modalCardContainerV2 .OverflowDiv {
   overflow: auto;
@@ -90,13 +101,248 @@
 .exitButton1 {
   position: absolute;
   right: 20px;
-  top: -16px;
+  top: 14px;
   border-radius: 10px;
   border: 0.5px solid #000;
   background: #fff;
   width: 35px;
   height: 35px;
   padding: 6px;
+}
+
+.ratingSection {
+  min-height: 8rem;
+}
+
+.inputField textarea {
+  width: 100%;
+}
+
+.inputField2 {
+  width: 100%;
+  /* border: 1px solid; */
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+.OverflowDiv .title {
+  font-family: var(--bmd-font-Secondary);
+}
+
+.OverflowDiv .title {
+  font-family: var(--bmd-font-Secondary);
+  font-weight: var(--bmd-Gotham-bold);
+  font-size: 20px;
+  color: #202020;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ratingSection p {
+  font-family: var(--bmd-font-Secondary);
+  font-weight: 500;
+  font-weight: 400;
+  color: #202020;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.OverflowDiv label {
+  font-family: var(--bmd-font-Secondary);
+  font-weight: 500;
+  line-height: 23px;
+  width: 100%;
+  margin-bottom: 13px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #202020;
+}
+.OverflowDiv textarea {
+  resize: none;
+  padding: 5px 10px;
+  margin: 10px 0 0 0;
+  border: 1px solid #7d7d7d;
+}
+.inputFieldMain11 {
+  margin: 50px 0 50px 0;
+}
+
+.inputFieldMain11 input {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.OverflowDiv input {
+  /* width: 100%; */
+  border: 1px solid #7d7d7d;
+  height: 35px;
+  padding: 5px 10px;
+  margin: 10px 0 0 0;
+}
+
+.inputFieldMain input {
+  width: 100%;
+}
+.OverflowDiv textarea::placeholder {
+  font-family: var(--bmd-font-Secondary);
+  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 98%;
+  color: #abababc7;
+  text-transform: capitalize;
+}
+
+.OverflowDiv textarea {
+  font-family: var(--bmd-font-Secondary);
+  font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  text-transform: capitalize;
+  width: 98%;
+}
+.inputFieldMain {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.inputFieldMain .inputField1 {
+  width: 100%;
+}
+.inputFieldMain .inputField2 {
+  width: 100%;
+}
+
+.inputFieldMain .inputField2 p,
+.OverflowDiv p {
+  font-family: var(--bmd-font-Secondary);
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #373330;
+}
+
+.filesUpload h4 {
+  font-family: var(--bmd-font-Secondary);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #373330;
+}
+
+.filesUpload label {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 33px;
+  padding: 0 8px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #2c2c2c;
+  border-radius: 5px;
+}
+.OverflowDiv .checkboxR input {
+  display: inline-block !important;
+  margin: 0;
+}
+
+.checkboxR {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0 0 0;
+}
+.flexPare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexPare P {
+  margin: 10px 0 27px;
+  color: #202020;
+}
+
+.flexPare button {
+  cursor: pointer;
+  font-size: 14px;
+  width: 110px;
+  height: 35px;
+  background-color: #2c2c2c;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: var(--secondary-font-family);
+  text-align: center;
+}
+
+.OverflowDiv::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.modalContainer1::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.starImage svg {
+  width: 35px;
+  height: 35px;
+}
+
+.starImage {
+  display: flex;
+  gap: 15px;
+}
+.ratingSection .starFilled {
+  width: 35px;
+  height: 35px;
+}
+
+.ratingSection .goldenStar {
+  display: flex;
+  gap: 5px;
+}
+
+.OverflowDiv11 h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--bmd-font-Secondary);
+}
+
+.ratingSection p {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  line-height: 23px;
+  color: #202020;
+}
+
+.OverflowDiv11 p {
+  width: 65%;
+  font-family: var(--bmd-font-Secondary);
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 600px) {
@@ -118,6 +364,31 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .inputFieldMain {
+    display: grid;
+  }
+  .OverflowDiv textarea::placeholder {
+    font-size: 14px;
+  }
+  .starImage svg {
+    width: 25px;
+    height: 25px;
+  }
+  .starImage {
+    gap: 10px;
+  }
+  .flexPare {
+    display: grid;
+  }
+
+  .OverflowDiv label {
+    font-size: 14px;
+  }
+  .filesUpload {
+    font-size: 14px;
+    margin: 20px 0 0 0;
+  }
+
   .v2,
   .v2Container {
     margin-left: 5%;
