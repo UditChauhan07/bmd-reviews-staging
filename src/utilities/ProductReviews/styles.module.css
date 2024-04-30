@@ -27,6 +27,7 @@
   font-weight: 400;
   font-size: 52px;
   color: #000;
+  line-height: 60px;
 }
 .reviewBtn {
   cursor: pointer;
@@ -387,12 +388,7 @@
     padding-left: 1rem;
   }
 }
-@media screen and (max-width: 1440px) {
-  .v2,
-  .v2Container {
-    max-width: 1024px;
-  }
-}
+
 @media screen and (max-width: 1220px) {
   .v2,
   .v2Container {
@@ -400,6 +396,11 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .reviewHeader {
+    font-size: 32px;
+    line-height: 38px;
+    width: 80%;
+  }
   .inputFieldMain {
     display: grid;
   }
@@ -438,6 +439,13 @@
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .v2,
+  .v2Container {
+    max-width: 1024px;
+  }
+}
+
 @media (max-width: 1350.98px) {
   .modalCardContainerV2 .OverflowDiv {
     height: 46vh;
@@ -446,9 +454,26 @@
 }
 
 @media (max-width: 545.98px) {
+  .modalCardContainerV2 .title {
+    font-size: 17px;
+  }
+  .reviewContainerV2 {
+    display: block;
+  }
+
   .flexPare {
     display: grid;
     gap: 10px;
     justify-content: center;
+  }
+
+  .reviewHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .reviewbtn {
+    margin: 20px auto 0;
   }
 }
