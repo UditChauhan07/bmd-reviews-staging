@@ -181,6 +181,7 @@
 
 .OverflowDiv input {
   /* width: 100%; */
+  resize: none;
   border: 1px solid #7d7d7d;
   height: 35px;
   padding: 5px 10px;
