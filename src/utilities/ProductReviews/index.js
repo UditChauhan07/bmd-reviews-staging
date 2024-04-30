@@ -19,6 +19,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     domain: "https://brunomd.eu",
   };
   const [formData, setFormData] = useState(initialFormData);
+  const [displayName, setDisplayName] = useState();
 
   const [errors, setErrors] = useState({});
 
@@ -28,6 +29,9 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    if (e.target.name == "display_name") {
+      setDisplayName(e.target.value);
+    }
     setErrors({ ...errors, [e.target.name]: "" });
   };
 
@@ -38,8 +42,6 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       setErrors(formErrors);
       return;
     }
-
-    console.log(formData);
 
     try {
       const response = await fetch("https://api.yotpo.com/v1/widget/reviews", {
@@ -333,7 +335,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
             </button>
             <div className={styles.modalCardContainerV2}>
               <div className={styles.OverflowDiv11}>
-                <h5>Grazie, amrit saini!</h5>
+                <h5>Grazie, {displayName}</h5>
                 <p>
                   Il tuo feedback aiuterà gli altri acquirenti a prendere
                   decisioni migliori.
