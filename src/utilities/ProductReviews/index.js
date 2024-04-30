@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from "react";
+import React, { memo, useEffect, useState, useRef } from "react";
 import styles from "./styles.module.css";
 import Loader2 from "../Loader/index2";
 import { ExitIcon } from "../SvgIcons";
@@ -19,8 +19,10 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     domain: "https://brunomd.eu",
   };
   const [formData, setFormData] = useState(initialFormData);
-
+  const [displayName, setDisplayName] = useState();
   const [errors, setErrors] = useState({});
+  const [images, setImages] = useState([]);
+  const fileInputRef = useRef(null);
 
   const handleRatingChange = (value) => {
     setFormData({ ...formData, review_score: value });
@@ -28,6 +30,9 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    if (e.target.name == "display_name") {
+      setDisplayName(e.target.value);
+    }
     setErrors({ ...errors, [e.target.name]: "" });
   };
 
@@ -39,16 +44,17 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       return;
     }
 
-    console.log(formData);
-
     try {
-      const response = await fetch("https://api.yotpo.com/v1/widget/reviews", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://api.yotpo.com/reviews/dynamic_create",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       if (response.ok) {
         setModal1(true);
         setFormData(initialFormData);
@@ -140,14 +146,16 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   return (
     <section id="review_ingredients" className={styles.ingredientsHolder}>
-      <div className={`${styles.reviewContainerV2} ${styles.v2}`}>
+      <div
+        className={`${styles.reviewContainerV2} ${styles.v2}  ${styles.BtnAlign}`}
+      >
         <h3 className={styles.reviewHeader}>
           <p>Recensioni dei clienti</p>
         </h3>
+        <button onClick={() => handleClick()} className={styles.reviewbtn}>
+          Scrivi una recensione
+        </button>
       </div>
-      <button onClick={() => handleClick()} className={styles.reviewbtn}>
-        Scrivi una recensione
-      </button>
 
       <div className={styles.wrapper}>
         {productId && (
@@ -169,15 +177,15 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
               <ExitIcon />
             </button>
             <div className={styles.modalCardContainerV2}>
-              <div className={styles.OverflowDiv}>
-                <h1 className={styles.title} style={{ color: "" }}>
-                  Condividi la tua opinione
-                </h1>
-
-                <form onSubmit={handleSubmit}>
+              <h1 className={styles.title} style={{ color: "" }}>
+                Condividi la tua opinione
+              </h1>
+              <form onSubmit={handleSubmit} enctype="multipart/form-data">
+                <div className={styles.OverflowDiv}>
                   <div className={styles.ratingSection}>
                     <p>
-                      Valuta la tua esperienza <span>*</span>
+                      Valuta la tua esperienza{" "}
+                      <span className={styles.spanRed}>*</span>
                     </p>
 
                     <RatingField
@@ -189,7 +197,8 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
                   <div className={styles.inputField}>
                     <label>
-                      Scrivi una recensione <span>*</span>
+                      Scrivi una recensione{" "}
+                      <span className={styles.spanRed}>*</span>
                     </label>
                     <br></br>
                     <textarea
@@ -210,7 +219,8 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
                   <div className={styles.inputFieldMain11}>
                     <label>
-                      Aggiungi un titolo <span>*</span>
+                      Aggiungi un titolo{" "}
+                      <span className={styles.spanRed}>*</span>
                     </label>
                     <br></br>
                     <input
@@ -230,7 +240,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
                   <div className={styles.inputFieldMain}>
                     <div className={styles.inputField1}>
                       <label>
-                        Il tuo nome <span>*</span>
+                        Il tuo nome <span className={styles.spanRed}>*</span>
                       </label>
                       <br></br>
                       <input
@@ -248,7 +258,8 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
                     <div className={styles.inputField2}>
                       <label>
-                        Il tuo indirizzo e-mail <span>*</span>
+                        Il tuo indirizzo e-mail{" "}
+                        <span className={styles.spanRed}>*</span>
                       </label>
                       <br></br>
                       <input
@@ -270,7 +281,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
                   {/* <div className={styles.filesUpload}>
                     <h4>Aggiungi file multimediali</h4>
-                    <label>
+                    <label onClick={handleFileClick}>
                       <svg
                         data-v-7e5c0c2e=""
                         width="15"
@@ -286,10 +297,20 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
                       </svg>
                       Carica
                     </label>
+                    <input
+                      type="file"
+                      accept="image/*"
+                      ref={fileInputRef}
+                      style={{ display: "none" }}
+                      onChange={handleImageChange}
+                    />
                     <p>
-                      Carica fino a 10 immagini e 3 video (dimensione massima
-                      del file: 2 GB)
+                      Carica fino a 5 immagini (dimensione massima del file: 2
+                      GB)
                     </p>
+                    {errors.review_file && (
+                      <span className={styles.error}>{errors.review_file}</span>
+                    )}
                   </div> */}
 
                   {/* checkbox */}
@@ -300,21 +321,21 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
                       onChange={handleChange}
                     />
                     <p>
-                      Accetto i termini e le condizioni <span>*</span>
+                      Accetto i termini e le condizioni{" "}
+                      <span className={styles.spanRed}>*</span>
                     </p>
                     {errors.accept && (
                       <span className={styles.error}>{errors.accept}</span>
                     )}
                   </div>
-
-                  <div className={styles.flexPare}>
-                    <p>
-                      <span>*</span>campi obbligatori
-                    </p>
-                    <button>Invia </button>
-                  </div>
-                </form>
-              </div>
+                </div>
+                <div className={styles.flexPare}>
+                  <p>
+                    <span className={styles.spanRed}>*</span>campi obbligatori
+                  </p>
+                  <button>Invia </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -333,7 +354,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
             </button>
             <div className={styles.modalCardContainerV2}>
               <div className={styles.OverflowDiv11}>
-                <h5>Grazie, amrit saini!</h5>
+                <h5>Grazie, {displayName}</h5>
                 <p>
                   Il tuo feedback aiuterà gli altri acquirenti a prendere
                   decisioni migliori.
