@@ -81,22 +81,45 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const validateForm = (data) => {
     const errors = {};
+    const maxlength = 2000;
+    const regx = /^[a-zA-Z0-9 .]*$/;
     if (!data.review_title.trim()) {
-      errors.review_title = "Review title is required";
+      errors.review_title = "Il titolo della recensione è obbligatorio";
+    } else {
+      if (data.review_title.length > maxlength) {
+        errors.review_title = "per favore inserisci solo 2000 caratteri";
+      }
+      if (!regx.test(data.review_title)) {
+        errors.review_title = "sono ammesse solo lettere";
+      }
     }
     if (!data.review_content.trim()) {
-      errors.review_content = "Review content is required";
+      errors.review_content = "Il contenuto della revisione è obbligatorio";
+    } else {
+      if (data.review_content.length > maxlength) {
+        errors.review_content = "per favore inserisci solo 2000 caratteri";
+      }
+      if (!regx.test(data.review_content)) {
+        errors.review_content = "sono ammesse solo lettere";
+      }
     }
     if (!data.display_name.trim()) {
-      errors.display_name = "Name is required";
+      errors.display_name = "Il nome è obbligatorio";
+    } else {
+      if (data.display_name.length > maxlength) {
+        errors.display_name = "per favore inserisci solo 2000 caratteri";
+      }
+      if (!regx.test(data.display_name)) {
+        errors.display_name = "sono ammesse solo lettere";
+      }
     }
     if (!data.accept.trim()) {
-      errors.accept = "This field is required";
+      errors.accept = "Questo campo è obbligatorio";
     }
     if (!data.email.trim()) {
-      errors.email = "Email is required";
+      errors.email = "L'e-mail è obbligatoria";
     } else if (!isValidEmail(data.email)) {
-      errors.email = "Invalid email format";
+      errors.email = "formato email non valido";
     }
     return errors;
   };
@@ -106,14 +129,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     return re.test(email);
   };
 
-  if (modal) {
-    document.body.style.overflow = "hidden";
-    document.documentElement.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-    document.documentElement.style.overflow = "auto";
-  }
-  if (modal1) {
+  if (modal || modal1) {
     document.body.style.overflow = "hidden";
     document.documentElement.style.overflow = "hidden";
   } else {
