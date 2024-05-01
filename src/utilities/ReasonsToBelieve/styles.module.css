@@ -1,1 +1,391 @@
-.ingredientsHolder{margin-bottom:4rem}.reasonsContainer{display:flex;flex-direction:row;justify-content:space-evenly}.reasonsContainerV2{display:grid;grid-template-columns:repeat(auto-fill,100%);grid-template-rows:repeat(auto-fill,75%)}.accordionPanel{padding:.25rem .5rem .5rem}.v2{margin:25px auto;max-width:1380px}.accordionButton{padding:.5rem 0;display:flex;justify-content:space-between;margin-bottom:1rem}.marginText{margin-top:auto;margin-bottom:auto;margin-right:10px}.accordion{font-family:Gotham-Medium;width:333px;font-size:16px;font-weight:300;color:#4d4d4d}.logoTextContainer{display:flex;margin-bottom:1rem;align-items:center}.modal{opacity:1;height:100vh;overflow:auto;background:rgba(0,43,78,.58);position:fixed;width:100vw;top:0;left:0;z-index:15}.V2modal{position:fixed;width:100%;height:100%;overflow:unset;z-index:15;background:rgba(0,43,78,.58)}.modalOverlay{width:100%;height:100vh;top:0;left:0;opacity:.63;cursor:pointer;position:absolute}.modalOverlayV2{width:100%;height:100vh;top:0;left:0;cursor:pointer;position:absolute}.modalContainer{padding:1rem;height:auto;top:0;bottom:0;left:0;right:0;z-index:1;margin:auto;flex-wrap:wrap;display:flex;justify-content:center;flex-direction:column;align-items:flex-end;align-content:center;position:absolute}.modalContainer1{border-radius:15px;background-color:#fff;border:1px solid #ccc;padding:20px 10px;width:80%;margin:auto;height:auto;transform:translate(-50%,-50%);left:50%;top:50%;position:absolute;padding:50px 30px}.v2ContainerSubtitle{text-transform:uppercase;font-family:var(--bmd-font-Secondary);font-size:18px;font-weight:500;margin:15px 0 5px}.exitButton{z-index:20;color:purple;font-weight:bolder;padding:0;position:relative;top:4px}.exitButton1{position:absolute;right:20px;top:-16px;border-radius:10px;border:.5px solid #000;background:#fff;width:35px;height:35px}.exitButton1 svg{padding:25%}.reasonsHeader{font-family:ivypresto-display,"Times New Roman",Times,serif;font-size:48px;font-weight:400;color:#000;line-height:58px}.believe{color:var(--bmd-royal-purple)}.believeBluerex{color:#004a98}.note{padding-right:10px;color:#000}.expanded{font-size:14px;min-height:50px;color:#000;font-family:var(--bmd-font-Secondary)}.expanded ul{list-style:disc inside}.expanded ol{list-style:decimal inside}.clinicalHeadline{font-family:Gotham-Medium;text-transform:uppercase;font-size:18px;font-weight:500;color:#56008c;margin-bottom:12px}.clinicalHeadlineBluerex{font-family:Gotham-Medium;text-transform:uppercase;font-size:18px;font-weight:500;color:#004a98;margin-bottom:12px}.supplementalHeadline{font-family:Gotham-Medium;text-transform:uppercase;font-size:18px;font-weight:500;color:#56008c;margin-bottom:12px}.supplementalHeadlineBluerex{font-family:Gotham-Medium;text-transform:uppercase;font-size:18px;font-weight:500;color:#004a98;margin-bottom:12px}.v2Container{display:grid;max-width:1380px;grid-template-columns:repeat(auto-fill,50%);margin:20px auto}.cardContainer{display:flex;margin:10px 0 10px 10px}.modalCardContainer{display:flex;margin:10px 0}.modalCardContainerV2>p{margin-bottom:20px}.imgHolder{margin:0 25px 0 0;border-radius:12px;cursor:pointer}.title{font-family:var(--bmd-font-Secondary);font-size:16px;font-weight:400;line-height:22px;margin-bottom:10px}.desc{margin:10px 0 0;font-family:var(--bmd-font-Secondary);font-weight:var(--bmd-Gotham-book);font-size:16px;font-weight:300;line-height:24px}.modalImgHolder{width:200px;height:auto;margin-right:10px;border-radius:15px;float:left;box-shadow:0 0 4px 0 rgba(255,255,255,.25)}.readMore{font-size:var(--bmd-12px);font-family:var(--bmd-font-Secondary);font-weight:var(--bmd-Gotham-book);font-size:12px;font-weight:300;line-height:22px;text-transform:uppercase;cursor:pointer}@media screen and (max-width:1500px){.v2,.v2Container{max-width:1200px}}@media screen and (max-width:1440px){.v2,.v2Container{max-width:1024px}}@media screen and (max-width:1220px){.v2,.v2Container{max-width:100%}}@media screen and (max-width:1025px){.reasonsContainer{grid-template-columns:100%;margin:auto;width:90%;flex-direction:column}.modalContainer1{max-height:300px}.modalCardContainerV2{overflow:scroll;max-height:250px}}@media screen and (max-width:1000px){.clinicalHeadline{margin-top:32px}.clinicalHeadlineBluerex{margin-top:32px}.supplementalHeadline{margin-top:32px}.supplementalHeadlineBluerex{margin-top:32px}.v2Container{grid-template-columns:repeat(auto-fill,100%)}}@media screen and (max-width:769px){.reasonsHeader{font-size:32px;line-height:38px}.v2,.v2Container{margin-left:5%;margin-right:5%}.title{font-size:16px}.desc{margin:0;font-size:14px}.readMore{font-size:12px}.modalCardContainerV2{overflow:scroll;max-height:300px}.modalContainer1{top:40%;max-height:400px}.modalContainer1{padding:50px}}@media screen and (max-width:767px){.modalImgHolder{width:100%;height:auto;margin-bottom:20px}}@media screen and (max-width:610px){.ing{width:100%}.cardContainer .expanded{height:65px;width:100%;overflow:hidden}}@media screen and (max-width:500px){.modalContainer1{top:40%;height:75%;max-height:400px;padding:10px}.modalCardImage{display:flex;width:100%;justify-content:center}.modalImgHolder{width:100%;height:auto;border:none;text-align:center;max-width:150px}.modalCardContainerV2{max-height:380px}.imgHolder{width:100px;height:100px}}@media screen and (max-width:426px){.modalContainer1{top:55%;height:75%;max-height:400px;padding:10px}.cardContainer{margin:10px 0}}
+.ingredientsHolder {
+  margin-bottom: 4rem;
+}
+.reasonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.reasonsContainerV2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100%);
+  grid-template-rows: repeat(auto-fill, 75%);
+}
+.accordionPanel {
+  padding: 0.25rem 0.5rem 0.5rem;
+}
+.v2 {
+  margin: 25px auto;
+  max-width: 1380px;
+}
+.accordionButton {
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.marginText {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+.accordion {
+  font-family: Gotham-Medium;
+  width: 333px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #4d4d4d;
+}
+.logoTextContainer {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.modal {
+  opacity: 1;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0, 43, 78, 0.58);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+.V2modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: unset;
+  z-index: 15;
+  background: rgba(0, 43, 78, 0.58);
+}
+.modalOverlay {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0.63;
+  cursor: pointer;
+  position: absolute;
+}
+.modalOverlayV2 {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  position: absolute;
+}
+.modalContainer {
+  padding: 1rem;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: center;
+  position: absolute;
+}
+.modalContainer1 {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  padding: 50px 30px;
+}
+.v2ContainerSubtitle {
+  text-transform: uppercase;
+  font-family: var(--bmd-font-Secondary);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0 5px;
+}
+.exitButton {
+  z-index: 20;
+  color: purple;
+  font-weight: bolder;
+  padding: 0;
+  position: relative;
+  top: 4px;
+}
+.exitButton1 {
+  position: absolute;
+  right: 20px;
+  top: -16px;
+  border-radius: 10px;
+  border: 0.5px solid #000;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+}
+.exitButton1 svg {
+  padding: 25%;
+}
+.reasonsHeader {
+  font-family: ivypresto-display, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #000;
+  line-height: 58px;
+}
+.believe {
+  color: var(--bmd-royal-purple);
+}
+.believeBluerex {
+  color: #004a98;
+}
+.note {
+  padding-right: 10px;
+  color: #000;
+}
+.expanded {
+  font-size: 14px;
+  min-height: 50px;
+  color: #000;
+  font-family: var(--bmd-font-Secondary);
+}
+.expanded ul {
+  list-style: disc inside;
+}
+.expanded ol {
+  list-style: decimal inside;
+}
+.clinicalHeadline {
+  font-family: Gotham-Medium;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #56008c;
+  margin-bottom: 12px;
+}
+.clinicalHeadlineBluerex {
+  font-family: Gotham-Medium;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #004a98;
+  margin-bottom: 12px;
+}
+.supplementalHeadline {
+  font-family: Gotham-Medium;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #56008c;
+  margin-bottom: 12px;
+}
+.supplementalHeadlineBluerex {
+  font-family: Gotham-Medium;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #004a98;
+  margin-bottom: 12px;
+}
+.v2Container {
+  display: grid;
+  max-width: 1380px;
+  grid-template-columns: repeat(auto-fill, 50%);
+  margin: 20px auto;
+}
+.cardContainer {
+  display: flex;
+  margin: 10px 0 10px 10px;
+}
+.modalCardContainer {
+  display: flex;
+  margin: 10px 0;
+}
+.modalCardContainerV2 > p {
+  margin-bottom: 20px;
+}
+.imgHolder {
+  margin: 0 25px 0 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.title {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.desc {
+  margin: 10px 0 0;
+  font-family: var(--bmd-font-Secondary);
+  font-weight: var(--bmd-Gotham-book);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.modalImgHolder {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 15px;
+  float: left;
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
+}
+.readMore {
+  font-size: var(--bmd-12px);
+  font-family: var(--bmd-font-Secondary);
+  font-weight: var(--bmd-Gotham-book);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+  .v2,
+  .v2Container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .v2,
+  .v2Container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .v2,
+  .v2Container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .reasonsContainer {
+    grid-template-columns: 100%;
+    margin: auto;
+    width: 90%;
+    flex-direction: column;
+  }
+  .modalContainer1 {
+    max-height: 300px;
+  }
+  .modalCardContainerV2 {
+    overflow: scroll;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .clinicalHeadline {
+    margin-top: 32px;
+  }
+  .clinicalHeadlineBluerex {
+    margin-top: 32px;
+  }
+  .supplementalHeadline {
+    margin-top: 32px;
+  }
+  .supplementalHeadlineBluerex {
+    margin-top: 32px;
+  }
+  .v2Container {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}
+@media screen and (max-width: 769px) {
+  .reasonsHeader {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .v2,
+  .v2Container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .desc {
+    margin: 0;
+    font-size: 14px;
+  }
+  .readMore {
+    font-size: 12px;
+  }
+  .modalCardContainerV2 {
+    overflow: scroll;
+    max-height: 300px;
+  }
+  .modalContainer1 {
+    top: 40%;
+    max-height: 400px;
+  }
+  .modalContainer1 {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modalImgHolder {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .ing {
+    width: 100%;
+  }
+  .cardContainer .expanded {
+    height: 65px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 500px) {
+  .modalContainer1 {
+    top: 40%;
+    height: 75%;
+    max-height: 400px;
+    padding: 10px;
+  }
+  .modalCardImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .modalImgHolder {
+    width: 100%;
+    height: auto;
+    border: none;
+    text-align: center;
+    max-width: 150px;
+  }
+  .modalCardContainerV2 {
+    max-height: 380px;
+  }
+  .imgHolder {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .modalContainer1 {
+    top: 55%;
+    height: 75%;
+    max-height: 400px;
+    padding: 10px;
+  }
+  .cardContainer {
+    margin: 10px 0;
+  }
+}
