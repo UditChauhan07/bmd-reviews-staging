@@ -2,6 +2,7 @@
   width: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
+  margin-bottom: 3rem;
 }
 .error {
   font-family: ivypresto-display, "Times New Roman", Times, serif;
@@ -79,7 +80,6 @@
 }
 .modalContainer1 {
   border-radius: 15px;
-
   background-color: #fff;
   border: 1px solid #ccc;
   width: 80%;
@@ -89,8 +89,6 @@
   left: 50%;
   top: 50%;
   position: absolute;
-  padding: 10px 20px;
-  margin: 30px 0;
   max-width: 800px;
   max-height: 90vh;
   overflow: auto;
@@ -129,20 +127,20 @@
   font-size: 16px;
   -webkit-text-size-adjust: none;
 }
-.modalCardContainerV2 .title {
-  font-family: var(--bmd-font-Secondary);
-}
 
 .modalCardContainerV2 .title {
   font-family: var(--bmd-font-Secondary);
-  font-weight: var(--bmd-Gotham-bold);
+  font-weight: var(--bmd-Gotham-bold) !important;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
   font-size: 20px;
   color: #202020;
-  font-size: 20px;
-  line-height: 23px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  font-size: 20px !important;
   text-align: center;
+  padding: 15px 10px;
+  background-color: #f0f0f0;
+  border-radius: 15px 15px 0 0;
 }
 
 .ratingSection p {
@@ -286,14 +284,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 15px;
+  padding: 10px 30px;
+  border-top: 1px solid #ccc;
 }
 
 .flexPare P {
   margin: 0px 0 0px;
   color: #202020;
   font-size: 16px;
-  font-family: var(--secondary-font-family);
+  font-family: var(--bmd-font-Secondary);
 }
 
 .flexPare button {
@@ -305,8 +304,11 @@
   color: #fff;
   border-radius: 5px;
   font-size: 14px;
-  font-family: var(--secondary-font-family);
   text-align: center;
+  font-family: var(--bmd-font-Secondary);
+  font-weight: var(--bmd-Gotham-bold);
+  line-height: 28px;
+  text-transform: uppercase;
 }
 
 /* .OverflowDiv::-webkit-scrollbar {
@@ -369,6 +371,7 @@
 .modalCardContainerV2 .OverflowDiv {
   height: 70vh;
   overflow: auto;
+  padding: 15px 30px;
 }
 
 .spanRed {
