@@ -71,6 +71,8 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const handleClick = () => {
     setModal(true);
+    setFormData(initialFormData);
+    setErrors({});
   };
 
   const handleClose = () => {
@@ -286,10 +288,6 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
                         onChange={handleChange}
                       />
                       <br></br>
-                      <p>
-                        Ti invieremo un&apos;e-mail per verificare che questa
-                        recensione sia stata scritta da te.
-                      </p>
                       {errors.email && (
                         <span className={styles.error}>{errors.email}</span>
                       )}
