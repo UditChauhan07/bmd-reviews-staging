@@ -82,13 +82,13 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
   const validateForm = (data) => {
     const errors = {};
     const maxlength = 2000;
-    const maxlengthShort = 80;
-    const regx = /^[a-zA-Z0-9 .]*$/;
+    const maxlengthShort = 100;
+    const regx = /^[a-zA-Z0-9 .?,']*$/;
     if (!data.review_title.trim()) {
       errors.review_title = "Il titolo della recensione è obbligatorio";
     } else {
       if (data.review_title.length > maxlengthShort) {
-        errors.review_title = "per favore inserisci solo 2000 caratteri";
+        errors.review_title = "per favore inserisci solo 100 caratteri";
       }
       if (!regx.test(data.review_title)) {
         errors.review_title = "sono ammesse solo lettere";
@@ -100,15 +100,15 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       if (data.review_content.length > maxlength) {
         errors.review_content = "per favore inserisci solo 2000 caratteri";
       }
-      if (!regx.test(data.review_content)) {
-        errors.review_content = "sono ammesse solo lettere";
-      }
+      // if (!regx.test(data.review_content)) {
+      //   errors.review_content = "sono ammesse solo lettere";
+      // }
     }
     if (!data.display_name.trim()) {
       errors.display_name = "Il nome è obbligatorio";
     } else {
       if (data.display_name.length > maxlengthShort) {
-        errors.display_name = "per favore inserisci solo 2000 caratteri";
+        errors.display_name = "per favore inserisci solo 100 caratteri";
       }
       if (!regx.test(data.display_name)) {
         errors.display_name = "sono ammesse solo lettere";
