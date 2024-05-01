@@ -264,6 +264,11 @@ ol {
   color: hsl(0, 57%, 35%);
   background-color: #ddd;
 }
+
+::selection {
+  background-color: #000 !important;
+  color: #fff !important;
+}
 #hubspot-messages-iframe-container iframe {
   top: 0 !important;
 }
