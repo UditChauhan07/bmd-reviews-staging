@@ -304,7 +304,14 @@ const LandingPage = ({ version, script, page }) => {
               {!pageData?.reviewHide &&
                 pageData?.externalId &&
                 !pageData?.isHideScript && (
-                  <ProductReviews variantId={pageData.externalId} />
+                  <ProductReviews
+                    product_details={{
+                      sku: pageData.sku,
+                      product_title: pageData.product_title,
+                      product_url: pageData.product_url,
+                    }}
+                    variantId={pageData.externalId}
+                  />
                 )}
             </>
           )}
