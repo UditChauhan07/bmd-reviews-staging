@@ -90,17 +90,17 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       errors.review_title = "Il titolo della recensione è obbligatorio";
     } else {
       if (data.review_title.length > maxlengthShort) {
-        errors.review_title = "per favore inserisci solo 100 caratteri";
+        errors.review_title = "Per favore inserisci solo 100 caratteri";
       }
       if (!regx.test(data.review_title)) {
-        errors.review_title = "sono ammesse solo lettere";
+        errors.review_title = "Sono ammesse solo lettere";
       }
     }
     if (!data.review_content.trim()) {
       errors.review_content = "Il contenuto della revisione è obbligatorio";
     } else {
       if (data.review_content.length > maxlength) {
-        errors.review_content = "per favore inserisci solo 2000 caratteri";
+        errors.review_content = "Per favore inserisci solo 2000 caratteri";
       }
       // if (!regx.test(data.review_content)) {
       //   errors.review_content = "sono ammesse solo lettere";
@@ -110,10 +110,10 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       errors.display_name = "Il nome è obbligatorio";
     } else {
       if (data.display_name.length > maxlengthShort) {
-        errors.display_name = "per favore inserisci solo 100 caratteri";
+        errors.display_name = "Per favore inserisci solo 100 caratteri";
       }
       if (!regx.test(data.display_name)) {
-        errors.display_name = "sono ammesse solo lettere";
+        errors.display_name = "Sono ammesse solo lettere";
       }
     }
     if (!data.accept.trim()) {
@@ -122,7 +122,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     if (!data.email.trim()) {
       errors.email = "L'e-mail è obbligatoria";
     } else if (!isValidEmail(data.email)) {
-      errors.email = "formato email non valido";
+      errors.email = "Formato email non valido";
     }
     return errors;
   };
