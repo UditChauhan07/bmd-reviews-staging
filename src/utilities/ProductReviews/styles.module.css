@@ -292,6 +292,8 @@
 .flexPare P {
   margin: 0px 0 0px;
   color: #202020;
+  font-size: 16px;
+  font-family: var(--secondary-font-family);
 }
 
 .flexPare button {
