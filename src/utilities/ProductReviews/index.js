@@ -82,11 +82,12 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
   const validateForm = (data) => {
     const errors = {};
     const maxlength = 2000;
+    const maxlengthShort = 80;
     const regx = /^[a-zA-Z0-9 .]*$/;
     if (!data.review_title.trim()) {
       errors.review_title = "Il titolo della recensione è obbligatorio";
     } else {
-      if (data.review_title.length > maxlength) {
+      if (data.review_title.length > maxlengthShort) {
         errors.review_title = "per favore inserisci solo 2000 caratteri";
       }
       if (!regx.test(data.review_title)) {
@@ -106,7 +107,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     if (!data.display_name.trim()) {
       errors.display_name = "Il nome è obbligatorio";
     } else {
-      if (data.display_name.length > maxlength) {
+      if (data.display_name.length > maxlengthShort) {
         errors.display_name = "per favore inserisci solo 2000 caratteri";
       }
       if (!regx.test(data.display_name)) {
