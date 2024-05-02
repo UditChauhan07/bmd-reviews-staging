@@ -57,6 +57,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       );
       if (response.ok) {
         setModal1(true);
+        setModal(false);
         setFormData(initialFormData);
       } else {
         console.error("Failed to post data");
