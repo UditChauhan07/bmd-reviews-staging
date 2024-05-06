@@ -1,5 +1,6 @@
 import React from "react";
 import Script from "next/script";
+import styles from "./styles.module.css";
 
 const RECYCLEChatBubble = () => {
   return (
