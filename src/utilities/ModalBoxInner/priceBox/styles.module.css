@@ -1,1 +1,93 @@
-.holder{background-color:#000;color:#fff;position:fixed;width:100%;height:auto;bottom:0;z-index:111;padding:.5rem 2rem}.exitButton{position:absolute;right:0;top:0;z-index:50;cursor:pointer;border:1px solid #fff}.container{display:flex;flex-wrap:wrap;max-width:70%;margin:auto;font-family:var(--bmd-font-Secondary)}.dFlex{display:flex;justify-content:space-between;align-items:center;margin:2rem auto}.flexBox1{flex:1 0 50%;display:flex;flex-direction:column;justify-content:center;align-items:center}.flexBox2{flex:1 0 40%;background:#fff;margin-left:10%}.title1Holder{margin-bottom:1rem;font-weight:bolder}@media (max-width:1440px){.dFlex{margin:1rem auto}.accordionTitle{padding:10px 15px 15px}.exitButton{right:10%}}@media (max-width:1025px){.container{max-width:80%}}@media (max-width:769px){.container{max-width:100%}.dFlex{margin:1rem auto}.flexBox2{margin-left:2%;margin-right:5%}}@media (max-width:426px){.dFlex{flex-direction:column}.imgHolder{width:100px;height:100px}.title1Holder{font-size:14px}.title2Holder{font-size:12px}}
+.holder {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  z-index: 111;
+  padding: 0.5rem 2rem;
+}
+.exitButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 50;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  margin: auto;
+  font-family: var(--bmd-font-Secondary);
+}
+.dFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+}
+.flexBox1 {
+  flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexBox2 {
+  flex: 1 0 40%;
+  background: #fff;
+  margin-left: 10%;
+}
+.title1Holder {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+@media (max-width: 1440px) {
+  .dFlex {
+    margin: 1rem auto;
+  }
+  .accordionTitle {
+    padding: 10px 15px 15px;
+  }
+  .exitButton {
+    right: 10%;
+  }
+}
+@media (max-width: 1025px) {
+  .exitButton {
+    right: 4%;
+  }
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 769px) {
+  .container {
+    max-width: 100%;
+  }
+  .dFlex {
+    margin: 1rem auto;
+  }
+  .flexBox2 {
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 426px) {
+  .dFlex {
+    flex-direction: column;
+  }
+  .imgHolder {
+    width: 100px;
+    height: 100px;
+  }
+  .title1Holder {
+    font-size: 14px;
+  }
+  .title2Holder {
+    font-size: 12px;
+  }
+}
