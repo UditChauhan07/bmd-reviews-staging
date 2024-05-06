@@ -45,16 +45,13 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     }
 
     try {
-      const response = await fetch(
-        "https://api.yotpo.com/reviews/dynamic_create",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch("https://api.yotpo.com/v1/widget/reviews", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
       if (response.ok) {
         setModal1(true);
         setModal(false);
