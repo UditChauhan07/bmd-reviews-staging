@@ -260,8 +260,8 @@ ol {
   display: none;
 }
 .xyz {
-  display: block;
-  color: hsl(0, 57%, 35%);
+  display: none;
+  color: hsl(0, 68%, 46%);
   background-color: #ddd;
 }
 
