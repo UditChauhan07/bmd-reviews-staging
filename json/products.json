@@ -510,9 +510,11 @@
         "link": "/prodotti/",
         "theme": "#00aff0",
         "title": "CITRAK 3g.",
-        "review": true,
         "btnText": "Shop",
         "price": 12.00,
+        "sku":"B0BZ16481N",
+        "product_url":"https://brunomd.eu/prodotti/citrak-3g-30-bustine",
+        "product_title":"CITRAK 3G",
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",
             "discount": 15,
