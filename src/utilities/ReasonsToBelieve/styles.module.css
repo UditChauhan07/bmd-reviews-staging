@@ -135,6 +135,8 @@
 }
 .exitButton1 svg {
   padding: 25%;
+  width: 33px;
+  height: 33px;
 }
 .reasonsHeader {
   font-family: ivypresto-display, "Times New Roman", Times, serif;
