@@ -58,7 +58,7 @@ function LandingFaq({ data, theme }) {
                     </div>
                     <AccordionPanel
                       className={styles.AccordionPanel}
-                      isOpen={index === 0} // Automatically open the first accordion item
+                      isOpen={index === 0} // Automaticallyy open the first accordion item
                     >
                       <p
                         className={styles.parainner}
