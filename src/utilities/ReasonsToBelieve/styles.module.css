@@ -50,7 +50,7 @@
   width: 100vw;
   top: 0;
   left: 0;
-  z-index: 15;
+  z-index: 115;
 }
 .V2modal {
   position: fixed;
@@ -270,6 +270,7 @@
   .v2,
   .v2Container {
     max-width: 100%;
+    padding: 0 2rem;
   }
 }
 @media screen and (max-width: 1025px) {
