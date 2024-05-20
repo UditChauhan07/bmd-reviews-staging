@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./styles.module.css";
 import MarkqueCarousel from "@/utilities/MarkqueCarousel";
 import TrustBadge from "@/utilities/TrustBadges";
@@ -23,6 +23,13 @@ const Product = ({ version, script }) => {
   const [product, setProduct] = useState();
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
+  const targetRef = useRef(null);
+
+  const handleScroll = () => {
+    if (targetRef.current) {
+      targetRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   // const products = getAllProducts();
   const {
     title,
@@ -130,6 +137,7 @@ const Product = ({ version, script }) => {
       <PageHead content={seo} />
       {true && (
         <ProductCard
+          onScroll={handleScroll}
           data={{
             images: shopifyP.images.edges,
             declaimer: {
@@ -200,16 +208,18 @@ const Product = ({ version, script }) => {
               productid={EXTERNALID}
             />
           )}
-          {!review && (
-            <ProductReviews
-              product_details={{
-                sku: product.sku,
-                product_title: product.product_title,
-                product_url: product.product_url,
-              }}
-              variantId={EXTERNALID}
-            />
-          )}
+          <div ref={targetRef}>
+            {!review && (
+              <ProductReviews
+                product_details={{
+                  sku: product.sku,
+                  product_title: product.product_title,
+                  product_url: product.product_url,
+                }}
+                variantId={EXTERNALID}
+              />
+            )}
+          </div>
           {newsletter && <NewsLetter content={newsletter} />}
         </>
       )}
