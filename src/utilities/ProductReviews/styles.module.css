@@ -466,6 +466,7 @@
   .v2,
   .v2Container {
     max-width: 1024px;
+    padding: 0 2rem;
   }
 }
 
