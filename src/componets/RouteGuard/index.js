@@ -85,6 +85,9 @@ function RouteGuard({ children }) {
       if (check1[0] == "/account/login") {
         // window.location.href = "https://www.brunomd.eu/account/login";
       }
+      if (check1[0] == "/pages/joy-loyalty-page") {
+        window.location.href = "https://www.brunomd.eu/pages/joy-loyalty-page";
+      }
       authCheck(check1[0]);
       // authCheck(router.route ||router.asPath);
     }
