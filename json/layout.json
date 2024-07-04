@@ -200,7 +200,7 @@
         "cartLink":"/carrello",
         "login":{
             "title":"Accedi",
-            "url":"/account/login",
+            "url":"https://www.brunomd.eu/account/login",
             "Authurl":"/account"
         },
         "redirection":true
