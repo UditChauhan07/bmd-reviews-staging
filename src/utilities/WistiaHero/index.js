@@ -38,7 +38,8 @@ export const WistiaHero = ({
             className={styles.videoEmbbed}
             poster={video.poster}
             frameBorder="0"
-            width={windowWidth}
+            max-width={windowWidth}
+            width={"100%"}
             height={"auto"}
             autoPlay={true}
             muted
