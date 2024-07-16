@@ -159,7 +159,7 @@ const Tabs = ({ data, productColorTheme, productString = null }) => {
                               <h2>Questions</h2>
                               <Link href="/faqs">View all FAQs</Link>
                             </div>
-                            {/* <Accordion items={e.details} /> */}
+                            <Accordion items={e.details} />
                           </div>
                         ) : (
                           <div
