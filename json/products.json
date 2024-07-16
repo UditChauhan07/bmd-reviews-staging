@@ -1567,7 +1567,7 @@
             {
                 "title": "Informazioni Aggiuntive",
                 "details": [
-                    ""
+                    "Senza Lattosio, Senza Glutine, Non GMO, Senza Conservanti, Alta Biodisponibilita"
                 ]
             },
             {
@@ -1584,7 +1584,49 @@
             },
             {
                 "title":"FAQ",
-                "details":[]
+                "faq": true,
+                 "details": [
+    {
+      "title": "Per quanto tempo è consigliato il trattamento minimo per la tendinopatia? ",
+      "content": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi.  Consigliamo di seguire il trattamento per evitare recidive, la tendinopatia può durare anche più di 1 anno."
+    },
+    {
+      "title": "Qual è il dosaggio?",
+      "content": "1 bustina/giorno principalmente in 1 dose singola."
+    },
+    {
+      "title": "È meglio assumerlo prima o dopo i pasti?",
+      "content": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
+    },
+    {
+      "title": "A partire da che età si può assumere Tendoactive?",
+      "content": "Da i 12-13 anni in poi"
+    },
+    {
+      "title": "Le persone celiache o intolleranti al lattosio possono assumerlo?",
+      "content": "Sì. Non contiene glutine né lattosio."
+    },
+    {
+      "title": "È indicato per le donne in gravidanza o in allattamento?",
+      "content": "Non ci sono studi in merito. Si consiglia di consultare il medico per ulteriori chiarimenti."
+    },
+ {
+      "title": "Se il dolore tendineo si verifica a causa dell'assunzione cronica di farmaci come chinoloni o corticosteroidi, Tendoactive potrebbe essere da supporto contro il dolore? I FANS (Farmaci Antinfiammatori Non Steroidei sono adatti per il trattamento delle tendinopatie)?",
+      "content": "Non ci sono studi specifici su questo argomento, ma come dimostrato da uno degli studi clinici effettuati sul prodotto, Tendoactive sarebbe indicato in quanto uno studio ha dimostrano un effetto ristrutturante sul tendine. Inoltre, i FANS sono consigliati solo per un massimo di 4-5 giorni. Mascherare il dolore fa sì che il paziente continui a sovraccaricare il tendine e questo può causarne la cronicizzazione o la rottura, richiedendo un intervento chirurgico. Studi recenti hanno dimostrato che sono necessari più trattamenti fisiologici che promuovono la migrazione dei tenociti per riparare la struttura del tendine. E quindi, i FANS non sarebbero il trattamento appropriato. Inoltre, i FANS non possono essere assunti cronicamente a causa dei loro effetti collaterali a livello gastrointestinale, cardiovascolare, renale ed epatico."
+    },
+ {
+      "title": "Tendoactive è indicato per le distorsioni e per la fascite plantare?",
+      "content": "Non abbiamo studi specifici sulle distorsioni. Tuttavia, tenendo conto che il manganese (uno dei componenti di Tendoactive) contribuisce alla normale formazione del tessuto connettivo (tendini e legamenti) non possiamo escludere che possa avere un effetto benefico. Inoltre, Tendoactive ha dimostrato efficacia e sicurezza nei pazienti con fascite plantare nello studio pubblicato da Nadal et al nel 2009.<br/><br/>La fascia plantare è un tessuto connettivo, proprio come i tendini e i legamenti.Non dimentichiamo inoltre che le statine (farmaci ipocolesterolemizzanti) hanno effetti deleteri sulla fascia plantare e quindi Tendoactive è una buona opzione."
+    },
+ {
+      "title": "Tendoactive PLUS può essere assunto con anticoagulanti come l'acenocumarolo o il warfarin?",
+      "content": "Non ci risultano reazioni avverse o interazioni farmacologiche, ma è sempre consigliabile rivolgersi al medico perché i test INR eseguiti sui pazienti in trattamento anticoagulante potrebbero essere alterati. I test INR vengono eseguiti per aggiustare la dose di anticoagulanti."
+    },
+    {
+ "title": "I suoi ingredienti sono inclusi nelle liste di doping?",
+      "content": "No. Nessuno dei suoi ingredienti o l'intero prodotto sono nelle liste di doping."
+    }
+      ]
             },
             {
                 "title": "Blog",
