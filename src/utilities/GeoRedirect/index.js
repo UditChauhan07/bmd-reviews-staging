@@ -20,8 +20,13 @@ const GeoRedirect = ({ redirect }) => {
         }
       })
       .then((country) => {
-        //window.location = euSite;
-        // if (country != "US" && country != "IN" && country != "IT" && country != "GB") {
+        //window.location = defaultSite;
+        // if (
+        //   country != "US" &&
+        //   country != "IN" &&
+        //   country != "IT" &&
+        //   country != "GB"
+        // ) {
         //   if (country == "DE") {
         //     window.location = deSite;
         //   } else {
