@@ -1,0 +1,76 @@
+.brunoDecription {
+    text-align: center;
+}
+
+.brunoDecription h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.brunoDecription p {
+    width: 70%;
+    margin: auto;
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
+}
+
+.PhytoVideoTag {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.PhytoVideoTag1 video {
+    margin-top: 1rem !important;
+    display: none
+}
+
+@media (max-width:1024px) {
+    .brunoDecription h1 {
+        font-size: 45px;
+    }
+
+    .brunoDecription p {
+        width: 70%;
+    }
+}
+
+@media (max-width:991px) {
+    .brunoDecription h1 {
+        font-size: 40px !important;
+        margin-top: 5rem;
+    }
+
+    .brunoDecription p {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .brunoDecription {
+        position: relative;
+        top: 5rem;
+    }
+
+    .brunoDecription h1 {
+        font-size: 30px !important;
+        line-height: 24px;
+        margin-bottom: 0rem;
+        margin-top: -6rem;
+    }
+
+    .brunoDecription p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .PhytoVideoTag video {
+        display: none;
+    }
+
+    .PhytoVideoTag1 video {
+        margin-top: 6rem !important;
+        display: block !important;
+    }
+
+}
