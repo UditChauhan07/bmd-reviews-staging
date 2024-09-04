@@ -33,7 +33,7 @@ import FeatureInfo from "@/utilities/FeatureInfo";
 import LandingFaq from "@/utilities/LandingFaq";
 import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
-
+import SciencePage2 from "@/utilities/sciencePage2";
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
@@ -291,6 +291,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
+            <SciencePage2   data={pageData.footer}/>
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}

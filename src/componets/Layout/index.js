@@ -17,7 +17,7 @@ export default function Layout({ children,version,script }) {
         {data[version] &&
         <>
             {data[version].announcementBar &&<AnnouncementBar announcement={data[version].announcementBar.title} theme={{ textColor: data[version].announcementBar.textColor, backgroundColor: data[version].announcementBar.backgroundColor }} />}
-            {data[version].links &&<Header link={data[version].links} version={version} iconLink={{cart:data[version].cartLink, login:data[version].login}}/>}
+            {data[version].links && <Header link={data[version].links} version={version} iconLink={{cart:data[version].cartLink, login:data[version].login}}/>}
             <main>{children}</main>
             {script &&<DynamicChat />}
             <FeatureInfo infoBanners={data[version].featureInfo} />
