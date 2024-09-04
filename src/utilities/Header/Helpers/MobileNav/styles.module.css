@@ -26,6 +26,9 @@
     flex-direction: column;
     height: 100%;
   }
+  .mobileNavDropdownLeftWrapper a {
+ text-decoration: none;
+  }
   .mobileDropDownItem {
     font-family: var(--bmd-font-Secondary);
     font-weight: var(--bmd-Gotham-book);

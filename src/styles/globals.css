@@ -665,3 +665,42 @@ button.slick-prev {
 .slick-dots li.slick-active button:before {
   color: transparent !important;
 }
+
+
+/* Science Page-carousel Css start */
+
+.carousel-indicators [data-bs-target] {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 7% !important;
+  height: 3px !important;
+
+  background-color: rgb(55,36,107) !important;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+@media (max-width: 1920px) {
+  .carousel-indicators {
+      bottom: -9rem !important;
+  }
+}
+
+@media(max-width:430px){
+  .carousel-indicators  {
+    bottom: -6rem !important;
+  }
+}
+@media(max-width:375px){
+  .carousel-indicators [data-bs-target] {
+    width: 7% !important;
+  }
+}
+@media(max-width:320px){
+  .carousel-indicators [data-bs-target] {
+    width: 15px !important;
+  }
+}
