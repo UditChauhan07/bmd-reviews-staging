@@ -70,13 +70,14 @@
 
 .modalHeader h1 {
     color: #000;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
 }
 
 .modalHeader h2 {
     font-size: 26px;
     color: #000;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
 }
 
 .modalBody {
@@ -109,7 +110,7 @@
 }
 
 .modalBody p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     color: #000;
 }
 
@@ -162,7 +163,7 @@
 .heroImgContent h1 {
     font-size: 80px !important;
     color: rgb(0, 0, 0);
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
     -webkit-text-stroke: 0.5px #b7b7b7;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
     font-weight: bold;
@@ -172,7 +173,7 @@
 
 .heroImgContent h2 {
     margin-bottom: 1rem;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
     font-size: 40px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
 }
@@ -182,7 +183,8 @@
     font-size: 20px !important;
     text-shadow: 0px 2px 0px rgba(240, 240, 240, 0.25);
     line-height: 30px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .ancorLink {
@@ -191,7 +193,7 @@
 }
 
 .ancorLink button {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     background-color: black;
     border: none;
     font-size: 24px;
@@ -469,7 +471,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         margin: 0px;
-        font-family: 'Gotham', Times, serif;
+        font-family: var(--bmd-font-Secondary);
+
     }
 }
 @media (max-width:430px){
@@ -514,7 +517,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         margin: 0px;
-        font-family: 'Gotham', Times, serif;
+        font-family: var(--bmd-font-Secondary);
         width: 100%;
     }
 

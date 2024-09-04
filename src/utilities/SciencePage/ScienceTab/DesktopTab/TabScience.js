@@ -231,14 +231,16 @@ const [load, setLoad] = useState(true);
               >
                 <div className={styles.yellodivContent}>
                   <div className={styles.medImg}>
-                    <img src='/images/medBottel0.webp' alt='' />
+                    <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='' />
                   </div>
                   <div className={styles.medContent}>
-                    <h6>Royal Collagen Peptides</h6>
+                    <h6>Tendoactive Plus</h6>
                     <b>Bruno MD</b>
                     <div className={styles.box}>
-                      <p className={`${styles.tooltip2} ${styles.purpolTooltip}`}> 5-in-1 Skin, Hair, Nail, Joint & Bone Health
-                        <span>5-in-1 Skin, Hair, Nail, Joint & Bone Health</span>
+                      <p className={`${styles.tooltip2} ${styles.purpolTooltip}`}>  Recupero integrale dei tendini e riduzione del dolore
+
+                        <span> Recupero integrale dei tendini e riduzione del dolore
+                        </span>
                       </p>
                     </div>
                     <div className={styles.BuyBtn}>
@@ -335,7 +337,7 @@ const [load, setLoad] = useState(true);
               <span className={styles[slides3[currentIndex].className5]}></span>
               <span className={styles[slides3[currentIndex].className6]}></span>
             </div>
-            <div>
+            <div className={styles.humanpng}>
               <img src={slides3[currentIndex].image} alt="Main Slide" />
             </div>
           </div>

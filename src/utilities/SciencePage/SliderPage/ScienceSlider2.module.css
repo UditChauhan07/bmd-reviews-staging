@@ -72,13 +72,15 @@
 }
 
 .brunoDecription4 p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     line-height: 24px !important;
 }
 
 .brunoDecription4 h1 {
     font-size: 50px !important;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     color: rgb(0, 0, 0);
 }
 
@@ -97,7 +99,8 @@
 
 
 .sliderContent h6 {
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
     font-weight: bold;
@@ -130,7 +133,8 @@
 }
 
 .Pcontent {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     font-size: 13px;
 }
 
@@ -234,14 +238,16 @@
 }
 
 .sliderContent3 h3 {
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     font-size: 40px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
 
 .sliderContent3 h5 {
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     font-size: 40px;
     margin-top: 1rem;
     color: #000000;
@@ -264,7 +270,7 @@
     padding: 10px 8px;
     margin-bottom: 0rem;
     font-size: 14px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     color: #000000;
 }
 
@@ -281,7 +287,8 @@
 }
 
 .roundBtn p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     padding: 10px;
     align-items: center;
     margin-bottom: 0rem;
@@ -298,6 +305,7 @@
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
+    gap:50px;
 }
 
 .brunoImgModal {
@@ -305,6 +313,9 @@
     position: relative;
 }
 
+.brunoImgModal img{
+  width: 100%;
+}
 .modalImg {
     width: 60%;
     margin: auto;
@@ -327,7 +338,7 @@
 .modaltitle p {
     color: black;
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .modalContent {
@@ -352,7 +363,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .dollar {
@@ -386,7 +397,8 @@
     padding: 0rem 2rem 0rem 2rem;
     display: flex;
     flex-direction: column;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .stock {
@@ -485,7 +497,8 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .active2 {
@@ -496,7 +509,8 @@
     overflow: auto;
     height: 200px;
     padding: 0rem 2rem 0rem 2rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .saveContent::-webkit-scrollbar {
@@ -596,7 +610,8 @@
 
 .informatonText p {
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     font-size: 14px;
     font-weight: 400;
     color: #000;

@@ -291,7 +291,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
-<SciencePage2/>
+            <SciencePage2   data={pageData.footer}/>
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}

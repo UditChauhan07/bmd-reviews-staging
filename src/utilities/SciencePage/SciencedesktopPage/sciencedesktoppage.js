@@ -140,9 +140,10 @@ const Sciencedesktoppage = ({data}) => {
       {/* Science Slider 2 Start */}
       <ScienceSlider2 />
       {/* Science Slider 2 Start */}
+
+
     </div>
 
   );
 }
-
 export default Sciencedesktoppage;

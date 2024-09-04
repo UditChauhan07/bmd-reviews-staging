@@ -11,14 +11,15 @@ function SciencePage2() {
 
             <div className={styles.textDiv}>
                 <Link href="/science">
-                Scopri di piu’
+                    Scopri di piu’
                 </Link>
             </div>
+
         </div>
     );
 }
 
-SciencePage2.hideLayout = false;
+// SciencePage2.hideLayout = false;
 
 export default SciencePage2;
 
