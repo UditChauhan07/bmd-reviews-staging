@@ -11,12 +11,14 @@
 
 .brunoDecription2 h1 {
     font-size: 50px !important;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     color: rgb(0, 0, 0);
 }
 
 .brunoDecription2 p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     line-height: 24px !important;
 }
 
@@ -175,6 +177,7 @@
 .medImg {
     margin: auto;
     width: 30%;
+    padding: 10px;
 }
 .medImg img {
     width: 100%;
@@ -186,11 +189,13 @@
 
 .medContent h6 {
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .medContent b {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
 }
 
 .medContent p {
@@ -202,7 +207,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .purpolTooltip:hover span {
@@ -253,7 +258,7 @@
 .tooltip2 span {
     background: none repeat scroll 0 0 rgb(55, 36, 107);
     color: #ffffff;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 0.8em;
     font-weight: normal;
     line-height: 1.5em;
@@ -294,7 +299,7 @@
 }
 
 .BuyBtn button {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 16px;
     border: none;
     background-color: black;
@@ -353,12 +358,17 @@
 
 /*..... Dots Blink Css Start ......*/
 
+.humanpng img{
+    width: 100%;
+}
 .dotsDiv {
     display: flex;
     width: 100%;
     height: 100%;
     position: absolute;
 }
+
+
 
 .yelloDotsBlink2 {
     border-radius: 50%;
@@ -1196,12 +1206,12 @@
 
 .humanText h6 {
     font-weight: bold;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 18px;
 }
 
 .humanText p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 14px;
     line-height: 18px;
 
@@ -1241,7 +1251,7 @@
 .modaltitle p {
     color: black;
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .modalContent {
@@ -1266,7 +1276,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .dollar {
@@ -1299,7 +1309,7 @@
     padding: 0rem 2rem 0rem 2rem;
     display: flex;
     flex-direction: column;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .stock {
@@ -1398,7 +1408,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .active2 {
@@ -1409,7 +1419,7 @@
     overflow: auto;
     height: 200px;
     padding: 0rem 2rem 0rem 2rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
 }
 
 .saveContent::-webkit-scrollbar {
@@ -1508,7 +1518,7 @@
 
 .informatonText p {
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 14px;
     font-weight: 400;
     color: #000;

@@ -4,14 +4,15 @@
 
 .brunoDecription h1 {
     font-size: 50px !important;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     color: rgb(0, 0, 0);
 }
 
 .brunoDecription p {
     width: 70%;
     margin: auto;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     line-height: 24px !important;
 }
 

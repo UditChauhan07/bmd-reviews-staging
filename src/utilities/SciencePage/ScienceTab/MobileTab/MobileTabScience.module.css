@@ -62,7 +62,7 @@
   }
 
   .TabClick h1 {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 12px;
     margin-bottom: 0rem;
     font-weight: bold;
@@ -111,7 +111,7 @@
   }
 
   .humanDecribtion h1 {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     margin-top: 1rem;
     font-size: 12px;
     line-height: 15px;
@@ -119,7 +119,7 @@
   }
 
   .humanDecribtion p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 12px;
     line-height: 15px;
   }
@@ -173,7 +173,8 @@
   }
 
   .mobBuybtn button {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     font-size: 16px;
     line-height: 30px;
     border: none;
@@ -217,7 +218,7 @@
   .modaltitle p {
     color: black;
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     font-size: 11px;
   }
 
@@ -242,7 +243,7 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
   }
 
   .dollar {
@@ -275,7 +276,7 @@
     padding: 0rem 2rem 0rem 2rem;
     display: flex;
     flex-direction: column;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
   }
 
   .stock {
@@ -375,7 +376,8 @@
     align-items: flex-start;
     font-weight: bold;
     font-size: 16px;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
   }
 
   .active2 {
@@ -386,7 +388,8 @@
     overflow: auto;
     height: 200px;
     padding: 0rem 2rem 0rem 2rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
   }
 
   .saveContent::-webkit-scrollbar {
@@ -485,7 +488,8 @@
 
   .informatonText p {
     margin-bottom: 0rem;
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     font-size: 14px;
     font-weight: 400;
     color: #000;
