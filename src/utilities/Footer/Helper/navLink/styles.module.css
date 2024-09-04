@@ -13,9 +13,15 @@
   }
   .listNone{
     list-style: none;
+    padding:0px;
   }
   .menuItem a:hover {
     text-decoration: underline;
+  }
+
+  .menuItem a{
+    text-decoration: none;
+    color: white;
   }
   .menuItem > p{
     cursor: grab;

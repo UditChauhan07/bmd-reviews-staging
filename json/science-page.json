@@ -1,0 +1,255 @@
+{
+    "slides": [
+      {
+        "title": "Tecnologia fitosomica",
+        "subtitle": "Aumenti la disponibilità, aumenti i benefici",
+        "content": [
+        " Tendoactive Plus contiene solo ingredienti naturali, tra cui Boswellia Serrata e Curcumina, formulate con la tecnologia fitosomica. Il sistema di somministrazione biologica fitosomica migliora l'effetto terapeutico ed è stato utilizzato per migliorare l’assorbimento degli ingredienti, tra cui gli antiossidanti, i composti antinfiammatori, le vitamine e i minerali. Tendoactive Plus fornisce inoltre una nuova soluzione per la somministrazione di sostanze con scarsa solubilità, consentendo un assorbimento più efficiente ed efficace di questi composti a tessuti mirati come i tendini."
+        ],
+        "videoSrc": "/images/Reduce Pain_Increase Function 475x500_no text_ SCEINCE PAGE.mp4"
+      },
+      {
+        "title": "Effetto Recupero Raddoppiato",
+        "subtitle": "Riduzione del dolore e miglioramento della capacità funzionale",
+        "content": [
+          "La Boswellia Serrata fornisce una riduzione del dolore statisticamente significativa in solo due ore rispetto al placebo. La curcumina riduce considerevolmente il danno cellulare nei tenociti affetti da tendinopatia e, in aggiunta, raddoppia il miglioramento della capacità funzionale rispetto alla gestione standard se misurata nello stesso periodo. Questi due ingredienti naturali migliorano il recupero da lesioni nel trattamento delle tendinopatie e della fascite plantare riducendo il dolore e fornendo un recupero strutturale più rapido, diminuendo così il rischio di disabilità a lungo termine grazie alla riabilitazione.."
+        ],
+        "videoSrc": "/images/Graphics 05,06,07,08,09,10 475x500 SCIENCE PAGE.mp4"
+      },
+      {
+        "title": "Riabilita i Tendini",
+        "subtitle": "Supportata da Studi Clinici",
+        "content": [
+          "Gli studi clinici hanno dimostrato che Tendoactive aumenta la proliferazione e la vitalità dei tenociti e stimola la sintesi endogena del collagene di tipo I. Ulteriori studi confermano che la terapia Tendoattiva migliora l'organizzazione e l'allineamento delle fibre di collagene in caso di lesioni, riducendo significativamente il dolore e migliorando la funzione tendinea in combinazione con la riabilitazione, accorciando i tempi di recupero. È stato dimostrato che Tendoactive migliora la qualità del tessuto tendineo e riduce l'infiammazione e la degradazione dei tessuti."
+        ],
+        "videoSrc": "/images/Tendoactive Phytosome 475x500 SCEINCE PAGE.mp4"
+      }
+    ],
+    "tabData": [
+        {
+            "title": "Royal Collagen Peptides",
+            "subTitle": "The Science of Beauty",
+            "tabImage": "/images/Tab1.png",
+            "videoSrc": "/images/Science-BlurV.gif",
+            "modalimage": "/images/modalImgBrunoMd (1).webp",
+            "content": [
+              {
+                "heading": "YOUTHFUL SKIN, HAIR & NAILS",
+                "description": "Stimulates collagen production in fibroblasts to help reduce wrinkles and promote growth and health of hair and nails."
+              },
+              {
+                "heading": "JOINTS AND CARTILAGE",
+                "description": "Stimulates collagen production in chondrocytes to support joint and collagen function"
+              },
+              {
+                "heading": "STRONGER BONES",
+                "description": "Stimulates collagen production in osteoblasts & reduces bone fractures in women by 75%"
+              },
+              {
+                "heading": "REDUCES INFLAMMATION & BOOSTS IMMUNITY",
+                "description": "Contains natural vitamin C and Red Orange Complex with over 278% daily recommended value of Vitamin C."
+              }
+            ],
+            "buyButton": "Buy Now"
+          },
+          {
+            "title": "CholestQ10 60 v-caps",
+            "subTitle": "The Science of Heart Health",
+            "tabImage": "/images/Tab2.png",
+            "videoSrc": "/images/Science-BluRV1.gif",
+            "modalimage": "/images/modalImgBrunoMd2.webp",
+            "content": [
+              {
+                "heading": "SUPPORT CARDIOVASCULAR HEALTH",
+                "description": "Clinically-proven ingredients help support healthy cholesterol levels."
+              },
+              {
+                "heading": "FATTY LIPIDS",
+                "description": "Clinically-proven ingredients inhibit the creation of fatty lipids in the liver."
+              },
+              {
+                "heading": "OXIDATIVE DAMAGE AND COQ10",
+                "description": "Clinically-proven ingredients help protect mitochondrial DNA against oxidative damage that can lead to heart disease and significantly boost CoQ10 116% over baseline"
+              },
+              {
+                "heading": "VEGAN-FRIENDLY",
+                "description": "All ingredients in CholestQ10 are certified vegan, including the capsules."
+              }
+            ],
+            "buyButton": "Buy Now"
+          },
+          {
+            "title": "Riboflam 90 v-caps",
+            "subTitle": "The Science of Longevity",
+            "tabImage": "/images/Tab3.png",
+            "videoSrc": "/images/Science-BlurV2.gif",
+            "modalimage": "/images/modalImgBrunoMd3.webp",
+            "content": [
+              {
+                "heading": "EXERCISE PAIN RELIEF",
+                "description": "Clinically-proven ingredients help relieve post-exercise pain naturally"
+              },
+              {
+                "heading": "IMMUNITY",
+                "description": "Stimulates overall immune health, which is directly linked to your body’s ability to fight inflammation and work better, and longer"
+              },
+              {
+                "heading": "MULTISYSTEM HEALTH",
+                "description": "Clinically-proven ingredients help maintain a healthy heart and vascular system, help manage bad cholesterol levels by increasing bile production, which traps cholesterol for elimination, help reduce inflammation in the gut, improve colon health and decrease gas and bloating, and balance gut flora"
+              },
+              {
+                "heading": "MENTAL HEALTH",
+                "description": "Clinically-proven ingredients support mental clarity, focus, and cognition"
+              }
+            ],
+            "buyButton": "Buy Now"
+          },
+          {
+            "title": "Bluerex Vision 60 softgels",
+            "subTitle": "The Science of Sight",
+            "tabImage": "/images/Tab4.png",
+            "videoSrc": "/images/Science-BluRV33.gif",
+            "modalimage": "/images/modalImgBrunoMd4.webp",
+            "content": [
+              {
+                "heading": "SHIELDS THE FRONT OF THE EYE",
+                "description": "Protects the front of the eye, and lens, and strengthens ciliary muscles"
+              },
+              {
+                "heading": "SHIELDS THE BACK OF THE EYE",
+                "description": "Protects the retina from blue light damage and oxidative stress"
+              },
+              {
+                "heading": "CLINICALLY PROVEN INGREDIENTS",
+                "description": "Ingredients that deliver clinically proven results to ease symptoms of CVS (Computer Vision Syndrome)"
+              },
+              {
+                "heading": "ANTIOXIDANT PROTECTION",
+                "description": "Protects the eye from damaging free radicals"
+              }
+            ],
+            "buyButton": "Buy Now"
+          }
+    ],
+
+
+    "slides3": [
+        {
+            "image": "/images/humantab.webp",
+            "text1": "Riduzione del dolore",
+            "dec": "Significativa riduzione del dolore sia a riposo che durante attività fisica. Per una gestione sicura ed efficace delle tendinopatie e della fascite plantare.",
+            "text2": "Migliora la condizione del tendine",
+            "dec2": "Aumenta la proliferazione dei tenociti (cellule tendinee) e la vitalità stimolando la sintesi endogena del collagene di tipo I.",
+            "text3": " Efficace per molte condizioni",
+            "dec3": "Migliora la salute dei tendini: dellacuffia dei rotatori, dell’epicondilite laterale e mediale, dell’ estensore del pollice,della  fascite plantare, della rotula, del tendine d'Achille.",
+            "text4": "Migliora la capacità funzionale",
+            "dec4": "In combinazione con l'allenamento o lo stretching passivo, fornisce un significativo sollievo dal dolore e una migliore capacità funzionale, in particolare per la fase iniziale della tendinopatia del tendine d'Achille..",
+            "className": "SliderText",
+            "className2": "yelloDotsBlink2",
+            "className3": "yelloDotsBlink3",
+            "className4": "yelloDotsBlink4",
+            "className5": "yelloDotsBlink5",
+            "className6": "yelloDotsBlink6"
+          },
+          {
+            "image": "/images/humantab.webp",
+            "text1": "SUPPORT CARDIOVASCULAR HEALTH",
+            "dec": "Clinically-proven ingredients help support healthy cholesterol levels",
+            "text2": "FATTY LIPIDS",
+            "dec2": "Clinically-proven ingredients inhibit the creation of fatty lipids in the liver",
+            "text3": "OXIDATIVE DAMAGE AND COQ10",
+            "dec3": "Clinically-proven ingredients help protect mitochondrial DNA against oxidative damage that can lead to heart disease and significantly boost CoQ10 116% over baseline",
+            "text4": "VEGAN-FRIENDLY",
+            "dec4": "All ingredients in CholestQ10 are certified vegan, including the capsules",
+            "className": "SliderText1",
+            "className2": "greenDotsBlink2",
+            "className3": "greenDotsBlink3",
+            "className4": "greenDotsBlink4",
+            "className5": "greenDotsBlink5",
+            "className6": "greenDotsBlink6"
+          },
+          {
+            "image": "/images/humantab.webp",
+            "text1": "EXERCISE PAIN RELIEF",
+            "dec": "Clinically-proven ingredients help relieve post-exercise pain naturally",
+            "text2": "IMMUNITY",
+            "dec2": "Stimulates overall immune health, which is directly linked to your body’s ability to fight inflammation and work better, and longer",
+            "text3": "MULTISYSTEM HEALTH",
+            "dec3": "Clinically-proven ingredients help maintain a healthy heart and vascular system, help manage bad cholesterol levels by increasing bile production, which traps cholesterol for elimination, help reduce inflammation in the gut, improve colon health and decrease gas and bloating, and balance gut flora",
+            "text4": "MENTAL HEALTH",
+            "dec4": "Clinically-proven ingredients support mental clarity, focus, and cognition",
+            "className": "SliderText2",
+            "className2": "orangeDotsBlink2",
+            "className3": "orangeDotsBlink3",
+            "className4": "orangeDotsBlink4",
+            "className5": "orangeDotsBlink5",
+            "className6": "orangeDotsBlink6"
+          },
+          {
+            "image": "/images/humantab.webp",
+            "text1": "SHIELDS THE FRONT OF THE EYE",
+            "dec": "Protects the front of the eye, and lens, and strengthens ciliary muscles",
+            "text2": "SHIELDS THE BACK OF THE EYE",
+            "dec2": "Protects the retina from blue light damage and oxidative stress",
+            "text3": "CLINICALLY PROVEN INGREDIENTS",
+            "dec3": "Ingredients that deliver clinically proven results to ease symptoms of CVS (Computer Vision Syndrome)",
+            "text4": "ANTIOXIDANT PROTECTION",
+            "dec4": "Protects the eye from damaging free radicals",
+            "className": "SliderText3",
+            "className2": "skyDotsBlink2",
+            "className3": "skyDotsBlink3",
+            "className4": "skyDotsBlink4",
+            "className5": "skyDotsBlink5",
+            "className6": "skyDotsBlink6"
+          }
+    ],
+    "slidesData": {
+      "slides2" :
+      [
+        {
+          "image": "/images/heroSlide1.webp",
+          "title": "La scienza: un'impresa umana.",
+          "subtitle": "Quando la scienza, incontra la natura.",
+          "content": "Bruno MD si impegna a migliorare la nostra conoscenza del potenziale delle sostanze naturali nel promuovere la salute umana e prolungare la longevità.",
+          "readmore": "La scienza è un'impresa umana.  Ci aiuta a capire il mondo in cui viviamo. Bruno MD si impegna a migliorare la nostra conoscenza del potenziale delle sostanze naturali nel promuovere la salute umana e prolungare la longevità.",
+          "readmore2": "Questo obiettivo è in continuo cambiamento. Un obiettivo non facile da raggiungere. La natura non è sempre disposta a mostrarci la sua vera faccia. Un altro percorso che permette di migliorare la natura umana è sicuramente quello della farmacologia. E la Bruno Farmaceutici segue questo percorso già da anni. Oggi siamo la terza azienda farmaceutica in Italia. Conoscendo sia la forza della natura che quella della scienza farmacologica, comprendiamo che alcune soluzioni per migliorare i risultati medico sanitari sono compito delle case farmaceutiche. Tuttavia, sappiamo anche che molte malattie che portano alla necessità di un intervento farmacologico sono spesso prevenibili sfruttando i migliori ingredienti che “la Natura” ha da offrire e svelandone alcuni segreti che la “Natura” è riluttante a condividere con noi. Un ostacolo significativo nell'adozione di soluzioni naturali per migliorare salute e longevità è rappresentato dalla sfida della biodisponibilità.",
+          "readmore3": "Nella nostra attività farmaceutica, personalizziamo le molecole per interagire con il corpo umano in modo preciso e mirato con risultati ampiamente prevedibili perché le progettiamo per specifici recettori nel corpo.  La natura non gioca in questo modo. Il nostro corpo blocca molti nutrienti di origine vegetale che gioverebbero alla nostra salute. Questa limitata biodisponibilità è un risultato dell'evoluzione, e la questione è particolarmente rilevante per un particolare tipo di nutriente vegetale chiamato polifenolo."        },
+        {
+          "image": "/images/heroSlide2.webp",
+          "title": "Capire il mondo.",
+          "subtitle": "Svelando i segreti della natura",
+          "content": "I polifenoli sono composti presenti in molti alimenti di origine vegetale, come frutta, verdura, tè e vino.",
+          "readmore": "I polifenoli sono composti presenti in molti alimenti di origine vegetale, come frutta, verdura, tè e vino. Essi sono degli antiossidanti, ciò significa che possono aiutare a proteggere le nostre cellule dai danni causati dai radicali liberi. Alcuni polifenoli hanno proprietà antinfiammatorie ed altri antitumorali. Una dieta ricca di polifenoli ha vari benefici per la salute, tra cui la riduzione del rischio di malattie cardiache, del diabete e di alcuni tipi di cancro. Fino a poco tempo fa, questi antiossidanti, se inclusi negli integratori, rimanevano per lo più indisponibili per il nostro corpo. Questo significa che le proprietà dei polifenoli in un integratore alimentare, venivano solo assorbite in piccola parte. Il problema della bassa biodisponibilità è un problema reale. Il nostro corpo blocca i composti botanici come i polifenoli in due modi: con bassa solubilità in acqua ed con un limitato assorbimento intestinale. Creare un bioassorbimento ottimale senza alterare i principi attivi naturali presenti nelle piante è un obbiettivo molto complicato da raggiungere. Essendo un’azienda farmaceutica, siamo degli esperti nello sviluppo di soluzioni molecolari che aiutino ad affrontare problemi legati alla salute. Tuttavia, la nostra missione va oltre: ci impegniamo a garantire che il tuo corpo possa assorbire il 100% dei benefici nutrizionali di una pianta, senza modificarne l'essenza botanica. In altre parole, lasciamo che la “Natura” faccia ciò che sa fare meglio.",
+          "readmore2": "Per fare ciò, il processo prevede che i derivati naturali debbano bilanciare l'idrofilia (la capacità di dissolversi nei fluidi gastrointestinali) e la lipofilia (la capacità di attraversare le membrane lipidiche). A complicare questa missione c'è il fatto che tutti i polifenoli di origine vegetale hanno un profilo farmacocinetico diverso; quindi, Bruno MD utilizza una nuova tecnologia chiamata fitosoma che ottimizza la biodisponibilità di ogni composto naturale. Così facendo, il nostro corpo li assorbe nel miglior modo possibile. In definitiva, applicando la tecnologia fotosomica, gli integratori Bruno MD forniscono una percentuale più elevata (fino al 3000% in più) di polifenoli altamente benefici nel flusso sanguigno. È importante comunque sottolineare che la tecnologia fitosomica lo fa senza modificare gli ingredienti naturali stessi, e senza fare affidamento ai farmaci, rendendoli sicuri e tollerati dal nostro corpo nel tempo.",
+          "readmore3": "Bruno MD è un gruppo di prodotti che fa parte di un'unica famiglia."
+    
+        },
+
+        {
+          "image": "/images/heroSlide3.webp",
+          "title": " La zona blue della longevità.",
+          "subtitle": " Vivi una vita più sana e più a lungo",
+          "content": "Molte aziende farmaceutiche sono conglomerati internazionali su larga scala.",
+          "readmore": "Molte aziende farmaceutiche sono conglomerati internazionali su larga scala. Bruno MD è un'azienda italiana dinamica che si rinnova quotidianamente. Con sede a Roma è un’azienda gestita dalla famiglia Bruno, ragion per cui non è un'iperbole dire che trattiamo i nostri dipendenti, scienziati, medici e rappresentanti dell'azienda come membri della nostra famiglia.  Questa filosofia si estende ai nostri clienti e alle innovazioni che apportiamo loro sia nel settore farmaceutico che in quello degli integratori alimentari e dei dispositivi medici. Consideriamo la salute umana come un insieme integrato che trae vantaggio dalle abitudini fondamentali di uno stile di vita mediterraneo; consumare cibo fresco ogni giorno, mantenere relazioni sociali frequenti, coltivare legami con familiari e amici e fare passeggiate quotidiane sono ricette efficaci per la longevità, il benessere e la felicità. Questa filosofia si basa su nuove evidenze scientifiche provenienti dalle comunità delle Zone Blu sparse in tutto il mondo, dove le persone godono di una longevità e salute eccezionali. Due delle cinque Zone Blu sono situate nel Mediterraneo, una in Sardegna e l'altra sull'isola greca di Ikaria. Uno studio della dieta e degli stili di vita riscontrati in queste aree rivela notevoli somiglianze. Uomini e donne rimangono attivi e impegnati fino ai 90 anni e vivono comunemente oltre i 100. Al contrario, la durata della vita in molti paesi industrializzati è in stallo o sta diminuendo, come negli Stati Uniti ad esempio. Questa tendenza riflette la nostra filosofia: abbiamo fiducia nella medicina. Sebbene siamo esperti nello sviluppare soluzioni farmacologiche, preferiamo seguire lo stile di vita e la dieta delle Zone Blu Mediterranee per ridurre il più possibile la necessità di ricorrere a farmaci."
+            },
+        {
+          "image": "/images/heroSlide4.webp",
+          "title": " Dai campi alla tavola",
+          "subtitle": "Coltivati in territorio italiano",
+          "readmore": "Se assumi integratori alimentari, dovresti essere consapevole che gli ingredienti che consumi, come la vitamina C o E, sono spesso prodotti in laboratorio e non raccolti da fonti naturali. Sebbene questi composti appaiano identici alle loro controparti di origine naturale a livello molecolare, non sono gli stessi né forniscono benefici per la salute equivalenti. Le vitamine prodotte artificialmente non sono benefiche come le vitamine naturali dello stesso tipo perché le vitamine naturali sono accompagnate da cofattori come enzimi, minerali e altre molecole organiche che lavorano insieme per supportarne l'assorbimento, la biodisponibilità e l'utilizzo nel corpo. Sfortunatamente, questi cofattori sono spesso assenti o rimossi durante il processo di produzione delle vitamine artificiali, il che si traduce in una riduzione dell'efficacia e in un aumento del rischio di tossicità. Inoltre, le vitamine naturali sono solitamente presenti in una matrice complessa di altri composti benefici, come antiossidanti, fibre, flavonoidi e fitonutrienti, che interagiscono sinergicamente per fornire ulteriori benefici per la salute oltre alla vitamina stessa, come la vitamina C naturale. D'altra parte, le vitamine artificiali contengono in genere solo le molecole vitaminiche isolate, che mancano di questi componenti sinergici e possono persino interferire con il loro assorbimento e funzione nel corpo. Inoltre, se assunte in dosi elevate, le vitamine artificiali possono anche essere tossiche, mentre le vitamine naturali sono generalmente sicure in qualsiasi quantità. Data la nostra filosofia, non sorprende che Bruno MD si rifornisca solo di ingredienti naturali per i nostri prodotti. Ciò che potrebbe sorprendervi è che seguiamo anche la nostra filosofia mediterranea come principio fondamentale dei nostri metodi di approvvigionamento. Preferiamo lavorare con piccole aziende agricole a conduzione familiare di proprietà italiana e con persone che conosciamo. I nostri agrumi, ad esempio, provengono da una rete di frutteti situati su pochi ettari di terreno ai piedi del vulcano Etna in Sicilia. Ci riforniamo di arance rosse da queste zone perché sappiamo che gli agricoltori gestiscono operazioni biologiche, raccolgono i loro frutti a mano e raccolgono solo quando gli agrumi raggiungono il loro massimo valore nutrizionale.  Sappiamo anche che il terreno ricco di minerali alimentato dal vulcano conferisce altri co-fattori benefici come una percentuale più elevata di antociani, un composto di flavonoidi che rappresenta un potente gruppo di antiossidanti che hanno dimostrato di aiutare a domare i radicali liberi e fornire benefici antinfiammatori. Gli oltre 60+ flavonoidi presenti nel nostro complesso di arancia rossa possono favorire la salute del cuore, aiutare a mantenere i livelli di colesterolo nell'intervallo sano e aumentare la funzione cognitiva. Se i nostri ingredienti non possono essere coltivati sul suolo italiano, Bruno MD cerca in tutto il mondo agricoltori e ingredienti che siano all'altezza degli stessi standard, quindi li trasforma in prodotti che offrono una composizione alimentare al 100% e la più alta biodisponibilità disponibile."
+    
+        },
+       
+        {
+          "image": "/images/heroSlide5.webp",
+          "title": "Quando la natura incontra la scienza",
+          "subtitle": " Ingredienti clinicamente testati.",
+          "content": "Quando un'azienda presenta un reclamo, è essenziale che questo sia chiaro e verificabile. Questo è fondamentale, poiché operiamo sia nel settore farmaceutico che in quello nutrizionale.",
+          "readmore": "Quando un'azienda presenta un reclamo, questo deve essere trasparente e verificabile. Poiché siamo sia un'azienda farmaceutica che produce anche integratori alimentari, Bruno MD applica gli stessi metodi di principio per la sicurezza, la provenienza e l'efficacia su tutti i nostri prodotti, sia che si tratti di molecole che formuliamo o di quelle che acquistiamo dalla natura. Tutti gli studi clinici sui nostri ingredienti sono randomizzati, in doppio cieco, controllati con placebo e pubblicati. Inoltre, tutti gli integratori alimentari Bruno MD sono sottoposti agli stessi rigorosi processi di produzione e regolamentazione interna dei nostri prodotti farmaceutici. Infine, è garantita l'efficacia dei principi attivi in tutti i nostri prodotti farmacologici o botanici forniti con la tecnologia fitosomica. Nota: Se non sappiamo noi vivere la vita mediterranea, chi lo sa fare?."
+        }
+      ]
+      
+
+    }  
+  }
+  

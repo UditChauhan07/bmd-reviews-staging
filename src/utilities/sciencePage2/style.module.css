@@ -1,0 +1,32 @@
+
+.imgconatiner{
+    margin-top: 70px;
+}
+
+.imgconatiner img{
+width: 100%;
+}
+
+.textDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px 60px 0px;
+}
+.textDiv a{
+
+    font-family:"Gotham", "Arial", serif;
+    font-size: 16px;
+     color: rgb(0, 51, 161);
+    text-decoration: underline;
+    text-transform:uppercase;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+@media (max-width: 767px) {
+    .textDiv a {
+        font-size: 12px;
+        margin: 4px 0 0 0;
+    }
+}
