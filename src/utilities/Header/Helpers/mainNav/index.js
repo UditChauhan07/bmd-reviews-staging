@@ -22,7 +22,7 @@ const MainNav = ({ navMenuLinks,iconLink}) => {
   const router = useRouter()
   useEffect(()=>{
     CartItemNumber().then((response)=>{
-      setItemNumber(response?.data?.cart?.lines?.edges?.length>0 ? response?.data?.cart?.lines?.edges?.length:0)
+      setItemNumber(response?.data?.cart?.lines?.edges?.length>0 ? response?.data?.cart?.lines?.edges?.length:0);
     }).catch((err)=>{
       console.log({err});
     })

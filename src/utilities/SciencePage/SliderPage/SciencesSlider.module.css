@@ -1,0 +1,341 @@
+.brunoDecription3 {
+    width: 100% !important;
+    margin-top: 5rem !important;
+    text-align: center;
+    max-width: 1380px !important;
+}
+
+.brunoDecription3 p {
+    font-family: 'Gotham', Times, serif;
+    line-height: 24px !important;
+}
+
+.brunoDecription3 h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* ....Slider 2nd CSS Start */
+.SliderDiv2 {
+    max-width: 1380px !important;
+    margin: 5rem auto !important;
+}
+
+.slideData {
+    width: 100% !important;
+    max-width: 1380px !important;
+    display: flex !important;
+}
+
+.contentbackdiv {
+    width: 65%;
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.slideContent {
+    padding: 0rem 2rem 1rem 2rem;
+}
+
+.slideContent h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+
+.slideContent h2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+}
+
+.slideContent p {
+    font-family: 'Gotham', Times, serif;
+    padding-right: 1.5rem;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.pcontent::-webkit-scrollbar {
+    width: 3px;
+}
+
+.pcontent::-webkit-scrollbar-track {
+    background: #afafaf;
+}
+
+.pcontent::-webkit-scrollbar-thumb {
+    background: #000000;
+    -webkit-background-clip: padding-box;
+    border-radius: 20px;
+}
+
+.pcontent {
+    max-height: 255px;
+    overflow: auto;
+}
+
+
+.slide2Img {
+    width: 35%;
+    overflow: hidden;
+    height: 500px;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+}
+
+.slide2Img img {
+    border-radius: 20px;
+}
+
+.bothButton {
+    float: right;
+    gap: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+}
+.LeftBtn.active,
+.RightBtn.active {
+    background-color: black; 
+}
+
+/* .LeftBtn.active .svgIcon,
+.RightBtn.active .svgIcon {
+    fill: white; 
+} */
+
+
+    .LeftBtn {
+        background-color: rgb(2, 2, 2) !important;
+        height: 67px;
+        width: 67px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+    }
+
+
+
+
+.LeftBtn:hover svg path {
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+
+.RightBtn {
+    background-color: rgb(9, 9, 9) !important;
+    height: 67px;
+    width: 67px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disabled {
+    opacity: 0.2; 
+    cursor: not-allowed;
+}
+
+
+.RightBtn:hover svg path {
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+
+
+
+@media only screen and (max-width:2560px) and (min-width:1921px) {
+
+    .brunoDecription3 h1 {
+        line-height: 102px;
+        font-size: 60px !important;
+    }
+
+    .slideContent h3 {
+        font-size: 60px;
+        line-height: 65px;
+        margin-bottom: 2rem;
+    }
+
+    .slideContent h5 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .sliderContent p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .pcontent {
+        max-height: 260px;
+    }
+
+    .bothButton {
+        margin-right: 0rem;
+    }
+
+}
+
+@media (max-width:1920px) {
+    .slideContent h1 {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width:1440px) {
+    .slideData {
+        padding: 0 20px;
+    }
+
+    .slideContent h3 {
+        margin-top: -6rem;
+    }
+
+    .slideContent h1 {
+        font-size: 50px;
+    }
+
+    .bothButton {
+        margin-right: 0rem;
+    }
+
+}
+
+@media (max-width:1400px) {
+    .bothButton {
+        margin-right: 1rem !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .pcontent {
+        max-height: 170px;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .slideContent h3 {
+        font-size: 35px;
+    }
+
+    .pcontent {
+        height: 180px;
+    }
+
+    .slide2Img {
+        height: 400px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .brunoDecription3 h1 {
+        padding-top: 3rem;
+    }
+
+    .slideContent {
+        padding: 1rem;
+    }
+
+    .slideContent h3 {
+        font-size: 30px;
+        margin-top: -2rem;
+    }
+
+    .slideContent p {
+        font-size: 16px;
+    }
+
+    .pcontent {
+        height: 130px;
+    }
+
+    .bothButton {
+        margin-right: 1rem !important;
+    }
+
+}
+
+@media (max-width:767px) {
+    .brunoDecription3 {
+        margin-top: 0rem !important;
+      
+    }
+
+    .brunoDecription3 h1 {
+        font-size: 30px !important;
+        margin-bottom: 0rem;
+        padding-top: 2rem;  
+       
+    }
+
+    .brunoDecription3 p {
+        font-size: 12px;
+    }
+
+    .SliderDiv2 {
+        margin-top: 1rem !important;
+
+    }
+
+    .slideData {
+        display: block !important;
+    }
+
+    .contentbackdiv {
+        width: 100%;
+        margin-bottom: 1rem;
+
+
+    }
+
+    .slideContent {
+        text-align: center;
+    }
+
+    .slideContent h1 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .slideContent h2 {
+        font-size: 22px;
+        line-height: 24x;
+    }
+
+    .pcontent {
+        margin-top: 5px;
+        height: 175px;
+    }
+
+    .pcontent p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .slide2Img {
+        width: 100%;
+    }
+
+    .bothButton {
+        float: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+}

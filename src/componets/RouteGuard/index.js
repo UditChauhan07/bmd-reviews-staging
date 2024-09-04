@@ -162,6 +162,7 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
+      "/science"
       //"/tendo-V2",
     ];
     if (!publicPaths.length) {
