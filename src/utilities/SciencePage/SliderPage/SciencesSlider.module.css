@@ -6,13 +6,15 @@
 }
 
 .brunoDecription3 p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
+
     line-height: 24px !important;
 }
 
 .brunoDecription3 h1 {
     font-size: 50px !important;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
     color: rgb(0, 0, 0);
 }
 
@@ -46,17 +48,19 @@
 .slideContent h1 {
     color: rgba(0, 0, 0, 1);
     font-size: 40px;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
 }
 
 .slideContent h2 {
     color: rgba(0, 0, 0, 1);
     font-size: 40px;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    font-family: var(--bmd-font-Primary);
+
 }
 
 .slideContent p {
-    font-family: 'Gotham', Times, serif;
+    font-family: var(--bmd-font-Secondary);
     padding-right: 1.5rem;
     font-size: 18px;
     line-height: 28px;

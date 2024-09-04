@@ -17,43 +17,43 @@ const ScienceSlider2 = () => {
     const [selectedKeyword, setSelectedKeyword] = useState('');
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalImage2, setModalImage2] = useState('/images/modalImgBrunoMd (1).webp');
-    const [modalTitle2, setModalTitle2] = useState('Royal Collagen Peptides');
-    const [modalsubTitle2, setModalsubTitle2] = useState('The Science of Beauty');
+    const [modalTitle2, setModalTitle2] = useState('Tendoactive Plus LP');
+    const [modalsubTitle2, setModalsubTitle2] = useState('');
     
     //..... MouseEnter Function Start ....//
     const [currentSlide, setCurrentSlide] = useState(0);
     const [totalSlides, setTotalSlides] = useState(4);
 
 
-    // const handleMouseEnter = (keyword, elementId, containerId) => {
-    //     setSelectedKeyword(keyword);
-    //     const element = document.getElementById(elementId);
-    //     const container = document.getElementById(containerId);
-    //     if (element && container) {
-    //         container.scrollTop = element.offsetTop - container.offsetTop;
-    //     }
-    // };
-
     const handleMouseEnter = (keyword, elementId, containerId) => {
         setSelectedKeyword(keyword);
         const element = document.getElementById(elementId);
         const container = document.getElementById(containerId);
-    
         if (element && container) {
             container.scrollTop = element.offsetTop - container.offsetTop;
-    
-            const elementRect = element.getBoundingClientRect();
-            const containerRect = container.getBoundingClientRect();
-    
-            const isElementFullyVisible =
-                elementRect.top >= containerRect.top &&
-                elementRect.bottom <= containerRect.bottom;
-    
-            if (!isElementFullyVisible) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
         }
     };
+
+    // const handleMouseEnter = (keyword, elementId, containerId) => {
+    //     setSelectedKeyword(keyword);
+    //     const element = document.getElementById(elementId);
+    //     const container = document.getElementById(containerId);
+    
+    //     if (element && container) {
+    //         container.scrollTop = element.offsetTop - container.offsetTop;
+    
+    //         const elementRect = element.getBoundingClientRect();
+    //         const containerRect = container.getBoundingClientRect();
+    
+    //         const isElementFullyVisible =
+    //             elementRect.top >= containerRect.top &&
+    //             elementRect.bottom <= containerRect.bottom;
+    
+    //         if (!isElementFullyVisible) {
+    //             element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    //         }
+    //     }
+    // };
     
 
   
@@ -174,39 +174,39 @@ const ScienceSlider2 = () => {
 
     //..... Slider2 Function Start .....///
 
-    const goToPrev2 = () => {
-        slider2.slickPrev();
-    };
-    const goToNext2 = () => {
-        slider2.slickNext();
-    };
-    let slider2;
-    useEffect(() => {
-        setTotalSlides(slider2 ? slider2.props.children.length : 0);
-    }, []);
+    // const goToPrev2 = () => {
+    //     slider2.slickPrev();
+    // };
+    // const goToNext2 = () => {
+    //     slider2.slickNext();
+    // };
+    // let slider2;
+    // useEffect(() => {
+    //     setTotalSlides(slider2 ? slider2.props.children.length : 0);
+    // }, []);
 
 
 
-    const afterChangeHandler = (current) => {
-        setCurrentSlide(current);
-    };
+    // const afterChangeHandler = (current) => {
+    //     setCurrentSlide(current);
+    // };
 
-    const settings = {
-        dots: false,
-        infinite: false,
-        speed: 500,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: <CustomPrevArrow />,
-        nextArrow: <CustomNextArrow />,
-    };
+    // const settings = {
+    //     dots: false,
+    //     infinite: false,
+    //     speed: 500,
+    //     autoplaySpeed: 2000,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     prevArrow: <CustomPrevArrow />,
+    //     nextArrow: <CustomNextArrow />,
+    // };
     //..... Slider2 Function End .....///
 
     return (
         <div>
             <div className={styles.nextCarousel}>
-                <div className={styles.bothButton2Main}>
+                {/* <div className={styles.bothButton2Main}>
                 <div className={styles.bothButton2}>
     <div
         className={styles.LeftBtn}
@@ -271,7 +271,7 @@ const ScienceSlider2 = () => {
     </div>
 </div>
 
-                </div>
+                </div> */}
 
                 <div className={`container ${styles.SliderDiv3}`}>
                     <div className={`container ${styles.brunoDecription4}`}>
@@ -324,7 +324,7 @@ const ScienceSlider2 = () => {
                     )}
                     {/*..... Modal End .....*/}
                     <div className={styles.main_div}>
-                        <Slider ref={c => (slider2 = c)}{...settings} afterChange={afterChangeHandler}>
+                        
 
 
                             <div className={`container ${styles.slider3data}`}>
@@ -352,12 +352,12 @@ const ScienceSlider2 = () => {
                                 </div>
                                 <div className={styles.slider2Details}>
                                     <div className={styles.sliderContentIMG}>
-                                        <img src='/images/BrunoPharmaSlider.webp' alt='' />
+                                        <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='' />
                                     </div>
                                     <div className={styles.sliderContent3}>
                                         <div>
-                                            <h3>Royal Collagen Peptides</h3>
-                                            <h5>The Science of Beauty</h5>
+                                            <h3>Tendoactive Plus LP</h3>
+                                            {/* <h5>The Science of Beauty</h5> */}
                                         </div>
                                         <div className={styles.forRound}>
                                             <div className={styles.round}>
@@ -375,12 +375,12 @@ const ScienceSlider2 = () => {
                                         </div>
                                         <hr className={styles.blackHr2} />
                                         <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides', 'The Science of Beauty',"tendoactive-plus-20-stick")}>Buy Now</p></div>
+                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', 'Royal Collagen Peptides', 'The Science of Beauty',"tendoactive-plus-20-stick")}>Buy Now</p></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.slider3data}>
+                            {/* <div className={styles.slider3data}>
                                 <div className={styles.sliderContent}>
                                     <h6>For Healthy Cholesterol levels</h6>
                                     <div className={styles.forscrollbar} id="scrollableContainer-2" style={{ overflowY: 'scroll', }}>
@@ -550,12 +550,12 @@ const ScienceSlider2 = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </Slider>
+                            </div> */}
+                    
                     </div>
 
 
-                    <div className={styles.bothButton2Main2}>
+                    {/* <div className={styles.bothButton2Main2}>
                         <div className={styles.bothButton2Main2}>
                         <div className={styles.bothButton3}>
     <div
@@ -633,27 +633,27 @@ const ScienceSlider2 = () => {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
         </div>
     )
 }
-const CustomPrevArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-        <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
-            Custom Left Button
-        </div>
-    );
-};
-const CustomNextArrow = (props) => {
-    const { className, onClick } = props;
-    return (
-        <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
-            Custom Right Button
-        </div>
-    );
-};
+// const CustomPrevArrow = (props) => {
+//     const { className, onClick } = props;
+//     return (
+//         <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
+//             Custom Left Button
+//         </div>
+//     );
+// };
+// const CustomNextArrow = (props) => {
+//     const { className, onClick } = props;
+//     return (
+//         <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
+//             Custom Right Button
+//         </div>
+//     );
+// };
 export default ScienceSlider2
