@@ -298,6 +298,7 @@
     justify-content: center;
     background-color: #000000;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 /* ..... Modal css Start .....*/
