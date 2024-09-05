@@ -154,7 +154,7 @@
 
     50% {
         transform: scale(1.1);
-        background-color: rgb(55, 36, 107);
+        background-color: rgb(0, 51, 161);;
         color: white;
     }
 
@@ -567,7 +567,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    color: rgb(86, 0, 140);
+    color: rgb(0, 51, 161);;
     display: flex;
     align-items: center;
 }
@@ -586,8 +586,8 @@
 }
 
 .UpArrow svg path {
-    fill: rgb(86, 0, 140);
-    stroke: rgb(86, 0, 140);
+    fill: rgb(0, 51, 161);
+    stroke:rgb(0, 51, 161);
 
 }
 

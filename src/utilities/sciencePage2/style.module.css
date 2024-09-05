@@ -9,9 +9,20 @@ width: 100%;
 
 .textDiv{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 25px 0px 60px 0px;
+    margin: -9px 0px 60px 0px;
+    gap: 10px;
+}
+.textDiv h2{
+    color: rgb(0, 51, 161);
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 28px 0 10px 0;
+    font-family: var(--bmd-font-Secondary);
 }
 .textDiv a{
 
