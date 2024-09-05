@@ -1222,11 +1222,15 @@
 .mainModalDiv {
     margin: 2rem 4rem 2rem 4rem;
     display: flex;
+    gap: 50px;
 }
 
 .brunoImgModal {
     left: 1rem;
     position: relative;
+}
+.brunoImgModal img{
+    width: 100%;
 }
 
 .modalImg {
