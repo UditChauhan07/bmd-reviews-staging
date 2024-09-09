@@ -11,6 +11,7 @@ import ScienceNewVideo from '@/utilities/SciencePage/ScienceVideo/ScienceNewVide
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import Modal from '../ModalSciencePage/Modal';
+import TendoActive from '../tenoactive/TendoActive';
 
 const Sciencedesktoppage = ({data}) => {
 
@@ -129,8 +130,14 @@ const Sciencedesktoppage = ({data}) => {
 
 
       {/* Human Tab Section Start */}
-      <TabScience  data={data}/>
+      {/* <TabScience  data={data}/> */}
       {/* Human Tab Section End */}
+
+           {/* tendoActive Section Start */}
+           <TendoActive/>
+           {/* tendoActive Section End */}
+
+
 
       {/* Science Slider 1  Start*/}
       <SciencesSlider data={data} />
