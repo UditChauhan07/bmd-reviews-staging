@@ -1,0 +1,286 @@
+.brunoDecription2 {
+    width: 100% !important;
+    margin-top: 3rem !important;
+    text-align: center !important;
+    max-width: 1380px !important;
+}
+
+.bruno3000 {
+    text-align: center !important;
+}
+
+.brunoDecription2 h1 {
+    font-size: 50px !important;
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    color: rgb(0, 0, 0);
+}
+.tendoProductDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tendoProduct {
+    border: 2px solid #0033A1;
+    width: 34%;
+    border-radius: 34px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.tendoImg {
+    margin: auto;
+    width: 30%;
+    /* border: 1px solid rgb(0, 60, 255); */
+}
+
+.tendoImg img {
+    width: 100%;
+}
+
+.tendoContent {
+    /* border: 1px solid rgb(3, 3, 3); */
+    width: 70%;
+}
+
+.tendoContent h1 {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.tendoContent h2 {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.tendoContent p {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+    color: #103450;
+    margin-bottom: 0px;
+}
+
+.tendoButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.tendoMedcolor {
+    background-color: #0033A1;
+    height: 20px;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.tendoButton button {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 4px 18px;
+}
+
+.tendoDecriptionmain {
+    margin: auto;
+    display: flex;
+    width: 100% !important;
+    max-width: 1380px !important;
+    display: flex !important;
+    padding: 20px;
+}
+
+.tendoDetailmain {
+    margin-top: 1rem;
+}
+
+.tendoDetailmain2 {
+    display: none;
+}
+
+.tendoBox {
+    width: 33%;
+}
+
+.tendoBox2 {
+    width: 33%;
+}
+
+.tendoDetail {
+    display: flex;
+    border: 2px solid #0033a13f;
+    border-radius: 34px;
+    background-color: rgba(215, 210, 240, .267);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.rightLine {
+    border-right: 4px solid #0033A1;
+    height: 140px;
+}
+
+.tendotext {
+    padding: 0 20px;
+}
+
+.tendotext h1 {
+    font-weight: 700;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 18px;
+}
+
+.tendotext p {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+
+.humanMain {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.humanMain img {
+    /* height: 100%; */
+width: 55%;   
+}
+@media only screen and (max-width:2560px) and (min-width:1920px) {
+    .tendoDecriptionmain{
+        margin-top: 3rem;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:1919px) and (min-width:1441px) {
+    .tendoDecriptionmain{
+        margin-top: 2rem;
+        padding: 0px;
+    }
+}
+@media (max-width:1440px) {
+    .tendoDecriptionmain{
+        padding: 0px;
+    }
+}
+@media (max-width:1400px) {
+    .tendoDecriptionmain{
+        padding: 20px;
+    }
+}
+@media (max-width:991px) {
+    .tendoProduct {
+        width: 50%;
+    }
+
+    .tendoBox {
+        width: 50%;
+    }
+
+    .tendoBox2 {
+        width: 50%;
+    }
+
+    .humanMain {
+        width: 50%;
+
+    }
+}
+
+@media (max-width:900px) {
+    .tendoBox {
+        height: 400px;
+        overflow: auto;
+        padding-right: 20px;
+        width: 70%;
+    }
+
+    .tendoBox2 {
+        display: none;
+    }
+
+    .tendoDetailmain2 {
+        display: block;
+    }
+
+    .rightLine {
+        height: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    .brunoDecription2 h1{
+        font-size: 30px !important;
+    }
+    .tendoButton button {
+        font-size: 12px;
+    }
+
+    .tendotext h1 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .tendotext h2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:650px) {
+    .tendoProduct {
+        width: 70%;
+    }
+}
+
+@media (max-width:550px) {
+    .tendoDecriptionmain {
+        display: block !important;
+        margin-top: 1rem;
+    }
+
+    .tendoBox {
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .humanMain {
+        margin:1rem auto;
+    }
+    .humanMain img{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:500px) {
+    .tendoProduct {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:375px) {
+    .tendotext {
+        padding: 0 0px 0px 10px;
+    }
+
+    .tendotext p {
+        font-size: 13px;
+    }
+    .rightLine{
+        height: 105px;
+    }
+}
