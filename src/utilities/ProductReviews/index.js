@@ -66,6 +66,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const [modal, setModal] = React.useState(false);
   const [modal1, setModal1] = React.useState(false);
+  const reviewContainerRef = useRef(null)
 
   const handleClick = () => {
     setModal(true);
@@ -164,7 +165,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
   return (
     <section id="review_ingredients" className={styles.ingredientsHolder}>
       <div
-        className={`${styles.reviewContainerV2} ${styles.v2}  ${styles.BtnAlign}`}
+        className={`${styles.reviewContainerV2} ${styles.v2}  ${styles.BtnAlign}`}  ref={reviewContainerRef}
       >
         <h3 className={styles.reviewHeader}>
           <p>Recensioni dei clienti</p>

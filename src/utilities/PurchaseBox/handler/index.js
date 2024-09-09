@@ -18,7 +18,8 @@ const Handler = ({ data, variantId, ActiveBox = null }) => {
   );
   if (!data) return null;
   return (
-    <div className={styles.accordionItem}>
+  <div>
+<div className={styles.accordionItem}>
       {!data.priceBox.oneTime.hide && (
         <>
           <div
@@ -131,6 +132,8 @@ const Handler = ({ data, variantId, ActiveBox = null }) => {
         </>
       )}
     </div>
+  </div>
+    
   );
 };
 
