@@ -16,9 +16,9 @@ const ScienceSlider2 = () => {
     const [rechargeProduct, setRProduct] = useState();
     const [selectedKeyword, setSelectedKeyword] = useState('');
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [modalImage2, setModalImage2] = useState('/images/modalImgBrunoMd (1).webp');
-    const [modalTitle2, setModalTitle2] = useState('Tendoactive Plus LP');
-    const [modalsubTitle2, setModalsubTitle2] = useState('');
+    const [modalImage2, setModalImage2] = useState('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp');
+    const [modalTitle2, setModalTitle2] = useState('');
+    // const [modalsubTitle2, setModalsubTitle2] = useState('');
     
     //..... MouseEnter Function Start ....//
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -163,13 +163,13 @@ const ScienceSlider2 = () => {
     // ..... Accordian and Modal Function Start .....//
    
     const handleCloseModal = () => setIsModalOpen(false);
-    const handleShow = (imageSrc2, title2, subTitle2, product) => {
+    const handleShow = (imageSrc2, title2, product) => {
         setModalImage2(imageSrc2);
         setModalTitle2(title2);
-        setModalsubTitle2(subTitle2)
         getProductData(product)
         setIsModalOpen(true)
     }
+    
     // ..... Accordian and Modal Function Start .....//
 
     //..... Slider2 Function Start .....///
@@ -292,7 +292,7 @@ const ScienceSlider2 = () => {
                                         </div>
                                         <div className={styles.modaltitle}>
                                             <h6>{modalTitle2}</h6>
-                                            <p>{modalsubTitle2}</p>
+                                            <p>{""}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -375,7 +375,7 @@ const ScienceSlider2 = () => {
                                         </div>
                                         <hr className={styles.blackHr2} />
                                         <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', 'Royal Collagen Peptides', 'The Science of Beauty',"tendoactive-plus-20-stick")}>Buy Now</p></div>
+                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', "tendoactive-plus-20-stick","tendoactive-plus-20-stick")}>Buy Now</p></div>
                                         </div>
                                     </div>
                                 </div>
