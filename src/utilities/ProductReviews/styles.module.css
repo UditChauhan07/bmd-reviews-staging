@@ -395,6 +395,9 @@
 .reviewHeader p {
   text-align: start;
 }
+.ingredientsHolder {
+  scroll-margin-top: 60px;
+}
 .BtnAlign {
   display: flex;
   justify-content: space-between;
