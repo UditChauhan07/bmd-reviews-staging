@@ -105,7 +105,9 @@
   margin: 20px 0;
   cursor: pointer;
 }
-
+.buyNowBtn p{
+  margin-bottom: 0px;
+}
 .selectDiv {
   /* width: 108px; */
   height: 25px;

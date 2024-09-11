@@ -37,7 +37,7 @@
   
   .modalContent {
     margin-top: 3rem;
-    height: 500px;
+    height: 470px;
     overflow: auto;
   }
   .modalContent::-webkit-scrollbar {
@@ -56,8 +56,17 @@
 .modalContent::-webkit-scrollbar-thumb:hover {
     background: #828282;
 }
-  
-@media(max-width:767px){
+@media (max-width:1024px){
+  .modalContent{
+    max-height: 400px;
+  }
+}
+  @media (max-width:991px){
+    .modalContent{
+      max-height: 350px;
+    }
+  }
+@media(max-width:768px){
   .modal{
     max-height: 460px;
   }

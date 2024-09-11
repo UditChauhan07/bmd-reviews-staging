@@ -24,9 +24,8 @@ const [load, setLoad] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
   const [isVisible, setIsVisible] = useState(false);
-  const [modalImage, setModalImage] = useState('/images/modalImgBrunoMd (1).webp');
-  const [modalTitle, setModalTitle] = useState('Royal Collagen Peptides');
-  const [modalsubTitle, setModalsubTitle] = useState('The Science of Beauty');
+  const [modalImage, setModalImage] = useState('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp');
+  const [modalTitle, setModalTitle] = useState('tendoactive-plus-20-stick');
 
 
   const toggleVisibility = () => {
@@ -152,7 +151,7 @@ const [load, setLoad] = useState(true);
   const handleShow = (imageSrc, title, subTitle , product) => {
     setModalImage(imageSrc);
     setModalTitle(title);
-    setModalsubTitle(subTitle)
+    // setModalsubTitle(subTitle)
     getProductData(product);
     setIsModalOpen(true);
   };
@@ -177,7 +176,7 @@ const [load, setLoad] = useState(true);
                 </div>
                 <div className={styles.modaltitle}>
                   <h6>{modalTitle}</h6>
-                  <p>{modalsubTitle}</p>
+                  {/* <p>{modalsubTitle}</p> */}
                 </div>
               </div>
             </div>
@@ -245,7 +244,7 @@ const [load, setLoad] = useState(true);
                     </div>
                     <div className={styles.BuyBtn}>
                       <div className={styles.medcoloryellow}></div>
-                      <div><button onClick={() => handleShow('/images/modalImgBrunoMd (1).webp', 'Royal Collagen Peptides', 'The Science of Beauty',"tendoactive-plus-20-stick")}>Buy Now</button></div>
+                      <div><button onClick={() => handleShow('images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', "tendoactive-plus-20-stick", "tendoactive-plus-20-stick","tendoactive-plus-20-stick")}>Buy Now</button></div>
                     </div>
                   </div>
 

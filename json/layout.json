@@ -8,10 +8,7 @@
         "links": [
             {
                 "subMenuLinks": [
-                    {
-                        "url": "/collezioni/salute-della-pelle",
-                        "displayText": "PELLE"
-                    },
+                  
                     {
                         "url": "/collezioni/occhi",
                         "displayText": "OCCHI"
@@ -203,6 +200,100 @@
             "url":"https://www.brunomd.eu/account/login",
             "Authurl":"/account"
         },
+        "footer2": {
+            "links": [
+                {
+                    "url": "/collections/all-products",
+                    "title": "Prodotti",
+                    "name": "Products",
+                    "navMenuLinks": [
+                     
+                        {
+                            "name": "Tendoactive Plus",
+                            "url": "/prodotti/tendoactive-plus-20-stick"
+                        }
+                      
+                       
+                    ]
+                },
+                {
+                    "url": "",
+                    "title": "Chi siamo",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "La nostra storia",
+                            "url": "/la-nostra-storia"
+                        },
+                        {
+                            "name": "Responsabilità sociale",
+                            "url": "/responsabilita-sociale"
+                        },
+                        {
+                            "name": "Domande Frequenti",
+                            "url": "/domande-frequenti"
+                        },
+                        {
+                            "name": "Contattaci",
+                            "url": "/contattaci"
+                        },
+                        {
+                            "name": "Spedizioni",
+                            "url": "/politica-di-spedizione"
+                        },
+                        {
+                            "name": "Portale per il reso",
+                            "url": "https://pharmalab.return-order.com"
+                        },
+                        {
+                            "name": "Reso",
+                            "url": "/politica-di-restituzione-e-cancellazione"
+                        },
+                        {
+                            "name": "Termini e condizioni di vendita",
+                            "url": "/termini-e-condizioni"
+                        },
+                        {
+                            "name": "Termini e condizioni di privacy",
+                            "url": "/politica-sullariservatezza"
+                        }
+                    ]
+                },
+                {
+                    "url": "",
+                    "title": "Centro di Distribuzione",
+                    "name": "Company",
+                    "navMenuLinks": [
+                        {
+                            "name": "Pharmalab S.r.l.",
+                            "url": "#"
+                        },
+                        {
+                            "name": "Via dell’Artigianato, 83",
+                            "url": "#"
+                        },
+                        {
+                            "name": "30023 Concordia Sagittaria",
+                            "url": "#"
+                        },
+                        {
+                            "name": "VE",
+                            "url": "#"
+                        },
+                        {
+                            "name": "",
+                            "url": "#"
+                        },
+                        {
+                            "name": "Codice Fiscale e P.Iva : 11462711000",
+                            "url": "#"
+                        }
+                    ]
+                }
+            ],
+            "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
+        },
         "redirection":true
     }
+  
 }
