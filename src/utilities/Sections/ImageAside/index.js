@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-const ImageAside = ({ content,theme }) => {
+const ImageAside = ({ content,theme,onReviewClick }) => {
     const { image, title, subTitle, titleDescription, legalText,subTitleColor,titleColor } = content
     if (!title || !subTitle) return null
     return (
@@ -11,6 +11,8 @@ const ImageAside = ({ content,theme }) => {
                     <div className={styles.headingContainer}>
                         <div className={styles.title} dangerouslySetInnerHTML={{ __html: title }} style={titleColor&&{color:theme.backgroundColor}}/>
                         <div className={styles.subTitle} dangerouslySetInnerHTML={{ __html: subTitle }} style={subTitleColor&&{color:theme.backgroundColor}}/>
+                        {/* <h1 onClick={onReviewClick}>Review</h1> */}
+                      
                         <div className={styles.mt15}>
                             {titleDescription.length && titleDescription.map((e,i)=>{
                                 return(
@@ -20,6 +22,7 @@ const ImageAside = ({ content,theme }) => {
                             {legalText && <div className={styles.legal} dangerouslySetInnerHTML={{ __html: legalText }} />}
                         </div>
                     </div>
+
                     {image && <div className={styles.imageContainer} style={image?.shift ?{bottom:'200px'}:{}}>
                         <img src={image?.src} className={styles.image} alt={image?.alt} />
                     </div>}

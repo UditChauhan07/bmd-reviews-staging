@@ -78,7 +78,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Nubit-9O3A5730.webp"
-                }
+                }, 
+                  "hide":true
             },
             {
                 "EXTERNALID": "8098256224571",
@@ -89,7 +90,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
-                }
+                },
+                "hide":true
             },
             {
                 "EXTERNALID": "8127313936699",
@@ -100,7 +102,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Silverphage-9O3A5964_1.webp"
-                }
+                },
+                "hide":true
             },
             {
                 "EXTERNALID": "8615981285701",
@@ -147,7 +150,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Silverphage-Crema_Gel-9O3A5808.webp"
-                }
+                },
+                "hide":true
             }
         ],
         "align": "left",
@@ -196,7 +200,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Silverphage-9O3A5964_1.webp"
-                }
+                },
+                "hide":true
             }
         ],
         "align": "left",
@@ -272,7 +277,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\01-BMD-Nubit-9O3A5730.webp"
-                }
+                },
+                "hide":true
             },
             {
                 "EXTERNALID": "8097683702075",

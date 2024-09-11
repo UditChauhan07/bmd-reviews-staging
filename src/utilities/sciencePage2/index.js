@@ -10,6 +10,7 @@ function SciencePage2() {
             </div>
 
             <div className={styles.textDiv}>
+                <h2>La Scienza per Bruno MD</h2> 
                 <Link href="/science">
                     Scopri di piu’
                 </Link>
