@@ -162,10 +162,14 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
     console.log({ product, variantId, productId });
   }, [productId]);
 
+
+
+ 
+
   return (
     <section id="review_ingredients" className={styles.ingredientsHolder}>
       <div
-        className={`${styles.reviewContainerV2} ${styles.v2}  ${styles.BtnAlign}`}  ref={reviewContainerRef}
+        className={`${styles.reviewContainerV2} ${styles.v2}  ${styles.BtnAlign}`} 
       >
         <h3 className={styles.reviewHeader}>
           <p>Recensioni dei clienti</p>

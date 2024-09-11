@@ -41,7 +41,7 @@ const LandingPage = ({ version, script, page }) => {
   const VideoRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
- 
+  const reviewContainerRef = useRef(null);
   const ModalHandler = (e) => {
     const { value } = e.target.dataset;
     if (value) {
@@ -51,6 +51,17 @@ const LandingPage = ({ version, script, page }) => {
     }
     setIsOpen(!isOpen);
   };
+  const highlightReviewContainer = () => {
+    const reviewContainer = document.getElementById('review_ingredients');
+    if (reviewContainer) {
+      reviewContainer.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' 
+      });
+    }  
+  }
+  
+  
 
   useEffect(() => {
     if (pageData.externalId) {
@@ -206,6 +217,7 @@ const LandingPage = ({ version, script, page }) => {
             <ImageAside
               content={pageData.ImageAside}
               theme={pageData.announcement.theme}
+              onReviewClick={highlightReviewContainer}
             />
           )}
           {pageData?.ProductArticleModal && (
@@ -309,11 +321,15 @@ const LandingPage = ({ version, script, page }) => {
                 pageData?.externalId &&
                 !pageData?.isHideScript && (
                   <ProductReviews
+                  onReviewClick={highlightReviewContainer}
+
                     product_details={{
                       sku: pageData.sku,
                       product_title: pageData.product_title,
                       product_url: pageData.product_url,
+
                     }}
+                    
                     variantId={pageData.externalId}
                   />
                 )}

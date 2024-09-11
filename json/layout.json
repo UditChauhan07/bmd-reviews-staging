@@ -8,10 +8,7 @@
         "links": [
             {
                 "subMenuLinks": [
-                    {
-                        "url": "/collezioni/salute-della-pelle",
-                        "displayText": "PELLE"
-                    },
+                  
                     {
                         "url": "/collezioni/occhi",
                         "displayText": "OCCHI"
