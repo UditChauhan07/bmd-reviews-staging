@@ -51,6 +51,7 @@
     padding-top: 1rem;
     padding-bottom: 3rem;
     overflow-x: hidden;
+    height: fit-content;
   }
   .collectionHeader {
     font-family: ivypresto-display, 'Times New Roman', Times, serif;
