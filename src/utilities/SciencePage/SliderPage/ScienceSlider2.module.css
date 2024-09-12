@@ -297,6 +297,9 @@
 /* ToolTip Css End */
 
 .modalToolTip h1{
+    position: sticky;
+    top: 0rem;
+    background-color: #ffffff;
     font-size: 22px;
     color: rgb(0, 0, 0);
     font-family: var(--bmd-font-Primary);
@@ -1039,7 +1042,8 @@
 
     .forRound {
         max-height: 230px;
-        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     .bothButton2Main {

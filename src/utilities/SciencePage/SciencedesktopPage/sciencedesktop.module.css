@@ -66,7 +66,12 @@
 
 
 
+.modalHeader{
+    position: sticky;
+    top: 0rem;
+    background-color: #ffffff;
 
+}
 
 .modalHeader h1 {
     color: #000;
@@ -104,7 +109,7 @@
 }
 
 .modalBody {
-    overflow: auto;
+    overflow-y: hidden;
     height: 300px;
     padding: 0rem 1rem 0rem 0rem;
 }
