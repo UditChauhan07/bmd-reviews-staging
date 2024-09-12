@@ -103,19 +103,28 @@
 }
 
 .tendoDetailmain {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
-
-.tendoDetailmain2 {
+.MobtendoDetailmain2{
     display: none;
+}
+.tendoDetailmain2 {
+    cursor: pointer;
+  
 }
 
 .tendoBox {
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .tendoBox2 {
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .tendoDetail {
@@ -124,9 +133,22 @@
     border-radius: 34px;
     background-color: rgba(215, 210, 240, .267);
     padding: 1.5rem;
-    margin-bottom: 2rem;
+    cursor: pointer;
+    position: relative;
 }
-
+.active::after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #0033A1;
+    bottom: -15px;
+    top: 5.6rem;
+    right: -22px;
+    transform: rotate(270deg);
+}
 .rightLine {
     border-right: 4px solid #0033A1;
     height: 140px;
@@ -157,9 +179,199 @@
 }
 
 .humanMain img {
-    /* height: 100%; */
 width: 55%;   
 }
+.active {
+    border: 3px solid #0033A1;
+    background-color: rgb(255, 255, 255);
+}
+
+.inactive {
+    display: flex;
+    border: 1px solid #0033a13f;
+    border-radius: 34px;
+    background-color: rgba(215, 210, 240, .267);
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+/* .activeBorder{
+    border: 2px solid rgba(9, 68, 149, 1);
+    border-radius: 34px;
+} */
+
+.blueDotsBlink {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9, 68, 149, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.blueDotsBlink::before {
+    content: "";
+    border: 5px solid rgba(9, 68, 149, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.blueDotsBlink2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9, 68, 149, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.blueDotsBlink2::before {
+    content: "";
+    border: 5px solid rgba(9, 68, 149, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.blueDotsBlink3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9, 68, 149, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.blueDotsBlink3::before {
+    content: "";
+    border: 5px solid rgba(9, 68, 149, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+
+.blueDotsBlink4{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(9, 68, 149, 1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.blueDotsBlink4::before {
+    content: "";
+    border: 5px solid rgba(9, 68, 149, 1);
+    border-radius: inherit;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media only screen and (max-width:2560px) and (min-width:1920px) {
     .tendoDecriptionmain{
         margin-top: 3rem;
@@ -213,10 +425,11 @@ width: 55%;
         display: none;
     }
 
-    .tendoDetailmain2 {
+   
+    .MobtendoDetailmain2{
+        cursor: pointer;
         display: block;
     }
-
     .rightLine {
         height: 90px;
     }
