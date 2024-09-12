@@ -42,18 +42,6 @@ const Sciencedesktoppage = ({data}) => {
       carouselRef.current.next();
     }
   };
-// console.log("dyus",slides2);
-
-
-  // ....Modal function Start..//
-  // const handleClose = () => setShow(false);
-  // const handleShow = (index) => {
-  //   setShow(true);
-  //   setActiveSlideIndex(index);
-  // };
-  // modal function End.../
-
-  
 
   return (
 
