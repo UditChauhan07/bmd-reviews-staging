@@ -85,13 +85,33 @@
   line-height: normal;
 }
 
-.Review{
+.Review {
+    position: relative; /* Ensure relative positioning for the pseudo-element */
     display: flex;
     line-height: 1.6rem;
     margin-bottom: 15px;
     align-items: center;
     cursor: pointer;
+    overflow: hidden; /* Hide overflow for smooth border effect */
 }
+
+.Review::after {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%; 
+    height: 2px;
+    background-color: rgb(0, 51, 161); 
+    transform: translateX(-110%); 
+    transition: transform 0.4s ease; 
+}
+
+.Review:hover::after {
+    transform: translateX(0); 
+}
+
+
 .Review h1{
     font-family:  var(--bmd-font-Secondary);
     font-size: 48px;
@@ -178,6 +198,9 @@
   .container {
     margin-bottom: 1em;
   }
+  .Review::after {
+    width: 25%; 
+}
 }
 @media screen and (max-width: 1025px) {
   .dFlexv2 {
@@ -188,6 +211,11 @@
     width: 80%;
   }
 }
+@media screen and (max-width: 768px) {
+    .Review::after {
+        width: 35%; 
+    }
+}
 @media screen and (max-width: 500px) {
   .exitButton {
     right: -2px;
@@ -195,9 +223,18 @@
   .col2v2 {
     width: 100%;
   }
+  .Review::after {
+    width: 45%; 
+}
 }
 @media screen and (max-width: 426px) {
   .col2v2 {
     padding: 0 1rem;
   }
+}
+@media screen and (max-width: 426px) {
+
+.Review::after {
+    width: 60%; 
+}
 }
