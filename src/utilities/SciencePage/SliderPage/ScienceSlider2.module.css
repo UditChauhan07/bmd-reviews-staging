@@ -265,6 +265,52 @@
     border: 1px solid rgb(2, 2, 2);
     cursor: pointer;
 }
+/* ToolTip Css start */
+
+.tooltip2 {
+    position: relative;
+    cursor: pointer; /* Changes the cursor to a pointer */
+  }
+  
+  .tooltip2 span {
+    visibility: hidden; /* Initially hide the tooltip text */
+    width: 200px; /* Set a width for the tooltip */
+    background-color: #000000; /* Background color for the tooltip */
+    color: #fff; /* Text color */
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position it above the text */
+    left: 50%;
+    margin-left: -100px; /* Center the tooltip */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition for showing/hiding */
+  }
+  
+  .tooltip2:hover span {
+    visibility: visible; /* Show the tooltip on hover */
+    opacity: 1; /* Fade-in effect */
+  }
+   
+/* ToolTip Css End */
+
+.modalToolTip h1{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: var(--bmd-font-Primary);
+}
+.modalToolTip h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: var(--bmd-font-Primary);
+}
+.modalToolTip p{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: var(--bmd-font-Secondary);
+}
 
 .round p {
     padding: 10px 8px;

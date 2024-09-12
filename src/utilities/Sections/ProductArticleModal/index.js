@@ -7,6 +7,7 @@ const ProductArticleModal = ({
   ModalHandler,
   priceBox = null,
   variantId = null,
+  onReviewClick
 }) => {
   const [isDesktopImage] = useMatchMedia("(min-width: 1024px)", true);
   if (priceBox) {
@@ -32,7 +33,17 @@ const ProductArticleModal = ({
               fetchpriority="high"
             />
           )}
+
+
           <div className={styles.col2v2}>
+            <div className={styles.Review} onClick={onReviewClick}>
+              <h1 >5</h1>
+              <div >
+                <div className={styles.ratings}>★★★★★</div>
+                <div className={styles.ratingsP}>
+                  Basato su 2 recensioni</div>
+              </div>
+            </div>
             <PurchaseBox data={priceBox} variantId={variantId} />
           </div>
         </div>
