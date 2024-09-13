@@ -45,7 +45,7 @@ const tooltipData = [
         modalHeading:'Curcumin is an in vivo inhibitor of angiogenesis',
         Abstract: "Abstract",
         Background: "Curcumin is a small-molecular-weight compound that is isolated from the commonly used spice turmeric. In animal models, curcumin and its derivatives have been shown to inhibit the progression of chemically induced colon and skin cancers. The genetic changes in carcinogenesis in these organs involve different genes, but curcumin is effective in preventing carcinogenesis in both organs. A possible explanation for this finding is that curcumin may inhibit angiogenesis.",
-        Methods:'Curcumin was tested for its ability to inhibit the proliferation of primary endothelial cells in the presence and absence of basic fibroblast growth factor (bFGF), as well as its ability to inhibit proliferation of an immortalized endothelial cell line. Curcumin and its derivatives were subsequently tested for their ability to inhibit bFGF-induced corneal neovascularization in the mouse cornea. Finally, curcumin was tested for its ability to inhibit phorbol ester-stimulated vascular endothelial growth factor (VEGF) mRNA production.',
+        Materials:'Curcumin was tested for its ability to inhibit the proliferation of primary endothelial cells in the presence and absence of basic fibroblast growth factor (bFGF), as well as its ability to inhibit proliferation of an immortalized endothelial cell line. Curcumin and its derivatives were subsequently tested for their ability to inhibit bFGF-induced corneal neovascularization in the mouse cornea. Finally, curcumin was tested for its ability to inhibit phorbol ester-stimulated vascular endothelial growth factor (VEGF) mRNA production.',
         Result:'Curcumin effectively inhibited endothelial cell proliferation in a dose-dependent manner. Curcumin and its derivatives demonstrated significant inhibition of bFGF-mediated corneal neovascularization in the mouse. Curcumin had no effect on phorbol ester-stimulated VEGF production.',
         Conclusion:'These results indicate that curcumin has direct antiangiogenic activity in vitro and in vivo. The activity of curcumin in inhibiting carcinogenesis in diverse organs such as the skin and colon may be mediated in part through angiogenesis inhibition.'
     },
@@ -62,6 +62,7 @@ const tooltipData = [
         Abstract: "Abstract",
         Background: "Understanding biochemical and structural changes of the extracellular matrix in Achilles tendinosis might be important for developing mechanism-based therapies.",
         Hypothesis: "In Achilles tendinosis, changes occur in biochemical composition and collagen turnover rate.",
+        StudyDesign:"Descriptive laboratory study.",
         Methods: "From 10 patients undergoing surgery for Achilles tendinopathy, 1 tendinosis biopsy specimen and 1 biopsy specimen of macroscopically healthy tendon tissue adjacent to the lesion were collected. Furthermore, biopsy samples were collected from 3 donors with asymptomatic Achilles tendons. Water content, collagen content, percentage of denatured collagen, amount of lysine hydroxylation, number of enzymatic and nonenzymatic crosslinks, matrix metalloproteinase activity, and matrix metalloproteinase and collagen gene-expression levels were analyzed",
         Result: "In tendinotic lesions, the water content was highest, and collagen content was subnormal with higher amounts of denatured/damaged collagen. Low pentosidine levels in tendinotic tissue indicated the presence of relatively young collagenous matrix. More hydroxylated lysine residues were present in tendinotic samples, but enzymatic crosslinks revealed no differences between tendinotic, adjacent, and healthy samples. In tendinotic specimens, matrix metalloproteinase activity was higher, matrix metalloproteinase gene-expression profile was altered, and collagen type I and III gene expression were upregulated.",
         Conclusion: "In Achilles tendinosis, the collagen turnover rate is increased, and the natural biochemical composition of the collagenous matrix is compromised.",
@@ -303,11 +304,11 @@ const handleTooltipModalShow = (id) => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-2" >
                                         <b className={selectedKeyword === 'Curcumin' ? styles.highlightedHeading : ''}>Curcumin </b>
-                                        La curcumina ha attività angiogenica diretta in vivo e in vitro.<p>La curcumina riduce l#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro.</p> </p>
+                                        La curcumina ha attività angiogenica diretta in vivo e in vitro.<p>La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro.</p> </p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-3">
                                         <b className={selectedKeyword === 'Arbiser JL,' ? styles.highlightedHeading : ''}>L-lysine </b>
-                                        Nella tendinopatia, sono presenti residui di lisina idrossilata derivanti dalla degradazione di questo amminoacido.</p>
+                                        La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro. Nella tendinopatia, sono presenti residui di lisina idrossilata derivanti dalla degradazione di questo amminoacido.</p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-4">
                                         <b className={selectedKeyword === 'L-proline' ? styles.highlightedHeading : ''}>L-proline </b>
@@ -319,7 +320,7 @@ const handleTooltipModalShow = (id) => {
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-6">
                                         <b className={selectedKeyword === 'Copper' ? styles.highlightedHeading : ''}>Copper </b>
-                                        La L-arginina è un substrato dell&#39;enzima ossido nitrico sintasi (NOS), essenziale per il recupero dei tendini.</p>
+                                        Ottimizza il richiamo delle cellule stromali mesenchimali nella zona della lesione, dove possono rilasciare fattori di crescita, citochine e contrastare gli effetti dello stress ossidativo nell&#39;area infiammata</p>
                                 </div>
                             </div>
                             
@@ -379,6 +380,7 @@ const handleTooltipModalShow = (id) => {
                 {modalContent.Background && <p><b>Background: </b>{modalContent.Background}</p>}
                 {modalContent.Materials && <p><b>Materials and methods: </b>{modalContent.Materials}</p>}
                 {modalContent.Hypothesis && <p><b>Hypothesis: </b>{modalContent.Hypothesis}</p>}
+                {modalContent.StudyDesign && <p><b>Study design: </b>{modalContent.StudyDesign}</p>}
                 {modalContent.Methods && <p><b>Methods: </b>{modalContent.Methods}</p>}
                 {modalContent.Result && <p><b>Results: </b>{modalContent.Result}</p>}
                 {modalContent.Conclusion && <p><b>Conclusion: </b>{modalContent.Conclusion}</p>}
