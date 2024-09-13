@@ -81,7 +81,7 @@ const Sciencedesktoppage = ({data}) => {
 
                   {slide.readmore && (
                     <div className={styles.ancorLink}>
-                      <button onClick={() => handleShow(index)}> leggi di piu&#39;</button>
+                      <button onClick={() => handleShow(index)}> Leggi di piu&#39;</button>
                     </div>
                   )}
                 </div>
