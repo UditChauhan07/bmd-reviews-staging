@@ -239,7 +239,7 @@
 .modalImgHolder {
   width: 200px;
   height: auto;
-  margin-right: 10px;
+  margin-right: 24px;
   border-radius: 15px;
   float: left;
   box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
@@ -254,6 +254,14 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.modalCardContainerV2 {
+  display: flex;
+}
+.modalCardImage{
+  margin: auto;
+}
+
 @media screen and (max-width: 1500px) {
   .v2,
   .v2Container {
@@ -284,8 +292,19 @@
     max-height: 300px;
   }
   .modalCardContainerV2 {
+    display: flex;
     overflow: scroll;
     max-height: 250px;
+  }
+  .modalCardImage{
+    width: 30%;
+    margin: auto;
+  }
+  .modalCardContent{
+    height: 240px;
+    overflow: auto;
+    width: 70%;
+    /* margin-left: 1rem; */
   }
 }
 @media screen and (max-width: 1000px) {
@@ -306,6 +325,12 @@
   }
 }
 @media screen and (max-width: 769px) {
+  .modalCardContainerV2 {
+    display: block;
+  }
+  .modalCardContent{
+    width: 100%;
+  }
   .reasonsHeader {
     font-size: 32px;
     line-height: 38px;
