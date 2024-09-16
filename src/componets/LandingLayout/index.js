@@ -234,6 +234,8 @@ const LandingPage = ({ version, script, page }) => {
               variantId={pageData.variantId}
               content={pageData.ProductArticleModal}
               ModalHandler={ModalHandler}
+              onReviewClick={highlightReviewContainer}
+
             />
           )}
           {pageData?.ProductSlideAccordion && (
