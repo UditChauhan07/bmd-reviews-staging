@@ -44,14 +44,17 @@
             "alt": "Pre-Diabete"
           }
         },
+      
         {
           "name": "Pelle",
           "link": "/collezioni/salute-della-pelle",
           "logo": {
             "src": "\\images\\Pelle-collection.webp",
             "alt": "Pelle"
-          }
+          },
+          "hide":true
         },
+
         {
           "name": "Reverse-aging",
           "link": "/collezioni/reverse-aging",
