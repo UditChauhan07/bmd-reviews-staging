@@ -42,18 +42,6 @@ const Sciencedesktoppage = ({data}) => {
       carouselRef.current.next();
     }
   };
-// console.log("dyus",slides2);
-
-
-  // ....Modal function Start..//
-  // const handleClose = () => setShow(false);
-  // const handleShow = (index) => {
-  //   setShow(true);
-  //   setActiveSlideIndex(index);
-  // };
-  // modal function End.../
-
-  
 
   return (
 
@@ -93,7 +81,7 @@ const Sciencedesktoppage = ({data}) => {
 
                   {slide.readmore && (
                     <div className={styles.ancorLink}>
-                      <button onClick={() => handleShow(index)}> leggi di piu&#39;</button>
+                      <button onClick={() => handleShow(index)}> Leggi di piu&#39;</button>
                     </div>
                   )}
                 </div>

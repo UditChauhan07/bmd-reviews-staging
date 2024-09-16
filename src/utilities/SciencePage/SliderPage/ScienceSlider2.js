@@ -19,7 +19,96 @@ const ScienceSlider2 = () => {
     const [modalImage2, setModalImage2] = useState('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp');
     const [modalTitle2, setModalTitle2] = useState('');
     // const [modalsubTitle2, setModalsubTitle2] = useState('');
+//modal2 tooltip
+
+
+const tooltipData = [
+    {
+        id: 1, author: "Prabhavathi K", text: "Prabhavathi K, et al. Indian J Pharmacol. 2014 Sep-Oct;46(5):475-9",
+        modalHeading: "A randomized, double blind, placebo controlled, cross over study to evaluate the analgesic activity of Boswellia serrata in healthy volunteers using mechanical pain model",
+        Abstract: "Abstract",
+        Objective: "Experimental pain models in human healthy volunteers are advantageous for early evaluation of analgesics. All efforts to develop nonsteroidal anti-inflammatory drugs (NSAIDs) which are devoid of gastrointestinal and cardiovascular system effects are still far from achieving a breakthrough. Hence we evaluated the analgesic activity of an ayurvedic drug, Boswellia serrata by using validated human pain models which has shown its analgesic activity both in-vitro and preclinical studies to evaluate the analgesic activity of single oral dose (125 mg, 2 capsules) of Boswellia serrata compared to placebo using mechanical pain model in healthy human subjects.",
+        Materials: "After taking written informed consent, twelve healthy subjects were randomized (1:1) to receive single oral dose of Boswellia serrata (Shallaki (®)) 125 mg, 2 capsules or identical placebo in a crossover design. Mechanical pain was assessed using Ugo basile analgesymeter (by Randall Selitto test) at baseline and at 1 hr, 2 hrs and 3 hrs after test drug administration. Pain Threshold force and time and Pain Tolerance force and time were evaluated. Statistical analysis was done by paired t-test.",
+        Result: "Twelve healthy volunteers have completed the study. Mean percentage change from baseline in Pain Threshold force and time with Boswellia serrata when compared to placebo had significantly increased [Force: 9.7 ± 11.0 vs 2.9 ± 3.4 (P = 0.05) and time: 9.7 ± 10.7 vs 2.8 ± 3.4 (P = 0.04)] at third hr. Mean Percentage change from baseline in Pain Tolerance force and time with Boswellia serrata when compared to placebo had significantly (P ≤ 0.01) increased at 1 hr, 2 hrs and 3 hrs.",
+        Conclusion: "In the present study, Boswellia serrata significantly increased the Pain Threshold and Pain Tolerance force and time compared to placebo. Both study medications were well tolerated. Further multiple dose studies may be needed to establish the analgesic efficacy of the drug.",
+    },
+
+    {
+        id: 2, author: "Riva A", text: "Riva A, et al. Eur Rev Med Pharmacol Sci. 2017 Nov;21(22):5258-5263.",
+        modalHeading: "A novel boswellic acids delivery form (Casperome®) in the management of musculoskeletal disorders: a review",
+        Abstract: "Abstract",
+        deccription:'Standard pharmacological treatment of musculoskeletal conditions is often associated with relevant side effects. Botanical preparations endowed with a good tolerability profile, therefore, could have a role in the management of these disorders. Among different natural products, Boswellia serrata extracts have long been used for the treatment of musculoskeletal disorders, given their marked anti-inflammatory activity and their ability to promote tissue regeneration. However, standard preparations of Boswellia serrata show overall modest pharmacokinetic properties, a limitation which may ultimately lead to reduced efficacy. In an effort to improve the pharmacokinetic properties, Casperome®, a lecithin-based formulation of Boswellia serrata extract representing the whole natural bouquet, has been developed. This formulation was effective in the treatment of Achilles tendonitis, epicondylitis, radiculopathies, ankle sprains and sport injuries as shown in several clinical studies, the majority of which with a randomized design and all evaluating a number of well-recognized parameters of efficacy for the therapy of musculoskeletal disorder. All studies were consistent in showing a prompt decrease of pain and improvement of functionality of the affected area after supplementation with Casperome®, without any relevant adverse effect. Remarkably, these symptomatic improvements were paralleled by reduced plasmatic levels of inflammatory markers and by a diminished need for rescue analgesics. On these bases, Casperome® may have a role in the treatment of musculoskeletal disorders. Clinical studies in other similar conditions (e.g., osteoarthritis) appear warranted to further investigate the efficacy of this botanical product in more specific settings.',
+       
+    },
+    {
+        id: 3, author: "Arbiser JL", text: "Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83",
+        modalHeading:'Curcumin is an in vivo inhibitor of angiogenesis',
+        Abstract: "Abstract",
+        Background: "Curcumin is a small-molecular-weight compound that is isolated from the commonly used spice turmeric. In animal models, curcumin and its derivatives have been shown to inhibit the progression of chemically induced colon and skin cancers. The genetic changes in carcinogenesis in these organs involve different genes, but curcumin is effective in preventing carcinogenesis in both organs. A possible explanation for this finding is that curcumin may inhibit angiogenesis.",
+        Materials:'Curcumin was tested for its ability to inhibit the proliferation of primary endothelial cells in the presence and absence of basic fibroblast growth factor (bFGF), as well as its ability to inhibit proliferation of an immortalized endothelial cell line. Curcumin and its derivatives were subsequently tested for their ability to inhibit bFGF-induced corneal neovascularization in the mouse cornea. Finally, curcumin was tested for its ability to inhibit phorbol ester-stimulated vascular endothelial growth factor (VEGF) mRNA production.',
+        Result:'Curcumin effectively inhibited endothelial cell proliferation in a dose-dependent manner. Curcumin and its derivatives demonstrated significant inhibition of bFGF-mediated corneal neovascularization in the mouse. Curcumin had no effect on phorbol ester-stimulated VEGF production.',
+        Conclusion:'These results indicate that curcumin has direct antiangiogenic activity in vitro and in vivo. The activity of curcumin in inhibiting carcinogenesis in diverse organs such as the skin and colon may be mediated in part through angiogenesis inhibition.'
+    },
+    {
+        id: 4, author: "Buhrmann C", text: "Buhrmann C, et al. J Biol Chem. 2011 Aug 12;286(32):28556-66.",
+        modalHeading:'Curcumin modulates nuclear factor kappaB (NF-kappaB)-mediated inflammation in human tenocytes in vitro: role of the phosphatidylinositol 3-kinase/Akt pathway',
+        Abstract: "Abstract",
+        deccription:'Inflammatory processes play essential roles in the pathogenesis of tendinitis and tendinopathy. These events are accompanied by catabolic processes initiated by pro-inflammatory cytokines such as interleukin-1β (IL-1β) and tumor necrosis factor-α (TNF-α). Pharmacological treatments for tendinitis are restricted to the use of non-steroidal anti-inflammatory drugs. Recent studies in various cell models have demonstrated that curcumin targets the NF-κB signaling pathway. However, its potential for the treatment of tendinitis has not been explored. Herein, we used an in vitro model of human tenocytes to study the mechanism of curcumin action on IL-1β-mediated inflammatory signaling. Curcumin at concentrations of 5-20 μm inhibited IL-1β-induced inflammation and apoptosis in cultures of human tenocytes. The anti-inflammatory effects of curcumin included down-regulation of gene products that mediate matrix degradation (matrix metalloproteinase-1, -9, and -13), prostanoid production (cyclooxygenase-2), apoptosis (Bax and activated caspase-3), and stimulation of cell survival (Bcl-2), all known to be regulated by NF-κB. Furthermore, curcumin suppressed IL-1β-induced NF-κB activation via inhibition of phosphorylation and degradation of inhibitor of κBα, inhibition of inhibitor of κB-kinase activity, and inhibition of nuclear translocation of NF-κB. Furthermore, the effects of IL-1β were abrogated by wortmannin, suggesting a role for the phosphatidylinositol 3-kinase (PI-3K) pathway in IL-1β signaling. Curcumin suppressed IL-1β-induced PI-3K p85/Akt activation and its association with IKK. These results demonstrate, for the first time, a potential role for curcumin in treating tendon inflammation through modulation of NF-κB signaling, which involves PI-3K/Akt and the tendon-specific transcription factor scleraxis in tenocytes.'
+
+    },
+    {
+        id: 5, author: "de Mos M", text: "de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56",
+        modalHeading: "Achilles tendinosis: changes in biochemical composition and collagen turnover rate",
+        Abstract: "Abstract",
+        Background: "Understanding biochemical and structural changes of the extracellular matrix in Achilles tendinosis might be important for developing mechanism-based therapies.",
+        Hypothesis: "In Achilles tendinosis, changes occur in biochemical composition and collagen turnover rate.",
+        StudyDesign:"Descriptive laboratory study.",
+        Methods: "From 10 patients undergoing surgery for Achilles tendinopathy, 1 tendinosis biopsy specimen and 1 biopsy specimen of macroscopically healthy tendon tissue adjacent to the lesion were collected. Furthermore, biopsy samples were collected from 3 donors with asymptomatic Achilles tendons. Water content, collagen content, percentage of denatured collagen, amount of lysine hydroxylation, number of enzymatic and nonenzymatic crosslinks, matrix metalloproteinase activity, and matrix metalloproteinase and collagen gene-expression levels were analyzed.",
+        Result: "In tendinotic lesions, the water content was highest, and collagen content was subnormal with higher amounts of denatured/damaged collagen. Low pentosidine levels in tendinotic tissue indicated the presence of relatively young collagenous matrix. More hydroxylated lysine residues were present in tendinotic samples, but enzymatic crosslinks revealed no differences between tendinotic, adjacent, and healthy samples. In tendinotic specimens, matrix metalloproteinase activity was higher, matrix metalloproteinase gene-expression profile was altered, and collagen type I and III gene expression were upregulated.",
+        Conclusion: "In Achilles tendinosis, the collagen turnover rate is increased, and the natural biochemical composition of the collagenous matrix is compromised.",
+        Clinical: "Although tendon tissue directly adjacent to an Achilles tendinosis lesion looks macroscopically healthy, histological and biochemical degenerative changes in adjacent tissue are evident, which may have implications for surgical interventions."
+    },
+    {
+        id: 6, author: "Vieira CP", text: "Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8.",
+        modalHeading: "Effects of acute inflammation induced in the rat paw on the deep digital flexor tendon",
+        Abstract: "Abstract",
+        deccription: "The tendon is commonly affected by inflammation, and in such situations, the tissue undergoes a process of reorganization of the extracellular matrix to improve and regenerate the affected region. Little is known about the mechanisms that trigger inflammation in the tissues surrounding the affected area. The objective of this study was to biochemically and morphologically analyze the deep digital flexor tendon at the peak of acute inflammation in the rat paw. Wistar rats were divided into the following three groups: those that received injection of 1% carrageenan, those that received 0.9% NaCl, and those that received nothing. The deep digital flexor tendon was divided into the distal, proximal, and intermediate regions. For biochemical analysis, the tendons were treated with guanidine hydrochloride and analyzed by sodium dodecyl sulfate-polyacrilamide gel electrophoresis. Proteins, glycosaminoglycans (GAGs), and hydroxyproline were quantified, and metalloproteinases were analyzed. The GAGs were analyzed by agarose gel electrophoresis. Tissue sections were stained with hematoxylin-eosin, toluidine blue, and Ponceau SS. The content of proteins and GAGs was smaller in the group receiving the application of carrageenan. The concentration of hydroxyproline in the two tendon regions that respond to tension forces was higher in the inflammation group. The metalloproteinase-9 was detected in the distal region, and a thicker epitenon with cellular infiltrate was observed in the groups with inflamed paws. Meanwhile, a better organization of collagen bundles was observed in the two tension regions of that same group. Our results show that although the tendon was not directly inflamed, changes in the surrounding structural and biochemical parameters were observed."
+    },
+    {
+        id: 7, author: "Fusini F", text: "Fusini F. et al. Muscles Ligaments Tendons J. 2016 May 19;6(1):48-57",
+        modalHeading: "Nutraceutical supplement in the management of tendinopathies: a systematic review",
+        Background: "nutraceuticals are common support therapy for management of tendinopathies. Even if they are widely diffused, our knowledge is still poor. The aim of this systematic review is to analyze the most commonly used nutraceuticals and their effects on tendons.",
+        Methods: "glucosamine and chondroitin sulphate, vitamin C, hydrolazed type 1 collagen, arginine alpha-keto-glutarate, bromelain, curcumin, boswellic acid, and methil-sulfonil-methane were considered. During the last week of Dicember 2015 a comprehensive research of main databases for each substance was made in relation with tendinopathy. Repeated articles, articles not in English nor in Italian, not common nutraceuticals, and articles not related with tendons or tenocytes were excluded. Clinical article quality was assessed independently by two reviewers using the modified Coleman methodology score.",
+        Result: " preclinical and clinical data from 46 articles from all databases were analyzed. All these nutraceuticals demonstrated several effects on normal and pathological tendons. Preclinical and clinical studies showed a possible role on collagen synthesis, inflammation, mechanical properties, and maturation of collagen bundles, antioxidant effect, edema, and analgesia. The majority clinical studies had some methodological limitations with an average Modified Coleman Methodology Score of 51.3 points and SD of 20.5 points. In particular, there were very low values in power, error, outcome assessment, and clinical effect.",
+        Conclusion: " preclinical results are very encouraging, however they are not fully confirmed by clinical studies. There are few clinical papers on the use of nutraceuticals in tendon disorders, and their methodological quality is poor. Furthermore, in most of the studies more than one supplement was administered at the same time. This may bias the results, and the effect of each single component cannot be determined. Furthermore, the interactions between nutraceuticals and drugs, or other dietary supplements (especially at high doses) has not been evaluated, neither their effects on chronic diseases. For these reasons, it is not possible to draw any definitive raccomendations on the use of nutraceutical supplementation in tendinopathies."
+    },
+    {
+        id: 8, author: "Milewska M", text: "Milewska Met al., Stem Cells Int. 2020;2020:9123281. Published 2020 Feb 20.",
+        modalHeading: "Mixed chimerism and transplantation tolerance induced by a nonlethal preparative regimen in cynomolgus monkeys",
+        
+    }
+];
+const [modalContent, setModalContent] = useState()
+const [isModalOpen2, setIsModalOpen2] = useState(false);
+
+const handleTooltipModalShow = (id) => {
+    const content = tooltipData.find((item) => item.id === id); 
+    console.log(content, "Selected Tooltip Data"); 
     
+    if (content) {
+        setModalContent(content); 
+        setIsModalOpen2(true); 
+    } else {
+        console.error('Content not found for the given id');
+    }
+};
+
+  const handleCloseModal2 = () => {
+    setIsModalOpen2(false);
+    setModalContent(null); 
+  };
+
+
     //..... MouseEnter Function Start ....//
     const [currentSlide, setCurrentSlide] = useState(0);
     const [totalSlides, setTotalSlides] = useState(4);
@@ -34,29 +123,7 @@ const ScienceSlider2 = () => {
         }
     };
 
-    // const handleMouseEnter = (keyword, elementId, containerId) => {
-    //     setSelectedKeyword(keyword);
-    //     const element = document.getElementById(elementId);
-    //     const container = document.getElementById(containerId);
-    
-    //     if (element && container) {
-    //         container.scrollTop = element.offsetTop - container.offsetTop;
-    
-    //         const elementRect = element.getBoundingClientRect();
-    //         const containerRect = container.getBoundingClientRect();
-    
-    //         const isElementFullyVisible =
-    //             elementRect.top >= containerRect.top &&
-    //             elementRect.bottom <= containerRect.bottom;
-    
-    //         if (!isElementFullyVisible) {
-    //             element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    //         }
-    //     }
-    // };
-    
 
-  
     var {
         title,
         details,
@@ -72,96 +139,96 @@ const ScienceSlider2 = () => {
         testimonial,
         homeGallery,
         review,
-      } = product || {};
-    
-      const getProductData = (slug) => {
-        console.log("sss",slug);
-            let product = ProductsData[slug];
-            console.log("sss1",product);
-            if (product?.EXTERNALID) {
-              const productId = `gid://shopify/Product/${product.EXTERNALID}`;
-              if (product?.EXTERNALID && shopifyP?.id != productId) {
+    } = product || {};
+
+    const getProductData = (slug) => {
+        console.log("sss", slug);
+        let product = ProductsData[slug];
+        console.log("sss1", product);
+        if (product?.EXTERNALID) {
+            const productId = `gid://shopify/Product/${product.EXTERNALID}`;
+            if (product?.EXTERNALID && shopifyP?.id != productId) {
                 getProduct({ productId })
-                  .then((response) => {
-                    let product = response?.data?.product;
-                    setSProduct(product);
-                    console.log("kkkkk");
-                    setLoad(false);
-                  })
-                  .catch((err) => {
-                    console.log({ err });
-                  });
-              }
-              var EXTERNALID = product?.EXTERNALID;
-              if (EXTERNALID && rechargeProduct?.product_id != EXTERNALID) {
-                getSubscription({ id: EXTERNALID })
-                  .then((response) => {
-                    if (response?.plans?.length) {
-                      let freqs = [];
-                      response.plans.map((element) => {
-                        if (
-                          element.subscription_preferences.charge_interval_frequency
-                        )
-                          freqs.push({
-                            id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
-                            value:
-                              element.subscription_preferences
-                                .charge_interval_frequency + " giorni",
-                          });
-                      });
-                      freqs.sort((a, b) => {
-                        if (a.value < b.value) {
-                          return -1;
-                        }
-                        if (a.value > b.value) {
-                          return 1;
-                        }
-                      });
-                      setRProduct({
-                        product_id: EXTERNALID,
-                        subscription_preferences: freqs,
-                      });
-                    }
-                    if (response?.selling_plan_groups?.length > 0) {
-                      let freqs = [];
-                      response.selling_plan_groups[0].selling_plans.map((plans) => {
-                        if (plans.order_interval_frequency) {
-                          freqs.push({
-                            id: `gid://shopify/SellingPlan/${plans.selling_plan_id}`,
-                            value: plans.order_interval_frequency + " giorni",
-                          });
-                        }
-                      });
-                      freqs.sort((a, b) => {
-                        if (a.value < b.value) {
-                          return -1;
-                        }
-                        if (a.value > b.value) {
-                          return 1;
-                        }
-                      });
-                      setRProduct({
-                        product_id: EXTERNALID,
-                        subscription_preferences: freqs,
-                      });
-                    }
-                  })
-                  .catch((err) => {
-                    console.error({ err });
-                  });
-              }
-              setProduct(product);
-            } else {
-              //window.location.href = "/";
+                    .then((response) => {
+                        let product = response?.data?.product;
+                        setSProduct(product);
+                        console.log("kkkkk");
+                        setLoad(false);
+                    })
+                    .catch((err) => {
+                        console.log({ err });
+                    });
             }
-      };
+            var EXTERNALID = product?.EXTERNALID;
+            if (EXTERNALID && rechargeProduct?.product_id != EXTERNALID) {
+                getSubscription({ id: EXTERNALID })
+                    .then((response) => {
+                        if (response?.plans?.length) {
+                            let freqs = [];
+                            response.plans.map((element) => {
+                                if (
+                                    element.subscription_preferences.charge_interval_frequency
+                                )
+                                    freqs.push({
+                                        id: `gid://shopify/SellingPlan/${element.external_plan_id}`,
+                                        value:
+                                            element.subscription_preferences
+                                                .charge_interval_frequency + " giorni",
+                                    });
+                            });
+                            freqs.sort((a, b) => {
+                                if (a.value < b.value) {
+                                    return -1;
+                                }
+                                if (a.value > b.value) {
+                                    return 1;
+                                }
+                            });
+                            setRProduct({
+                                product_id: EXTERNALID,
+                                subscription_preferences: freqs,
+                            });
+                        }
+                        if (response?.selling_plan_groups?.length > 0) {
+                            let freqs = [];
+                            response.selling_plan_groups[0].selling_plans.map((plans) => {
+                                if (plans.order_interval_frequency) {
+                                    freqs.push({
+                                        id: `gid://shopify/SellingPlan/${plans.selling_plan_id}`,
+                                        value: plans.order_interval_frequency + " giorni",
+                                    });
+                                }
+                            });
+                            freqs.sort((a, b) => {
+                                if (a.value < b.value) {
+                                    return -1;
+                                }
+                                if (a.value > b.value) {
+                                    return 1;
+                                }
+                            });
+                            setRProduct({
+                                product_id: EXTERNALID,
+                                subscription_preferences: freqs,
+                            });
+                        }
+                    })
+                    .catch((err) => {
+                        console.error({ err });
+                    });
+            }
+            setProduct(product);
+        } else {
+            //window.location.href = "/";
+        }
+    };
 
 
 
     //..... MouseEnter Function End ....//
 
     // ..... Accordian and Modal Function Start .....//
-   
+
     const handleCloseModal = () => setIsModalOpen(false);
     const handleShow = (imageSrc2, title2, product) => {
         setModalImage2(imageSrc2);
@@ -169,109 +236,13 @@ const ScienceSlider2 = () => {
         getProductData(product)
         setIsModalOpen(true)
     }
-    
-    // ..... Accordian and Modal Function Start .....//
+  
 
-    //..... Slider2 Function Start .....///
-
-    // const goToPrev2 = () => {
-    //     slider2.slickPrev();
-    // };
-    // const goToNext2 = () => {
-    //     slider2.slickNext();
-    // };
-    // let slider2;
-    // useEffect(() => {
-    //     setTotalSlides(slider2 ? slider2.props.children.length : 0);
-    // }, []);
-
-
-
-    // const afterChangeHandler = (current) => {
-    //     setCurrentSlide(current);
-    // };
-
-    // const settings = {
-    //     dots: false,
-    //     infinite: false,
-    //     speed: 500,
-    //     autoplaySpeed: 2000,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     prevArrow: <CustomPrevArrow />,
-    //     nextArrow: <CustomNextArrow />,
-    // };
-    //..... Slider2 Function End .....///
 
     return (
         <div>
             <div className={styles.nextCarousel}>
-                {/* <div className={styles.bothButton2Main}>
-                <div className={styles.bothButton2}>
-    <div
-        className={styles.LeftBtn}
-        style={{
-            opacity: currentSlide === 0 ? 0.1 : 1,
-            cursor: currentSlide === 0 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? 'black' : 'transparent', 
-        }}
-        onClick={currentSlide === 0 ? null : goToPrev2}
-    >
-        <div>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="52"
-                height="52"
-                viewBox="0 0 52 52"
-                fill="none"
-                className={styles.svgIcon}
-            >
-                <path
-                    d="M15.166 26L45.4994 26"
-                    stroke={currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z"
-                    fill={currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                />
-            </svg>
-        </div>
-    </div>
-    <div
-        className={styles.RightBtn}
-        style={{
-            opacity: currentSlide === totalSlides - 1 ? 0.1 : 1,
-            cursor: currentSlide === totalSlides - 1 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === 0 || currentSlide === 2 || currentSlide === 3 ? 'black' : 'transparent',
-        }}
-        onClick={currentSlide === totalSlides - 1 ? null : goToNext2}
-    >
-        <div>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="52"
-                height="52"
-                viewBox="0 0 52 52"
-                fill="none"
-            >
-                <path
-                    d="M36.834 26H6.50065"
-                    stroke={currentSlide === 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z"
-                    fill={currentSlide === 0 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                />
-            </svg>
-        </div>
-    </div>
-</div>
 
-                </div> */}
 
                 <div className={`container ${styles.SliderDiv3}`}>
                     <div className={`container ${styles.brunoDecription4}`}>
@@ -280,7 +251,6 @@ const ScienceSlider2 = () => {
                         </p>
                     </div>
                     {/* Modal Start */}
-
                     {isModalOpen && (
                         <Modal show={isModalOpen}
                             onClose={handleCloseModal} >
@@ -297,363 +267,133 @@ const ScienceSlider2 = () => {
                                     </div>
                                 </div>
                                 <div className={styles.modalContent}>
-                {" "}
-                {shopifyP ? (
-                  <PurchaseBox
-                    data={{
-                      EXTERNALID,
-                      STOREFRONTID,
-                      SLUG,
-                      price: shopifyP?.variants?.edges?.length
-                        ? parseFloat(
-                            shopifyP?.variants.edges[0].node?.price?.amount
-                          )
-                        : 0,
-                      theme,
-                      priceBox,
-                      freq: rechargeProduct?.subscription_preferences,
-                    }}
-                    variantId={shopifyP?.variants.edges[0].node?.id}
-                  />
-                ) : (
-                  ""
-                )}
-              </div>
+                                    {" "}
+                                    {shopifyP ? (
+                                        <PurchaseBox
+                                            data={{
+                                                EXTERNALID,
+                                                STOREFRONTID,
+                                                SLUG,
+                                                price: shopifyP?.variants?.edges?.length
+                                                    ? parseFloat(
+                                                        shopifyP?.variants.edges[0].node?.price?.amount
+                                                    )
+                                                    : 0,
+                                                theme,
+                                                priceBox,
+                                                freq: rechargeProduct?.subscription_preferences,
+                                            }}
+                                            variantId={shopifyP?.variants.edges[0].node?.id}
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </div>
                             </div>
                         </Modal>
                     )}
                     {/*..... Modal End .....*/}
                     <div className={styles.main_div}>
-                        
 
-
-                            <div className={`container ${styles.slider3data}`}>
-                                <div className={styles.sliderContent}>
-                                    {/* <h6>For Healthy Skin, Hair & Bones</h6> */}
-                                    <div className={styles.forscrollbar} id="scrollableContainer" style={{ overflowY: 'scroll', }}>
-                                        <p className={styles.Pcontent}><b >Bruno MD Royal Collagen Peptides</b> are clinically proven to help produce new collagen at any age by stimulating your body’s own endogenous collagen production.Unlike standard collagen peptides, Bruno MD® uses patented technology to precisely cut collagen peptides that specifically target cartilage growth, firmer skin, and stronger bones.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-2" >
-                                            <b className={selectedKeyword === 'Natural' ? styles.highlightedHeading : ''}>Natural Vitamin C </b>
-                                            Clinical studies prove that skin health is significantly improved when Royal Collagen Peptides are combined with natural vitamin C. Vitamin C is crucial for the formation (biosynthesis) of collagen.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-1">
-                                            <b className={selectedKeyword === 'Royal Collagen' ? styles.highlightedHeading : ''}>Royal Collagen Peptides </b>
-                                            increase collagen levels throughout the body by stimulating new collagen production at any age to restore cartilage, increase bone density, and strengthen bones</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-3">
-                                            <b className={selectedKeyword === 'Red Orange' ? styles.highlightedHeading : ''}>Red Orange Complex </b>
-                                            maximizes collagen formation and strengthens immunity with 400% of the daily recommended value of Vitamin C. Dense flavonoids, anthocyanins, and phenolic compounds help prevent collagen degradation.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-4">
-                                            <b className={selectedKeyword === 'Bovine' ? styles.highlightedHeading : ''}>Bovine Source collagen </b>
-                                            from free-range EU-certified sources is organic, non-GMO, halal, and kosher-certified, raised exclusively on a plant-based diet also provides the full bouquet of 18 essential and non-essential amino acids.</p>
-                                    </div>
+                        <div className={`container ${styles.slider3data}`}>
+                            <div className={styles.sliderContent}>
+                                {/* <h6>For Healthy Skin, Hair & Bones</h6> */}
+                                <div className={styles.forscrollbar} id="scrollableContainer" style={{ overflowY: 'scroll', }}>
+                                    <p className={styles.Pcontent} id="page-1" >
+                                        <b className={selectedKeyword === 'Boswellia' ? styles.highlightedHeading : ''}>Boswellia </b> Aumenta significativamente la percentuale di riduzione del dolore rispetto al placebo.Gli studi dimostrano che gli utenti possono percorrere distanze più lunghe senza dolore rispetto al trattamento standard</p>
+                                    <hr className={styles.blackHr} />
+                                    <p className={styles.Pcontent} id="page-2" >
+                                        <b className={selectedKeyword === 'Curcumin' ? styles.highlightedHeading : ''}>Curcumin </b>
+                                        La curcumina ha attività angiogenica diretta in vivo e in vitro.<p>La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro.</p> </p>
+                                    <hr className={styles.blackHr} />
+                                    <p className={styles.Pcontent} id="page-3">
+                                        <b className={selectedKeyword === 'Arbiser JL,' ? styles.highlightedHeading : ''}>L-lysine </b>
+                                        La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro. Nella tendinopatia, sono presenti residui di lisina idrossilata derivanti dalla degradazione di questo amminoacido.</p>
+                                    <hr className={styles.blackHr} />
+                                    <p className={styles.Pcontent} id="page-4">
+                                        <b className={selectedKeyword === 'L-proline' ? styles.highlightedHeading : ''}>L-proline </b>
+                                        Nella tendinopatia si riscontrano residui di prolina idrossilata derivanti dalla degradazione di questo amminoacido</p>
+                                    <hr className={styles.blackHr} />
+                                    <p className={styles.Pcontent} id="page-5">
+                                        <b className={selectedKeyword === 'L-arginine' ? styles.highlightedHeading : ''}>L-arginine </b>
+                                        La L-arginina è un substrato dell&#39;enzima ossido nitrico sintasi (NOS), essenziale per il recupero dei tendini.</p>
+                                    <hr className={styles.blackHr} />
+                                    <p className={styles.Pcontent} id="page-6">
+                                        <b className={selectedKeyword === 'Copper' ? styles.highlightedHeading : ''}>Copper </b>
+                                        Ottimizza il richiamo delle cellule stromali mesenchimali nella zona della lesione, dove possono rilasciare fattori di crescita, citochine e contrastare gli effetti dello stress ossidativo nell&#39;area infiammata</p>
                                 </div>
-                                <div className={styles.slider2Details}>
-                                    <div className={styles.sliderContentIMG}>
-                                        <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='' />
+                            </div>
+                            
+                            <div className={styles.slider2Details}>
+                                <div className={styles.sliderContentIMG}>
+                                    <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='' />
+                                </div>
+                                <div className={styles.sliderContent3}>
+                                    <div>
+                                        <h3>Tendoactive Plus LP</h3>
+                                        {/* <h5>The Science of Beauty</h5> */}
                                     </div>
-                                    <div className={styles.sliderContent3}>
-                                        <div>
-                                            <h3>Tendoactive Plus LP</h3>
-                                            {/* <h5>The Science of Beauty</h5> */}
+                                    <div className={styles.forRound}>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(1)} onMouseEnter={() => handleMouseEnter('Boswellia', 'page-1', "scrollableContainer")} className={styles.tooltip2}>Prabhavathi K <span>Prabhavathi K, et al. Indian J Pharmacol. 2014 Sep-Oct;46(5):475-9</span></p>
                                         </div>
-                                        <div className={styles.forRound}>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Royal Collagen', 'page-1', "scrollableContainer")}>Royal Collagen Peptides</p>
-                                            </div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Natural', 'page-2', "scrollableContainer")} >Natural Vitamin C </p>
-                                            </div>
-                                            <div className={styles.round} >
-                                                <p onMouseEnter={() => handleMouseEnter('Red Orange', 'page-3', "scrollableContainer")} >Red Orange</p>
-                                            </div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Bovine', 'page-4', "scrollableContainer")}>Bovine Source collagen</p>
-                                            </div>
+                                        <div className={styles.round}>
+                                            <p  onClick={() => handleTooltipModalShow(2)} onMouseEnter={() => handleMouseEnter('Boswellia', 'page-1', "scrollableContainer")} className={styles.tooltip2}>Riva A,<span>Riva A, et al. Eur Rev Med Pharmacol Sci. 2017 Nov;21(22):5258-5263.</span></p>
                                         </div>
-                                        <hr className={styles.blackHr2} />
-                                        <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', "tendoactive-plus-20-stick","tendoactive-plus-20-stick")}>Buy Now</p></div>
+                                        <div className={styles.round} >
+                                            <p onClick={() => handleTooltipModalShow(3)} onMouseEnter={() => handleMouseEnter('Curcumin', 'page-2', "scrollableContainer")} className={styles.tooltip2}>Arbiser JL, <span>Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83</span></p>
                                         </div>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(4)} onMouseEnter={() => handleMouseEnter('Curcumin', 'page-2', "scrollableContainer")} className={styles.tooltip2}>Buhrmann C <span>Buhrmann C, et al. J Biol Chem. 2011 Aug 12;286(32):28556-66.</span></p>
+                                        </div>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(5)} onMouseEnter={() => handleMouseEnter('Arbiser JL,', 'page-3', "scrollableContainer")} className={styles.tooltip2}>de Mos M <span>de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56</span></p>
+                                        </div>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(6)} onMouseEnter={() => handleMouseEnter('L-proline', 'page-4', "scrollableContainer")} className={styles.tooltip2}>Vieira CP et al., <span>Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8.</span></p>
+                                        </div>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(7)} onMouseEnter={() => handleMouseEnter('L-arginine', 'page-5', "scrollableContainer")} className={styles.tooltip2}>Fusini F. <span>Fusini F. et al. Muscles Ligaments Tendons J. 2016 May 19;6(1):48-57</span></p>
+                                        </div>
+                                        <div className={styles.round}>
+                                            <p onClick={() => handleTooltipModalShow(8)} onMouseEnter={() => handleMouseEnter('Copper', 'page-6', "scrollableContainer")} className={styles.tooltip2}>Milewska Met al., <span>Milewska Met al., Stem Cells Int. 2020;2020:9123281. Published 2020 Feb 20.</span></p>
+                                        </div>
+                                    </div>
+                                    <hr className={styles.blackHr2} />
+                                    <div className={styles.btnDivBuy}>
+                                        <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', "tendoactive-plus-20-stick", "tendoactive-plus-20-stick")}>Buy Now</p></div>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className={styles.slider3data}>
-                                <div className={styles.sliderContent}>
-                                    <h6>For Healthy Cholesterol levels</h6>
-                                    <div className={styles.forscrollbar} id="scrollableContainer-2" style={{ overflowY: 'scroll', }}>
-                                        <p className={styles.Pcontent}><b >Heart disease</b> is one of the leading causes of death globally, so keeping cholesterol levels in check is crucial for preventing these serious health issues.
-                                            The clinically proven, natural ingredients in CholestQ10® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.
-                                        </p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-5">
-                                            <b className={selectedKeyword === 'Coenzyme' ? styles.highlightedHeading2 : ''}>Coenzyme Q10 </b>
-                                            Phytosome® promotes healthy aging, heart & cardiovascular health, brain health, and all activities involving energetic expenditure.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent}><b>Cardoon</b> contains active biophenols and flavonoids from an endemic variety of Cardoon leaf, inhibiting the creation of fatty lipids in the liver.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-6">
-                                            <b className={selectedKeyword === 'E-d-alpha-tocopheryl' ? styles.highlightedHeading2 : ''}>Natural Vitamin (E-d-alpha-tocopheryl succinate) </b>
-                                            shields proteins, LDL cholesterol, and mitochondrial DNA against oxidative damage and reduces lipid peroxidation levels — the pivotal reaction in the cause of atherosclerosis.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-7">
-                                            <b className={selectedKeyword === 'Bergamot Orange' ? styles.highlightedHeading2 : ''}>Bergamot Orange Extract Phytosome® </b>
-                                            supports healthy cholesterol levels and governs the metabolic conditions that increase the risk of heart disease and TYPE II diabetes.</p>
-                                        <p className={styles.Pcontent} id="page-8">
-                                            <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading2 : ''}>Curcumin Phytosome® (Turmeric Extract) </b>
-                                            supports healthy blood vessel function and guards against chronic inflammation.</p>
-                                    </div>
-
-                                </div>
-                                <div className={styles.slider2Details}>
-                                    <div className={styles.sliderContentIMG}>
-                                        <img src='/images/BrunoPharmaSlider2.webp' alt='' />
-                                    </div>
-                                    <div className={styles.sliderContent3}>
-                                        <div>
-                                            <h3>CholestQ10</h3>
-                                            <h5>The Science of Heart Health</h5>
-                                        </div>
-                                        <div className={styles.forRound}>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Coenzyme', 'page-5', 'scrollableContainer-2')}>Coenzyme</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('E-d-alpha-tocopheryl', 'page-6', 'scrollableContainer-2')}>D-alpha-tocopheryl succinate</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Bergamot Orange', 'page-7', 'scrollableContainer-2')}>Bergamot Orange Extract Phytosome®</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Curcumin Phytosome', 'page-8', 'scrollableContainer-2')}>Curcumin Phytosome®</p></div>
-                                        </div>
-                                        <hr className={styles.blackHr2} />
-                                        <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn} ><p onClick={() => handleShow('/images/modalImgBrunoMd2.webp', 'CholestQ10 60 v-caps', 'The Science of Heart Health',"cholestq10-60-v-caps-30-servings")}>Buy Now</p></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.slider3data}>
-                                <div className={styles.sliderContent}>
-                                    <h6>For a Healthy Inflammatory Response</h6>
-                                    <div className={styles.forscrollbar} id="scrollableContainer-3" style={{ overflowY: 'scroll', }}>
-                                        <p className={styles.Pcontent}><b>For a healthy inflammatory response</b> Inflammation is a leading cause of disease. Like high blood pressure, inflammation is a silent killer. Unlike high blood pressure, inflammation is often best managed without pharmacological intervention. Nature is the best medicine to put inflammation in check.The clinically proven, natural ingredients in Riboflam® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-9">
-                                            <b className={selectedKeyword === 'Natural Astaxanthin' ? styles.highlightedHeading3 : ''}>Natural Astaxanthin Extract </b>
-                                            is harvested from algae and is proven to be the most potent antioxidant in nature. Astaxanthin’s superpower is reducing inflammation system-wide, which helps balance immune response and support brain and heart health.  </p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-10">
-                                            <b className={selectedKeyword === 'Curcumin Phytosome' ? styles.highlightedHeading3 : ''}>Curcumin Phytosome</b> comes from turmeric, which has been used in Asian cooking and cures since ancient times. It supports a healthy inflammation and immune response. Bruno MD’s Curcumin Phytosome is the #1 recommended formulation by the prestigious Cleveland Clinic.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-12">
-                                            <b className={selectedKeyword === 'Boswellia Serra' ? styles.highlightedHeading3 : ''}>Boswellia Serra Phytosome, </b>
-                                            commonly known as Indian Frankincense, and Echinacea Angustifolia Phytosome are both proven to create a balanced inflammation response. Native Americans have used Echinacea as an anti-inflammatory for centuries.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-13">
-                                            <b className={selectedKeyword === 'Nucleoflam' ? styles.highlightedHeading3 : ''}>Nucleoflam Proprietary Nucleotides</b>
-                                            <b> & </b>
-                                            <b className={selectedKeyword === 'Nucleosides' ? styles.highlightedHeading3 : ''}>Nucleosides Yeast Extract Complex</b> are involved in the development and functioning of immune cells and contribute to the growth and repair of the intestinal lining, which can help with intestinal inflammation.
-                                        </p>
-                                        <p className={styles.Pcontent} id="page-11">
-                                            <b className={selectedKeyword === 'Quercetin Phytosome' ? styles.highlightedHeading3 : ''}>Quercetin Phytosome</b> blocks inflammatory enzymes and the creation of cytokines and, like Astaxanthin, is a potent antioxidant, but you’ll need to eat 100 kilos of broccoli each day to get enough. Riboflam delivers 2000% more quercitin than standard supplements.
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div className={styles.slider2Details}>
-                                    <div className={styles.sliderContentIMG}>
-                                        <img src='/images/BrunoPharmaSlider3.webp' alt='' />
-                                    </div>
-                                    <div className={styles.sliderContent3}>
-                                        <div>
-                                            <h3>Riboflam </h3>
-                                            <h5>The Science of Longevity</h5>
-                                        </div>
-                                        <div className={styles.forRound}>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Natural Astaxanthin', 'page-9', 'scrollableContainer-3')}>Natural Astaxanthin Extract</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Curcumin Phytosome', 'page-10', 'scrollableContainer-3')}>Curcumin Phytosome</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Quercetin Phytosome', 'page-11', 'scrollableContainer-3')}>Quercetin Phytosome</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Boswellia Serra', 'page-12', 'scrollableContainer-3')}>Boswellia Serra Phytosome</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Nucleoflam', 'page-13', 'scrollableContainer-3')}>Nucleoflam Proprietary Nucleotides</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Nucleosides', 'page-13', 'scrollableContainer-3')}>Nucleosides Yeast Extract Complex</p></div>
-                                        </div>
-                                        <hr className={styles.blackHr2} />
-                                        <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/modalImgBrunoMd3.webp', 'Riboflam 90 v-caps', 'The Science of Longevity', "riboflam-90-v-caps-30-servings")}>Buy Now</p></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.slider3data}>
-                                <div className={styles.sliderContent}>
-                                    <h6>For a Lifetime of 360º Vision Care</h6>
-                                    <div className={styles.forscrollbar} id="scrollableContainer-4" style={{ overflowY: 'scroll', }}>
-                                        <p className={styles.Pcontent}><b>Eye strain, Dry Eyes, Headaches & General Fatigue</b> are all signs of Computer Vision Syndrome. Ingredients in Bluerex Vision® are clinically proven to help alleviate symptoms of digital overexposure and protect your eyes from harmful blue light before it can damage the retina.The clinically proven, natural ingredients in Bluerex Vision® are delivered with Phytosome® Technology. Phytosome delivers usually hard-to-absorb ingredients into your bloodstream with up to 3000% more bioavailability.
-                                        </p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-14">
-                                            <b className={selectedKeyword === 'Astaxanthin' ? styles.highlightedHeading4 : ''}>Astaxanthin’s </b>
-                                            potent anti-inflammatory properties alleviate oxidative stress in the front of the eye and help reduce eye fatigue and strain, common symptoms of computer vision syndrome.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-15">
-                                            <b className={selectedKeyword === 'Lutein & Zeaxanthin' ? styles.highlightedHeading4 : ''}>Lutein & Zeaxanthin </b>
-                                            increase the macular pigments that filter harmful blue light before it can damage your retina. They are also antioxidants that protect the eyes against free radicals, improving visual performance and reducing the progression of certain eye conditions as we age.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-16">
-                                            <b className={selectedKeyword === 'D-Alpha' ? styles.highlightedHeading4 : ''}>D-Alpha Tocopheryl Succinate, </b>
-                                            a natural form of Vitamin E, neutralizes oxidative damage and has been shown to reduce the risk of developing advanced age-related macular degeneration by 25% for subjects who have already demonstrated early signs of macular degeneration.</p>
-                                        <hr className={styles.blackHr} />
-                                        <p className={styles.Pcontent} id="page-17">
-                                            <b className={selectedKeyword === 'Docosahexaenoic' ? styles.highlightedHeading4 : ''}>Docosahexaenoic acid (DHA), </b>
-                                            naturally derived from Schizochytrium sp marine alga, is a polyunsaturated omega-3 fatty acid accounting for up to 93% of the omega-3 fats in the retina.</p>
-                                        <hr className={styles.blackHr} />
-
-                                        <p className={styles.Pcontent} id="page-18">
-                                            <b className={selectedKeyword === 'Bilberry Extract' ? styles.highlightedHeading4 : ''}>Bilberry Extract </b>
-                                            is packed with anthocyanins, which promote healthy tear secretion, improve vision, increase retinal sensitivity (night vision), and help prevent common eye issues as we mature</p>
-
-
-                                    </div>
-                                </div>
-                                <div className={styles.slider2Details}>
-                                    <div className={styles.sliderContentIMG}>
-                                        <img src='/images/BrunoPharmaSlider4.webp' alt='' />
-                                    </div>
-                                    <div className={styles.sliderContent3}>
-                                        <div>
-                                            <h3>Bluerex </h3>
-                                            <h5>The Science of Sight</h5>
-                                        </div>
-                                        <div className={styles.forRound}>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => { handleMouseEnter('Astaxanthin', 'page-14', 'scrollableContainer-4'); }}>Astaxanthin</p>
-                                            </div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Lutein & Zeaxanthin', 'page-15', 'scrollableContainer-4')}>Lutein & Zeaxanthin</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('D-Alpha', 'page-16', 'scrollableContainer-4')}>D-Alpha Tocopheryl Succinate</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Docosahexaenoic', 'page-17', 'scrollableContainer-4')}>Docosahexaenoic acid</p></div>
-                                            <div className={styles.round}>
-                                                <p onMouseEnter={() => handleMouseEnter('Bilberry Extract', 'page-18', 'scrollableContainer-4')}>Bilberry Extract </p></div>
-                                        </div>
-                                        <hr className={styles.blackHr2} />
-                                        <div className={styles.btnDivBuy}>
-                                            <div className={styles.roundBtn}><p onClick={() => handleShow('/images/modalImgBrunoMd4.webp', 'Bluerex Vision 60 softgels', 'The Science of Sight',"bluerex-vision-60-caps-30-servings")}>Buy Now</p></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-                    
-                    </div>
-
-
-                    {/* <div className={styles.bothButton2Main2}>
-                        <div className={styles.bothButton2Main2}>
-                        <div className={styles.bothButton3}>
-    <div
-        className={styles.LeftBtn}
-        style={{
-            opacity: currentSlide === 0 ? 0.1 : 1,
-            cursor: currentSlide === 0 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? 'black' : 'transparent', 
-        }}
-        onClick={currentSlide === 0 ? null : goToPrev2}
-    >
-        <div>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="52"
-                height="52"
-                viewBox="0 0 52 52"
-                fill="none"
-                className={styles.svgIcon}
-            >
-                <path
-                    d="M15.166 26L45.4994 26"
-                    stroke={currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    d="M4.69127 26.2144L13.9557 31.773C14.4889 32.093 15.1673 31.7089 15.1673 31.087L15.1673 20.913C15.1673 20.2911 14.4889 19.907 13.9557 20.227L4.69127 25.7856C4.52944 25.8827 4.52944 26.1173 4.69127 26.2144Z"
-                    fill={currentSlide === totalSlides - 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                />
-            </svg>
-        </div>
-    </div>
-    <div
-        className={styles.RightBtn}
-        style={{
-            opacity: currentSlide === totalSlides - 1 ? 0.1 : 1,
-            cursor: currentSlide === totalSlides - 1 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === 0 || currentSlide === 2 || currentSlide === 3 ? 'black' : 'transparent',
-        }}
-        onClick={currentSlide === totalSlides - 1 ? null : goToNext2}
-    >
-        <div>
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="52"
-                height="52"
-                viewBox="0 0 52 52"
-                fill="none"
-            >
-                <path
-                    d="M36.834 26H6.50065"
-                    stroke={currentSlide === 1 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                />
-                <path
-                    d="M47.3087 25.7856L38.0443 20.227C37.5111 19.907 36.8327 20.2911 36.8327 20.913V31.087C36.8327 31.7089 37.5111 32.093 38.0443 31.773L47.3087 26.2144C47.4706 26.1173 47.4706 25.8827 47.3087 25.7856Z"
-                    fill={currentSlide === 0 || currentSlide === 2 || currentSlide === 3 ? "#FFFFFF" : "#FFFFFF"} 
-                />
-            </svg>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
                         </div>
 
-                    </div> */}
+                    </div>
+
+                    {isModalOpen2 && modalContent && (
+          <Modal show={isModalOpen2} onClose={handleCloseModal2}>
+            <div className={styles.mainModalDiv}>
+              <div className={styles.modalToolTip}>
+                {modalContent.modalHeading && <h1>{modalContent.modalHeading}</h1>}
+                {modalContent.Abstract && <h2>{modalContent.Abstract}</h2>}
+                {modalContent.deccription && <p>{modalContent.deccription}</p>}
+                {modalContent.Objective && <p><b>Objective: </b>{modalContent.Objective}</p>}
+                {modalContent.Background && <p><b>Background: </b>{modalContent.Background}</p>}
+                {modalContent.Materials && <p><b>Materials and methods: </b>{modalContent.Materials}</p>}
+                {modalContent.Hypothesis && <p><b>Hypothesis: </b>{modalContent.Hypothesis}</p>}
+                {modalContent.StudyDesign && <p><b>Study design: </b>{modalContent.StudyDesign}</p>}
+                {modalContent.Methods && <p><b>Methods: </b>{modalContent.Methods}</p>}
+                {modalContent.Result && <p><b>Results: </b>{modalContent.Result}</p>}
+                {modalContent.Conclusion && <p><b>Conclusion: </b>{modalContent.Conclusion}</p>}
+                {modalContent.Clinical && <p><b>Clinical relevance: </b>{modalContent.Clinical}</p>}
+              </div>
+            </div>
+          </Modal>
+        )}
 
                 </div>
             </div>
         </div>
     )
 }
-// const CustomPrevArrow = (props) => {
-//     const { className, onClick } = props;
-//     return (
-//         <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
-//             Custom Left Button
-//         </div>
-//     );
-// };
-// const CustomNextArrow = (props) => {
-//     const { className, onClick } = props;
-//     return (
-//         <div className={`${className} ${styles.customPrevArrow}`} onClick={onClick}>
-//             Custom Right Button
-//         </div>
-//     );
-// };
+
 export default ScienceSlider2
