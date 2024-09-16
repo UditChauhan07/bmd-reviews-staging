@@ -70,10 +70,10 @@
     position: sticky;
     top: 0rem;
     background-color: #ffffff;
-
 }
 
 .modalHeader h1 {
+    font-size: 26px;
     color: #000;
     font-family: var(--bmd-font-Primary);
 }
@@ -109,7 +109,7 @@
 }
 
 .modalBody {
-    overflow-y: hidden;
+    overflow-y: scroll;
     height: 300px;
     padding: 0rem 1rem 0rem 0rem;
 }
@@ -403,7 +403,9 @@
         font-size: 16px;
         padding: 2px 10px;
     }
-
+    .modalBody {
+        overflow: visible;
+    }
 }
 
 @media only screen and (max-width:991px) and (min-width:800px) {
@@ -487,6 +489,16 @@
     }
     .RightArrow{
         margin-right: 15px;
+    }
+    
+    .modalHeader h1 {
+        font-size: 16px;
+    }
+    .modalHeader h2 {
+        font-size: 16px;
+    }
+    .modalBody p {
+        font-size: 14px;
     }
 }
 @media (max-width:425px){
