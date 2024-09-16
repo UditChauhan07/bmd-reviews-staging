@@ -243,7 +243,7 @@ const ReasonsToBelieve = ({
                     height={"auto"}
                   />
                 </div>
-                <div>
+                <div className={styles.modalCardContent}>
                   <h1 className={styles.title} style={{ color: theme }}>
                     {modalTitle}
                   </h1>
