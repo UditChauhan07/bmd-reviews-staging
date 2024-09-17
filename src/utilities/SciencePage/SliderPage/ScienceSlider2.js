@@ -324,46 +324,13 @@ const handleTooltipModalShow = (id) => {
                                 </div>
                             </div>
                             
-                            <div className={styles.slider2Details}>
-                                <div className={styles.sliderContentIMG}>
+                            <div className={styles.slider2Details1}>
+                                <div className={styles.sliderContentIMG1}>
                                     <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='' />
                                 </div>
-                                <div className={styles.sliderContent3}>
-                                    <div>
-                                        <h3>Tendoactive Plus LP</h3>
-                                        {/* <h5>The Science of Beauty</h5> */}
-                                    </div>
-                                    <div className={styles.forRound}>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(1)} onMouseEnter={() => handleMouseEnter('Boswellia', 'page-1', "scrollableContainer")} className={styles.tooltip2}>Prabhavathi K <span>Prabhavathi K, et al. Indian J Pharmacol. 2014 Sep-Oct;46(5):475-9</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p  onClick={() => handleTooltipModalShow(2)} onMouseEnter={() => handleMouseEnter('Boswellia', 'page-1', "scrollableContainer")} className={styles.tooltip2}>Riva A,<span>Riva A, et al. Eur Rev Med Pharmacol Sci. 2017 Nov;21(22):5258-5263.</span></p>
-                                        </div>
-                                        <div className={styles.round} >
-                                            <p onClick={() => handleTooltipModalShow(3)} onMouseEnter={() => handleMouseEnter('Curcumin', 'page-2', "scrollableContainer")} className={styles.tooltip2}>Arbiser JL, <span>Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(4)} onMouseEnter={() => handleMouseEnter('Curcumin', 'page-2', "scrollableContainer")} className={styles.tooltip2}>Buhrmann C <span>Buhrmann C, et al. J Biol Chem. 2011 Aug 12;286(32):28556-66.</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(5)} onMouseEnter={() => handleMouseEnter('Arbiser JL,', 'page-3', "scrollableContainer")} className={styles.tooltip2}>de Mos M <span>de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(6)} onMouseEnter={() => handleMouseEnter('L-proline', 'page-4', "scrollableContainer")} className={styles.tooltip2}>Vieira CP et al., <span>Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8.</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(7)} onMouseEnter={() => handleMouseEnter('L-arginine', 'page-5', "scrollableContainer")} className={styles.tooltip2}>Fusini F. <span>Fusini F. et al. Muscles Ligaments Tendons J. 2016 May 19;6(1):48-57</span></p>
-                                        </div>
-                                        <div className={styles.round}>
-                                            <p onClick={() => handleTooltipModalShow(8)} onMouseEnter={() => handleMouseEnter('Copper', 'page-6', "scrollableContainer")} className={styles.tooltip2}>Milewska Met al., <span>Milewska Met al., Stem Cells Int. 2020;2020:9123281. Published 2020 Feb 20.</span></p>
-                                        </div>
-                                    </div>
-                                    <hr className={styles.blackHr2} />
-                                    <div className={styles.btnDivBuy}>
-                                        <div className={styles.roundBtn}><p onClick={() => handleShow('/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp', "tendoactive-plus-20-stick", "tendoactive-plus-20-stick")}>Buy Now</p></div>
-                                    </div>
-                                </div>
+
+                                <a>Buy Now</a>
+                              
                             </div>
                         </div>
 
