@@ -88,17 +88,36 @@
 
 .slider3data {
     display: flex !important;
+    gap: 40px;
 }
 
-.slider2Details {
-    display: contents;
+.slider2Details1 {
+    /* display: contents; */
+    max-width: 358px;
 }
 
 .sliderContent {
-    width: 35%;
+    width: 98%;
     margin-right: 0rem !important;
 }
+.slider2Details1 img{
+    width:100% !important;
+}
+.sliderContentIMG1{
+    width: 100%;
+}
 
+
+.slider2Details1 a{
+    display: flex;
+    background-color: #000;
+    color: #fff !important;
+    font-size: 18px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
 
 .sliderContent h6 {
     font-family: var(--bmd-font-Primary);
@@ -109,7 +128,7 @@
 }
 
 .forscrollbar {
-    height: 260px;
+    height: 400px;
     padding-right: 1rem;
     scroll-behavior: smooth;
     overflow-y: scroll;
@@ -857,7 +876,7 @@
 
     .forscrollbar {
         overflow: auto;
-        height: 370px;
+        /* height: 370px; */
     }
 
     .sliderContent3 h3 {
@@ -925,7 +944,7 @@
 
     .forscrollbar {
         overflow: auto;
-        height: 250px;
+        /* height: 250px; */
     }
 
     .sliderContent3 h3 {
@@ -973,6 +992,11 @@
 
 
 @media (max-width:767px) {
+
+    .slider2Details1 {
+    
+        margin: auto !important;
+    }
     .brunoDecription4 {
         margin-top: 0rem !important;
 
@@ -995,7 +1019,7 @@
 
 
     .slider3data {
-        display: block !important;
+        display: grid!important;
         margin-top: 0rem;
         padding: 0rem !important;
     }
