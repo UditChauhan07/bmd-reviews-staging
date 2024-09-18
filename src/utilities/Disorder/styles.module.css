@@ -91,6 +91,7 @@
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
+  max-width: 1300px;
   position: absolute;
   padding: 50px 30px;
 }
@@ -107,7 +108,7 @@
 }
 .modalImgHolder {
   width: 200px;
-  margin-right: 10px;
+  margin-right: 30px;
   border-radius: 15px;
   float: left;
   box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
