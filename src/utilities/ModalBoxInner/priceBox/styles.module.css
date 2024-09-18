@@ -45,6 +45,11 @@
   margin-bottom: 1rem;
   font-weight: bolder;
 }
+
+.title2Holder{
+  margin: 0 0 20px 0;
+}
+
 @media (max-width: 1440px) {
   .dFlex {
     margin: 1rem auto;

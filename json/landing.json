@@ -61,7 +61,7 @@
       "offerTextColor": "#fff",
       "isPriceBox":true,
       "priceBox": {
-        "qtyUnitMultiplierLabel": "scatola 20 sticks",
+        "qtyUnitMultiplierLabel": "scatola 20 Bustine",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID":"Tendo_PLP_PriceBox_Container",
@@ -102,7 +102,7 @@
     },
     "ProductSlideAccordion": {
       "src": "\\images\\06-BMD-Tendoactive_Plus-9O3A2989.webp",
-      "heading": "Tendo Active",
+      "heading": "TendoActive",
       "subHeading": null,
       "subtitle": "Forte alleato contro\nil dolore e il recupero dall'infortunio",
       "text":null,
