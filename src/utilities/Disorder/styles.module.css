@@ -192,7 +192,8 @@
     font-size: 14px;
   }
   .modalImgHolder {
-    margin-right: 150px;
+    /* margin-right: 150px; */
+    margin: 0 0 30px 0 !important;
   }
   .CollaButton {
     width: 300px;
