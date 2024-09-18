@@ -132,22 +132,22 @@ const TendoActive = () => {
                     <div className={styles.Tendo_detail}>
                         <div className={styles.Right_line}></div>
                         <div className={styles.Tendo_content}>
-                            <h1>Efficace per molte condizioni</h1>
-                            <p>Migliora la salute dei tendini: della cuffia dei rotatori, dell’epicondilite laterale e mediale, dell’estensore del pollice, della fascite plantare, della rotula, del tendine d’Achille.</p>
+                            <h1>Riduzione del dolore</h1>
+                            <p>Significativa riduzione del dolore sia a riposo che durante attività fisica. Per una gestione sicura ed efficace delle tendinopatie e della fascite plantare.</p>
                         </div>
                     </div>
                     <div className={styles.Tendo_detail}>
                     <div className={styles.Right_line}></div>
                         <div className={styles.Tendo_content}>
-                            <h1>Migliora la capacità funzionale</h1>
-                            <p>In combinazione con l’allenamento o lo stretching passivo, fornisce un significativo sollievo dal dolore e una migliore capacità funzionale, in particolare per la fase iniziale della tendinopatia del tendine d’Achille</p>
+                            <h1>Migliora la condizione del tendine</h1>
+                            <p>Aumenta la proliferazione dei tenociti (cellule tendinee) e la vitalità stimolando la sintesi endogena del collagene di tipo I.</p>
                         </div>
                     </div>
                     <div className={styles.Tendo_detail}>
                     <div className={styles.Right_line}></div>
                         <div className={styles.Tendo_content}>
                             <h1>Efficace per molte condizioni</h1>
-                            <p>Migliora la salute dei tendini: della cuffia dei rotatori, dell’epicondilite laterale e mediale, dell’estensore del pollice, della fascite plantare, della rotula, del tendine d’Achille.</p>
+                            <p>Migliora la salute dei tendini: dellacuffia dei rotatori, dell’epicondilite laterale e mediale, dell’ estensore del pollice,della  fascite plantare, della rotula, del tendine d&apos;Achille</p>
                         </div>
                     </div>
 
