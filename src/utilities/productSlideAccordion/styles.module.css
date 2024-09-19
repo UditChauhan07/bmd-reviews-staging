@@ -128,8 +128,11 @@
 @media screen and (max-width:1000px) {
     .twoCol {
         flex-direction: column;
-        padding: 0 2rem
+        padding: 0 2rem;
+        display: grid;
+        margin: 70px 0 70px 0;
     }
+    
 
     .container {
         margin-left: auto;

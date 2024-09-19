@@ -115,9 +115,14 @@
     width: 95%;
   }
   .twoCol {
-    display: block;
-    gap: 30px;
+    display: grid;
+    gap: 40px;
   }
+
+  .wrapper {
+    width: 80%;
+    margin: auto;
+}
 }
 @media screen and (max-width: 769px) {
   .dGrid {
