@@ -27,6 +27,7 @@
 .accordionItem {
   font-family: var(--bmd-font-Secondary);
   border: 1px solid #d9d6ce;
+  
 }
 
 .flex {

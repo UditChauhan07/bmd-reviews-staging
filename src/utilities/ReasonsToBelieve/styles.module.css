@@ -1,5 +1,6 @@
 .ingredientsHolder {
   margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 .reasonsContainer {
   display: flex;
@@ -239,7 +240,7 @@
 .modalImgHolder {
   width: 200px;
   height: auto;
-  margin-right: 30px;
+  /* margin-right: 30px; */
   border-radius: 15px;
   float: left;
   box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
@@ -257,6 +258,7 @@
 
 .modalCardContainerV2 {
   display: flex;
+  gap: 30px;
 }
 .modalCardImage{
   margin: auto;
@@ -322,7 +324,9 @@
   }
   .v2Container {
     grid-template-columns: repeat(auto-fill, 100%);
-  }
+    gap: 20px;
+    }
+  
 }
 @media screen and (max-width: 769px) {
   .modalCardContainerV2 {
@@ -353,6 +357,7 @@
   .modalCardContainerV2 {
     overflow: scroll;
     max-height: 300px;
+    display: grid;
   }
   .modalContainer1 {
     top: 40%;
