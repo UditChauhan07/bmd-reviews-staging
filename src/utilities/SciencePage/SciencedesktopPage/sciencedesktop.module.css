@@ -39,10 +39,10 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    color: rgb(55 36 107 / 51%);
+    color: rgba(0, 0, 0, 0.51);
 }
 .LeftArrow:hover{
-    color: rgb(55, 36, 107);
+    color: rgb(0, 0, 0);
 }
 .RightArrow{
     align-items: center;
@@ -50,10 +50,10 @@
     justify-content: center;
     position: absolute;
     top: 0.6px;
-    color: rgb(55 36 107 / 51%);
+    color: rgba(0, 0, 0, 0.51);
 }
 .RightArrow:hover{
-    color: rgb(55, 36, 107);
+    color: rgb(0, 0, 0);
 }
 .carouselControlRight {
     right: 10px;
