@@ -7,7 +7,7 @@ const ProductArticleModal = ({
   ModalHandler,
   priceBox = null,
   variantId = null,
-  onReviewClick
+  onReviewClick,
 }) => {
   const [isDesktopImage] = useMatchMedia("(min-width: 1024px)", true);
   if (priceBox) {
@@ -19,8 +19,8 @@ const ProductArticleModal = ({
               src={content.bannerDesk?.src}
               alt={content.bannerDesk?.alt}
               className={styles.col1}
-              width={1000}
-              height={600}
+              maxWidth={"1000px"}
+              maxHeight={"600px"}
               fetchpriority="high"
             />
           ) : (
@@ -34,14 +34,13 @@ const ProductArticleModal = ({
             />
           )}
 
-
           <div className={styles.col2v2}>
             <div className={styles.Review} onClick={onReviewClick}>
-              <div className={styles.ratings}><span>5</span>★★★★★</div>
-              <div >
-
-                <div className={styles.ratingsP}>
-                  Basato su 2 recensioni</div>
+              <div className={styles.ratings}>
+                <span>5</span>★★★★★
+              </div>
+              <div>
+                <div className={styles.ratingsP}>Basato su 4 recensioni</div>
               </div>
             </div>
             <PurchaseBox data={priceBox} variantId={variantId} />
