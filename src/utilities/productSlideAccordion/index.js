@@ -28,7 +28,7 @@ const ProductSlideAccordion = ({ content, theme,ModalHandler=null }) => {
         <div className={styles.container} id="benefits">
             <div className={styles.twoCol}>
                 <div className={styles.dGrid}>
-                    <img src={content.src} alt={content.alt||'...'} className={styles.image} height={400} width={400}/>
+                    <img src={content.src} alt={content.alt||'...'} className={styles.image} max-height={400} max-width={400}/>
                     {content.buyNow && <span className={styles.buyNow} id="productAslideTrigger" onClick={ModalHandler} style={{background: color}}>Buy Now</span>}
                 </div>
                 <div className={styles.wrapper}>

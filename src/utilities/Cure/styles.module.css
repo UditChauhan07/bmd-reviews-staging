@@ -1,1 +1,198 @@
-.CollagenGrid{font-size:var(--bmd-14px);font-weight:300;color:#000;font-family:var(--bmd-font-Secondary);padding-left:.5rem;padding-right:.5rem;text-align:center;margin-top:80px;padding:52px 0}.CollagenText{margin:20px auto}.CollagenText p{color:#000;text-align:center;font-style:normal;font-weight:400;line-height:24px;padding:0 100px;font-size:14px;font-family:var(--bmd-font-Secondary)}.CollagenButtonText{margin-left:auto;margin-right:auto;display:flex;justify-content:center;align-items:center}.CollagenButton{cursor:pointer;padding:15px 0;text-transform:uppercase;border-radius:5px;display:flex;font-family:var(--bmd-font-Secondary);color:#fff;text-align:center;width:351px}.modal{opacity:1;height:100vh;overflow:auto;background:rgba(0,43,78,.58);position:fixed;width:100vw;top:0;left:0;z-index:1115}.modalOverlayV2{width:100%;height:100vh;top:0;left:0;cursor:pointer;position:absolute}.modalContainer1{border-radius:15px;background-color:#fff;border:1px solid #ccc;padding:20px 10px;width:80%;margin:auto;height:auto;transform:translate(-50%,-50%);left:50%;top:50%;position:absolute;padding:50px 30px;margin:30px 0}.modalCardContainerV2 .OverflowDiv{overflow:auto}.exitButton1{position:absolute;right:20px;top:-16px;border-radius:10px;border:.5px solid #000;background:#fff;width:35px;height:35px;padding:6px}.modalImgHolder{width:200px;height:auto;margin-right:10px;border-radius:15px;float:left;box-shadow:0 0 4px 0 rgba(255,255,255,.25)}.title{font-family:var(--bmd-font-Secondary);font-size:16px;font-weight:400;line-height:22px;margin-bottom:10px}.expanded{font-size:14px;min-height:50px;color:#000;font-family:var(--bmd-font-Secondary)}.container{margin-left:auto;margin-right:auto;max-width:1380px;width:100%;position:relative}.imageContainer{width:100%;height:100%}.image{width:100%;height:100%;object-fit:cover}.grid{display:grid;grid-template-columns:6fr 0fr}.details{display:grid;grid-template-rows:auto 1fr;padding:.5rem;bottom:50px;background:#eee}.flexContainer{flex:1 1 40%}.headingContainer{text-align:center;padding:0 15%;font-family:ivypresto-display,Times New Roman,Times,serif;font-size:48px;font-weight:400;color:#000;line-height:60px}@media (max-width:1350.98px){.modalCardContainerV2 .OverflowDiv{height:46vh;overflow:auto}}@media (max-width:1199.98px){.headingContainer{padding:0 5%;font-size:30px;line-height:40px}.CollagenText{font-size:14px}}@media (max-width:767.98px){.CollagenButton{width:300px}.CollagenText p{padding:0 20px}}
+.CollagenGrid {
+    font-size: var(--bmd-14px);
+    font-weight: 300;
+    color: #000;
+    font-family: var(--bmd-font-Secondary);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+    margin-top: 80px;
+    padding: 52px 0
+}
+
+.CollagenText {
+    margin: 20px auto
+}
+
+.CollagenText p {
+    color: #000;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 100px;
+    font-size: 14px;
+    font-family: var(--bmd-font-Secondary)
+}
+
+.CollagenButtonText {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.CollagenButton {
+    cursor: pointer;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: flex;
+    font-family: var(--bmd-font-Secondary);
+    color: #fff;
+    text-align: center;
+    width: 351px
+}
+
+.modal {
+    opacity: 1;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(0, 43, 78, .58);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1115
+}
+
+.modalOverlayV2 {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    position: absolute
+}
+
+.modalContainer1 {
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    padding: 30px 30px;
+    margin: 30px 0
+}
+
+.modalCardContainerV2 .OverflowDiv {
+    overflow: auto
+}
+
+.exitButton1 {
+    position: absolute;
+    right: 20px;
+    top: -16px;
+    border-radius: 10px;
+    border: .5px solid #000;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 6px
+}
+
+.modalImgHolder {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0 0 4px 0 rgba(255, 255, 255, .25)
+}
+
+.title {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+.expanded {
+    font-size: 14px;
+    min-height: 50px;
+    color: #000;
+    font-family: var(--bmd-font-Secondary)
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%;
+    position: relative
+}
+
+.imageContainer {
+    width: 100%;
+    height: 100%
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 6fr 0fr
+}
+
+.details {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: .5rem;
+    bottom: 50px;
+    background: #eee
+}
+
+.flexContainer {
+    flex: 1 1 40%
+}
+
+.headingContainer {
+    text-align: center;
+    padding: 0 15%;
+    font-family: ivypresto-display, Times New Roman, Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #000;
+    line-height: 60px
+}
+
+@media (max-width:1350.98px) {
+    .modalCardContainerV2 .OverflowDiv {
+        height: 46vh;
+        overflow: auto
+    }
+}
+
+@media (max-width:1199.98px) {
+    .headingContainer {
+        padding: 0 5%;
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .CollagenText {
+        font-size: 14px
+    }
+}
+
+@media (max-width:767.98px) {
+    .CollagenButton {
+        width: 300px
+    }
+
+    .CollagenText p {
+        padding: 0 20px
+    }
+}

@@ -1,89 +1,90 @@
 .brunoDecription2 {
-    width: 100% !important;
-    margin-top: 3rem !important;
-    text-align: center !important;
-    max-width: 1380px !important;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    max-width: 1380px;
 }
 
 .bruno3000 {
-    text-align: center !important;
+    text-align: center;
 }
 
 .brunoDecription2 h1 {
-    font-size: 50px !important;
+    font-size: 50px;
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     color: rgb(0, 0, 0);
 }
-.tendoProductDiv {
+
+.tendoProductmain {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    gap: 2rem;
 }
 
-.tendoProduct {
-    border: 2px solid #0033A1;
-    width: 34%;
+.tendo_Product {
+    width: 33%;
+    /* border: 1px solid rgb(219, 34, 34); */
+}
+
+.Produc_div {
+    border: 1px solid #D7D2F0;
     border-radius: 34px;
     display: flex;
-    padding: 20px;
-    gap: 10px;
+    gap: 20px;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
-.tendoImg {
-    margin: auto;
-    width: 30%;
-    /* border: 1px solid rgb(0, 60, 255); */
+.Product_img {
+    width: 40%;
 }
 
-.tendoImg img {
+.Product_img img {
     width: 100%;
 }
 
-.tendoContent {
-    /* border: 1px solid rgb(3, 3, 3); */
-    width: 70%;
+.Product_content {
+    width: 60%;
+    text-align: left;
 }
 
-.tendoContent h1 {
+.Product_content h1 {
     font-family: var(--bmd-font-Secondary);
-    font-size: 18px;
     line-height: 24px;
+    font-size: 18px;
     margin-bottom: 0px;
-    color: #000;
 }
 
-.tendoContent h2 {
+.Product_content h2 {
     font-family: var(--bmd-font-Secondary);
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
-    color: #000;
-    margin-bottom: 0px;
+
 }
 
-.tendoContent p {
+.Product_content p {
     font-family: var(--bmd-font-Secondary);
+    line-height: 18px;
     font-size: 14px;
-    color: #103450;
-    margin-bottom: 0px;
+
 }
 
-.tendoButton {
+.tendo_buttonDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-.tendoMedcolor {
-    background-color: #0033A1;
+.tendoMed_color {
+    background-color: #0033a1;
     height: 20px;
     border-radius: 3px;
     width: 30%;
 }
 
-.tendoButton button {
+.tendo_buttonDiv button {
     font-family: var(--bmd-font-Secondary);
     font-size: 16px;
     border: none;
@@ -93,407 +94,55 @@
     padding: 4px 18px;
 }
 
-.tendoDecriptionmain {
-    margin: auto;
-    display: flex;
-    width: 100% !important;
-    max-width: 1380px !important;
-    display: flex !important;
-    padding: 20px;
-}
-
-.tendoDetailmain {
-    /* margin-top: 1rem; */
-}
-.MobtendoDetailmain2{
+.Produc_div2 {
     display: none;
 }
-.tendoDetailmain2 {
-    cursor: pointer;
-  
-}
 
-.tendoBox {
+.tendo_human {
     width: 33%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    /* border: 1px solid rgb(0, 0, 0); */
 }
 
-.tendoBox2 {
+.tendo_human img {
+    width: 62%;
+}
+
+.tendo_Product2 {
     width: 33%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    /* border: 1px solid rgb(0, 0, 0); */
 }
 
-.tendoDetail {
+.Tendo_details_div {
+    /* border: 1px solid; */
+    /* height: 200px; */
     display: flex;
-    border: 2px solid #0033a13f;
+    gap: 1rem;
+}
+.Tendo_detail{
+    border: 1px solid #D7D2F0;
     border-radius: 34px;
-    background-color: rgba(215, 210, 240, .267);
+    /* height: 180px; */
+    width: 33%;
+    display: flex;
     padding: 1.5rem;
-    cursor: pointer;
-    position: relative;
 }
-.active::after {
-    content: " ";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #0033A1;
-    bottom: -15px;
-    top: 5.6rem;
-    right: -22px;
-    transform: rotate(270deg);
+.Right_line{
+    border-right: 3px solid #6F329E;
+    height: auto;
 }
-.rightLine {
-    border-right: 4px solid #0033A1;
-    height: 140px;
+.Tendo_content{
+    
+    padding: 0px 20px;
+    text-align: left;
 }
-
-.tendotext {
-    padding: 0 20px;
-}
-
-.tendotext h1 {
-    font-weight: 700;
+.Tendo_content h1{
     font-family: var(--bmd-font-Secondary);
+    font-weight: bold;
     font-size: 18px;
+    line-height: 24px;
 }
-
-.tendotext p {
+.Tendo_content p{
     font-family: var(--bmd-font-Secondary);
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 0px;
-}
-
-.humanMain {
-    width: 34%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.humanMain img {
-width: 55%;   
-}
-.active {
-    border: 3px solid #0033A1;
-    background-color: rgb(255, 255, 255);
-}
-
-.inactive {
-    display: flex;
-    border: 1px solid #0033a13f;
-    border-radius: 34px;
-    background-color: rgba(215, 210, 240, .267);
-    padding: 1.5rem;
-    cursor: pointer;
-}
-
-/* .activeBorder{
-    border: 2px solid rgba(9, 68, 149, 1);
-    border-radius: 34px;
-} */
-
-.blueDotsBlink {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(9, 68, 149, 1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.blueDotsBlink::before {
-    content: "";
-    border: 5px solid rgba(9, 68, 149, 1);
-    border-radius: inherit;
-    position: absolute;
-    z-index: -10;
-    opacity: 0;
-    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
-    animation-delay: 1s;
-}
-
-@keyframes expand {
-
-    1% {
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-
-    100% {
-        width: 300%;
-        height: 300%;
-        opacity: 0;
-        background-color: none;
-        border-width: 2px;
-    }
-}
-
-.blueDotsBlink2 {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(9, 68, 149, 1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.blueDotsBlink2::before {
-    content: "";
-    border: 5px solid rgba(9, 68, 149, 1);
-    border-radius: inherit;
-    position: absolute;
-    z-index: -10;
-    opacity: 0;
-    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
-    animation-delay: 1s;
-}
-
-@keyframes expand {
-
-    1% {
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-
-    100% {
-        width: 300%;
-        height: 300%;
-        opacity: 0;
-        background-color: none;
-        border-width: 2px;
-    }
-}
-
-.blueDotsBlink3 {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(9, 68, 149, 1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.blueDotsBlink3::before {
-    content: "";
-    border: 5px solid rgba(9, 68, 149, 1);
-    border-radius: inherit;
-    position: absolute;
-    z-index: -10;
-    opacity: 0;
-    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
-    animation-delay: 1s;
-}
-
-@keyframes expand {
-
-    1% {
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-
-    100% {
-        width: 300%;
-        height: 300%;
-        opacity: 0;
-        background-color: none;
-        border-width: 2px;
-    }
-}
-
-
-.blueDotsBlink4{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: rgba(9, 68, 149, 1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.blueDotsBlink4::before {
-    content: "";
-    border: 5px solid rgba(9, 68, 149, 1);
-    border-radius: inherit;
-    position: absolute;
-    z-index: -10;
-    opacity: 0;
-    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
-    animation-delay: 1s;
-}
-
-@keyframes expand {
-
-    1% {
-        width: 0;
-        height: 0;
-        opacity: 1;
-    }
-
-    100% {
-        width: 300%;
-        height: 300%;
-        opacity: 0;
-        background-color: none;
-        border-width: 2px;
-    }
-}
-
-.body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-@media only screen and (max-width:2560px) and (min-width:1920px) {
-    .tendoDecriptionmain{
-        margin-top: 3rem;
-        padding: 0px;
-    }
-}
-@media only screen and (max-width:1919px) and (min-width:1441px) {
-    .tendoDecriptionmain{
-        margin-top: 2rem;
-        padding: 0px;
-    }
-}
-@media (max-width:1440px) {
-    .tendoDecriptionmain{
-        padding: 0px;
-    }
-}
-@media (max-width:1400px) {
-    .tendoDecriptionmain{
-        padding: 20px;
-    }
-}
-@media (max-width:991px) {
-    .tendoProduct {
-        width: 50%;
-    }
-
-    .tendoBox {
-        width: 50%;
-    }
-
-    .tendoBox2 {
-        width: 50%;
-    }
-
-    .humanMain {
-        width: 50%;
-
-    }
-}
-
-@media (max-width:900px) {
-    .tendoBox {
-        height: 400px;
-        overflow: auto;
-        padding-right: 20px;
-        width: 70%;
-    }
-
-    .tendoBox2 {
-        display: none;
-    }
-
-   
-    .MobtendoDetailmain2{
-        cursor: pointer;
-        display: block;
-    }
-    .rightLine {
-        height: 90px;
-    }
-}
-
-@media (max-width:768px) {
-    .brunoDecription2 h1{
-        font-size: 30px !important;
-    }
-    .tendoButton button {
-        font-size: 12px;
-    }
-
-    .tendotext h1 {
-        font-size: 14px;
-        margin-bottom: 0px;
-    }
-
-    .tendotext h2 {
-        font-size: 12px;
-    }
-}
-
-@media (max-width:650px) {
-    .tendoProduct {
-        width: 70%;
-    }
-}
-
-@media (max-width:550px) {
-    .tendoDecriptionmain {
-        display: block !important;
-        margin-top: 1rem;
-    }
-
-    .tendoBox {
-        width: 100%;
-        padding-right: 15px;
-    }
-
-    .humanMain {
-        margin:1rem auto;
-    }
-    .humanMain img{
-        width: 100% !important;
-    }
-}
-
-@media (max-width:500px) {
-    .tendoProduct {
-        width: 90%;
-    }
-
-}
-
-@media (max-width:375px) {
-    .tendotext {
-        padding: 0 0px 0px 10px;
-    }
-
-    .tendotext p {
-        font-size: 13px;
-    }
-    .rightLine{
-        height: 105px;
-    }
 }
