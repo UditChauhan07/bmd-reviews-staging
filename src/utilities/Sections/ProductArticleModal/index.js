@@ -40,7 +40,7 @@ const ProductArticleModal = ({
                 <span>5</span>★★★★★
               </div>
               <div>
-                <div className={styles.ratingsP}>Basato su 4 recensioni</div>
+                <div className={styles.ratingsP}> Basato su 4 recensioni</div>
               </div>
             </div>
             <PurchaseBox data={priceBox} variantId={variantId} />
