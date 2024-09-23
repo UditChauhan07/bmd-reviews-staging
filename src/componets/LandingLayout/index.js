@@ -34,7 +34,7 @@ import LandingFaq from "@/utilities/LandingFaq";
 import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
-import data1 from '../../../json/layout.json'
+import data1 from "../../../json/layout.json";
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
@@ -52,16 +52,14 @@ const LandingPage = ({ version, script, page }) => {
     setIsOpen(!isOpen);
   };
   const highlightReviewContainer = () => {
-    const reviewContainer = document.getElementById('review_ingredients');
+    const reviewContainer = document.getElementById("review_ingredients");
     if (reviewContainer) {
-      reviewContainer.scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'start' 
+      reviewContainer.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
       });
-    }  
-  }
-  
-  
+    }
+  };
 
   useEffect(() => {
     if (pageData.externalId) {
@@ -132,7 +130,7 @@ const LandingPage = ({ version, script, page }) => {
   }, []);
 
   const pageData = landingData[page] || {};
- console.log("aaja",pageData);
+  console.log("aaja", pageData);
 
   let BlogData = ProductsBlogData[pageData.externalId] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
@@ -235,7 +233,6 @@ const LandingPage = ({ version, script, page }) => {
               content={pageData.ProductArticleModal}
               ModalHandler={ModalHandler}
               onReviewClick={highlightReviewContainer}
-
             />
           )}
           {pageData?.ProductSlideAccordion && (
@@ -308,7 +305,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
-            <SciencePage2 data={data1["EU"].footer2} />
+          {/* <SciencePage2 data={data1["EU"].footer2} /> */}
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}
@@ -323,15 +320,12 @@ const LandingPage = ({ version, script, page }) => {
                 pageData?.externalId &&
                 !pageData?.isHideScript && (
                   <ProductReviews
-                  onReviewClick={highlightReviewContainer}
-
+                    onReviewClick={highlightReviewContainer}
                     product_details={{
                       sku: pageData.sku,
                       product_title: pageData.product_title,
                       product_url: pageData.product_url,
-
                     }}
-                    
                     variantId={pageData.externalId}
                   />
                 )}
@@ -373,7 +367,7 @@ const LandingPage = ({ version, script, page }) => {
               {!pageData?.chat && !pageData?.isHideScript && <Chat />}
             </>
           )}
-        <Footer data={data1["EU"].footer2} />
+          <Footer data={data1["EU"].footer2} />
           <RewardRemoveScript />
           {!isOpen && (
             <SubscriptionBar
