@@ -69,7 +69,7 @@
         "qtyMultiplierShowOnExtraDesc": false,
         "qtyExtraDesc": null,
         "isCheckoutRedirected": true,
-        "subscriptionDetails": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi <a href=''style='text-decoration: underline;'>More<a/></li></ul>",
+        "subscriptionDetails": "Il tuo abbonamento a questo prodotto si rinnoverà ogni 25 giorni e riceverai il prodotto a pagamento effettuato<ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi <a href=''style='text-decoration: underline;'>Di più<a/></li></ul>",
         "moreInfoBtnText1": "Maggiori informazioni",
         "qtyLabelText": "Quantita'",
         "freqLabelText": "Consegna ogni",
