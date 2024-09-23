@@ -406,6 +406,7 @@
   }
   .modalCardContainerV2 {
     max-height: 380px;
+    gap: 0px;
   }
   .imgHolder {
     width: 100px;
