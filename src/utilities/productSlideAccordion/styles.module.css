@@ -116,6 +116,15 @@
     height: auto
 }
 
+.list {
+    list-style-type: disc;
+}
+
+.description {
+    font-size: 14px;
+    font-family: var(--bmd-font-Secondary)
+}
+
 @media screen and (max-width:1380px) {
     .container {
         margin-left: auto;
@@ -132,7 +141,7 @@
         display: grid;
         margin: 70px 0 70px 0;
     }
-    
+
 
     .container {
         margin-left: auto;
@@ -158,7 +167,31 @@
 }
 
 @media screen and (max-width:426px) {
+    .header,
+    .subHeader {
+    padding-right: 3rem;
+    }
     .twoCol {
         padding: 0 1rem
+    }
+
+    .wrapper {
+        max-width: 400px;
+        padding: 1rem;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:375px) {
+    .wrapper {
+        max-width: 350px;
+        padding: 1rem;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:320px) {
+    .wrapper {
+        max-width: 300px;
+        padding: 1rem;
+        margin: 0px;
     }
 }

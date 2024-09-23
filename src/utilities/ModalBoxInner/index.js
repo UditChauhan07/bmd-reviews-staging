@@ -20,6 +20,9 @@ const ModalBoxInner = ({
   let client = undefined;
   const [shopifyP, setSProduct] = useState();
   const [cartLoad, setCartLoad] = useState(false);
+  
+
+  
   const typeHandler = (e) => {
     const { name, value } = e.target;
     setType(value);
@@ -136,6 +139,9 @@ const ModalBoxInner = ({
         console.log({ err });
       });
   };
+
+
+  
   return (
     <section>
       {isOpen === true && (
@@ -168,9 +174,9 @@ const ModalBoxInner = ({
                   style={
                     themed
                       ? {
-                          fontFamily: "var(--bmd-font-Secondary)",
-                          fontWeight: "bolder",
-                        }
+                        fontFamily: "var(--bmd-font-Secondary)",
+                        fontWeight: "bolder",
+                      }
                       : { color: "#ffbf3c" }
                   }
                 >
