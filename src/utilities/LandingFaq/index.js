@@ -22,8 +22,8 @@ function LandingFaq({ data, theme }) {
   };
 
   return (
-    <section>
-      <div className={styles.container}>
+    <section id="faqsection" className={styles.faqHolder}>
+      <div className={styles.container} >
         <div className={styles.twoCol}>
           <div className={styles.dGrid}>
             <div className={styles.FaqImage}>
