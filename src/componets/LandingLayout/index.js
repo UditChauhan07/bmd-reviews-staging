@@ -35,6 +35,7 @@ import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
+import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
@@ -146,6 +147,7 @@ const LandingPage = ({ version, script, page }) => {
       {pageData && (
         <>
           <PageHead content={pageData.seo} />
+          <div style={{display:"flex", gap:"20px",backgroundColor:"#0033a1",alignItems:"center"}} >
           {pageData?.announcement && (
             <AnnouncementBar
               announcement={pageData.announcement.title}
@@ -153,6 +155,11 @@ const LandingPage = ({ version, script, page }) => {
               ModalHandler={ModalHandler}
             />
           )}
+
+<div>
+                <RightStickyScroll />
+              </div>
+          </div>
           {pageData?.nav && <StickyNav theme={pageData.announcement.theme} />}
           {pageData?.wistiaVideoId && (
             <WistiaHero
@@ -351,7 +358,7 @@ const LandingPage = ({ version, script, page }) => {
                   />
                 </div>
               )}
-
+              
               <div>
                 {pageData?.NewsLetter && !pageData?.isHideScript && (
                   <NewsLetter content={pageData.NewsLetter} />

@@ -37,11 +37,11 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         onClick={ModalHandler}
       >
         {/* <div dangerouslySetInnerHTML={{__html:announcement}}/> */}
-        <marquee
-          behavior="scroll"
-          scrollamount="6"
+        <div
+          // behavior="scroll"
+          // scrollamount="6"
           dangerouslySetInnerHTML={{ __html: announcement }}
-        ></marquee>
+        ></div>
       </section>
     );
   } else {
