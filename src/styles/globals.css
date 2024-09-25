@@ -674,6 +674,11 @@ button.slick-prev {
   outline: none;
   width: 100%;
 }
+
+.AnnouseTendo{
+  display: flex;
+  background-color: #19f;
+}
 @media(max-width:430px){
   .carousel-root {
     outline: none;
