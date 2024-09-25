@@ -682,7 +682,9 @@ button.slick-prev {
 @media(max-width:430px){
   .carousel-root {
     outline: none;
-    width: 85%;
+    width: 100%;
+    z-index:-1;
+
   }
 }
 @media(max-width:375px){
