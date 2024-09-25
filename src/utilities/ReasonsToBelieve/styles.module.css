@@ -331,6 +331,7 @@
 @media screen and (max-width: 769px) {
   .modalCardContainerV2 {
     display: block;
+   
   }
   .modalCardContent{
     width: 100%;
@@ -355,7 +356,7 @@
     font-size: 12px;
   }
   .modalCardContainerV2 {
-    overflow: scroll;
+    overflow: hidden;
     max-height: 300px;
     display: grid;
   }
@@ -367,9 +368,10 @@
     padding: 30px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .modalImgHolder {
     width: 100%;
+    max-width: 135px;
     height: auto;
     margin-bottom: 10px;
     /* margin-right: 0; */
