@@ -123,6 +123,7 @@
 
 .list {
     list-style-type: disc;
+    padding-right: 15px;
 }
 
 .description {
@@ -187,6 +188,9 @@
         max-width: 400px;
         padding: 1rem;
         margin: 0px;
+    }
+    .list {
+        padding-right: 15px;
     }
 }
 @media screen and (max-width:375px) {
