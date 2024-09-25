@@ -29,9 +29,14 @@
     display: grid;
     place-items: center;
     height: fit-content;
-    margin: auto
+    margin: auto;
+    transition: transform 0.3s ease;
 }
-
+  
+  .dGrid:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+  }
 .buyNow {
     background: #000;
     background-color: #000;
@@ -167,6 +172,9 @@
 }
 
 @media screen and (max-width:426px) {
+    .dGrid  {
+       width: 75%;
+    }
     .header,
     .subHeader {
     padding-right: 3rem;
