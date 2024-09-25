@@ -22,7 +22,7 @@
     "checkout": true,
     "announcement": {
       "title1": "TendoActive Plus - Offerta esclusiva sconto del 20% su ogni acquisto periodico",
-      "title": "<b>TENDOACTIVE PLUS</b> <span>- OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO</span>",
+      "title": "<b>TENDOACTIVE PLUS</b><span >-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO</span>",
       "theme": {
         "backgroundColor": "#0033A1",
         "position": "fixed"

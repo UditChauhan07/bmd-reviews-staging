@@ -147,6 +147,7 @@ const LandingPage = ({ version, script, page }) => {
       {pageData && (
         <>
           <PageHead content={pageData.seo} />
+          <div style={{display:"flex", gap:"20px",backgroundColor:"#0033a1",alignItems:"center"}} >
           {pageData?.announcement && (
             <AnnouncementBar
               announcement={pageData.announcement.title}
@@ -154,6 +155,11 @@ const LandingPage = ({ version, script, page }) => {
               ModalHandler={ModalHandler}
             />
           )}
+
+<div>
+                <RightStickyScroll />
+              </div>
+          </div>
           {pageData?.nav && <StickyNav theme={pageData.announcement.theme} />}
           {pageData?.wistiaVideoId && (
             <WistiaHero
@@ -352,9 +358,7 @@ const LandingPage = ({ version, script, page }) => {
                   />
                 </div>
               )}
-              <div>
-                <RightStickyScroll />
-              </div>
+              
               <div>
                 {pageData?.NewsLetter && !pageData?.isHideScript && (
                   <NewsLetter content={pageData.NewsLetter} />
