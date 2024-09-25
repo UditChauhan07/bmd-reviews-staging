@@ -1,6 +1,6 @@
 .stickyNav {
-    position: fixed;
-    top: 70%;
+    /* position: fixed; */
+    top: 0;
     z-index: 1111;
     right: 0px;
 }
@@ -14,15 +14,15 @@
     /* border-radius: 50%; */
     border-top-left-radius: 25px;
     border-bottom-left-radius:25px;
-    padding: 10px 20px;
+    padding: 3px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
-    box-shadow: 0px 0px 6px 1px #c1c1c1;
+    background:transparent;
+    /* box-shadow: 0px 0px 6px 1px #c1c1c1; */
 }
 .menuIcon{
-    color: rgb(0, 51, 161);
+    color: rgb(255, 255, 255);
     display: flex;
 }
 
@@ -42,7 +42,7 @@
 .show {
     opacity: 1;
     max-height: 300px;
-    top: -250px;
+    top: 50px;
     gap: 10px;
     /* width: 100px; */
     right: 0px;
