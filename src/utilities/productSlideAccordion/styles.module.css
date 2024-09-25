@@ -29,7 +29,7 @@
     display: grid;
     place-items: center;
     height: fit-content;
-    margin: auto;
+    /* margin: auto; */
     transition: transform 0.3s ease;
 }
   
