@@ -8,7 +8,11 @@
     text-align: center;
     font-weight: var(--bmd-Gotham-book);
     width: 100%;
-    z-index: 111
+    z-index: 111;
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .fixedAnnouncementBar {
@@ -38,7 +42,7 @@
 
     .announcementBar div:not(b),
     .fixedAnnouncementBardiv:not(b) {
-        font-size: 10px
+        /* font-size: 10px */
     }
 
     .announcementBar div:has(b) {
