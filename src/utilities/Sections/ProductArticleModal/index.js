@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import React, { memo, useEffect, useState, useRef } from "react";
 import { useMatchMedia } from "../Hooks/useMatchMedia";
 import Image from "next/image";
 import PurchaseBox from "@/utilities/PurchaseBox";
@@ -10,6 +11,29 @@ const ProductArticleModal = ({
   onReviewClick,
 }) => {
   const [isDesktopImage] = useMatchMedia("(min-width: 1024px)", true);
+  const [reviewCount, setReviewCount] = useState();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      var varId = priceBox.EXTERNALID;
+      varId = varId.split("/").pop();
+      const url = `https://api-cdn.yotpo.com/v1/widget/jEbEI2jY9vvLxI8yyKzuyJz2I0PQz9Mn0SaZJTMJ/products/${varId}/reviews.json`;
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const result = await response.json();
+        if (result) {
+          setReviewCount(result.response.bottomline.total_review);
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchData();
+  });
   if (priceBox) {
     return (
       <section className={styles.container}>
@@ -40,7 +64,9 @@ const ProductArticleModal = ({
                 <span>5</span>★★★★★
               </div>
               <div>
-                <div className={styles.ratingsP}>Basato su 4 recensioni</div>
+                <div className={styles.ratingsP}>
+                  Basato su {reviewCount} recensioni
+                </div>
               </div>
             </div>
             <PurchaseBox data={priceBox} variantId={variantId} />
