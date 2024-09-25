@@ -45,7 +45,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                                 src={imageSrc}
                                 alt={content.alt || `Slide ${index + 1}`}
                                 className={styles.image}
-                                style={{ maxHeight: 400, maxWidth: 400 }}
+                                // style={{ maxHeight: 400, maxWidth: 400 }}
                             />
                             {content.buyNow && (
                                 <span
