@@ -729,3 +729,9 @@ button.slick-prev {
     width: 15px !important;
   }
 }
+/* newsLetter Css start */
+.body-wrapper .button-container {
+  background: #fff;
+  border-radius: 40px;
+}
+/* newsLetter Css End */
