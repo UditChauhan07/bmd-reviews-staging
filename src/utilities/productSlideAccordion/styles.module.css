@@ -148,7 +148,7 @@
     .twoCol {
         flex-direction: column;
         padding: 0 2rem;
-        display: grid;
+        display: block;
         margin: 70px 0 70px 0;
     }
 

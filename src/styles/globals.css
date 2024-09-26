@@ -667,6 +667,8 @@ button.slick-prev {
 }
 /* tendoLandig page slider css start */
 
+
+
 .carousel .thumbs {
   overflow: hidden !important;
 }
@@ -690,13 +692,13 @@ button.slick-prev {
 @media(max-width:375px){
   .carousel-root {
     outline: none;
-    width: 73%;
+    /* width: 73%; */
   }
 }
 @media(max-width:320px){
   .carousel-root {
     outline: none;
-    width: 60%;
+    /* width: 60%; */
     z-index:-1;
   }
 }
