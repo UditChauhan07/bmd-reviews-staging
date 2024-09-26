@@ -743,3 +743,8 @@ button.slick-prev {
   border-radius: 40px;
 }
 /* newsLetter Css End */
+ ol > li::marker{
+  font-weight:bold;
+}
+
+ 

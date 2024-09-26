@@ -197,7 +197,7 @@
     .grid {
         display: grid;
         /* padding-bottom: 20px; */
-        gap: 30px;
+        gap: 20px;
     }
 
     .CollogenContInner h3 {
