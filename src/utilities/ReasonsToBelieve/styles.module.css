@@ -388,6 +388,9 @@
 }
 
 @media screen and (max-width: 769px) {
+    .ingredientsHolder{
+        margin-bottom: 2rem;
+    }
     .modalCardContainerV2 {
         display: block;
     }
