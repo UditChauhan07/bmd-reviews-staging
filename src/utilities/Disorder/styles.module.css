@@ -1,218 +1,250 @@
 .CollogenContent {
-  padding: 50px 41px;
-  width: 60%;
-  display: flex;
-  align-items: center;
-}
-.CollagenImage {
-  width: 40%;
-  display: flex;
-  align-items: center;
-}
-.ImagCollo img {
-  display: flex;
-}
-.CollogenContent h3 {
-  color: #000;
-  text-align: center;
-  line-height: 40px;
-  font-family: ivypresto-display, Times New Roman, Times, serif;
-  font-size: 48px;
-  font-weight: 400;
-  margin-bottom: 19px;
-}
-.CollogenContent p {
-  color: #000;
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 0 0 40px 0;
-  padding: 0 10px;
-  font-size: 14px;
-  min-height: 50px;
-  font-family: var(--bmd-font-Secondary);
-}
-.CollaButton {
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 351px;
-  margin: auto;
-}
-.CollaButton button {
-  color: #fff;
-  text-align: center;
-  font-family: var(--bmd-font-Secondary);
-  font-size: 14px;
-  font-style: normal;
-  line-height: 24px;
-  padding: 15px 0;
-  text-transform: uppercase;
-}
-.grid {
-  /* background-color: rgb(215, 228, 255); */
-  display: flex;
-  width: 100%;
-  /* gap: 30px; */
-}
-.CollogenContInner {
-  width: 80%;
-  margin: auto;
-}
-.modal {
-  opacity: 1;
-  height: 100vh;
-  overflow: auto;
-  background: rgba(0, 43, 78, 0.58);
-  position: fixed;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  z-index: 1115;
-}
-.modalOverlayV2 {
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-  position: absolute;
-}
-.modalContainer1 {
-  border-radius: 15px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px 10px;
-  width: 90%;
-  margin: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-  max-width: 1300px;
-  position: absolute;
-  padding: 30px 30px;
-}
-.exitButton1 {
-  position: absolute;
-  right: 20px;
-  top: -16px;
-  border-radius: 10px;
-  border: 0.5px solid #000;
-  background: #fff;
-  width: 35px;
-  height: 35px;
-  padding: 6px;
-}
-.modalImgHolder {
-  width: 200px;
-  margin-right: 25px;
-  border-radius: 15px;
-  float: left;
-  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
-}
-.title {
-  font-family: var(--bmd-font-Secondary);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  margin-bottom: 10px;
-}
-.expanded {
-  font-size: 14px;
-  min-height: 50px;
-  color: #000;
-  font-family: var(--bmd-font-Secondary);
-}
-.container {
-  margin: auto;
-  max-width: 1380px;
-  width: 95%;
-  margin-bottom: 80px;
-}
-@media (max-width: 1199.98px) {
-  .CollogenContent {
-    padding: 35px 14px;
-    background: #fcf6ff;
+    padding: 50px 41px;
     width: 60%;
     display: flex;
     align-items: center;
-  }
 }
-@media (max-width: 1024.98px) {
-  .modalImage {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .modalImage img {
-    max-width: 100%;
-    margin: auto;
-  }
 
-  .CollogenContInner {
-    width: 90%;
-  }
-  .CollogenContent {
-    background: #fcf6ff;
-    width: 100%;
-  }
-  .CollagenImage {
+.CollagenImage {
+    width: 40%;
     display: flex;
-    width: 100%;
-    margin: 0px 0;
-    justify-content: center;
-  }
-  .CollagenImage img {
-    max-width: 500px;
-    margin: auto;
-  }
+    align-items: center;
 }
-@media (max-width: 991.98px) {
-  .grid {
-    display: grid;
-    /* padding-bottom: 20px; */
-    gap: 30px;
-  }
-  .CollogenContInner h3 {
-    font-size: 40px;
-  }
 
-  .CollogenContent {
-    padding: 30px 20px;
-  }
+.ImagCollo img {
+    display: flex;
 }
-@media (max-width: 767.98px) {
-  .CollogenContent h3 {
-    font-size: 30px;
-  }
-  .CollogenContent p {
+
+.CollogenContent h3 {
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    font-family: ivypresto-display, Times New Roman, Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.CollogenContent p {
+    color: #000;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+    padding: 0 10px;
     font-size: 14px;
-  }
-  .modalImgHolder {
-    /* margin-right: 150px; */
-    margin: 0 0 30px 0 !important;
-  }
-  .CollaButton {
-    width: 300px;
-  }
-  .OverflowDiv {
-    height: 60vh;
-    overflow: auto;
-  }
+    min-height: 50px;
+    font-family: var(--bmd-font-Secondary);
 }
-@media (max-width: 400.98px) {
-  .CollogenContent {
-    padding: 30px 0;
-  }
-  .CollaButton {
-    width: 240px;
+
+.CollaButton {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
     margin: auto;
-  }
-  .CollagenImage img {
+}
+
+.CollaButton button {
+    color: #fff;
+    text-align: center;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.grid {
+    /* background-color: rgb(215, 228, 255); */
+    display: flex;
+    width: 100%;
+    /* gap: 30px; */
+}
+
+.CollogenContInner {
     width: 80%;
     margin: auto;
-  }
+}
+
+.modal {
+    opacity: 1;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(0, 43, 78, 0.58);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1115;
+}
+
+.modalOverlayV2 {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.modalContainer1 {
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    max-width: 1300px;
+    position: absolute;
+    padding: 30px 30px;
+}
+
+.exitButton1 {
+    position: absolute;
+    right: 20px;
+    top: -16px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+}
+
+.modalImgHolder {
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.25);
+}
+
+.title {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.expanded {
+    font-size: 14px;
+    min-height: 50px;
+    color: #000;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.container {
+    margin: auto;
+    max-width: 1380px;
+    width: 95%;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1199.98px) {
+    .CollogenContent {
+        padding: 35px 14px;
+        background: #fcf6ff;
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .modalImage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .modalImage img {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .CollogenContInner {
+        width: 90%;
+    }
+
+    .CollogenContent {
+        background: #fcf6ff;
+        width: 100%;
+    }
+
+    .CollagenImage {
+        display: flex;
+        width: 100%;
+        margin: 0px 0;
+        justify-content: center;
+    }
+
+    .CollagenImage img {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .grid {
+        display: grid;
+        /* padding-bottom: 20px; */
+        gap: 30px;
+    }
+
+    .CollogenContInner h3 {
+        font-size: 40px;
+    }
+
+    .CollogenContent {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .CollogenContent h3 {
+        font-size: 30px;
+    }
+
+    .CollogenContent p {
+        font-size: 14px;
+    }
+
+    .modalImgHolder {
+        /* margin-right: 150px; */
+        margin: 0 0 10px 0 !important;
+    }
+
+    .CollaButton {
+        width: 300px;
+    }
+
+    .OverflowDiv {
+        height: 60vh;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 400.98px) {
+    .CollogenContent {
+        padding: 30px 0;
+    }
+
+    .CollaButton {
+        width: 240px;
+        margin: auto;
+    }
+
+    .CollagenImage img {
+        width: 80%;
+        margin: auto;
+    }
 }
