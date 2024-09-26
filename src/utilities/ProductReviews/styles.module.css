@@ -1,1 +1,546 @@
-.wrapper { width: 100%; padding-right: 2rem; padding-left: 2rem; margin-bottom: 3rem; } .error { font-family: ivypresto-display, "Times New Roman", Times, serif; font-size: 15px; color: red; } .wrapper > div { max-width: 1380px; margin: auto; } .reviewContainerV2 { display: grid; grid-template-columns: repeat(auto-fill, 100%); grid-template-rows: repeat(auto-fill, 75%); } .v2 { margin: 25px auto; max-width: 1380px; text-align: center; } .reviewHeader { font-family: ivypresto-display, "Times New Roman", Times, serif; font-weight: 400; font-size: 52px; color: #000; line-height: 60px; } .reviewBtn { cursor: pointer; border: 1px solid #fff; padding: 10px 30px; text-transform: uppercase; align-items: center; border-radius: 5px; display: flex; flex-direction: row; margin: 0 8px; font-family: var(--bmd-font-Secondary); } .reviewbtn { cursor: pointer; background: black; border: 1px solid #fff; padding: 15px 40px; border-radius: 5px !important; text-transform: uppercase; color: #fff; align-items: center; border-radius: 5px; display: flex; flex-direction: row; align-items: center; font-family: var(--bmd-font-Secondary); font-size: 14px; } .modal { opacity: 1; height: 100vh; overflow: auto; background: rgba(0, 43, 78, 0.58); position: fixed; width: 100vw; top: 0; left: 0; z-index: 1115; } .modalOverlayV2 { width: 100%; height: 100vh; top: 0; left: 0; cursor: pointer; position: absolute; } .modalContainer1 { border-radius: 15px; background-color: #fff; border: 1px solid #ccc; width: 80%; margin: auto; height: auto; transform: translate(-50%, -50%); left: 50%; top: 50%; position: absolute; max-width: 800px; max-height: 90vh; overflow: auto; } .modalCardContainerV2 .OverflowDiv { overflow: auto; padding: 0px 10px 0 0; } .exitButton1 { position: absolute; right: 8px; top: 14px; border-radius: 32px; border: 0.5px solid #000; background: #fff; width: 35px; height: 35px; padding: 8px; } .ratingSection { margin: 0 0 20px 0; } .inputField textarea { width: 100%; } .inputField2 { width: 100%; /* border: 1px solid; */ padding: 5px; margin: 0 0 0px 0; resize: none; font-size: 16px; -webkit-text-size-adjust: none; } .modalCardContainerV2 .title { font-family: var(--bmd-font-Secondary); font-weight: var(--bmd-Gotham-bold) !important; line-height: 28px; text-transform: uppercase; /* font-weight: 400; */ font-size: 20px; color: #202020; text-align: center; padding: 15px 10px; background-color: #f0f0f0; border-radius: 15px 15px 0 0; } .ratingSection p { font-family: var(--bmd-font-Secondary); font-weight: 500; font-weight: 400; color: #202020; font-size: 16px; margin-bottom: 2px; } .OverflowDiv label { font-family: var(--bmd-font-Secondary); font-weight: 500; line-height: 23px; width: 100%; margin-bottom: 13px; margin-top: 5px; font-size: 16px; color: #202020; } .OverflowDiv textarea { resize: none; padding: 5px 10px; margin: 5px 0 0 0; border: 1px solid #7d7d7d; } .inputFieldMain11 { margin: 20px 0 20px 0; } .inputFieldMain11 input { resize: none; width: 100%; padding: 5px 10px; font-size: 16px; -webkit-text-size-adjust: none; } .OverflowDiv input { /* width: 100%; */ resize: none; border: 1px solid #7d7d7d; height: 35px; padding: 5px 10px; margin: 5px 0 0 0; font-size: 16px; -webkit-text-size-adjust: none; } .inputFieldMain input { width: 100%; } .OverflowDiv textarea::placeholder { font-family: var(--bmd-font-Secondary); font-weight: 500; font-weight: 400; font-size: 16px; line-height: 22px; width: 98%; color: #abababc7; /* text-transform: capitalize; */ } .OverflowDiv textarea { font-family: var(--bmd-font-Secondary); font-weight: 500; font-weight: 400; font-size: 16px; line-height: 22px; color: #000; /* text-transform: capitalize; */ width: 100%; } .inputFieldMain { display: flex; width: 100%; gap: 20px; } .inputFieldMain .inputField1 { width: 100%; padding: 5px; resize: none; font-size: 16px; -webkit-text-size-adjust: none; } .inputFieldMain .inputField2 { width: 100%; resize: none; font-size: 16px; -webkit-text-size-adjust: none; } .inputFieldMain .inputField2 p, .OverflowDiv p { font-family: var(--bmd-font-Secondary); margin-top: 2px; font-size: 12px; line-height: 16px; font-weight: 400; color: #373330; } .filesUpload h4 { font-family: var(--bmd-font-Secondary); font-style: normal; font-weight: 600; font-size: 16px; line-height: 23px; color: #373330; } .filesUpload label { display: flex; gap: 5px; align-items: center; justify-content: center; width: 132px; height: 33px; padding: 0 8px; margin-top: 10px; font-style: normal; font-weight: 600; font-size: 14px; border: 1px solid #2c2c2c; border-radius: 5px; } .OverflowDiv .checkboxR input { display: inline-block !important; margin: 0; } .checkboxR { display: flex; align-items: center; gap: 5px; margin: 1px 0 0 0; } .flexPare { display: flex; justify-content: space-between; align-items: center; padding: 10px 30px; border-top: 1px solid #ccc; } .flexPare P { margin: 0px 0 0px; color: #202020; font-size: 16px; font-family: var(--bmd-font-Secondary); } .flexPare button { cursor: pointer; font-size: 14px; width: 110px; height: 35px; background-color: #2c2c2c; color: #fff; border-radius: 5px; font-size: 14px; text-align: center; font-family: var(--bmd-font-Secondary); font-weight: var(--bmd-Gotham-bold); line-height: 28px; text-transform: uppercase; } /* .OverflowDiv::-webkit-scrollbar { width: 0; background: transparent; } */ .modalContainer1::-webkit-scrollbar { width: 0; background: transparent; } .starImage svg { width: 35px; height: 35px; } .starImage { display: flex; gap: 15px; } .ratingSection .starFilled { width: 35px; height: 35px; } .ratingSection .goldenStar { display: flex; gap: 5px; } .OverflowDiv11 h5 { font-style: normal; font-weight: 700; font-size: 25px; line-height: 36px; text-align: center; margin-bottom: 10px; font-family: var(--bmd-font-Secondary); } .ratingSection p { font-family: var(--bmd-font-Secondary); font-size: 16px; line-height: 23px; color: #202020; } .OverflowDiv11 p { width: 65%; font-family: var(--bmd-font-Secondary); margin: auto; font-style: normal; font-weight: 400; font-size: 20px; line-height: 33px; text-align: center; margin-bottom: 40px; } .modalCardContainerV2 .OverflowDiv { height: 70vh; overflow: auto; padding: 15px 30px; } .spanRed { color: red; font-size: 20px; font-family: var(--bmd-font-Secondary); } .OverflowDiv::-webkit-scrollbar { background-color: #f5f5f5; width: 4px; } .OverflowDiv::-webkit-scrollbar-track { background-color: #f5f5f5; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px #0000004d; } .OverflowDiv::-webkit-scrollbar-thumb { background-color: #434c4f; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px #0000004d; } .reviewHeader p { text-align: start; } .ingredientsHolder { scroll-margin-top: 60px; } .BtnAlign { display: flex; justify-content: space-between; align-items: center; } @media screen and (max-width: 600px) { .wrapper { padding-right: 1rem; padding-left: 1rem; } } @media screen and (max-width: 1220px) { .v2, .v2Container { max-width: 90%; } } @media screen and (max-width: 769px) { .reviewHeader { font-size: 32px; line-height: 38px; width: 80%; } .inputFieldMain { display: grid; } .OverflowDiv textarea::placeholder { font-size: 14px; } .starImage svg { width: 25px; height: 25px; } .starImage { gap: 10px; } .OverflowDiv label { font-size: 14px; } .filesUpload { font-size: 14px; margin: 20px 0 0 0; } .v2, .v2Container { margin-left: 5%; } .reasonsHeader { font-size: 32px; line-height: 38px; } .reviewbtn { padding: 8px 20px; line-height: 18px; } } @media screen and (max-width: 1500px) { .v2, .v2Container { max-width: 1200px; } } @media screen and (max-width: 1440px) { .v2, .v2Container { max-width: 1024px; padding: 0 2rem; } } @media (max-width: 1350.98px) { .modalCardContainerV2 .OverflowDiv { height: 46vh; overflow: auto; } } @media (max-width: 545.98px) { .modalCardContainerV2 .title { font-size: 14px; } .reviewContainerV2 { display: block; } .flexPare { display: grid; gap: 10px; justify-content: center; } .reviewHeader { display: flex; justify-content: center; width: 100%; } .reviewbtn { margin: 20px auto 0; } }
+.wrapper {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.error {
+    font-family: ivypresto-display, "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: red;
+}
+
+.wrapper>div {
+    max-width: 1380px;
+    margin: auto;
+}
+
+.reviewContainerV2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-rows: repeat(auto-fill, 75%);
+}
+
+.v2 {
+    margin: 25px auto;
+    max-width: 1380px;
+    text-align: center;
+}
+
+.reviewHeader {
+    font-family: ivypresto-display, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 52px;
+    color: #000;
+    line-height: 60px;
+}
+
+.reviewBtn {
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.reviewbtn {
+    cursor: pointer;
+    background: black;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    border-radius: 5px !important;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--bmd-font-Secondary);
+    font-size: 14px;
+}
+
+.modal {
+    opacity: 1;
+    height: 100vh;
+    overflow: auto;
+    background: rgba(0, 43, 78, 0.58);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1115;
+}
+
+.modalOverlayV2 {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+.modalContainer1 {
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.modalCardContainerV2 .OverflowDiv {
+    overflow: auto;
+    padding: 0px 10px 0 0;
+}
+
+.exitButton1 {
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    border-radius: 32px;
+    border: 0.5px solid #000;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+}
+
+.ratingSection {
+    margin: 0 0 20px 0;
+}
+
+.inputField textarea {
+    width: 100%;
+}
+
+.inputField2 {
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 5px;
+    margin: 0 0 0px 0;
+    resize: none;
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.modalCardContainerV2 .title {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-bold) !important;
+    line-height: 28px;
+    text-transform: uppercase;
+    /* font-weight: 400; */
+    font-size: 20px;
+    color: #202020;
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #f0f0f0;
+    border-radius: 15px 15px 0 0;
+}
+
+.ratingSection p {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 500;
+    font-weight: 400;
+    color: #202020;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.OverflowDiv label {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 500;
+    line-height: 23px;
+    width: 100%;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #202020;
+}
+
+.OverflowDiv textarea {
+    resize: none;
+    padding: 5px 10px;
+    margin: 5px 0 0 0;
+    border: 1px solid #7d7d7d;
+}
+
+.inputFieldMain11 {
+    margin: 20px 0 20px 0;
+}
+
+.inputFieldMain11 input {
+    resize: none;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.OverflowDiv input {
+    /* width: 100%; */
+    resize: none;
+    border: 1px solid #7d7d7d;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.inputFieldMain input {
+    width: 100%;
+}
+
+.OverflowDiv textarea::placeholder {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 98%;
+    color: #abababc7;
+    /* text-transform: capitalize; */
+}
+
+.OverflowDiv textarea {
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    /* text-transform: capitalize; */
+    width: 100%;
+}
+
+.inputFieldMain {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.inputFieldMain .inputField1 {
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.inputFieldMain .inputField2 {
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.inputFieldMain .inputField2 p,
+.OverflowDiv p {
+    font-family: var(--bmd-font-Secondary);
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #373330;
+}
+
+.filesUpload h4 {
+    font-family: var(--bmd-font-Secondary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #373330;
+}
+
+.filesUpload label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 132px;
+    height: 33px;
+    padding: 0 8px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px;
+}
+
+.OverflowDiv .checkboxR input {
+    display: inline-block !important;
+    margin: 0;
+}
+
+.checkboxR {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 1px 0 0 0;
+}
+
+.flexPare {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-top: 1px solid #ccc;
+}
+
+.flexPare P {
+    margin: 0px 0 0px;
+    color: #202020;
+    font-size: 16px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.flexPare button {
+    cursor: pointer;
+    font-size: 14px;
+    width: 110px;
+    height: 35px;
+    background-color: #2c2c2c;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-family: var(--bmd-font-Secondary);
+    font-weight: var(--bmd-Gotham-bold);
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/* .OverflowDiv::-webkit-scrollbar { width: 0; background: transparent; } */
+.modalContainer1::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.starImage svg {
+    width: 35px;
+    height: 35px;
+}
+
+.starImage {
+    display: flex;
+    gap: 15px;
+}
+
+.ratingSection .starFilled {
+    width: 35px;
+    height: 35px;
+}
+
+.ratingSection .goldenStar {
+    display: flex;
+    gap: 5px;
+}
+
+.OverflowDiv11 h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.ratingSection p {
+    font-family: var(--bmd-font-Secondary);
+    font-size: 16px;
+    line-height: 23px;
+    color: #202020;
+}
+
+.OverflowDiv11 p {
+    width: 65%;
+    font-family: var(--bmd-font-Secondary);
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.modalCardContainerV2 .OverflowDiv {
+    height: 70vh;
+    overflow: auto;
+    padding: 15px 30px;
+}
+
+.spanRed {
+    color: red;
+    font-size: 20px;
+    font-family: var(--bmd-font-Secondary);
+}
+
+.OverflowDiv::-webkit-scrollbar {
+    background-color: #f5f5f5;
+    width: 4px;
+}
+
+.OverflowDiv::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #0000004d;
+}
+
+.OverflowDiv::-webkit-scrollbar-thumb {
+    background-color: #434c4f;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #0000004d;
+}
+
+.reviewHeader p {
+    text-align: start;
+}
+
+.ingredientsHolder {
+    scroll-margin-top: 60px;
+}
+
+.BtnAlign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 1220px) {
+
+    .v2,
+    .v2Container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .reviewHeader {
+        font-size: 32px;
+        line-height: 38px;
+        width: 80%;
+    }
+
+    .inputFieldMain {
+        display: grid;
+    }
+
+    .OverflowDiv textarea::placeholder {
+        font-size: 14px;
+    }
+
+    .starImage svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .starImage {
+        gap: 10px;
+    }
+
+    .OverflowDiv label {
+        font-size: 14px;
+    }
+
+    .filesUpload {
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+
+    .v2,
+    .v2Container {
+        margin-left: 5%;
+    }
+
+    .reasonsHeader {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .reviewbtn {
+        padding: 8px 20px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .v2,
+    .v2Container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .v2,
+    .v2Container {
+        max-width: 1024px;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 1350.98px) {
+    .modalCardContainerV2 .OverflowDiv {
+        height: 46vh;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 545.98px) {
+    .modalCardContainerV2 .title {
+        font-size: 14px;
+    }
+
+    .reviewContainerV2 {
+        display: block;
+    }
+
+    .flexPare {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .reviewHeader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .reviewbtn {
+        margin: 20px auto 0;
+    }
+}

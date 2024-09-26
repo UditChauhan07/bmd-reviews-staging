@@ -1,1 +1,294 @@
-.container { margin-top: 4em; margin-bottom: 4em; margin-left: auto; margin-right: auto; width: 100%; } .container img { max-width: -webkit-fill-available; } .exitButton { position: absolute; right: 10px; z-index: 50; } .dFlex, .dFlexv2 { display: flex; } .mobIMG { width: 100%; height: auto; } .col1 { width: 100%; flex: 0 0 60%; height: auto; } .col2, .col2v2 { width: 40%; margin: auto; } .col2 { padding: 0 9rem; } .col2v2 { padding: 0 7rem; } .textContainer { background-color: #59008e; display: flex; flex-direction: column; color: #fff; justify-content: center; align-items: center; font-family: var(--bmd-font-Secondary); width: 100%; padding: 3rem 5rem; } .wBorder { padding: 1rem 1.5rem; text-align: center; border: 2px solid; max-width: 350px; } .upperCase { text-transform: uppercase; } .button { background-color: #fff; color: #59008e; margin: 1rem 0; padding: 1rem 0; text-align: center; width: 100%; cursor: pointer; } .offer { color: #eab04f; max-width: 400px; text-align: center; width: 400px; } .ft20 { font-size: 15px; } .ft10 { font-size: 10px; } .buttonText { font-size: 30px; font-weight: bolder; text-transform: uppercase; line-height: normal; } .Review { position: relative; /* Ensure relative positioning for the pseudo-element */ /* display: flex; */ line-height: 1.6rem; margin-bottom: 15px; align-items: center; cursor: pointer; overflow: hidden; /* Hide overflow for smooth border effect */ } .Review::after { content: ""; position: absolute; left: 0; bottom: 0; width: 50%; height: 2px; background-color: rgb(0, 51, 161); transform: translateX(-110%); transition: transform 0.4s ease; } .Review:hover::after { transform: translateX(0); } .Review h1 { font-family: var(--bmd-font-Secondary); font-size: 48px; font-weight: 100; padding: 5px; } .ratings span { font-size: 22px; color: black; margin-right: 3px; } .ratings { font-size: 24px; color: rgb(231, 114, 27); } .ratingsP { font-size: 14px; } @media screen and (max-width: 1900px) { .col2 { padding: 0 12rem; } } @media screen and (max-width: 1800px) { .col2 { padding: 0 10rem; } } @media screen and (max-width: 1700px) { .col2 { padding: 0 9rem; } } @media screen and (max-width: 1600px) { .col2 { padding: 0 8rem; } .textContainer { padding: 3rem 4rem; } } @media screen and (max-width: 1500px) { .col2 { padding: 0 7rem; } .textContainer { padding: 3rem; } } @media screen and (max-width: 1400px) { .col2 { padding: 0 5rem; } } @media screen and (max-width: 1300px) { .col2 { padding: 0 4rem; } .col2v2 { padding: 0 5rem; } .textContainer { padding: 2rem 5rem; } } @media screen and (max-width: 1200px) { .col2 { padding: 0 3rem; } .col2v2 { padding: 0 4rem; } .textContainer { padding: 2rem 4rem; } } @media screen and (max-width: 1100px) { .col2 { padding: 0 2rem; } .col2v2 { padding: 0 3rem; } .textContainer { padding: 1rem 3rem; } } @media screen and (max-width: 1025px) { .container { margin-bottom: 1em; } .Review::after { width: 25%; } } @media screen and (max-width: 1025px) { .dFlexv2 { flex-direction: column; row-gap: 2rem; } .col2v2 { width: 80%; } } @media screen and (max-width: 768px) { .Review::after { width: 35%; } } @media screen and (max-width: 500px) { .exitButton { right: -2px; } .col2v2 { width: 100%; } .Review::after { width: 45%; } } @media screen and (max-width: 426px) { .col2v2 { padding: 0 1rem; } } @media screen and (max-width: 426px) { .Review::after { width: 60%; } }
+.container {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container img {
+  max-width: -webkit-fill-available;
+}
+
+.exitButton {
+  position: absolute;
+  right: 10px;
+  z-index: 50;
+}
+
+.dFlex,
+.dFlexv2 {
+  display: flex;
+}
+
+.mobIMG {
+  width: 100%;
+  height: auto;
+}
+
+.col1 {
+  width: 100%;
+  flex: 0 0 60%;
+  height: auto;
+}
+
+.col2,
+.col2v2 {
+  width: 40%;
+  margin: auto;
+}
+
+.col2 {
+  padding: 0 9rem;
+}
+
+.col2v2 {
+  padding: 0 7rem;
+}
+
+.textContainer {
+  background-color: #59008e;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--bmd-font-Secondary);
+  width: 100%;
+  padding: 3rem 5rem;
+}
+
+.wBorder {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 2px solid;
+  max-width: 350px;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #fff;
+  color: #59008e;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.offer {
+  color: #eab04f;
+  max-width: 400px;
+  text-align: center;
+  width: 400px;
+}
+
+.ft20 {
+  font-size: 15px;
+}
+
+.ft10 {
+  font-size: 10px;
+}
+
+.buttonText {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.Review {
+  position: relative;
+  /* Ensure relative positioning for the pseudo-element */
+  /* display: flex; */
+  line-height: 1.6rem;
+  margin-bottom: 15px;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  /* Hide overflow for smooth border effect */
+}
+
+.Review::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(0, 51, 161);
+  transform: translateX(-110%);
+  transition: transform 0.4s ease;
+}
+
+.Review:hover::after {
+  transform: translateX(0);
+}
+
+.Review h1 {
+  font-family: var(--bmd-font-Secondary);
+  font-size: 48px;
+  font-weight: 100;
+  padding: 5px;
+}
+
+.ratings span {
+  font-size: 22px;
+  color: black;
+  margin-right: 3px;
+}
+
+.ratings {
+  font-size: 24px;
+  color: rgb(231, 114, 27);
+}
+
+.ratingsP {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1900px) {
+  .col2 {
+    padding: 0 12rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .col2 {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .col2 {
+    padding: 0 9rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .col2 {
+    padding: 0 8rem;
+  }
+
+  .textContainer {
+    padding: 3rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .col2 {
+    padding: 0 7rem;
+  }
+
+  .textContainer {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .col2 {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .col2 {
+    padding: 0 4rem;
+  }
+
+  .col2v2 {
+    padding: 0 5rem;
+  }
+
+  .textContainer {
+    padding: 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .col2 {
+    padding: 0 3rem;
+  }
+
+  .col2v2 {
+    padding: 0 4rem;
+  }
+
+  .textContainer {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .col2 {
+    padding: 0 2rem;
+  }
+
+  .col2v2 {
+    padding: 0 3rem;
+  }
+
+  .textContainer {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    margin-bottom: 1em;
+  }
+
+  .Review::after {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .dFlexv2 {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .col2v2 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    margin-top: 1em;
+  }
+  .Review::after {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .exitButton {
+    right: -2px;
+  }
+
+  .col2v2 {
+    width: 100%;
+  }
+
+  .Review::after {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .col2v2 {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .Review::after {
+    width: 60%;
+  }
+}
