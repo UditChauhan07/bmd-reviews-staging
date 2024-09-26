@@ -148,7 +148,7 @@
     .twoCol {
         flex-direction: column;
         padding: 0 2rem;
-        display: grid;
+        display: block;
         margin: 70px 0 70px 0;
     }
 
@@ -181,7 +181,10 @@
 
 @media screen and (max-width:426px) {
     .dGrid {
-        width: 75%;
+        width: 100%;
+        display:block;
+        place-items:unset;
+        /* height: fit-content; */
     }
 
     .header,
@@ -210,6 +213,9 @@
         padding: 1rem;
         margin: 0px;
     }
+    .dGrid {
+        /* width: 100%; */
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -217,5 +223,8 @@
         max-width: 300px;
         padding: 1rem;
         margin: 0px;
+    }
+    .dGrid {
+        /* width: 100%; */
     }
 }

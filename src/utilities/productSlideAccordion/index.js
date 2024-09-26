@@ -33,32 +33,33 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                 </Carousel> */}
 
 
-                <Carousel infiniteLoop
+                <Carousel
+                    infiniteLoop
                     useKeyboardArrows
                     autoPlay
                     showArrows
                     showIndicators={false}
-                    showStatus={false}>
-                    {content.src.map((imageSrc, index) => (
-                        <div className={styles.dGrid} key={index}>
-                            <img
-                                src={imageSrc}
-                                alt={content.alt || `Slide ${index + 1}`}
-                                className={styles.image}
-                                // style={{ maxHeight: 400, maxWidth: 400 }}
-                            />
-                            {content.buyNow && (
-                                <span
-                                    className={styles.buyNow}
-                                    id="productAslideTrigger"
-                                    onClick={ModalHandler}
-                                    style={{ background: color }}
-                                >
-                                    Buy Now
-                                </span>
-                            )}
-                        </div>
-                    ))}
+                    showStatus={false}
+                >
+                   {content.src.map((imageSrc, index) => (
+                <div className={styles.dGrid} key={index}>
+                    <img
+                        src={imageSrc}
+                        alt={content.alt || `Slide ${index + 1}`}
+                        className={styles.image}
+                    />
+                    {content.buyNow && (
+                        <span
+                            className={styles.buyNow}
+                            id="productAslideTrigger"
+                            onClick={ModalHandler}
+                            style={{ background: color }}
+                        >
+                            Buy Now
+                        </span>
+                    )}
+                </div>
+            ))}
                 </Carousel>
 
                 <div className={styles.wrapper}>
@@ -66,7 +67,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                     {content.subHeading && <p className={styles.subHeader}>{content.subHeading}</p>}
                     <p className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</p>
                     <p className={styles.underHeaderNote}>{content.text}</p>
-                     {/* Replace Accordion with a simple list */}
+                    {/* Replace Accordion with a simple list */}
                     <ul className={styles.list}>
                         {content.items.map((element, idx) => (
                             <li key={idx} className={styles.listItem}>
