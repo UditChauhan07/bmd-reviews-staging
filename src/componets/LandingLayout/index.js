@@ -146,7 +146,7 @@ const LandingPage = ({ version, script, page }) => {
     <>
       {pageData && (
         <>
-          <PageHead content={pageData.seo} />
+    <PageHead content={pageData.seo} />
         
           {pageData?.announcement && (
             
