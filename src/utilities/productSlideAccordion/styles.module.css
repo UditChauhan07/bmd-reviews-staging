@@ -173,6 +173,10 @@
         font-size: 32px;
         line-height: 38px
     }
+    .twoCol{
+        margin: 40px 0 40px 0;
+
+    }
 }
 
 @media screen and (max-width:426px) {
