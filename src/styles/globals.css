@@ -667,7 +667,13 @@ button.slick-prev {
 }
 /* tendoLandig page slider css start */
 
-
+.carousel .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  z-index: -1;
+  width: 100%;
+  position: relative;
+}
 
 .carousel .thumbs {
   overflow: hidden !important;
