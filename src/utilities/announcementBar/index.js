@@ -61,7 +61,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
           backgroundColor: theme?.backgroundColor,
         }}
       >
-        <div dangerouslySetInnerHTML={{ __html: announcement }} />
+        <div style={{margin:"auto"}} dangerouslySetInnerHTML={{ __html: announcement }} />
 
        
       </section>
