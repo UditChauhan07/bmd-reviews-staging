@@ -52,7 +52,7 @@
     color: var(--bmd-deep-purple);
     padding: 1rem 0.5rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     /* font-family: Gotham-Medium; */
     font-family: var(--bmd-font-Secondary);
     line-height: 22px;
