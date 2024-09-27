@@ -41,26 +41,18 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                     showIndicators={false}
                     showStatus={false}
                 >
-                   {content.src.map((imageSrc, index) => (
-                <div className={styles.dGrid} key={index}>
-                    <img
-                        src={imageSrc}
-                        alt={content.alt || `Slide ${index + 1}`}
-                        className={styles.image}
-                    />
-                    {content.buyNow && (
-                        <span
-                            className={styles.buyNow}
-                            id="productAslideTrigger"
-                            onClick={ModalHandler}
-                            style={{ background: color }}
-                        >
-                            Buy Now
-                        </span>
-                    )}
-                </div>
-            ))}
+                    {content.src.map((imageSrc, index) => (
+                        <div className={styles.dGrid} key={index}>
+                            <img
+                                src={imageSrc}
+                                alt={content.alt || `Slide ${index + 1}`}
+                                className={styles.image}
+                            />
+                        </div>
+                    ))}
                 </Carousel>
+
+
 
                 <div className={styles.wrapper}>
                     <p className={styles.header}>{content?.heading}</p>

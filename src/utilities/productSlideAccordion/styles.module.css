@@ -97,6 +97,12 @@
     color: var(--titlecolor)
 }
 
+.title{
+    font-weight: 600 ;
+ 
+   
+}
+
 .downArrow {
     display: flex;
     justify-content: flex-start;
@@ -126,10 +132,13 @@
     list-style-type: disc;
     padding-right: 10px;
 }
-.list li{
 
+.list li {
     padding-bottom: 15px;
 }
+
+.list p {}
+
 .description {
     font-size: 14px;
     font-family: var(--bmd-font-Secondary)
@@ -173,7 +182,8 @@
         font-size: 32px;
         line-height: 38px
     }
-    .twoCol{
+
+    .twoCol {
         margin: 40px 0 40px 0;
 
     }
@@ -182,8 +192,8 @@
 @media screen and (max-width:426px) {
     .dGrid {
         width: 100%;
-        display:block;
-        place-items:unset;
+        display: block;
+        place-items: unset;
         /* height: fit-content; */
     }
 
@@ -213,6 +223,7 @@
         padding: 1rem;
         margin: 0px;
     }
+
     .dGrid {
         /* width: 100%; */
     }
@@ -224,6 +235,7 @@
         padding: 1rem;
         margin: 0px;
     }
+
     .dGrid {
         /* width: 100%; */
     }

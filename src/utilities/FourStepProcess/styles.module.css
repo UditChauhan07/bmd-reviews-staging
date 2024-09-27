@@ -5,7 +5,10 @@
     font-family: var(--bmd-font-Primary);
     padding: 2rem 1rem
 }
+.ingredientiHolder{
+    scroll-margin-top: 60px;
 
+}
 .processHeaderCenter {
     max-width: 900px;
     margin: auto;
