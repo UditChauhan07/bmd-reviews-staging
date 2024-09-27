@@ -56,7 +56,13 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
-
+.modalHeader{
+}
+.modalHeader h1{
+  font-family: var(--bmd-font-Primary);
+  color: black;
+  font-size: 24px;
+}
 .section3 {
   font-size: 14px;
   font-weight: 500;
