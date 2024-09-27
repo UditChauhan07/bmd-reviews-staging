@@ -10,7 +10,7 @@ const TendoActive = () => {
         <div className={styles.tendoMain}>
         <div className={`container ${styles.brunoDecription2}`}>
         <div className={styles.bruno3000}>
-          <h1>La ricotta per migliorare te stesso.</h1>
+          <h1>La ricetta per migliorare te stesso.</h1>
         </div>
       </div>
       <div className={styles.formqw}>
@@ -19,7 +19,7 @@ const TendoActive = () => {
             <div className={styles.tendoProductDiv}>
                 <div className={styles.tendoProduct}>
                     <div className={styles.tendoImg}>
-                        <img src='/images/Extra1-formolinel112.webp' alt='tendo-Plus'/>
+                        <img src='/images/02-BMD-Tendoactive_Plus-9O3A3003-v2.webp' alt='tendo-Plus'/>
                     </div>
                     <div className={styles.tendoContent}>
                         <h1>Tendoactive Plus </h1>
