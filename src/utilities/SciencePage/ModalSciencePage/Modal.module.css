@@ -37,7 +37,8 @@
   
   .modalContent {
     margin-top: 3rem;
-    height: 470px;
+    height: auto;
+    max-height: 470px;
     overflow: auto;
   }
   .modalContent::-webkit-scrollbar {

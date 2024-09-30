@@ -109,8 +109,9 @@
 }
 
 .modalBody {
-    overflow-y: scroll;
-    height: 300px;
+    overflow-y: visible;
+    height: auto;
+    max-height: 300px;
     padding: 0rem 1rem 0rem 0rem;
 }
 
