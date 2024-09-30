@@ -176,6 +176,9 @@
 }
 
 @media screen and (max-width: 426px) {
+    .faqHolder {
+        scroll-margin-top: 75px;
+    }
     .parainner {
         font-size: 12px;
         padding: 8px 0 0 0;

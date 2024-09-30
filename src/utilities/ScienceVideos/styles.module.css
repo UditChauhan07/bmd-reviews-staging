@@ -200,6 +200,9 @@
 }
 
 @media screen and (max-width:500px) {
+    .studiHolder{
+        scroll-margin-top: 75px;
+    }
     .modalContainer1 {
         top: 40%;
         max-height: 400px;
