@@ -43,10 +43,12 @@ class MyDocument extends Document {
                 : "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/purpose.webp"
             }
           />
+            
           <meta
             name="google-site-verification"
             content="O8ZEoQKQm6e1O2geckBcN7rSl6VzuRGakDd0E-mCO8s"
           />
+              
           <meta property="og:image:type" content="image/webp" />
           <link rel="shortcut icon" href="/favicon-black.png" />
           <link
