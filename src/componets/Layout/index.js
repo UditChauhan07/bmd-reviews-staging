@@ -6,6 +6,7 @@ import BottomBar from '@/utilities/BottomBar';
 import data from '../../../json/layout.json'
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
+
 const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
   loading: () => <p>Loading...</p>,
 })

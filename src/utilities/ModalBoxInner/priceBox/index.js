@@ -11,10 +11,11 @@ const PriceBoxModal = ({
   clickedType,
   theme,
 }) => {
-  // temp.priceBox.isStockBack = false
+  /// temp.priceBox.isStockBack = false
   // temp.priceBox.isStockTheme = true
   // temp.priceBox.isPriceBoxTheme = true
   // temp.priceBox.oneTime.accordanTitle = false
+  
   return (
     <section id={priceBox.priceBox.modalPriceBoxContainerID}>
       {isOpen === true && (

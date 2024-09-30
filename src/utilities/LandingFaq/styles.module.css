@@ -5,6 +5,9 @@
   width: 95%;
   margin-bottom: 80px;
 }
+.faqHolder{
+  scroll-margin-top: 50px;
+}
 .subHeader {
   font-family: ivypresto-display, Times New Roman, Times, serif;
   font-size: 48px;
