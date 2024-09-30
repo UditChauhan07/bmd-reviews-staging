@@ -35,6 +35,7 @@ import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
+import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
