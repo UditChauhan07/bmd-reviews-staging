@@ -305,7 +305,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
-          {/* <SciencePage2 data={data1["EU"].footer2} /> */}
+          {/** <SciencePage2 data={data1["EU"].footer2} /> */}
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}
