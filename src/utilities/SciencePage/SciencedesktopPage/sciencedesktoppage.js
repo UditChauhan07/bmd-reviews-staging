@@ -13,9 +13,9 @@ import { FaAngleRight } from "react-icons/fa6";
 import Modal from '../ModalSciencePage/Modal';
 import TendoActive from '../tenoactive/TendoActive';
 
-const Sciencedesktoppage = ({data}) => {
+const Sciencedesktoppage = ({ data }) => {
 
-  const { slides2 } = data.slidesData; 
+  const { slides2 } = data.slidesData;
   const carouselRef = useRef(null);
 
   const [activeSlideIndex, setActiveSlideIndex] = useState(null);
@@ -43,12 +43,21 @@ const Sciencedesktoppage = ({data}) => {
     }
   };
 
+
+  if (isModalOpen) {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
+  }
+
   return (
 
     <div className={styles.leptop}>
 
       {/* Custom Modal */}
-      {isModalOpen && (
+      {isModalOpen === true && (
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <div className={styles.modalHeader}>
             <h1>{slides2[activeSlideIndex]?.title}</h1>
@@ -66,7 +75,7 @@ const Sciencedesktoppage = ({data}) => {
       )}
       {/* End of Custom Modal */}
       <div className={styles.carouselContainer}>
-  
+
         <Carousel fade={true} interval={4000} controls={false} pause={false} className={styles.carousel} ref={carouselRef}>
           {slides2 && slides2.length > 0 && slides2.map((slide, index) => (
             <Carousel.Item key={index}>
@@ -91,18 +100,18 @@ const Sciencedesktoppage = ({data}) => {
 
         </Carousel>
         <div className={styles.carouselBtnDiv}>
-        <button
-          className={`${styles.carouselControl} ${styles.carouselControlLeft}`}
-          onClick={handlePrev}
-        >
-         <i className={styles.LeftArrow}><FaAngleLeft /></i> 
-        </button>
-        <button
-          className={`${styles.carouselControl} ${styles.carouselControlRight}`}
-          onClick={handleNext}>
+          <button
+            className={`${styles.carouselControl} ${styles.carouselControlLeft}`}
+            onClick={handlePrev}
+          >
+            <i className={styles.LeftArrow}><FaAngleLeft /></i>
+          </button>
+          <button
+            className={`${styles.carouselControl} ${styles.carouselControlRight}`}
+            onClick={handleNext}>
 
-         <i className={styles.RightArrow}><FaAngleRight /></i> 
-        </button>
+            <i className={styles.RightArrow}><FaAngleRight /></i>
+          </button>
         </div>
       </div>
       <div className={styles.RectangleDiv}>
@@ -121,9 +130,9 @@ const Sciencedesktoppage = ({data}) => {
       {/* <TabScience  data={data}/> */}
       {/* Human Tab Section End */}
 
-           {/* tendoActive Section Start */}
-           <TendoActive/>
-           {/* tendoActive Section End */}
+      {/* tendoActive Section Start */}
+      <TendoActive />
+      {/* tendoActive Section End */}
 
 
 

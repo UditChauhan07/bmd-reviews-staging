@@ -23,7 +23,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
         document.getElementById("productAslideTrigger")?.addEventListener("mouseleave", onMouseLeave);
     }, [])
     return (
-        <div className={styles.container} id="benefits">
+        <div className={styles.container} id="beneficisection">
             <div className={styles.twoCol}>
                 {/* <Carousel>
                 <div className={styles.dGrid}>

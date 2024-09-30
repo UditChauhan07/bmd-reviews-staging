@@ -26,7 +26,7 @@ const RightStickyScroll = () => {
                 <div className={styles.menuIcon}>{showIcons ? <FaTimes /> : <FaBars />}</div>
                 <div className={`${styles.iconContainer} ${showIcons ? styles.show : ''}`}>
                     <div className={styles.iconDiv} onClick={() => scrollToSection('faqsection')}>
-                        <p className={styles.icon}>FAQ</p> 
+                        <p className={styles.icon}>Faq</p> 
                     </div>
                     <div className={styles.iconDiv} onClick={() => scrollToSection('studisection')}>
                         <p className={styles.icon}>Studi</p> 
@@ -34,7 +34,7 @@ const RightStickyScroll = () => {
                     <div className={styles.iconDiv} onClick={handleAccediClick}>
                         <p className={styles.icon}>Accedi</p> 
                     </div>
-                    <div className={styles.iconDiv} onClick={() => scrollToSection('')}>
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('beneficisection')}>
                         <p className={styles.icon}>Benefici</p> 
                     </div>
                     <div className={styles.iconDiv} onClick={() => scrollToSection('ingredientisection')}>

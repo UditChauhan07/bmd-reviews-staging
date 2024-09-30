@@ -184,7 +184,7 @@
     min-height: 50px;
     color: #000;
     font-family: var(--bmd-font-Secondary);
-    text-align: justify;
+    /* text-align: justify; */
     padding: 0px 18px;
 }
 
