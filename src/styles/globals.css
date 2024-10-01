@@ -665,7 +665,34 @@ button.slick-prev {
 .slick-dots li.slick-active button:before {
   color: transparent !important;
 }
+/* tendoLandig page slider css start */
 
+.carousel .thumbs {
+  overflow: hidden !important;
+}
+.carousel-root {
+  outline: none;
+  width: 100%;
+}
+@media(max-width:430px){
+  .carousel-root {
+    outline: none;
+    width: 85%;
+  }
+}
+@media(max-width:375px){
+  .carousel-root {
+    outline: none;
+    width: 73%;
+  }
+}
+@media(max-width:320px){
+  .carousel-root {
+    outline: none;
+    width: 60%;
+    z-index:-1;
+  }
+}
 /* Science Page-carousel Css start */
 
 .carousel-indicators [data-bs-target] {
@@ -703,3 +730,9 @@ button.slick-prev {
     width: 15px !important;
   }
 }
+/* newsLetter Css start */
+.body-wrapper .button-container {
+  background: #fff;
+  border-radius: 40px;
+}
+/* newsLetter Css End */

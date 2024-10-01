@@ -4,9 +4,12 @@ import SupplementalInfo from "@/utilities/SupplementalInfo";
 import Spinner from "@/utilities/Loader/index1";
 import { AddtoCart, addCartItems } from "@/data/lib";
 import { useRouter } from "next/navigation";
+import Modal from "@/utilities/SciencePage/ModalSciencePage/Modal";
 
 const PriceBox = ({ isActive, data, variantId }) => {
   const router = useRouter();
+  
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [learnMore, setLearnMore] = useState(false);
   const [detailsMore, setDetailsMore] = useState(true);
   const [quantity, setQuantity] = useState(1);
@@ -161,15 +164,44 @@ const PriceBox = ({ isActive, data, variantId }) => {
       ? data?.freq[0]?.value
       : "25 giorni"
   );
+
+
+  // State to control the modal visibility
+
+  // Function to show the modal
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  // Function to hide the modal
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+  if (isModalOpen) {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
+  }
   return (
+    
     <div className={styles.accordionItem}>
+        {isModalOpen === true && (
+        <Modal show={isModalOpen} onClose={handleCloseModal}>
+          <div className={styles.modalHeader}>
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
+          </div>
+        </Modal>
+      )}
       <div className={styles.accordionContent}>
+    
         <div style={styles.row}>
           {isActive == 2 && (
             <>
               <div className={styles.section2} id="section2">
                 {data.priceBox.subscriptionDetails ? (
-                  <div
+                  <div onClick={openModal}
                     dangerouslySetInnerHTML={{
                       __html: subscriptionDetails,
                     }}

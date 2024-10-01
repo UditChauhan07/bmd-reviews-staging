@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import Spinner from "../Loader/index1";
 import { AddtoCart, getSubscription } from "@/data/lib";
+import Modal from "../SciencePage/ModalSciencePage/Modal";
 
 const ModalBoxInner = ({
   isOpen,
@@ -20,6 +21,11 @@ const ModalBoxInner = ({
   let client = undefined;
   const [shopifyP, setSProduct] = useState();
   const [cartLoad, setCartLoad] = useState(false);
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
+
+  
+
+  
   const typeHandler = (e) => {
     const { name, value } = e.target;
     setType(value);
@@ -136,8 +142,36 @@ const ModalBoxInner = ({
         console.log({ err });
       });
   };
+
+  // State to control the modal visibility
+
+  // Function to show the modal
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  // Function to hide the modal
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+  if (isModalOpen) {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+    document.documentElement.style.overflow = "auto";
+  }
+  
   return (
     <section>
+ {isModalOpen === true && (
+        <Modal show={isModalOpen} onClose={handleCloseModal}>
+          <div className={styles.modalHeader}>
+          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
+          </div>
+        </Modal>
+      )}
+
       {isOpen === true && (
         <div
           className={styles.holder}
@@ -168,9 +202,9 @@ const ModalBoxInner = ({
                   style={
                     themed
                       ? {
-                          fontFamily: "var(--bmd-font-Secondary)",
-                          fontWeight: "bolder",
-                        }
+                        fontFamily: "var(--bmd-font-Secondary)",
+                        fontWeight: "bolder",
+                      }
                       : { color: "#ffbf3c" }
                   }
                 >
@@ -259,7 +293,7 @@ const ModalBoxInner = ({
                   className="styles_imageSource__xZJZ_"
                 />
               </div>
-              <div
+              <div onClick={openModal}
                 className={styles.boxFive}
                 dangerouslySetInnerHTML={{
                   __html: type == "Onetime" ? "" : content.subscriptionBox.desc,
@@ -328,7 +362,7 @@ const ModalBoxInner = ({
                       fontSize: "12px",
                     }}
                   >
-                    {quantity} scatola 20 sticks
+                    {quantity} scatola 20 Bustine
                   </p>
                 </div>
               </div>
