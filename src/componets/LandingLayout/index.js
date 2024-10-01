@@ -130,7 +130,6 @@ const LandingPage = ({ version, script, page }) => {
   }, []);
 
   const pageData = landingData[page] || {};
-  console.log("aaja", pageData);
 
   let BlogData = ProductsBlogData[pageData.externalId] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
