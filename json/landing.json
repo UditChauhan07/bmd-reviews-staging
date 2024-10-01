@@ -61,7 +61,7 @@
       "offerTextColor": "#fff",
       "isPriceBox": true,
       "priceBox": {
-        "qtyUnitMultiplierLabel": "scatola 20 Bustine",
+        "qtyUnitMultiplierLabel": "confezioni 20 Bustine",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID": "Tendo_PLP_PriceBox_Container",
