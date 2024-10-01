@@ -677,6 +677,7 @@ button.slick-prev {
 
 .carousel .thumbs {
   overflow: hidden !important;
+  display: flex !important;
 }
 .carousel-root {
   outline: none;

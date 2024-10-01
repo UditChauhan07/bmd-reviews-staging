@@ -46,7 +46,7 @@
 
     .announcementBar div:has(b) {
         font-size: 12px;
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
      
     }
