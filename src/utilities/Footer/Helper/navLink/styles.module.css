@@ -10,6 +10,7 @@
   
   .menuGroup:first-child {
     grid-column: 1/1;
+    display: none;
   }
   .listNone{
     list-style: none;
