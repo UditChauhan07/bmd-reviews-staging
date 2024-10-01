@@ -322,7 +322,11 @@ const PriceBox = ({ isActive, data, variantId }) => {
             >
               <p>
                 {isAddingToCart ? (
-                  <Spinner className={styles.spinner} size={20} theme={color} />
+                  <Spinner
+                    className={styles.spinner}
+                    size={20}
+                    theme={"#0033a1"}
+                  />
                 ) : (
                   buttonText
                 )}
