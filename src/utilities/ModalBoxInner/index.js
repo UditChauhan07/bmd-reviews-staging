@@ -380,7 +380,7 @@ const ModalBoxInner = ({
                       <Spinner
                         className={styles.spinner}
                         size={20}
-                        theme={themed}
+                        theme={"#0033a1"}
                       />
                     ) : (
                       <>
