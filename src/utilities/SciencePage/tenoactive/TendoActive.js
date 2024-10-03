@@ -4,26 +4,52 @@ import styles from '../tenoactive/TendoActive.module.css'
 
 
 const TendoActive = () => {
-       const [activeSlide, setActiveSlide] = useState(0);
-       const slides = [
+    const [activeSlide, setActiveSlide] = useState(0);
+    const [selectedDetail, setSelectedDetail] = useState(1);
+    const slides = [
         {
-          gif: '/images/gif1.gif',
+            className1: "yelloDotsBlink1",
+            className2: "yelloDotsBlink2",
+            className3: "yelloDotsBlink3",
+            className4: "yelloDotsBlink4",
+            className5: "yelloDotsBlink5",
+            className6: "yelloDotsBlink6",
+            className7: "yelloDotsBlink7",
         },
         {
-          gif: '/images/gif2.gif',
-        },
-        {
-          gif: '/images/gif3.gif',
-        },
-        {
-          gif: '/images/gif4.gif',
-        },
-      ];
+            className1: "greenDotsBlink1",
+            className2: "greenDotsBlink2",
+            className3: "greenDotsBlink3",
+            className4: "greenDotsBlink4",
+            className5: "greenDotsBlink5",
 
-    
-       const handleClick = (index) => {
-           setActiveSlide(index - 1);
-       };
+
+        },
+        {
+            className1: "orangeDotsBlink1",
+            className2: "orangeDotsBlink2",
+            className3: "orangeDotsBlink3",
+            className4: "orangeDotsBlink4",
+            className5: "orangeDotsBlink5",
+        },
+        {
+            className1: "skyDotsBlink1",
+            className2: "skyDotsBlink2",
+            className3: "skyDotsBlink3",
+            className4: "skyDotsBlink4",
+            className5: "skyDotsBlink5",
+            className6: "skyDotsBlink6",
+
+        }
+    ]
+
+
+
+    // Function to handle the click and set the active slide
+    const handleClick = (index) => {
+        setActiveSlide(index - 1);
+        setSelectedDetail(index);
+    };
 
     return (
         <div className={styles.tendoMain}>
@@ -60,7 +86,11 @@ const TendoActive = () => {
             <div className={styles.tendoDecriptionmain}>
                 <div className={styles.tendoBox}>
                     <div className={styles.tendoDetailmain}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(1)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 1 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(1)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
@@ -70,7 +100,11 @@ const TendoActive = () => {
                         </div>
                     </div>
                     <div className={styles.tendoDetailmain}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(2)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 2 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(2)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
@@ -80,7 +114,11 @@ const TendoActive = () => {
                         </div>
                     </div>
                     <div className={styles.tendoDetailmain2}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(3)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 3 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(3)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
@@ -91,7 +129,11 @@ const TendoActive = () => {
                         </div>
                     </div>
                     <div className={styles.tendoDetailmain2}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(4)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 4 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(4)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
@@ -102,14 +144,24 @@ const TendoActive = () => {
                     </div>
                 </div>
                 <div className={styles.humanMain}>
-                <div className={styles.blinkDiv}>
-            {/* Render the GIF dynamically based on the active slide */}
-            <img src={slides[activeSlide].gif} alt="blinking dots gif" />
-          </div>
+                    <div className={styles.blinkDiv}>
+                        {/* Render the blinking dots dynamically */}
+                        {Object.keys(slides[activeSlide]).map((key, index) => (
+                            <span key={index} className={styles[slides[activeSlide][key]]}></span>
+                        ))}
+                    </div>
+                    <div className={styles.humanBody}>
+                        <img src='\images\humantab.webp' alt='humai-Gif' />
+
+                    </div>
                 </div>
                 <div className={styles.tendoBox2}>
                     <div className={styles.tendoDetailmain}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(3)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 3 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(3)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
@@ -120,7 +172,11 @@ const TendoActive = () => {
                         </div>
                     </div>
                     <div className={styles.tendoDetailmain}>
-                        <div className={styles.tendoDetail} onClick={() => handleClick(4)}>
+                        <div
+                            className={`${styles.tendoDetail} ${selectedDetail === 4 ? styles.active : styles.inactive
+                                }`}
+                            onClick={() => handleClick(4)}
+                        >
                             <div className={styles.rightLine}>
                             </div>
                             <div className={styles.tendotext}>
