@@ -5,46 +5,22 @@ import styles from '../tenoactive/TendoActive.module.css'
 
 const TendoActive = () => {
        const [activeSlide, setActiveSlide] = useState(0);
-    const slides = [
+       const slides = [
         {
-            className1: "yelloDotsBlink1",
-            className2: "yelloDotsBlink2",
-            className3: "yelloDotsBlink3",
-            className4: "yelloDotsBlink4",
-            className5: "yelloDotsBlink5",
-            className6: "yelloDotsBlink6",
-            className7: "yelloDotsBlink7",
+          gif: '/images/gif1.gif',
         },
         {
-            className1: "greenDotsBlink1",
-            className2: "greenDotsBlink2",
-            className3: "greenDotsBlink3",
-            className4: "greenDotsBlink4",
-            className5: "greenDotsBlink5",
-
-          
+          gif: '/images/gif2.gif',
         },
         {
-            className1: "orangeDotsBlink1",
-            className2: "orangeDotsBlink2",
-            className3: "orangeDotsBlink3",
-            className4: "orangeDotsBlink4",
-            className5: "orangeDotsBlink5",
+          gif: '/images/gif3.gif',
         },
         {
-            className1: "skyDotsBlink1",
-            className2: "skyDotsBlink2",
-            className3: "skyDotsBlink3",
-            className4: "skyDotsBlink4",
-            className5: "skyDotsBlink5",
-            className6: "skyDotsBlink6",
-
-        }
-    ]
+          gif: '/images/gif4.gif',
+        },
+      ];
 
     
-
-       // Function to handle the click and set the active slide
        const handleClick = (index) => {
            setActiveSlide(index - 1);
        };
@@ -127,15 +103,9 @@ const TendoActive = () => {
                 </div>
                 <div className={styles.humanMain}>
                 <div className={styles.blinkDiv}>
-                        {/* Render the blinking dots dynamically */}
-                        {Object.keys(slides[activeSlide]).map((key, index) => (
-                            <span key={index} className={styles[slides[activeSlide][key]]}></span>
-                        ))}
-                    </div>
-                    <div className={styles.humanBody}>
-                    <img src='\images\humantab.webp' alt='humai-Gif' />
-
-                    </div>
+            {/* Render the GIF dynamically based on the active slide */}
+            <img src={slides[activeSlide].gif} alt="blinking dots gif" />
+          </div>
                 </div>
                 <div className={styles.tendoBox2}>
                     <div className={styles.tendoDetailmain}>
