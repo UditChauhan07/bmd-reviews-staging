@@ -191,7 +191,10 @@ const PriceBox = ({ isActive, data, variantId }) => {
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <div className={styles.modalHeader}>
           <h1>14 giorni soddisfatti o rimborsati.</h1>
+          <div className={styles.p_scrool}>
           <p>Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell&#39;ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il tuo feedback per aiutarci a migliorare la qualità del nostro servizio.</p>
+          </div>
+         
           </div>
         </Modal>
       )}
