@@ -184,7 +184,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -195,7 +195,7 @@ width: 55%;
 
 .yelloDotsBlink1::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -226,7 +226,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -237,7 +237,7 @@ width: 55%;
 
 .yelloDotsBlink2::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -250,7 +250,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -261,7 +261,7 @@ width: 55%;
 
 .yelloDotsBlink3::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -274,7 +274,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -285,7 +285,7 @@ width: 55%;
 
 .yelloDotsBlink4::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -298,7 +298,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -308,7 +308,7 @@ width: 55%;
 
 .yelloDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -320,7 +320,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -330,7 +330,7 @@ width: 55%;
 
 .yelloDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -343,7 +343,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -353,7 +353,7 @@ width: 55%;
 
 .yelloDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -366,7 +366,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -377,7 +377,7 @@ width: 55%;
 
 .yelloDotsBlink6::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -389,7 +389,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -400,7 +400,7 @@ width: 55%;
 
 .yelloDotsBlink7::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -415,7 +415,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -427,7 +427,7 @@ width: 55%;
 
 .greenDotsBlink1::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -440,7 +440,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -452,7 +452,7 @@ width: 55%;
 
 .greenDotsBlink2::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -465,7 +465,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -477,7 +477,7 @@ width: 55%;
 
 .greenDotsBlink3::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -489,7 +489,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -501,7 +501,7 @@ width: 55%;
 
 .greenDotsBlink4::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -513,7 +513,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -525,7 +525,7 @@ width: 55%;
 
 .greenDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -537,7 +537,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -549,7 +549,7 @@ width: 55%;
 
 .orangeDotsBlink1::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -561,7 +561,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -572,7 +572,7 @@ width: 55%;
 
 .orangeDotsBlink2::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -584,7 +584,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -595,7 +595,7 @@ width: 55%;
 
 .orangeDotsBlink3::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -607,7 +607,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -618,7 +618,7 @@ width: 55%;
 
 .orangeDotsBlink4::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -631,7 +631,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -642,7 +642,7 @@ width: 55%;
 
 .orangeDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -655,7 +655,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -667,7 +667,7 @@ width: 55%;
 
 .skyDotsBlink1::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -679,7 +679,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -691,7 +691,7 @@ width: 55%;
 
 .skyDotsBlink2::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -703,7 +703,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -715,7 +715,7 @@ width: 55%;
 
 .skyDotsBlink3::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -728,7 +728,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -740,7 +740,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -750,7 +750,7 @@ width: 55%;
 }
 .skyDotsBlink5::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
@@ -762,7 +762,7 @@ width: 55%;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background-color: rgba(111, 50, 158, 1);
+    background-color: #0033A1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -772,7 +772,7 @@ width: 55%;
 }
 .skyDotsBlink6::before {
     content: "";
-    border: 5px solid rgba(111, 50, 158, 1);
+    border: 5px solid #0033A1;
     border-radius: inherit;
     position: absolute;
     z-index: 1;
