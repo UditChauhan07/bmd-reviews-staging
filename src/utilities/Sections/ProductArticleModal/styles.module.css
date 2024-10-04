@@ -129,7 +129,6 @@
   transform: translateX(0);
 }
 
-
 .Review h1 {
   font-family: var(--bmd-font-Secondary);
   font-size: 48px;
@@ -260,6 +259,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container{
+    margin-top: 1em;
+  }
   .Review::after {
     width: 35%;
   }
@@ -286,7 +288,6 @@
 }
 
 @media screen and (max-width: 426px) {
-
   .Review::after {
     width: 60%;
   }

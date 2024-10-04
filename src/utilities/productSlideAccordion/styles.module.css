@@ -2,13 +2,16 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1380px;
-    width: 100%
+    width: 100%;
+    scroll-margin-top: 60px;
 }
 
 .twoCol {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 37px;
+    padding: 0 20px;
+    align-items: center;
 }
 
 .wrapper {
@@ -29,14 +32,25 @@
     display: grid;
     place-items: center;
     height: fit-content;
-    margin: auto;
     transition: transform 0.3s ease;
+    
+    
 }
-  
-  .dGrid:hover {
-    transform: scale(1.2); 
+.dGridhover{
+    transition: transform 0.3s ease;
+
+
+}
+.CaroselMain .dGridhover:hover{
+     scale:0.5;
     cursor: pointer;
-  }
+}
+
+.CaroselMain{
+    /* background-color: #000; */
+    max-width: 600px;
+}
+
 .buyNow {
     background: #000;
     background-color: #000;
@@ -96,6 +110,12 @@
     color: var(--titlecolor)
 }
 
+.title {
+    font-weight: 600;
+
+
+}
+
 .downArrow {
     display: flex;
     justify-content: flex-start;
@@ -123,7 +143,14 @@
 
 .list {
     list-style-type: disc;
+    padding-right: 10px;
 }
+
+.list li {
+    padding-bottom: 15px;
+}
+
+.list p {}
 
 .description {
     font-size: 14px;
@@ -134,7 +161,7 @@
     .container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 1024px;
+        /* max-width: 1024px; */
         width: 100%
     }
 }
@@ -143,10 +170,9 @@
     .twoCol {
         flex-direction: column;
         padding: 0 2rem;
-        display: grid;
+        display: block;
         margin: 70px 0 70px 0;
     }
-
 
     .container {
         margin-left: auto;
@@ -169,16 +195,30 @@
         font-size: 32px;
         line-height: 38px
     }
+
+    .twoCol {
+        margin: 40px 0 40px 0;
+
+    }
 }
 
 @media screen and (max-width:426px) {
-    .dGrid  {
-       width: 75%;
+    .container {
+        scroll-margin-top: 75px;
     }
+
+    .dGrid {
+        width: 100%;
+        display: block;
+        place-items: unset;
+        /* height: fit-content; */
+    }
+
     .header,
     .subHeader {
-    padding-right: 3rem;
+        padding-right: 3rem;
     }
+
     .twoCol {
         padding: 0 1rem
     }
@@ -188,18 +228,32 @@
         padding: 1rem;
         margin: 0px;
     }
+
+    .list {
+        padding-right: 15px;
+    }
 }
+
 @media screen and (max-width:375px) {
     .wrapper {
         max-width: 350px;
         padding: 1rem;
         margin: 0px;
     }
+
+    .dGrid {
+        /* width: 100%; */
+    }
 }
+
 @media screen and (max-width:320px) {
     .wrapper {
         max-width: 300px;
         padding: 1rem;
         margin: 0px;
+    }
+
+    .dGrid {
+        /* width: 100%; */
     }
 }

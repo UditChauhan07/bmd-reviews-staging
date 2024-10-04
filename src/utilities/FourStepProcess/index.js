@@ -6,7 +6,7 @@ const FourStepProcess = ({ processCards, header, theme,stepAlignment,buttonTittl
   if (!processCards?.length) return null
   return (
     <section>
-      <div>
+      <div id="ingredientisection" className={styles.ingredientiHolder}>
         <h2 className={centerAlign? styles.processHeaderCenter:styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
         </h2>
         <div className={styles.processCardGrid }>

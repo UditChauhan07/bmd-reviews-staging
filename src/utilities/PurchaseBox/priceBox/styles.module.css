@@ -57,6 +57,22 @@
   margin-bottom: 10px;
 }
 
+.modalHeader h1{
+  font-family: var(--bmd-font-Primary);
+  color: black;
+  font-size: 24px;
+}
+.modalHeader p{
+  color: black;
+  font-family: var(--bmd-font-Secondary);
+
+}
+.p_scrool{
+  overflow-y: visible;
+    height: auto;
+    max-height: 300px;
+    padding: 0rem 1rem 0rem 0rem;
+}
 .section3 {
   font-size: 14px;
   font-weight: 500;

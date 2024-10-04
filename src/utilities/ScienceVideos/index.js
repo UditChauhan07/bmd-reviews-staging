@@ -120,7 +120,7 @@ function ScienceVideos({ data, theme }) {
   // };
 
   return (
-    <section>
+    <section id="studisection" className={styles.studiHolder}>
       <div className={styles.headingVideo}>
         <h3 className={styles.reasonsHeader}>
           I benefici grazie all’innovazione scientifica:

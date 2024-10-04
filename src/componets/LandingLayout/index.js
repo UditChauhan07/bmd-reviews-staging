@@ -145,20 +145,19 @@ const LandingPage = ({ version, script, page }) => {
     <>
       {pageData && (
         <>
-          <PageHead content={pageData.seo} />
-          <div style={{display:"flex", gap:"20px",backgroundColor:"#0033a1",alignItems:"center"}} >
+    <PageHead content={pageData.seo} />
+        
           {pageData?.announcement && (
-            <AnnouncementBar
+            
+            <AnnouncementBar 
               announcement={pageData.announcement.title}
               theme={pageData.announcement.theme}
               ModalHandler={ModalHandler}
             />
+            
           )}
 
-<div>
-                <RightStickyScroll />
-              </div>
-          </div>
+
           {pageData?.nav && <StickyNav theme={pageData.announcement.theme} />}
           {pageData?.wistiaVideoId && (
             <WistiaHero
@@ -311,7 +310,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
           {/** <SciencePage2 data={data1["EU"].footer2} /> */}
-
+          <SciencePage2 data={data1["EU"].footer2} />
           {BlogData?.Blog && (
             <LandingBlog
               data={BlogData.Blog}

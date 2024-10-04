@@ -61,7 +61,7 @@
       "offerTextColor": "#fff",
       "isPriceBox": true,
       "priceBox": {
-        "qtyUnitMultiplierLabel": "scatola 20 Bustine",
+        "qtyUnitMultiplierLabel": "confezioni 20 da bustine/sticks",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID": "Tendo_PLP_PriceBox_Container",
@@ -103,11 +103,14 @@
     },
     "ProductSlideAccordion": {
       "src": [
-        "\\images\\06-BMD-Tendoactive_Plus-9O3A2989.webp",
-        "\\images\\07-BMD-Tendoactive_Plus-9O3A2946_2.webp",
-        "\\images\\05-BMD-Tendoactive_Plus-9O3A2976_3.webp",
-        "\\images\\05-BMD-Tendoactive_Plus-9O3A2976_4.webp",
-        "\\images\\04-BMD-Tendoactive_Plus-9O3A2980_5.webp"
+        "\\images\\01-BMD-Tendoactive_Plus-9O3A3013.webp",
+        "\\images\\02-BMD-Tendoactive_Plus-9O3A2946.webp",
+        "\\images\\03-BMD-Tendoactive_Plus-9O3A2998.webp",
+        "\\images\\04-BMD-Tendoactive_Plus-9O3A2998.webp",
+        "\\images\\05-BMD-Tendoactive_Plus-9O3A2998.webp",
+        "\\images\\06-BMD-Tendoactive_Plus-9O3A2998.webp",
+        "\\images\\07-BMD-Tendoactive_Plus-9O3A2998.webp"
+        
       ],
       "heading": "TendoActive",
       "subHeading": null,
@@ -215,7 +218,7 @@
       "accordanTitle": null,
       "items": [
         {
-          "note": "iI FITOSOMA DI BOSWELLIA SERRATA",
+          "note": "II FITOSOMA DI BOSWELLIA SERRATA",
           "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
@@ -295,7 +298,7 @@
       "description": "La tendinite è una condizione infiammatoria dei tendini, i tessuti fibrosi che collegano i muscoli alle ossa. Essa puo’ essere debilitante, dolorosa, limitante e lenta da guarire.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": "È una condizione comune causata da sforzi ripetuti, sovraccarico muscolare, movimenti improvvisi o prolungati, eccessiva tensione o lesioni<br/><br/>La tendinite può verificarsi in varie parti del corpo, come spalle, gomiti, polsi, ginocchia e talloni.<br/><br/><b>I casi di tendinite più frequenti sono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille, situato dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato, situato nella spalla</li><li>Epicondilo laterale ed epicondilo mediale del gomito</li><li>Tendine rotuleo del ginocchio</li><li>Estensori e flessori del polso</li></ol>",
+      "popupText": "È una condizione comune causata da sforzi ripetuti, sovraccarico muscolare, movimenti improvvisi o prolungati, eccessiva tensione o lesioni.<br/>La tendinite può verificarsi in varie parti del corpo, come spalle, gomiti, polsi, ginocchia e talloni.<br/><br/><b>I casi di tendinite più frequenti sono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille, situato dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato, situato nella spalla</li><li>Epicondilo laterale ed epicondilo mediale del gomito</li><li>Tendine rotuleo del ginocchio</li><li>Estensori e flessori del polso</li></ol>",
       "image": "\\images\\landing\\disorder_final.webp",
       "color": "#D7E4FF"
     },
