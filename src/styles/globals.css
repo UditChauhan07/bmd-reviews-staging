@@ -15,8 +15,7 @@
 } */
 @font-face {
   font-family: "Gotham", "Arial", serif;
-  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Book_Web.woff?v=123089468096664502741694422972)
-    format("truetype");
+  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Book_Web.woff?v=123089468096664502741694422972) format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -24,8 +23,7 @@
 
 @font-face {
   font-family: "Gotham", "Arial", serif;
-  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Bold_Web.woff?v=157480398884470569741694422932)
-    format("truetype");
+  src: url(//www.brunomd.eu/cdn/shop/t/1/assets/GothamSSm-Bold_Web.woff?v=157480398884470569741694422932) format("truetype");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -79,24 +77,20 @@
   --background-end-rgb: 0, 0, 0;
 
   --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-  --secondary-glow: linear-gradient(
-    to bottom right,
-    rgba(1, 65, 255, 0),
-    rgba(1, 65, 255, 0),
-    rgba(1, 65, 255, 0.3)
-  );
+  --secondary-glow: linear-gradient(to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3));
 
   --tile-start-rgb: 2, 13, 46;
   --tile-end-rgb: 2, 5, 19;
-  --tile-border: conic-gradient(
-    #ffffff80,
-    #ffffff40,
-    #ffffff30,
-    #ffffff20,
-    #ffffff10,
-    #ffffff10,
-    #ffffff80
-  );
+  --tile-border: conic-gradient(#ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80);
 
   --callout-rgb: 20, 20, 20;
   --callout-border-rgb: 108, 108, 108;
@@ -139,24 +133,20 @@
     --background-end-rgb: 0, 0, 0;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
+    --secondary-glow: linear-gradient(to bottom right,
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0.3));
 
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
+    --tile-border: conic-gradient(#ffffff80,
+        #ffffff40,
+        #ffffff30,
+        #ffffff20,
+        #ffffff10,
+        #ffffff10,
+        #ffffff80);
 
     --callout-rgb: 20, 20, 20;
     --callout-border-rgb: 108, 108, 108;
@@ -259,6 +249,7 @@ ol {
 .none {
   display: none;
 }
+
 .xyz {
   display: block;
   color: hsl(0, 68%, 46%);
@@ -269,9 +260,11 @@ ol {
   background-color: #000 !important;
   color: #fff !important;
 }
+
 #hubspot-messages-iframe-container iframe {
   top: 0 !important;
 }
+
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
@@ -424,6 +417,7 @@ https://flickity.metafizzy.co
 .swell-tab {
   display: none !important;
 }
+
 .abc {
   height: auto;
   width: auto;
@@ -436,12 +430,15 @@ https://flickity.metafizzy.co
 #Tendo_PLP_PriceBox_Container * select {
   color: rgb(0, 51, 161) !important;
 }
+
 #Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_stockHolder {
   color: rgb(0, 51, 161) !important;
 }
+
 #Tendo_PLP_PriceBox_Container * #Tendo_PLP_PriceBox_Container_detailsHolder {
   display: none !important;
 }
+
 /* PLP CSS End Here */
 
 /* mine */
@@ -534,15 +531,18 @@ https://flickity.metafizzy.co
     justify-content: center;
   }
 }
+
 @media screen and (max-width: 768px) {
   #hubspot-conversations-iframe {
     height: 70% !important;
   }
+
   #hubspot-messages-iframe-container.widget-align-left {
     z-index: 11 !important;
     bottom: 15% !important;
     max-height: 75% !important;
   }
+
   .react-multi-carousel-item {
     overflow: hidden;
   }
@@ -598,6 +598,7 @@ button.slick-prev {
 }
 
 @media (max-width: 1250px) {
+
   .slick-prev,
   .slick-next {
     top: 35% !important;
@@ -608,9 +609,11 @@ button.slick-prev {
   .slick-prev {
     display: none !important;
   }
+
   .slick-next {
     display: none !important;
   }
+
   .slick-dots li {
     width: 13px !important;
     height: 3px !important;
@@ -665,7 +668,42 @@ button.slick-prev {
 .slick-dots li.slick-active button:before {
   color: transparent !important;
 }
+
 /* tendoLandig page slider css start */
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid rgb(0, 51, 161) !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid rgb(0, 51, 161) !important;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0 !important;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity .25s ease-in;
+  opacity: .3;
+  filter: alpha(opacity=30);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  background: rgb(0, 51, 161) !important;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 4px 8px;
+}
+
+
 
 .carousel .slider-wrapper {
   overflow: hidden;
@@ -679,36 +717,42 @@ button.slick-prev {
   overflow: hidden !important;
   display: flex !important;
 }
+
 .carousel-root {
   outline: none;
   width: 100%;
 }
 
-.AnnouseTendo{
+.AnnouseTendo {
   display: flex;
   background-color: #19f;
 }
-@media(max-width:430px){
+
+
+@media(max-width:430px) {
   .carousel-root {
     outline: none;
     width: 100%;
-    z-index:-1;
+    z-index: -1;
 
   }
 }
-@media(max-width:375px){
+
+@media(max-width:375px) {
   .carousel-root {
     outline: none;
     /* width: 73%; */
   }
 }
-@media(max-width:320px){
+
+@media(max-width:320px) {
   .carousel-root {
     outline: none;
     /* width: 60%; */
-    z-index:-1;
+    z-index: -1;
   }
 }
+
 /* Science Page-carousel Css start */
 
 .carousel-indicators [data-bs-target] {
@@ -725,35 +769,49 @@ button.slick-prev {
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
+
 @media (max-width: 1920px) {
   .carousel-indicators {
-      bottom: -9rem !important;
+    bottom: -9rem !important;
   }
 }
 
-@media(max-width:430px){
-  .carousel-indicators  {
+@media(max-width:430px) {
+  .carousel-indicators {
     bottom: -6rem !important;
   }
 }
-@media(max-width:375px){
+
+@media(max-width:375px) {
   .carousel-indicators [data-bs-target] {
     width: 7% !important;
   }
 }
-@media(max-width:320px){
+
+@media(max-width:320px) {
   .carousel-indicators [data-bs-target] {
     width: 15px !important;
   }
 }
+
 /* newsLetter Css start */
 .body-wrapper .button-container {
   background: #fff;
   border-radius: 40px;
 }
+
 /* newsLetter Css End */
- ol > li::marker{
-  font-weight:bold;
+ol>li::marker {
+  font-weight: bold;
 }
 
- 
+.styles_CaroselMain__sZgd1 .carousel-slider:hover .slide .styles_dGridhover__kJavR img {
+  /* scale: 1.5; */
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.styles_CaroselMain__sZgd1 .carousel-slider .slide .styles_dGridhover__kJavR img {
+
+  transition: 0.5s;
+}
