@@ -35,7 +35,7 @@ import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
-// import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
+import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
@@ -131,7 +131,6 @@ const LandingPage = ({ version, script, page }) => {
   }, []);
 
   const pageData = landingData[page] || {};
-  console.log("aaja", pageData);
 
   let BlogData = ProductsBlogData[pageData.externalId] || {};
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
@@ -310,7 +309,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
             />
           )}
-
+          {/** <SciencePage2 data={data1["EU"].footer2} /> */}
           <SciencePage2 data={data1["EU"].footer2} />
           {BlogData?.Blog && (
             <LandingBlog
