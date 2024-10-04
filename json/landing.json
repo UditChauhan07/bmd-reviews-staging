@@ -61,7 +61,7 @@
       "offerTextColor": "#fff",
       "isPriceBox": true,
       "priceBox": {
-        "qtyUnitMultiplierLabel": "confezioni 20 da Bustine",
+        "qtyUnitMultiplierLabel": "confezioni 20 da bustine/sticks",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID": "Tendo_PLP_PriceBox_Container",
@@ -298,7 +298,7 @@
       "description": "La tendinite è una condizione infiammatoria dei tendini, i tessuti fibrosi che collegano i muscoli alle ossa. Essa puo’ essere debilitante, dolorosa, limitante e lenta da guarire.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": "È una condizione comune causata da sforzi ripetuti, sovraccarico muscolare, movimenti improvvisi o prolungati, eccessiva tensione o lesioni.La tendinite può verificarsi in varie parti del corpo, come spalle, gomiti, polsi, ginocchia e talloni.<br/><br/><b>I casi di tendinite più frequenti sono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille, situato dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato, situato nella spalla</li><li>Epicondilo laterale ed epicondilo mediale del gomito</li><li>Tendine rotuleo del ginocchio</li><li>Estensori e flessori del polso</li></ol>",
+      "popupText": "È una condizione comune causata da sforzi ripetuti, sovraccarico muscolare, movimenti improvvisi o prolungati, eccessiva tensione o lesioni.<br/>La tendinite può verificarsi in varie parti del corpo, come spalle, gomiti, polsi, ginocchia e talloni.<br/><br/><b>I casi di tendinite più frequenti sono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille, situato dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato, situato nella spalla</li><li>Epicondilo laterale ed epicondilo mediale del gomito</li><li>Tendine rotuleo del ginocchio</li><li>Estensori e flessori del polso</li></ol>",
       "image": "\\images\\landing\\disorder_final.webp",
       "color": "#D7E4FF"
     },
