@@ -49,7 +49,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         ></div>
 
 <div className={styles.cartIcon}>
-<FaCartShopping />
+{/* <FaCartShopping /> */}
 </div>
       </section>
     );
