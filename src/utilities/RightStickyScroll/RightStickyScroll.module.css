@@ -75,6 +75,9 @@
     font-family: var(--bmd-font-Secondary);
     text-align: center; 
     box-shadow: 0 4px 4px 0 rgba(114, 113, 113, 0.075), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    text-align: left;
+    
     
 }
 .show .icon {
