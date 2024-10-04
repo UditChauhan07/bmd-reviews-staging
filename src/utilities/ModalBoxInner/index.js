@@ -366,7 +366,7 @@ const ModalBoxInner = ({
                       fontSize: "12px",
                     }}
                   >
-                    {quantity} confezioni  20 Bustine
+                    {quantity} confezioni  20 da Bustine
                   </p>
                 </div>
               </div>
