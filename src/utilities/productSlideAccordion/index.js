@@ -32,17 +32,17 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                 </div>
                 </Carousel> */}
 
-
+<div className={styles.CaroselMain}>
                 <Carousel
                     infiniteLoop
                     useKeyboardArrows
                     autoPlay
                     showArrows
-                    showIndicators={false}
+                    showIndicators={true}
                     showStatus={false}
                 >
                     {content.src.map((imageSrc, index) => (
-                        <div className={styles.dGrid} key={index}>
+                        <div className={` ${styles.dGrid} ${styles.dGridhover}` } key={index}>
                             <img
                                 src={imageSrc}
                                 alt={content.alt || `Slide ${index + 1}`}
@@ -51,6 +51,8 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                         </div>
                     ))}
                 </Carousel>
+
+                </div>
 
 
 

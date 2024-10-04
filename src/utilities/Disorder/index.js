@@ -64,7 +64,7 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
             </button>
             <div className={styles.modalCardContainerV2}>
               <div className={styles.OverflowDiv}>
-                <div className={styles.modalImage}>
+                {/* <div className={styles.modalImage}>
                   <img
                     alt={content.popupTitle}
                     className={styles.modalImgHolder}
@@ -72,7 +72,7 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
                     width={200}
                     height={200}
                   />
-                </div>
+                </div> */}
                 <h1 className={styles.title} style={{ color: theme }}>
                   {content.popupTitle}
                 </h1>

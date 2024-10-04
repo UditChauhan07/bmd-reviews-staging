@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./styles.module.css";
 import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
+import { FaCartShopping } from "react-icons/fa6";
 
 
 const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
@@ -35,19 +36,21 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         style={{
           color: theme?.textColor,
           backgroundColor: theme?.backgroundColor,
-        }}
-        
-      >
+        }} >
+
+        <div style={{ width: "40px", }}>
+          <RightStickyScroll />
+        </div>
         {/* <div dangerouslySetInnerHTML={{__html:announcement}}/> */}
-        <div style={{width:"100%",}} onClick={ModalHandler}
+        <div style={{ width: "100%", }} onClick={ModalHandler}
           // behavior="scroll"
           // scrollamount="6"
           dangerouslySetInnerHTML={{ __html: announcement }}
         ></div>
-         <div style={{width:"40px",}}>
-                <RightStickyScroll />
-              </div>
 
+<div className={styles.cartIcon}>
+<FaCartShopping />
+</div>
       </section>
     );
   } else {
@@ -61,9 +64,9 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
           backgroundColor: theme?.backgroundColor,
         }}
       >
-        <div style={{margin:"auto"}} dangerouslySetInnerHTML={{ __html: announcement }} />
+        <div style={{ margin: "auto" }} dangerouslySetInnerHTML={{ __html: announcement }} />
 
-       
+
       </section>
     );
   }
