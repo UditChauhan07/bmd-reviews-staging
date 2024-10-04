@@ -3,6 +3,7 @@
     top: 0;
     z-index: 1111;
     right: 0px;
+    height: 35px;
 }
 
 .menuIconDiv {
@@ -42,30 +43,42 @@
 .show {
     opacity: 1;
     max-height: 300px;
+    border: none;
     top: 50px;
     gap: 10px;
-    /* width: 100px; */
-    right: 0px;
-    padding: 10px;
+    left: 0px;
+    /* right: -81px; */
+    padding: 4px;
+    display: flex;
+    align-items: self-start;
 }
 
+
 .icon {
-    font-size: 24px;
+    /* font-size: 24px;
+    background-color: #000;
     margin: 5px 0;
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease; */
 }
+
+
+
 .iconDiv{
-    height: 50px;
-    width: 50px;
-    background: #ffffff;
+    background-color: #fdfdfd; 
+    color: rgb(0, 0, 0); 
+    padding: 2px 20px; 
+    border-radius: 50px; 
+    display: inline-block; 
+    font-size: 16px; 
+    font-family: var(--bmd-font-Secondary);
+    text-align: center; 
     box-shadow: 0 4px 4px 0 rgba(114, 113, 113, 0.075), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    gap: 10px;
+    width: 100%;
+    text-align: left;
+    
+    
 }
 .show .icon {
     opacity: 1;
@@ -73,8 +86,7 @@
     border-radius: 50%;
 }
 
-.icon:hover {
+/* .icon:hover {
     color: #3498db;
-    /* Change color on hover */
     transition: color 0.3s ease;
-}
+} */

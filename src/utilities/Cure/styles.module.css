@@ -186,6 +186,11 @@
         font-size: 14px
     }
 }
+@media (max-width:768px) {
+    .CollagenGrid{
+        margin-top: 50px;
+    }
+}
 
 @media (max-width:767.98px) {
     .CollagenButton {

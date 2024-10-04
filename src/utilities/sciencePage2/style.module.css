@@ -1,13 +1,12 @@
-
-.imgconatiner{
+.imgconatiner {
     margin-top: 70px;
 }
 
-.imgconatiner img{
-width: 100%;
+.imgconatiner img {
+    width: 100%;
 }
 
-.textDiv{
+.textDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +14,8 @@ width: 100%;
     margin: -9px 0px 60px 0px;
     gap: 10px;
 }
-.textDiv h2{
+
+.textDiv h2 {
     color: rgb(0, 51, 161);
     text-align: center;
     font-size: 18px;
@@ -24,17 +24,29 @@ width: 100%;
     margin: 28px 0 10px 0;
     font-family: var(--bmd-font-Secondary);
 }
-.textDiv a{
 
-    font-family:"Gotham", "Arial", serif;
+.textDiv a {
+
+    font-family: "Gotham", "Arial", serif;
     font-size: 16px;
-     color: rgb(0, 51, 161);
+    color: rgb(0, 51, 161);
     text-decoration: underline;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-weight: 400;
     cursor: pointer;
 
 }
+
+@media (max-width: 768px) {
+    .imgconatiner {
+        margin-top: 60px;
+    }
+
+    .textDiv {
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 767px) {
     .textDiv a {
         font-size: 12px;

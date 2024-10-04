@@ -23,7 +23,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
         document.getElementById("productAslideTrigger")?.addEventListener("mouseleave", onMouseLeave);
     }, [])
     return (
-        <div className={styles.container} id="benefits">
+        <div className={styles.container} id="beneficisection">
             <div className={styles.twoCol}>
                 {/* <Carousel>
                 <div className={styles.dGrid}>
@@ -32,41 +32,36 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                 </div>
                 </Carousel> */}
 
-
-                <Carousel infiniteLoop
+<div className={styles.CaroselMain}>
+                <Carousel
+                    infiniteLoop
                     useKeyboardArrows
                     autoPlay
                     showArrows
-                    showIndicators={false}
-                    showStatus={false}>
+                    showIndicators={true}
+                    showStatus={false}
+                >
                     {content.src.map((imageSrc, index) => (
-                        <div className={styles.dGrid} key={index}>
+                        <div className={` ${styles.dGrid} ${styles.dGridhover}` } key={index}>
                             <img
                                 src={imageSrc}
                                 alt={content.alt || `Slide ${index + 1}`}
                                 className={styles.image}
-                                // style={{ maxHeight: 400, maxWidth: 400 }}
                             />
-                            {content.buyNow && (
-                                <span
-                                    className={styles.buyNow}
-                                    id="productAslideTrigger"
-                                    onClick={ModalHandler}
-                                    style={{ background: color }}
-                                >
-                                    Buy Now
-                                </span>
-                            )}
                         </div>
                     ))}
                 </Carousel>
+
+                </div>
+
+
 
                 <div className={styles.wrapper}>
                     <p className={styles.header}>{content?.heading}</p>
                     {content.subHeading && <p className={styles.subHeader}>{content.subHeading}</p>}
                     <p className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</p>
                     <p className={styles.underHeaderNote}>{content.text}</p>
-                     {/* Replace Accordion with a simple list */}
+                    {/* Replace Accordion with a simple list */}
                     <ul className={styles.list}>
                         {content.items.map((element, idx) => (
                             <li key={idx} className={styles.listItem}>

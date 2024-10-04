@@ -104,6 +104,7 @@
 }
 
 .tendoDetailmain {
+    cursor: pointer;
     margin-top: 1rem;
 }
 
@@ -119,7 +120,15 @@
     width: 33%;
 }
 
-.tendoDetail {
+.tendoDetail.active {
+    display: flex;
+    border: 2px solid #0033a1;
+    border-radius: 34px;
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.tendoDetail.inactive {
     display: flex;
     border: 2px solid #0033a13f;
     border-radius: 34px;
@@ -155,6 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .humanMain img {
@@ -162,7 +172,633 @@
 width: 55%;   
 }
 
+/* Blink dots css start */
+.humanBody{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.blinkDiv{
+    /* border: 1px solid; */
+    display: flex;
+    position: absolute;
+    width: 80%;
+}
 
+
+.yelloDotsBlink1 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -11.5rem;
+    left: 10.5rem;
+}
+
+.yelloDotsBlink1::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+@keyframes expand {
+
+    /* Starting at 1 to prevent IOS flicker */
+    1% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        width: 300%;
+        height: 300%;
+        opacity: 0;
+        background-color: none;
+        border-width: 2px;
+    }
+}
+
+.yelloDotsBlink2 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6.5rem;
+    left: 8rem;
+}
+
+.yelloDotsBlink2::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.yelloDotsBlink3 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -4rem;
+    left: 10rem;
+}
+
+.yelloDotsBlink3::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.yelloDotsBlink4 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0rem;
+    left: 3.5rem;
+}
+
+.yelloDotsBlink4::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.yelloDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6.8rem;
+}
+
+.yelloDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.yelloDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6.8rem;
+}
+
+.yelloDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.yelloDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6.8rem;
+}
+
+.yelloDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.yelloDotsBlink6 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 4.3rem;
+    top: 7rem;
+}
+
+.yelloDotsBlink6::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.yelloDotsBlink7 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6.5rem;
+    top: 9rem;
+}
+
+.yelloDotsBlink7::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+
+
+.greenDotsBlink1 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2rem;
+    left: 6.5rem;
+
+}
+
+.greenDotsBlink1::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.greenDotsBlink2 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8rem;
+    left: 8rem;
+
+}
+
+.greenDotsBlink2::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.greenDotsBlink3 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12rem;
+    left: 7rem;
+
+}
+
+.greenDotsBlink3::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.greenDotsBlink4 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7rem;
+    left: 5rem;
+
+}
+
+.greenDotsBlink4::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.greenDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    left: 2rem;
+
+}
+
+.greenDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.orangeDotsBlink1 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2rem;
+    left: 7rem;
+
+}
+
+.orangeDotsBlink1::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.orangeDotsBlink2 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12rem;
+    left: 8rem;
+}
+
+.orangeDotsBlink2::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.orangeDotsBlink3 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 7rem;
+    left: 7rem;
+}
+
+.orangeDotsBlink3::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.orangeDotsBlink4 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6.5rem;
+    left: 5rem;
+}
+
+.orangeDotsBlink4::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.orangeDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    left: 2.5rem;
+}
+
+.orangeDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.skyDotsBlink1 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1rem;
+    left: 6.3rem;
+  
+}
+
+.skyDotsBlink1::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.skyDotsBlink2 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12rem;
+    left: 8rem;
+  
+}
+
+.skyDotsBlink2::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.skyDotsBlink3 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 7rem;
+    left: 7rem;
+  
+}
+
+.skyDotsBlink3::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+
+.skyDotsBlink4 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6.5rem;
+    left: 10rem;
+}
+.skyDotsBlink4::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.skyDotsBlink5 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    left: 11.7rem;
+}
+.skyDotsBlink5::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+.skyDotsBlink6 {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #0033A1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 11rem;
+    left: 7.6rem;
+}
+.skyDotsBlink6::before {
+    content: "";
+    border: 5px solid #0033A1;
+    border-radius: inherit;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
+    animation-delay: 1s;
+}
+/* Blink Dots CSS End */
 
 .formqw{
     display: flex;

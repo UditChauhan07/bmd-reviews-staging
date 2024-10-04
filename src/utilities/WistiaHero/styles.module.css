@@ -178,10 +178,7 @@
         font-size: 30px;
         line-height: 0
     }
-
 }
-
-
 
 @media screen and (max-width:425px) {
     .heroButtonAndTextContainer {
@@ -200,7 +197,7 @@
     }
 
     .buyNow {
-        top: 60%
+        top: 40%
     }
 }
 

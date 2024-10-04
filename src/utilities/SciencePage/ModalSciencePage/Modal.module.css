@@ -22,7 +22,7 @@
   }
   
   .closeButton {
-    float: right;
+    /* float: right; */
     border: 1px solid #898989;
     padding: 4px;
     border-radius: 50%;
@@ -33,12 +33,16 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    position: absolute;
+    right: 20px;
+    z-index: 1;
   }
   
   .modalContent {
-    margin-top: 3rem;
-    height: 470px;
-    overflow: auto;
+    margin-top: 0rem;
+    height: auto;
+    /* max-height: 470px; */
+    /* overflow: auto; */
   }
   .modalContent::-webkit-scrollbar {
     width: 3px;

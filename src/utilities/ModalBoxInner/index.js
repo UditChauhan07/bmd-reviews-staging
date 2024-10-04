@@ -167,7 +167,11 @@ const ModalBoxInner = ({
  {isModalOpen === true && (
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <div className={styles.modalHeader}>
-          <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
+          <h1>14 giorni soddisfatti o rimborsati.</h1>
+          <div  className={styles.p_scroll}>
+          <p>Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell&#39;ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il tuo feedback per aiutarci a migliorare la qualità del nostro servizio.</p>
+          </div>
+         
           </div>
         </Modal>
       )}
@@ -362,7 +366,7 @@ const ModalBoxInner = ({
                       fontSize: "12px",
                     }}
                   >
-                    {quantity} scatola 20 Bustine
+                    {quantity} confezione da 20 bustine/sticks
                   </p>
                 </div>
               </div>
