@@ -476,8 +476,8 @@ https://flickity.metafizzy.co
 .loader-circle-2:before {
   width: 70px;
   height: 70px;
-  border-bottom-color: #56008c;
-  border-right-color: #56008c;
+  border-bottom-color: rgb(0, 51, 161) ;
+  border-right-color: rgb(0, 51, 161) ;
   border-top-color: transparent;
   border-left-color: transparent;
   animation: loader-circle-2-animation-2 1s linear infinite;
