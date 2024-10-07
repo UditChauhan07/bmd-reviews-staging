@@ -59,8 +59,6 @@ const TendoActive = () => {
                 </div>
             </div>
             <div className={styles.formqw}>
-
-
                 <div className={styles.tendoProductDiv}>
                     <div className={styles.tendoProduct}>
                         <div className={styles.tendoImg}>
@@ -91,8 +89,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(1)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                         <div className={`${styles.rightLine} ${selectedDetail === 1 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>Riduzione del dolore</h1>
                                 <p> Significativa riduzione del dolore sia a riposo che durante attività fisica. Per una gestione sicura ed efficace delle tendinopatie e della fascite plantare. </p>
@@ -105,8 +102,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(2)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                           <div className={`${styles.rightLine} ${selectedDetail === 2 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>Migliora la condizione del tendine</h1>
                                 <p> Aumenta la proliferazione dei tenociti (cellule tendinee) e la vitalità stimolando la sintesi endogena del collagene di tipo I.</p>
@@ -119,8 +115,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(3)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                           <div className={`${styles.rightLine} ${selectedDetail === 3 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>  Efficace per molte condizioni</h1>
                                 <p>Migliora la salute dei tendini: dellacuffia dei rotatori, dell’epicondilite laterale e mediale, dell’ estensore del pollice,della  fascite plantare, della rotula, del tendine d&apos;Achille.
@@ -134,8 +129,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(4)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                          <div className={`${styles.rightLine} ${selectedDetail === 4 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>Migliora la capacità funzionale</h1>
                                 <p> In combinazione con l&apos;allenamento o lo stretching passivo, fornisce un significativo sollievo dal dolore e una migliore capacità funzionale, in particolare per la fase iniziale della tendinopatia del tendine d&apos;Achille..</p>
@@ -162,8 +156,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(3)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                           <div className={`${styles.rightLine} ${selectedDetail === 3 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>Efficace per molte condizioni</h1>
                                 <p>L&apos;uso regolare di formoline L112 provoca una perdita di peso in tutto il corpo, che si nota spesso in aree problematiche come l&apos;addome, la vita e le cosce se combinata con una dieta moderata.
@@ -177,8 +170,7 @@ const TendoActive = () => {
                                 }`}
                             onClick={() => handleClick(4)}
                         >
-                            <div className={styles.rightLine}>
-                            </div>
+                            <div className={`${styles.rightLine} ${selectedDetail === 4 ? styles.rightLineActive : styles.rightLineInactive}`}></div>
                             <div className={styles.tendotext}>
                                 <h1>Migliora la capacità funzionale</h1>
                                 <p>formoline è un sicuro dispositivo medico di Classe 3 certificato in tutta l&apos;UE ai sensi della direttiva 93/42/CEE ed è disponibile da banco per un&apos;efficace gestione del peso del tuo corpo.</p>
@@ -187,7 +179,7 @@ const TendoActive = () => {
                     </div>
                 </div>
             </div>
-          
+
 
         </div>
     )

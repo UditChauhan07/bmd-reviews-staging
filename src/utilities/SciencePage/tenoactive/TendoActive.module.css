@@ -14,6 +14,7 @@
     font-family: "ivypresto-display", "Times New Roman", Times, serif;
     color: rgb(0, 0, 0);
 }
+
 .tendoProductDiv {
     display: flex;
     align-items: center;
@@ -128,6 +129,7 @@
     padding: 1.5rem;
     margin-bottom: 2rem;
 }
+
 .tendoDetail.inactive {
     display: flex;
     border: 2px solid #0033a13f;
@@ -140,6 +142,14 @@
 .rightLine {
     border-right: 4px solid #0033A1;
     height: 140px;
+}
+
+.rightLineInactive {
+    border-right: 4px solid #0033a13f;
+}
+
+.rightLineActive {
+    border-right: 4px solid #0033A1;
 }
 
 .tendotext {
@@ -169,18 +179,19 @@
 
 .humanMain img {
     /* height: 100%; */
-width: 55%;   
+    width: 55%;
 }
 
 /* Blink dots css start */
-.humanBody{
+.humanBody {
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80%;
 }
-.blinkDiv{
+
+.blinkDiv {
     /* border: 1px solid; */
     display: flex;
     position: absolute;
@@ -324,6 +335,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .yelloDotsBlink5 {
     border-radius: 50%;
     width: 15px;
@@ -393,6 +405,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .yelloDotsBlink7 {
     border-radius: 50%;
     width: 15px;
@@ -493,6 +506,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .greenDotsBlink4 {
     border-radius: 50%;
     width: 15px;
@@ -517,6 +531,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .greenDotsBlink5 {
     border-radius: 50%;
     width: 15px;
@@ -541,6 +556,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .orangeDotsBlink1 {
     border-radius: 50%;
     width: 15px;
@@ -565,6 +581,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .orangeDotsBlink2 {
     border-radius: 50%;
     width: 15px;
@@ -588,6 +605,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .orangeDotsBlink3 {
     border-radius: 50%;
     width: 15px;
@@ -611,6 +629,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .orangeDotsBlink4 {
     border-radius: 50%;
     width: 15px;
@@ -670,7 +689,7 @@ width: 55%;
     align-items: center;
     top: -1rem;
     left: 6.3rem;
-  
+
 }
 
 .skyDotsBlink1::before {
@@ -683,6 +702,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .skyDotsBlink2 {
     border-radius: 50%;
     width: 15px;
@@ -694,7 +714,7 @@ width: 55%;
     align-items: center;
     top: 12rem;
     left: 8rem;
-  
+
 }
 
 .skyDotsBlink2::before {
@@ -707,6 +727,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .skyDotsBlink3 {
     border-radius: 50%;
     width: 15px;
@@ -718,7 +739,7 @@ width: 55%;
     align-items: center;
     top: 7rem;
     left: 7rem;
-  
+
 }
 
 .skyDotsBlink3::before {
@@ -744,6 +765,7 @@ width: 55%;
     top: -6.5rem;
     left: 10rem;
 }
+
 .skyDotsBlink4::before {
     content: "";
     border: 5px solid #0033A1;
@@ -754,6 +776,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .skyDotsBlink5 {
     border-radius: 50%;
     width: 15px;
@@ -766,6 +789,7 @@ width: 55%;
     top: 1rem;
     left: 11.7rem;
 }
+
 .skyDotsBlink5::before {
     content: "";
     border: 5px solid #0033A1;
@@ -776,6 +800,7 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 .skyDotsBlink6 {
     border-radius: 50%;
     width: 15px;
@@ -788,6 +813,7 @@ width: 55%;
     top: 11rem;
     left: 7.6rem;
 }
+
 .skyDotsBlink6::before {
     content: "";
     border: 5px solid #0033A1;
@@ -798,16 +824,17 @@ width: 55%;
     animation: 2s expand cubic-bezier(.29, 0, 0, 1) infinite;
     animation-delay: 1s;
 }
+
 /* Blink Dots CSS End */
 
-.formqw{
+.formqw {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 50px;
 }
 
-.extrared{
+.extrared {
     color: rgb(255, 19, 19);
     font-weight: 500;
 }
@@ -846,27 +873,145 @@ width: 55%;
 
 
 @media only screen and (max-width:2560px) and (min-width:1920px) {
-    .tendoDecriptionmain{
+    .tendoDecriptionmain {
         margin-top: 3rem;
         padding: 0px;
     }
 }
+
 @media only screen and (max-width:1919px) and (min-width:1441px) {
-    .tendoDecriptionmain{
+    .tendoDecriptionmain {
         margin-top: 2rem;
         padding: 0px;
     }
 }
+
+@media (max-width:1024px) {
+    .yelloDotsBlink1 {
+        top: -8.5rem;
+        left: 8rem;
+    }
+
+    .yelloDotsBlink2 {
+        top: -5rem;
+        left: 6rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: -3rem;
+        left: 7rem;
+    }
+
+    .yelloDotsBlink4 {
+        top: 0rem;
+        left: 1.7rem;
+    }
+
+    .yelloDotsBlink5 {
+        top: 0.5rem;
+        left: 4.2rem;
+    }
+
+    .yelloDotsBlink6 {
+        left: 2rem;
+        top: 6rem;
+    }
+
+    .yelloDotsBlink7 {
+        top: 7.5rem;
+        left: 3.5rem;
+    }
+
+    .orangeDotsBlink1 {
+        left: 5rem;
+    }
+
+    .orangeDotsBlink2 {
+        top: 9rem;
+        left: 5.7rem;
+    }
+
+    .orangeDotsBlink3 {
+        top: 5rem;
+        left: 5rem;
+    }
+
+    .orangeDotsBlink4 {
+        top: -4.7rem;
+        left: 3rem;
+    }
+
+    .orangeDotsBlink5 {
+        left: 0.5rem;
+    }
+
+    .greenDotsBlink1 {
+        left: 5rem;
+    }
+
+    .greenDotsBlink2 {
+        top: 6rem;
+        left: 5.8rem;
+    }
+
+    .greenDotsBlink3 {
+        top: 9rem;
+        left: 4.8rem;
+    }
+
+    .greenDotsBlink4 {
+        top: -5rem;
+        left: 3.4rem;
+    }
+
+    .greenDotsBlink5 {
+        top: 1rem;
+        left: 0.5rem;
+    }
+
+    .skyDotsBlink1 {
+        top: -1rem;
+        left: 4.7rem;
+    }
+
+    .skyDotsBlink2 {
+        top: 9rem;
+        left: 5.7rem;
+    }
+
+    .skyDotsBlink3 {
+        top: 5rem;
+        left: 5rem;
+    }
+
+    .skyDotsBlink4 {
+        top: -4.7rem;
+        left: 7rem;
+    }
+
+    .skyDotsBlink5 {
+        top: 1rem;
+        left: 8rem;
+    }
+
+    .skyDotsBlink6 {
+        top: 9rem;
+        left: 4.5rem;
+    }
+}
+
 @media (max-width:1440px) {
-    .tendoDecriptionmain{
+    .tendoDecriptionmain {
         padding: 0px;
     }
 }
+
 @media (max-width:1400px) {
-    .tendoDecriptionmain{
+    .tendoDecriptionmain {
         padding: 20px;
     }
 }
+
 @media (max-width:991px) {
     .tendoProduct {
         width: 50%;
@@ -908,9 +1053,10 @@ width: 55%;
 }
 
 @media (max-width:768px) {
-    .brunoDecription2 h1{
+    .brunoDecription2 h1 {
         font-size: 30px !important;
     }
+
     .tendoButton button {
         font-size: 12px;
     }
@@ -923,6 +1069,112 @@ width: 55%;
     .tendotext h2 {
         font-size: 12px;
     }
+
+    .humanMain img {
+        width: 80%;
+    }
+
+    /* Dots Blink Css start */
+    .yelloDotsBlink1 {
+        top: -11.5rem;
+        left: 7rem;
+    }
+
+    .yelloDotsBlink2 {
+        top: -6.5rem;
+        left: 4rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: -4rem;
+        left: 6.5rem;
+    }
+
+    .yelloDotsBlink4 {
+        left: -0.3rem;
+    }
+
+    .yelloDotsBlink5 {
+        left: 3.2rem;
+    }
+
+    .yelloDotsBlink6 {
+        left: 1rem;
+    }
+
+    .yelloDotsBlink7 {
+        left: 3rem;
+    }
+
+    .greenDotsBlink1 {
+        left: 3rem;
+    }
+
+    .greenDotsBlink2 {
+        left: 4.8rem;
+    }
+
+    .greenDotsBlink3 {
+        left: 3.8rem;
+    }
+
+    .greenDotsBlink4 {
+        top: -6.5rem;
+        left: 2rem;
+    }
+
+    .greenDotsBlink5 {
+        left: -1.5rem;
+    }
+
+
+    .orangeDotsBlink1 {
+        left: 3rem;
+    }
+
+    .orangeDotsBlink2 {
+        left: 4.8rem;
+    }
+
+    .orangeDotsBlink3 {
+        left: 3.8rem;
+    }
+
+    .orangeDotsBlink4 {
+        top: -6.5rem;
+        left: 2rem;
+    }
+
+    .orangeDotsBlink5 {
+        left: -1.5rem;
+    }
+
+    .skyDotsBlink1 {
+        left: 2.7rem;
+    }
+
+    .skyDotsBlink2 {
+        left: 4.7rem;
+    }
+
+    .skyDotsBlink3 {
+        left: 3.5rem;
+    }
+
+    .skyDotsBlink4 {
+        top: -6.5rem;
+    }
+
+    .skyDotsBlink5 {
+        left: 8.2rem;
+    }
+
+    .skyDotsBlink6 {
+        left: 4rem;
+    }
+
+    /* Dots Blink Css End */
+
 }
 
 @media (max-width:650px) {
@@ -943,17 +1195,124 @@ width: 55%;
     }
 
     .humanMain {
-        margin:1rem auto;
+        margin: 1rem auto;
     }
-    .humanMain img{
+
+    .humanMain img {
         width: 100% !important;
     }
 }
 
 @media (max-width:500px) {
+    .humanBody {
+        width: 100%;
+    }
+
     .tendoProduct {
         width: 90%;
     }
+
+    /* Blink Css start */
+    .yelloDotsBlink1 {
+        top: -11rem;
+        left: 4.5rem;
+    }
+
+    .yelloDotsBlink2 {
+        top: -6.5rem;
+        left: 1rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: -4rem;
+        left: 3.5rem;
+    }
+
+    .yelloDotsBlink4 {
+        left: -3rem;
+    }
+
+    .yelloDotsBlink5 {
+        left: 0.5rem;
+    }
+
+    .yelloDotsBlink6 {
+        left: -2rem;
+    }
+
+    .yelloDotsBlink7 {
+        left: 0rem;
+    }
+
+    .greenDotsBlink1 {
+        left: 0.2rem;
+    }
+
+    .greenDotsBlink2 {
+        left: 2rem;
+    }
+
+    .greenDotsBlink3 {
+        left: 0.9rem;
+    }
+
+    .greenDotsBlink4 {
+        top: -6.5rem;
+        left: -1rem;
+    }
+
+    .greenDotsBlink5 {
+        left: -4.1rem;
+    }
+
+
+    .orangeDotsBlink1 {
+        left: 0.3rem;
+    }
+
+    .orangeDotsBlink2 {
+        left: 1.5rem;
+    }
+
+    .orangeDotsBlink3 {
+        left: 1rem;
+    }
+
+    .orangeDotsBlink4 {
+        top: -6.3rem;
+        left: -1rem;
+    }
+
+    .orangeDotsBlink5 {
+        left: -4rem;
+    }
+
+    .skyDotsBlink1 {
+        left: 0rem;
+    }
+
+    .skyDotsBlink2 {
+        left: 2rem;
+    }
+
+    .skyDotsBlink3 {
+        left: 1.2rem
+    }
+
+    .skyDotsBlink4 {
+        top: -5rem;
+        left: 3rem;
+    }
+
+    .skyDotsBlink5 {
+        left: 5.4rem;
+    }
+
+    .skyDotsBlink6 {
+        left: 1rem;
+    }
+
+    /* Bink Css End */
 
 }
 
@@ -965,7 +1324,96 @@ width: 55%;
     .tendotext p {
         font-size: 13px;
     }
-    .rightLine{
+
+    .rightLine {
         height: 105px;
     }
+}
+
+@media(max-width:320px) {
+    .yelloDotsBlink1 {
+        top: -8rem;
+        left: 3.5rem;
+    }
+
+    .yelloDotsBlink2 {
+        top: -4.5rem;
+        left: 0.5rem;
+    }
+
+    .yelloDotsBlink3 {
+        top: -4.5rem;
+        left: 3rem;
+    }
+
+    .yelloDotsBlink4 {}
+
+    .yelloDotsBlink5 {
+        left: -0.5rem;
+    }
+
+    .yelloDotsBlink6 {
+        left: -3rem;
+    }
+
+    .yelloDotsBlink7 {
+        left: -1rem;
+    }
+
+    .greenDotsBlink1 {}
+
+    .greenDotsBlink2 {
+        left: 1rem;
+    }
+
+    .greenDotsBlink3 {
+        left: -0.1rem;
+    }
+
+    .greenDotsBlink4 {
+        top: -5rem;
+        left: -1rem;
+    }
+
+    .greenDotsBlink5 {}
+
+    .orangeDotsBlink1{
+
+    }
+    .orangeDotsBlink2{
+
+    }
+    .orangeDotsBlink3 {
+        left: 0rem;
+    }
+    .orangeDotsBlink4{
+        top: -5.3rem;
+    }
+    .orangeDotsBlink5{
+
+    }
+    .skyDotsBlink1{
+
+    }
+    .skyDotsBlink2{
+        left: 1rem;
+        top: 8rem;
+    }
+    .skyDotsBlink3{
+        left: 0.2rem;
+    }
+    .skyDotsBlink4{
+        top: -4.5rem;
+        left: 2rem;
+    }
+    .skyDotsBlink5{
+        left: 2.5rem;
+        top: 0rem;
+
+    }
+    .skyDotsBlink6{
+        left: 0rem;
+        top: 8rem;
+    }
+
 }
