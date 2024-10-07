@@ -28,6 +28,9 @@
     position: fixed;
     bottom: 0
 }
+.carticon{
+    cursor: pointer;
+}
 .cartIcon{
     font-size: 30px;
     position: relative;
