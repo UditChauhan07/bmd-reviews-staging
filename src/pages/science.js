@@ -6,6 +6,7 @@ import BottomBar from '@/utilities/BottomBar';
 import data1 from '../../json/layout.json'
 import AnnouncementBar from '@/utilities/announcementBar';
 import FeatureInfo from '@/utilities/FeatureInfo'
+
 function SciencePage({}) {
   console.log("tttt",data1)
   return (
