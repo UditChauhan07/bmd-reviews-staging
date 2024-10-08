@@ -2,21 +2,24 @@ import React from 'react'
 import styles from './styles.module.css'
 import ProcessCard from './ProcessCard'
 
-const FourStepProcess = ({ processCards, header, theme,stepAlignment,buttonTittle,centerAlign=false }) => {
+const FourStepProcess = ({ processCards, header, theme, stepAlignment, buttonTittle, centerAlign = false }) => {
   if (!processCards?.length) return null
   return (
     <section>
       <div id="ingredientisection" className={styles.ingredientiHolder}>
-        <h2 className={centerAlign? styles.processHeaderCenter:styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
+        <h2 className={centerAlign ? styles.processHeaderCenter : styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
         </h2>
-        <div className={styles.processCardGrid }>
+        <div className={styles.ingredientiSticky}>
+          <h1>Ingredienti</h1>
+        </div>
+        <div className={styles.processCardGrid}>
           {processCards?.map((el, idx) => {
             return (
               <ProcessCard
                 stepNumber={el.stepNumber}
                 image={el?.video?.src || el.image?.src}
                 title={el.title}
-                imageAltText = {el?.video?.alt || el.image?.alt}
+                imageAltText={el?.video?.alt || el.image?.alt}
                 video={el?.video}
                 bodyCopy={el.body}
                 expandedCopy={el.expanded}
