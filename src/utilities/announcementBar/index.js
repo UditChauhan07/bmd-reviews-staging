@@ -71,8 +71,6 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
             styles={{ paddingTop: "2px" }}
           />
         </div>
-
-        <div className={styles.cartIcon}>{/* <FaCartShopping /> */}</div>
       </section>
     );
   } else {
