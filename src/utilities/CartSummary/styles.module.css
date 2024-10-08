@@ -105,8 +105,8 @@
   }
   
   .button:hover {
-    background-color: var(--bmd-royal-purple);
-    border-color: var(--bmd-royal-purple);
+    background-color: rgb(0, 51, 160);
+    border-color: rgb(0, 51, 160);
   }
   
   

@@ -300,27 +300,27 @@ const ScienceSlider2 = () => {
                                 {/* <h6>For Healthy Skin, Hair & Bones</h6> */}
                                 <div className={styles.forscrollbar} id="scrollableContainer" style={{ overflowY: 'scroll', }}>
                                     <p className={styles.Pcontent} id="page-1" >
-                                        <b className={selectedKeyword === 'Boswellia' ? styles.highlightedHeading : ''}>Boswellia Serrata </b><br/> Aumenta significativamente la percentuale di riduzione del dolore rispetto al placebo. <a href='https://pubmed.ncbi.nlm.nih.gov/25298573/'><br/>Prabhavathi K, et al. Indian J Pharmacol. 2014 Sep-Oct;46(5):475-9 <br/></a> Gli studi dimostrano che gli utenti possono percorrere distanze più lunghe senza dolore rispetto al trattamento standard<br/> <a href='https://pubmed.ncbi.nlm.nih.gov/29228442/'>Riva A, et al. Eur Rev Med Pharmacol Sci. 2017 Nov;21(22):5258-5263.</a></p>
+                                        <b className={selectedKeyword === 'Boswellia' ? styles.highlightedHeading : ''}>Boswellia Serrata </b><br /> Aumenta significativamente la percentuale di riduzione del dolore rispetto al placebo. <a href='https://pubmed.ncbi.nlm.nih.gov/25298573/' target="_blank"><br />Prabhavathi K, et al. Indian J Pharmacol. 2014 Sep-Oct;46(5):475-9 <br /></a> Gli studi dimostrano che gli utenti possono percorrere distanze più lunghe senza dolore rispetto al trattamento standard<br /> <a href='https://pubmed.ncbi.nlm.nih.gov/29228442/' target="_blank">Riva A, et al. Eur Rev Med Pharmacol Sci. 2017 Nov;21(22):5258-5263.</a></p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-2" >
-                                        <b className={selectedKeyword === 'Curcumin' ? styles.highlightedHeading : ''}>Curcumin </b><br/>
-                                        La curcumina ha attività angiogenica diretta in vivo e in vitro.<br/><a href='https://pubmed.ncbi.nlm.nih.gov/10780880'>Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83 </a> <p>La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro.<br/><a href='https://pubmed.ncbi.nlm.nih.gov/21669872//'>Buhrmann C, et al. J     Biol Chem. 2011 Aug 12;286(32):28556-66. </a></p> </p>
+                                        <b className={selectedKeyword === 'Curcumin' ? styles.highlightedHeading : ''}>Curcumin </b><br />
+                                        La curcumina ha attività angiogenica diretta in vivo e in vitro.<br /><a href='https://pubmed.ncbi.nlm.nih.gov/10780880' target="_blank" >Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83 </a> <p>La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro.<br /><a href='https://pubmed.ncbi.nlm.nih.gov/21669872//' target="_blank">Buhrmann C, et al. J     Biol Chem. 2011 Aug 12;286(32):28556-66. </a></p> </p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-3">
-                                        <b className={selectedKeyword === 'Arbiser JL,' ? styles.highlightedHeading : ''}>L-lysine </b><br/>
-                                        La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro. Nella tendinopatia, sono presenti residui di lisina idrossilata derivanti dalla degradazione di questo amminoacido. <br/><a href='https://pubmed.ncbi.nlm.nih.gov/17478653/'>de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56</a></p>
+                                        <b className={selectedKeyword === 'Arbiser JL,' ? styles.highlightedHeading : ''}>L-lysine </b><br />
+                                        La curcumina riduce l&#39;espressione dei geni regolati da NF-κB, che a sua volta è coinvolto nei processi di apoptosi, degradazione della matrice e infiammazione nei tenociti umani in vitro. Nella tendinopatia, sono presenti residui di lisina idrossilata derivanti dalla degradazione di questo amminoacido. <br /><a href='https://pubmed.ncbi.nlm.nih.gov/17478653/' target="_blank">de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56</a></p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-4">
-                                        <b className={selectedKeyword === 'L-proline' ? styles.highlightedHeading : ''}>L-proline </b><br/>
-                                        Nella tendinopatia si riscontrano residui di prolina idrossilata derivanti dalla degradazione di questo amminoacido<br/> <a href='https://pubmed.ncbi.nlm.nih.gov/22141408/'>Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8. </a></p>
+                                        <b className={selectedKeyword === 'L-proline' ? styles.highlightedHeading : ''}>L-proline </b><br />
+                                        Nella tendinopatia si riscontrano residui di prolina idrossilata derivanti dalla degradazione di questo amminoacido<br /> <a href='https://pubmed.ncbi.nlm.nih.gov/22141408/' target="_blank">Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8. </a></p>
                                     <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} id="page-5">
-                                        <b className={selectedKeyword === 'L-arginine' ? styles.highlightedHeading : ''}>L-arginine </b><br/>
-                                        La L-arginina è un substrato dell&#39;enzima ossido nitrico sintasi (NOS), essenziale per il recupero dei tendini.<br/><a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915461/'>Fusini F. et al. Muscles Ligaments Tendons J. 2016 May 19;6(1):48-57</a></p>
+                                        <b className={selectedKeyword === 'L-arginine' ? styles.highlightedHeading : ''}>L-arginine </b><br />
+                                        La L-arginina è un substrato dell&#39;enzima ossido nitrico sintasi (NOS), essenziale per il recupero dei tendini.<br /><a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915461/' target="_blank">Fusini F. et al. Muscles Ligaments Tendons J. 2016 May 19;6(1):48-57</a></p>
 
-                                        <hr className={styles.blackHr} />
+                                    <hr className={styles.blackHr} />
                                     <p className={styles.Pcontent} >
-                                        <b className={selectedKeyword === 'Copper' ? styles.highlightedHeading : ''}>Copper </b><br/>
+                                        <b className={selectedKeyword === 'Copper' ? styles.highlightedHeading : ''}>Copper </b><br />
                                         Ottimizza il richiamo delle cellule stromali mesenchimali nella zona della lesione, dove possono rilasciare fattori di crescita, citochine e contrastare gli effetti dello stress ossidativo nell&apos; area infiammata. </p>
 
                                 </div>
