@@ -8,7 +8,7 @@ import Modal from "@/utilities/SciencePage/ModalSciencePage/Modal";
 
 const PriceBox = ({ isActive, data, variantId }) => {
   const router = useRouter();
-  
+
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [learnMore, setLearnMore] = useState(false);
   const [detailsMore, setDetailsMore] = useState(true);
@@ -165,7 +165,6 @@ const PriceBox = ({ isActive, data, variantId }) => {
       : "25 giorni"
   );
 
-
   // State to control the modal visibility
 
   // Function to show the modal
@@ -185,27 +184,35 @@ const PriceBox = ({ isActive, data, variantId }) => {
     document.documentElement.style.overflow = "auto";
   }
   return (
-    
     <div className={styles.accordionItem}>
-        {isModalOpen === true && (
+      {isModalOpen === true && (
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <div className={styles.modalHeader}>
-          <h1>14 giorni soddisfatti o rimborsati.</h1>
-          <div className={styles.p_scrool}>
-          <p>Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell&#39;ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il tuo feedback per aiutarci a migliorare la qualità del nostro servizio.</p>
-          </div>
-         
+            <h1>14 giorni soddisfatti o rimborsati.</h1>
+            <div className={styles.p_scrool}>
+              <p>
+                Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti
+                Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà,
+                rimborseremo il primo ordine per intero meno i costi della
+                spedizione. Onoriamo un rimborso completo se il nostro servizio
+                clienti viene contattato entro 14 giorni lavorativi dalla data
+                del ricevimento dell&#39;ordine. Non è necessario restituire il
+                prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo
+                con favore il tuo feedback per aiutarci a migliorare la qualità
+                del nostro servizio.
+              </p>
+            </div>
           </div>
         </Modal>
       )}
       <div className={styles.accordionContent}>
-    
         <div style={styles.row}>
           {isActive == 2 && (
             <>
               <div className={styles.section2} id="section2">
                 {data.priceBox.subscriptionDetails ? (
-                  <div onClick={openModal}
+                  <div
+                    onClick={openModal}
                     dangerouslySetInnerHTML={{
                       __html: subscriptionDetails,
                     }}
@@ -300,7 +307,9 @@ const PriceBox = ({ isActive, data, variantId }) => {
             <div className={styles.section5_2}>
               {data.priceBox.qtyUnitMultiplierLabel &&
                 quantity * data.priceBox.defaultQtyMultiplayer}{" "}
-              {data.priceBox.qtyUnitMultiplierLabel}
+              {quantity == 1
+                ? data.priceBox.qtyUnitMultiplierLabelOne
+                : data.priceBox.qtyUnitMultiplierLabel}
               {data.priceBox.qtyExtraDesc && (
                 <>
                   {" "}
