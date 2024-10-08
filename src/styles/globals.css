@@ -788,7 +788,7 @@ button.slick-prev {
 
 
 .styles_CaroselMain__sZgd1 .carousel-slider:hover .slide .styles_dGridhover__kJavR img {
-  /* scale: 1.5; */
+
   transform: scale(1.5);
   transition: 0.5s;
 }
@@ -797,6 +797,30 @@ button.slick-prev {
 
   transition: 0.5s;
 }
+
+.productSlider {
+  width: 100%;
+  max-width: 600px; /* Adjust based on your needs */
+  margin: 0 auto;
+}
+
+.imageContainer {
+  text-align: center;
+  padding: 20px; /* Optional padding */
+}
+
+.slick-slide {
+  display: flex; /* Centers the images */
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1920px) {
   .carousel-indicators {
     bottom: -9rem !important;

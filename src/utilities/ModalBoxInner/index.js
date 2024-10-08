@@ -23,9 +23,6 @@ const ModalBoxInner = ({
   const [cartLoad, setCartLoad] = useState(false);
   const [isModalOpen, setIsModalOpen] = React.useState(false);
 
-  
-
-  
   const typeHandler = (e) => {
     const { name, value } = e.target;
     setType(value);
@@ -161,17 +158,26 @@ const ModalBoxInner = ({
     document.body.style.overflow = "auto";
     document.documentElement.style.overflow = "auto";
   }
-  
+
   return (
     <section>
- {isModalOpen === true && (
+      {isModalOpen === true && (
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <div className={styles.modalHeader}>
-          <h1>14 giorni soddisfatti o rimborsati.</h1>
-          <div  className={styles.p_scroll}>
-          <p>Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell&#39;ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il tuo feedback per aiutarci a migliorare la qualità del nostro servizio.</p>
-          </div>
-         
+            <h1>14 giorni soddisfatti o rimborsati.</h1>
+            <div className={styles.p_scroll}>
+              <p>
+                Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti
+                Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà,
+                rimborseremo il primo ordine per intero meno i costi della
+                spedizione. Onoriamo un rimborso completo se il nostro servizio
+                clienti viene contattato entro 14 giorni lavorativi dalla data
+                del ricevimento dell&#39;ordine. Non è necessario restituire il
+                prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo
+                con favore il tuo feedback per aiutarci a migliorare la qualità
+                del nostro servizio.
+              </p>
+            </div>
           </div>
         </Modal>
       )}
@@ -206,9 +212,9 @@ const ModalBoxInner = ({
                   style={
                     themed
                       ? {
-                        fontFamily: "var(--bmd-font-Secondary)",
-                        fontWeight: "bolder",
-                      }
+                          fontFamily: "var(--bmd-font-Secondary)",
+                          fontWeight: "bolder",
+                        }
                       : { color: "#ffbf3c" }
                   }
                 >
@@ -297,7 +303,8 @@ const ModalBoxInner = ({
                   className="styles_imageSource__xZJZ_"
                 />
               </div>
-              <div onClick={openModal}
+              <div
+                onClick={openModal}
                 className={styles.boxFive}
                 dangerouslySetInnerHTML={{
                   __html: type == "Onetime" ? "" : content.subscriptionBox.desc,
@@ -366,7 +373,8 @@ const ModalBoxInner = ({
                       fontSize: "12px",
                     }}
                   >
-                    {quantity} confezione da 20 bustine/sticks
+                    {quantity} {quantity == 1 ? "confezione" : "confezioni"} da
+                    20 bustine/sticks
                   </p>
                 </div>
               </div>
