@@ -742,6 +742,7 @@ button.slick-prev {
   font-size: 60px;
   color: #000;
   z-index: 111;
+  cursor: pointer;
 }
 
 
