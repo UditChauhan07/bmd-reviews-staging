@@ -62,6 +62,7 @@
       "isPriceBox": true,
       "priceBox": {
         "qtyUnitMultiplierLabel": "confezioni 20 da bustine/sticks",
+        "qtyUnitMultiplierLabelOne": "confezionie 20 da bustine/sticks",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID": "Tendo_PLP_PriceBox_Container",
