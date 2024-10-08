@@ -123,12 +123,14 @@
 
 .button03 .priceCross {
     color: #fff;
-    font-weight: 700
+    font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .button04 .priceCross {
     font-weight: 700;
-    color: #000
+    color: #000;
+    margin-bottom: 0px;
 }
 
 .priceCross {
@@ -142,7 +144,9 @@
     padding-left: .5rem;
     text-transform: uppercase
 }
-
+.btnText p {
+margin-bottom: 0;
+}
 .arrowBox {
     margin: -20px 0 0 0;
     display: flex;

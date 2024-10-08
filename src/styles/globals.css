@@ -728,6 +728,22 @@ button.slick-prev {
   background-color: #19f;
 }
 
+.circle:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+.circle {
+  position: fixed;
+  display: none;
+  bottom: 20%;
+  right: 1%;
+  border: none;
+  transition: 0.5s;
+  font-size: 60px;
+  color: #000;
+  z-index: 111;
+}
+
 
 @media(max-width:430px) {
   .carousel-root {
