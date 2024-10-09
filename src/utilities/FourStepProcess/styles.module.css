@@ -5,10 +5,12 @@
     font-family: var(--bmd-font-Primary);
     padding: 2rem 1rem
 }
-.ingredientiHolder{
+
+.ingredientiHolder {
     scroll-margin-top: 60px;
 
 }
+
 .processHeaderCenter {
     max-width: 900px;
     margin: auto;
@@ -27,6 +29,31 @@
     grid-gap: 0rem;
     margin-bottom: 4rem
 }
+
+.ingredientiSticky {
+    position: absolute;
+    /* z-index: 1000; */
+    right: 0%;
+    padding: 4px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 7px 0 #d5d5d5;
+    border-top-left-radius: 50px;
+    background: #fff;
+    border-bottom-left-radius: 50px;
+
+}
+
+.ingredientiSticky h1 {
+    font-family: var(--bmd-font-Secondary);
+    background-color: rgb(241, 241, 241);
+    font-size: 22px;
+    padding: 2px 15px;
+    color: rgb(0 51 161);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
 
 @media (min-width:960px) {
     .processCardGrid {
@@ -64,9 +91,10 @@
 }
 
 @media (max-width:769px) {
-    .processCardGrid{
+    .processCardGrid {
         margin-bottom: 2rem;
     }
+
     .processHeader {
         font-size: 32px;
         line-height: 38px

@@ -50,6 +50,41 @@
     /* background-color: #000; */
     max-width: 600px;
 }
+.imagemagnify {
+    max-width: 300px; /* Adjust the container width */
+    /* margin: 0 auto; */
+}
+.imagemagnify img{
+    width: 500%;
+}
+
+
+
+.productSlider {
+    width: 100%;
+    max-width: 600px; /* Adjust to your desired width */
+    /* margin: 0 auto; */
+}
+.imageContainer{
+width: 100% !important;
+}
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.thumbnailSlider {
+    margin-top: 10px;
+}
+
+.thumbnailImage img {
+    width: 100px; /* Adjust the size of thumbnails */
+    height: auto;
+    cursor: pointer;
+}
+
+
 
 .buyNow {
     background: #000;

@@ -141,7 +141,7 @@ function SciencePage({}) {
               externalId={pageData.externalId}
               productVariantId={pageData.variantId}
               clickedType={clickedType}
-              // version={version}
+              // //version={version}
               themed={pageData.theme}
             />
           )}
