@@ -9,9 +9,15 @@ const FourStepProcess = ({ processCards, header, theme, stepAlignment, buttonTit
       <div id="ingredientisection" className={styles.ingredientiHolder}>
         <h2 className={centerAlign ? styles.processHeaderCenter : styles.processHeader} dangerouslySetInnerHTML={{ __html: header }}>
         </h2>
-        <div className={styles.ingredientiSticky}>
+        {/* <div className={styles.ingredientiSticky}>
           <h1>Ingredienti</h1>
-        </div>
+        </div> */}
+        <p className={styles.ExtraCod} >
+          <span>Ingredienti</span>
+        </p>
+
+
+
         <div className={styles.processCardGrid}>
           {processCards?.map((el, idx) => {
             return (
