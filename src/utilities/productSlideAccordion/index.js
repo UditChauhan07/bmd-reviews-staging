@@ -93,6 +93,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                         </ul>
                     </div>
                 </div>
+               
             </div>
             
 

@@ -787,32 +787,15 @@ button.slick-prev {
 }
 
 
-.styles_CaroselMain__sZgd1 .carousel-slider:hover .slide .styles_dGridhover__kJavR img {
-
-  transform: scale(1.5);
-  transition: 0.5s;
-}
-
 .styles_CaroselMain__sZgd1 .carousel-slider .slide .styles_dGridhover__kJavR img {
-
-  transition: 0.5s;
+  transition: transform 0.5s; /* Combine transition properties */
 }
 
-.productSlider {
-  width: 100%;
-  max-width: 600px; /* Adjust based on your needs */
-  margin: 0 auto;
+.styles_CaroselMain__sZgd1 .carousel-slider:hover .slide .styles_dGridhover__kJavR img {
+  transform: scale(1.5); /* Magnify image on hover */
 }
 
-.imageContainer {
-  text-align: center;
-  padding: 20px; /* Optional padding */
-}
 
-.slick-slide {
-  display: flex; /* Centers the images */
-  justify-content: center;
-}
 
 
 
