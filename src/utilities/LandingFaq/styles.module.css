@@ -7,8 +7,9 @@
 }
 
 .ExtraCod {
+    right: 0;
     top: 0rem;
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -63,6 +64,7 @@
 
 .faqHolder {
     scroll-margin-top: 60px;
+    position: relative;
 }
 
 .subHeader {
@@ -204,7 +206,7 @@
 
 @media screen and (max-width: 769px) {
     .ExtraCod {
-        top: -1rem;
+        top: -3rem;
       }
     .dGrid {
         width: 95%;
@@ -235,7 +237,7 @@
 
 @media screen and (max-width: 426px) {
     .faqHolder {
-        scroll-margin-top: 75px;
+        scroll-margin-top: 100px;
     }
     .parainner {
         font-size: 12px;
