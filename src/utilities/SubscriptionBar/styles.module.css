@@ -145,7 +145,7 @@
     text-transform: uppercase
 }
 .btnText p {
-margin-bottom: 0;
+margin-bottom: 0 !important;
 }
 .arrowBox {
     margin: -20px 0 0 0;
