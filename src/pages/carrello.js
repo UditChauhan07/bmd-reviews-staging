@@ -115,4 +115,5 @@ const [ removeState, setRemoveState] = useState();
     </section>
   );
 };
+// Carrelo.hideLayout = true;
 export default Carrelo;
