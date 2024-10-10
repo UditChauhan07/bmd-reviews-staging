@@ -28,11 +28,17 @@
     position: fixed;
     bottom: 0
 }
+.carticon{
+    cursor: pointer;
+}
 .cartIcon{
     font-size: 30px;
     position: relative;
       display: flex;
       right: 5px;
+}
+.carticon{
+    padding-right: 5px;
 }
 @media screen and (max-width:768px) {
 

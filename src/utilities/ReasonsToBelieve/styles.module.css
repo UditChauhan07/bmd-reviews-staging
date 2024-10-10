@@ -186,8 +186,11 @@
     font-family: var(--bmd-font-Secondary);
     /* text-align: justify; */
     padding: 0px 18px;
-}
 
+}
+.expanded p{
+    /* border: 1px solid; */
+} 
 .expanded ul {
     list-style: disc inside;
 }
@@ -357,7 +360,7 @@
     }
 
     .modalCardContent {
-        height: 240px;
+        height: 250px;
         overflow: auto;
         width: 70%;
         /* margin-left: 1rem; */
@@ -447,6 +450,9 @@
         margin-bottom: 10px;
         /* margin-right: 0; */
     }
+    .modalCardContent{
+        height: 70px;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -458,10 +464,15 @@
         height: 65px;
         width: 100%;
         overflow: hidden;
+        padding-right: 10px;
     }
+
 }
 
 @media screen and (max-width: 500px) {
+    .modalCardContent {
+        height: 180px;
+    }
     .modalContainer1 {
         top: 40%;
         height: 75%;

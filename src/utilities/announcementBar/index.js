@@ -65,14 +65,12 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
           // scrollamount="6"
           dangerouslySetInnerHTML={{ __html: announcement }}
         ></div>
-        <div onClick={() => (window.location.href = "/carrello")}>
+        <div className={styles.carticon} onClick={() => (window.location.href = "/carrello")}>
           <CartIcon
             number={itemNumber === 0 ? "" : itemNumber}
-            styles={{ paddingTop: "2px" }}
+            styles={{ paddingTop: "2px", }}
           />
         </div>
-
-        <div className={styles.cartIcon}>{/* <FaCartShopping /> */}</div>
       </section>
     );
   } else {

@@ -103,10 +103,10 @@ function SciencePage({}) {
   return (
     <div>
       <AnnouncementBar
-        announcement={data1["EU"].announcementBar.title}
+        announcement={data1["EU"].announcementBar.title2}
         theme={{
           textColor: data1["EU"].announcementBar.textColor,
-          backgroundColor: data1["EU"].announcementBar.backgroundColor,
+          backgroundColor: data1["EU"].announcementBar.backgroundColor2,
         }}
       />
       <Sciencedesktoppage data={data} />
@@ -141,7 +141,7 @@ function SciencePage({}) {
               externalId={pageData.externalId}
               productVariantId={pageData.variantId}
               clickedType={clickedType}
-              //version={version}
+              // //version={version}
               themed={pageData.theme}
             />
           )}

@@ -1,14 +1,15 @@
 {
     "EU": {
         "announcementBar": {
-            "title": "TENDOACTIVE PLUS-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO",
+            "title2": "TENDOACTIVE PLUS-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO",
+            "title": "Spedizione gratuita per ordini superiori a €60. Lo sconto viene automaticamente applicato alla cassa",
             "textColor": "#fff",
-            "backgroundColor": "rgb(0 51 160)"
+            "backgroundColor": "#3a3a3a",
+            "backgroundColor2": "rgb(0 51 160)"
         },
         "links": [
             {
                 "subMenuLinks": [
-                  
                     {
                         "url": "/collezioni/occhi",
                         "displayText": "OCCHI"
@@ -194,11 +195,11 @@
                 "<a href='/site-map'>Site Map</a>"
             ]
         },
-        "cartLink":"/carrello",
-        "login":{
-            "title":"Accedi",
-            "url":"https://www.brunomd.eu/account/login",
-            "Authurl":"/account"
+        "cartLink": "/carrello",
+        "login": {
+            "title": "Accedi",
+            "url": "https://www.brunomd.eu/account/login",
+            "Authurl": "/account"
         },
         "footer2": {
             "links": [
@@ -207,13 +208,10 @@
                     "title": "Prodotti",
                     "name": "Products",
                     "navMenuLinks": [
-                     
                         {
                             "name": "Tendoactive Plus",
                             "url": "/prodotti/tendoactive-plus-20-stick"
                         }
-                      
-                       
                     ]
                 },
                 {
@@ -293,7 +291,6 @@
             ],
             "text": "<p>Esclusione di responsabilità.</p><p>Per quanto gli autori si sforzino di fornire informazioni corrette e attendibili, le stesse non hanno lo scopo di fornire consigli medici individuali e in nessun caso possono costituire la prescrizione di un trattamento, la visita specialistica o il rapporto diretto con il proprio medico curante.</p><p>Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. Si invitano e consigliano gli utenti a chiedere il parere di un medico o di altro specialista prima di prendere qualsiasi iniziativa. </p><p>Tutte le informazioni fornite: </p><ul><li>non devono essere interpretate come alternative alla consultazione, valutazione o trattamento di un medico ovvero di altro specialista.                                                         </li></ul><ul><li>non sono pensate per fornire specifica consulenza in materia di salute fisica, o qualsiasi altra sorta di consulenza. Pertanto tutto il materiale, le informazioni e i piani alimentari sono elaborati soltanto a scopo informativo.</li></ul><p>© 2023 brunomd.eu. Diritti riservati</p>"
         },
-        "redirection":true
+        "redirection": true
     }
-  
 }
