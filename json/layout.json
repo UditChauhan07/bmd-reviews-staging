@@ -3,7 +3,8 @@
         "announcementBar": {
             "title": "TENDOACTIVE PLUS-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO",
             "textColor": "#fff",
-            "backgroundColor": "rgb(0 51 160)"
+            "backgroundColor": "#3a3a3a",
+            "backgroundColor2":"rgb(0 51 160)"
         },
         "links": [
             {

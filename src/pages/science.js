@@ -106,7 +106,7 @@ function SciencePage({}) {
         announcement={data1["EU"].announcementBar.title}
         theme={{
           textColor: data1["EU"].announcementBar.textColor,
-          backgroundColor: data1["EU"].announcementBar.backgroundColor,
+          backgroundColor: data1["EU"].announcementBar.backgroundColor2,
         }}
       />
       <Sciencedesktoppage data={data} />
