@@ -49,11 +49,15 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
     return (
 
         <>
+            <div>
+                <p className={styles.ExtraCod} >
+                    <span>Benefici</span>
+                </p>
+            </div>
             <div className={styles.container} id="beneficisection">
-            <p className={styles.ExtraCod} >
-                        <span>Benefici</span>
-                    </p>
+
                 <div className={styles.twoCol}>
+
                     <div className={styles.CaroselMain}>
                         <Carousel
                             infiniteLoop
