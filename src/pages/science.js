@@ -103,7 +103,7 @@ function SciencePage({}) {
   return (
     <div>
       <AnnouncementBar
-        announcement={data1["EU"].announcementBar.title}
+        announcement={data1["EU"].announcementBar.title2}
         theme={{
           textColor: data1["EU"].announcementBar.textColor,
           backgroundColor: data1["EU"].announcementBar.backgroundColor2,

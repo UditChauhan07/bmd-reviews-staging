@@ -1,7 +1,8 @@
 {
     "EU": {
         "announcementBar": {
-            "title": "TENDOACTIVE PLUS-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO",
+            "title2": "TENDOACTIVE PLUS-OFFERTA ESCLUSIVA SCONTO DEL 20% SU OGNI ACQUISTO PERIODICO",
+            "title":"Spedizione GRATUITA per tutti gli ordini superiori a $ 75. Applicato automaticamente al momento del pagamento.",
             "textColor": "#fff",
             "backgroundColor": "#3a3a3a",
             "backgroundColor2":"rgb(0 51 160)"
