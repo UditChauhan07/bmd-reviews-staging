@@ -175,3 +175,14 @@
   line-height: 13px;
   margin: 10px 0;
 }
+@media (max-width:500px){
+  .p_scrool{
+    overflow:scroll;
+      max-height: 240px;
+  }
+}
+@media(max-width:375px){
+  .modalHeader h1{
+    font-size: 22px;
+  }
+}

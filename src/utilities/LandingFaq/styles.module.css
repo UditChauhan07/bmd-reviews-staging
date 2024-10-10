@@ -6,8 +6,65 @@
     margin-bottom: 80px;
 }
 
+.ExtraCod {
+    right: 0;
+    top: 0rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .ExtraCod span {
+    display: inline-block;
+    font-size: 18px;
+    font-family: var(--bmd-font-Secondary);
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    height: 41px;
+    line-height: 32px;
+    padding: 0px 25px 0 30px;
+    position: relative;
+    color: #fff;
+    margin: 0px 0 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;  }
+  
+  .ExtraCod span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    top: 18px;
+    border-bottom: 14px solid rgb(255, 255, 255);
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    transform: translate(-15px, -5px) rotate(90deg);
+  }
+  
+  @keyframes infiniteZoom {
+    0%, 100% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(1.2); 
+    }
+  }
+  
+  .ExtraCod span:hover {
+    background-color: rgb(0 51 161);
+    color: rgb(255, 255, 255);
+    animation: infiniteZoom 2s infinite; 
+  }
+
 .faqHolder {
     scroll-margin-top: 60px;
+    position: relative;
 }
 
 .subHeader {
@@ -148,6 +205,9 @@
 }
 
 @media screen and (max-width: 769px) {
+    .ExtraCod {
+        top: -3rem;
+      }
     .dGrid {
         width: 95%;
         margin: auto;
@@ -177,7 +237,7 @@
 
 @media screen and (max-width: 426px) {
     .faqHolder {
-        scroll-margin-top: 75px;
+        scroll-margin-top: 100px;
     }
     .parainner {
         font-size: 12px;
