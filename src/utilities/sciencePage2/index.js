@@ -11,7 +11,7 @@ function SciencePage2() {
 
             <div className={styles.textDiv}>
                 <h2>La Scienza per Bruno MD</h2> 
-                <Link href="/science">
+                <Link href="/science" target="_blank">
                     Scopri di piu’
                 </Link>
             </div>
