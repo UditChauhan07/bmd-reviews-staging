@@ -121,6 +121,9 @@ function ScienceVideos({ data, theme }) {
 
   return (
     <section id="studisection" className={styles.studiHolder}>
+      <p className={styles.ExtraCod} >
+        <span>Studi</span>
+      </p>
       <div className={styles.headingVideo}>
         <h3 className={styles.reasonsHeader}>
           I benefici grazie all’innovazione scientifica:
@@ -128,8 +131,9 @@ function ScienceVideos({ data, theme }) {
         <p className={styles.believeBluerex} style={{ color: theme }}>
           i nostri studi clinici
         </p>
-      </div>
 
+      </div>
+      
       <div className={`slider-container ${styles.slidercrot}`}>
         <Slider {...settings}>
           {data.map((videos, key) => (
@@ -147,7 +151,7 @@ function ScienceVideos({ data, theme }) {
                 {videos.title}
               </p>
               <p class={styles.subtitlep}> {videos.subtitle}</p>
-           
+
               <p style={{ color: theme, textDecoration: "underline" }}>
                 <a href={videos.blog + "?l=2"} target="_blank">Scopri di piu’</a>
               </p>
