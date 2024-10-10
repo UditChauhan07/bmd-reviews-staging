@@ -102,58 +102,81 @@ const PriceBox = ({ isActive, data, variantId }) => {
         return;
       }
     }
-    if (data.priceBox.isCheckoutRedirected) {
-      AddtoCart({ lineItems: lineItemsToAdd })
+    // if (data.priceBox.isCheckoutRedirected) {
+    //   AddtoCart({ lineItems: lineItemsToAdd })
+    //     .then((response) => {
+    //       let URL = response.data.cartCreate.cart.checkoutUrl;
+    //       window.location.href = URL;
+    //     })
+    //     .catch((err) => {
+    //       console.log({ err });
+    //     });
+    // }
+    //else {
+    if (cId) {
+      addCartItems({ items: lineItemsToAdd })
         .then((response) => {
-          let URL = response.data.cartCreate.cart.checkoutUrl;
-          window.location.href = URL;
+          if (response?.data?.cartLinesAdd?.userErrors?.length) {
+            if (response?.data?.cartLinesAdd?.userErrors[0].message) {
+              if (
+                response?.data?.cartLinesAdd?.userErrors[0].message ==
+                "Il carrello specificato non esiste."
+              ) {
+                AddtoCart({ lineItems: lineItemsToAdd })
+                  .then((response) => {
+                    let id = response?.data?.cartCreate?.cart?.id;
+                    localStorage.setItem("e6S4JJM9G", id);
+                    if (data.priceBox.isCheckoutRedirected) {
+                      let URL = response.data.cartCreate.cart.checkoutUrl;
+                      window.location.href = URL;
+                    } else {
+                      // router.push('/carrello')
+                      window.location.href = "/carrello";
+                    }
+                  })
+                  .catch((err) => {
+                    console.log({ err });
+                  });
+              }
+            }
+          } else {
+            // router.push('/carrello')
+            if (data.priceBox.isCheckoutRedirected) {
+              AddtoCart({ lineItems: lineItemsToAdd })
+                .then((response) => {
+                  let URL = response.data.cartCreate.cart.checkoutUrl;
+                  window.location.href = URL;
+                })
+                .catch((err) => {
+                  console.log({ err });
+                });
+            } else {
+              window.location.href = "/carrello";
+            }
+          }
         })
         .catch((err) => {
           console.log({ err });
         });
     } else {
-      if (cId) {
-        addCartItems({ items: lineItemsToAdd })
-          .then((response) => {
-            if (response?.data?.cartLinesAdd?.userErrors?.length) {
-              if (response?.data?.cartLinesAdd?.userErrors[0].message) {
-                if (
-                  response?.data?.cartLinesAdd?.userErrors[0].message ==
-                  "Il carrello specificato non esiste."
-                ) {
-                  AddtoCart({ lineItems: lineItemsToAdd })
-                    .then((response) => {
-                      let id = response?.data?.cartCreate?.cart?.id;
-                      localStorage.setItem("e6S4JJM9G", id);
-                      // router.push('/carrello')
-                      window.location.href = "/carrello";
-                    })
-                    .catch((err) => {
-                      console.log({ err });
-                    });
-                }
-              }
-            } else {
-              // router.push('/carrello')
-              window.location.href = "/carrello";
-            }
-          })
-          .catch((err) => {
-            console.log({ err });
-          });
-      } else {
-        AddtoCart({ lineItems: lineItemsToAdd })
-          .then((response) => {
-            let id = response?.data?.cartCreate?.cart?.id;
-            localStorage.setItem("e6S4JJM9G", id);
+      AddtoCart({ lineItems: lineItemsToAdd })
+        .then((response) => {
+          let id = response?.data?.cartCreate?.cart?.id;
+          localStorage.setItem("e6S4JJM9G", id);
+          // router.push('/carrello')
+          if (data.priceBox.isCheckoutRedirected) {
+            let URL = response.data.cartCreate.cart.checkoutUrl;
+            window.location.href = URL;
+          } else {
             // router.push('/carrello')
             window.location.href = "/carrello";
-          })
-          .catch((err) => {
-            console.log({ err });
-          });
-      }
+          }
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
     }
+    // }
   };
   let regex = /\d\d giorni/gi;
   let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(
