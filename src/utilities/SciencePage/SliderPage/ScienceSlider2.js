@@ -463,7 +463,7 @@ const ScienceSlider2 = () => {
                     </b>
                     <br /> Aumenta significativamente la percentuale di
                     riduzione del dolore rispetto al placebo.{" "}
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/25298573/">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/25298573/" target="_blank">
                       <br />
                       Prabhavathi K, et al. Indian J Pharmacol. 2014
                       Sep-Oct;46(5):475-9 <br />
@@ -472,7 +472,7 @@ const ScienceSlider2 = () => {
                     distanze più lunghe senza dolore rispetto al trattamento
                     standard
                     <br />{" "}
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/29228442/">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/29228442/" target="_blank">
                       Riva A, et al. Eur Rev Med Pharmacol Sci. 2017
                       Nov;21(22):5258-5263.
                     </a>
@@ -492,7 +492,7 @@ const ScienceSlider2 = () => {
                     La curcumina ha attività angiogenica diretta in vivo e in
                     vitro.
                     <br />
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/10780880">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/10780880" target="_blank">
                       Arbiser JL, et al. Mol Med. 1998 Jun;4(6):376-83{" "}
                     </a>{" "}
                     <p>
@@ -501,7 +501,7 @@ const ScienceSlider2 = () => {
                       apoptosi, degradazione della matrice e infiammazione nei
                       tenociti umani in vitro.
                       <br />
-                      <a href="https://pubmed.ncbi.nlm.nih.gov/21669872//">
+                      <a href="https://pubmed.ncbi.nlm.nih.gov/21669872//" target="_blank">
                         Buhrmann C, et al. J Biol Chem. 2011 Aug
                         12;286(32):28556-66.{" "}
                       </a>
@@ -525,7 +525,7 @@ const ScienceSlider2 = () => {
                     umani in vitro. Nella tendinopatia, sono presenti residui di
                     lisina idrossilata derivanti dalla degradazione di questo
                     amminoacido. <br />
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/17478653/">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/17478653/" target="_blank">
                       de Mos M, et al.,. Am J Sports Med. 2007 Sep;35(9):1549-56
                     </a>
                   </p>
@@ -545,7 +545,7 @@ const ScienceSlider2 = () => {
                     idrossilata derivanti dalla degradazione di questo
                     amminoacido
                     <br />{" "}
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/22141408/">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/22141408/" target="_blank">
                       Vieira CP et al., Connect Tissue Res. 2012;53(2):160-8.{" "}
                     </a>
                   </p>
@@ -564,7 +564,7 @@ const ScienceSlider2 = () => {
                     La L-arginina è un substrato dell&#39;enzima ossido nitrico
                     sintasi (NOS), essenziale per il recupero dei tendini.
                     <br />
-                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915461/">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915461/" target="_blank">
                       Fusini F. et al. Muscles Ligaments Tendons J. 2016 May
                       19;6(1):48-57
                     </a>
