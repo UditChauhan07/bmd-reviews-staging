@@ -93,21 +93,19 @@
     transform: translate(-15px, -5px) rotate(90deg);
   }
   
-  /* Keyframes for infinite zoom effect */
   @keyframes infiniteZoom {
     0%, 100% {
-      transform: scale(1); /* Original size */
+      transform: scale(1); 
     }
     50% {
-      transform: scale(1.2); /* Zoom out to 90% */
+      transform: scale(1.2); 
     }
   }
   
   .ExtraCod span:hover {
     background-color: rgb(0 51 161);
     color: rgb(255, 255, 255);
-    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
-    animation: infiniteZoom 2s infinite; /* Apply infinite animation on hover */
+    animation: infiniteZoom 2s infinite; 
   }
   
 

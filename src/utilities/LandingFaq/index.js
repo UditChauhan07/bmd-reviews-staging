@@ -23,6 +23,9 @@ function LandingFaq({ data, theme }) {
 
   return (
     <section id="faqsection" className={styles.faqHolder}>
+       <p className={styles.ExtraCod} >
+        <span>FAQs</span>
+      </p>
       <div className={styles.container} >
         <div className={styles.twoCol}>
           <div className={styles.dGrid}>

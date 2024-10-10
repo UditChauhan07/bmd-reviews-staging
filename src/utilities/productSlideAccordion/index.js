@@ -50,6 +50,9 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
 
         <>
             <div className={styles.container} id="beneficisection">
+            <p className={styles.ExtraCod} >
+                        <span>Benefici</span>
+                    </p>
                 <div className={styles.twoCol}>
                     <div className={styles.CaroselMain}>
                         <Carousel
@@ -93,9 +96,9 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                         </ul>
                     </div>
                 </div>
-               
+
             </div>
-            
+
 
             <span onClick={handleScrollTop} className="circle" ref={scrollTop}>
                 <svg
