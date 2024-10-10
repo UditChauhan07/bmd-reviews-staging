@@ -68,7 +68,7 @@ const AnnouncementBar = ({ announcement, theme, ModalHandler, position }) => {
         <div className={styles.carticon} onClick={() => (window.location.href = "/carrello")}>
           <CartIcon
             number={itemNumber === 0 ? "" : itemNumber}
-            styles={{ paddingTop: "2px" }}
+            styles={{ paddingTop: "2px", }}
           />
         </div>
       </section>
