@@ -61,6 +61,12 @@ function RouteGuard({ children }) {
                 );
                 window.location.href = "/account";
               }
+              if (split.length == 3) {
+                let cartId = split[2] ?? null;
+                window.location.href = `https://www.brunomd.eu/cart/c/${cartId}`;
+              } else {
+                window.location.href = window.location.origin + "/account";
+              }
             })
             .catch((err) => {
               console.log({ err });
@@ -162,7 +168,7 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
-      "/science"
+      "/science",
       //"/tendo-V2",
     ];
     if (!publicPaths.length) {
