@@ -5,10 +5,15 @@ import { NewsLetter } from "@/utilities/NewsLetter";
 import Link from "next/link";
 import CartSummary from "@/utilities/CartSummary";
 import CartItemList from "@/utilities/CartItemList";
-import { getCheckout, removeCartItems, updateCartItems,getCartList } from "@/data/lib";
+import {
+  getCheckout,
+  removeCartItems,
+  updateCartItems,
+  getCartList,
+} from "@/data/lib";
 
 const Carrelo = () => {
-const [ removeState, setRemoveState] = useState();
+  const [removeState, setRemoveState] = useState();
   const [cartData, setData] = useState({
     url: undefined,
     price: undefined,
@@ -24,63 +29,73 @@ const [ removeState, setRemoveState] = useState();
     },
   });
 
-
   useEffect(() => {
     listItem();
-    if(removeItem){
+    if (removeItem) {
       listItem();
-      setRemoveState(false)
+      setRemoveState(false);
     }
   }, [removeState]);
   const listItem = async () => {
-    getCartList().then((response)=>{
-      if(response?.data?.cart?.lines?.edges?.length == 0) location.removeItem("e6S4JJM9G");
-      setData({
-                url: response?.data?.cart?.checkoutUrl,
-                price: parseFloat(response?.data?.cart?.cost?.totalAmount?.amount),
-                lineItems:response?.data?.cart?.lines?.edges||[],
-                version: "ENG",
-                title: "Riepilogo ordine",
-                subtotalLabel: "Subtotale",
-                checkoutLabel: "Checkout",
-                version: "EU",
-                moneyBack: {
-                  title: "14 Giorni - Soddisfatti o Rimborsati",
-                  description:
-                    "Come funziona? Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell’ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il feedback per aiutarci a migliorare la qualità del nostro servizio.",
-                },
-              });
-    }).catch((err)=>{
-      console.log({err});
-    })
+    getCartList()
+      .then((response) => {
+        if (response?.data?.cart?.lines?.edges?.length == 0)
+          location.removeItem("e6S4JJM9G");
+        setData({
+          url: response?.data?.cart?.checkoutUrl,
+          price: parseFloat(response?.data?.cart?.cost?.totalAmount?.amount),
+          lineItems: response?.data?.cart?.lines?.edges || [],
+          version: "ENG",
+          title: "Riepilogo ordine",
+          subtotalLabel: "Subtotale",
+          checkoutLabel: "Checkout",
+          version: "EU",
+          moneyBack: {
+            title: "14 Giorni - Soddisfatti o Rimborsati",
+            description:
+              "Come funziona? Siamo sicuri che il nostro Cliente sarà soddisfatto dei prodotti Bruno MD, tuttavia, se per qualsiasi motivo non lo sarà, rimborseremo il primo ordine per intero meno i costi della spedizione. Onoriamo un rimborso completo se il nostro servizio clienti viene contattato entro 14 giorni lavorativi dalla data del ricevimento dell’ordine. Non è necessario restituire il prodotto (se è il primo ordine ricevuto); tuttavia, accogliamo con favore il feedback per aiutarci a migliorare la qualità del nostro servizio.",
+          },
+        });
+      })
+      .catch((err) => {
+        console.log({ err });
+      });
   };
 
   const removeItem = (lineItemIdsToRemove) => {
-    removeCartItems({lineIds:lineItemIdsToRemove, setState:setRemoveState}).then((response)=>{
-      // listItem();
-      location.reload();
-    }).catch((err)=>{
-      console.log(err);
-    })
-    console.log({removeState});
+    removeCartItems({ lineIds: lineItemIdsToRemove, setState: setRemoveState })
+      .then((response) => {
+        // listItem();
+        location.reload();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    console.log({ removeState });
   };
 
-  const qtyItem = (lineItemIdsToUpdate, sellingPlan,id, qty) => {
+  const qtyItem = (lineItemIdsToUpdate, sellingPlan, id, qty) => {
     const lineItemsToUpdate = [
-      { id,merchandiseId: lineItemIdsToUpdate, quantity: parseInt(qty.value) },
+      { id, merchandiseId: lineItemIdsToUpdate, quantity: parseInt(qty.value) },
     ];
-    updateCartItems({items:lineItemsToUpdate, setState:setRemoveState}).then((response)=>{
-      console.log({response});
-      listItem();
-    }).catch((err)=>{
-      console.log(err);
-    })
+    updateCartItems({ items: lineItemsToUpdate, setState: setRemoveState })
+      .then((response) => {
+        console.log({ response });
+        listItem();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
   return (
     <section className={styles.container}>
-      <Link href={"/collezioni/tutti"} className={styles.back}>
-        ← Continua lo shopping
-      </Link>
+      {document.referrer.includes("tendo") ? (
+        " "
+      ) : (
+        <Link href={"/collezioni/tutti"} className={styles.back}>
+          ← Continua lo shopping
+        </Link>
+      )}
       <h1 className={styles.cartTitle}>Riepilogo ordine</h1>
       <PageHead
         content={{
