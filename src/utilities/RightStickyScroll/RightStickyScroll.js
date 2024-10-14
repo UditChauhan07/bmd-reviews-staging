@@ -17,9 +17,9 @@ const RightStickyScroll = () => {
         }
     };
 
- const handleAccediClick = () => {
-    window.location.href = '/account/login';  
-};
+//  const handleAccediClick = () => {
+//     window.location.href = '/account/login';  
+// };
     return (
         <div className={styles.stickyNav}>
             <div className={styles.menuIconDiv} onClick={handleClick}>
@@ -38,9 +38,9 @@ const RightStickyScroll = () => {
                         <p className={styles.icon}>FAQs</p> 
                     </div>
                    
-                    <div className={styles.iconDiv} onClick={handleAccediClick}>
+                    {/* <div className={styles.iconDiv} onClick={handleAccediClick}>
                         <p className={styles.icon}>Accedi</p> 
-                    </div>
+                    </div> */}
                     
                    
                 </div>
