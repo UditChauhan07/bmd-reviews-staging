@@ -33,7 +33,8 @@ function RouteGuard({ children }) {
       let removeStr = autologin[1].split("auto/");
       if (removeStr.length == 2) {
         let split = removeStr[1].split("/");
-        if (split.length == 2) {
+
+        if (split.length == 2 || split.length == 3) {
           GetUserDetails({
             loginFields: { email: atob(split[0]), password: atob(split[1]) },
           })
@@ -59,7 +60,12 @@ function RouteGuard({ children }) {
                 Encrypt(
                   response?.data?.customerAccessTokenCreate?.customerAccessToken
                 );
-                window.location.href = "/account";
+                if (split.length == 3) {
+                  let cartId = split[2] ?? null;
+                  window.location.href = `https://www.brunomd.eu/cart/c/${cartId}`;
+                } else {
+                  window.location.href = window.location.origin + "/account";
+                }
               }
             })
             .catch((err) => {
@@ -162,7 +168,7 @@ function RouteGuard({ children }) {
       "/disclaimer",
       "/site-map",
       "/tendo",
-      "/science"
+      "/science",
       //"/tendo-V2",
     ];
     if (!publicPaths.length) {
