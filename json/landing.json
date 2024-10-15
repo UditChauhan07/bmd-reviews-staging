@@ -61,8 +61,8 @@
       "offerTextColor": "#fff",
       "isPriceBox": true,
       "priceBox": {
-        "qtyUnitMultiplierLabel": "confezioni 20 da bustine/sticks",
-        "qtyUnitMultiplierLabelOne": "confezionie 20 da bustine/sticks",
+        "qtyUnitMultiplierLabel": "confezioni da 20 bustine/sticks",
+        "qtyUnitMultiplierLabelOne": "confezionie da 20 bustine/sticks",
         "discount": 15,
         "maxQty": 2,
         "modalPriceBoxContainerID": "Tendo_PLP_PriceBox_Container",
@@ -357,7 +357,7 @@
     "NewsLetter": {
       "title": "Iscriviti alla newsletter",
       "portalId": "19647191",
-      "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
+      "formId": "33f8cee6-3c6b-40f9-93a5-19e7bd5b0b8f",
       "desktopImage": "\\images\\landing\\Tenod-Desk-02.webp",
       "mobileImage": "\\images\\landing\\Tenod-mob-01.webp",
       "alignWidth": false,
@@ -913,7 +913,7 @@
     "NewsLetter": {
       "title": "Iscriviti alla newsletter",
       "portalId": "19647191",
-      "formId": "ca885499-a4fe-4915-b033-8f1ae7eaa7d9",
+      "formId": "33f8cee6-3c6b-40f9-93a5-19e7bd5b0b8f",
       "desktopImage": "\\images\\landing\\Tenod-Desk-02.webp",
       "mobileImage": "\\images\\landing\\Tenod-mob-01.webp",
       "alignWidth": false,
