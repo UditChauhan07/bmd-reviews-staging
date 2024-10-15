@@ -37,6 +37,36 @@
                                 "link": "https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/"
                             }
                         ]
+                    },
+                    {
+                        "title": "STILE DI VITA",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-04.webp",
+                                "title": "Esercizi di stretching per Prevenire la Tendinite da Cellulare. Lifai regolarmente?",
+                                "link": "https://blog.brunomd.eu/esercizi-di-stretching-per-prevenire-la-tendinite-da-cellulare-li-fai-regolarmente/"
+                            }
+                        ]
+                    },
+                     {
+                        "title": "PROBLEMI E SINTOMI",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-05.webp",
+                                "title": "Tendinite: quando la causa è il Cellulare",
+                                "link": "https://blog.brunomd.eu/tendinite-quando-la-causa-e-il-cellulare/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "STILE DI VITA",
+                        "blogs": [
+                            {
+                                "thumb": "\\images\\products\\Tendo-article-06.webp",
+                                "title": "Esercizi di stretching per Prevenire la Tendinite da Cellulare. Liai regolarmente?",
+                                "link": "https://blog.brunomd.eu/esercizi-di-stretching-per-prevenire-la-tendinite-da-cellulare-li-fai-regolarmente/"
+                            }
+                        ]
                     }
                 ]
             }
