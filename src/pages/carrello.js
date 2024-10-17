@@ -11,6 +11,10 @@ import {
   updateCartItems,
   getCartList,
 } from "@/data/lib";
+import Footer from "@/utilities/Footer/";
+import data1 from "../../json/layout.json";
+import AnnouncementBar from "@/utilities/announcementBar";
+import data from "../../json/layout.json";
 
 const Carrelo = () => {
   const [removeState, setRemoveState] = useState();
@@ -88,47 +92,61 @@ const Carrelo = () => {
       });
   };
   return (
-    <section className={styles.container}>
-      {document.referrer.includes("tendo") ? (
-        " "
-      ) : (
-        <Link href={"/collezioni/tutti"} className={styles.back}>
-          ← Continua lo shopping
-        </Link>
-      )}
-      <h1 className={styles.cartTitle}>Riepilogo ordine</h1>
-      <PageHead
-        content={{
-          title: "Carrello della Spesa | Bruno MD",
-          description: "BrunoMD carrello della spesa",
-        }}
-      />
-      <div className={styles.cartContainerHolder}>
-        {cartData.lineItems?.length ? (
-          <CartItemList
-            items={cartData.lineItems}
-            content={{ removeBtnText: "Rimuovere", QTYLabel: "QTY" }}
-            removeItem={removeItem}
-            qtyItem={qtyItem}
-          />
-        ) : (
-          <div className={styles.cartEmptyText}>
-            Non ci sono articoli nel carrello
-          </div>
-        )}
-        <NewsLetter
-          content={{
-            title: "Iscriviti alla nostra newsletter",
-            portalId: "19647191",
-            formId: "7b270a73-336b-4895-8b55-286a3f49b1f2",
-            titleFont: "26px",
-            formWidth: "auto",
+    <>
+      {data["EU"].announcementBar && (
+        <AnnouncementBar
+          announcement={data["EU"].announcementBar.title}
+          theme={{
+            textColor: data["EU"].announcementBar.textColor,
+            backgroundColor: document.referrer.includes("tendo")
+              ? "rgb(0, 51, 161)"
+              : data["EU"].announcementBar.backgroundColor,
           }}
         />
-        <CartSummary data={cartData} />
-      </div>
-    </section>
+      )}
+      <section className={styles.container}>
+        {document.referrer.includes("tendo") ? (
+          " "
+        ) : (
+          <Link href={"/collezioni/tutti"} className={styles.back}>
+            ← Continua lo shopping
+          </Link>
+        )}
+        <h1 className={styles.cartTitle}>Riepilogo ordine</h1>
+        <PageHead
+          content={{
+            title: "Carrello della Spesa | Bruno MD",
+            description: "BrunoMD carrello della spesa",
+          }}
+        />
+        <div className={styles.cartContainerHolder}>
+          {cartData.lineItems?.length ? (
+            <CartItemList
+              items={cartData.lineItems}
+              content={{ removeBtnText: "Rimuovere", QTYLabel: "QTY" }}
+              removeItem={removeItem}
+              qtyItem={qtyItem}
+            />
+          ) : (
+            <div className={styles.cartEmptyText}>
+              Non ci sono articoli nel carrello
+            </div>
+          )}
+          <NewsLetter
+            content={{
+              title: "Iscriviti alla nostra newsletter",
+              portalId: "19647191",
+              formId: "7b270a73-336b-4895-8b55-286a3f49b1f2",
+              titleFont: "26px",
+              formWidth: "auto",
+            }}
+          />
+          <CartSummary data={cartData} />
+        </div>
+      </section>
+      <Footer data={data1["EU"].footer2} />
+    </>
   );
 };
-// Carrelo.hideLayout = true;
+Carrelo.hideLayout = true;
 export default Carrelo;
