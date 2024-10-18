@@ -5,7 +5,10 @@ import Blogs from "../Blog";
 function LandingBlog({ data, theme, isLanding = null }) {
   return (
     <section id="ingredients" className={styles.ingredientsHolder}>
-      <div>
+      <p className={styles.ExtraCod} >
+        <span>Blog</span>
+      </p>
+      <div id="blogsection" className={styles.blog_section}>
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`}>
           <h3 className={styles.reasonsHeader}>
             Blog: rimedi e consigli su
