@@ -10,7 +10,9 @@ const navLink = ({ menuGroup }) => {
     <div className={styles.container}>
       <nav className={styles.nav}>
         {menuGroup?.map((menuGroupItem, index) =>
-          pageURL.includes("tendo") && menuGroupItem?.title == "Prodotti" ? (
+          (pageURL.includes("tendo") && menuGroupItem?.title == "Prodotti") ||
+          (pageURL.includes("science") &&
+            menuGroupItem?.title == "Prodotti") ? (
             ""
           ) : (
             <div className={styles.menuGroup} key={`menu-group-item-${index}`}>
@@ -35,8 +37,10 @@ const navLink = ({ menuGroup }) => {
                       </li>
                     );
                   } else if (
-                    pageURL.includes("tendo") &&
-                    menuGroupItem?.title == "Prodotti"
+                    (pageURL.includes("tendo") &&
+                      menuGroupItem?.title == "Prodotti") ||
+                    (pageURL.includes("science") &&
+                      menuGroupItem?.title == "Prodotti")
                   ) {
                     return "";
                   } else {
