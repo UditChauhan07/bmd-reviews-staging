@@ -19,7 +19,7 @@
                             
                             {
                                 "thumb": "\\images\\products\\Tendo-article-05.webp",
-                                "title": "Tendinite: quando la causa è il Cellulare",
+                                "title": "Tendinite causa cellulare",
                                 "link": "https://blog.brunomd.eu/tendinite-quando-la-causa-e-il-cellulare/"
                             }
                         ]
@@ -31,6 +31,11 @@
                                 "thumb": "\\images\\products\\Tendo-article-02.webp",
                                 "title": "Tendini e legamenti: amici superorganizzati, ricchi di collagene",
                                 "link": "https://blog.brunomd.eu/tendini-e-legamenti-amici-superorganizzati-ricchi-di-collagene/"
+                            },
+                             {
+                                "thumb": "\\images\\products\\Tendo-article-04.webp",
+                                "title": "Benefici della Boswellia",
+                                "link": "https://blog.brunomd.eu/boswellia-un-tesoro-della-natura-per-il-benessere-di-tendini-e-articolazioni/"
                             }
                         ]
                     },
@@ -43,15 +48,11 @@
                                 "link": "https://blog.brunomd.eu/tendinite-quali-benefici-dagli-integratori-alimentari/"
                             },
                              {
-                                "thumb": "\\images\\products\\Tendo-article-04.webp",
-                                "title": "Esercizi di stretching per Prevenire la Tendinite da Cellulare. Lifai regolarmente?",
-                                "link": "https://blog.brunomd.eu/esercizi-di-stretching-per-prevenire-la-tendinite-da-cellulare-li-fai-regolarmente/"
-                            },
-                             {
                                 "thumb": "\\images\\products\\Tendo-article-06.webp",
-                                "title": "Boswellia: un tesoro della natura per il benessere di tendini e articolazioni",
-                                "link": "https://blog.brunomd.eu/boswellia-un-tesoro-della-natura-per-il-benessere-di-tendini-e-articolazioni/"
+                                "title": "Tendinite consigli per prevenire la tendinite causata dal cellulare",
+                                "link": "https://blog.brunomd.eu/esercizi-di-stretching-per-prevenire-la-tendinite-da-cellulare-li-fai-regolarmente/"
                             }
+                            
                         ]
                     }
                 ]
