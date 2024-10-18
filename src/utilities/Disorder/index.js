@@ -18,7 +18,10 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
   }
 
   return (
-    <section>
+    <section id="causesection" className={styles.cause_section}>
+       <p className={styles.ExtraCod} >
+          <span>Cause</span>
+        </p>
       <div className={styles.container}>
         <div className={styles.grid}>
           <div
