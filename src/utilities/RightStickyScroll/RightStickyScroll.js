@@ -44,12 +44,13 @@ const RightStickyScroll = () => {
                     <div className={styles.iconDiv} onClick={() => scrollToSection('scienzasection')}>
                         <p className={styles.icon}>Scienza</p> 
                     </div>
-                    <div className={styles.iconDiv} onClick={() => scrollToSection('faqsection')}>
-                        <p className={styles.icon}>FAQs</p> 
-                    </div>
                     <div className={styles.iconDiv} onClick={() => scrollToSection('blogsection')}>
                         <p className={styles.icon}>Blog</p> 
                     </div>
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('faqsection')}>
+                        <p className={styles.icon}>FAQs</p> 
+                    </div>
+                 
                    
                     {/* <div className={styles.iconDiv} onClick={handleAccediClick}>
                         <p className={styles.icon}>Accedi</p> 
