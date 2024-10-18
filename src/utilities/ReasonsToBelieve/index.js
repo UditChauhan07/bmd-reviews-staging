@@ -166,18 +166,31 @@ const ReasonsToBelieve = ({
   const V2 = () => {
     return (
       <>
-        <div className={`${styles.reasonsContainerV2} ${styles.v2}`}>
+      <div className={styles.ExtraDiv}>
+      <p className={styles.ExtraCod} >
+          <span>Formula</span>
+        </p>
+      </div>
+        <div className={`${styles.reasonsContainerV2} ${styles.v2}`} id="formulasection">
+        
           <h3 className={styles.reasonsHeader}>
             Per un’ azione sintomatica e strutturale:
             <p className={styles.believeBluerex} style={{ color: theme }}>
               gli ingredienti della nostra formula supportati da 5 studi clinici
             </p>
           </h3>
+
           {accordanTitle && (
             <p className={styles.v2ContainerSubtitle}>{accordanTitle}</p>
           )}
+
         </div>
+        <div>
+
+        </div>
+
         <div className={styles.v2Container}>
+
           {content.map((element, key) => (
             <div className={styles.cardContainer} key={key}>
               {isDesktop ? (
