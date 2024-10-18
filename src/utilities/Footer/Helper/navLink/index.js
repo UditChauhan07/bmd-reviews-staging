@@ -11,7 +11,8 @@ const navLink = ({ menuGroup }) => {
       <nav className={styles.nav}>
         {menuGroup?.map((menuGroupItem, index) =>
           (pageURL.includes("tendo") && menuGroupItem?.title == "Prodotti") ||
-          (pageURL.includes("science") &&
+          (pageURL.includes("science") && menuGroupItem?.title == "Prodotti") ||
+          (pageURL.includes("carrello") &&
             menuGroupItem?.title == "Prodotti") ? (
             ""
           ) : (
@@ -40,6 +41,8 @@ const navLink = ({ menuGroup }) => {
                     (pageURL.includes("tendo") &&
                       menuGroupItem?.title == "Prodotti") ||
                     (pageURL.includes("science") &&
+                      menuGroupItem?.title == "Prodotti") ||
+                    (pageURL.includes("carrello") &&
                       menuGroupItem?.title == "Prodotti")
                   ) {
                     return "";
