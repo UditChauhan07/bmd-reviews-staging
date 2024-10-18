@@ -25,17 +25,30 @@ const RightStickyScroll = () => {
             <div className={styles.menuIconDiv} onClick={handleClick}>
                 <div className={styles.menuIcon}>{showIcons ? <FaTimes /> : <FaBars />}</div>
                 <div className={`${styles.iconContainer} ${showIcons ? styles.show : ''}`}>
+                <div className={styles.iconDiv} onClick={() => scrollToSection('beneficisection')}>
+                        <p className={styles.icon}>Benefici</p> 
+                    </div>
                 <div className={styles.iconDiv} onClick={() => scrollToSection('ingredientisection')}>
                         <p className={styles.icon}>Ingredienti</p> 
                     </div>
-                    <div className={styles.iconDiv} onClick={() => scrollToSection('beneficisection')}>
-                        <p className={styles.icon}>Benefici</p> 
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('causesection')}>
+                        <p className={styles.icon}>Cause</p> 
                     </div>
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('formulasection')}>
+                        <p className={styles.icon}>Formula</p> 
+                    </div>
+                 
                     <div className={styles.iconDiv} onClick={() => scrollToSection('studisection')}>
                         <p className={styles.icon}>Studi</p> 
                     </div>
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('scienzasection')}>
+                        <p className={styles.icon}>Scienza</p> 
+                    </div>
                     <div className={styles.iconDiv} onClick={() => scrollToSection('faqsection')}>
                         <p className={styles.icon}>FAQs</p> 
+                    </div>
+                    <div className={styles.iconDiv} onClick={() => scrollToSection('blogsection')}>
+                        <p className={styles.icon}>Blog</p> 
                     </div>
                    
                     {/* <div className={styles.iconDiv} onClick={handleAccediClick}>
