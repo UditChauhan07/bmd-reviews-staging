@@ -97,16 +97,16 @@ const TendoActive = () => {
   const [selectedDetail, setSelectedDetail] = useState(1);
   const slides = [
     {
-      imgSrc: "\\images\\Riduzione del dolore.gif",
+      imgSrc: "/images/Riduzione del dolore.gif",
     },
     {
-      imgSrc: "\\images\\Efficace per molte condizioni_1.gif",
+      imgSrc: "/images/Efficace per molte condizioni_1.gif",
     },
     {
-      imgSrc: "\\images\\Miglioria la condizione del tendine.gif",
+      imgSrc: "/images/Miglioria la condizione del tendine.gif",
     },
     {
-      imgSrc: "\\images\\Migliora la capacità funzionale.gif",
+      imgSrc: "/images/Migliora la capacità funzionale.gif",
     },
   ];
 
