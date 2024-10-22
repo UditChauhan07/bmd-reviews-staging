@@ -46,6 +46,31 @@ const navLink = ({ menuGroup }) => {
                       menuGroupItem?.title == "Prodotti")
                   ) {
                     return "";
+                  } else if (
+                    pageURL.includes("tendo") &&
+                    menuGroupItem?.title == "Chi siamo"
+                  ) {
+                    return (
+                      <li
+                        className={styles.menuItem}
+                        key={`menu-item-${index}`}
+                      >
+                        {link?.url != "#" ? (
+                          <Link
+                            href={
+                              link?.name == "Portale per il reso"
+                                ? link?.url
+                                : "/tendo/" + link?.url
+                            }
+                            aria-label={link?.name}
+                          >
+                            {link?.name}
+                          </Link>
+                        ) : (
+                          <p>{link?.name}</p>
+                        )}
+                      </li>
+                    );
                   } else {
                     return (
                       <li
