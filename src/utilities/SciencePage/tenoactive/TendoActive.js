@@ -97,35 +97,16 @@ const TendoActive = () => {
   const [selectedDetail, setSelectedDetail] = useState(1);
   const slides = [
     {
-      className1: "yelloDotsBlink1",
-      className2: "yelloDotsBlink2",
-      className3: "yelloDotsBlink3",
-      className4: "yelloDotsBlink4",
-      className5: "yelloDotsBlink5",
-      className6: "yelloDotsBlink6",
-      className7: "yelloDotsBlink7",
+      imgSrc: "\\images\\Riduzione del dolore.gif",
     },
     {
-      className1: "greenDotsBlink1",
-      className2: "greenDotsBlink2",
-      className3: "greenDotsBlink3",
-      className4: "greenDotsBlink4",
-      className5: "greenDotsBlink5",
+      imgSrc: "\\images\\Efficace per molte condizioni_1.gif",
     },
     {
-      className1: "orangeDotsBlink1",
-      className2: "orangeDotsBlink2",
-      className3: "orangeDotsBlink3",
-      className4: "orangeDotsBlink4",
-      className5: "orangeDotsBlink5",
+      imgSrc: "\\images\\Miglioria la condizione del tendine.gif",
     },
     {
-      className1: "skyDotsBlink1",
-      className2: "skyDotsBlink2",
-      className3: "skyDotsBlink3",
-      className4: "skyDotsBlink4",
-      className5: "skyDotsBlink5",
-      className6: "skyDotsBlink6",
+      imgSrc: "\\images\\Migliora la capacità funzionale.gif",
     },
   ];
 
@@ -288,7 +269,7 @@ const TendoActive = () => {
             ))}
           </div>
           <div className={styles.humanBody}>
-            <img src="\images\humantab.webp" alt="humai-Gif" />
+          <img src={slides[activeSlide].imgSrc} alt="human-Gif" />
           </div>
         </div>
         <div className={styles.tendoBox2}>
