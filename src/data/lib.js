@@ -40,7 +40,7 @@ export async function createCustomerAddress({ address, customerAccessToken }) {
 }
 
 export async function getProductSearch() {
-  console.log(url + "uvdvFvQz1BXdWQC");
+  // console.log(url + "uvdvFvQz1BXdWQC");
   let response = await fetch(url + "uvdvFvQz1BXdWQC", {
     method: "POST",
     headers: {
@@ -51,7 +51,7 @@ export async function getProductSearch() {
   });
 
   let data = JSON.parse(await response.text());
-  console.log({ data });
+  console.log({ data },"ttyryr");
   if (data?.status == 200) {
     let cdata = JSON.parse(data.data);
     return cdata;
