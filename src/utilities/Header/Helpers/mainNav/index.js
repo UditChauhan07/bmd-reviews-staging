@@ -129,7 +129,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
               <div className={styles.iconContainer}>
                 {/**  <div onClick={() => setIsSearchOpened(true)}>
               <SearchIcon />
-              </div> */}
+              </div> **/}
                 <div>
                   <div className={styles.loginButton}>
                     <a
