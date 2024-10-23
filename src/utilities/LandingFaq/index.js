@@ -35,7 +35,7 @@ function LandingFaq({ data, theme }) {
             </div>
           </div>
           <div className={styles.wrapper}>
-            <h3 className={styles.subHeader}>Domande Frequenti FAQs</h3>
+            <h3 className={styles.subHeader}>Domande Frequenti (FAQs)</h3>
             <p className={styles.underHeaderNote}></p>
             <Accordion>
               {data.details &&
