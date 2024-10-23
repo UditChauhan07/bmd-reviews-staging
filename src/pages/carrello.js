@@ -132,15 +132,27 @@ const Carrelo = () => {
               Non ci sono articoli nel carrello
             </div>
           )}
-          <NewsLetter
-            content={{
-              title: "Iscriviti alla nostra newsletter",
-              portalId: "19647191",
-              formId: "7b270a73-336b-4895-8b55-286a3f49b1f2",
-              titleFont: "26px",
-              formWidth: "auto",
-            }}
-          />
+          {document.referrer.includes("tendo") ? (
+            <NewsLetter
+              content={{
+                title: "Iscriviti alla nostra newsletter",
+                portalId: "19647191",
+                formId: "33f8cee6-3c6b-40f9-93a5-19e7bd5b0b8f",
+                titleFont: "26px",
+                formWidth: "auto",
+              }}
+            />
+          ) : (
+            <NewsLetter
+              content={{
+                title: "Iscriviti alla nostra newsletter",
+                portalId: "19647191",
+                formId: "7b270a73-336b-4895-8b55-286a3f49b1f2",
+                titleFont: "26px",
+                formWidth: "auto",
+              }}
+            />
+          )}
           <CartSummary data={cartData} />
         </div>
       </section>
