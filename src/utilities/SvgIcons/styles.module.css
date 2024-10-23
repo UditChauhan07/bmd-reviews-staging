@@ -1,5 +1,6 @@
 .searchLogo {
     width: 23px;
+    cursor: pointer;
   }
   .logoContainer {
     padding: 0px 13px 0px 0px;
