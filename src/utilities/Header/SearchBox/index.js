@@ -10,15 +10,18 @@ const SearchBox = () => {
     const [input, setInput] = React.useState();
     const [loaded, setLoad] = React.useState(false);
 
+    
     const toggle = () => {
+        console.log("toggle");
+        
         setShow(!show)
         getProductSearch().then((response) => {
-            console.log({ response });
+            console.log( response,"ggg");
             setData(response?.data?.products?.edges)
             setSearch(response?.data?.products?.edges)
             setLoad(true);
         }).catch((err) => {
-            console.log({ err });
+            console.log({ err});
         })
     }
     const searchHandler = (value) => {
@@ -28,9 +31,18 @@ const SearchBox = () => {
             if (element?.node?.title.toLowerCase().search(value?.toLowerCase()) >= 0) {
                 array.push(element)
             }
+
         })
         setSearch(array)
+
+        
     }
+    useEffect(() => {
+        if (window.location.pathname === "/prodotti/tendoactive-plus") {
+          // Redirect to the desired URL
+          window.location.href = "/prodotti/tendoactive-plus-20-stick";
+        }
+      }, []);
     return (
         <>
             {show ?
@@ -46,16 +58,30 @@ const SearchBox = () => {
                             {loaded ? searchData.length > 0 ? searchData.map((element, index) => {
                                 return (
                                     <li key={index}>
-                                        <a href={'/products/' + element?.node?.handle}>
-                                            <span className={styles.item}>
-                                                <span className={styles.icon + ' ' + styles.people}>
-                                                    <img src={element?.node?.images.edges[0].node.src} alt='...' width={'45px'} height={'45px'} />
-                                                </span>
-                                                <div className={styles.text}>
-                                                    <p>{element?.node?.title}</p>
-                                                    {/* <span dangerouslySetInnerHTML={{ __html:element?.node?.descriptionHtml}} /> */}
-                                                </div>
-                                            </span>
+                                    <a
+    href={"/prodotti/" + element?.node?.handle}
+    onClick={(e) => {
+        e.preventDefault(); 
+      if (element?.node?.handle.includes("tendoactive-plus") ) {
+        window.location.href = "/prodotti/tendoactive-plus-20-stick"; 
+      }
+    }}
+  >
+
+                                      <span className={styles.item}>
+                                        <span className={styles.icon + " " + styles.people}>
+                                          <img
+                                            src={element?.node?.images.edges[0].node.src}
+                                            alt="..."
+                                            width={"45px"}
+                                            height={"45px"}
+                                          />
+                                        </span>
+                                        <div className={styles.text}>
+                                          <p>{element?.node?.title}</p>
+                                          {/* <span dangerouslySetInnerHTML={{ __html:element?.node?.descriptionHtml}} /> */}
+                                        </div>
+                                      </span>
                                         </a>
                                     </li>
                                 )

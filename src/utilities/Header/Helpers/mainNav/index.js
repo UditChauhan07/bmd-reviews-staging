@@ -10,6 +10,7 @@ import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
 import { CartItemNumber } from "@/data/lib";
 import { useAmp } from "next/amp";
 import { AuthCheck } from "@/data/Auth";
+import SearchBox from "../../SearchBox";
 // import SearchBox from '../../SearchBox'
 
 const MainNav = ({ navMenuLinks, iconLink }) => {
@@ -127,9 +128,9 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
                 )}
               </div>
               <div className={styles.iconContainer}>
-                {/**  <div onClick={() => setIsSearchOpened(true)}>
-              <SearchIcon />
-              </div> **/}
+                *  <div onClick={() => setIsSearchOpened(true)}>
+              <SearchBox />
+              </div> *
                 <div>
                   <div className={styles.loginButton}>
                     <a
