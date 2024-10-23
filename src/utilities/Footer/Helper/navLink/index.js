@@ -32,7 +32,7 @@ const navLink = ({ menuGroup }) => {
                         className={styles.menuItem}
                         key={`menu-item-${index}`}
                       >
-                        <a id="loyalty" href={link?.url}>
+                        <a id="loyalty" href={link?.url} target="_blank">
                           {link?.name}
                         </a>
                       </li>
@@ -63,6 +63,7 @@ const navLink = ({ menuGroup }) => {
                                 : "/tendo/" + link?.url
                             }
                             aria-label={link?.name}
+                            target="_blank"
                           >
                             {link?.name}
                           </Link>
@@ -78,7 +79,11 @@ const navLink = ({ menuGroup }) => {
                         key={`menu-item-${index}`}
                       >
                         {link?.url != "#" ? (
-                          <Link href={link?.url} aria-label={link?.name}>
+                          <Link
+                            href={link?.url}
+                            aria-label={link?.name}
+                            target="_blank"
+                          >
                             {link?.name}
                           </Link>
                         ) : (
