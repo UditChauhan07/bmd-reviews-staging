@@ -30,6 +30,8 @@
 .searchBoxHolder {
     width: 100%;
     background-color: #FFF;
+    z-index: 111;
+    position: relative;
 }
 
 .resultHolder {
