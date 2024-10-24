@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 import { InfoIcon } from '../SvgIcons'
 import Link from 'next/link'
 
-const CartSummary = ({ data }) => {
+const CartSummary = ({ data,isTendoReferrer  }) => {
     const guaranteeOverlay = useRef()
     const [state1, setState1] = useState(true)
     const [state2, setState2] = useState(true)
@@ -14,6 +14,8 @@ const CartSummary = ({ data }) => {
         e.stopPropagation()
         setIsGuaranteeInfoOpen(old => !old)
     }
+    const buttonClass = isTendoReferrer ? styles.tendoButton : styles.button;
+
     return (
         <div className={styles.cartSummaryContainer}>
             <h3 className={styles.blockTitle}>{data.title}</h3>
@@ -22,12 +24,11 @@ const CartSummary = ({ data }) => {
                 <p>{data.subtotalLabel}:</p>
                 <strong>€ {parseFloat(data?.price||0).toFixed(2) || '0.00'}</strong>
             </div>
-
             <div className={styles.checkoutButtonContainer}>
                 <Link href={data?.url || '/collezioni/tutti'} >
-                    <div className={styles.button}>
-                        {data.checkoutLabel}
-                    </div>
+                      <div className={buttonClass}>
+        {data.checkoutLabel}
+      </div>
                 </Link>
             </div>
             <div className={styles.dis}>
