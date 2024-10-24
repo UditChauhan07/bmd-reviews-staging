@@ -25,24 +25,22 @@ const SearchBox = () => {
         })
     }
     const searchHandler = (value) => {
-        setInput(value)
+        setInput(value);
         let array = [];
+    
         data.map((element) => {
-            if (element?.node?.title.toLowerCase().search(value?.toLowerCase()) >= 0) {
-                array.push(element)
+            const title = element?.node?.title.toLowerCase();
+            const descriptionHtml = element?.node?.descriptionHtml ? element.node.descriptionHtml.replace(/<\/?[^>]+(>|$)/g, "").toLowerCase() : "";
+    
+            if (title.search(value.toLowerCase()) >= 0 || descriptionHtml.search(value.toLowerCase()) >= 0) {
+                array.push(element);
             }
-
-        })
-        setSearch(array)
-
-        
-    }
-    useEffect(() => {
-        if (window.location.pathname === "/prodotti/tendoactive-plus") {
-          // Redirect to the desired URL
-          window.location.href = "/prodotti/tendoactive-plus-20-stick";
-        }
-      }, []);
+        });
+    
+        setSearch(array);
+    };
+    
+   
     return (
         <>
             {show ?
@@ -61,8 +59,9 @@ const SearchBox = () => {
                                     <a
     href={"/prodotti/" + element?.node?.handle}
     onClick={(e) => {
-        e.preventDefault(); 
       if (element?.node?.handle.includes("tendoactive-plus") ) {
+        e.preventDefault(); 
+
         window.location.href = "/prodotti/tendoactive-plus-20-stick"; 
       }
     }}
