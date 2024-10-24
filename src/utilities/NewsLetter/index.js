@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 import styles from "./styles.module.css";
-export const NewsLetter = ({ content }) => {
+export const NewsLetter = ({ content,isTendoReferrer }) => {
   const [isDesktop] = useMatchMedia("(min-width: 769px)", true);
   const [image, setImage] = useState();
   useEffect(() => {
@@ -240,7 +240,7 @@ export const NewsLetter = ({ content }) => {
                           className="center-body"
                           style={{ height: "200px" }}
                         >
-                          <div className="loader-circle-2"></div>
+                          <div className={isTendoReferrer ? "loader-circle-3" : "loader-circle-2"}></div>
                         </div>{" "}
                       </div>
                     </div>
