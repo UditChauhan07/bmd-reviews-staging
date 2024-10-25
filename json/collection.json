@@ -8,6 +8,7 @@
                 "SLUG": "citrak-forte-4g-con-edulcoranti-30-bustine",
                 "link": "/prodotti/",
                 "title": "CITRAK FORTE 4g.",
+                "description":"Forte e' un integratore dietetico di potassio consigliato nei casi di ridotto apporto con la dieta o di aumentato fabbisogno fisiologico. Citrak non contiene zuccheri e può quindi essere assunto anche da soggetti con metabolismo del glucosio compromesso.",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\06-BMD-Citrack-Forte-9O3A5764.webp"
@@ -19,6 +20,7 @@
                 "SLUG": "citrak-3g-30-bustine",
                 "link": "/prodotti/",
                 "title": "CITRAK 3g.",
+                "description":"Citrak e' un integratore dietetico di potassio consigliato nei casi di ridotto apporto con la dieta o di aumentato fabbisogno fisiologico. Citrak non contiene zuccheri e può quindi essere assunto anche da soggetti con metabolismo del glucosio compromesso.",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\07-BMD-Citrak-9O3A5769.webp"
@@ -30,6 +32,7 @@
                 "SLUG": "citrak-mg-citrato-di-potassio-1-5g-citrato-di-magnesio-1-g-20-bustine",
                 "link": "/prodotti/",
                 "title": "CITRAK Mg.",
+                "description":"Citrak Mg è un integratore alimentare di potassio e magnesio. E' consigliato nei casi di attività sportiva, intensa sudorazione e nella prevenzione e correzione degli stati di deplezione potassica dell’organismo. E' indicato in caso di carenza di potassio accompagnata a sensazione di stanchezza e astenia muscolare non contiene zuccheri e può pertanto essere assunto anche da soggetti con alterato metabolismo glucidico fornisce 1,5 g di citrato di potassio e 1 g di citrato di magnesio per bustina",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\06-BMD-Citrak-MG-9O3A5775.webp"
@@ -41,6 +44,7 @@
                 "SLUG": "cronos-30-compresse-da-850mg",
                 "link": "/prodotti/",
                 "title": "CRONOS",
+              "description" : "CRONOS è un integratore alimentare a base di Polidatina, Estrattidi Mirtillo e Vitamine.La Polidatina è una molecola naturale polifenolica con spiccate proprietà antiossidanti, attiva contro la formazione dei radicali liberi,che sono alla base dei processi di invecchiamento cellulare e di reverse-aging. La Polidatina, anche detta trans-resveratrolo, è il glucoside naturale nonché precursore,del resveratrolo e ne costituisce una forma più attiva e d' efficace. Pterostilbene è anch’esso un composto della famiglia del resveratrolo, ma con più alta biodisponibilità. Questa sostanza è biologicamente classificata nel gruppo delle fitoalessine,s ostanze che fanno parte del sistema difensivo delle piante. Le Antocianine e le Vitamine, contenute in CRONOS, aggiungono protezione antiossidante di membrana e contribuiscono al regolare funzionamento del Sistema nervosa.",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\07-BMD-Cronos-9O3A5820.webp"
@@ -52,6 +56,7 @@
                 "SLUG": "drop-therapeutic-gocce-oculari-lubrificanti-10ml",
                 "link": "/prodotti/",
                 "title": "DROP THERAPEUTIC",
+                "description":"Ristabilisce l’attività metabolica oculare e il turnover del film lacrimale. Soluzione oftalmica lubrificante con formulazione brevettata a base di Vitamina B2, Vitamina E TPGS, sodio ialuronato ed amminoacidi. Contribuisce alla stabilità della superficie oculare, regolandone pH e osmolarità. Protegge gli epiteli sottoposti a stress di varia natura.",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\BMD-Drop-Therapeutic-9O3A5578_3000.webp"
@@ -111,6 +116,7 @@
                 "SLUG": "tendoactive-plus-20-stick",
                 "link": "/prodotti/",
                 "title": "TENDOACTIVE PLUS",
+                "description":"Tendoactive plus e' un integratore alimentare con azione completa per tendini e legamenti",
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\landing\\Tendoactive_Plus.png"
@@ -155,7 +161,7 @@
             }
         ],
         "align": "left",
-        "details": "<h2>Cos’è la pelle?</h2><p>La pelle è il più grande organo del corpo umano e svolge diverse funzioni cruciali, come la protezione dagli agenti esterni, il controllo della temperatura corporea e la comunicazione sensoriale. Una delle caratteristiche più interessanti della pelle è la sua capacità di rigenerarsi.</p><h3>Come avviene la rigenerazione cutanea?</h3><p>La rigenerazione cutanea è un processo complesso che coinvolge diverse fasi e tipi di cellule. Quando si verifica una lesione, come una ferita o una bruciatura, le cellule della pelle circostanti vengono attivate per iniziare il processo di riparazione cutanea. Le cellule chiamate fibroblasti producono una grande quantità di collagene, una proteina che forma una sorta di impalcatura per la guarigione della ferita.</p><h3>Come curare le lesioni cutanee?</h3><p>Un coadiuvante nel trattamento e nella rigenerazione di lesioni cutanee, ferite, ustioni e piaghe da decubito è un prodotto o una sostanza che viene utilizzata per supportare e favorire il processo di guarigione delle lesioni cutanee. Questi coadiuvanti possono essere utilizzati insieme alle cure mediche standard per accelerare il recupero e minimizzare le complicanze.</p><p>Alcuni esempi di coadiuvanti nel trattamento delle lesioni cutanee includono:</p><ol style='list-style-type: auto;margin-left:50px;'><li style='padding:0 10px'><p><b>Topici antinfiammatori:</b> Sono creme o unguenti contenenti sostanze antinfiammatorie che possono ridurre l'infiammazione e il dolore associati alle lesioni cutanee.</p></li><li style='padding:0 10px'><p><b>Antisettici:</b> Sono soluzioni o unguenti che contengono sostanze antibatteriche che aiutano a prevenire le infezioni e promuovono la guarigione.</p></li><li style='padding:0 10px'><p><b>Idrogel o idrocolloidi:</b> Sono sostanze in gel applicate sulla lesione per mantenere l'umidità e favorire la formazione di un ambiente di guarigione ideale. Possono aiutare a prevenire la formazione di croste e ad accelerare la rigenerazione dei tessuti.</p></li><li style='padding:0 10px'><p><b>Bende e cerotti avanzati:</b> Sono prodotti speciali progettati per il trattamento delle lesioni cutanee. Possono includere bende con impregnazioni di sostanze che favoriscono la guarigione, come l'argento o i fattori di crescita, o cerotti con strati che assorbono l'essudato e mantengono l'umidità.</p></li><li style='padding:0 10px'><p><b>Alimentazione corretta e integrazione di nutrienti:</b> Una dieta sana ed equilibrata, ricca di proteine, vitamine e minerali, è fondamentale per supportare la guarigione delle lesioni cutanee. In alcuni casi, possono essere consigliate integrazioni specifiche, come zinco, vitamina C ed E, per favorire il processo di guarigione.</p></li></ol><p>È importante sottolineare che l'utilizzo di coadiuvanti nel trattamento delle lesioni cutanee dovrebbe essere sempre consigliato da un professionista sanitario competente, che valuterà la gravità delle lesioni e le esigenze individuali del paziente. Inoltre, è fondamentale seguire correttamente le istruzioni del prodotto e continuare a monitorare attentamente la lesione durante il processo di guarigione.</p>",
+        "details": "<h2>Cos’è la pelle?</h2><p>La pelle è il più grande t e svolge diverse funzioni cruciali, come la protezione dagli agenti esterni, il controllo della temperatura corporea e la comunicazione sensoriale. Una delle caratteristiche più interessanti della pelle è la sua capacità di rigenerarsi.</p><h3>Come avviene la rigenerazione cutanea?</h3><p>La rigenerazione cutanea è un processo complesso che coinvolge diverse fasi e tipi di cellule. Quando si verifica una lesione, come una ferita o una bruciatura, le cellule della pelle circostanti vengono attivate per iniziare il processo di riparazione cutanea. Le cellule chiamate fibroblasti producono una grande quantità di collagene, una proteina che forma una sorta di impalcatura per la guarigione della ferita.</p><h3>Come curare le lesioni cutanee?</h3><p>Un coadiuvante nel trattamento e nella rigenerazione di lesioni cutanee, ferite, ustioni e piaghe da decubito è un prodotto o una sostanza che viene utilizzata per supportare e favorire il processo di guarigione delle lesioni cutanee. Questi coadiuvanti possono essere utilizzati insieme alle cure mediche standard per accelerare il recupero e minimizzare le complicanze.</p><p>Alcuni esempi di coadiuvanti nel trattamento delle lesioni cutanee includono:</p><ol style='list-style-type: auto;margin-left:50px;'><li style='padding:0 10px'><p><b>Topici antinfiammatori:</b> Sono creme o unguenti contenenti sostanze antinfiammatorie che possono ridurre l'infiammazione e il dolore associati alle lesioni cutanee.</p></li><li style='padding:0 10px'><p><b>Antisettici:</b> Sono soluzioni o unguenti che contengono sostanze antibatteriche che aiutano a prevenire le infezioni e promuovono la guarigione.</p></li><li style='padding:0 10px'><p><b>Idrogel o idrocolloidi:</b> Sono sostanze in gel applicate sulla lesione per mantenere l'umidità e favorire la formazione di un ambiente di guarigione ideale. Possono aiutare a prevenire la formazione di croste e ad accelerare la rigenerazione dei tessuti.</p></li><li style='padding:0 10px'><p><b>Bende e cerotti avanzati:</b> Sono prodotti speciali progettati per il trattamento delle lesioni cutanee. Possono includere bende con impregnazioni di sostanze che favoriscono la guarigione, come l'argento o i fattori di crescita, o cerotti con strati che assorbono l'essudato e mantengono l'umidità.</p></li><li style='padding:0 10px'><p><b>Alimentazione corretta e integrazione di nutrienti:</b> Una dieta sana ed equilibrata, ricca di proteine, vitamine e minerali, è fondamentale per supportare la guarigione delle lesioni cutanee. In alcuni casi, possono essere consigliate integrazioni specifiche, come zinco, vitamina C ed E, per favorire il processo di guarigione.</p></li></ol><p>È importante sottolineare che l'utilizzo di coadiuvanti nel trattamento delle lesioni cutanee dovrebbe essere sempre consigliato da un professionista sanitario competente, che valuterà la gravità delle lesioni e le esigenze individuali del paziente. Inoltre, è fondamentale seguire correttamente le istruzioni del prodotto e continuare a monitorare attentamente la lesione durante il processo di guarigione.</p>",
         "seo": {
             "title": "Prodotti per la Pelle| Bruno MD",
             "description": "Migliora la salute della tua pelle per consistenza ed elasticità. Scopri i prodotti per la salute e il benessere radicati nel cuore dell'Italia da Bruno MD."
