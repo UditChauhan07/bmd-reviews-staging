@@ -5,6 +5,8 @@ import { NewsLetter } from "@/utilities/NewsLetter";
 import Link from "next/link";
 import CartSummary from "@/utilities/CartSummary";
 import CartItemList from "@/utilities/CartItemList";
+import Header from '@/utilities/Header/';
+import FeatureInfo from '@/utilities/FeatureInfo'
 import {
   getCheckout,
   removeCartItems,
@@ -91,6 +93,8 @@ const Carrelo = () => {
         console.log(err);
       });
   };
+  const isTendoReferrer = document.referrer.includes("tendo");
+
   return (
     <>
       {data["EU"].announcementBar && (
@@ -104,6 +108,22 @@ const Carrelo = () => {
           }}
         />
       )}
+
+{document.referrer.includes("tendo") ? null : (
+  data["EU"].announcementBar && (
+    <Header 
+      link={data["EU"].links} 
+      version={"EU"}
+      iconLink={{
+        cart: data["EU"].cartLink,
+        login: data["EU"].login
+      }} 
+    />
+  )
+)}
+
+
+
       <section className={styles.container}>
         {document.referrer.includes("tendo") ? (
           " "
@@ -141,6 +161,7 @@ const Carrelo = () => {
                 titleFont: "26px",
                 formWidth: "auto",
               }}
+              isTendoReferrer={isTendoReferrer}
             />
           ) : (
             <NewsLetter
@@ -153,9 +174,12 @@ const Carrelo = () => {
               }}
             />
           )}
-          <CartSummary data={cartData} />
+
+  <CartSummary data={cartData} isTendoReferrer={isTendoReferrer} />
         </div>
       </section>
+
+      <FeatureInfo infoBanners={data["EU"].featureInfo} isTendoReferrer={isTendoReferrer} />
       <Footer data={data1["EU"].footer2} />
     </>
   );
