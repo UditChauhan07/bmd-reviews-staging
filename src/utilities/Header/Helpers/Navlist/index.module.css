@@ -4,6 +4,7 @@
     width: 100%;
     color: var(--bmd-white);
     align-items: center;
+    /* pointer-events: none; */
     
   }
   
