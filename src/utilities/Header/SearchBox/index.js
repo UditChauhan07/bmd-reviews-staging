@@ -98,7 +98,7 @@ const SearchBox = () => {
                                         </li>
                                     ))
                                 ) : (
-                                    <li>No result Found..</li>
+                                    <li className={styles.notfound}> No Result Found</li>
                                 )
                             ) : (
                                 <Loader2 />
