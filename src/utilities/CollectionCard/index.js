@@ -71,7 +71,9 @@ export const CollectionList = ({ content, param = null }) => {
                     return null;
                 })
             ) : (
-                <p className={styles.notFoundMessage}>No products found.</p>
+                <div className={styles.notfound}>
+                <h1 >No Products Found.</h1>
+                </div>
             )}
         </div>
     );
