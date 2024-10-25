@@ -10,10 +10,8 @@ const SearchBox = () => {
     const [data, setData] = React.useState([]);
     const [input, setInput] = React.useState('');
     const [loaded, setLoad] = React.useState(false);
-    const [param1, setParam] = React.useState(false);
+    const [param1, setParam] = React.useState('');
 
-
-    
     const toggle = () => {
         console.log("toggle");
 
@@ -51,8 +49,10 @@ const SearchBox = () => {
 
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
-            console.log(event.value,);
-            window.location.href = "/collezioni/tutti?param="+param1;
+            event.preventDefault(); // Prevent the default form submission
+            console.log(event.value);
+            const encodedParam = encodeURIComponent(param1);
+            window.location.href = `/collezioni/tutti?param=${encodedParam}`;
         }
     };
 
@@ -80,10 +80,7 @@ const SearchBox = () => {
                                 searchData.length > 0 ? (
                                     searchData.map((element, index) => (
                                         <li key={index}>
-                                            <a
-                                               href={"/prodotti/" + element?.node?.handle}
-                                                
-                                            >
+                                            <a href={`/prodotti/${element?.node?.handle}`}>
                                                 <span className={styles.item}>
                                                     <span className={`${styles.icon} ${styles.people}`}>
                                                         <img
@@ -95,7 +92,6 @@ const SearchBox = () => {
                                                     </span>
                                                     <div className={styles.text}>
                                                         <p>{element?.node?.title}</p>
-                                                        {/* <span dangerouslySetInnerHTML={{ __html:element?.node?.descriptionHtml}} /> */}
                                                     </div>
                                                 </span>
                                             </a>
