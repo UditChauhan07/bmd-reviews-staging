@@ -499,7 +499,7 @@ https://flickity.metafizzy.co
   border-radius: 50%;
 }
 
-.loader-circle-2:before {
+.loader-circle-3:before {
   width: 70px;
   height: 70px;
   border-bottom-color: rgb(0, 51, 161);
@@ -509,7 +509,7 @@ https://flickity.metafizzy.co
   animation: loader-circle-2-animation-2 1s linear infinite;
 }
 
-.loader-circle-3:before {
+.loader-circle-2:before {
   width: 70px;
   height: 70px;
   border-bottom-color: rgb(55, 36, 107);
