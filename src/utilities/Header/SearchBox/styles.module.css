@@ -38,11 +38,17 @@
     height: fit-content;
     overflow-x: hidden;
     position: relative;
-    top: 5px;
+    top: 0px;
     width: 50%;
     /* background-color: rgba(0, 0, 0, .25); */
     background-color: #FFF;
 }
+.notfound{
+    font-size: 30px;
+    font-family: var(--bmd-font-Primary);
+    color: #000;
+}
+
 
 .dropList {
     list-style-type: none;
