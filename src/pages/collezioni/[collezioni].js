@@ -5,16 +5,34 @@ import MasterHeadImg from "@/utilities/MasterHeadImg";
 import { WistiaHero } from "@/utilities/WistiaHero";
 import styles from "./styles.module.css";
 import PageHead from "@/utilities/Head";
-const Collection = () => {
+const Collection = ({}) => {
   const collezioni = null;
   const [category, setCategory] = useState({
     name: undefined,
     DataisLoaded: false,
   });
+  const [param, setParam] = useState(null); 
+
+  function getBaseUrl(url) {
+    // Create a new URL object from the given URL
+    const urlObj = new URL(url);
+    
+    // Return the base URL (protocol + hostname + pathname)
+    return `${urlObj.protocol}//${urlObj.host}${urlObj.pathname}`;
+  }
   useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const paramValue = queryParams.get("param"); 
+    setParam(paramValue);
+    console.log("parammm",paramValue)
     if (!collezioni) {
+
+      
       let url = window.location.href;
+      url = getBaseUrl(url);
       let splitUrl = url.split("/collezioni/");
+      console.log(splitUrl);
+      
       if (splitUrl.length == 2) {
         if (splitUrl[1]) {
           setCategory({
@@ -40,11 +58,12 @@ const Collection = () => {
   const { masterHead, item, title, details, seo, align } =
     collection[name] || {};
   const { img, wistia } = masterHead || {};
-
+   console.log("hhghg",item);
   if (!DataisLoaded)
+
     return (
       <div class="center-body">
-        <div class="loader-circle-3"></div>
+          <div class="loader-circle-3"></div>
       </div>
     );
   return (
@@ -73,11 +92,12 @@ const Collection = () => {
                     <CollectionList
                       content={item}
                       className={styles.productHolder}
+                      param={param}
                     />
                   </div>
                 ) : (
                   <>
-                    <CollectionList content={item} />
+                    <CollectionList content={item} param={param} />
                     {details && (
                       <div
                         className={styles.l1DetailsHolder}
@@ -88,7 +108,7 @@ const Collection = () => {
                 )}
               </>
             ) : (
-              <CollectionList content={item} />
+              <CollectionList content={item}  param={param}/>
             )}
           </section>
         </>
