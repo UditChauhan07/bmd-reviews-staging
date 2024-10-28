@@ -118,7 +118,7 @@
 
 
     .LeftBtn {
-        background-color: rgb(2, 2, 2) !important;
+        background-color: #cbc8c8!important;
         height: 67px;
         width: 67px;
         border-radius: 100%;
@@ -130,7 +130,9 @@
     }
 
 
-
+.LeftBtn:hover{
+background-color: rgb(9, 9, 9)!important;
+}
 
 .LeftBtn:hover svg path {
     fill: #ffffff;
@@ -138,7 +140,7 @@
 }
 
 .RightBtn {
-    background-color: rgb(9, 9, 9) !important;
+    background-color: #cbc8c8 !important;
     height: 67px;
     width: 67px;
     border-radius: 100%;
@@ -147,6 +149,9 @@
     justify-content: center;
     cursor:pointer
 }
+.RightBtn:hover{
+    background-color: rgb(9, 9, 9)!important;
+    }
 .disabled {
     opacity: 0.2; 
     cursor: not-allowed;

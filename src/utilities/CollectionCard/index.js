@@ -72,7 +72,7 @@ export const CollectionList = ({ content, param = null }) => {
                 })
             ) : (
                 <div className={styles.notfound}>
-                <h1 >No Products Found.</h1>
+                <h1 >Nessun prodotto trovato</h1>
                 </div>
             )}
         </div>
