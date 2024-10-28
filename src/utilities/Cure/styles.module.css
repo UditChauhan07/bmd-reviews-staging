@@ -165,7 +165,8 @@
     font-size: 48px;
     font-weight: 400;
     color: #000;
-    line-height: 60px
+    line-height: 60px;
+    letter-spacing: 1px;
 }
 
 @media (max-width:1350.98px) {
