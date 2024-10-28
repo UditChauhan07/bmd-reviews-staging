@@ -98,7 +98,7 @@ const SearchBox = () => {
                                         </li>
                                     ))
                                 ) : (
-                                    <li className={styles.notfound}> No Result Found</li>
+                                    <li className={styles.notfound}> Nessun prodotto trovato</li>
                                 )
                             ) : (
                                 <Loader2 />
