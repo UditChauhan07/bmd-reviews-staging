@@ -27,7 +27,7 @@ const SciencesSlider = ({data}) => {
         slidesToShow: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 1000,
+        speed:700,
 
         slidesToScroll: 1,
         beforeChange: (current, next) => setCurrentSlide(next), // Update current slide

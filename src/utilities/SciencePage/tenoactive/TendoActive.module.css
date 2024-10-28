@@ -220,13 +220,9 @@
     font-family: ivypresto-display, "Times New Roman", Times, serif;
     background-color: #e3000a;
     height: 23px;
-    /* width: 88px; */
     line-height: 22px;
     padding: 0px 7px 0 10px;
-    /* border-radius: 1px; */
     position: relative;
-    /* bottom: -10px; */
-    /* border-radius: 5px; */
     color: #fff;
     margin: 0px 0 0 6px;
 }
@@ -260,119 +256,7 @@
     }
 }
 
-@media (max-width:1024px) {
-    .yelloDotsBlink1 {
-        top: -8.5rem;
-        left: 8rem;
-    }
 
-    .yelloDotsBlink2 {
-        top: -5rem;
-        left: 6rem;
-    }
-
-    .yelloDotsBlink3 {
-        top: -3rem;
-        left: 7rem;
-    }
-
-    .yelloDotsBlink4 {
-        top: 0rem;
-        left: 1.7rem;
-    }
-
-    .yelloDotsBlink5 {
-        top: 0.5rem;
-        left: 4.2rem;
-    }
-
-    .yelloDotsBlink6 {
-        left: 2rem;
-        top: 6rem;
-    }
-
-    .yelloDotsBlink7 {
-        top: 7.5rem;
-        left: 3.5rem;
-    }
-
-    .orangeDotsBlink1 {
-        left: 5rem;
-    }
-
-    .orangeDotsBlink2 {
-        top: 9rem;
-        left: 5.7rem;
-    }
-
-    .orangeDotsBlink3 {
-        top: 5rem;
-        left: 5rem;
-    }
-
-    .orangeDotsBlink4 {
-        top: -4.7rem;
-        left: 3rem;
-    }
-
-    .orangeDotsBlink5 {
-        left: 0.5rem;
-    }
-
-    .greenDotsBlink1 {
-        left: 5rem;
-    }
-
-    .greenDotsBlink2 {
-        top: 6rem;
-        left: 5.8rem;
-    }
-
-    .greenDotsBlink3 {
-        top: 9rem;
-        left: 4.8rem;
-    }
-
-    .greenDotsBlink4 {
-        top: -5rem;
-        left: 3.4rem;
-    }
-
-    .greenDotsBlink5 {
-        top: 1rem;
-        left: 0.5rem;
-    }
-
-    .skyDotsBlink1 {
-        top: -1rem;
-        left: 4.7rem;
-    }
-
-    .skyDotsBlink2 {
-        top: 9rem;
-        left: 5.7rem;
-    }
-
-    .skyDotsBlink3 {
-        top: 5rem;
-        left: 5rem;
-    }
-
-    .skyDotsBlink4 {
-        top: -4.7rem;
-        left: 7rem;
-    }
-
-    .skyDotsBlink5 {
-        top: 1rem;
-        left: 8rem;
-    }
-
-    .skyDotsBlink6 {
-        top: 9rem;
-        left: 4.5rem;
-    }
-}
 
 @media (max-width:1440px) {
     .tendoDecriptionmain {
@@ -408,7 +292,7 @@
 @media (max-width:900px) {
     .tendoBox {
         height: 400px;
-        overflow: auto;
+        overflow-y: scroll;
         padding-right: 20px;
         width: 70%;
     }
@@ -448,106 +332,6 @@
         width: 80%;
     }
 
-    /* Dots Blink Css start */
-    .yelloDotsBlink1 {
-        top: -11.5rem;
-        left: 7rem;
-    }
-
-    .yelloDotsBlink2 {
-        top: -6.5rem;
-        left: 4rem;
-    }
-
-    .yelloDotsBlink3 {
-        top: -4rem;
-        left: 6.5rem;
-    }
-
-    .yelloDotsBlink4 {
-        left: -0.3rem;
-    }
-
-    .yelloDotsBlink5 {
-        left: 3.2rem;
-    }
-
-    .yelloDotsBlink6 {
-        left: 1rem;
-    }
-
-    .yelloDotsBlink7 {
-        left: 3rem;
-    }
-
-    .greenDotsBlink1 {
-        left: 3rem;
-    }
-
-    .greenDotsBlink2 {
-        left: 4.8rem;
-    }
-
-    .greenDotsBlink3 {
-        left: 3.8rem;
-    }
-
-    .greenDotsBlink4 {
-        top: -6.5rem;
-        left: 2rem;
-    }
-
-    .greenDotsBlink5 {
-        left: -1.5rem;
-    }
-
-
-    .orangeDotsBlink1 {
-        left: 3rem;
-    }
-
-    .orangeDotsBlink2 {
-        left: 4.8rem;
-    }
-
-    .orangeDotsBlink3 {
-        left: 3.8rem;
-    }
-
-    .orangeDotsBlink4 {
-        top: -6.5rem;
-        left: 2rem;
-    }
-
-    .orangeDotsBlink5 {
-        left: -1.5rem;
-    }
-
-    .skyDotsBlink1 {
-        left: 2.7rem;
-    }
-
-    .skyDotsBlink2 {
-        left: 4.7rem;
-    }
-
-    .skyDotsBlink3 {
-        left: 3.5rem;
-    }
-
-    .skyDotsBlink4 {
-        top: -6.5rem;
-    }
-
-    .skyDotsBlink5 {
-        left: 8.2rem;
-    }
-
-    .skyDotsBlink6 {
-        left: 4rem;
-    }
-
-    /* Dots Blink Css End */
 
 }
 
@@ -562,18 +346,38 @@
         display: block !important;
         margin-top: 1rem;
     }
-
+    .tendoBox::-webkit-scrollbar {
+        width: 3px; 
+      }
+      
+      .tendoBox::-webkit-scrollbar-track {
+        background: #7a7a7a; 
+      }
+      
+      .tendoBox::-webkit-scrollbar-thumb {
+        background: #000000; 
+        border-radius: 20px;
+      }
+      
+      .tendoBox::-webkit-scrollbar-thumb:hover {
+        background: #828282;
+      }
+    
+    
     .tendoBox {
         width: 100%;
         padding-right: 15px;
+        height: 250px;
+        overflow-y: scroll;
     }
+
 
     .humanMain {
         margin: 1rem auto;
     }
 
     .humanMain img {
-        width: 100% !important;
+        width: 70% !important;
     }
 }
 
