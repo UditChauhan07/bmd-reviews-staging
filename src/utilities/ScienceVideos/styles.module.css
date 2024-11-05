@@ -362,7 +362,13 @@
         overflow: hidden
     }
 }
-
+@media(max-width:768px){
+    .ExtraCod {
+        float: right;
+        top: 4rem;
+        position: relative;
+    }
+}
 @media (max-width:767px) {
     .imageControl h3 {
         font-size: 16px;
