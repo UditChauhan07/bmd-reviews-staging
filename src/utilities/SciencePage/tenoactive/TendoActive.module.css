@@ -314,7 +314,9 @@
     .brunoDecription2 h1 {
         font-size: 30px !important;
     }
-
+    .tendoProduct {
+        width: 90%;
+    }
     .tendoButton button {
         font-size: 12px;
     }
@@ -335,11 +337,7 @@
 
 }
 
-@media (max-width:650px) {
-    .tendoProduct {
-        width: 70%;
-    }
-}
+
 
 @media (max-width:550px) {
     .tendoDecriptionmain {
@@ -386,9 +384,7 @@
         width: 100%;
     }
 
-    .tendoProduct {
-        width: 90%;
-    }
+ 
 
     /* Blink Css start */
     .yelloDotsBlink1 {
