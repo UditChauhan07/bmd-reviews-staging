@@ -256,3 +256,8 @@
         line-height: 40px;
     }
 }
+@media (max-width:366px){
+    .faqHolder {
+        scroll-margin-top: 125px;
+    }
+}
