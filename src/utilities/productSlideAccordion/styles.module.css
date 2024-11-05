@@ -296,6 +296,9 @@ width: 100% !important;
     .ExtraCod {
         transform: translate(0%, -5px)
       }
+      .container {
+        scroll-margin-top: 90px;
+    }
 }
 
 @media screen and (max-width:426px) {
