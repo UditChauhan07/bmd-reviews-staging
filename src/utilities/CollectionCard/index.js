@@ -26,6 +26,7 @@ export const CollectionList = ({ content }) => {
         {content.map((e,i)=>{
             if(!e?.hide){
             return(
+                
                 <a href={e.link ? e.link + e?.SLUG : '#'} key={i}>
                 <div className={styles.collectionCard}>
                     <div className={styles.imageWrapper}>
