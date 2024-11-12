@@ -25,7 +25,8 @@
     font-size: 48px;
     font-weight: 400;
     color: #000;
-    line-height: 58px
+    line-height: 58px;
+    letter-spacing: 1px;
 }
 
 .dGrid {
@@ -147,8 +148,7 @@ width: 100% !important;
 
 .title {
     font-weight: 600;
-
-
+    letter-spacing: 1px;
 }
 
 .downArrow {
@@ -185,7 +185,6 @@ width: 100% !important;
     padding-bottom: 15px;
 }
 
-.list p {}
 
 .description {
     font-size: 14px;
@@ -215,7 +214,9 @@ width: 100% !important;
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;  }
+    cursor: pointer; 
+    letter-spacing: 1px;
+ }
   
   .ExtraCod span:after {
     content: "";
@@ -295,6 +296,9 @@ width: 100% !important;
     .ExtraCod {
         transform: translate(0%, -5px)
       }
+      .container {
+        scroll-margin-top: 90px;
+    }
 }
 
 @media screen and (max-width:426px) {

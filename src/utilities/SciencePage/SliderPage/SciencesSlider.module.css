@@ -67,7 +67,7 @@
 }
 
 .pcontent::-webkit-scrollbar {
-    width: 3px;
+    width: 3.5px;
 }
 
 .pcontent::-webkit-scrollbar-track {
@@ -118,7 +118,7 @@
 
 
     .LeftBtn {
-        background-color: rgb(2, 2, 2) !important;
+        background-color: #cbc8c8!important;
         height: 67px;
         width: 67px;
         border-radius: 100%;
@@ -126,10 +126,13 @@
         align-items: center;
         justify-content: center;
         transition: background-color 0.3s ease;
+        cursor: pointer;
     }
 
 
-
+.LeftBtn:hover{
+background-color: rgb(9, 9, 9)!important;
+}
 
 .LeftBtn:hover svg path {
     fill: #ffffff;
@@ -137,14 +140,18 @@
 }
 
 .RightBtn {
-    background-color: rgb(9, 9, 9) !important;
+    background-color: #cbc8c8 !important;
     height: 67px;
     width: 67px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor:pointer
 }
+.RightBtn:hover{
+    background-color: rgb(9, 9, 9)!important;
+    }
 .disabled {
     opacity: 0.2; 
     cursor: not-allowed;

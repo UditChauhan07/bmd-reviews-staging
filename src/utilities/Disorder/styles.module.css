@@ -1,13 +1,14 @@
-.cause_section{
+.cause_section {
     scroll-margin-top: 80px;
 }
+
 .ExtraCod {
     float: right;
     top: -1rem;
     position: relative;
-  }
-  
-  .ExtraCod span {
+}
+
+.ExtraCod span {
     display: inline-block;
     font-size: 18px;
     font-family: var(--bmd-font-Secondary);
@@ -23,9 +24,11 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;  }
-  
-  .ExtraCod span:after {
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.ExtraCod span:after {
     content: "";
     position: absolute;
     left: 0;
@@ -37,22 +40,25 @@
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
     transform: translate(-15px, -5px) rotate(90deg);
-  }
-  
-  @keyframes infiniteZoom {
-    0%, 100% {
-      transform: scale(1); 
+}
+
+@keyframes infiniteZoom {
+
+    0%,
+    100% {
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.2); 
+        transform: scale(1.2);
     }
-  }
-  
-  .ExtraCod span:hover {
+}
+
+.ExtraCod span:hover {
     background-color: rgb(0 51 161);
     color: rgb(255, 255, 255);
-    animation: infiniteZoom 2s infinite; 
-  }
+    animation: infiniteZoom 2s infinite;
+}
 
 
 
@@ -82,6 +88,8 @@
     font-size: 48px;
     font-weight: 400;
     margin-bottom: 19px;
+    left: 1px;
+    letter-spacing: 1px;
 }
 
 .CollogenContent p {
@@ -319,3 +327,8 @@
         margin: auto;
     }
 }
+@media(max-width:370px){
+    .ExtraCod {
+      top: -0.4rem;
+    }
+  }

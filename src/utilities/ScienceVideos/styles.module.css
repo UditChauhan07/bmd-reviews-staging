@@ -6,9 +6,9 @@
     float: right;
     top: 5rem;
     position: relative;
-  }
-  
-  .ExtraCod span {
+}
+
+.ExtraCod span {
     display: inline-block;
     font-size: 18px;
     font-family: var(--bmd-font-Secondary);
@@ -24,9 +24,11 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;  }
-  
-  .ExtraCod span:after {
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.ExtraCod span:after {
     content: "";
     position: absolute;
     left: 0;
@@ -38,34 +40,39 @@
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
     transform: translate(-15px, -5px) rotate(90deg);
-  }
-  
-  @keyframes infiniteZoom {
-    0%, 100% {
-      transform: scale(1); 
+}
+
+@keyframes infiniteZoom {
+
+    0%,
+    100% {
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.2); 
+        transform: scale(1.2);
     }
-  }
-  
-  .ExtraCod span:hover {
+}
+
+.ExtraCod span:hover {
     background-color: rgb(0 51 161);
     color: rgb(255, 255, 255);
-    animation: infiniteZoom 2s infinite; 
-  }
+    animation: infiniteZoom 2s infinite;
+}
 
 
 
 
-.studiHolder{
+.studiHolder {
     scroll-margin-top: 60px;
 }
+
 .reasonsHeader {
     font-family: ivypresto-display, "Times New Roman", Times, serif;
     font-weight: 400;
-    font-size: 52px;
-    color: #000
+    font-size: 48px;
+    color: #000;
+    letter-spacing: 1px;
 }
 
 .believeBluerex {
@@ -257,9 +264,10 @@
 }
 
 @media screen and (max-width:500px) {
-    .studiHolder{
+    .studiHolder {
         scroll-margin-top: 75px;
     }
+
     .modalContainer1 {
         top: 40%;
         max-height: 400px;
@@ -354,7 +362,13 @@
         overflow: hidden
     }
 }
-
+@media(max-width:768px){
+    .ExtraCod {
+        float: right;
+        top: 4rem;
+        position: relative;
+    }
+}
 @media (max-width:767px) {
     .imageControl h3 {
         font-size: 16px;

@@ -28,7 +28,9 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;  }
+    cursor: pointer; 
+    letter-spacing: 1px;
+ }
   
   .ExtraCod span:after {
     content: "";
@@ -81,8 +83,9 @@
 .reasonsHeader {
     font-family: ivypresto-display, "Times New Roman", Times, serif;
     font-weight: 400;
-    font-size: 52px;
-    color: #000
+    font-size: 48px;
+    color: #000;
+    letter-spacing: 1px;
 }
 
 .v2ContainerSubtitle {

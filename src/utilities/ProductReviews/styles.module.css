@@ -31,9 +31,10 @@
 .reviewHeader {
     font-family: ivypresto-display, "Times New Roman", Times, serif;
     font-weight: 400;
-    font-size: 52px;
+    font-size: 48px;
     color: #000;
     line-height: 60px;
+    letter-spacing: 1px;
 }
 
 .reviewBtn {

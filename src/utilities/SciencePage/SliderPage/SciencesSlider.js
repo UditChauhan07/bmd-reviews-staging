@@ -23,9 +23,12 @@ const SciencesSlider = ({data}) => {
 
     const settings = {
         dots: false,
-        infinite: false,
-        speed: 500,
+        infinite: true,
         slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed:700,
+
         slidesToScroll: 1,
         beforeChange: (current, next) => setCurrentSlide(next), // Update current slide
         prevArrow: <CustomPrevArrow />,
@@ -66,11 +69,11 @@ const SciencesSlider = ({data}) => {
     <div
         className={styles.LeftBtn}
         style={{
-            opacity: currentSlide === 0 ? 0.1 : 1,
-            cursor: currentSlide === 0 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === 0 ? 'black' : 'transparent', 
+            // opacity: currentSlide === 0 ? 0.1 : 1,
+            // cursor: currentSlide === 0 ? 'not-allowed' : 'pointer',
+            // backgroundColor: currentSlide === 0 ? 'black' : 'transparent', 
         }}
-        onClick={currentSlide === 0 ? null : goToPrev}
+        onClick={ goToPrev}
     >
         <div>
             <svg
@@ -97,11 +100,11 @@ const SciencesSlider = ({data}) => {
     <div
         className={styles.RightBtn}
         style={{
-            opacity: currentSlide === totalSlides - 1 ? 0.1 : 1,
-            cursor: currentSlide === totalSlides - 1 ? 'not-allowed' : 'pointer',
-            backgroundColor: currentSlide === totalSlides - 1 ? 'black' : 'transparent', 
+            // opacity: currentSlide === totalSlides - 1 ? 0.1 : 1,
+            // cursor: currentSlide === totalSlides - 1 ? 'not-allowed' : 'pointer',
+            // backgroundColor: currentSlide === totalSlides - 1 ? 'black' : 'transparent', 
         }}
-        onClick={currentSlide === totalSlides - 1 ? null : goToNext}
+        onClick={goToNext}
     >
         <div>
             <svg
