@@ -42,6 +42,7 @@ export const CollectionList = ({ content, param = null }) => {
     });
 
     return (
+
         <div
             ref={elementRef}
             className={styles.collectionContainer}
@@ -73,6 +74,7 @@ export const CollectionList = ({ content, param = null }) => {
             ) : (
                 <div className={styles.notfound}>
                 <h1 >Nessun prodotto trovato</h1>
+
                 </div>
             )}
         </div>

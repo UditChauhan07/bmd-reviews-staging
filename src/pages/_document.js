@@ -5,15 +5,31 @@ class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     const customParams = ctx.customParams || {};
-    return { ...initialProps, customParams };
+    const currentPath = ctx.req.url;
+    return { ...initialProps, customParams, currentPath };
   }
 
   render() {
     let script = true;
-    const { customParams } = this.props;
+    const { customParams , currentPath} = this.props;
+    console.log("jjgg");
+    console.log(currentPath);
     return (
       <Html lang="en">
         <Head>
+          {(currentPath == "https://brunomd.eu/prodotti/tendoactive-plus-20-stick" || 
+                   currentPath == "https://brunomd.eu/tendo") &&  <link rel="canonical"  href="https://brunomd.eu/tendo"/>}
+        <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                if (window.location.href === "https://brunomd.eu/prodotti/tendoactive-plus-20-stick" || 
+                    window.location.href === "https://brunomd.eu/tendo") {
+                        <link rel="canonical"  href="https://brunomd.eu/tendo"/>
+
+                }
+              `,
+            }}
+          ></script>
           <title>
             {customParams.title
               ? customParams.title
