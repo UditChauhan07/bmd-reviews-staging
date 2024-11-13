@@ -52,9 +52,9 @@ const ProcessCard = ({
                         </div>
                     </AccordionButton>
                     <AccordionPanel className={styles.accordionPanel}>
-                        <div>
+                        <text>
                             {expandedCopy}
-                        </div>
+                        </text>
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
