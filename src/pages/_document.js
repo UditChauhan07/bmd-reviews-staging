@@ -14,6 +14,17 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                if (window.location.href === "https://brunomd.eu/prodotti/tendoactive-plus-20-stick" || 
+                    window.location.href === "https://brunomd.eu.tendo") {
+                        <link rel="canonical"  href="https://brunomd.eu/tendo"/>
+
+                }
+              `,
+            }}
+          ></script>
           <title>
             {customParams.title
               ? customParams.title
