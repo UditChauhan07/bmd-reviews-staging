@@ -1,8 +1,8 @@
 {
   "tendo": {
     "seo": {
-      "title": "TendoActive Plus by BrunoMD | Azione completa per tendini e legamenti",
-      "description": "Tendo",
+      "title": "TendoActive Plus: Integratore per tendini e articolazioni | BrunoMD",
+      "description": "TendoActive Plus è un integratore che rinforza tendini, legamenti e articolazioni lesionati in seguito a un infortunio; riducendo il dolore.",
       "image": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/Tendoactive_Plus_Newsletter.webp"
     },
     "featureInfo": [
@@ -113,9 +113,19 @@
         "\\images\\07-BMD-Tendoactive_Plus-9O3A2998.webp"
         
       ],
-      "heading": "TendoActive",
+      "altName": [
+        "Front view of Tendoactive Plus packaging",
+        "Scatola di TendoActive Plus (20 stick)",
+        "Ingredienti TendoActive Plus",
+        "Close-up of Tendoactive Plus capsules on display",
+        "Tendoactive Plus capsules arranged in blister pack",
+        "Tendoactive Plus blister pack close-up",
+        "Detailed view of Tendoactive Plus packaging"
+    ],
+
+      "heading": "TendoActive Plus",
       "subHeading": null,
-      "subtitle": "Forte alleato contro\nil dolore e il recupero dall'infortunio",
+      "subtitle": "Integratore alimentare per rinforzare tendini e legamenti",
       "text": null,
       "items": [
         {
@@ -131,7 +141,7 @@
           "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
         },
         {
-          "title": "Biodisponibilita'",
+          "title": "Biodisponibilità",
           "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
         }
       ]
@@ -173,7 +183,7 @@
           "stepNumber": 1,
           "title": "Boswellia Serrata",
           "body": "Nuovo effetto analgesico",
-          "expanded": "La BOSWELLIA SERRATA ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
+          "expanded": "Effetto analgesico: La Boswellia Serrata ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
           "image": {
             "src": "\\images\\landing\\BMD-6039-landing.webp",
             "alt": "..."
@@ -183,7 +193,7 @@
           "stepNumber": 2,
           "title": "Curcumina",
           "body": "Effetto antinfiammatorio",
-          "expanded": "La CURCUMINA riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia.",
+          "expanded": "Effetto antinfiammatorio: La curcumina riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia.",
           "image": {
             "src": "\\images\\landing\\BMD-P1107585-landing.webp",
             "alt": "..."
@@ -193,7 +203,7 @@
           "stepNumber": 3,
           "title": "Aminoacidi e Rame",
           "body": "Effetto di rinforzo anabolico",
-          "expanded": "La L-ARGININA favorisce la sintesi del collagene, chiave per il recupero dei tendini.\n La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini",
+          "expanded": "Effetto di rinforzo anabolico: La L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini. La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini",
           "image": {
             "src": "\\images\\landing\\BMD-2319-landing.webp",
             "alt": "..."
@@ -203,7 +213,7 @@
           "stepNumber": 4,
           "title": "Collagene, Di Tipo I, Condroitina Solfato, E Il Manganese",
           "body": "Foniscono struttura ai tessuti",
-          "expanded": "Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti.La VITAMINA C stimola la sintesi del collagene.",
+          "expanded": "Forniscono struttura ai tessuti: Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti. La VITAMINA C stimola la sintesi del collagene.",
           "image": {
             "src": "\\images\\landing\\BMD-P1072538-landing.webp",
             "alt": "..."
@@ -224,7 +234,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Stairs- boswx100.webp",
-            "alt": "..."
+            "alt": "cosa sono le articolazioni"
           }
         },
         {
@@ -233,7 +243,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Tennis - cur.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Tennis - curx100.webp",
-            "alt": "..."
+            "alt": "articolazioni del gomito"
           }
         },
         {
@@ -242,7 +252,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Vollyball-L-.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Vollyball-L-x100.webp",
-            "alt": "..."
+            "alt": "partita di beach volley al tramonto"
           }
         },
         {
@@ -251,7 +261,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Yoga-L-lisin.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Yoga-L-lisinx100.webp",
-            "alt": "..."
+            "alt": "flessibilità e resistenza della pelle durante lo yoga"
           }
         },
         {
@@ -260,7 +270,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Swimming-Col.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Swimming-Colx100.webp",
-            "alt": "..."
+            "alt": "Il nuoto e le articolazioni"
           }
         },
         {
@@ -269,7 +279,7 @@
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Running-Chon.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Running-Chonx100.webp",
-            "alt": "..."
+            "alt": "corsa al tramonto e salute delle articolazioni"
           }
         },
         {
@@ -295,7 +305,7 @@
       "readMoreLabel": "Leggi di più"
     },
     "Disorder": {
-      "title": "Cos’e’ la tendinite?",
+      "title": "Cos'è la tendinite",
       "description": "La tendinite è una condizione infiammatoria dei tendini, i tessuti fibrosi che collegano i muscoli alle ossa. Essa puo’ essere debilitante, dolorosa, limitante e lenta da guarire.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
@@ -524,7 +534,7 @@
       "mImage": "/images/landing/FAQimage-mobile.webp",
       "details": [
         {
-          "title": "Per quanto tempo è consigliato il trattamento minimo per la tendinopatia? ",
+          "title": "Per quanto tempo è consigliato il trattamento minimo con TendoActive Plus in caso di tendinopatia? ",
           "content": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi.  Consigliamo di seguire il trattamento per evitare recidive, la tendinopatia può durare anche più di 1 anno."
         },
         {
@@ -536,7 +546,7 @@
           "content": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
         },
         {
-          "title": "A partire da che età si può assumere Tendoactive?",
+          "title": "A partire da che età si può assumere TendoActive Plus?",
           "content": "Da i 12-13 anni in poi"
         },
         {
@@ -544,11 +554,12 @@
           "content": "Sì. Non contiene glutine né lattosio."
         },
         {
-          "title": "È indicato per le donne in gravidanza o in allattamento?",
+          "title": "TendoActive Plus indicato per le donne in gravidanza o in allattamento?",
           "content": "Non ci sono studi in merito. Si consiglia di consultare il medico per ulteriori chiarimenti."
         },
         {
-          "title": "Se il dolore tendineo si verifica a causa dell'assunzione cronica di farmaci come chinoloni o corticosteroidi, Tendoactive potrebbe essere da supporto contro il dolore? I FANS (Farmaci Antinfiammatori Non Steroidei sono adatti per il trattamento delle tendinopatie)?",
+          "title": "Se il dolore tendineo si verifica a causa dell'assunzione cronica di farmaci come chinoloni o corticosteroidi, TendoActive Plus potrebbe essere da supporto contro il dolore? I FANS (Farmaci Antinfiammatori Non Steroidei sono adatti per il trattamento delle tendinopatie)?",
+
           "content": "Non ci sono studi specifici su questo argomento, ma come dimostrato da uno degli studi clinici effettuati sul prodotto, Tendoactive sarebbe indicato in quanto uno studio ha dimostrano un effetto ristrutturante sul tendine. Inoltre, i FANS sono consigliati solo per un massimo di 4-5 giorni. Mascherare il dolore fa sì che il paziente continui a sovraccaricare il tendine e questo può causarne la cronicizzazione o la rottura, richiedendo un intervento chirurgico. Studi recenti hanno dimostrato che sono necessari più trattamenti fisiologici che promuovono la migrazione dei tenociti per riparare la struttura del tendine. E quindi, i FANS non sarebbero il trattamento appropriato. Inoltre, i FANS non possono essere assunti cronicamente a causa dei loro effetti collaterali a livello gastrointestinale, cardiovascolare, renale ed epatico."
         },
         {

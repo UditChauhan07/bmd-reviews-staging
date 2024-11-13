@@ -9,11 +9,11 @@ function SciencePage2() {
                 <span>Scienza</span>
             </p>
             <div className={styles.imgconatiner} id='scienzasection'>
-                <img src="/images/14-BMD-Formoline-Scientists-Landscape.webp" alt="Description of image" />
+                <img src="/images/14-BMD-Formoline-Scientists-Landscape.webp" alt="La ricerca in Bruno MD" />
             </div>
 
             <div className={styles.textDiv}>
-                <h2>La Scienza per Bruno MD</h2>
+                <strong>La Scienza per Bruno MD</strong>
                 <Link href="/science" target="_blank">
                     Scopri di piu’
                 </Link>

@@ -24,7 +24,7 @@ const Cure = ({ content, theme, theme3, isLayout = false }) => {
         style={{ backgroundColor: theme3 ? theme3 : content.color }}
       >
         <div className={styles.container}>
-          <div className={styles.headingContainer}>{content.title}</div>
+          <h2 className={styles.headingContainer}>{content.title}</h2>
 
           <div className={styles.CollagenText}>
             <p>{content.subTitle}</p>

@@ -75,7 +75,7 @@
     gap: 10px;
 }
 
-.textDiv h2 {
+.textDiv strong {
     color: rgb(0, 51, 161);
     text-align: center;
     font-size: 18px;
