@@ -41,8 +41,8 @@ const ProcessCard = ({
                 width={400}
                 height={267}
             />}
-            <h3 className={styles.processTitle} style={{ color: titleColor }}>{title}</h3>
-            <p className={styles.processBody}>{bodyCopy}</p>
+            <strong className={styles.processTitle} style={{ color: titleColor }}>{title}</strong>
+            <text className={styles.processBody}>{bodyCopy}</text>
             <Accordion allowMultiple className={styles.accordion}>
                 <AccordionItem className={styles.accordionItem}>
                     <AccordionButton className={styles.accordionButton}>

@@ -51,7 +51,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
         <>
             <div>
                 <p className={styles.ExtraCod} >
-                    <span>Benefici</span>
+                    <h2>Benefici</h2>
                 </p>
             </div>
             <div className={styles.container} id="beneficisection">
@@ -71,7 +71,7 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                                 <div className={` ${styles.dGrid} ${styles.dGridhover}`} key={index}>
                                     <img
                                         src={imageSrc}
-                                        alt={content.alt || `Slide ${index + 1}`}
+                                        alt={content.altName[index]}
                                         className={styles.image}
                                     />
                                 </div>
@@ -81,20 +81,20 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                     </div>
 
                     <div className={styles.wrapper}>
-                        <p className={styles.header}>{content?.heading}</p>
-                        {content.subHeading && <p className={styles.subHeader}>{content.subHeading}</p>}
-                        <p className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</p>
+                    <h1 className={styles.header}>{content?.heading}</h1>
+                        {content.subHeading && <h1 className={styles.subHeader}>{content.subHeading}</h1>}
+                        <h1 className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</h1>
                         <p className={styles.underHeaderNote}>{content.text}</p>
                         {/* Replace Accordion with a simple list */}
                         <ul className={styles.list}>
                             {content.items.map((element, idx) => (
                                 <li key={idx} className={styles.listItem}>
-                                    <p className={styles.title} style={content.lowerCase}>
-                                        {element.title}
-                                    </p>
-                                    <p className={styles.description}>
+                                    <strong className={styles.title} style={content.lowerCase}>
+                                        {element.title}&nbsp; 
+                                    </strong>
+                                    <text className={styles.description}>
                                         {element.description}
-                                    </p>
+                                    </text>
                                 </li>
                             ))}
                         </ul>
