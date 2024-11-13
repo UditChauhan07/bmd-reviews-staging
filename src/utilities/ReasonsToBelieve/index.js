@@ -174,9 +174,10 @@ const ReasonsToBelieve = ({
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`} id="formulasection">
         
           <h2 className={styles.reasonsHeader}>
-            Per un’ azione sintomatica e strutturale:
+          Rinforzare tendini e legamenti:
             <p className={styles.believeBluerex} style={{ color: theme }}>
-              gli ingredienti della nostra formula supportati da 5 studi clinici
+            gli ingredienti della nostra formula supportati da 5 
+            studi clinici
             </p>
           </h2>
 
