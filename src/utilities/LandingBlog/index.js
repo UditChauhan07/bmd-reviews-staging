@@ -10,10 +10,10 @@ function LandingBlog({ data, theme, isLanding = null }) {
       </p>
       <div id="blogsection" className={styles.blog_section}>
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`}>
-          <h3 className={styles.reasonsHeader}>
+          <h2 className={styles.reasonsHeader}>
             Blog: rimedi e consigli su
             <p style={{ color: theme }}>salute e benessere</p>
-          </h3>
+          </h2>
         </div>
         <div className={styles.v2Container}>
           <Blogs categories={data.details} isLanding={isLanding} />

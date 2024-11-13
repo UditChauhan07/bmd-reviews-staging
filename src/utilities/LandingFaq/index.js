@@ -24,7 +24,7 @@ function LandingFaq({ data, theme }) {
   return (
     <section id="faqsection" className={styles.faqHolder}>
        <p className={styles.ExtraCod} >
-        <span>FAQs</span>
+        <h2>FAQs</h2>
       </p>
       <div className={styles.container} >
         <div className={styles.twoCol}>
@@ -35,7 +35,7 @@ function LandingFaq({ data, theme }) {
             </div>
           </div>
           <div className={styles.wrapper}>
-            <h3 className={styles.subHeader}>Domande Frequenti (FAQs)</h3>
+            <h2 className={styles.subHeader}>Domande Frequenti (FAQs)</h2>
             <p className={styles.underHeaderNote}></p>
             <Accordion>
               {data.details &&
@@ -43,14 +43,14 @@ function LandingFaq({ data, theme }) {
                   <AccordionItem key={index} className={styles.accordionItem}>
                     <div onClick={(e) => handleAccordionClick(index)}>
                       <AccordionButton className={styles.accordionButton}>
-                        <h2
+                        <h3
                           className={styles.mainaccorhead}
                           style={{
                             color: openIndex === index ? theme : "black",
                           }}
                         >
                           {faqItem.title}
-                        </h2>
+                        </h3>
                         <div style={{ color: theme }}>
                           <AccordionIcon
                             variant="arrow-default"

@@ -19,7 +19,7 @@ const Blogs = ({ categories, isLanding = null }) => {
                   </a>
                 )}
                 {(!category?.link || category?.link != "#") && (
-                  <h2 className={styles.catHeading}>{category.title}</h2>
+                  <strong className={styles.catHeading}>{category.title}</strong>
                 )}
                 <div className={styles.posts}>
                   {category.blogs.length > 0 &&

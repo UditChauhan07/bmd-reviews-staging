@@ -4,7 +4,6 @@ import { Carousel } from 'react-bootstrap';
 import styles from './sciencedesktop.module.css'
 // import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TabScience from '../ScienceTab/DesktopTab/TabScience';
 import ScienceSlider2 from '@/utilities/SciencePage/SliderPage/ScienceSlider2';
 import SciencesSlider from '@/utilities/SciencePage/SliderPage/SciencesSlider';
 import ScienceNewVideo from '@/utilities/SciencePage/ScienceVideo/ScienceNewVideo';
@@ -126,9 +125,7 @@ const Sciencedesktoppage = ({ data }) => {
       {/* Science Video Page Start */}
 
 
-      {/* Human Tab Section Start */}
-      {/* <TabScience  data={data}/> */}
-      {/* Human Tab Section End */}
+
 
       {/* tendoActive Section Start */}
       <TendoActive />
