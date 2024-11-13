@@ -97,40 +97,20 @@ function ScienceVideos({ data, theme }) {
     afterChange: handleAfterChange,
   };
 
-  // test const settings = {
-  //   className: "center",
-  //   centerMode: true,
-  //   infinite: true,
-  //   centerPadding: "20%",
-  //   slidesToShow: 1,
-  //   speed: 300,
-  //   arrows: true,
-  //   dots: true,
-  //   autoplay: true,
-  //   infinite: true,
-  //   autoplaySpeed: 5000,
-  //   responsive: [
-  //     {
-  //       breakpoint: 767,
-  //       settings: {
-  //         centerMode: false,
-  //       },
-  //     },
-  //   ],
-  // };
+  
 
   return (
     <section id="studisection" className={styles.studiHolder}>
       <p className={styles.ExtraCod} >
-        <span>Studi</span>
+        <h2>Studi</h2>
       </p>
       <div className={styles.headingVideo}>
-        <h3 className={styles.reasonsHeader}>
+        <h2 className={styles.reasonsHeader}>
           I benefici grazie all’innovazione scientifica:
-        </h3>
-        <p className={styles.believeBluerex} style={{ color: theme }}>
+        </h2>
+        <h2 className={styles.believeBluerex} style={{ color: theme }}>
           i nostri studi clinici
-        </p>
+        </h2>
 
       </div>
       
