@@ -14,7 +14,7 @@ const Modal = ({ show, onClose, children }) => {
   }, [show]);
 
   if (!show) {
-    return null; 
+    return null;
   }
 
   return (

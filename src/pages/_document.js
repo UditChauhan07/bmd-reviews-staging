@@ -5,8 +5,10 @@ class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     const customParams = ctx.customParams || {};
-    const currentPath = ctx.req.url;
-    return { ...initialProps, customParams, currentPath };
+    const { req } = ctx;
+    const includesTendo = req?.url?.includes("tendo");
+    const includesTendoPlus = req?.url?.includes("tendoactive-plus-20-stick");
+    return { ...initialProps, customParams, includesTendo, includesTendoPlus };
   }
 
   render() {
@@ -17,10 +19,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-
-          {(currentPath == "https://brunomd.eu/prodotti/tendoactive-plus-20-stick" || 
-                   currentPath == "https://brunomd.eu/tendo") &&  <link rel="canonical"  href="https://brunomd.eu/tendo"/>}
-
+        {(this.props.includesTendo || this.props.includesTendoPlus) && (
+            <link rel="canonical" href="https://brunomd.eu/tendo" />
+          )}
      
           <title>
             {customParams.title

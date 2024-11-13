@@ -17,11 +17,11 @@ const Cards = ({ contents }) => {
                     <div className={styles.textBodyOuterContainer}>
                         <h1 className={styles.textBodyHeader}>{title}</h1>
                         <div className={styles.textBodyContainer}>
-                        {paragraphs.map((e,i)=>{
-                            return(
-                                <p className={styles.textBodyParagraph} key={i}>{e}</p>
-                            )
-                        })}
+                            {paragraphs.map((e, i) => {
+                                return (
+                                    <p className={styles.textBodyParagraph} key={i}>{e}</p>
+                                )
+                            })}
                         </div>
                         <Link href={buttonUrl} className={styles.ourPurposeButton}>{buttonText}</Link>
                     </div>
