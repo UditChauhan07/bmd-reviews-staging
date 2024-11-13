@@ -1,17 +1,1 @@
-.starFilled {
-  color: rgb(231, 114, 27); /* Gold color for filled stars */
-  cursor: pointer;
-}
-
-.starEmpty {
-  color: transparent; /* Light gray color for empty stars */
-  cursor: pointer;
-}
-
-.goldenSt {
-  display: inline-block;
-  font-size: 35px;
-  -webkit-text-stroke: 1px rgb(231, 114, 27);
-  background-color: transparent;
-  margin: 0 3px;
-}
+.starFilled{color:#e7721b;cursor:pointer}.starEmpty{color:transparent;cursor:pointer}.goldenSt{display:inline-block;font-size:35px;-webkit-text-stroke:1px rgb(231,114,27);background-color:transparent;margin:0 3px}
