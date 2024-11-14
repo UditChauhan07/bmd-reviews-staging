@@ -66,7 +66,7 @@ function ScienceVideos({ data, theme }) {
   const CustomNextArrow = ({ onClick }) => (
     <button className="slick-next" onClick={onClick} title="next">
       Next
-      <img src="\images\arrowSvg.svg" alt="next" />
+      <img src="\images\arrowSvg.svg" alt="" />
     </button>
   );
 
@@ -133,7 +133,7 @@ function ScienceVideos({ data, theme }) {
               <p class={styles.subtitlep}> {videos.subtitle}</p>
 
               <p style={{ color: theme, textDecoration: "underline" }}>
-                <a href={videos.blog + "?l=2"} target="_blank">Scopri di piu’</a>
+                <a href={videos.blog + "?l=2"} target="_blank" tabIndex="-1">Scopri di piu’</a>
               </p>
             </div>
           ))}
