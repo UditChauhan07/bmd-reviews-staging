@@ -40,9 +40,10 @@ const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
   const VideoRef = useRef(null);
+  const reviewContainerRef = useRef(null);
+
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
-  const reviewContainerRef = useRef(null);
   const ModalHandler = (e) => {
     const { value } = e.target.dataset;
     if (value) {

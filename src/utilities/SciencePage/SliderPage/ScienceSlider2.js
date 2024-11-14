@@ -425,8 +425,8 @@ const ScienceSlider2 = () => {
                         SLUG,
                         price: shopifyP?.variants?.edges?.length
                           ? parseFloat(
-                              shopifyP?.variants.edges[0].node?.price?.amount
-                            )
+                            shopifyP?.variants.edges[0].node?.price?.amount
+                          )
                           : 0,
                         theme,
                         priceBox,
