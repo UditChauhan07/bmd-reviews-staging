@@ -11,7 +11,7 @@ function RouteGuard({ children }) {
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
   const [loading, setLoading] = useState(false);
-
+ 
   useEffect(() => {
     // on initial load - run auth check
     let path = router.asPath;
@@ -191,7 +191,8 @@ function RouteGuard({ children }) {
   }
 
   if (loading) {
-    return <Loader2 />;
+    return  <Loader2 />
   }
+  
   return authorized && children;
 }

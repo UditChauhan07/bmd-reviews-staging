@@ -8,7 +8,6 @@ import CartItemList from "@/utilities/CartItemList";
 import Header from '@/utilities/Header/';
 import FeatureInfo from '@/utilities/FeatureInfo'
 import {
-  getCheckout,
   removeCartItems,
   updateCartItems,
   getCartList,
