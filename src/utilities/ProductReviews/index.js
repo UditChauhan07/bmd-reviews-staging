@@ -65,7 +65,6 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
   const [modal, setModal] = React.useState(false);
   const [modal1, setModal1] = React.useState(false);
-  const reviewContainerRef = useRef(null)
 
   const handleClick = () => {
     setModal(true);
