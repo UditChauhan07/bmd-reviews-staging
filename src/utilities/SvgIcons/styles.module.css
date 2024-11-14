@@ -1,15 +1,1 @@
-.searchLogo {
-    width: 23px;
-    cursor: pointer;
-  }
-  .logoContainer {
-    padding: 0px 13px 0px 0px;
-    z-index: 10;
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .logoContainer {
-      padding: 0px 15px 0px 0px;
-    }
-  }
-  
+.searchLogo{width:23px;cursor:pointer}.logoContainer{padding:0 13px 0 0;z-index:10}@media only screen and (max-width:1024px){.logoContainer{padding:0 15px 0 0}}

@@ -58,17 +58,17 @@ const Slider = ({ data }) => {
             data.map((e, i) => {
               return (
                 <div className={styles.SliderImage12} key={i}>
-                 {content.src.map((imageSrc, index) => (
-                        <div className={styles.dGrid} key={index}>
-                            <img
-                                src={imageSrc}
-                                alt={content.alt || `Slide ${index + 1}`}
-                                className={styles.image}
-                            />
+                  {content.src.map((imageSrc, index) => (
+                    <div className={styles.dGrid} key={index}>
+                      <img
+                        src={imageSrc}
+                        alt={content.alt || `Slide ${index + 1}`}
+                        className={styles.image}
+                      />
 
-                            <p>kfjbhefiughwe</p>
-                        </div>
-                    ))}
+                      <p>kfjbhefiughwe</p>
+                    </div>
+                  ))}
                 </div>
               );
             })}

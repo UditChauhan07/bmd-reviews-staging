@@ -3,15 +3,15 @@ import styles from './styles.module.css'
 import { CartIcon } from '../SvgIcons'
 import Link from 'next/link'
 
-const StickyNav = ({theme}) => {
+const StickyNav = ({ theme }) => {
   return (
     <section>
       <div className={styles.landingContainer}>
         <div className={styles.nav}>
-          <a href="#benefits" className={styles.navItem} style={theme.backgroundColor&& {color:theme.backgroundColor}}>
+          <a href="#benefits" className={styles.navItem} style={theme.backgroundColor && { color: theme.backgroundColor }}>
             Benefits
           </a>
-          <Link href="#ingredients" className={styles.navItem} style={theme.backgroundColor&& {color:theme.backgroundColor}}>
+          <Link href="#ingredients" className={styles.navItem} style={theme.backgroundColor && { color: theme.backgroundColor }}>
             Ingredients
           </Link>
           <Link href="/account/login" className={styles.navItem}>
@@ -28,7 +28,7 @@ const StickyNav = ({theme}) => {
           </Link>
 
           <Link href="/cart" className={styles.navItem}>
-            <CartIcon  color={theme.backgroundColor} styles={{display:'grid'}} width={'18px'}/>
+            <CartIcon color={theme.backgroundColor} styles={{ display: 'grid' }} width={'18px'} />
           </Link>
         </div>
       </div>
