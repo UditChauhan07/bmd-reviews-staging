@@ -13,7 +13,7 @@ const FourStepProcess = ({ processCards, header, theme, stepAlignment, buttonTit
           <h1>Ingredienti</h1>
         </div> */}
         <p className={styles.ExtraCod} >
-          <span>Ingredienti</span>
+          <h2>Ingredienti</h2>
         </p>
 
 

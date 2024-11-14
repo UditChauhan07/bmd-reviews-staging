@@ -66,7 +66,7 @@ function ScienceVideos({ data, theme }) {
   const CustomNextArrow = ({ onClick }) => (
     <button className="slick-next" onClick={onClick} title="next">
       Next
-      <img src="\images\arrowSvg.svg" alt="next" />
+      <img src="\images\arrowSvg.svg" alt="" />
     </button>
   );
 
@@ -97,40 +97,20 @@ function ScienceVideos({ data, theme }) {
     afterChange: handleAfterChange,
   };
 
-  // test const settings = {
-  //   className: "center",
-  //   centerMode: true,
-  //   infinite: true,
-  //   centerPadding: "20%",
-  //   slidesToShow: 1,
-  //   speed: 300,
-  //   arrows: true,
-  //   dots: true,
-  //   autoplay: true,
-  //   infinite: true,
-  //   autoplaySpeed: 5000,
-  //   responsive: [
-  //     {
-  //       breakpoint: 767,
-  //       settings: {
-  //         centerMode: false,
-  //       },
-  //     },
-  //   ],
-  // };
+  
 
   return (
     <section id="studisection" className={styles.studiHolder}>
       <p className={styles.ExtraCod} >
-        <span>Studi</span>
+        <h2>Studi</h2>
       </p>
       <div className={styles.headingVideo}>
-        <h3 className={styles.reasonsHeader}>
+        <h2 className={styles.reasonsHeader}>
           I benefici grazie all’innovazione scientifica:
-        </h3>
-        <p className={styles.believeBluerex} style={{ color: theme }}>
+        </h2>
+        <h2 className={styles.believeBluerex} style={{ color: theme }}>
           i nostri studi clinici
-        </p>
+        </h2>
 
       </div>
       
@@ -153,7 +133,7 @@ function ScienceVideos({ data, theme }) {
               <p class={styles.subtitlep}> {videos.subtitle}</p>
 
               <p style={{ color: theme, textDecoration: "underline" }}>
-                <a href={videos.blog + "?l=2"} target="_blank">Scopri di piu’</a>
+                <a href={videos.blog + "?l=2"} target="_blank" tabIndex="-1">Scopri di piu’</a>
               </p>
             </div>
           ))}
