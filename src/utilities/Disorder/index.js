@@ -29,7 +29,7 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
             style={{ backgroundColor: theme3 ? theme3 : content.color }}
           >
             <div className={styles.CollogenContInner}>
-              <h3>{content.title}</h3>
+              <h2>{content.title}</h2>
               <p>{content.description}</p>
               <div
                 onClick={() => handleClick()}
@@ -45,7 +45,7 @@ const Disorder = ({ content, theme, theme3, isLayout = false }) => {
             <div className={styles.ImagCollo}>
               <img
                 src={content.image}
-                alt={content?.title || "..."}
+                alt="Uomo che fa stretching"
                 height={"100%"}
                 width={"100%"}
               />

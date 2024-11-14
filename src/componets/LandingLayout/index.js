@@ -9,7 +9,6 @@ import Footer from "@/utilities/Footer/";
 import { NewsLetter } from "@/utilities/NewsLetter";
 import ProductReviews from "@/utilities/ProductReviews";
 import ImageAside from "@/utilities/Sections/ImageAside";
-import StickyPriceBox from "@/utilities/StickyPriceBox";
 import ModalBoxInner from "@/utilities/ModalBoxInner";
 import { useEffect, useRef, useState } from "react";
 import ProductArticleModal from "@/utilities/Sections/ProductArticleModal";
@@ -35,14 +34,15 @@ import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
-import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
+import Loader3 from "../../utilities/Loader2/index";
+
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
   const VideoRef = useRef(null);
+
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
-  const reviewContainerRef = useRef(null);
   const ModalHandler = (e) => {
     const { value } = e.target.dataset;
     if (value) {
@@ -138,7 +138,7 @@ const LandingPage = ({ version, script, page }) => {
     return (
       <>
         <RewardRemoveScript />
-        <Loader2 />
+        <Loader3 />
       </>
     );
   return (

@@ -11,8 +11,7 @@ const TendoActive = () => {
   const [clickedType, setClickedType] = useState("Subscribe");
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
-  const VideoRef = useRef(null);
-  const reviewContainerRef = useRef(null);
+  
   const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
 
   const ModalHandler = (e) => {

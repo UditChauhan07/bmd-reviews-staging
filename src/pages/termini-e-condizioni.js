@@ -7,7 +7,7 @@ export default function Spedizione() {
 
     return (
         <section className={styles.container}>
-            <PageHead content={{title:'Termini e Condizioni di Vendita | Bruno MD',description:"Il sito Web di Bruno Pharma è destinato a essere informativo e l&apos;accesso a questo sito Web è regolato dai termini e dalle condizioni qui stabiliti e da tutte le leggi applicabili."}}/>
+            <PageHead content={{ title: 'Termini e Condizioni di Vendita | Bruno MD', description: "Il sito Web di Bruno Pharma è destinato a essere informativo e l&apos;accesso a questo sito Web è regolato dai termini e dalle condizioni qui stabiliti e da tutte le leggi applicabili." }} />
             <h1>TERMINI E CONDIZIONI DI VENDITA</h1>
             <div className={styles.textHolder}>
                 <p>I presenti termini e condizioni disciplinano le vendite dei prodotti sul Sito brunomd.eu e ne regolano l&apos;utilizzo.</p>

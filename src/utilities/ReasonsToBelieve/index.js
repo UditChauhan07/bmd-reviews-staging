@@ -166,19 +166,20 @@ const ReasonsToBelieve = ({
   const V2 = () => {
     return (
       <>
-      <div className={styles.ExtraDiv}>
-      <p className={styles.ExtraCod} >
-          <span>Formula</span>
-        </p>
-      </div>
+        <div className={styles.ExtraDiv}>
+          <p className={styles.ExtraCod} >
+            <h2>Formula</h2>
+          </p>
+        </div>
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`} id="formulasection">
-        
-          <h3 className={styles.reasonsHeader}>
-            Per un’ azione sintomatica e strutturale:
+
+          <h2 className={styles.reasonsHeader}>
+            Rinforzare tendini e legamenti:
             <p className={styles.believeBluerex} style={{ color: theme }}>
-              gli ingredienti della nostra formula supportati da 5 studi clinici
+              gli ingredienti della nostra formula supportati da 5
+              studi clinici
             </p>
-          </h3>
+          </h2>
 
           {accordanTitle && (
             <p className={styles.v2ContainerSubtitle}>{accordanTitle}</p>

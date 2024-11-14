@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 import styles from "./styles.module.css";
-export const NewsLetter = ({ content,isTendoReferrer }) => {
+export const NewsLetter = ({ content, isTendoReferrer }) => {
   const [isDesktop] = useMatchMedia("(min-width: 769px)", true);
   const [image, setImage] = useState();
   useEffect(() => {

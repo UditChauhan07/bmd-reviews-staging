@@ -212,9 +212,9 @@ const ModalBoxInner = ({
                   style={
                     themed
                       ? {
-                          fontFamily: "var(--bmd-font-Secondary)",
-                          fontWeight: "bolder",
-                        }
+                        fontFamily: "var(--bmd-font-Secondary)",
+                        fontWeight: "bolder",
+                      }
                       : { color: "#ffbf3c" }
                   }
                 >

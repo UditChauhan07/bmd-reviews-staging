@@ -4,7 +4,7 @@ import { RouteGuard } from "@/componets/RouteGuard";
 import GeoRedirect from "@/utilities/GeoRedirect";
 import App from "next/app";
 import productMeta from "../../json/meta.json";
-import { useRouter } from "next/router";
+
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
