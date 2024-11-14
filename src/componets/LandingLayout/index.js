@@ -9,7 +9,6 @@ import Footer from "@/utilities/Footer/";
 import { NewsLetter } from "@/utilities/NewsLetter";
 import ProductReviews from "@/utilities/ProductReviews";
 import ImageAside from "@/utilities/Sections/ImageAside";
-import StickyPriceBox from "@/utilities/StickyPriceBox";
 import ModalBoxInner from "@/utilities/ModalBoxInner";
 import { useEffect, useRef, useState } from "react";
 import ProductArticleModal from "@/utilities/Sections/ProductArticleModal";
@@ -40,7 +39,6 @@ const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
   const VideoRef = useRef(null);
-  const reviewContainerRef = useRef(null);
 
   const [isOpen, setIsOpen] = useState(false);
   const [clickedType, setClickedType] = useState("Subscribe");
