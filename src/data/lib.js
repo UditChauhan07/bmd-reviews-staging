@@ -132,6 +132,8 @@ export async function getProduct({ productId }) {
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
+    console.log("1248",cdata);
+    
     return cdata;
   }
 }
