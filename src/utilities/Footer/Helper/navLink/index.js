@@ -55,7 +55,7 @@ const navLink = ({ menuGroup }) => {
                         className={styles.menuItem}
                         key={`menu-item-${index}`}
                       >
-                        {link?.url != "#" ? (
+                        {link?.url != "#" ? (  
                           <Link
                             href={
                               link?.name == "Portale per il reso"
