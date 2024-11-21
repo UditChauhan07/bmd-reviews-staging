@@ -45,7 +45,7 @@ const FourPassaggi = () => {
                                     <h3>2</h3>
                                 </div>
                                 <strong>Curcumina</strong>
-                                <p>Nuovo effetto analgesico</p>
+                                <p>Effetto antinfiammatorio</p>
                                 <text>Effetto antinfiammatorio: La curcumina riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia</text>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ const FourPassaggi = () => {
                                     <h3>3</h3>
                                 </div>
                                 <strong>Aminoacidi e Rame</strong>
-                                <p>Nuovo effetto analgesico</p>
+                                <p>Effetto di rinforzo anabolico</p>
                                 <text>Effetto di rinforzo anabolico: La L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini. La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini</text>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ const FourPassaggi = () => {
                                     <h3>4</h3>
                                 </div>
                                 <strong>Collagene, Di Tipo I, Condroitina<br/> Solfato, E Il Manganese</strong>
-                                <p>Nuovo effetto analgesico</p>
+                                <p>Foniscono struttura ai tessuti</p>
                                 <text>Forniscono struttura ai tessuti: Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti. La VITAMINA C stimola la sintesi del collagene.</text>
                             </div>
                         </div>
