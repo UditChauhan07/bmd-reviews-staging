@@ -65,7 +65,9 @@
 
 /* stickyScroll section Css End */
 
-
+.FourPassaggiMain strong{
+    font-size: 30px;
+}
 
 .FourPassaggiMain {
     width: 100%;
