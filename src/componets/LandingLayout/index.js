@@ -203,7 +203,7 @@ const LandingPage = ({ version, script, page }) => {
             </>
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
-          {/* {pageData?.isSticky && (
+          {/* { {pageData?.isSticky && (
             <StickyPriceBox
               priceDescription={{
                 EXTERNALID: pageData.externalId,
@@ -216,7 +216,7 @@ const LandingPage = ({ version, script, page }) => {
               }}
               variantId={pageData.variantId}
             />
-          )} */}
+          )} } */}
           {pageData?.ImageAside && (
             <ImageAside
               content={pageData.ImageAside}
@@ -310,7 +310,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
             />
           )}
-          {/** <SciencePage2 data={data1["EU"].footer2} /> */}
+           {/* <SciencePage2 data={data1["EU"].footer2} /> */}
           <SciencePage2 data={data1["EU"].footer2} />
           {BlogData?.Blog && (
             <LandingBlog
