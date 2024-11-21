@@ -3,7 +3,8 @@
     scroll-margin-top: 70px;
     margin-top: 3rem;
 }
-.ExtraCod h2{
+
+.ExtraCod h2 {
     font-family: var(--bmd-font-Secondary)
 }
 
@@ -61,6 +62,7 @@
     color: #fff;
     animation: 2s infinite infiniteZoom
 }
+
 /* stickyScroll section Css End */
 
 
@@ -71,6 +73,7 @@
     /* border: 1px solid; */
     margin: auto;
     padding: 0px;
+
 }
 
 .FourPassaggiMain h1 {
@@ -122,6 +125,10 @@
     top: 0;
     border: 4.5px solid #BFD3F2;
     color: rgb(255, 255, 255);
+
+}
+.roundSection h3{
+    font-size: 48px;
 
 }
 
@@ -300,10 +307,15 @@
 }
 
 @media (max-width:530px) {
+    .roundSection h3{
+        font-size: 30px;
+    
+    }
     .ingredientiHolder {
         scroll-margin-top: 80px;
-      
+
     }
+
     .content {
         top: 70%;
         padding: 15px;
@@ -348,13 +360,16 @@
     .content strong {
         font-size: 13px;
     }
+
     .content2 strong {
         font-size: 13px;
     }
-    .ImgSection{
+
+    .ImgSection {
         /* margin-top: 4rem; */
     }
-    .ImgSection2{
+
+    .ImgSection2 {
         margin-top: 4rem;
     }
 }

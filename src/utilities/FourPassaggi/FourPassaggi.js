@@ -17,7 +17,7 @@ const FourPassaggi = () => {
                         <div className={styles.contentDiv}>
                             <div className={styles.content}>
                                 <div className={styles.roundSection}>
-                                    <h1>1</h1>
+                                    <h3>1</h3>
                                 </div>
                                 <strong>Boswellia Serrata</strong>
                                 <p>Nuovo effetto analgesico</p>
@@ -42,7 +42,7 @@ const FourPassaggi = () => {
                         <div className={styles.contentDiv}>
                             <div className={styles.content2}>
                                 <div className={styles.roundSection}>
-                                    <h1>2</h1>
+                                    <h3>2</h3>
                                 </div>
                                 <strong>Curcumina</strong>
                                 <p>Nuovo effetto analgesico</p>
@@ -65,7 +65,7 @@ const FourPassaggi = () => {
                         <div className={styles.contentDiv}>
                             <div className={styles.content}>
                                 <div className={styles.roundSection}>
-                                    <h1>3</h1>
+                                    <h3>3</h3>
                                 </div>
                                 <strong>Aminoacidi e Rame</strong>
                                 <p>Nuovo effetto analgesico</p>
@@ -89,7 +89,7 @@ const FourPassaggi = () => {
                         <div className={styles.contentDiv}>
                             <div className={styles.content2}>
                                 <div className={styles.roundSection}>
-                                    <h1>4</h1>
+                                    <h3>4</h3>
                                 </div>
                                 <strong>Collagene, Di Tipo I, Condroitina Solfato, E Il Manganese</strong>
                                 <p>Nuovo effetto analgesico</p>
