@@ -35,6 +35,7 @@ import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
 import Loader3 from "../../utilities/Loader2/index";
+import FourPassaggi from "@/utilities/FourPassaggi/FourPassaggi";
 
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
@@ -263,7 +264,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
-          {pageData?.FourStepProcess && (
+          {/* {pageData?.FourStepProcess && (
             <FourStepProcess
               processCards={pageData.FourStepProcess.items}
               theme={pageData.theme}
@@ -272,8 +273,8 @@ const LandingPage = ({ version, script, page }) => {
               buttonTittle={"Leggi di più"}
               centerAlign
             />
-          )}
-
+          )} */}
+<FourPassaggi/>
           {pageData?.Disorder && (
             <Disorder
               content={pageData.Disorder}
