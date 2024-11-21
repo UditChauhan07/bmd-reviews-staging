@@ -65,7 +65,9 @@
 
 /* stickyScroll section Css End */
 
-
+.FourPassaggiMain strong{
+    font-size: 30px;
+}
 
 .FourPassaggiMain {
     width: 100%;
@@ -146,20 +148,22 @@
 
 .content strong {
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .content p {
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .content text {
-    font-size: 16px;
+    font-size: 15px;
     color: #525965;
 }
 
 .content2 strong {
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .content2 text {
@@ -170,7 +174,7 @@
 
 .content2 p {
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .imgDiv {
