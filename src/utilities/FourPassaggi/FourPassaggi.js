@@ -91,7 +91,7 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>4</h3>
                                 </div>
-                                <strong>Collagene, Di Tipo I, Condroitina Solfato, E Il Manganese</strong>
+                                <strong>Collagene, Di Tipo I, Condroitina<br/> Solfato, E Il Manganese</strong>
                                 <p>Nuovo effetto analgesico</p>
                                 <text>Forniscono struttura ai tessuti: Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti. La VITAMINA C stimola la sintesi del collagene.</text>
                             </div>
