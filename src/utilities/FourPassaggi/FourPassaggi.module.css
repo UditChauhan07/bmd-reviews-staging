@@ -34,7 +34,7 @@
 .ExtraCod h2:after {
     content: "";
     position: absolute;
-    left: 0;
+    left: -1px;
     bottom: 0;
     width: 0;
     height: 0;
@@ -311,6 +311,9 @@
 }
 
 @media (max-width:530px) {
+    .FourPassaggiMain strong{
+        font-size: 20px;
+    }
     .roundSection h3{
         font-size: 30px;
     
