@@ -115,21 +115,25 @@
 }
 
 @media screen and (max-width:1025px) {
-    .heroButtonAndTextContainer{
+    .heroButtonAndTextContainer {
         top: 100px;
     }
+
     .buyNow {
         font-size: 1rem;
         padding: .5rem 1.25rem;
         top: 40%
     }
-    .title{
+
+    .title {
         font-size: 100px;
     }
-    .subTitle{
+
+    .subTitle {
         font-size: 22px;
     }
-    .btn{
+
+    .btn {
         position: relative;
         top: 15px;
     }
@@ -145,6 +149,10 @@
 @media screen and (max-width:768px) {
     .heroButtonAndTextContainer {
         top: 30px
+    }
+
+    .title h2 {
+        margin-bottom: 2rem;
     }
 
     .subTitle {
