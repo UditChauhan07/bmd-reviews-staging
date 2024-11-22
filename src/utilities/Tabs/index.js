@@ -7,7 +7,7 @@ import Link from "next/link";
 import ProductsBlogData from "../../../json/productBlog.json";
 
 const Tabs = ({ data, productColorTheme, productString = null }) => {
-  const [isTab] = useMatchMedia("(max-width: 800px)", false);
+  const [isTab] = useMatchMedia("(max-width: 250px)", false);
   const [activeTab, setActiveTab] = useState(0);
   let BlogData = ProductsBlogData[productString];
   if (BlogData) {
