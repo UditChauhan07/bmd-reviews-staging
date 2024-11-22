@@ -78,7 +78,9 @@
     padding: 1rem 2rem;
     pointer-events: all;
     text-transform: uppercase;
-    transition: background .25s, color .25s, border .25s
+    transition: background .25s, color .25s, border .25s;
+    position: relative;
+    top: 25px;
 }
 
 .buyNow {
@@ -113,6 +115,9 @@
 }
 
 @media screen and (max-width:1025px) {
+    .heroButtonAndTextContainer{
+        top: 100px;
+    }
     .buyNow {
         font-size: 1rem;
         padding: .5rem 1.25rem;
@@ -139,7 +144,7 @@
 
 @media screen and (max-width:768px) {
     .heroButtonAndTextContainer {
-        top: 50px
+        top: 30px
     }
 
     .subTitle {
