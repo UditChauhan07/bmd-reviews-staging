@@ -234,7 +234,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
             <>
               <div className={styles.section2} id="section2">
                 {data.priceBox.subscriptionDetails ? (
-                  <div
+                  <div className={styles.modalSection}
                     onClick={openModal}
                     dangerouslySetInnerHTML={{
                       __html: subscriptionDetails,

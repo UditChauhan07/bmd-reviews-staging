@@ -1,1 +1,248 @@
-.heroButtonAndTextContainer{position:absolute;top:220px;pointer-events:none}.holder{position:relative}.conatiner{margin-left:auto;margin-right:auto;max-width:1380px;width:100%}.titleHolder{color:var(--bmd-white);font-family:var(--bmd-font-Secondary);pointer-events:none}.title,.title h2{font-family:var(--bmd-font-Primary);margin-bottom:3rem}.title{animation:1s cubic-bezier(.25,.46,.45,.94) forwards styles_scaleIn__Xxf7L;animation-delay:.5s;color:var(--bmd-white);font-size:126px;font-weight:var(--bmd-Gotham-book);line-height:4rem}.subTitle,.title h2{animation:1s cubic-bezier(.25,.46,.45,.94) forwards styles_scaleIn__Xxf7L;color:var(--bmd-white);font-weight:var(--bmd-Gotham-book)}.btn,.subTitle{font-family:var(--bmd-font-Secondary)}.title h2{font-size:62px;animation-delay:.5s;line-height:2rem;margin-top:3rem}.subTitle{animation-delay:.6s;letter-spacing:.1em;font-size:26px;line-height:1.2em;margin:revert revert 3rem;max-width:800px;width:420px}.btn{background-color:var(--bmd-royal-purple);border-color:var(--bmd-royal-purple);color:#fff;text-transform:capitalize;border-style:solid;border-width:2px;font-size:12px;font-weight:700;line-height:1em;padding:1rem 2rem;pointer-events:all;text-transform:uppercase;transition:background .25s,color .25s,border .25s}.buyNow{position:absolute;top:50%;right:5%;z-index:1;font-weight:400;line-height:1.5;color:#fff;text-align:center;vertical-align:middle;cursor:pointer;background-color:#000;border:1px solid transparent;padding:.7rem 2.5rem;font-size:1.5rem;border-radius:0;transition:color .1s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.buyNow:hover{background-color:#e65300}@media screen and (max-width:1810px){.heroButtonAndTextContainer{position:absolute;top:175px;padding-left:32px}}@media screen and (max-width:1025px){.buyNow{font-size:1rem;padding:.5rem 1.25rem;top:40%}}@media screen and (max-width:900px){.heroButtonAndTextContainer{top:170px;padding-left:1rem}}@media screen and (max-width:768px){.heroButtonAndTextContainer{top:155px}.subTitle{font-size:22px;line-height:1em}.buyNow{top:55%}}@media screen and (max-width:700px){.buyNow{right:4%;top:40%}}@media screen and (max-width:650px){.heroButtonAndTextContainer{top:200px}.title{font-size:75px;line-height:2rem}.subTitle{font-size:18px}}@media screen and (max-width:500px){.subTitle,.title{margin-bottom:1rem}.heroButtonAndTextContainer{top:180px}.title{font-size:50px}.titleHolder{margin-top:45px;margin-bottom:30px}.title h2{font-size:30px;line-height:0}}@media screen and (max-width:425px){.heroButtonAndTextContainer{top:190px}.subTitle{max-width:90vw;font-size:13px;line-height:1.3em;margin-bottom:1rem}.btn{padding:.75rem 1.5rem}.buyNow{top:40%}}@media screen and (max-width:321px){.title{font-size:32px;line-height:0}.title h2{font-size:25px;line-height:0}}
+.heroButtonAndTextContainer {
+    position: absolute;
+    top: 220px;
+    pointer-events: none
+}
+
+.holder {
+    position: relative
+}
+
+.conatiner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%
+}
+
+.titleHolder {
+    color: var(--bmd-white);
+    font-family: var(--bmd-font-Secondary);
+    pointer-events: none
+}
+
+.title,
+.title h2 {
+    font-family: var(--bmd-font-Primary);
+    margin-bottom: 3rem
+}
+
+.title {
+    animation: 1s cubic-bezier(.25, .46, .45, .94) forwards styles_scaleIn__Xxf7L;
+    animation-delay: .5s;
+    color: var(--bmd-white);
+    font-size: 126px;
+    font-weight: var(--bmd-Gotham-book);
+    line-height: 4rem
+}
+
+.subTitle,
+.title h2 {
+    animation: 1s cubic-bezier(.25, .46, .45, .94) forwards styles_scaleIn__Xxf7L;
+    color: var(--bmd-white);
+    font-weight: var(--bmd-Gotham-book)
+}
+
+.btn,
+.subTitle {
+    font-family: var(--bmd-font-Secondary)
+}
+
+.title h2 {
+    font-size: 62px;
+    animation-delay: .5s;
+    line-height: 2rem;
+    margin-top: 3rem
+}
+
+.subTitle {
+    animation-delay: .6s;
+    letter-spacing: .1em;
+    font-size: 26px;
+    line-height: 1.2em;
+    margin: revert revert 3rem;
+    max-width: 800px;
+    width: 420px
+}
+
+.btn {
+    background-color: var(--bmd-royal-purple);
+    border-color: var(--bmd-royal-purple);
+    color: #fff;
+    text-transform: capitalize;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 1rem 2rem;
+    pointer-events: all;
+    text-transform: uppercase;
+    transition: background .25s, color .25s, border .25s;
+    position: relative;
+    top: 25px;
+}
+
+.buyNow {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 1;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid transparent;
+    padding: .7rem 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    transition: color .1s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.buyNow:hover {
+    background-color: #e65300
+}
+
+@media screen and (max-width:1810px) {
+    .heroButtonAndTextContainer {
+        position: absolute;
+        top: 175px;
+        padding-left: 32px
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .heroButtonAndTextContainer {
+        top: 100px;
+    }
+
+    .buyNow {
+        font-size: 1rem;
+        padding: .5rem 1.25rem;
+        top: 40%
+    }
+
+    .title {
+        font-size: 100px;
+    }
+
+    .subTitle {
+        font-size: 22px;
+    }
+
+    .btn {
+        position: relative;
+        top: 15px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .heroButtonAndTextContainer {
+        top: 170px;
+        padding-left: 1rem
+    }
+}
+
+@media screen and (max-width:768px) {
+    .heroButtonAndTextContainer {
+        top: 30px
+    }
+
+    .title h2 {
+        margin-bottom: 2rem;
+    }
+
+    .subTitle {
+        font-size: 22px;
+        line-height: 1em;
+        margin-bottom: 0em;
+    }
+
+    .buyNow {
+        top: 55%
+    }
+}
+
+@media screen and (max-width:700px) {
+    .buyNow {
+        right: 4%;
+        top: 40%
+    }
+}
+
+@media screen and (max-width:650px) {
+    .heroButtonAndTextContainer {
+        top: 200px
+    }
+
+    .title {
+        font-size: 75px;
+        line-height: 2rem
+    }
+
+    .subTitle {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .subTitle,
+    .title {
+        margin-bottom: 1rem
+    }
+
+    .heroButtonAndTextContainer {
+        top: 180px
+    }
+
+    .title {
+        font-size: 50px
+    }
+
+    .titleHolder {
+        margin-top: 45px;
+        margin-bottom: 30px
+    }
+
+    .title h2 {
+        font-size: 30px;
+        line-height: 0
+    }
+}
+
+@media screen and (max-width:425px) {
+    .heroButtonAndTextContainer {
+        top: 190px
+    }
+
+    .subTitle {
+        max-width: 90vw;
+        font-size: 13px;
+        line-height: 1.3em;
+        margin-bottom: 1rem
+    }
+
+    .btn {
+        padding: .75rem 1.5rem
+    }
+
+    .buyNow {
+        top: 40%
+    }
+}
+
+@media screen and (max-width:321px) {
+    .title {
+        font-size: 32px;
+        line-height: 0
+    }
+
+    .title h2 {
+        font-size: 25px;
+        line-height: 0
+    }
+}
