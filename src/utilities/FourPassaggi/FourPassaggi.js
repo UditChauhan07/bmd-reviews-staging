@@ -19,7 +19,7 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>1</h3>
                                 </div>
-                                <strong>Boswellia Serrata</strong>
+                                <strong >Boswellia Serrata</strong>
                                 <p>Nuovo effetto analgesico</p>
                                 <text>Effetto analgesico: La Boswellia Serrata ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.</text>
                             </div>
