@@ -30,7 +30,7 @@ const Tabs = ({ data, productColorTheme, productString = null }) => {
               <div
                 className={styles.tabs}
                 id={"productTab"}
-                style={{ width: `${width}px` }}
+                
               >
                 {data &&
                   data.map((e, i) => {
