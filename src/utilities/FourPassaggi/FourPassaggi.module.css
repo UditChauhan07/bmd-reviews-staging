@@ -133,7 +133,9 @@
     font-size: 48px;
 
 }
-
+.strongText{
+margin-bottom: 100px;
+}
 .content {
     background-color: #ecf0fa98;
     backdrop-filter: blur(2px);
@@ -154,6 +156,7 @@
 .content p {
     color: rgb(0, 0, 0);
     font-size: 18px;
+    margin: 5px 0px;
 }
 
 .content text {
@@ -175,6 +178,7 @@
 .content2 p {
     color: rgb(0, 0, 0);
     font-size: 18px;
+    margin: 5px 0px;
 }
 
 .imgDiv {
