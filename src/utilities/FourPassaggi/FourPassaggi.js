@@ -46,7 +46,7 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>Curcumina</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>Effetto antinfiammatorio: La curcumina riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia</text>
+                                <text>Effetto antinfiammatorio: La curcumina riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia.</text>
                             </div>
                         </div>
                         <div className={styles.imgDiv2}>
@@ -69,7 +69,7 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>Aminoacidi e Rame</strong>
                                 <p>Effetto di rinforzo anabolico</p>
-                                <text>Effetto di rinforzo anabolico: La L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini. La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini</text>
+                                <text>Effetto di rinforzo anabolico: La L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini. La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini.</text>
                             </div>
                         </div>
                         <div className={styles.imgDiv}>
