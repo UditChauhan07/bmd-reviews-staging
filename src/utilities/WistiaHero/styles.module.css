@@ -7,6 +7,9 @@
 .holder {
     position: relative
 }
+.holder video{
+    width: 100%;
+}
 
 .conatiner {
     margin-left: auto;
