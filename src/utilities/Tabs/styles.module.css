@@ -134,8 +134,10 @@
 }
 
 .contents {
+    margin-top: 15px;
     overflow: auto;
-    height: 360px;
+    max-height: 360px;
+    height: auto;
     margin-bottom: 35px
 }
 
@@ -231,7 +233,7 @@
 }
 
 .activeContent {
-    
+    padding: 0px;
     margin: 0 0px;
     
 }
