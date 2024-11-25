@@ -88,7 +88,7 @@ const Tabs = ({ data, productColorTheme, productString = null }) => {
                         ) : (
                           <div
                             className={styles.accordDesc}
-                            style={{ height: "50vh", overflow: "unset" }}
+                            style={{ height: "auto", overflow: "unset" }}
                           >
                             {e.details && (
                               <>
