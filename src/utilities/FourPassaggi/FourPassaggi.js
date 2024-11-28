@@ -44,9 +44,9 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>2</h3>
                                 </div>
-                                <strong>Curcumina</strong>
+                                <strong>Curcuma</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>Effetto antinfiammatorio: La curcumina riduce considerevolmente il danno cellulare nei tendini affetti da tendinopatia.</text>
+                                <text>Effetto antinfiammatorio: La curcumina, principale componente attivo della curcuma, è nota per le sue proprietà antinfiammatorie. Essa agisce riducendo il danno cellulare e lo stress ossidativo nei tendini affetti da tendinopatia, contribuendo al miglioramento della funzionalità e alla riduzione del dolore.</text>
                             </div>
                         </div>
                         <div className={styles.imgDiv2}>
