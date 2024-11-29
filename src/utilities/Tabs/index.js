@@ -7,7 +7,9 @@ import Link from "next/link";
 import ProductsBlogData from "../../../json/productBlog.json";
 
 const Tabs = ({ data, productColorTheme, productString = null }) => {
+
   const [isTab] = useMatchMedia("(max-width: 250px)", false);
+
   const [activeTab, setActiveTab] = useState(0);
   let BlogData = ProductsBlogData[productString];
   if (BlogData) {
@@ -88,7 +90,7 @@ const Tabs = ({ data, productColorTheme, productString = null }) => {
                         ) : (
                           <div
                             className={styles.accordDesc}
-                            style={{ height: "50vh", overflow: "unset" }}
+                            style={{ height: "auto", overflow: "unset" }}
                           >
                             {e.details && (
                               <>
