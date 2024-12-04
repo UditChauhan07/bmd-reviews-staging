@@ -81,9 +81,9 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                     </div>
 
                     <div className={styles.wrapper}>
-                    <h1 className={styles.header}>{content?.heading}</h1>
-                        {content.subHeading && <h1 className={styles.subHeader}>{content.subHeading}</h1>}
-                        <h1 className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</h1>
+                    <h2 className={styles.header}>{content?.heading}</h2>
+                        {content.subHeading && <h2 className={styles.subHeader}>{content.subHeading}</h2>}
+                        <h2 className={styles.subHeader} style={{ color: theme }}>{content.subtitle}</h2>
                         <p className={styles.underHeaderNote}>{content.text}</p>
                         {/* Replace Accordion with a simple list */}
                         <ul className={styles.list}>
