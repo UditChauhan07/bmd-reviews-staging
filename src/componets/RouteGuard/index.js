@@ -11,7 +11,7 @@ function RouteGuard({ children }) {
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
   const [loading, setLoading] = useState(false);
-
+ 
   useEffect(() => {
     // on initial load - run auth check
     let path = router.asPath;
@@ -149,18 +149,17 @@ function RouteGuard({ children }) {
       "/collezioni/sali-minerali",
       "/prodotti/cronos-30-compresse-da-850mg",
       "/collezioni/pre-diabete",
-      "/prodotti/neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g",
-      "/prodotti/nubit-30-compresse-da-850mg",
+      // "/prodotti/neulenic-600-confezione-da-15-compresse-rivestite-da-1-g-peso-netto-15-0-g",
+      // "/prodotti/nubit-30-compresse-da-850mg",
       "/collezioni/reverse-aging",
-      "/prodotti/silverphage-14-individual-wipes",
+      // "/prodotti/silverphage-14-individual-wipes",
+      // "/prodotti/silverphage-crema-gel-50-ml",
       "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml",
       "/collezioni/occhi",
-      "/prodotti/silverphage-crema-gel-50-ml",
       "/prodotti/tendoactive-plus-20-stick",
       "/collezioni/dolore",
       "/collezioni/tutti",
       "/collezioni/salute-della-pelle",
-      "/prodotti/silverphage-crema-gel-50-ml",
       "/account/login",
       "/account/register",
       "/account/forgot-password",
@@ -191,7 +190,8 @@ function RouteGuard({ children }) {
   }
 
   if (loading) {
-    return <Loader2 />;
+    return  <Loader2 />
   }
+  
   return authorized && children;
 }

@@ -34,7 +34,9 @@ import ProductsBlogData from "../../../json/productBlog.json";
 import LandingBlog from "@/utilities/LandingBlog";
 import SciencePage2 from "@/utilities/sciencePage2";
 import data1 from "../../../json/layout.json";
-import RightStickyScroll from "@/utilities/RightStickyScroll/RightStickyScroll";
+import Loader3 from "../../utilities/Loader2/index";
+import FourPassaggi from "@/utilities/FourPassaggi/FourPassaggi";
+
 const LandingPage = ({ version, script, page }) => {
   const [shopifyP, setSProduct] = useState();
   const [rechargeProduct, setRProduct] = useState();
@@ -137,7 +139,7 @@ const LandingPage = ({ version, script, page }) => {
     return (
       <>
         <RewardRemoveScript />
-        <Loader2 />
+        <Loader3 />
       </>
     );
   return (
@@ -201,7 +203,7 @@ const LandingPage = ({ version, script, page }) => {
             </>
           )}
           {PatnerData && <MarkqueCarousel image={PatnerData} />}
-          {/* {pageData?.isSticky && (
+          {/* { {pageData?.isSticky && (
             <StickyPriceBox
               priceDescription={{
                 EXTERNALID: pageData.externalId,
@@ -214,7 +216,7 @@ const LandingPage = ({ version, script, page }) => {
               }}
               variantId={pageData.variantId}
             />
-          )} */}
+          )} } */}
           {pageData?.ImageAside && (
             <ImageAside
               content={pageData.ImageAside}
@@ -262,7 +264,7 @@ const LandingPage = ({ version, script, page }) => {
             />
           )}
 
-          {pageData?.FourStepProcess && (
+          {/* {pageData?.FourStepProcess && (
             <FourStepProcess
               processCards={pageData.FourStepProcess.items}
               theme={pageData.theme}
@@ -271,8 +273,8 @@ const LandingPage = ({ version, script, page }) => {
               buttonTittle={"Leggi di più"}
               centerAlign
             />
-          )}
-
+          )} */}
+<FourPassaggi/>
           {pageData?.Disorder && (
             <Disorder
               content={pageData.Disorder}
@@ -308,7 +310,7 @@ const LandingPage = ({ version, script, page }) => {
               theme={pageData.theme}
             />
           )}
-          {/** <SciencePage2 data={data1["EU"].footer2} /> */}
+           {/* <SciencePage2 data={data1["EU"].footer2} /> */}
           <SciencePage2 data={data1["EU"].footer2} />
           {BlogData?.Blog && (
             <LandingBlog
