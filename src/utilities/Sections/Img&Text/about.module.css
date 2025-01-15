@@ -1,0 +1,355 @@
+.aboutMain {
+    display: flex !important;
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+    gap: 10px;
+    background-color: #F5F5F5;
+}
+
+.part1 {
+    width: 40%;
+}
+
+.part1 img {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover
+}
+
+.part2 {
+    width: 20%;
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+
+.Part2_Scroll p {
+    height: auto;
+    max-height: 250px;
+    overflow: auto;
+    margin-bottom: 2rem;
+}
+
+.Part2_Scroll p::-webkit-scrollbar {
+    width: 3px;
+}
+
+.Part2_Scroll p::-webkit-scrollbar-track {
+    background: #afafaf;
+}
+
+.Part2_Scroll p::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 20px;
+}
+
+.p_content::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+}
+
+
+
+.part2 h2 {
+    font-Family: 'ivypresto-display,Times New Roman,Times,serif';
+    text-align: left;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 46px;
+}
+
+.part2 p {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Gotham', sans-serif;
+    padding: 0 15px 0 0;
+
+}
+
+.part3 {
+    width: 40%;
+}
+
+.part3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dottedDiv {
+    /* margin-top: 2rem; */
+    border: 3px dashed #C7C7C7;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 85%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.dottedDiv p {
+    font-family: Gotham-Book, Arial, serif;
+    padding: 8px;
+    font-size: 16px;
+    color: #000000;
+    height: auto;
+    max-height: 130px;
+    overflow: auto;
+    margin: 10px;
+    text-align: left;
+}
+
+.dottedDiv p::-webkit-scrollbar {
+    width: 3px;
+}
+
+.dottedDiv p::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dottedDiv p::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.dottedDiv p::-webkit-scrollbar-thumb:hover {
+    background-color: #000000;
+}
+
+.nextArrow,
+.prevArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F4F4F4;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.nextArrow:hover {
+    background-color: #000000;
+
+}
+
+.prevArrow:hover {
+    background-color: #000000;
+
+}
+
+.nextArrow {
+    right: 10px;
+}
+
+.prevArrow {
+    left: 10px;
+}
+
+.prevArrow:hover svg path {
+    stroke: white;
+    fill: white;
+}
+
+.nextArrow:hover svg path {
+    stroke: white;
+    fill: white;
+}
+
+.readMore {
+    color: #56008C;
+    font-size: 14px;
+}
+
+.sliderContainer {
+    position: relative;
+}
+
+.custom_btnDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.sliderButton {
+    pointer-events: fill;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #cbc8c8;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderButton:hover {
+    background-color: black;
+
+}
+
+.sliderButton:hover svg path {
+    stroke: white;
+    fill: white;
+}
+
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+
+    .part2 h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .dottedDiv p {
+        /* font-size: 22px; */
+        max-height: 215px;
+    }
+}
+
+
+@media(max-width:2000px) {
+    .part3 {
+        width: 37.5%;
+    }
+
+    .part2 {
+        max-height: 330px;
+        width: 25%;
+    }
+
+    .part1 {
+
+        width: 37.5%;
+    }
+
+}
+
+
+
+
+@media (max-width:1380px){
+    .Part2_Scroll p {
+        height: 180px;
+    }
+}
+
+@media (max-width:1024px) {
+    .part2 h2 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .part2 p {
+        font-size: 16px;
+        height: 100px;
+
+    }
+    
+
+    .dottedDiv p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:990px) {
+    .part2 h2 {
+        font-size: 34px;
+    }
+
+    .part2 p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .part2 {
+        padding: 10px;
+    }
+
+    .part2 h2 {
+        line-height: normal;
+        font-size: 28px;
+    }
+
+    .part2 p {
+        font-size: 14px;
+    }
+
+    .part1 img {
+        min-height: 380px;
+    }
+
+    .part3 img {
+        min-height: 380px;
+    }
+
+}
+
+@media(max-width:600px) {
+    .aboutMain {
+        display: grid !important;
+        margin-top: 3rem;
+    }
+
+    .part1 {
+        width: 100%;
+    }
+
+    .part1 img {
+        min-height: 200px;
+    }
+
+    .part2 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .Part2_Scroll {
+        max-height: 150px;
+        min-height: 150px;
+
+    }
+
+    .Part2_Scroll p {
+        max-height: 80px;
+
+    }
+
+    .part3 {
+        width: 100%;
+    }
+
+    .part3 img {
+        min-height: 200px;
+    }
+
+    .custom_btnDiv {
+        bottom: -7%;
+        /* top: 100%; */
+        top: 104.5%;
+        justify-content: space-evenly;
+    }
+
+    .dottedDiv p {
+        max-height: 80px;
+    }
+}
+
+@media (max-width:320px) {
+    .custom_btnDiv {
+        top: 105%;
+
+    }
+}

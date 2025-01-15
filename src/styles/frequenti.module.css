@@ -1,1 +1,115 @@
-.title,.titleDesc{font-family:'ivypresto-display,Times New Roman,Times,serif'}.container{margin-left:auto;margin-right:auto;max-width:1380px;width:100%}.holder{grid-gap:4rem;display:grid;grid-template-columns:auto auto auto;padding:2rem}.title{font-size:24px;font-weight:400;margin-bottom:1rem;padding-left:5px}@media (max-width:1023px){.holder{grid-template-columns:auto auto}}@media (max-width:510px){.holder{grid-template-columns:auto}}.titleDesc{font-size:16px;max-width:400px}@media (max-width:420px){.titleDesc{max-width:300px;margin:auto}}
+/* .title,
+.titleDesc {
+    font-family: 'ivypresto-display,Times New Roman,Times,serif'
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%
+}
+
+.holder {
+    grid-gap: 4rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    padding-left: 5px
+}
+
+@media (max-width:1023px) {
+    .holder {
+        grid-template-columns: auto auto
+    }
+}
+
+@media (max-width:510px) {
+    .holder {
+        grid-template-columns: auto
+    }
+}
+
+.titleDesc {
+    font-size: 16px;
+    max-width: 400px
+}
+
+@media (max-width:420px) {
+    .titleDesc {
+        max-width: 300px;
+        margin: auto
+    }
+} */
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1380px;
+    width: 100%;
+}
+.desc{
+  
+    /* max-width: 656px; */
+    width: 100%;
+    padding: 4rem 20px 2rem;
+    margin: auto;
+}
+.desc h2{
+    font-family: var(--bmd-font-Primary);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .desc h2{
+        font-size: 48px;
+        width: 100%;
+        line-height: 55px;
+        padding-inline: 0px;
+    }
+
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .desc h2{
+        padding-inline: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* .desc{
+        font-size: 22px;
+        padding: 4rem 16px 2rem;
+    } */
+    .desc h2{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 768px) {
+  
+        .desc h2{
+            font-size: 30px;
+        }
+ 
+}
+@media screen and (max-width: 500px) {
+.desc{
+    width: 100%;
+  
+
+}
+.desc h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+}
