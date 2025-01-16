@@ -129,7 +129,7 @@ const TimeLine = ({ data, layout }) => {
 
       <div className={styles.paginationContainer}>
         <div className={styles.paginationDiv}>
-          <svg className={styles.prevButton} onClick={prevSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.prevButton}  onClick={prevSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.1797 28.4039L23.5406 17.043L34.9015 28.4039" stroke="#56008C" stroke-width="2" />
           </svg>
 
