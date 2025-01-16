@@ -266,6 +266,7 @@
 
     .part2 p {
         font-size: 14px;
+        max-height: 150px;
     }
 
     .part1 img {
@@ -316,6 +317,7 @@
     }
 
     .custom_btnDiv {
+        position: relative;
         /* bottom: -7%; */
         margin-top: 3rem;
         top: 100%;
