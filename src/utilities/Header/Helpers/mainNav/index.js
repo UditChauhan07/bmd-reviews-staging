@@ -47,11 +47,20 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
     setIsMobileNavOpen(value);
   };
 
-  const [logInText, setLogIntext] = useState(iconLink.login?.title);
-  const [logInLink, setLogInLink] = useState(
-    AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url
-  );
-
+  const [logInText, setLogIntext] = useState(() => {
+    const storedText = localStorage.getItem("logInText");
+    return storedText || (AuthCheck() ? "" : iconLink.login?.title);
+  });
+  
+  const [logInLink, setLogInLink] = useState(() => {
+    const storedLink = localStorage.getItem("logInLink");
+    return storedLink || (AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url);
+  });
+  
+  // const handleLoginClick = () => {
+  //   router.push(iconLink.login?.url);
+  // };
+  const isLoginPage = router.pathname === iconLink.login?.url;
   const handleSearchSubmit = React.useCallback(
     (query) => router.push(`/search?q=${query}`),
     [router]
@@ -129,17 +138,19 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
               </div>
               <div className={styles.iconContainer}>
                 *  <div onClick={() => setIsSearchOpened(true)}>
-              <SearchBox />
-              </div> *
+                  <SearchBox />
+                </div> *
                 <div>
                   <div className={styles.loginButton}>
-                    <a
-                      href={logInLink}
-                      className={styles.btnLink1}
-                      alt="customer login"
-                    >
-                      <span className={styles.loginText}>{logInText}</span>
-                    </a>
+                  {!isLoginPage && (
+                 <a
+                 href={logInLink}
+                 className={styles.btnLink1}
+                 alt="customer login"
+               >
+                 <span className={styles.loginText}>{logInText}</span>
+               </a>
+                )}
                     <div
                       onClick={() => (window.location.href = cartUrl)}
                       className={styles.btnLink}
