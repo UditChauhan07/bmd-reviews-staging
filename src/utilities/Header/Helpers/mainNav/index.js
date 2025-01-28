@@ -53,6 +53,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
   const [logInLink, setLogInLink] = useState(
     AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url
   );
+  const isAccountPage = router.pathname.includes('/account')
   const handleLoginClick = () => {
     router.push(iconLink.login?.url);
   };
@@ -138,7 +139,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
                 </div> *
                 <div>
                   <div className={styles.loginButton}>
-                  {!isLoginPage && (
+                  {!isLoginPage && !isAccountPage &&(
                   <p
                     onClick={handleLoginClick}
                     // className={styles.btnLink}

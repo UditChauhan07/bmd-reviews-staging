@@ -10,10 +10,11 @@ import SEO from '../../../json/SEO.json'
 
 const LoginForm = ({ version }) => {
   let router=useRouter()
-  if(AuthCheck()){
-    // window.location.href = '/account'
-    router.push('/account')
-  }
+  React.useEffect(() => {
+    if (AuthCheck()) {
+      router.replace('/account');
+    }
+  }, []);
  
   const [loginErrors, setLoginErrors] = React.useState();
   const [loginFields, setLoginFields] = React.useState({
@@ -23,21 +24,27 @@ const LoginForm = ({ version }) => {
   const [loginInProgress, setLoginInProgress] = React.useState(false);
 
   const handleSubmit = async (event) => {
-    console.log({loginFields});
     event.preventDefault();
-    GetUserDetails({loginFields}).then((response)=>{
-      if(response?.data.customerAccessTokenCreate.customerUserErrors.length >0){
-        setLoginErrors(response?.data.customerAccessTokenCreate.customerUserErrors)
-      }
-      if(response?.data?.customerAccessTokenCreate.customerAccessToken){
-        Encrypt(response.data.customerAccessTokenCreate.customerAccessToken);
-        router.push('/account')
-      }
-    }).catch((err)=>{
-      console.log({err});
-    })
     setLoginErrors(null);
-    // setLoginInProgress(true);
+    setLoginInProgress(true);
+
+    try {
+      const response = await GetUserDetails({ loginFields });
+      const errors = response?.data.customerAccessTokenCreate.customerUserErrors;
+      const token = response?.data?.customerAccessTokenCreate.customerAccessToken;
+
+      if (errors?.length) {
+        setLoginErrors(errors);
+      } else if (token) {
+        Encrypt(token);
+        router.push('/account');
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+      setLoginErrors([{ message: "An unexpected error occurred. Please try again." }]);
+    } finally {
+      setLoginInProgress(false);
+    }
   };
  
 
