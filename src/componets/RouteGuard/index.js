@@ -35,9 +35,6 @@ function RouteGuard({ children }) {
         let split = removeStr[1].split("/");
 
         if (split.length == 2 || split.length == 3) {
-          // Immediately clean the URL before processing
-          router.replace("/loading", undefined, { shallow: true });
-
           GetUserDetails({
             loginFields: { email: atob(split[0]), password: atob(split[1]) },
           })
