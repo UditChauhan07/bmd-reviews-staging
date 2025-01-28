@@ -26,7 +26,7 @@ function RouteGuard({ children }) {
       if (statusValue == 1) {
         Destroy(router);
       } else {
-        window.location.href = "https://brunomd.eu/account";
+        window.location.href = "https://www.brunomd.eu/account";
       }
     }
     if (autologin.length == 2) {
