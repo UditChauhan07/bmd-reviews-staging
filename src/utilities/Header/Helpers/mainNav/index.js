@@ -47,19 +47,15 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
     setIsMobileNavOpen(value);
   };
 
-  const [logInText, setLogIntext] = useState(() => {
-    const storedText = localStorage.getItem("logInText");
-    return storedText || (AuthCheck() ? "" : iconLink.login?.title);
-  });
-  
-  const [logInLink, setLogInLink] = useState(() => {
-    const storedLink = localStorage.getItem("logInLink");
-    return storedLink || (AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url);
-  });
-  
-  // const handleLoginClick = () => {
-  //   router.push(iconLink.login?.url);
-  // };
+  const [logInText, setLogIntext] = useState(
+    AuthCheck() ? "" : iconLink.login?.title
+  );
+  const [logInLink, setLogInLink] = useState(
+    AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url
+  );
+  const handleLoginClick = () => {
+    router.push(iconLink.login?.url);
+  };
   const isLoginPage = router.pathname === iconLink.login?.url;
   const handleSearchSubmit = React.useCallback(
     (query) => router.push(`/search?q=${query}`),
@@ -143,13 +139,15 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
                 <div>
                   <div className={styles.loginButton}>
                   {!isLoginPage && (
-                 <a
-                 href={logInLink}
-                 className={styles.btnLink1}
-                 alt="customer login"
-               >
-                 <span className={styles.loginText}>{logInText}</span>
-               </a>
+                  <p
+                    onClick={handleLoginClick}
+                    // className={styles.btnLink}
+                    alt="customer login"
+                  >
+                    <span className={styles.loginText}>
+                      {iconLink.login?.title}
+                    </span>
+                  </p>
                 )}
                     <div
                       onClick={() => (window.location.href = cartUrl)}
