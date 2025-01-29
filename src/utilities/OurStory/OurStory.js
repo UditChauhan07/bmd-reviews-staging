@@ -15,7 +15,7 @@ const OurStory = () => {
 
     const settings = {
         dots: false,
-        infinite: true,
+        infinite: true ,
         speed: 1500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -72,7 +72,7 @@ const OurStory = () => {
                         </div>
                         <div className={styles.part2}>
                             <div className={styles.Part2_Scroll}>
-                                <h2>{slide.title}</h2>
+                                <h2>{slide.title} </h2>
                                 <p>{slide.text}</p>
                             </div>
                             <div className={styles.dottedDiv}>
