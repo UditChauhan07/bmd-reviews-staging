@@ -87,10 +87,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    /* .desc{
-        font-size: 22px;
-        padding: 4rem 16px 2rem;
-    } */
+
     .desc h2{
         font-size: 38px;
     }

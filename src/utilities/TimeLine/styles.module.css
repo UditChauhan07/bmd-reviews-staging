@@ -1,260 +1,279 @@
 .SliderImg {
-    position: relative;
-    text-align: center;
-  }
-  
-  .SliderImg img {
-    /* border: 1px solid black; */
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    border-radius: 50%;
-    width: 30%;
-    height: auto;
-    display: block;
-    margin: 1rem;
-  }
-  
-  .sliderText {
-    position: absolute;
-    width: 40%;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    text-align: left;
-  }
-  
-  .sliderText p {
-    color: #000000;
-    font-size: 20px;
-    font-family: 'Gotham', sans-serif;
-    margin-bottom: 0rem;
-  }
-  
-  .sliderText h2 {
-    font-size: 40px;
-    font-family: "ivypresto-display", "Times New Roman", Times, serif;
-    color: #56008C;
-    margin-bottom: 0.5rem;
-  
-  }
-  
-  
-  
+  position: relative;
+  text-align: center;
+}
+
+.SliderImg img {
+  /* border: 1px solid black; */
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 1rem;
+}
+
+.sliderText {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: left;
+}
+
+.sliderText p {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Gotham', sans-serif;
+  margin-bottom: 0rem;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.sliderText p::-webkit-scrollbar {
+  width: 3px;
+}
+
+.sliderText p::-webkit-scrollbar-track {
+  background: #7a7a7a;
+}
+
+.sliderText p::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 20px;
+}
+
+.sliderText p::-webkit-scrollbar-thumb:hover {
+  background: #828282;
+}
+
+.sliderText h2 {
+  font-size: 40px;
+  font-family: "ivypresto-display", "Times New Roman", Times, serif;
+  color: #56008C;
+  margin-bottom: 0.5rem;
+
+}
+
+
+
+.paginationContainer {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.paginationDiv {
+  display: grid;
+}
+
+.prevButton,
+.nextButton {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: -34px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.pagination::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #000000;
+  right: 158px;
+  z-index: -1;
+}
+
+.pagination button {
+  background-color: #ffffff00;
+  border: none;
+  margin: 2px 0;
+  padding: 0px 0px;
+  cursor: pointer;
+  color: #56008C;
+  width: 135px;
+  font-size: 18px;
+  font-family: 'Gotham', sans-serif;
+}
+
+.activeButton {
+  position: relative;
+  color: #56008C;
+  transition: 0.8s;
+}
+
+.dot {
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background-color: #56008C;
+  border-radius: 50%;
+  display: none;
+  transition: 0.8s;
+}
+
+.activeButton .dot {
+  display: inline-block;
+  transition: 0.8s;
+}
+
+.sliderContainer {
+  position: relative;
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
   .paginationContainer {
-    position: absolute;
-    top: 50%;
-    right: 2rem;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 3rem;
+    right: 6rem;
   }
-  
-  .paginationDiv {
-    display: grid;
+
+  .sliderText p {
+    font-size: 40px;
+    overflow: auto;
+    max-height: 300px;
   }
-  
+
+  .pagination button {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width:1200px) {
+  .paginationContainer {
+    right: -1rem;
+  }
+
+  .pagination button {
+    font-size: 16px;
+  }
+
   .prevButton,
   .nextButton {
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    right: -34px;
+    right: -40px;
   }
-  
-  .pagination {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+}
+
+@media(max-width:768px) {
+  .paginationContainer {
+    right: 0rem;
   }
-  
-  .pagination::after {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 100%;
-    background-color: #000000;
-    right: 158px;
-    z-index: -1;
+
+  .sliderText h2 {
+    font-size: 30px;
   }
-  
+
+  .sliderText p {
+    font-size: 16px;
+  }
+
   .pagination button {
-    background-color: #ffffff00;
-    border: none;
-    margin: 2px 0;
-    padding: 0px 0px;
-    cursor: pointer;
-    color: #56008C;
-    width: 135px;
-    font-size: 18px;
-    font-family: 'Gotham', sans-serif;
+    margin: 0.5px 0px;
   }
-  .activeButton {
-    position: relative;
-    color: #56008C;
-    transition: 0.8s;
-  }
-  
-  .dot {
+
+  .paginationDiv {
+    right: 0;
     position: absolute;
-    left: -2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 18px;
-    height: 18px;
-    background-color: #56008C;
-    border-radius: 50%;
-    display: none;
-    transition: 0.8s;
   }
-  
-  .activeButton .dot {
-    display: inline-block;
-    transition: 0.8s;
+
+  .prevButton,
+  .nextButton {
+    cursor: pointer;
+    margin-bottom: 0px;
+    right: -45px;
   }
-  
-  .sliderContainer {
-    position: relative;
+}
+
+@media(max-width:767px) {
+  .paginationContainer {
+    display: none !important;
   }
-  
-  @media (min-width: 1920px) and (max-width: 2560px) {
-    .paginationContainer {
-      right: 6rem;
-    }
-  
-    .sliderText p {
-      font-size: 40px;
-    }
-  
-    .pagination button {
-      font-size: 22px !important;
-    }
-  
-    .sliderText p {
-      font-size: 46px;
-    }
-  
+
+  .sliderText {
+    width: 50%;
+    transform: translate(-30%, -50%);
+    text-align: left;
   }
-  
-  @media (max-width:1200px) {
-    .paginationContainer {
-      right: -1rem;
-    }
-  
-    .pagination button {
-      font-size: 16px;
-    }
-  
-    .prevButton,
-    .nextButton {
-      right: -40px;
-    }
+
+  .sliderText p {
+    font-size: 16px;
   }
-  
-  @media(max-width:768px) {
-    .paginationContainer {
-      right: 0rem;
-    }
-  
-    .sliderText h2 {
-      font-size: 30px;
-    }
-  
-    .sliderText p {
-      font-size: 16px;
-    }
-  
-    .pagination button {
-      margin: 0.5px 0px;
-    }
-  
-    .paginationDiv {
-      right: 0;
-      position: absolute;
-    }
-  
-    .prevButton,
-    .nextButton {
-      cursor: pointer;
-      margin-bottom: 0px;
-      right: -45px;
-    }
+}
+
+@media (max-width:600px) {
+  .SliderImg img {
+    width: 45%;
+    margin: 0.5rem;
   }
-  
-  @media(max-width:767px) {
-    .paginationContainer {
-      display: none !important;
-    }
-  
-    .sliderText {
-      width: 50%;
-      transform: translate(-30%, -50%);
-      text-align: left;
-    }
-  
-    .sliderText p {
-      font-size: 16px;
-    }
+
+  .sliderText h2 {
+    font-size: 24px;
   }
-  
-  @media (max-width:600px) {
-    .SliderImg img {
-      width: 45%;
-      margin: 0.5rem;
-    }
-  
-    .sliderText h2 {
-      font-size: 24px;
-    }
-  
-    .sliderText p {
-      font-size: 13px;
-      overflow: auto;
-      max-height: 100px;
-    }
-  
-    .sliderText {
-      width: 45%;
-      height: auto;
-      transform: translate(-10%, -50%);
-    }
+
+  .sliderText p {
+    font-size: 13px;
+    overflow: auto;
+    max-height: 100px;
   }
-  
-  @media (max-width:425px){
-    .SliderImg img {
-      width: 50%;
-    }
-    .sliderText {
-      transform: translate(0%, -50%);
-    }
+
+  .sliderText {
+    width: 45%;
+    height: auto;
+    transform: translate(-10%, -50%);
   }
-  
-  @media (max-width:375px) {
-    .sliderText h2 {
-      font-size: 16px;
-    }
-    .SliderImg img {
-      width: 60%;
-    }
-  
-    .sliderText {
-      width: 35%;
-      transform: translate(25%, -50%);
-    }
-  
-    .sliderText p {
-      font-size: 10px;
-    }
+}
+
+@media (max-width:425px) {
+  .SliderImg img {
+    width: 50%;
   }
-  
-  @media (max-width:320px) {
-  
-    .sliderText h2 {
-      font-size: 14px;
-    }
+
+  .sliderText {
+    transform: translate(0%, -50%);
   }
+}
+
+@media (max-width:375px) {
+  .sliderText h2 {
+    font-size: 16px;
+  }
+
+  .SliderImg img {
+    width: 60%;
+  }
+
+  .sliderText {
+    width: 35%;
+    transform: translate(25%, -50%);
+  }
+
+  .sliderText p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:320px) {
+
+  .sliderText h2 {
+    font-size: 14px;
+  }
+}

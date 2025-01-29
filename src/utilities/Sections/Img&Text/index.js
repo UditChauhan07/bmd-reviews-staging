@@ -91,7 +91,7 @@ const ImgText = () => {
         <section id='aboutPage' className={styles.sliderContainer}>
             <Slider {...settings} ref={sliderRef}>
                 {slidesData.map((slide, index) => (
-                    <div className={styles.aboutMain} key={index}>
+                    <div className={styles.aboutMain}  key={index}>
                         <div className={styles.part1}>
                             <img src={slide.image1} alt={`Slide ${index + 1}`} />
                         </div>

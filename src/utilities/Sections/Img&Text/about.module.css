@@ -207,12 +207,11 @@
 @media (min-width: 1920px) and (max-width: 2560px) {
 
     .part2 h2 {
-        font-size: 60px;
-        line-height: 80px;
+        font-size: 48px;
+        line-height:60px;
     }
 
     .dottedDiv p {
-        /* font-size: 22px; */
         max-height: 215px;
     }
 }
@@ -246,7 +245,7 @@
 
 @media (max-width:1024px) {
     .part2 h2 {
-        font-size: 36px;
+        font-size: 28px;
         line-height: normal;
     }
 
