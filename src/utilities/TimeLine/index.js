@@ -73,7 +73,7 @@ const TimeLine = ({ data, layout }) => {
     speed: 1500,
     autoplaySpeed: 3000,
     slidesToShow: 1,
-    autoplay: true,
+    autoplay: false,
     slidesToScroll: 1,
     // vertical: true, 
     // verticalSwiping: true,

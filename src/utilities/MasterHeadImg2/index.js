@@ -10,7 +10,7 @@ const MasterHeadImg2 = ({ data }) => {
         <section id='MasterHeadImg'>
         <div className={styles.container}>
             <div className={styles.firstCarousel}>
-                <Carousel  interval={4000} controls={true} pause={true} className={styles.carousel} >
+                <Carousel  interval={4000} controls={true} pause={false} className={styles.carousel} >
                     {/* <Carousel.Item>
                         <div className={styles.our_Carousel}>
                             <img src="/images/BMD-GG-P1107585+_Masthead.webp" alt="First slide" />
