@@ -341,6 +341,8 @@ export async function getCustomerDetails({ token, setCustomer }) {
   });
 
   let data = JSON.parse(await response.text());
+  console.log(data,"customers--->");
+  
   if (data?.data) {
     let cdata = JSON.parse(data.data);
     return cdata;

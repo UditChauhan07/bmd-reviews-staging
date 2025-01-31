@@ -148,16 +148,20 @@ const ModalBoxInner = ({
   };
 
   // Function to hide the modal
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
-  if (isModalOpen) {
-    document.body.style.overflow = "hidden";
-    document.documentElement.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-    document.documentElement.style.overflow = "auto";
-  }
+  useEffect(()=>{
+    const handleCloseModal = () => {
+      setIsModalOpen(false);
+    };
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+    handleCloseModal();
+  })
+ 
 
   return (
     <section>
