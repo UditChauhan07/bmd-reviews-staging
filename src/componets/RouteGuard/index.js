@@ -8,6 +8,8 @@ import Loader2 from "../../utilities/Loader/index2";
 export { RouteGuard };
 
 function RouteGuard({ children }) {
+  // console.log(children,"dddd---->");
+  
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -26,7 +28,7 @@ function RouteGuard({ children }) {
       if (statusValue == 1) {
         Destroy(router);
       } else {
-        window.location.href = "https://www.brunomd.eu/account";
+        window.location.href = "https://brunomd.eu/account";
       }
     }
     if (autologin.length == 2) {
