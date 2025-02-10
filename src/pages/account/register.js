@@ -36,6 +36,8 @@ const RegisterForm = () => {
         // router.push("/account/login")
         window.location.href = "https://www.brunomd.eu/account/login"
       }
+
+      
       if(response?.errors){
         setRegisterErrors(response?.errors)
       }
