@@ -51,7 +51,7 @@ export default function Contattaci({ version,script }) {
           <div className={styles.form}>
             <form>
               <div className={styles.formGroup} id="contactForm">
-                {isSubmitted && (
+                {/* {isSubmitted && (
                   <p className={styles.successMessage}>
                     Thanks for contacting us. We&apos;ll get back to you as soon
                     as possible.
@@ -105,7 +105,7 @@ export default function Contattaci({ version,script }) {
                 </label>
                 <button className={styles.cta} type="submit">
                   Invia
-                </button>
+                </button> */}
               </div>
               <div className={styles.contPrivacy}>
                 {term && (
