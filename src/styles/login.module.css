@@ -1,1 +1,74 @@
-.loginForm{display:flex;flex-direction:column;text-align:center;max-width:460px;width:100%;margin:auto;padding:0 8px}.loginInput{height:40px;margin-bottom:18px;padding:8px}.loginLabel{font-family:Gotham-Book,Arial,serif;font-size:16px;font-weight:400;margin-bottom:4px;text-align:left}.loginButton,.loginButton2{font-family:Gotham-Book,Arial,serif;font-size:12px;font-weight:700;color:#fff;line-height:1.2em;background:#000;border:1px solid #000;cursor:pointer;text-transform:uppercase;padding:1rem 2rem;transition:.25s;margin:16px auto}.loginButton{max-width:120px}.loginButton2:hover,.loginButton:hover{background-color:var(--bmd-deep-purple)}.loginButton2{max-width:170px}.loginHeader{text-align:center;font-family:ivypresto-display,Times New Roman,Times,serif;font-size:36px;font-weight:400;margin:0 auto 1rem;line-height:44px}.secondaryCTA,.secondaryCTA2{font-family:var(--bmd-font-Secondary);text-decoration:underline;font-size:1rem}.loginFormSection{min-height:50vh;padding-top:32px}.secondaryCTA2{margin-top:10px}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 460px;
+    width: 100%;
+    margin: auto;
+    padding: 0 8px;
+  }
+  .loginInput {
+    height: 40px;
+    margin-bottom: 18px;
+    padding: 8px;
+  }
+  .loginLabel {
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+  .loginButton,
+  .loginButton2 {
+    font-family: Gotham-Book, Arial, serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2em;
+    background: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    transition: 0.25s;
+    margin: 16px auto;
+  }
+  .loginButton {
+    max-width: 120px;
+  }
+  .loginButton2:hover,
+  .loginButton:hover {
+    background-color: var(--bmd-deep-purple);
+  }
+  .loginButton2 {
+    max-width: 170px;
+  }
+  .loginHeader {
+    text-align: center;
+    font-family: ivypresto-display, Times New Roman, Times, serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 auto 1rem;
+    line-height: 44px;
+  }
+  .secondaryCTA,
+  .secondaryCTA2 {
+    font-family: var(--bmd-font-Secondary);
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  .loginFormSection {
+    min-height: 50vh;
+    padding-top: 32px;
+  }
+  .secondaryCTA2 {
+    margin-top: 10px;
+  }
+  .error{
+    color: rgb(248, 69, 69);
+    text-align: justify;
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+    font-family: Gotham-Book, Arial, serif
+    }
