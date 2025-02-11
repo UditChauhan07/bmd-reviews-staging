@@ -138,6 +138,7 @@ const Carrelo = () => {
             description: "BrunoMD carrello della spesa",
           }}
         />
+        
         <div className={styles.cartContainerHolder}>
           {cartData.lineItems?.length ? (
             <CartItemList
