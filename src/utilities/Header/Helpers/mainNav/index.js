@@ -20,6 +20,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
   let [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   let cartUrl = iconLink?.cart || null;
   const [itemNumber, setItemNumber] = useState(0);
+
   const router = useRouter();
   useEffect(() => {
     CartItemNumber()
@@ -47,17 +48,11 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
     setIsMobileNavOpen(value);
   };
 
-  const [logInText, setLogIntext] = useState(
-    AuthCheck() ? "" : iconLink.login?.title
-  );
+  const [logInText, setLogIntext] = useState(iconLink.login?.title);
   const [logInLink, setLogInLink] = useState(
     AuthCheck() ? iconLink.login?.Authurl : iconLink.login?.url
   );
-  const isAccountPage = router.pathname.includes('/account')
-  const handleLoginClick = () => {
-    router.push(iconLink.login?.url);
-  };
-  const isLoginPage = router.pathname === iconLink.login?.url;
+
   const handleSearchSubmit = React.useCallback(
     (query) => router.push(`/search?q=${query}`),
     [router]
@@ -70,6 +65,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
       />
     );
   }
+  
   if (!isMobileNavOpen)
     return (
       <div className={styles.navContainer}>
@@ -135,21 +131,17 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
               </div>
               <div className={styles.iconContainer}>
                 *  <div onClick={() => setIsSearchOpened(true)}>
-                  <SearchBox />
-                </div> *
+              <SearchBox />
+              </div> *
                 <div>
                   <div className={styles.loginButton}>
-                  {!isLoginPage && !isAccountPage &&(
-                  <p
-                    onClick={handleLoginClick}
-                    // className={styles.btnLink}
-                    alt="customer login"
-                  >
-                    <span className={styles.loginText}>
-                      {iconLink.login?.title}
-                    </span>
-                  </p>
-                )}
+                    <a
+                      href={logInLink}
+                      className={styles.btnLink1}
+                      alt="customer login"
+                    >
+                      <span className={styles.loginText}>{logInText}</span>
+                    </a>
                     <div
                       onClick={() => (window.location.href = cartUrl)}
                       className={styles.btnLink}
