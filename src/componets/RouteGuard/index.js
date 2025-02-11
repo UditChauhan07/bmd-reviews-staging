@@ -8,6 +8,8 @@ import Loader2 from "../../utilities/Loader/index2";
 export { RouteGuard };
 
 function RouteGuard({ children }) {
+  // console.log(children,"dddd---->");
+  
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -92,7 +94,7 @@ function RouteGuard({ children }) {
       let check = router.asPath.split("#");
       let check1 = check[0].split("?");
       if (check1[0] == "/account/login") {
-        window.location.href = "https://www.brunomd.eu/account/login";
+        // window.location.href = "https://www.brunomd.eu/account/login";
       }
       if (check1[0] == "/pages/joy-loyalty-page") {
         window.location.href = "https://www.brunomd.eu/pages/joy-loyalty-page";

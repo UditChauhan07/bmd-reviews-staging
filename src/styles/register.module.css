@@ -1,1 +1,59 @@
-.registerButton,.registerLabel{font-family:Gotham-Book,Arial,serif}.registerForm{display:flex;flex-direction:column;text-align:center;width:100%;margin:auto;max-width:460px;padding:0 8px}.registerInput{height:40px}.registerLabel{font-size:16px;font-weight:400;margin-bottom:5px;text-align:left}.registerButton{font-size:12px;font-weight:700;color:#fff;line-height:1.2em;background:#000;border:1px solid #000;cursor:pointer;text-transform:uppercase;padding:1rem 2rem;transition:.25s;max-width:120px;margin:30px auto auto}.registerButton:hover{background-color:var(--bmd-deep-purple)}.registerHeader{text-align:center;font-family:ivypresto-display,Times New Roman,Times,serif;font-size:36px;font-weight:400;margin:1rem auto}@media (max-width:420px){.registerHeader{font-size:32px}}
+
+.registerButton,
+.registerLabel {
+  font-family: Gotham-Book, Arial, serif;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  max-width: 460px;
+  padding: 0 8px;
+}
+.registerInput {
+  height: 40px;
+}
+.registerLabel {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.registerButton {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2em;
+  background: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  transition: 0.25s;
+  max-width: 120px;
+  margin: 30px auto auto;
+}
+.registerButton:hover {
+  background-color: var(--bmd-deep-purple);
+}
+.registerHeader {
+  text-align: center;
+  font-family: ivypresto-display, Times New Roman, Times, serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+.error{
+color: rgb(248, 69, 69);
+text-align: justify;
+margin-top: 5px;
+margin-bottom: 10px;
+font-family: Gotham-Book, Arial, serif
+}
+@media (max-width: 420px) {
+  .registerHeader {
+    font-size: 32px;
+  }
+}

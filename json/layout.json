@@ -78,8 +78,8 @@
                             "url": "/collezioni/sali-minerali"
                         },
                         {
-                            "name": "Nubit",
-                            "url": "/prodotti/nubit-30-compresse-da-850mg"
+                            "name": "",
+                            "url": ""
                         },
                         {
                             "name": "Tendoactive Plus",
@@ -94,12 +94,12 @@
                             "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
                         },
                         {
-                            "name": "Silverphage Crema Gel",
-                            "url": "/prodotti/silverphage-crema-gel-50-ml"
+                            "name": "",
+                            "url": ""
                         },
                         {
-                            "name": "Silverphage Garze Monouso",
-                            "url": "/prodotti/silverphage-14-individual-wipes"
+                            "name": "",
+                            "url": ""
                         }
                     ]
                 },
@@ -198,7 +198,7 @@
         "cartLink": "/carrello",
         "login": {
             "title": "Accedi",
-            "url": "https://www.brunomd.eu/account/login",
+            "url": "/account/login",
             "Authurl": "/account"
         },
         "footer2": {
