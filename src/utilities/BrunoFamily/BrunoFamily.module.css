@@ -1,0 +1,264 @@
+.family_main {
+    background-color: #F5F5F5;
+    padding: 3rem 0px;
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    height: auto;
+
+}
+
+.bruno_family {
+    display: flex !important;
+    width: 100%;
+    max-width: 1380px;
+    padding: 0px 20px;
+}
+
+.bruno_img1 {
+    width: 50%;
+}
+
+.Bruno_content {
+    width: 50%;
+    position: relative;
+}
+
+.Bruno_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    border-radius: 8px;
+    right: 25%;
+    position: relative;
+}
+
+.Bruno_content h2 {
+    font-family: "ivypresto-display", "Times New Roman", Times, serif;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+
+}
+
+.p_decription {
+    border-right: 5px solid #56008C;
+    display: flex;
+    top: 25%;
+    position: absolute;
+    right: 0%;
+    background: #ffffffce;
+    padding: 2rem;
+    width: 1050px;
+}
+
+.p_decription p {
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+    color: #000;
+    max-height: 140px;
+    overflow: auto;
+}
+
+.p_decription p::-webkit-scrollbar {
+    width: 3px;
+}
+
+.p_decription p::-webkit-scrollbar-track {
+    background: #afafaf;
+}
+
+.p_decription p::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 20px;
+}
+
+.p_decription p::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+}
+
+
+.sliderButton {
+    position: absolute;
+    bottom: 0%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.btnWrap {
+    width: 100%;
+    position: relative;
+    padding: 0px 20px;
+}
+
+.custom_btnDiv {
+    position: relative;
+    width: 100%;
+    display: flex;
+    max-width: 1380px;
+    margin: auto;
+}
+
+.prev_button {
+    right: 6rem;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #cbc8c8;
+    align-items: center;
+    justify-content: center;
+}
+
+.next_button {
+    right: 0rem;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #cbc8c8;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderButton:hover {
+    background-color: black;
+}
+
+.sliderButton:hover svg path {
+    stroke: white;
+    fill: white;
+}
+
+@media(max-width:2560px) {
+    .bruno_family {
+        padding: 0px;
+    }
+}
+
+@media(max-width:1400px) {
+    .bruno_family {
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width:1024px) {
+    .Bruno_content h2 {
+        font-size: 26px;
+    }
+
+    .p_decription {
+        width: 720px;
+        top: 30%;
+    }
+
+    .Bruno_heading {
+        right: 15%;
+
+    }
+
+    .p_decription p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    .Bruno_content h2 {
+        font-size: 26px;
+    }
+
+    .p_decription {
+        width: 530px;
+    }
+}
+
+@media(max-width:768px) {
+    .Bruno_heading {
+        right: -1%;
+    }
+
+    .Bruno_content h2 {
+        font-size: 22px;
+    }
+
+    .p_decription {
+        width: 450px;
+        padding: 1rem;
+    }
+
+    .p_decription p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:550px) {
+    .next_button {
+        right: 25%;
+    }
+
+    .prev_button {
+        left: 25%;
+    }
+
+    .sliderButton {
+        transform: translateY(10%);
+    }
+
+    .bruno_family {
+        display: grid !important;
+        gap: 20px;
+    }
+
+    .Bruno_heading {
+        right: 0%;
+    }
+
+    .bruno_img1 {
+        width: 100%;
+    }
+
+    .Bruno_content {
+        width: 100%;
+    }
+
+    .btnWrap {
+        margin-top: 25%;
+    }
+
+    .p_decription {
+        margin-top: 24px;
+        width: 100%;
+        position: unset;
+    }
+
+    .p_decription p {
+        max-height: 80px;
+    }
+
+    .Bruno_content h2 {
+
+        font-size: 16px;
+        margin-inline: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .next_button {
+        right: 20%;
+    }
+
+    .prev_button {
+        left: 20%;
+    }
+}
