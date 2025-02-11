@@ -20,6 +20,7 @@ const MainNav = ({ navMenuLinks, iconLink }) => {
   let [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   let cartUrl = iconLink?.cart || null;
   const [itemNumber, setItemNumber] = useState(0);
+  
   const router = useRouter();
   useEffect(() => {
     CartItemNumber()
