@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import PriceBox from "../priceBox";
 const Handler = ({ data, variantId, ActiveBox = null }) => {
-  console.log({ ActiveBox });
+  // console.log({ ActiveBox });
   useEffect(() => { }, [data]);
   const [oneTimePrice, setOneTimePrice] = useState(data?.price.toFixed(2));
   const [DiscountPrice, setDiscountPrice] = useState(

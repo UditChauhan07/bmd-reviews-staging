@@ -19,7 +19,7 @@ const StickyNav = ({ theme }) => {
               aria-hidden="true"
               focusable="false"
               role="presentation"
-              class="icon icon-login"
+              className="icon icon-login"
               viewBox="0 0 28.33 37.68"
               width="15px"
             >

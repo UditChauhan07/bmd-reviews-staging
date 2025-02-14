@@ -267,8 +267,8 @@ const Index = () => {
   return (
     <section className={styles.accountSection}>
       {!load ? (
-        <div class="center-body" style={{ height: "200px" }}>
-          <div class="loader-circle-2"></div>
+        <div className="center-body" style={{ height: "200px" }}>
+          <div className="loader-circle-2"></div>
         </div>
       ) : (
         <>
@@ -287,7 +287,7 @@ const Index = () => {
             <div className={styles.accountContainer}>
               {true && (
                 <div className={styles.orderContainer}>
-                  <table class="table">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col">Numero dell&apos;Ordine</th>

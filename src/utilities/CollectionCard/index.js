@@ -9,7 +9,7 @@ export const CollectionList = ({ content, param = null }) => {
     const elementRef = useRef(null);
     const h1Ref = useRef(null);
     const q = gsap.utils.selector(elementRef);
-    console.log("pppp", param);
+    // console.log("pppp", param);
 
     function sqlLike(pattern, str) {
         const escapedPattern = pattern.replace(/([.+?^${}()|[\]\\])/g, '\\$1');

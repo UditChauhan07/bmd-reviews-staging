@@ -98,7 +98,7 @@ const BrunoFamily = () => {
             className={`${styles.sliderButton} ${styles.prev_button}`}
           >
             <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.1641 26L45.4974 26" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M15.1641 26L45.4974 26" stroke="#7F7F7F" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M4.68932 26.2144L13.9538 31.773C14.487 32.093 15.1654 31.7089 15.1654 31.087L15.1654 20.913C15.1654 20.2911 14.487 19.907 13.9538 20.227L4.68932 25.7856C4.52749 25.8827 4.52749 26.1173 4.68932 26.2144Z" fill="#7F7F7F" />
             </svg>
 
@@ -110,7 +110,7 @@ const BrunoFamily = () => {
             className={`${styles.sliderButton} ${styles.next_button}`}
           >
             <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M37.832 26.832L7.50234 27.3025" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M37.832 26.832L7.50234 27.3025" stroke="#7F7F7F" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M48.3027 26.4545L38.9532 21.0402C38.4151 20.7285 37.7427 21.1231 37.7524 21.7449L37.9102 31.9177C37.9198 32.5395 38.6041 32.913 39.1323 32.5849L48.3094 26.8832C48.4697 26.7836 48.4661 26.5491 48.3027 26.4545Z" fill="#7F7F7F" />
             </svg>
 

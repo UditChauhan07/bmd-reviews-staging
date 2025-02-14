@@ -24,14 +24,13 @@ const Collection = ({}) => {
     const queryParams = new URLSearchParams(window.location.search);
     const paramValue = queryParams.get("param"); 
     setParam(paramValue);
-    console.log("parammm",paramValue)
     if (!collezioni) {
 
       
       let url = window.location.href;
       url = getBaseUrl(url);
       let splitUrl = url.split("/collezioni/");
-      console.log(splitUrl);
+      // console.log(splitUrl);
       
       if (splitUrl.length == 2) {
         if (splitUrl[1]) {
@@ -53,17 +52,16 @@ const Collection = ({}) => {
         DataisLoaded: true,
       });
     }
-  }, [category]);
+  }, []);
   const { DataisLoaded, name } = category;
   const { masterHead, item, title, details, seo, align } =
     collection[name] || {};
   const { img, wistia } = masterHead || {};
-   console.log("hhghg",item);
   if (!DataisLoaded)
 
     return (
-      <div class="center-body">
-          <div class="loader-circle-3"></div>
+      <div className="center-body">
+          <div className="loader-circle-3"></div>
       </div>
     );
   return (
@@ -127,7 +125,7 @@ const Collection = ({}) => {
         >
           <div>
             <h1
-              class="next-error-h1"
+              className="next-error-h1"
               style={{
                 display: "inline-block",
                 margin: "0 20px 0 0",
