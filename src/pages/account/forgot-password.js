@@ -14,11 +14,11 @@ const ForgotPasswordForm = () => {
 
   const validateEmail = (email) => {
     if (!email) {
-      return "Please enter an email";
+      return "Inserisci un'e-mail";
     }
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
-      return "Please enter a valid email";
+      return "Inserisci un'e-mail valida";
     }
     return "";
   };
@@ -90,19 +90,20 @@ const ForgotPasswordForm = () => {
                   }}
                 />
               </label>
-              {validationError ? (
+              
                 <strong className={styles.errorText}>{validationError}</strong>
-              ) : (
-                submitErrors.length > 0 && (
-                  <div className={styles.errorContainer}>
-
-                    {submitErrors.map((error, index) => (
-                      <p key={index}>{error.error}</p>
-                    ))}
-                  </div>
-                  
-                )
+              
+              
+                {submitErrors && (
+                <div className={styles.errorContainer}>
+                  {submitErrors.map((error, index) => (
+                    <strong key={index} className={styles.error}>
+                      {error.message}
+                    </strong>
+                  ))}
+                </div>
               )}
+              
 
               <button type="submit" disabled={submitInProgress} className={styles.submitButton}>
                 Invia

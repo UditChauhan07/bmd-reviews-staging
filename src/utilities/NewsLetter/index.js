@@ -28,7 +28,7 @@ export const NewsLetter = ({ content, isTendoReferrer }) => {
             }
           });
         } else {
-          console.log({ aa: window.hbspt.forms });
+          // console.log({ aa: window.hbspt.forms });
         }
       }
     }
@@ -64,7 +64,7 @@ export const NewsLetter = ({ content, isTendoReferrer }) => {
     );
   } else {
     if (content.layout == 2) {
-      console.log("def");
+      // console.log("def");
       if (isDesktop) {
         return (
           <section id="NewLetterSection">
@@ -138,7 +138,7 @@ export const NewsLetter = ({ content, isTendoReferrer }) => {
           </section>
         );
       } else {
-        console.log("hghghghg");
+        // console.log("hghghghg");
         return (
           <section id="NewLetterSection">
             <div className={!content?.alignWidth && styles.container}>
@@ -184,7 +184,7 @@ export const NewsLetter = ({ content, isTendoReferrer }) => {
         );
       }
     } else {
-      console.log("ghi");
+      // console.log("ghi");
 
       return (
         <section id="NewLetterSection">

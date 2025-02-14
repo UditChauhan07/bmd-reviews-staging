@@ -73,12 +73,14 @@ const RegisterForm = () => {
       } else if (response?.errors) {
         setRegisterErrors(response.errors);
       }
+
     } catch (err) {
       console.error("Registration failed", err);
       setRegisterErrors([{ message: "Errore di registrazione. Riprova più tardi." }]);
     } finally {
       setIsLoading(false);
     }
+
   };
 
   return (

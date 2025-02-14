@@ -68,17 +68,17 @@ export const HomeGallery = ({
         )}
       </div>
       <div
-        class="yotpo yotpo-pictures-widget"
+        className="yotpo yotpo-pictures-widget"
         data-gallery-id={galleryId || "6411911c72b20e001784b649"}
         data-product-id={productid}
       >
-        <div class="center-body" style={{ height: "200px" }}>
-          <div class="loader-circle-2"></div>
+        <div className="center-body" style={{ height: "200px" }}>
+          <div className="loader-circle-2"></div>
         </div>
       </div>
       {isreviews && (
         <div
-          class="yotpo yotpo-reviews-carousel"
+          className="yotpo yotpo-reviews-carousel"
           data-background-color="transparent"
           data-mode="top_rated"
           data-type="product"
