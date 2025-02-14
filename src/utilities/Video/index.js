@@ -15,9 +15,9 @@ const VideoPlayer = ({video, id,theme}) => {
         }
       }
     return (
-        <div class={styles.holder}><div class={styles.playerHolder} id={`playBtn-${id}`} data-id={`playBtn-${id}`} data-vid={`video-${id}`} onClick={videoHandler} style={{backgroundColor:theme}}>
+        <div className={styles.holder}><div className={styles.playerHolder} id={`playBtn-${id}`} data-id={`playBtn-${id}`} data-vid={`video-${id}`} onClick={videoHandler} style={{backgroundColor:theme}}>
         </div>
-            <video class={styles.videoEmbbed} frameBorder="0" data-id={`playBtn-${id}`} data-vid={`video-${id}`} id={`video-${id}`} onClick={videoHandler} allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" src={video.src}></video></div>
+            <video className={styles.videoEmbbed} frameBorder="0" data-id={`playBtn-${id}`} data-vid={`video-${id}`} id={`video-${id}`} onClick={videoHandler} allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" src={video.src}></video></div>
     )
 }
 export default VideoPlayer

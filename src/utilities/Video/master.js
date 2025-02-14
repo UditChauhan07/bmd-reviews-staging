@@ -10,7 +10,7 @@ const MasterHeadVideo = ({ src, content }) => {
             <div className={styles.holder}>
             {isDesktop ?<video  frameBorder="0"  id={`video-master`} width={'100%'} height={'auto'} title='' autoPlay loop controls muted><source src={src.desk} type="video/mp4"/><track src="" kind='captions'/></video>:
             // moblie video
-            <video  frameborder="0"  id={`video-master`} width={'auto'} height={'100%'} title='' autoPlay loop controls muted playsInline><source src={src.mob} type="video/mp4"/><track src="" kind='captions'/></video>}
+            <video  frameBorder="0"  id={`video-master`} width={'auto'} height={'100%'} title='' autoPlay loop controls muted playsInline><source src={src.mob} type="video/mp4"/><track src="" kind='captions'/></video>}
                 {content &&
                     <div className={styles.conatiner}>
                         <div className={styles.heroButtonAndTextContainer}>

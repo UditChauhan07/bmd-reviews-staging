@@ -183,7 +183,7 @@ const Addresses = () => {
                     </div>
                   )
                 )
-              : "Indirizzi non trovati"}
+              : <div>Indirizzi non trovati</div>}
           </div>
         )}
       </div>

@@ -13,8 +13,8 @@ const DynamicVideoComponent = dynamic(
   () => import("@/utilities/Video/master"),
   {
     loading: () => (
-      <div class="center-body" style={{ height: "200px" }}>
-        <div class="loader-circle-2"></div>
+      <div className="center-body" style={{ height: "200px" }}>
+        <div className="loader-circle-2"></div>
       </div>
     ),
   }
