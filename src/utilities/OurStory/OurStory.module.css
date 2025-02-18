@@ -255,8 +255,13 @@
     }
 
 }
-
+@media (width: 768px) {
+    .aboutMain {
+        max-height: 500px;
+    }
+}
 @media (max-width:768px) {
+   
     .part2 {
         padding: 10px;
     }
