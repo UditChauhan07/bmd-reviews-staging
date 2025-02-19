@@ -127,10 +127,10 @@ function ScienceVideos({ data, theme }) {
               >
                 <track src="" kind="captions" />
               </video>
-              <p class={styles.subtitleh} style={{ color: theme }}>
+              <p className={styles.subtitleh} style={{ color: theme }}>
                 {videos.title}
               </p>
-              <p class={styles.subtitlep}> {videos.subtitle}</p>
+              <p className={styles.subtitlep}> {videos.subtitle}</p>
 
               <p style={{ color: theme, textDecoration: "underline" }}>
                 <a href={videos.blog + "?l=2"} target="_blank" tabIndex="-1">Scopri di piu’</a>

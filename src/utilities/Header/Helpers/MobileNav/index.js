@@ -17,7 +17,7 @@ const MobileNav = ({ setIsMobileNavOpenProp, navMenuLinks }) => {
 
     show(firstSubMenu)
   }, [navMenuLinks])
-  console.log({ navMenuLinks });
+  // console.log({ navMenuLinks });
 
   return (
     <div className={styles.mobileNavDropdownContainer}>
