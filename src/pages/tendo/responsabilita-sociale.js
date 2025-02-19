@@ -7,7 +7,7 @@ import PageHead from "@/utilities/Head";
 
 export default function Sociale({ version }) {
   const { masterHead, sectionOne, sectionTwo } = scienza[version] || {};
-  console.log({ masterHead });
+  // console.log({ masterHead });
   return (
     <>
       <PageHead

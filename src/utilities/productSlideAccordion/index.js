@@ -31,10 +31,10 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
         });
     };
 
-    console.log({ content });
+    
     const [color, setColor] = React.useState("#000000");
     React.useEffect(() => {
-        console.log({ theme });
+       
         const onMouseEnter = () => {
             setColor(theme || '#56008C');
         };
@@ -92,9 +92,9 @@ const ProductSlideAccordion = ({ content, theme, ModalHandler = null }) => {
                                     <strong className={styles.title} style={content.lowerCase}>
                                         {element.title}&nbsp; 
                                     </strong>
-                                    <text className={styles.description}>
+                                    <span className={styles.description}>
                                         {element.description}
-                                    </text>
+                                    </span>
                                 </li>
                             ))}
                         </ul>

@@ -60,7 +60,7 @@ const navLink = ({ menuGroup }) => {
                             href={
                               link?.name == "Portale per il reso"
                                 ? link?.url
-                                : "/tendo/" + link?.url
+                                : "/tendo" + link?.url
                             }
                             aria-label={link?.name}
                             target="_blank"

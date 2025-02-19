@@ -43,8 +43,8 @@ const ProductArticleModal = ({
               src={content.bannerDesk?.src}
               alt={content.bannerDesk?.alt}
               className={styles.col1}
-              maxWidth={"1000px"}
-              maxHeight={"600px"}
+              maxwidth={"1000px"}
+              maxheight={"600px"}
               fetchpriority="high"
             />
           ) : (

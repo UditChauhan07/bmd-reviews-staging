@@ -15,7 +15,7 @@ class MyDocument extends Document {
     let script = true;
     const { customParams, currentPath } = this.props;
     // console.log("jjgg");
-    console.log(currentPath);
+    // console.log(currentPath);
     return (
       <Html lang="en">
         <Head>
