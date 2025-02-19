@@ -117,12 +117,12 @@ export const AccordionPanel = ({ children, className }) => {
     const panel = panelRef.current
 
     if (isExpanded) {
-      panel.style.maxHeight = `${panel.scrollHeight}px`
+      panel.style.maxheight = `${panel.scrollHeight}px`
       setTimeout(() => {
         panel.style.height = `auto`
       }, transitionDuration - 100)
     } else {
-      panel.style.maxHeight = 0
+      panel.style.maxheight = 0
     }
   }, [isExpanded])
 

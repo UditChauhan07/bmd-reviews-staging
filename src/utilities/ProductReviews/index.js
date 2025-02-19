@@ -157,7 +157,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
       var t = document.getElementsByTagName("script")[0];
       t.parentNode.insertBefore(e, t);
     })();
-    console.log({ product, variantId, productId });
+    // console.log({ product, variantId, productId });
   }, [productId]);
 
 
@@ -179,7 +179,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
 
       <div className={styles.wrapper}>
         {productId && (
-          <div class="yotpo yotpo-main-widget" data-product-id={productId}>
+          <div className="yotpo yotpo-main-widget" data-product-id={productId}>
             <Loader2 />
           </div>
         )}

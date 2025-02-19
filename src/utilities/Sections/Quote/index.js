@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../styles.module.css'
 const Quote = ({ data }) => {
-    console.log({data});
+    // console.log({data});
     return(
         <section>
         <div className={styles.quoteOuterContainer}>

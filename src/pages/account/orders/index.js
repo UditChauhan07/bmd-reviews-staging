@@ -42,7 +42,7 @@ const OrderDetails = () => {
 
   const updateCartQty = ({ variantId, qty }) => {
     return;
-    console.log({ variantId, qty });
+    // console.log({ variantId, qty });
     let filterOrderLineItem = {};
     let calculatedOrderData = order.init?.data?.orderEditBegin?.calculatedOrder;
     let calculatedOrderId = calculatedOrderData?.id;

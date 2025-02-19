@@ -13,7 +13,7 @@ const EditOrder = ()=>{
             }
         }
     },[])
-    console.log({order});
+    // console.log({order});
     return(
         <p>lorem</p>
     )

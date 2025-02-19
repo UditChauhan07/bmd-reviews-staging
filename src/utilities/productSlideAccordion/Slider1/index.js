@@ -25,7 +25,7 @@ const Slider = ({ data }) => {
     const { left, top, width, height } = event.target.getBoundingClientRect();
     const x = ((event.pageX - left) / width) * 100;
     const y = ((event.pageY - top) / height) * 100;
-    console.log({ backgroundPosition: `${x}% ${y}%` });
+    // console.log({ backgroundPosition: `${x}% ${y}%` });
     setStyle({
       ...style,
       backgroundPosition: `${x}% ${y}%`,

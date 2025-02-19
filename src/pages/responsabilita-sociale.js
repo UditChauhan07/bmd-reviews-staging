@@ -7,7 +7,7 @@ import PageHead from "@/utilities/Head"
 
 export default function Sociale({version}) {
     const { masterHead, sectionOne, sectionTwo } = scienza[version] || {};
-    console.log({ masterHead });
+    // console.log({ masterHead });
     return (
         <>
         <PageHead content={{title:'Responsabilità Sociale | Bruno MD',description:"Bruno MD ha promosso la sostenibilità per oltre un quarto di secolo attraverso i suoi sforzi di conservazione dell&apos;acqua e dell&apos;energia e la protezione della biodiversità."}}/>
