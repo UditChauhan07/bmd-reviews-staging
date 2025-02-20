@@ -126,24 +126,24 @@
 
       "heading": "TendoActive Plus",
       "subHeading": null,
-      "subtitle": " Integratore alimentare per rinforzare tendini e legamenti",
+      "subtitle": "Integratore Alimentare per Rinforzare Tendini e Legamenti ",
       "text": null,
       "items": [
         {
-          "title": "Fornisce forza e flessibilità",
-          "description": "Aiuta a fornire forza e flessibilità alle strutture fibrose di collagene presenti nel tessuto corporeo. Ciò contribuisce a mantenere la forma del tessuto e può essere particolarmente utile per i tessuti che richiedono una maggiore resistenza, come i tendini."
+          "title": "Fornisce Forza e Flessibilità :",
+          "description": "Potenzia la forza e la flessibilità delle strutture fibrose di collagene nel corpo, contribuendo a mantenere la forma dei tessuti. È particolarmente utile per i tendini, che necessitano di maggiore resistenza."
         },
         {
-          "title": "Stimola la sintesi del collagene",
-          "description": "Stimola la sintesi del collagene, proteina fondamentale per la salute e l'integrità dei tessuti connettivi. Aumenta la produzione di collagene e favorisce la guarigione e il recupero dei tessuti danneggiati. Aiuta a proteggere le cellule dal danno ossidativo."
+          "title": "Stimola la Sintesi del Collagene :",
+          "description": "Supporta la sintesi del collagene, una proteina essenziale per la salute dei tessuti connettivi. Aumenta la produzione di collagene, favorendo la guarigione e il recupero dei tessuti danneggiati e proteggendo le cellule dai danni ossidativi."
         },
         {
-          "title": "Azione analgesica e antinfiammatoria",
-          "description": "Azione analgesica che contribuisce a ridurre il dolore. Inoltre, ha proprietà antinfiammatorie che aiutano a ridurre l'infiammazione dei tessuti e promuovere un processo di guarigione più rapido."
+          "title": "Azione Analgesica e Antinfiammatoria :",
+          "description": "Ha un effetto analgesico che allevia il dolore e proprietà antinfiammatorie che riducono l'infiammazione dei tessuti, accelerando il processo di guarigione."
         },
         {
-          "title": "Biodisponibilità",
-          "description": "Migliora la biodisponibilità degli ingredienti che contiene, consentendo al corpo di assorbirli più facilmente. Questo può essere particolarmente vantaggioso per i tendini, poiché fornisce gli ingredienti necessari per la salute e la rigenerazione del tessuto tendineo."
+          "title": "Biodisponibilità Ottimizzata :",
+          "description": "Migliora l'assorbimento degli ingredienti, consentendo al corpo di utilizzarli più efficacemente. Questo è particolarmente vantaggioso per i tendini, favorendo la salute e la rigenerazione del tessuto tendineo."
         }
       ]
     },
@@ -182,8 +182,8 @@
       "items": [
         {
           "stepNumber": 1,
-          "title": "Boswellia Serrata",
-          "body": "Nuovo effetto analgesico",
+          "title": "BOSWELLIA SERRATA",
+          "body": "Nuovo effetto analgesico.",
           "expanded": "Effetto analgesico: La Boswellia Serrata ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.",
           "image": {
             "src": "\\images\\landing\\BMD-6039-landing.webp",
@@ -230,8 +230,9 @@
       "accordanTitle": null,
       "items": [
         {
-          "note": "II FITOSOMA DI BOSWELLIA SERRATA",
-          "expanded": "<p>La Boswellia serrata è un estratto vegetale. La pianta originaria dell’India è stata utilizzata tradizionalmente nella medicina ayurvedica per le sue potenziali proprietà benefiche. La tecnologia usata nell’estrazione della Boswellia è chiamata fitosoma. Questa tecnologia permette di migliorare l&#39;assorbimento di sostanze fitochimiche, come flavonoidi, polifenoli e altre molecole presenti in piante medicinali o erbe.</p><p> Il processo di fitosomizzazione coinvolge l&#39;incapsulamento delle molecole fitochimiche all&#39;interno di fosfolipidi, che sono i componenti principali delle membrane cellulari. Questa unione tra i fitochimici e i fosfolipidi rende le sostanze più solubili in acqua e quindi più facilmente assorbibili dall&#39;organismo.</p><p> L&#39;uso dei fitosomi aumenta l&#39;efficacia della boswellia serrata, consentendo al corpo di beneficiare appieno delle sue proprietà terapeutiche. Questa metodologia innovativa favorisce l&#39;assorbimento e l&#39;utilizzo ottimale dei composti fitochimici, contribuendo così a potenziare gli effetti benefici delle piante nella salute umana. Studi scientifici hanno suggerito che la boswellia serrata fitosoma può avere molteplici benefici per la salute. Questi includono il supporto alle articolazioni e la riduzione dell&#39;infiammazione.</p>",
+        "note": "FITOSOMA DI BOSWELLIA SERRATA  ",
+        "note2": " ASSORBIMENTO OTTIMIZZATO PER MASSIMA EFFICACIA",
+        "expanded": "<p>La Boswellia serrata è un potente estratto vegetale utilizzato da secoli nella medicina ayurvedica per il suo supporto alle articolazioni e le proprietà antinfiammatorie. Grazie alla tecnologia fitosoma, il suo assorbimento viene significativamente migliorato, massimizzando i benefici per l’organismo.</p><p><b>TECNOLOGIA FITOSOMA –</b> Il processo di fitosomizzazione incapsula i fitochimici attivi, come flavonoidi e polifenoli, all’interno di fosfolipidi, migliorandone la solubilità in acqua e la biodisponibilità.</p><p><b>EFFICACIA POTENZIATA –</b> L’unione tra fitochimici e fosfolipidi favorisce un assorbimento più rapido ed efficace, amplificando le proprietà terapeutiche della Boswellia.</p><p><b>BENEFICI SCIENTIFICAMENTE DIMOSTRATI –</b> Studi evidenziano il ruolo della Boswellia serrata fitosoma nel supporto articolare e nella riduzione dell’infiammazione.</p><p><b>Massima purezza e qualità per il tuo benessere quotidiano!</b></p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Stairs- boswx100.webp",
@@ -239,8 +240,9 @@
           }
         },
         {
-          "note": "II FITOSOMA DI CURCUMINA",
-          "expanded": "<p>La curcumina è un composto naturale derivato dalla curcuma, una pianta appartenente alla famiglia dello zenzero. Questo estratto è noto per le sue proprietà benefiche per la salute. La tecnologia usata nell’estrazione della curcumina è chiamata fitosoma.</p><p>La particolarità della curcumina fitosoma risiede nella sua capacità di migliorare l&#39;assorbimento della curcumina nel corpo umano. La curcumina è una sostanza liposolubile, il che significa che il nostro corpo ha difficoltà a assorbirla completamente quando viene assunta da sola. Tuttavia, quando la curcumina viene legata a fosfolipidi, come avviene nella curcumina fitosoma, la sua biodisponibilità aumenta notevolmente. </p><p> Questa maggior biodisponibilità permette al corpo di sfruttare appieno i benefici della curcumina, che include proprietà antiossidanti e antinfiammatorie. La curcumina è stata oggetto di numerosi studi scientifici che ne hanno evidenziato il potenziale nel migliorare la salute articolare, supportare il sistema immunitario e contribuire alla salute del sistema digestivo. </p><p> In sintesi, la curcumina fitosoma è un modo efficace per aumentare l&#39;assorbimento della curcumina e sfruttarne al meglio i suoi molteplici benefici per la salute.</p>",
+          "note": "FITOSOMA DI CURCUMINA",
+          "note2": "La Potenza della Curcuma per il Tuo Benessere",
+          "expanded": "<><p>La curcumina, un composto naturale estratto dalla curcuma, è famosa per i suoi numerosi benefici per la salute, tra cui le proprietà antiossidanti e antinfiammatorie. Tuttavia, essendo liposolubile, la curcumina da sola non viene facilmente assorbita dal nostro corpo. È qui che entra in gioco la curcumina fitosoma, una formulazione innovativa che aumenta notevolmente la biodisponibilità della curcumina.</p><p>Quando la curcumina viene legata a fosfolipidi, come nel caso del fitosoma, la sua capacità di essere assorbita dal corpo è migliorata, permettendo di sfruttare appieno i suoi effetti benefici. Questo processo ottimizza l'assimilazione della curcumina, supportando la salute articolare, il sistema immunitario e il benessere digestivo.</p><p>Grazie alla curcumina fitosoma, puoi ottenere il massimo da questo potente composto naturale, promuovendo il tuo benessere generale in modo più efficace e duraturo.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Tennis - cur.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Tennis - curx100.webp",
@@ -248,17 +250,19 @@
           }
         },
         {
-          "note": "La L-ARGININA",
-          "expanded": "<p>La L-arginina è un amminoacido semiessenziale che svolge un ruolo importante nel corpo umano. </p><p> Una delle funzioni più cruciali della L-arginina è la sua capacità di essere il precursore del biossido di azoto (NO) nel corpo. Il NO è una molecola che aiuta a dilatare i vasi sanguigni, migliorando il flusso sanguigno. Questo può essere particolarmente benefico per la salute cardiovascolare, in quanto può aiutare a ridurre la pressione sanguigna e migliorare la circolazione. </p><p> Inoltre, la L-arginina svolge un ruolo chiave nella sintesi delle proteine e nell&#39;eliminazione delle scorie azotate dal corpo. Questo la rende importante per la crescita e il ripristino muscolare, nonché per la salute generale dell&#39;organismo.</p>",
-          "image": {
+          "note": "L-ARGININA ",
+          "note2": "Un'Integrazione Completa per il Benessere del Corpo",
+            "expanded": "<p>La L-Arginina è un amminoacido semiessenziale che, come precursore del biossido di azoto (NO), favorisce la dilatazione dei vasi sanguigni, migliorando il flusso sanguigno e la salute cardiovascolare, riducendo anche la pressione sanguigna.</p>   <p>Essenziale per la sintesi proteica e l’eliminazione delle scorie azotate, supporta la crescita muscolare e il benessere generale.</p>" ,       
+              "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Vollyball-L-.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Vollyball-L-x100.webp",
             "alt": "partita di beach volley al tramonto"
           }
         },
         {
-          "note": "La L-LISINA e la L-PROLINA",
-          "expanded": "<p>La L-lisina e la L-prolina sono due amminoacidi essenziali che svolgono ruoli importanti per la salute umana.</p><p>La L-lisina è fondamentale per la sintesi delle proteine, il mantenimento dei tessuti muscolari e la produzione di anticorpi. Inoltre, la lisina è coinvolta nella formazione di collagene, una proteina essenziale per la salute della pelle, dei capelli e delle unghie. Alcuni studi suggeriscono che la lisina può contribuire a migliorare la salute ossea e a ridurre il rischio di osteoporosi.</p><p>La L-prolina è un altro amminoacido che gioca un ruolo chiave nella formazione del collagene. La prolina è anche essenziale per mantenere la flessibilità e la resistenza della pelle, dei capelli e delle unghie.  Inoltre, è coinvolta nella riparazione delle ferite e nella cicatrizzazione, favorendo la rigenerazione dei tessuti danneggiati.</p>",
+          "note": "L-LISINA e L-PROLINA",
+          "note2": " Un'Integrazione Completa per il Benessere del Corpo",
+          "expanded": "<p>La L-Lisina è fondamentale per la sintesi proteica, il mantenimento dei tessuti muscolari e la produzione di anticorpi.</p>  <p>Inoltre, contribuisce alla formazione del collagene, migliorando la salute di pelle, capelli, unghie e ossa.</p>  <p>La L-Prolina, anch'essa cruciale per il collagene, sostiene la flessibilità e la resistenza di pelle, capelli e unghie, promuovendo anche la riparazione delle ferite e la rigenerazione dei tessuti.</p><p>Un'ottima combinazione per il benessere cardiovascolare, la salute della pelle e dei muscoli.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Yoga-L-lisin.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Yoga-L-lisinx100.webp",
@@ -267,7 +271,8 @@
         },
         {
           "note": "Il COLLAGENE DI TIPO I",
-          "expanded": "<p>Il collagene di tipo I è una proteina essenziale con molteplici benefici per la tua salute. Il collagene di tipo I costituisce la struttura di pelle, capelli, unghie, ossa, e articolazioni. I benefici più comuni sono per:</p><ol><li>La pelle: Il collagene di tipo I contribuisce a mantenere la pelle elastica e idratata, riducendo la comparsa di rughe e linee sottili.</li><li>I capelli e le unghie: Favorisce la crescita e la resistenza dei capelli e delle unghie, rendendoli più forti e sani.</li><li>Le ossa: Il collagene di tipo I è un componente fondamentale del tessuto osseo, contribuendo a mantenerlo solido e resistente.</li><li>Le articolazioni: Aiuta a migliorare la salute delle articolazioni, riducendo l'usura e migliorando la mobilità.</li><li>Il miglioramento generale: Integrando il collagene di tipo I nella tua dieta, puoi contribuire a mantenere una pelle giovane, un aspetto sano e articolazioni flessibili.</li></ol>",
+          "note2": " La Proteina Essenziale per la Tua Salute",
+          "expanded": "<p>Il Collagene di Tipo I è una proteina fondamentale per il benessere di pelle, capelli, unghie, ossa e articolazioni. Grazie alla sua capacità di mantenere la pelle elastica e idratata, è essenziale per un aspetto giovane e sano.</p>  <p>Favorisce inoltre la crescita e la resistenza di capelli e unghie, rendendoli più forti e brillanti.</p>  <p>Ma non solo! Il collagene di tipo I svolge anche un ruolo cruciale nel rafforzare il tessuto osseo, migliorando la densità e la robustezza delle ossa. Inoltre, contribuisce a migliorare la mobilità articolare, supportando la flessibilità e riducendo la rigidità.</p>   <p>Integrare il collagene di tipo I nella tua dieta è un passo importante per mantenere la pelle giovane, l'aspetto sano e le articolazioni flessibili nel tempo.</p> <p><strong>Scegli il nostro collagene di tipo I per un trattamento completo e naturale per il tuo corpo!</strong></p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Swimming-Col.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Swimming-Colx100.webp",
@@ -276,7 +281,8 @@
         },
         {
           "note": "La CONDROITINA SOLFATO",
-          "expanded": "<p>La condroitina solfato è una sostanza naturale presente nel corpo umano e in particolare nelle cartilagini. È un componente importante del tessuto connettivo e della cartilagine articolare. La condroitina solfato aiuta a mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo così al benessere delle articolazioni e alla mobilità.</p><p>La condroitina solfato è considerata benefica per:</p><ol><li>Il supporto articolare: contribuisce a mantenere le articolazioni in salute, fornendo loro il supporto necessario per la mobilità e la flessibilità.</li><li>La riduzione del dolore: contribuisce a ridurre il dolore articolare e l'infiammazione, rendendo più agevole il movimento e migliorando la qualità della vita per coloro che soffrono di disturbi articolari come l'artrosi.</li><li>Il miglioramento della lubrificazione articolare: la condroitina è nota per la sua capacità di trattenere acqua all'interno della cartilagine, aiutando così a mantenere le articolazioni ben lubrificate. Questo può contribuire a prevenire l'usura e l'abrasione delle superfici articolari.</li><li>Il recupero da infortuni: la condroitina solfato può essere utilizzata come parte di un programma di recupero dopo un infortunio articolare o una chirurgia, contribuendo a promuovere la rigenerazione del tessuto cartilagineo.</li></ol>",
+          "note2": "Supporto Naturale per la Salute Articolare",
+          "expanded":" <p>La Condroitina Solfato è un componente naturale delle cartilagini umane, fondamentale per il benessere del tessuto connettivo e la salute articolare.</p>  <p>Con il suo potente effetto benefico, essa:</p>  <ul>  <li>Mantiene l'elasticità e la funzionalità delle cartilagini, contribuendo al movimento fluido e senza dolore.</li>  <li>Supporta le articolazioni e ne riduce il dolore e l'infiammazione, promuovendo il comfort in ogni attività.</li>  <li>Migliora la lubrificazione articolare, trattenendo l’acqua per un'azione protettiva e lubrificante duratura.</li>  <li>Aiuta nel recupero da infortuni, favorendo la rigenerazione del tessuto cartilagineo e il recupero ottimale della funzionalità articolare.</li> </ul> <p>Un alleato naturale per chi desidera mantenere in salute le proprie articolazioni, migliorare la mobilità e sostenere il recupero.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Running-Chon.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Running-Chonx100.webp",
@@ -285,7 +291,8 @@
         },
         {
           "note": "Il MANGANESE",
-          "expanded": "<p>Il manganese è un minerale essenziale che è coinvolto in diverse funzioni corporee, tra cui il supporto del metabolismo, la formazione di ossa e cartilagine, la regolazione del sistema immunitario e la protezione dalle reazioni ossidative. I benefici più comuni sono per:</p><ol><li>Lo sviluppo osseo: contribuisce alla formazione e alla manutenzione delle ossa, aiutando a prevenire condizioni come l'osteoporosi.</li><li>Le proprietà antiossidanti: agisce come antiossidante nel corpo, aiutando a proteggere le cellule dai danni causati dai radicali liberi, riducendo così il rischio di malattie croniche.</li><li>Il metabolismo: Il manganese è coinvolto nella regolazione del metabolismo e nella produzione di energia, svolgendo un ruolo importante nel processo di digestione e nell'assorbimento di nutrienti.</li><li>La coagulazione del sangue: Questo minerale è necessario per la coagulazione del sangue e per il corretto funzionamento del sistema circolatorio.</li><li>Il sistema nervoso: Il manganese svolge un ruolo nella salute del sistema nervoso, contribuendo alla trasmissione degli impulsi nervosi.</li></ol>",
+          "note2": " Un Minerale Essenziale per il Benessere del Corpo",
+          "expanded": "<p>Il manganese è un minerale fondamentale per numerose funzioni vitali del nostro organismo.</p> <p>Contribuisce alla formazione e al mantenimento delle ossa, supportando la salute scheletrica nel tempo.</p>  <p>Grazie alle sue proprietà antiossidanti, il manganese protegge le cellule dallo stress ossidativo causato dai radicali liberi, contribuendo così al benessere generale.</p>  <p>Inoltre, svolge un ruolo chiave nel metabolismo e nella produzione di energia, migliorando l’efficienza dei processi vitali.</p> <p>È indispensabile per la coagulazione del sangue e aiuta a mantenere il corretto funzionamento del sistema nervoso, facilitando la trasmissione degli impulsi nervosi.</p>  <p>Un alleato naturale per il nostro corpo, il manganese è essenziale per la salute quotidiana e il buon funzionamento di molte funzioni fisiologiche.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Skiing-Manga.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Skiing-Mangax100.webp",
@@ -294,7 +301,8 @@
         },
         {
           "note": "VITAMINA C",
-          "expanded": "<p>La vitamina C, anche conosciuta come acido ascorbico, è un nutriente essenziale per il corpo umano con diversi benefici per la salute. Alcuni dei principali benefici della vitamina C sono:</p><ol><li>Il sistema immunitario potenziato: svolge un ruolo cruciale nel sostenere il sistema immunitario, aiutando il corpo a difendersi contro le infezioni. È coinvolta nella produzione e nella funzione dei globuli bianchi, che combattono le infezioni.</li><li>Le proprietà antiossidanti: è un potente antiossidante che aiuta a proteggere le cellule dai danni causati dai radicali liberi. Questi ultimi possono contribuire all'invecchiamento cellulare e ad alcune malattie.</li><li>La salute della pelle: contribuisce alla produzione di collagene, una proteina fondamentale per la salute della pelle, favorendo la guarigione delle ferite e mantenendo la pelle sana ed elastica.</li><li>L’assorbimento del ferro: aiuta il corpo ad assorbire il ferro.</li><li>L’antistress ossidativo: può contribuire a ridurre lo stress ossidativo nel corpo, che è associato a diverse condizioni patologiche.</li></ol>",
+          "note2": "Un Alleato Essenziale per il Benessere",
+          "expanded": "<p>La Vitamina C, anche conosciuta come acido ascorbico, è un nutriente fondamentale per il nostro organismo,con numerosi benefici per la salute... </p> <p><strong>Supporto al sistema immunitario:</strong> Potenzia le difese naturali, promuovendo la produzione e la funzionalità dei globuli bianchi, che sono essenziali per combattere le infezioni.</p>   <p><strong>Antiossidante potente:</strong> Agisce come una barriera protettiva per le cellule, neutralizzando i radicali liberi e contribuendo a prevenire danni cellulari.</p>  <p><strong>Salute della pelle e cicatrizzazione:</strong> Stimola la produzione di collagene, migliorando l'elasticità della pelle e accelerando la guarigione delle ferite.</p>  <p><strong>Miglioramento dell'assorbimento del ferro:</strong> Favorisce una migliore assimilazione del ferro, un minerale essenziale per la salute del sangue.</p>  <p><strong>Riduzione dello stress ossidativo:</strong> Contrasta i danni causati dai radicali liberi, riducendo il rischio di patologie associate allo stress ossidativo.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-bicycling-Vi.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-bicycling-Vix100.webp",
@@ -306,20 +314,20 @@
       "readMoreLabel": "Leggi di più"
     },
     "Disorder": {
-      "title": "Cos'è la tendinite",
-      "description": "La tendinite è una condizione infiammatoria dei tendini, i tessuti fibrosi che collegano i muscoli alle ossa. Essa puo’ essere debilitante, dolorosa, limitante e lenta da guarire.",
+      "title": "Tendinite: Cos'è e Come Prevenirla",
+      "description": " La tendinite è un’infiammazione dei tendini, le strutture fibrose che collegano muscoli e ossa.Questa condizione può essere dolorosa, debilitante e lenta da guarire, spesso causata da sforzi ripetuti, sovraccarico, movimenti improvvisi o prolungati e lesioni.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": "È una condizione comune causata da sforzi ripetuti, sovraccarico muscolare, movimenti improvvisi o prolungati, eccessiva tensione o lesioni.<br/>La tendinite può verificarsi in varie parti del corpo, come spalle, gomiti, polsi, ginocchia e talloni.<br/><br/><b>I casi di tendinite più frequenti sono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille, situato dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato, situato nella spalla</li><li>Epicondilo laterale ed epicondilo mediale del gomito</li><li>Tendine rotuleo del ginocchio</li><li>Estensori e flessori del polso</li></ol>",
+      "popupText": " Le aree più colpite includono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille – dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato – nella spalla</li><li>. Epicondilo laterale e mediale – nel gomito</li><li>Tendine rotuleo – nel ginocchio</li><li>Estensori e flessori del polso</li></ol>",
       "image": "\\images\\landing\\disorder_final.webp",
       "color": "#D7E4FF"
     },
     "Cure": {
-      "title": "Consigli per la prevenzione ed il recupero delle tendinopatie",
-      "subTitle": "Ascoltando il tuo corpo, e seguendo questi consigli puoi ridurre il rischio di sviluppare tendinopatie e migliorare il recupero in caso di lesioni ai tendini.",
+      "title": " Prevenzione e Recupero: I Consigli Essenziali",
+      "subTitle": " Ascoltando il tuo corpo, e seguendo questi consigli puoi ridurre il rischio di sviluppare tendinopatie e migliorare il recupero in caso di lesioni ai tendini.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": "<ol style='list-style: inside num;'><li><b>Progressione graduale:</b> Evita di aumentare repentinamente l'intensità o la durata dell'attività fisica. Piuttosto, aumenta gradualmente la tua intensità e la tua durata nel tempo per permettere ai tuoi tendini di adattarsi e di rinforzarsi. Rivedi alcuni sport o azioni lavorative che possono causare sovraccarico.</li><li><b>Stretching:</b> Dopo il riscaldamento, esegui una serie di stretching mirati per allungare i muscoli e i tendini coinvolti nell'attività fisica che stai per svolgere. Assicurati di mantenere ogni posizione di stretching per almeno 15-30 secondi. Evita gli sport ad alto impatto e le attività che richiedono movimenti ripetitivi.</li><li><b>Riscaldamento adeguato:</b> Prima di iniziare qualsiasi attività fisica, assicurati di fare un buon riscaldamento per preparare i muscoli e i tendini all'attività imminente. Riscaldati prima di fare esercizio fisico e allungati dopo, insieme all'applicazione del freddo.</li><li><b>La riabilitazione:</b> Questa è una parte fondamentale del trattamento, cerca di farla seguendo le indicazioni date da un professionista della salute.</li><li><b>Riposo e recupero:</b> Assicurati di dare ai tuoi tendini il tempo necessario per recuperare tra le sessioni di allenamento. Se avverti dolore o disagio, fermati e dai tempo al tuo corpo per guarire.</li><li><b>Monitoraggio dei segnali di avvertimento:</b> Presta attenzione ai segnali di sovraccarico o di lesione, come dolore persistente, gonfiore o sensazione di debolezza nei tendini. Se avverti questi sintomi, consulta un medico o un fisioterapista per una valutazione e un trattamento adeguati.</li><li><b>L'integratore alimentare:</b> Può essere un importante alleato per fornire i nutrienti necessari al recupero dei tendini.</li></ol>",
+      "popupText": "<ol style='list-style: inside num;'><li><b>Progressione Graduale:</b> Evita aumenti improvvisi di intensità o durata dell’attività fisica. Incrementa gradualmente lo sforzo per adattare e rinforzare i tendini.</li> <li><b>Stretching e Riscaldamento:</b> Prima di ogni attività fisica, riscaldati adeguatamente e pratica esercizi di stretching mirati. Mantieni ogni posizione per 15-30 secondi per migliorare la flessibilità e prevenire tensioni.</li><li><b>Riposo e Recupero:</b> Dai ai tuoi tendini il tempo necessario per rigenerarsi. Se avverti dolore o gonfiore, fermati e permetti al corpo di guarire.</li><li><b>Attenzione ai Segnali del Corpo:</b> Dolore persistente, gonfiore o debolezza possono essere segnali di un sovraccarico. Consulta un professionista per una valutazione.</li><li><b>Supporto con Integratori:</b> Un integratore alimentare mirato può fornire i nutrienti essenziali per sostenere il recupero e la salute dei tendini.</li></ol><p><b>Proteggi i tuoi tendini e mantienili forti con le giuste abitudini e il supporto nutrizionale adeguato!</b></p>",
       "color": "#D7E4FF",
       "image": ""
     },
