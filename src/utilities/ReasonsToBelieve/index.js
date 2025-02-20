@@ -22,6 +22,7 @@ const ReasonsToBelieve = ({
   const [modal, setModal] = React.useState(false);
   const [modal1, setModal1] = React.useState(false);
   const [modalTitle, setModalTitle] = React.useState(false);
+  const [modalTitle2, setModalTitle2] = React.useState(false);
   const [modalDesc, setModalDesc] = React.useState(false);
   const [modalImg, setModalImg] = React.useState(false);
   const [imageSource, setImageSource] = React.useState("/");
@@ -37,6 +38,7 @@ const ReasonsToBelieve = ({
   const handleClick1 = (element) => {
     setModal1(true);
     setModalTitle(element.note);
+    setModalTitle2(element.note2)
     setModalDesc(element.expanded);
     setModalImg(element?.image?.src);
   };
@@ -174,10 +176,10 @@ const ReasonsToBelieve = ({
         <div className={`${styles.reasonsContainerV2} ${styles.v2}`} id="formulasection">
 
           <h2 className={styles.reasonsHeader}>
-            Rinforzare tendini e legamenti:
+          Sollievo immediato e supporto a lungo termine:
             <p className={styles.believeBluerex} style={{ color: theme }}>
-              gli ingredienti della nostra formula supportati da 5
-              studi clinici
+            la nostra formula con ingredienti testati in 5 studi clinici
+
             </p>
           </h2>
 
@@ -217,6 +219,7 @@ const ReasonsToBelieve = ({
                 <h3 className={styles.title} style={{ color: theme }}>
                   {element.note}
                 </h3>
+                <h4 className={styles.title2}>{element.note2}</h4>
                 <p
                   className={styles.expanded}
                   dangerouslySetInnerHTML={{
@@ -261,6 +264,9 @@ const ReasonsToBelieve = ({
                   <h1 className={styles.title} style={{ color: theme }}>
                     {modalTitle}
                   </h1>
+                  <h2 className={styles.title2}>
+                    {modalTitle2}
+                    </h2>
                   <div
                     className={styles.expanded}
                     dangerouslySetInnerHTML={{ __html: modalDesc }}
