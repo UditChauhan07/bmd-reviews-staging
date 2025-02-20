@@ -54,7 +54,7 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>CURCUMINA</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>La Curcumina aiuta a contrastare l'infiammazione e a ridurre
+                                <text>La Curcumina aiuta a contrastare l`&apos`infiammazione e a ridurre
                                     il danno cellulare nei tendini soggetti a tendinopatia, favorendo il benessere
                                     articolare e il recupero naturale.
                                 </text>
