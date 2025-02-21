@@ -21,7 +21,8 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong >BOSWELLIA SERRATA</strong>
                                 <p>Nuovo effetto analgesico</p>
-                                <strong>Sollievo Rapido e Potenziato</strong>
+                                <b>Sollievo Rapido e Potenziato</b>
+                                <div className={styles.scrollableText}>
                                 <text>  La BOSWELLIA
                                     SERRATA offre un effetto
                                     analgesico innovativo, con una riduzione
@@ -30,6 +31,7 @@ const FourPassaggi = () => {
                                     il miglioramento della capacità funzionale rispetto alla sola gestione
                                     standard, aiutandoti a ritrovare il benessere in meno tempo.
                                 </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv}>
@@ -54,10 +56,12 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>CURCUMINA</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>La Curcumina aiuta a contrastare l&apos; infiammazione e a ridurre
+                                <div className={styles.scrollableText}>
+                                <text>La Curcumina aiuta a contrastare l&apos;infiammazione e a ridurre
                                     il danno cellulare nei tendini soggetti a tendinopatia, favorendo il benessere
                                     articolare e il recupero naturale.
                                 </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv2}>
@@ -80,19 +84,21 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>AMINOACIDI E RAME</strong>
                                 <p> Potenziamento Anabolico per il Recupero dei Tendini </p>
+                                <div className={styles.scrollableText}>
                                 <text>
-                                    <strong>L-ARGININA –</strong> Stimola la sintesi del collagene,
+                                    <b>L-ARGININA –</b> Stimola la sintesi del collagene,
                                     elemento essenziale per la rigenerazione tendinea.<br></br>
 
-                                    <strong>L-LISINA e L-PROLINA –</strong> Amminoacidi
+                                    <b>L-LISINA e L-PROLINA –</b> Amminoacidi
                                     fondamentali presenti nelle proteine chiave per il rinnovamento dei tendini.<br></br>
 
-                                    <strong>RAME –</strong> Stabilizza le fibre di collagene, contribuendo a un
+                                    <b>RAME –</b> Stabilizza le fibre di collagene, contribuendo a un
                                     recupero più rapido ed efficace.
 
                                     Un supporto avanzato per la salute e la resistenza dei tuoi tendini!
 
                                 </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv}>
@@ -117,6 +123,7 @@ const FourPassaggi = () => {
                                 <h4 className={styles.pcontent}>COLLAGENE, DI TIPO I, <br />CONDROITINA SOLFATO, E IL MANGANESE
                                 </h4>
                                 <p>Sostegno e Struttura per i Tessuti</p>
+                                <div className={styles.scrollableText}>
                                 <text>
                                     <b>COLLAGENE DI TIPO I –</b> Garantisce resistenza e flessibilità, supportando la trasmissione delle forze. <br />
 
@@ -128,6 +135,7 @@ const FourPassaggi = () => {
 
                                     Un mix essenziale per il benessere e la funzionalità delle strutture connettive!
                                 </text>
+                                </div>
 
                             </div>
                         </div>
