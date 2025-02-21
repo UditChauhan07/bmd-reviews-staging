@@ -79,7 +79,7 @@
 /* stickyScroll section Css End */
 
 .FourPassaggiMain strong{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .FourPassaggiMain {
@@ -125,7 +125,26 @@
     /* border: 1px solid green; */
     font-family: var(--bmd-font-Secondary);
 }
+/* scroll text  */
+.scrollableText{
+    max-height: 145px; 
+    overflow-y: auto;
+    padding-right: 5px;
 
+}
+.scrollableText::-webkit-scrollbar {
+    width: 4px;
+  }
+  .scrollableText::-webkit-scrollbar-track {
+    background: #afafaf;
+  }
+  .scrollableText::-webkit-scrollbar-thumb {
+    background: #0000008d;
+    border-radius: 20px;
+  }
+  .scrollableText::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+  }
 .roundSection {
     height: 80px;
     width: 80px;
@@ -165,7 +184,9 @@ margin-bottom: 100px;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-
+.content b{
+    color: rgb(0, 0, 0);
+}
 .content p {
     color: rgb(0, 0, 0);
     font-size: 18px;
@@ -173,7 +194,7 @@ margin-bottom: 100px;
 }
 
 .content text {
-    font-size: 15px;
+    font-size: 16px;
     color: #525965;
 }
 
@@ -184,7 +205,7 @@ margin-bottom: 100px;
 
 .pcontent{
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 550;
 }
 .content2 text {
@@ -240,7 +261,7 @@ margin-bottom: 100px;
     background-color: #ecf0fa98;
     backdrop-filter: blur(2px);
     width: 100%;
-    max-width: 615px;
+    max-width: 460px;
     position: absolute;
     top: 50%;
     transform: translate(-40%, -50%);
