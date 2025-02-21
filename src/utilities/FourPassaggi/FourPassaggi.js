@@ -22,7 +22,7 @@ const FourPassaggi = () => {
                                 <strong >BOSWELLIA SERRATA</strong>
                                 <p>Nuovo effetto analgesico</p>
                                 <strong>Sollievo Rapido e Potenziato</strong>
-                                <text>La BOSWELLIA
+                                <text>  La BOSWELLIA
                                     SERRATA offre un effetto
                                     analgesico innovativo, con una riduzione
                                     significativa del dolore già dopo
@@ -54,7 +54,7 @@ const FourPassaggi = () => {
                                 </div>
                                 <strong>CURCUMINA</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>La Curcumina aiuta a contrastare l`&apos`infiammazione e a ridurre
+                                <text>La Curcumina aiuta a contrastare l&apos; infiammazione e a ridurre
                                     il danno cellulare nei tendini soggetti a tendinopatia, favorendo il benessere
                                     articolare e il recupero naturale.
                                 </text>

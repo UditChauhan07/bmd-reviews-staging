@@ -282,7 +282,7 @@
         {
           "note": "La CONDROITINA SOLFATO",
           "note2": "Supporto Naturale per la Salute Articolare",
-          "expanded":" <p>La Condroitina Solfato è un componente naturale delle cartilagini umane, fondamentale per il benessere del tessuto connettivo e la salute articolare.</p>  <p>Con il suo potente effetto benefico, essa:</p>  <ul>  <li>Mantiene l'elasticità e la funzionalità delle cartilagini, contribuendo al movimento fluido e senza dolore.</li>  <li>Supporta le articolazioni e ne riduce il dolore e l'infiammazione, promuovendo il comfort in ogni attività.</li>  <li>Migliora la lubrificazione articolare, trattenendo l’acqua per un'azione protettiva e lubrificante duratura.</li>  <li>Aiuta nel recupero da infortuni, favorendo la rigenerazione del tessuto cartilagineo e il recupero ottimale della funzionalità articolare.</li> </ul> <p>Un alleato naturale per chi desidera mantenere in salute le proprie articolazioni, migliorare la mobilità e sostenere il recupero.</p>",
+          "expanded":" <p>La Condroitina Solfato è un componente naturale delle cartilagini umane, fondamentale per il benessere del tessuto connettivo e la salute articolare.</p>  <p>Con il suo potente effetto benefico, essa:</p>  <ul>  <li>Mantenere l'elasticità e la funzionalità delle cartilagini, contribuendo al movimento fluido e senza dolore.</li>  <li>Supporta le articolazioni e ne riduce il dolore e l'infiammazione, promuovendo il comfort in ogni attività.</li>  <li>Migliora la lubrificazione articolare, trattenendo l’acqua per un'azione protettiva e lubrificante duratura.</li>  <li>Aiuta nel recupero da infortuni, favorendo la rigenerazione del tessuto cartilagineo e il recupero ottimale della funzionalità articolare.</li> </ul> <p>Un alleato naturale per chi desidera mantenere in salute le proprie articolazioni, migliorare la mobilità e sostenere il recupero.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Running-Chon.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-Running-Chonx100.webp",
@@ -302,7 +302,7 @@
         {
           "note": "VITAMINA C",
           "note2": "Un Alleato Essenziale per il Benessere",
-          "expanded": "<p>La Vitamina C, anche conosciuta come acido ascorbico, è un nutriente fondamentale per il nostro organismo,con numerosi benefici per la salute... </p> <p><strong>Supporto al sistema immunitario:</strong> Potenzia le difese naturali, promuovendo la produzione e la funzionalità dei globuli bianchi, che sono essenziali per combattere le infezioni.</p>   <p><strong>Antiossidante potente:</strong> Agisce come una barriera protettiva per le cellule, neutralizzando i radicali liberi e contribuendo a prevenire danni cellulari.</p>  <p><strong>Salute della pelle e cicatrizzazione:</strong> Stimola la produzione di collagene, migliorando l'elasticità della pelle e accelerando la guarigione delle ferite.</p>  <p><strong>Miglioramento dell'assorbimento del ferro:</strong> Favorisce una migliore assimilazione del ferro, un minerale essenziale per la salute del sangue.</p>  <p><strong>Riduzione dello stress ossidativo:</strong> Contrasta i danni causati dai radicali liberi, riducendo il rischio di patologie associate allo stress ossidativo.</p>",
+          "expanded": "<p>  La Vitamina C, anche conosciuta come acido ascorbico, è un nutriente fondamentale per il nostro organismo, con numerosi benefici per la salute.</p> <p><strong>Supporto al sistema immunitario:</strong> Potenzia le difese naturali, promuovendo la produzione e la funzionalità dei globuli bianchi, che sono essenziali per combattere le infezioni.</p>   <p><strong>Antiossidante potente:</strong> Agisce come una barriera protettiva per le cellule, neutralizzando i radicali liberi e contribuendo a prevenire danni cellulari.</p>  <p><strong>Salute della pelle e cicatrizzazione:</strong> Stimola la produzione di collagene, migliorando l'elasticità della pelle e accelerando la guarigione delle ferite.</p>  <p><strong>Miglioramento dell'assorbimento del ferro:</strong> Favorisce una migliore assimilazione del ferro, un minerale essenziale per la salute del sangue.</p>  <p><strong>Riduzione dello stress ossidativo:</strong> Contrasta i danni causati dai radicali liberi, riducendo il rischio di patologie associate allo stress ossidativo.</p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-bicycling-Vi.webp",
             "msrc": "\\images\\Tendoactive-Icon-v1-bicycling-Vix100.webp",
@@ -315,10 +315,10 @@
     },
     "Disorder": {
       "title": "Tendinite: Cos'è e Come Prevenirla",
-      "description": " La tendinite è un’infiammazione dei tendini, le strutture fibrose che collegano muscoli e ossa.Questa condizione può essere dolorosa, debilitante e lenta da guarire, spesso causata da sforzi ripetuti, sovraccarico, movimenti improvvisi o prolungati e lesioni.",
+      "description": " La tendinite è un’infiammazione dei tendini, le strutture fibrose che collegano muscoli e ossa. Questa condizione può essere dolorosa, debilitante e lenta da guarire, spesso causata da sforzi ripetuti, sovraccarico, movimenti improvvisi o prolungati e lesioni.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": " Le aree più colpite includono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille – dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato – nella spalla</li><li>. Epicondilo laterale e mediale – nel gomito</li><li>Tendine rotuleo – nel ginocchio</li><li>Estensori e flessori del polso</li></ol>",
+      "popupText": " Le aree più colpite includono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille – dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato – nella spalla</li><li> Epicondilo laterale e mediale – nel gomito</li><li>Tendine rotuleo – nel ginocchio</li><li>Estensori e flessori del polso</li></ol>",
       "image": "\\images\\landing\\disorder_final.webp",
       "color": "#D7E4FF"
     },
