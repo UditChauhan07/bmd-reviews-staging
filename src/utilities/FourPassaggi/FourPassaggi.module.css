@@ -354,6 +354,9 @@ margin-bottom: 100px;
 }
 
 @media (max-width:530px) {
+    .scrollableText{
+        max-height: 80px; 
+    }
     .FourPassaggiMain strong{
         font-size: 20px;
     }

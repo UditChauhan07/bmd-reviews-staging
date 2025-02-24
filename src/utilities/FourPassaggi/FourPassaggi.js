@@ -86,13 +86,13 @@ const FourPassaggi = () => {
                                 <p> Potenziamento Anabolico per il Recupero dei Tendini </p>
                                 <div className={styles.scrollableText}>
                                 <text>
-                                    <b>L-ARGININA –</b> Stimola la sintesi del collagene,
+                                    L-ARGININA – Stimola la sintesi del collagene,
                                     elemento essenziale per la rigenerazione tendinea.<br></br>
 
-                                    <b>L-LISINA e L-PROLINA –</b> Amminoacidi
+                                   L-LISINA e L-PROLINA – Amminoacidi
                                     fondamentali presenti nelle proteine chiave per il rinnovamento dei tendini.<br></br>
 
-                                    <b>RAME –</b> Stabilizza le fibre di collagene, contribuendo a un
+                                    RAME – Stabilizza le fibre di collagene, contribuendo a un
                                     recupero più rapido ed efficace.
 
                                     Un supporto avanzato per la salute e la resistenza dei tuoi tendini!
@@ -120,18 +120,18 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>4</h3>
                                 </div>
-                                <h4 className={styles.pcontent}>COLLAGENE, DI TIPO I, <br />CONDROITINA SOLFATO, E IL MANGANESE
-                                </h4>
+                                <strong className={styles.pcontent}>COLLAGENE, DI TIPO I, <br />CONDROITINA SOLFATO, E IL MANGANESE
+                                </strong>
                                 <p>Sostegno e Struttura per i Tessuti</p>
                                 <div className={styles.scrollableText}>
                                 <text>
-                                    <b>COLLAGENE DI TIPO I –</b> Garantisce resistenza e flessibilità, supportando la trasmissione delle forze. <br />
+                                   COLLAGENE DI TIPO I – Garantisce resistenza e flessibilità, supportando la trasmissione delle forze. <br />
 
-                                    <b>CONDROITINA SOLFATO –</b> Organizza e struttura le fibre di collagene, contribuendo alla forma e integrità dei tessuti. <br />
+                                   CONDROITINA SOLFATO – Organizza e struttura le fibre di collagene, contribuendo alla forma e integrità dei tessuti. <br />
 
-                                    <b>MANGANESE –</b> Essenziale per la formazione di tessuti connettivi come tendini e legamenti. <br />
+                                  MANGANESE – Essenziale per la formazione di tessuti connettivi come tendini e legamenti. <br />
 
-                                    <b>VITAMINA C –</b> Favorisce la naturale sintesi del collagene, rafforzando la struttura dei tessuti. <br />
+                                  VITAMINA C – Favorisce la naturale sintesi del collagene, rafforzando la struttura dei tessuti. <br />
 
                                     Un mix essenziale per il benessere e la funzionalità delle strutture connettive!
                                 </text>
