@@ -231,7 +231,7 @@
       "items": [
         {
         "note": "FITOSOMA DI BOSWELLIA SERRATA  ",
-        "note2": " ASSORBIMENTO OTTIMIZZATO PER MASSIMA EFFICACIA",
+        "note2": "Assorbimento Ottimizzato per Massima Efficacia",
         "expanded": "<p>La Boswellia serrata è un potente estratto vegetale utilizzato da secoli nella medicina ayurvedica per il suo supporto alle articolazioni e le proprietà antinfiammatorie. Grazie alla tecnologia fitosoma, il suo assorbimento viene significativamente migliorato, massimizzando i benefici per l’organismo.</p><p><b>TECNOLOGIA FITOSOMA –</b> Il processo di fitosomizzazione incapsula i fitochimici attivi, come flavonoidi e polifenoli, all’interno di fosfolipidi, migliorandone la solubilità in acqua e la biodisponibilità.</p><p><b>EFFICACIA POTENZIATA –</b> L’unione tra fitochimici e fosfolipidi favorisce un assorbimento più rapido ed efficace, amplificando le proprietà terapeutiche della Boswellia.</p><p><b>BENEFICI SCIENTIFICAMENTE DIMOSTRATI –</b> Studi evidenziano il ruolo della Boswellia serrata fitosoma nel supporto articolare e nella riduzione dell’infiammazione.</p><p><b>Massima purezza e qualità per il tuo benessere quotidiano!</b></p>",
           "image": {
             "src": "\\images\\Tendoactive-Icon-v1-Stairs- bosw.webp",
@@ -318,7 +318,7 @@
       "description": " La tendinite è un’infiammazione dei tendini, le strutture fibrose che collegano muscoli e ossa. Questa condizione può essere dolorosa, debilitante e lenta da guarire, spesso causata da sforzi ripetuti, sovraccarico, movimenti improvvisi o prolungati e lesioni.",
       "buttonText": "Scopri di piu’",
       "popupTitle": "",
-      "popupText": " Le aree più colpite includono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille – dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato – nella spalla</li><li> Epicondilo laterale e mediale – nel gomito</li><li>Tendine rotuleo – nel ginocchio</li><li>Estensori e flessori del polso</li></ol>",
+      "popupText": " <b>Le aree più colpite includono:</b><br/><ol style='list-style: inside num;'><li>Tendine d'Achille – dietro il tallone</li><li>Cuffia dei rotatori e tendine del sovraspinato – nella spalla</li><li> Epicondilo laterale e mediale – nel gomito</li><li>Tendine rotuleo – nel ginocchio</li><li>Estensori e flessori del polso</li></ol>",
       "image": "\\images\\landing\\disorder_final.webp",
       "color": "#D7E4FF"
     },
