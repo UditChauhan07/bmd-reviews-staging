@@ -61,9 +61,9 @@ const SearchBox = () => {
                         <button className={styles.exitBtn} onClick={toggle}>
                             <ExitIcon />
                         </button>
-                        <button className={styles.searchBtn} onClick={handleSubmitSearch}>
+                        {/* <button className={styles.searchBtn} onClick={handleSubmitSearch}>
                             Search
-                        </button>
+                        </button> */}
                     </div>
                     <div className={styles.resultHolder}>
                         <ul className={styles.dropList}>

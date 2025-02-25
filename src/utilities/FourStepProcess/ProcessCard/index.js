@@ -24,7 +24,7 @@ const ProcessCard = ({
     if (!buttonTittle) buttonTittle = 'LEARN MORE';
     React.useEffect(() => {
         let more = document.getElementsByClassName('accordionColor')
-        console.log({ more })
+        // console.log({ more })
         if (more) {
             more.style = `color:${titleColor}`;
         }

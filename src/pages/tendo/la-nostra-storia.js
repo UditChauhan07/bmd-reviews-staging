@@ -15,7 +15,7 @@ export default function Storia({ version, script }) {
     <section>
       <PageHead content={SEO[version].storia.SEO} />
       <MasterHeadImg data={masterHead} />
-      <div style={{ maxWidth: "1400px", margin: "4rem auto 2rem" }}>
+      <div style={{ maxwidth: "1400px", margin: "4rem auto 2rem" }}>
         <div className={styles.titleDesc}>
           <p>{timelineDesc}</p>
         </div>

@@ -12,10 +12,10 @@ export async function updateCustomerAddress({ address, customerAccessToken }) {
   });
 
   let data = JSON.parse(await response.text());
-  console.log({ data });
+  // console.log({ data });
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log({ cdata });
+    // console.log({ cdata });
     return cdata;
   }
 }
@@ -34,7 +34,7 @@ export async function createCustomerAddress({ address, customerAccessToken }) {
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log({ cdata });
+    // console.log({ cdata });
     return cdata;
   }
 }
@@ -51,7 +51,7 @@ export async function getProductSearch() {
   });
 
   let data = JSON.parse(await response.text());
-  console.log({ data },"ttyryr");
+  // console.log({ data },"ttyryr");
   if (data?.status == 200) {
     let cdata = JSON.parse(data.data);
     return cdata;
@@ -73,7 +73,7 @@ export async function ResetUser({ email }) {
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log({ cdata });
+    // console.log({ cdata });
     return cdata;
   }
 }
@@ -97,7 +97,7 @@ export async function deleteCustomerAddress({
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log({ cdata });
+    // console.log({ cdata });
     return cdata;
   }
 }
@@ -132,7 +132,7 @@ export async function getProduct({ productId }) {
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log("1248",cdata);
+    // console.log("1248",cdata);
     
     return cdata;
   }
@@ -151,7 +151,7 @@ export async function EditOrder({ id, lineItemId, quantity }) {
   let data = JSON.parse(await response.text());
   if (data?.data) {
     let cdata = JSON.parse(data.data);
-    console.log({ cdata });
+    // console.log({ cdata });
     return cdata;
   }
 }
@@ -307,7 +307,7 @@ export async function RecoverUser({ token }) {
   });
 
   let data = JSON.parse(await response.text());
-  console.log({ data });
+  // console.log({ data });
   if (data?.data) {
     let cdata = JSON.parse(data.data);
     return cdata;
@@ -341,7 +341,7 @@ export async function getCustomerDetails({ token, setCustomer }) {
   });
 
   let data = JSON.parse(await response.text());
-  console.log(data,"customers--->");
+  // console.log(data,"customers--->");
   
   if (data?.data) {
     let cdata = JSON.parse(data.data);

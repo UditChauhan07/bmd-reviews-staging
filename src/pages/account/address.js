@@ -39,7 +39,7 @@ const AccountAddress = () => {
     event.preventDefault()
     if(formData?.id){
       updateCustomerAddress({address:formData, customerAccessToken:Decrypt()}).then((response)=>{
-        console.log({resposne: response});
+        // console.log({resposne: response});
         var errors = response.data.customerAddressUpdate.customerUserErrors || [];
         if (errors.length != 0) {
           console.error({ errors });
