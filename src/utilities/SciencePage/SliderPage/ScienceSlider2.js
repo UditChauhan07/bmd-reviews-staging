@@ -269,9 +269,9 @@ const ScienceSlider2 = () => {
   } = product || {};
 
   const getProductData = (slug) => {
-    console.log("sss", slug);
+    // console.log("sss", slug);
     let product = ProductsData[slug];
-    console.log("sss1", product);
+    // console.log("sss1", product);
     if (product?.EXTERNALID) {
       const productId = `gid://shopify/Product/${product.EXTERNALID}`;
       if (product?.EXTERNALID && shopifyP?.id != productId) {
@@ -279,7 +279,7 @@ const ScienceSlider2 = () => {
           .then((response) => {
             let product = response?.data?.product;
             setSProduct(product);
-            console.log("kkkkk");
+            // console.log("kkkkk");
             setLoad(false);
           })
           .catch((err) => {

@@ -203,6 +203,32 @@
 .modalSection{
     cursor: pointer;
 }
+@media (min-width: 769px) and (max-width: 1600px) {
+    .accordionContent{
+        height: auto;
+        max-height: 330px;
+        overflow: auto;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    .accordionContent::-webkit-scrollbar {
+        width: 3px; 
+      }
+      
+      .accordionContent::-webkit-scrollbar-track {
+        background: #afafaf; 
+      }
+      
+      .accordionContent::-webkit-scrollbar-thumb {
+        background: #000000; 
+        border-radius: 20px;
+      }
+      
+      .accordionContent::-webkit-scrollbar-thumb:hover {
+        background: #828282;
+      }
+
+}
 @media(max-width:768px){
     .p_scrool {
         max-height: 240px

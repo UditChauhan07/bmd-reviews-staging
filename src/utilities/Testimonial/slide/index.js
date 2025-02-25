@@ -30,7 +30,7 @@ const TestimonialSlide = ({ colorCode, colorCodeOnPlayButton,colorCodeOnText, sl
 
 
     if (false) {
-        console.log('ISOPEN:====', isOpen)
+        // console.log('ISOPEN:====', isOpen)
         return (
 
             <div className={styles.testimonialSlide} ref={ref}>

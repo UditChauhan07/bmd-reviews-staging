@@ -104,7 +104,7 @@ const ModalBoxInner = ({
     let cId = localStorage.getItem("e6S4JJM9G");
     if (cId == "undefined") cId = null;
     let lineItemsToAdd = [];
-    console.log({ type, productVariantId, quantity, freq });
+    // console.log({ type, productVariantId, quantity, freq });
     if (type == "Onetime") {
       lineItemsToAdd = [
         {

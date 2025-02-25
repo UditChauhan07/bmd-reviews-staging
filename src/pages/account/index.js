@@ -43,8 +43,8 @@ const Index = () => {
   }
   useEffect(() => {
     let data = Decrypt();
-    console.log("tokennnnnnn");
-    console.log({ data });
+    // console.log("tokennnnnnn");
+    // console.log({ data });
     if (data == null) {
       Destroy(router);
     }
@@ -102,8 +102,8 @@ const Index = () => {
       if (element.node.id == id) {
         element.node.lineItems.edges.map((items) => {
           if (items.node) {
-            console.log("testing");
-            console.log({ items });
+            // console.log("testing");
+            // console.log({ items });
             lineItems.push({
               merchandiseId: items.node.variant?.id,
               quantity: items.node.quantity,
@@ -128,10 +128,10 @@ const Index = () => {
   const cartAdd = (lineItems) => {
     let cId = localStorage.getItem("e6S4JJM9G");
     if (lineItems.length > 0) {
-      console.log("kkkk");
-      console.log(lineItems);
+      // console.log("kkkk");
+      // console.log(lineItems);
       if (cId) {
-        console.log(lineItems);
+        // console.log(lineItems);
         addCartItems({ items: lineItems })
           .then((response) => {
             if (response?.data?.cartLinesAdd?.userErrors?.length) {
@@ -192,20 +192,20 @@ const Index = () => {
         id2 = parseInt(id1[1]);
       }
     }
-    console.log(orders);
+    // console.log(orders);
     orders.edges.map((element) => {
       let frequency = "";
       if (element.node.id == id) {
         element.node.lineItems.edges.map((items) => {
           if (items.node) {
-            console.log({ items });
+            // console.log({ items });
             let title = items.node.title;
             let ExternalOrderId = id2;
             if (ExternalOrderId) {
               getSubscriptionFrequency({ id: ExternalOrderId })
                 .then((response) => {
                   if (response.status == 200) {
-                    console.log({ response });
+                    // console.log({ response });
                     if (response?.data?.subscription) {
                       subscribeStatus = true;
                       frequency =
@@ -214,7 +214,7 @@ const Index = () => {
                         response.data.subscription.shopify_product_id;
                       getSubscription({ id: external_id })
                         .then((response) => {
-                          console.log(response);
+                          // console.log(response);
                           if (response?.plans?.length) {
                             let freqs = [];
                             response.plans.map((element) => {
@@ -222,7 +222,7 @@ const Index = () => {
                                 element.subscription_preferences
                                   .charge_interval_frequency
                               )
-                                console.log(element);
+                                // console.log(element);
                               if (
                                 element.subscription_preferences
                                   .charge_interval_frequency == frequency
@@ -251,7 +251,7 @@ const Index = () => {
                     cartAdd(lineItems);
                   }
 
-                  console.log(response);
+                  // console.log(response);
                 })
                 .catch((err) => {
                   console.error({ err });
@@ -267,8 +267,8 @@ const Index = () => {
   return (
     <section className={styles.accountSection}>
       {!load ? (
-        <div class="center-body" style={{ height: "200px" }}>
-          <div class="loader-circle-2"></div>
+        <div className="center-body" style={{ height: "200px" }}>
+          <div className="loader-circle-2"></div>
         </div>
       ) : (
         <>
@@ -287,7 +287,7 @@ const Index = () => {
             <div className={styles.accountContainer}>
               {true && (
                 <div className={styles.orderContainer}>
-                  <table class="table">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col">Numero dell&apos;Ordine</th>

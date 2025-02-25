@@ -130,7 +130,7 @@ const TimeLine = ({ data, layout }) => {
       <div className={styles.paginationContainer}>
         <div className={styles.paginationDiv}>
           <svg className={styles.prevButton}  onClick={prevSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12.1797 28.4039L23.5406 17.043L34.9015 28.4039" stroke="#56008C" stroke-width="2" />
+            <path d="M12.1797 28.4039L23.5406 17.043L34.9015 28.4039" stroke="#56008C" strokeWidth="2" />
           </svg>
 
           <div className={styles.pagination}>
@@ -145,7 +145,7 @@ const TimeLine = ({ data, layout }) => {
             ))}
           </div>
           <svg className={styles.nextButton} onClick={nextSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M34.9004 17.2758L23.5395 28.6367L12.1786 17.2758" stroke="#56008C" stroke-width="2" />
+            <path d="M34.9004 17.2758L23.5395 28.6367L12.1786 17.2758" stroke="#56008C" strokeWidth="2" />
           </svg>
 
         </div>

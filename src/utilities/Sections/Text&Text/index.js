@@ -3,7 +3,7 @@ import React from 'react'
 import styles from '../styles.module.css'
 
 const TextText = ({ data }) => {
-    console.log({ data });
+    // console.log({ data });
     if (!data) return null
     return (
         <section id='TextText'>

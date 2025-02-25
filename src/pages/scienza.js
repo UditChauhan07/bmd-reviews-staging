@@ -2,7 +2,8 @@ import React from 'react'
 import scienza from '../../json/scienza.json'
 import { NewsLetter } from '@/utilities/NewsLetter';
 import TextText from '@/utilities/Sections/Text&Text';
-import ImgText from '@/utilities/Sections/Img&Text';
+// import ImgText from '@/utilities/Sections/Img&Text';
+import ImgText2 from '@/utilities/Sections/Img&Text 2';
 import Quote from '@/utilities/Sections/Quote';
 import PageHead from '@/utilities/Head';
 import SEO from '../../json/SEO.json';
@@ -12,8 +13,8 @@ const DynamicVideoComponent = dynamic(
   () => import("@/utilities/Video/master"),
   {
     loading: () => (
-      <div class="center-body" style={{ height: "200px" }}>
-        <div class="loader-circle-2"></div>
+      <div className="center-body" style={{ height: "200px" }}>
+        <div className="loader-circle-2"></div>
       </div>
     ),
   }
@@ -27,7 +28,7 @@ export default function Scienza({version,script}) {
             <DynamicVideoComponent  content={masterHead.content} src={masterHead.video}/>
             <div style={{margin:'3rem auto'}}><TextText data={sectionOne.sectionContent} /></div>
             <img src={sectionOne.sectionImage.src} alt="..." style={{width:'100%'}}/>
-            <ImgText data={sectionTwo} />
+            <ImgText2 data={sectionTwo} />
             <Quote data={quote}/>
             {script&&<NewsLetter content={newsletter}/>}
         </section>

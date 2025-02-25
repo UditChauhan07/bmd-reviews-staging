@@ -12,6 +12,19 @@
     float: right
 }
 
+.Text_div{
+    color: #000;
+    font-weight: bold;
+    display: inline;
+
+}
+.textdiv2{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 5px 0px;
+
+}
+
 .ExtraCod h2 {
     display: inline-block;
     font-size: 18px;
@@ -66,7 +79,7 @@
 /* stickyScroll section Css End */
 
 .FourPassaggiMain strong{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .FourPassaggiMain {
@@ -112,7 +125,26 @@
     /* border: 1px solid green; */
     font-family: var(--bmd-font-Secondary);
 }
+/* scroll text  */
+.scrollableText{
+    max-height: 145px; 
+    overflow-y: auto;
+    padding-right: 5px;
 
+}
+.scrollableText::-webkit-scrollbar {
+    width: 4px;
+  }
+  .scrollableText::-webkit-scrollbar-track {
+    background: #afafaf;
+  }
+  .scrollableText::-webkit-scrollbar-thumb {
+    background: #0000008d;
+    border-radius: 20px;
+  }
+  .scrollableText::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+  }
 .roundSection {
     height: 80px;
     width: 80px;
@@ -152,7 +184,9 @@ margin-bottom: 100px;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
-
+.content b{
+    color: rgb(0, 0, 0);
+}
 .content p {
     color: rgb(0, 0, 0);
     font-size: 18px;
@@ -160,15 +194,20 @@ margin-bottom: 100px;
 }
 
 .content text {
-    font-size: 15px;
+    font-size: 16px;
     color: #525965;
 }
 
-.content2 strong {
+.content2 b {
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 16px;
 }
 
+.pcontent{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 550;
+}
 .content2 text {
     font-size: 16px;
     color: #525965;
@@ -226,7 +265,7 @@ margin-bottom: 100px;
     position: absolute;
     top: 50%;
     transform: translate(-40%, -50%);
-    padding: 30px;
+    padding: 20px;
     border-top-right-radius: 34px;
 }
 
@@ -315,6 +354,9 @@ margin-bottom: 100px;
 }
 
 @media (max-width:530px) {
+    .scrollableText{
+        max-height: 80px; 
+    }
     .FourPassaggiMain strong{
         font-size: 20px;
     }
@@ -376,9 +418,9 @@ margin-bottom: 100px;
         font-size: 13px;
     }
 
-    .ImgSection {
-        /* margin-top: 4rem; */
-    }
+    /* .ImgSection {
+        margin-top: 4rem;
+    } */
 
     .ImgSection2 {
         margin-top: 4rem;

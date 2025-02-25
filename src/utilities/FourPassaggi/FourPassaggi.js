@@ -19,9 +19,19 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>1</h3>
                                 </div>
-                                <strong >Boswellia Serrata</strong>
+                                <strong >BOSWELLIA SERRATA</strong>
                                 <p>Nuovo effetto analgesico</p>
-                                <text>Effetto analgesico: La Boswellia Serrata ottiene una riduzione statisticamente significativa del dolore (vs. PBO) dalle 2 ore in poi dopo la somministrazione. In aggiunta, raddoppia il miglioramento della capacità funzionale nello stesso periodo rispetto alla sola gestione standard.</text>
+                                <b>Sollievo Rapido e Potenziato</b>
+                                <div className={styles.scrollableText}>
+                                <text>  La BOSWELLIA
+                                    SERRATA offre un effetto
+                                    analgesico innovativo, con una riduzione
+                                    significativa del dolore già dopo
+                                    2 ore dalla somministrazione (vs. placebo). Inoltre, raddoppia
+                                    il miglioramento della capacità funzionale rispetto alla sola gestione
+                                    standard, aiutandoti a ritrovare il benessere in meno tempo.
+                                </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv}>
@@ -44,9 +54,14 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>2</h3>
                                 </div>
-                                <strong>Curcuma</strong>
+                                <strong>CURCUMINA</strong>
                                 <p>Effetto antinfiammatorio</p>
-                                <text>Effetto antinfiammatorio: La curcumina, principale componente attivo della curcuma, è nota per le sue proprietà antinfiammatorie. Essa agisce riducendo il danno cellulare e lo stress ossidativo nei tendini affetti da tendinopatia, contribuendo al miglioramento della funzionalità e alla riduzione del dolore.</text>
+                                <div className={styles.scrollableText}>
+                                <text>La Curcumina aiuta a contrastare l&apos;infiammazione e a ridurre
+                                    il danno cellulare nei tendini soggetti a tendinopatia, favorendo il benessere
+                                    articolare e il recupero naturale.
+                                </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv2}>
@@ -67,9 +82,23 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>3</h3>
                                 </div>
-                                <strong>Aminoacidi e Rame</strong>
-                                <p>Effetto di rinforzo anabolico</p>
-                                <text>Effetto di rinforzo anabolico: La L-arginina favorisce la sintesi del collagene, chiave per il recupero dei tendini. La L-LISINA e la L-PROLINA si trovano in proteine significative per il meccanismo di rinnovamento del tendine. Il rame stabilizza le fibre di collagene, accelerando il processo di recupero dei tendini.</text>
+                                <strong>AMINOACIDI E RAME</strong>
+                                <p> Potenziamento Anabolico per il Recupero dei Tendini </p>
+                                <div className={styles.scrollableText}>
+                                <text>
+                                    L-ARGININA – Stimola la sintesi del collagene,
+                                    elemento essenziale per la rigenerazione tendinea.<br></br>
+
+                                   L-LISINA e L-PROLINA – Amminoacidi
+                                    fondamentali presenti nelle proteine chiave per il rinnovamento dei tendini.<br></br>
+
+                                    RAME – Stabilizza le fibre di collagene, contribuendo a un
+                                    recupero più rapido ed efficace.
+
+                                    Un supporto avanzato per la salute e la resistenza dei tuoi tendini!
+
+                                </text>
+                                </div>
                             </div>
                         </div>
                         <div className={styles.imgDiv}>
@@ -91,9 +120,23 @@ const FourPassaggi = () => {
                                 <div className={styles.roundSection}>
                                     <h3>4</h3>
                                 </div>
-                                <strong>Collagene, Di Tipo I, Condroitina<br/> Solfato, E Il Manganese</strong>
-                                <p>Foniscono struttura ai tessuti</p>
-                                <text>Forniscono struttura ai tessuti: Il COLLAGENE DI TIPO I fornisce resistenza e flessibilità per la trasmissione delle forze. La CONDROITINA SOLFATO ordina e struttura le fibre di collagene, determinando la forma tissutale. Il MANGANESE svolge un ruolo nella formazione di tessuti connettivi come tendini e legamenti. La VITAMINA C stimola la sintesi del collagene.</text>
+                                <strong className={styles.pcontent}>COLLAGENE, DI TIPO I, <br />CONDROITINA SOLFATO, E IL MANGANESE
+                                </strong>
+                                <p>Sostegno e Struttura per i Tessuti</p>
+                                <div className={styles.scrollableText}>
+                                <text>
+                                   COLLAGENE DI TIPO I – Garantisce resistenza e flessibilità, supportando la trasmissione delle forze. <br />
+
+                                   CONDROITINA SOLFATO – Organizza e struttura le fibre di collagene, contribuendo alla forma e integrità dei tessuti. <br />
+
+                                  MANGANESE – Essenziale per la formazione di tessuti connettivi come tendini e legamenti. <br />
+
+                                  VITAMINA C – Favorisce la naturale sintesi del collagene, rafforzando la struttura dei tessuti. <br />
+
+                                    Un mix essenziale per il benessere e la funzionalità delle strutture connettive!
+                                </text>
+                                </div>
+
                             </div>
                         </div>
                         <div className={styles.imgDiv2}>

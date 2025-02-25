@@ -5,7 +5,6 @@ import FeatureInfo from '@/utilities/FeatureInfo'
 import BottomBar from '@/utilities/BottomBar';
 import data from '../../../json/layout.json'
 import dynamic from 'next/dynamic';
-import Head from 'next/head';
 
 const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
   loading: () => <p>Loading...</p>,
@@ -14,7 +13,7 @@ const DynamicChat= dynamic(() => import('@/utilities/ChatBubble'), {
 export default function Layout({ children,version,script }) {
     return (
         <>
-        <div class="yotpo-widget-instance" data-yotpo-instance-id="583415"></div>
+        <div className="yotpo-widget-instance" data-yotpo-instance-id="583415"></div>
         {data[version] &&
         
         <>

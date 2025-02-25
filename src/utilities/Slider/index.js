@@ -40,7 +40,7 @@ const Slider = ({ data }) => {
     <section
       onMouseOut={handleMouveOut}
       style={
-        isDesktop ? { maxWidth: "500px" } : { maxWidth: `${windowWidth}px` }
+        isDesktop ? { maxwidth: "500px" } : { maxwidth: `${windowWidth}px` }
       }
     >
       {/* <div style={style}></div> */}
