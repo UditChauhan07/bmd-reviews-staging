@@ -4,6 +4,7 @@ import MasterHeadImg from "@/utilities/MasterHeadImg"
 import ImgText from "@/utilities/Sections/Img&Text"
 import scienza from '../../json/responsabilita-sociale.json'
 import PageHead from "@/utilities/Head"
+import ImgText2 from "@/utilities/Sections/Img&Text 2"
 
 export default function Sociale({version}) {
     const { masterHead, sectionOne, sectionTwo } = scienza[version] || {};
@@ -14,7 +15,7 @@ export default function Sociale({version}) {
             <MasterHeadImg data={masterHead} />
             <section className={styles.container}>
                 <div className={styles.textLaHolder} dangerouslySetInnerHTML={{ __html: sectionOne?.content }} />
-                <ImgText data={sectionTwo} />
+                <ImgText2 data={sectionTwo} />
             </section>
         </>
     )
