@@ -13,45 +13,45 @@ const BrunoFamily = () => {
     speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2500,
   };
 
   // Array of slide data objects
   const slideData = [
     {
       id: 1,
-      imgSrc: "images/bruno_family01.webp",
+      imgSrc: "/images/bruno_family01.webp",
       title: "La Famiglia Bruno",
       description: "Innovazione e Passione da Oltre 50 AnniPiù di mezzo secolo fa, il Dott. Antonio Bruno ha trasformato la sua passione per la chimica in un’arte al servizio dell’innovazione, con un unico obiettivo: migliorare la vita delle persone in ogni angolo del mondo. Oggi, Bruno MD rappresenta l’incontro perfetto tra arte e scienza. “Sin da giovane ho coltivato un sogno: contribuire al miglioramento della salute umana,” racconta il Dott. Bruno. “Oggi quel sogno è diventato una carriera e, ancora di più, una missione: offrire soluzioni innovative per il benessere, raggiungendo il maggior numero di persone possibile.”Un’eredità di dedizione e innovazione che continua a ispirare e a fare la differenza.",
     },
     {
       id: 2,
-      imgSrc: "images/bruno_family02.webp",
+      imgSrc: "/images/bruno_family02.webp",
       title: "I primi anni di vita del Dr. Bruno",
       description: "Il Dr. Bruno venne al mondo nel 1938, in un affascinante borgo dell'Italia meridionale, situato nel cuore della provincia di Avellino. Questa terra, ricca di storia e tradizioni, si distingue per il suo suolo fertile e generoso, oltre che per il profondo legame della sua gente con la natura circostante: le maestose montagne, le vaste pianure e i limpidi corsi d'acqua che la attraversano.",
     },
     {
       id: 3,
-      imgSrc: "images/bruno_family03.webp",
+      imgSrc: "/images/bruno_family03.webp",
       title: "Il Suolo Italiano: Un Legame Autentico con la Terra",
       description: "La nostra provincia è un cuore pulsante di tradizioni agricole, dove il legame tra l’uomo e Madre Terra è profondo e sincero. Qui, il Dott. Bruno ha coltivato fin da giovane un amore autentico per la terra, imparando a valorizzare i suoi frutti. Questa connessione unica ha ispirato la sua missione: creare prodotti di altissima qualità utilizzando solo i migliori ingredienti, rispettando la natura e le sue preziose risorse",
     },
     {
       id: 4,
-      imgSrc: "images/bruno_family04.webp",
+      imgSrc: "/images/bruno_family04.webp",
       title: "Carriera Precedente",
       description: "Il Dr. Bruno ha conseguito la laurea con lode in Chimica presso l'Università degli Studi di Napoli. Animato dalla passione per il miglioramento della qualità della vita, ha iniziato il suo percorso professionale come rappresentante di vendita presso Lepetit S.p.A, un’azienda farmaceutica milanese di fama internazionale, rinomata per la sua eccellenza e i numerosi riconoscimenti nel settore.",
     },
     {
       id: 5,
-      imgSrc: "images/bruno_family05.webp",
+      imgSrc: "/images/bruno_family05.webp",
       title: "Bruno Farmaceutici: Una Storia di Famiglia dal 1996",
       description: "Fondato nel luglio del 1996, Bruno Farmaceutici si è subito distinto per la sua dedizione alla salute e al benessere. In breve tempo, l'azienda è diventata una realtà familiare a tutti gli effetti, grazie all'ingresso del figlio del dottor Bruno, Vincenzo, e della figlia Mariolina. Da allora, la passione di famiglia guida ogni passo verso l'eccellenza farmaceutica.",
     },
     {
       id: 6,
-      imgSrc: "images/bruno_family06.webp",
+      imgSrc: "/images/bruno_family06.webp",
       title: "Bruno Farmaceutici: Innovazione e Salute al Servizio della Vita",
       description: "Dalle terapie oculistiche più avanzate ai trattamenti cardiaci salvavita, fino agli integratori su prescrizione firmati Bruno MD, siamo impegnati a offrire un portfolio di prodotti che non smette mai di stupire. E questo è solo l'inizio: centinaia di nuove soluzioni stanno per arrivare, pronte a migliorare la qualità della vita di milioni di persone.La nostra missione è dare alle persone gli strumenti per prendere in mano la propria storia di salute. Queste storie sono, per noi, tra le più straordinarie che la natura e la scienza possano scrivere insieme. E siamo certi che la pensiate allo stesso modo, ha dichiarato il Dr. Bruno.Scopri come Bruno Farmaceutici può accompagnarti nel tuo viaggio verso il benessere.",
     },
