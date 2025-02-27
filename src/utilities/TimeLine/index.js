@@ -10,58 +10,58 @@ const TimeLine = ({ data, layout }) => {
 
   const timelineData = [
     {
-      image: 'images/Frame_1.webp',
+      image: '/images/Frame_1.webp',
       date: 'Gennaio 1996',
       textEnglish: 'Nasce Bruno Farmaceutici, un progetto visionario che prende vita grazie alla dedizione del Dott. Antonio Bruno e del figlio Vincenzo. Con passione e impegno, hanno gettato le basi per un’azienda che unisce tradizione e innovazione nel mondo farmaceutico.',
     },
     {
-      image: 'images/Frame_1.webp',
+      image: '/images/Frame_1.webp',
       date: 'Luglio 1996',
       textEnglish: "Bruno Farmaceutici: un nuovo inizio per la salute in Italia Nel luglio del 1996, Bruno Farmaceutici compie un importante passo nel panorama farmaceutico, acquisendo un prestigioso portafoglio di farmaci dalla Hoechst Marion Roussel (Germania). Con questa acquisizione, l'azienda dà avvio alle sue operazioni commerciali sul territorio italiano, inaugurando una nuova era dedicata al benessere e all'innovazione nel settore della salute.",
     },
     {
       
-      image: 'images/Frame_4.webp',
+      image: '/images/Frame_4.webp',
       date: '1997-2001',
       textEnglish: 'Bruno Farmaceutici amplia il proprio portafoglio prodotti acquisendo nuovi farmaci da prestigiose multinazionali del settore farmaceutico.',
     },
     {
-      image: 'images/Frame_3.webp',
+      image: '/images/Frame_3.webp',
       date: '2001',
       textEnglish: " La figlia del Dottor Bruno, Mariolina, entra a far parte dell'azienda, portando con sé una nuova energia e una visione appassionata per il futuro.",
     },
     {
-      image: 'images/Frame_5.webp',
+      image: '/images/Frame_5.webp',
       date: '2001 – 2011',
       textEnglish: 'Bruno Farmaceutici si afferma in Italia come punto di riferimento     nel trattamento dell’osteoporosi, nella gestione del dolore e nell’ambito cardiovascolare.',
     },
     {
-      image: 'images/Frame_6.webp',
+      image: '/images/Frame_6.webp',
       date: '2012',
       textEnglish: 'Bruno Farmaceutici amplia il proprio impegno nella salute acquisendo un prestigioso portafoglio di prodotti antidiabetici da Merck.',
     },
     {
-      image: 'images/Frame_7.webp',
+      image: '/images/Frame_7.webp',
       date: '2012',
       textEnglish: 'Bruno Farmaceutici rivoluziona il mercato italiano con il lancio della prima bevanda liquida a base di Alendronato.',
     },
     {
-      image: 'images/Frame_8.webp',
+      image: '/images/Frame_8.webp',
       date: '2015',
       textEnglish: 'Bruno Farmaceutici lancia in Italia il primo Flecainide a rilascio controllato.',
     },
     {
-      image: 'images/Frame_9.webp',
+      image: '/images/Frame_9.webp',
       date: '2017',
       textEnglish: "Bruno Farmaceutici avvia le sue operazioni commerciali negli Stati Uniti d'America, fondando Bruno MD.",
     },
     {
-      image: 'images/Frame_10.webp',
+      image: '/images/Frame_10.webp',
       date: '2019',
       textEnglish: 'Bruno Farmaceutici sviluppa la prima capsula soft-gel contenente Calcidiolo (Vitamina D)',
     },
     {
-      image: 'images/Frame_11.webp',
+      image: '/images/Frame_11.webp',
       date: '2021',
       textEnglish: 'Bruno Farmaceutici conquista una presenza commerciale globale internazionale.',
     },
@@ -73,7 +73,7 @@ const TimeLine = ({ data, layout }) => {
     speed: 1500,
     autoplaySpeed: 3000,
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     slidesToScroll: 1,
     // vertical: true, 
     // verticalSwiping: true,
