@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 import Carousel from 'react-bootstrap/Carousel';
@@ -7,34 +7,7 @@ const MasterHeadImg2 = ({ data }) => {
     const [isDesktop] = useMatchMedia('(min-width: 768px)', true)
     const [isAnnouncementVisible, setIsAnnouncementVisible] = useState(false);
     if(!data) return null
-    useEffect(() => {
-        const checkAnnouncementBar = () => {
-            const announcementBar = document.getElementById("fixedAnnouncementBar");
-            if (announcementBar && window.getComputedStyle(announcementBar).display !== "none") {
-                setIsAnnouncementVisible(true);
-                console.log("✅ Announcement Bar is Visible");
-            } else {
-                setIsAnnouncementVisible(false);
-                console.log("❌ Announcement Bar is Hidden");
-            }
-        };
-    
-        // Run once on mount
-        checkAnnouncementBar();
-    
-        // Observe changes in the body to detect dynamic changes
-        const observer = new MutationObserver(() => checkAnnouncementBar());
-        observer.observe(document.body, { childList: true, subtree: true });
-    
-        // Listen to window resize
-        window.addEventListener("resize", checkAnnouncementBar);
-    
-        return () => {
-            window.removeEventListener("resize", checkAnnouncementBar);
-            observer.disconnect(); // Cleanup the observer
-        };
-    }, []);
-    
+   
     
     
 
