@@ -48,7 +48,8 @@
                 "btnText": "Shop",
                 "logo": {
                     "src": "\\images\\07-BMD-Cronos-9O3A5820.webp"
-                }
+                },
+                "hide":true
             },
             {
                 "EXTERNALID": "8097677934907",
