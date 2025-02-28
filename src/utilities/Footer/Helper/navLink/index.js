@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import data from "../../../../../json/storia.json"
-import Storia from "../../../../componets/FooterModal/storia"
+// import Storia from "../../../../componets/FooterModal/storia"
 import styles from "./styles.module.css";
-import CommonModal from "../../../FooterModal/index";
+// import CommonModal from "../../../FooterModal/index";
 
 const navLink = ({ menuGroup }) => {
   // console.log(childern,"version------>");
@@ -12,22 +12,22 @@ const navLink = ({ menuGroup }) => {
 
 
 
-  const [modalOpen, setModalOpen] = useState(false);
-  const [modalContent, setModalContent] = useState({ title: "", body: "" });
+  // const [modalOpen, setModalOpen] = useState(false);
+  // const [modalContent, setModalContent] = useState({ title: "", body: "" });
   var hostname = window.location.hostname;
   var pathname = window.location.pathname;
   var pageURL = hostname + pathname;
 
-  const handleOpenModal = () => {
-    setModalOpen(true)
-  };
+  // const handleOpenModal = () => {
+  //   setModalOpen(true)
+  // };
 
 
 
   return (
     <>
 
-      <CommonModal
+      {/* <CommonModal
         show={modalOpen}
         handleClose={() => {
           console.log("Closing modal...");
@@ -35,7 +35,7 @@ const navLink = ({ menuGroup }) => {
         }}
       
         body={<Storia />}
-      />
+      /> */}
 
 
 
