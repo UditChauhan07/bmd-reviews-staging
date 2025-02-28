@@ -486,7 +486,7 @@
             },
             {
               "name": "Portale per il reso",
-              "url": "https://pharmalab.return-order.com"
+              "url": "/return"
             },
             {
               "name": "Reso",
@@ -1044,7 +1044,7 @@
             },
             {
               "name": "Portale per il reso",
-              "url": "https://pharmalab.return-order.com"
+              "url": "/return"
             },
             {
               "name": "Reso",
