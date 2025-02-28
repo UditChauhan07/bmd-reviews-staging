@@ -59,7 +59,7 @@ const AnnouncementBar2 = ({ announcement, theme, ModalHandler, position }) => {
 
 <div style={{ width: "80px", cursor: "pointer" }}>
   <Link href="/tendo" style={{ textDecoration: "none", color: "inherit" }}>
-  <img src="/images/back-icon.svg" alt="" />
+  <img src="/images/Backicon.svg" alt="" />
   </Link>
 </div>
         {/* <div dangerouslySetInnerHTML={{__html:announcement}}/> */}
