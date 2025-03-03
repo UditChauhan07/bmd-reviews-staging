@@ -12,7 +12,7 @@ const [isTendo, setIsTendo] = useState(false);
   
       useEffect(() => {
           if (typeof window !== "undefined") {
-              setIsTendo(window.location.href.includes("tendo"));
+              setIsTendo(window.location.href.includes("tendo/return"));
           }
       }, []);
   useEffect(() => {
@@ -59,7 +59,10 @@ const [isTendo, setIsTendo] = useState(false);
         </div>
       )}
     </div>
+    <div  style={{ marginTop: isTendo ? '60px' : '0px' }}>
     <Footer data={data1["EU"].footer2} />
+
+    </div>
     </>
   );
 }
