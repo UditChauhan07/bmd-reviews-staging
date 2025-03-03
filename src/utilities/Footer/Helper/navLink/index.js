@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 // import CommonModal from "../../../FooterModal/index";
 
 const navLink = ({ menuGroup }) => {
-  // console.log(childern,"version------>");
+  console.log(menuGroup,"version------>");
   const data1 = data?.EU
   console.log(data1, "------>");
 
@@ -90,7 +90,8 @@ const navLink = ({ menuGroup }) => {
                             {link?.url !== "#" ? (
                               <Link
                                 href={
-                                  link?.name === "Portale per il reso"
+                                  // link?.name ==="Portale per il reso"
+                                  link?.name ===""
                                     ? link?.url
                                     : "/tendo/" + link?.url
                                 }

@@ -30,8 +30,8 @@ const AnnouncementBar2 = ({ announcement, theme, ModalHandler, position }) => {
     };
     function scrollFunction() {
       if (
-        document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50
+        document.body.scrollTop > 0 ||""
+        // document.documentElement.scrollTop > 50
       ) {
         if (document.getElementById("fixedAnnouncementBar"))
           document.getElementById("fixedAnnouncementBar").style.position =

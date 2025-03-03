@@ -1,17 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import { useMatchMedia } from "../Sections/Hooks/useMatchMedia";
 import Carousel from 'react-bootstrap/Carousel';
 const MasterHeadImg2 = ({ data }) => {
 
     const [isDesktop] = useMatchMedia('(min-width: 768px)', true)
-    const [isAnnouncementVisible, setIsAnnouncementVisible] = useState(false);
+
+
+    const [isTendo, setIsTendo] = useState(false);
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setIsTendo(window.location.href.includes("tendo"));
+        }
+    }, []);
+
     if(!data) return null
    
-    
-    
-
-    
     return(
         <section id='MasterHeadImg'>
             
@@ -26,18 +31,18 @@ const MasterHeadImg2 = ({ data }) => {
 
                     <Carousel.Item>
                  <div className={styles.our_Carousel}>
-                            <img src="/images/BMD-History-Il-Noceto-v3.webp" alt="Second slide"    style={{ marginTop: isAnnouncementVisible ? "36px" : "0px" }} />
+                            <img src="/images/BMD-History-Il-Noceto-v3.webp" alt="Second slide"   style={{ marginTop: isTendo ? "48px" : "0px" }}/>
                         </div>
                     </Carousel.Item>
 
                     <Carousel.Item>
                  <div className={styles.our_Carousel}>
-                            <img src="/images/BMD-History-b_9-v3.webp" alt="Third slide"   style={{ marginTop: isAnnouncementVisible ? "36px" : "0px" }}/>
+                            <img src="/images/BMD-History-b_9-v3.webp" alt="Third slide" style={{ marginTop: isTendo ? "48px" : "0px" }}/>
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                  <div className={styles.our_Carousel}>
-                            <img src="/images/BMD-History-c15-v3.webp" alt="Third slide"   style={{ marginTop: isAnnouncementVisible ? "36px" : "0px" }}/>
+                            <img src="/images/BMD-History-c15-v3.webp" alt="Third slide"   style={{ marginTop: isTendo ? "48px" : "0px" }}/>
                         </div>
                     </Carousel.Item>
                 </Carousel>
