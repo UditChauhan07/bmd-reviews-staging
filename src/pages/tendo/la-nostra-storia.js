@@ -6,7 +6,7 @@ import TimeLine from '@/utilities/TimeLine';
 // import { NewsLetter } from '@/utilities/NewsLetter';
 import PageHead from '@/utilities/Head';
 import SEO from '../../../json/SEO.json'
-import styles from '@/styles/frequenti.module.css'
+import styles from '@/styles/lastoria.module.css'
 import BrunoFamily from '@/utilities/BrunoFamily/BrunoFamily';
 import OurMap from '@/utilities/OurMap/OurMap';
 import OurStory from '@/utilities/OurStory/OurStory';
