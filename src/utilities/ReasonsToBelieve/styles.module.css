@@ -29,6 +29,7 @@
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   letter-spacing: 1px;
+  top:-70px
 }
 .ExtraCod h2:after {
   content: "";
