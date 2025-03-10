@@ -8,6 +8,7 @@ import PageHead from "@/utilities/Head";
 import data1 from "../../../json/layout.json";
 import AnnouncementBar2 from "@/utilities/announcementBar2";
 import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 
 export default function Frequenti({ version, script }) {
   const { masterHead, section, newsletter, seo } = frequenti[version] || {};
@@ -42,6 +43,7 @@ export default function Frequenti({ version, script }) {
       </div>
       {script && <NewsLetter content={newsletter} />}
     </section>
+    <SubscriptionTendo/>
     <Footer data={data1["EU"].footer2} />
     </>
   );

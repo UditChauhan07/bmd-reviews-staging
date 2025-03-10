@@ -293,7 +293,10 @@ export async function removeCartItems({ lineIds, setState }) {
   if (data?.data) {
     let cdata = JSON.parse(data.data);
     return cdata;
+
+    
   }
+
 }
 
 export async function RecoverUser({ token }) {
