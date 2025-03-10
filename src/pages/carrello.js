@@ -83,8 +83,6 @@ const Carrelo = () => {
     const lineItemsToUpdate = [
       { id, merchandiseId: lineItemIdsToUpdate, quantity: parseInt(qty.value) },
     ];
-    console.log(lineItemIdsToUpdate,"lines123445566");
-    
     updateCartItems({ items: lineItemsToUpdate, setState: setRemoveState })
       .then((response) => {
         console.log({ response });

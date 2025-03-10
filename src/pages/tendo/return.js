@@ -3,7 +3,6 @@ import styles from "@/styles/return.module.css";
 import data1 from "../../../json/layout.json";
 import AnnouncementBar2 from "@/utilities/announcementBar2";
 import Footer from "@/utilities/Footer/";
-// import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 
 export default function ReturnsPage() {
   const [isScriptLoaded, setIsScriptLoaded] = useState(false);
@@ -59,7 +58,6 @@ const [isTendo, setIsTendo] = useState(false);
         </div>
       )}
     </div>
-    {/* <SubscriptionTendo/> */}
     <div  style={{ marginTop: isTendo ? '60px' : '0px' }}>
     <Footer data={data1["EU"].footer2} />
 

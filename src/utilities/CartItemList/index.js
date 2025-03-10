@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-const CartItemList = ({ items, content, removeItem, qtyItem }) => {
+const CartItemList = ({ items, content, removeItem, qtyItem }) => {z
   const { removeBtnText, QTYLabel } = content || null;
   function getPercent(value, discount) {
     return +value- +value * (discount/100);
