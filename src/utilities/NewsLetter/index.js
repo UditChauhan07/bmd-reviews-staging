@@ -191,7 +191,7 @@ export const NewsLetter = ({ content, isTendoReferrer }) => {
           <div className={!content?.alignWidth && styles.container}>
             <div
               className={styles.grid}
-              style={formWidth && { gridTemplateColumns: formWidth }}
+              style={formWidth && { gridTemplateColumns: formWidth }} 
             >
               {image && (
                 <div className={styles.imageContainer}>
