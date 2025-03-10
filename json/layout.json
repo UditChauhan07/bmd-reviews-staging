@@ -202,6 +202,39 @@
                 "<a href='/site-map'>Site Map</a>"
             ]
         },
+        "bottomBar2": {
+      "title1": "IL 20% DI SCONTO VERRA’ APPLICATO AUTOMATICAMENTE AL CHEKOUT QUANDO SCEGLI UN ACQUISTO PERIODICO",
+      "title2": "100% Soddisfatti e rimborsati - SODDISFATTI O RIMBORSATI ENTRO 14 GIORNI",
+      "maxQty": 2,
+      "theme": "#0033A1",
+      "price": 25.00,
+      "subscriptionBox": {
+        "price": 21.25,
+        "buttonText": [
+          "ACQUISTO ",
+          "PERIODICO"
+        ],
+        "modalBtnText": "Risparmia subito €3.75 acquisto periodico",
+        "desc1": "<p>RISPARMI SUBITO €3.75 QUANDO SCEGLI L'ACQUISTO PERIODICO</p><ul style='list-style: inside disc;'><li>20% di sconto per tutti gli ordini con acquisto periodico</li><li>Modifica o cancella in qualsiasi momento</li><li>Guadagna piu' Punti Fedelta'</li></ul>",
+        "desc": "<p>Il tuo abbonamento a questo prodotto si rinnoverà ogni 15 giorni e riceverai il prodotto a pagamento effettuato</p><ul><li style='list-style-type: disc;margin-left: 30px;'>Nessun costo</li><li style='list-style-type: disc;margin-left: 30px;'>Cancella quando vuoi <p style='text-decoration: underline; cursor:pointer;'>Maggiori informazioni<p/> </li></ul>",
+        "btnText": "Subscribe"
+      },
+      "onetimeBox": {
+        "price": 25.00,
+        "buttonText": [
+          "ACQUISTO ",
+          "SINGOLO"
+        ],
+        "modalBtnText": "Acquisto Singolo",
+        "discount": null,
+        "desc": null,
+        "btnText": "Checkout",
+        "autoQty": 2
+      },
+      "productImg": {
+        "src": "\\images\\06-BMD-Tendoactive_Plus-9O3A2989.webp"
+      }
+    },
         "cartLink": "/carrello",
         "login": {
             "title": "Accedi",

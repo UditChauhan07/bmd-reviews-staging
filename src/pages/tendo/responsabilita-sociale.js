@@ -8,6 +8,7 @@ import ImgText2 from "@/utilities/Sections/Img&Text 2";
 import data1 from "../../../json/layout.json";
 import AnnouncementBar2 from "@/utilities/announcementBar2";
 import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 
 
 export default function Sociale({ version }) {
@@ -41,6 +42,7 @@ export default function Sociale({ version }) {
         />
         <ImgText2 data={sectionTwo} />
       </section>
+      <SubscriptionTendo/>
       <Footer data={data1["EU"].footer2} />
     </>
   );
