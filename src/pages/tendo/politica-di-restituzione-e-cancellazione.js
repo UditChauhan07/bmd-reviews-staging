@@ -5,6 +5,7 @@ import PageData from "../../../json/pages.json";
 import data1 from "../../../json/layout.json";
 import AnnouncementBar2 from "@/utilities/announcementBar2";
 import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 export default function Spedizione() {
   let Data = PageData["politica-di-restituzione-e-cancellazione"];
   return (
@@ -37,6 +38,7 @@ export default function Spedizione() {
         }}
       />
     </section>
+    <SubscriptionTendo/>
     <Footer data={data1["EU"].footer2} />
 
     </>

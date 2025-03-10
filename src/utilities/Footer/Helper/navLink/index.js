@@ -1,14 +1,14 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import data from "../../../../../json/storia.json"
+// import data from "../../../../../json/storia.json"
 // import Storia from "../../../../componets/FooterModal/storia"
 import styles from "./styles.module.css";
 // import CommonModal from "../../../FooterModal/index";
 
 const navLink = ({ menuGroup }) => {
-  console.log(menuGroup,"version------>");
-  const data1 = data?.EU
-  console.log(data1, "------>");
+  // console.log(menuGroup,"version------>");
+  // const data1 = data?.EU
+  // console.log(data1, "------>");
 
 
 

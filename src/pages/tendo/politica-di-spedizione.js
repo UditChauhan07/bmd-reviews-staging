@@ -4,6 +4,7 @@ import PageHead from "@/utilities/Head"
 import data1 from "../../../json/layout.json";
 import AnnouncementBar2 from "@/utilities/announcementBar2";
 import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 export default function Spedizione() {
 
     return (
@@ -30,6 +31,7 @@ export default function Spedizione() {
             <h2>Dov&apos;è il mio pacco e come posso tracciarlo?</h2><p>Nel momento in cui spediamo l&apos;ordine, il Cliente riceverà via e-mail il numero di tracciamento e un link in modo da poter seguire tutti gli aggiornamenti di tracciamento via e-mail. </p><p>Nota: il monitoraggio a volte richiede 1-3 giorni lavorativi per l&apos;aggiornamento e questo non significa che l&apos;ordine sia bloccato in una città diversa. Invece, i nostri corrieri aggiorneranno il monitoraggio in ogni nuova località, inclusa la sua città.</p><h2>Il monitoraggio del mio pacco non si aggiorna, dov&apos;è il mio pacco?</h2><p>L&apos;aggiornamento del monitoraggio richiede in genere 24 ore, ma non è raro che l&apos;aggiornamento richieda 2-3 giorni. Facciamo del nostro meglio per spedire tutti gli ordini entro 1 giorno lavorativo dall&apos;ordine. Se il Cliente ha ricevuto via e-mail un numero di tracciamento, il suo ordine è stato già spedito dal nostro magazzino.</p><h2>Il mio pacco dice che è stato consegnato ma non riesco a trovarlo. Qual è il prossimo passo?</h2><p>Il passo successivo è contattare il corriere locale che ha effettuato la consegna finale. Probabilmente è Poste Italiane. Il Cliente potrà trovare le informazioni necessarie sul numero di tracciamento precedentemente ricevuto via e-mail. Il corriere locale sarà in grado di dire se si è trattato di un errore durante il processo di scansione e potrà dare ulteriori chiarimenti. Per qualsiasi tipo di assistenza, preghiamo di essere contattati inviando un&apos;e-mail utilizzando il nostro modulo “Contattaci” situato sulla home page (in alto a destra), oppure in basso, oppure scrivendo una e-mail a customerservice@brunopharma.com. Uno dei nostri agenti di assistenza clienti, risponderà il più rapidamente possibile.</p>
             </div>
         </section>
+        <SubscriptionTendo/>
             <Footer data={data1["EU"].footer2} />
             </>
     )
