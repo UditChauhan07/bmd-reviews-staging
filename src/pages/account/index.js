@@ -367,6 +367,69 @@ const Index = () => {
 
                 </div>
               )}
+               <div className={styles.accountInfoContainer}>
+                <p>Dettagli dell&apos;account</p>
+                <div>
+                  <p>{[firstName, lastName].join(" ")}</p>
+                </div>
+                <div style={{ "margin-bottom": "20px" }}>
+                  <p>{email}</p>
+                </div>
+                {true && (
+                  <div>
+                    {false && (
+                      <div>
+                        <address>
+                          <p>{defaultAddress.address1}</p>
+                          {defaultAddress.address2 && (
+                            <p>{defaultAddress.address2}</p>
+                          )}
+                          <p>
+                            {defaultAddress.city}, {defaultAddress.province},{" "}
+                            {defaultAddress.zip}
+                          </p>
+                          <p>{defaultAddress.country}</p>
+                          {defaultAddress.phone && (
+                            <Link href={"tel:" + defaultAddress.phone}>
+                              {defaultAddress.phone}
+                            </Link>
+                          )}
+                        </address>
+                        <div>
+                          {/* <Link href={'/account/address?id=' + defaultAddress.id}>Edit address</Link>
+                            {defaultAddress && defaultAddress.id === id ? (
+                              <strong>Default</strong>
+                            ) : (
+                              <button onClick={() => updateDefaultAddress(id)}>
+                                Make default
+                              </button>
+                            )} */}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+                <Link href="/account/addresses">
+                  <button
+                    className={`${styles.addressesButton} ${styles.btnHover}`}
+                  >
+                    Visiona indirizzi
+                  </button>
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://www.brunomd.eu/tools/recurring/login"
+                >
+                  {" "}
+                  <button
+                    className={`${styles.addressesButton2} ${styles.btnHover}`}
+                  >
+                    {" "}
+                    Gestisci l&apos;aquisto periodico{" "}
+                  </button>
+                </Link>
+                {/* <RewardsPOP className={`${styles.addressesButton2} ${styles.btnHover}`}/> */}
+              </div>
             </div>
             <div className={styles.pagination}>
   <button 
@@ -411,15 +474,11 @@ const Index = () => {
     </svg>
   </button>
 </div>
-
-
-
-
-
           </div>
         </>
       )}
     </section>
+       
   );
 };
 export default Index;
