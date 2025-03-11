@@ -1,5 +1,5 @@
-// let url = "https://be-cms.brunomd.com/dev/brunoeu/";
-let url = "http://localhost:5253/dev/brunoeu/";
+let url = "https://be-cms.brunomd.com/dev/brunoeu/";
+// let url = "http://localhost:5253/dev/brunoeu/";
 
 export async function updateCustomerAddress({ address, customerAccessToken }) {
   address.customerAccessToken = customerAccessToken;
