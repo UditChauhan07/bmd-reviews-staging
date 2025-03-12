@@ -56,7 +56,7 @@ const SiteMap = ({ title }) => {
 
           <li><Link href="/responsabilita-sociale">Responsabilità sociale</Link></li>
           <li><Link href="/politica-di-spedizione">Spedizioni</Link></li>
-          <li><Link href="https://brunomd.returnscenter.com/">Portale per il reso</Link></li>
+          <li><Link href="/return">Portale per il reso</Link></li>
           <li><Link href="/politica-di-restituzione-e-cancellazione">Reso</Link></li>
           <li><Link href="/termini-e-condizioni">Termini e condizioni di vendita</Link></li>
           <li><Link href="/politica-sullariservatezza">Termini e condizioni di privacy</Link></li>
