@@ -13,3 +13,15 @@ font-family: var(--bmd-font-Primary);
     /* margin-top: 50px; */
     font-family: var(--bmd-font-Primary);
 }
+@media (max-width: 510px) {
+
+    
+    .tendoreturn{
+        position: relative;
+        bottom: -80px;
+    }
+    .returndivtendo  .center-body{
+ margin-top: 5rem !important;
+    }
+    
+  }
