@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "@/styles/account.module.css";
 import { Decrypt, Destroy, AuthCheck, ShareDrive } from "@/data/Auth";
@@ -223,19 +223,19 @@ const Index = () => {
                                   .charge_interval_frequency
                               )
                                 // console.log(element);
-                              if (
-                                element.subscription_preferences
-                                  .charge_interval_frequency == frequency
-                              ) {
-                                selling_plan_id = `gid://shopify/SellingPlan/${element.external_plan_id}`;
-                                lineItems.push({
-                                  merchandiseId: items.node.variant?.id,
-                                  quantity: items.node.quantity,
-                                  sellingPlanId: selling_plan_id,
-                                });
+                                if (
+                                  element.subscription_preferences
+                                    .charge_interval_frequency == frequency
+                                ) {
+                                  selling_plan_id = `gid://shopify/SellingPlan/${element.external_plan_id}`;
+                                  lineItems.push({
+                                    merchandiseId: items.node.variant?.id,
+                                    quantity: items.node.quantity,
+                                    sellingPlanId: selling_plan_id,
+                                  });
 
-                                cartAdd(lineItems);
-                              }
+                                  cartAdd(lineItems);
+                                }
                             });
                           }
                         })
@@ -263,6 +263,28 @@ const Index = () => {
     });
     // return;
   };
+
+
+  const ordersPerPage = 10;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalPages = Math.ceil(orders?.edges?.length / ordersPerPage);
+
+  const indexOfLastOrder = currentPage * ordersPerPage;
+  const indexOfFirstOrder = indexOfLastOrder - ordersPerPage;
+  const currentOrders = Array.isArray(orders?.edges)
+    ? orders.edges.slice(indexOfFirstOrder, indexOfLastOrder)
+    : [];
+
+  const prevPage = () => {
+    if (currentPage > 1) setCurrentPage(currentPage - 1);
+  };
+
+  const nextPage = () => {
+    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
+  };
+
+
   if (!isLoaded) return <Loader2 />;
   return (
     <section className={styles.accountSection}>
@@ -299,96 +321,53 @@ const Index = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {orders?.edges?.length > 0 ? (
-                        orders?.edges?.map(
-                          ({
-                            node: {
-                              orderNumber,
-                              processedAt,
-                              financialStatus,
-                              originalTotalPrice,
-                              fulfillmentStatus,
-                              id,
-                            },
-                          }) => {
-                            //console.log(customerUrl.slice(35))
-                            //let decoded2 = getDecodedShopifyId(customerUrl.slice(35))
-
-                            return (
-                              <tr key={id}>
-                                <th className={styles.item}>
-                                  <div
-                                    className={styles.orderNumber}
-                                    onClick={() => OrderDetail(id)}
-                                  >
-                                    #{orderNumber}
-                                    {/* href={customerUrl.slice(19)} */}
-                                  </div>
-                                </th>
-                                <td className={styles.item}>
-                                  {new Date(processedAt).toLocaleDateString()}
-                                </td>
-                                <td
-                                  className={styles.item}
-                                  style={{ textTransform: "capitalize" }}
-                                >
-                                  {ItalianStatus(financialStatus)}
-                                </td>
-                                <td
-                                  className={styles.item}
-                                  style={{ textTransform: "capitalize" }}
-                                >
-                                  {ItalianStatus(fulfillmentStatus)}
-                                </td>
-                                <td className={styles.item}>
-                                  €
-                                  {parseFloat(
-                                    originalTotalPrice?.amount
-                                  ).toFixed(2)}
-                                </td>
-                                <td>
-                                  {/* <Link
-                                className={styles.firstLink}
-                                target="_blank"
-                                href={`https://shopify-order-edit.herokuapp.com/order-editor/brunomd.myshopify.com/${decodedOrderId}`}
-                              >
-                                Cancella o Modifica
-                              </Link>
-                              <Link
-                                target="_blank"
-                                href={`https://shopify-order-edit.herokuapp.com/order-editor/reorder/brunomd.myshopify.com/${decodedOrderId}`}
-                              >
-                                Riordina
-                              </Link> */}
-                                  {/* onClick={()=>OrderEdit(id)} */}
-                                  <button
-                                    className={styles.firstLink}
-                                    onClick={() => editOrder(id)}
-                                  >
-                                    {" "}
-                                    Cancella o Modifica
-                                  </button>
-                                  <br />
-                                  <button
-                                    className={styles.firstLink}
-                                    onClick={() => reOrder1(id)}
-                                  >
-                                    Riordina
-                                  </button>
-                                </td>
-                              </tr>
-                            );
-                          }
-                        )
-                      ) : (
-                        <tr></tr>
-                      )}
+                      {currentOrders.map(({ node }) => (
+                        <tr key={node.id}>
+                          <th className={styles.item}>
+                            <div
+                              className={styles.orderNumber}
+                              onClick={() => OrderDetail(node.id)}
+                            >
+                              #{node.orderNumber}
+                            </div>
+                          </th>
+                          <td className={styles.item}>
+                            {new Date(node.processedAt).toLocaleDateString()}
+                          </td>
+                          <td className={styles.item}>
+                            {ItalianStatus(node.financialStatus)}
+                          </td>
+                          <td className={styles.item}>
+                            {ItalianStatus(node.fulfillmentStatus)}
+                          </td>
+                          <td className={styles.item}>
+                            €{parseFloat(node.originalTotalPrice.amount).toFixed(2)}
+                          </td>
+                          <td>
+                            <button
+                              className={styles.firstLink}
+                              onClick={() => editOrder(node.id)}
+                            >
+                              Cancella o Modifica
+                            </button>
+                            <br />
+                            <button
+                              className={styles.firstLink}
+                              onClick={() => reOrder1(node.id)}
+                            >
+                              Riordina
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
+
+                
+
                 </div>
               )}
-
-              <div className={styles.accountInfoContainer}>
+               <div className={styles.accountInfoContainer}>
                 <p>Dettagli dell&apos;account</p>
                 <div>
                   <p>{[firstName, lastName].join(" ")}</p>
@@ -452,10 +431,54 @@ const Index = () => {
                 {/* <RewardsPOP className={`${styles.addressesButton2} ${styles.btnHover}`}/> */}
               </div>
             </div>
+            <div className={styles.pagination}>
+  <button 
+    onClick={prevPage} 
+    disabled={currentPage === 1} 
+    className={`${styles.arrow} ${currentPage === 1 ? styles.faded : ''}`}
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="24" 
+      height="24" 
+      fill={currentPage === 1 ? "#aaa" : "#000"} 
+      viewBox="0 0 24 24"
+    >
+      <path d="M15.41 16.58L10.83 12l4.58-4.58L14 6l-6 6 6 6z"/>
+    </svg>
+  </button>
+
+  {Array.from({ length: totalPages }, (_, index) => (
+    <button
+      key={index + 1}
+      onClick={() => setCurrentPage(index + 1)}
+      className={index + 1 === currentPage ? styles.activePage : styles.faded}
+    >
+      {index + 1}
+    </button>
+  ))}
+
+  <button 
+    onClick={nextPage} 
+    disabled={currentPage === totalPages} 
+    className={`${styles.arrow} ${currentPage === totalPages ? styles.faded : ''}`}
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      width="24" 
+      height="24" 
+      fill={currentPage === totalPages ? "#aaa" : "#000"} 
+      viewBox="0 0 24 24"
+    >
+      <path d="M10 6l6 6-6 6-1.41-1.42L13.17 12 8.59 7.42z"/>
+    </svg>
+  </button>
+</div>
           </div>
         </>
       )}
     </section>
+       
   );
 };
 export default Index;

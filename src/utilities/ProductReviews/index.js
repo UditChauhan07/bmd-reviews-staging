@@ -185,7 +185,7 @@ const ProductReviews = ({ product = null, product_details, variantId }) => {
         )}
       </div>
 
-      {modal === true && (
+      { modal === true && (
         <div className={styles.modal}>
           <div className={styles.modalOverlayV2}></div>
           <div className={styles.modalContainer1}>
