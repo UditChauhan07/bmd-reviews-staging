@@ -14,8 +14,15 @@
   color: #fff;
   font-weight: 100;
 }
-.our_Carousel img{
+.our_Carousel img {
   width: 100%;
+  /* transition: margin-top 0.3s ease;  */
+}
+/* .firstCarousel{
+  margin-top: 20px;
+} */
+.marginTop {
+  margin-top: 36px !important; 
 }
 #MasterHeadImg img {
   max-width: 100%;

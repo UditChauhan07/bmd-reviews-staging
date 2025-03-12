@@ -178,6 +178,10 @@ function RouteGuard({ children }) {
       "/site-map",
       "/tendo",
       "/science",
+      "/return",
+      "/tendo/return"
+
+      
       //"/tendo-V2",
     ];
     if (!publicPaths.length) {

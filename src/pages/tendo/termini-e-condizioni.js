@@ -1,11 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import styles from '@/styles/spedizione.module.css'
 import PageHead from '@/utilities/Head'
-
-
+import data1 from "../../../json/layout.json";
+import AnnouncementBar2 from "@/utilities/announcementBar2";
+import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 export default function Spedizione() {
 
     return (
+        <>
+        {data1["EU"].announcementBar && (
+        <AnnouncementBar2
+          announcement={data1["EU"].announcementBar.title2}
+          theme={{
+            textColor: data1["EU"].announcementBar.textColor,
+            backgroundColor: document.referrer.includes("tendo")
+              ? "rgb(0, 51, 161)"
+              : data1["EU"].announcementBar.backgroundColor,
+          }}
+        />
+      )}
         <section className={styles.container}>
             <PageHead content={{title:'Termini e Condizioni di Vendita | Bruno MD',description:"Il sito Web di Bruno Pharma è destinato a essere informativo e l&apos;accesso a questo sito Web è regolato dai termini e dalle condizioni qui stabiliti e da tutte le leggi applicabili."}}/>
             <h1>TERMINI E CONDIZIONI DI VENDITA</h1>
@@ -85,5 +99,9 @@ export default function Spedizione() {
 
             </div>
         </section>
+        <SubscriptionTendo/>
+        <Footer data={data1["EU"].footer2} />
+        </>
     )
 }
+Spedizione.hideLayout = true;

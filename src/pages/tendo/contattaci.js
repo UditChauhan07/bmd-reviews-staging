@@ -4,7 +4,10 @@ import { NewsLetter } from "@/utilities/NewsLetter";
 import HomePageData from "../../../json/home.json";
 import ContactData from "../../../json/contattaci.json";
 import PageHead from "@/utilities/Head";
-
+import data1 from "../../../json/layout.json";
+import AnnouncementBar2 from "@/utilities/announcementBar2";
+import Footer from "@/utilities/Footer/";
+import SubscriptionTendo from "@/utilities/SubscriptionBarTendo"
 export default function Contattaci({ version, script }) {
   const { firstSection, term } = ContactData[version] || null;
   const [state1, setState1] = useState(false);
@@ -34,7 +37,22 @@ export default function Contattaci({ version, script }) {
   };
 
   return (
-    <section>
+    <>
+    <div>  {data1["EU"].announcementBar && (
+        <AnnouncementBar2
+          announcement={data1["EU"].announcementBar.title2}
+          theme={{
+            textColor: data1["EU"].announcementBar.textColor,
+            backgroundColor: document.referrer.includes("tendo")
+              ? "rgb(0, 51, 161)"
+              : data1["EU"].announcementBar.backgroundColor,
+          }}
+        />
+      )}</div>
+
+
+    <section  className={styles.container}>
+  
       <PageHead
         content={{
           title: "Contattaci | Bruno MD",
@@ -152,5 +170,9 @@ export default function Contattaci({ version, script }) {
       </div>
       {script && <NewsLetter content={HomePageData[version].newsletter} />}
     </section>
+    <SubscriptionTendo/>
+    <Footer data={data1["EU"].footer2} />
+    </>
   );
 }
+Contattaci.hideLayout = true;

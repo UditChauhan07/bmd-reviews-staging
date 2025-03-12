@@ -441,7 +441,12 @@
               "name": "Tendoactive Plus",
               "url": "/prodotti/tendoactive-plus-20-stick"
             },
-           
+
+            {
+              "name": "",
+              "url": ""
+            },
+
             {
               "name": "Drop Therapeutic",
               "url": "/prodotti/drop-therapeutic-gocce-oculari-lubrificanti-10ml"
@@ -483,7 +488,7 @@
             },
             {
               "name": "Portale per il reso",
-              "url": "https://pharmalab.return-order.com"
+              "url": "/return"
             },
             {
               "name": "Reso",
@@ -1041,7 +1046,7 @@
             },
             {
               "name": "Portale per il reso",
-              "url": "https://pharmalab.return-order.com"
+              "url": "/return"
             },
             {
               "name": "Reso",
