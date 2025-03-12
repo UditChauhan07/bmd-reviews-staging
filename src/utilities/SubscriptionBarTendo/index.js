@@ -103,7 +103,7 @@ export default function SubscriptionTendo() {
                     freq: rechargeProduct?.subscription_preferences,
                     theme: pageData.theme,
                     price: shopifyP?.variants?.edges?.length
-                      ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+                      ? parseInt(shopifyP?.variants?.edges[0]?.node?.price?.amount)
                       : 0,
                   }}
                   variantId={pageData.variantId}
