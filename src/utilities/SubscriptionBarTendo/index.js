@@ -7,7 +7,7 @@ import { useMatchMedia } from "@/utilities/Sections/Hooks/useMatchMedia";
 import { getProduct, getSubscription } from "@/data/lib";
 
 
-export default function SubscriptionTendo() {
+export default function SubscriptionTendo({version}) {
      const [isDesktopModal] = useMatchMedia("(min-width: 767px)", true);
          const [shopifyP, setSProduct] = useState();
       const [rechargeProduct, setRProduct] = useState();
@@ -103,7 +103,7 @@ export default function SubscriptionTendo() {
                     freq: rechargeProduct?.subscription_preferences,
                     theme: pageData.theme,
                     price: shopifyP?.variants?.edges?.length
-                      ? parseInt(shopifyP?.variants?.edges[0]?.node?.price?.amount)
+                      ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
                       : 0,
                   }}
                   variantId={pageData.variantId}
