@@ -43,12 +43,12 @@ const [isTendo, setIsTendo] = useState(false);
       )}
       </div>
     <div className={styles.returndivtendo} >
-     
-
       {!isScriptLoaded && (
-        <div className="center-body" style={{ height: "200px" }}>
-          <div className="loader-circle-2"></div>
-        </div>
+        <div className={styles.loaderdiv}> 
+           <div className="center-body" style={{ height: "200px" }} >
+          <div className="loader-circle-2 ReturnLoader"></div>
+        </div>  </div>
+       
       )}
 
       {isScriptLoaded && (
