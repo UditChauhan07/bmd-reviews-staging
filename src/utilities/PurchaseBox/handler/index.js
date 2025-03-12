@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import PriceBox from "../priceBox";
 const Handler = ({ data, variantId, ActiveBox = null }) => {
   // console.log({ ActiveBox });
-  useEffect(() => { }, [data]);
+  // useEffect(() => { }, [data]);
   const [oneTimePrice, setOneTimePrice] = useState(data?.price.toFixed(2));
   const [DiscountPrice, setDiscountPrice] = useState(
     (data?.price * (data?.priceBox.discount / 100)).toFixed(2)
@@ -16,6 +16,24 @@ const Handler = ({ data, variantId, ActiveBox = null }) => {
   const [isActive, setIsActive] = useState(
     data.priceBox.subscribe.hide ? 1 : ActiveBox || 2
   );
+
+  useEffect(() => {
+    if (data) {
+      const updatedOneTimePrice = data?.price.toFixed(2);
+      const updatedSubscribePrice = (
+        data?.price - data?.price * (data?.priceBox.discount / 100)
+      ).toFixed(2);
+      const updatedDiscountPrice = (
+        data?.price * (data?.priceBox.discount / 100)
+      ).toFixed(2);
+
+      setOneTimePrice(updatedOneTimePrice);
+      setSubscribePrice(updatedSubscribePrice);
+      setDiscountPrice(updatedDiscountPrice);
+      setOTST(updatedOneTimePrice.split("."));
+      setSEST(updatedSubscribePrice.split("."));
+    }
+  }, [data]);
   if (!data) return null;
   return (
     <div>
