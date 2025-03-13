@@ -109,10 +109,10 @@ const OrderDetails = () => {
                 </div>
                 {order.successfulFulfillments?.length > 0 && (
                   <div className={styles.dflex}>
-                    <p className={styles.infoBox}>Società di monitoraggio</p>{" "}
-                    <p className={styles.infoBoxWhite}>
+                    {/* <p className={styles.infoBox}>Società di monitoraggio</p>{" "} */}
+                    {/* <p className={styles.infoBoxWhite}>
                       {order.successfulFulfillments[0].trackingCompany}
-                    </p>
+                    </p> */}
                   </div>
                 )}
                 {order.successfulFulfillments?.length > 0 && (
@@ -248,7 +248,7 @@ const OrderDetails = () => {
               <>
                 <textarea
                   rows={4}
-                  placeholder="add notes..."
+                  placeholder="Add notes..."
                   onKeyDown={(event) => setNote(event.target.value)}
                 ></textarea>
                 <div
