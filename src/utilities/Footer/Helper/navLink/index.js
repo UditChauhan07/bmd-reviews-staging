@@ -1,43 +1,20 @@
 import Link from "next/link";
 import React, { useState } from "react";
-// import data from "../../../../../json/storia.json"
-// import Storia from "../../../../componets/FooterModal/storia"
 import styles from "./styles.module.css";
-// import CommonModal from "../../../FooterModal/index";
+
 
 const navLink = ({ menuGroup }) => {
-  // console.log(menuGroup,"version------>");
-  // const data1 = data?.EU
-  // console.log(data1, "------>");
 
-
-
-  // const [modalOpen, setModalOpen] = useState(false);
-  // const [modalContent, setModalContent] = useState({ title: "", body: "" });
   var hostname = window.location.hostname;
   var pathname = window.location.pathname;
   var pageURL = hostname + pathname;
-
-  // const handleOpenModal = () => {
-  //   setModalOpen(true)
-  // };
 
 
 
   return (
     <>
 
-      {/* <CommonModal
-        show={modalOpen}
-        handleClose={() => {
-          console.log("Closing modal...");
-          setModalOpen(false);
-        }}
-      
-        body={<Storia />}
-      /> */}
-
-
+    
 
       <div className={styles.container}>
         <nav className={styles.nav}>
@@ -85,7 +62,6 @@ const navLink = ({ menuGroup }) => {
                     ) {
                       return (
                         <>
-                          {/* <p  onClick={handleOpenModal} > hello</p> */}
                           <li className={styles.menuItem} key={`menu-item-${index}`}>
                             {link?.url !== "#" ? (
                               <Link
