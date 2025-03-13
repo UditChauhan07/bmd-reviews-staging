@@ -370,7 +370,6 @@ const Index = () => {
                       ))}
                     </tbody>
                   </table>
-                  Ritorno
 
 
                 </div>
