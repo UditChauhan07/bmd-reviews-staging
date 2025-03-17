@@ -18,6 +18,10 @@ import RewardsPOP from "@/utilities/RewardsModal";
 import Loader2 from "@/utilities/Loader/index2";
 import { ItalianStatus } from "@/data/status";
 
+
+const handleOrderClick = (orderNumber) => {
+  router.push(`/return?orderNumber=${orderNumber}`);
+};
 const Index = () => {
   let router = useRouter();
   if (!AuthCheck()) {
@@ -357,17 +361,20 @@ const Index = () => {
                             >
                               Riordina
                             </button>
+                            <br />
+                            <Link href="/return">
+                              <button className={styles.firstLink}>Ritorno</button>
+                            </Link>
                           </td>
                         </tr>
                       ))}
                     </tbody>
                   </table>
 
-                
 
                 </div>
               )}
-               <div className={styles.accountInfoContainer}>
+              <div className={styles.accountInfoContainer}>
                 <p>Dettagli dell&apos;account</p>
                 <div>
                   <p>{[firstName, lastName].join(" ")}</p>
@@ -432,53 +439,53 @@ const Index = () => {
               </div>
             </div>
             <div className={styles.pagination}>
-  <button 
-    onClick={prevPage} 
-    disabled={currentPage === 1} 
-    className={`${styles.arrow} ${currentPage === 1 ? styles.faded : ''}`}
-  >
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="24" 
-      height="24" 
-      fill={currentPage === 1 ? "#aaa" : "#000"} 
-      viewBox="0 0 24 24"
-    >
-      <path d="M15.41 16.58L10.83 12l4.58-4.58L14 6l-6 6 6 6z"/>
-    </svg>
-  </button>
+              <button
+                onClick={prevPage}
+                disabled={currentPage === 1}
+                className={`${styles.arrow} ${currentPage === 1 ? styles.faded : ''}`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill={currentPage === 1 ? "#aaa" : "#000"}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M15.41 16.58L10.83 12l4.58-4.58L14 6l-6 6 6 6z" />
+                </svg>
+              </button>
 
-  {Array.from({ length: totalPages }, (_, index) => (
-    <button
-      key={index + 1}
-      onClick={() => setCurrentPage(index + 1)}
-      className={index + 1 === currentPage ? styles.activePage : styles.faded}
-    >
-      {index + 1}
-    </button>
-  ))}
+              {Array.from({ length: totalPages }, (_, index) => (
+                <button
+                  key={index + 1}
+                  onClick={() => setCurrentPage(index + 1)}
+                  className={index + 1 === currentPage ? styles.activePage : styles.faded}
+                >
+                  {index + 1}
+                </button>
+              ))}
 
-  <button 
-    onClick={nextPage} 
-    disabled={currentPage === totalPages} 
-    className={`${styles.arrow} ${currentPage === totalPages ? styles.faded : ''}`}
-  >
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="24" 
-      height="24" 
-      fill={currentPage === totalPages ? "#aaa" : "#000"} 
-      viewBox="0 0 24 24"
-    >
-      <path d="M10 6l6 6-6 6-1.41-1.42L13.17 12 8.59 7.42z"/>
-    </svg>
-  </button>
-</div>
+              <button
+                onClick={nextPage}
+                disabled={currentPage === totalPages}
+                className={`${styles.arrow} ${currentPage === totalPages ? styles.faded : ''}`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill={currentPage === totalPages ? "#aaa" : "#000"}
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M10 6l6 6-6 6-1.41-1.42L13.17 12 8.59 7.42z" />
+                </svg>
+              </button>
+            </div>
           </div>
         </>
       )}
     </section>
-       
+
   );
 };
 export default Index;

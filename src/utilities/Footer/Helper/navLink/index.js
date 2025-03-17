@@ -1,20 +1,18 @@
 import Link from "next/link";
+
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 
 
 const navLink = ({ menuGroup }) => {
 
+
   var hostname = window.location.hostname;
   var pathname = window.location.pathname;
   var pageURL = hostname + pathname;
 
-
-
   return (
     <>
-
-    
 
       <div className={styles.container}>
         <nav className={styles.nav}>

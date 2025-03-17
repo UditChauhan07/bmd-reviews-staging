@@ -26,7 +26,7 @@
 }
 .blogCard .posts {
   width: 100%;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .blogCard .postListing {
   width: 100%;

@@ -778,6 +778,13 @@ img {
     display: none;
   }
 }
+@media(max-width:600px){
+  .ReturnLoader {
+    
+    bottom: -40px;
+}
+}
+
 @media (max-width: 430px) {
   .carousel-root {
     outline: 0;
