@@ -16,10 +16,10 @@
   padding: 0;
 }
 .menuItem a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 .menuItem a {
-  text-decoration: none;
+  text-decoration: none ;
   color: #fff;
 }
 .menuItem > p {
