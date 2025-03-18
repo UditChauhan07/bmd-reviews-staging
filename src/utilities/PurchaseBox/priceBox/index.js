@@ -179,16 +179,16 @@ const PriceBox = ({ isActive, data, variantId }) => {
     // }
   };
   let regex = /\d\d giorni/gi;
-  let subscriptionDetails = data.priceBox.subscriptionDetails.replaceAll(
+  let subscriptionDetails =     
+  data.priceBox.subscriptionDetails.replaceAll(
     regex,
     freqText
-      ? freqText + " giorni"
+      ? freqText + " "
       : data?.freq?.length
       ? data?.freq[0]?.value
       : "25 giorni"
   );
 
-  // State to control the modal visibility
 
   // Function to show the modal
   const openModal = () => {

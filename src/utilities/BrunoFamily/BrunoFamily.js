@@ -15,6 +15,7 @@ const BrunoFamily = () => {
     slidesToScroll: 1,
     autoplay:false,
     autoplaySpeed: 2500,
+    pauseOnHover: true,
   };
 
   // Array of slide data objects

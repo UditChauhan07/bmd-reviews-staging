@@ -22,6 +22,9 @@ const ModalBoxInner = ({
   const [shopifyP, setSProduct] = useState();
   const [cartLoad, setCartLoad] = useState(false);
   const [isModalOpen, setIsModalOpen] = React.useState(false);
+  const [frequpdate, setFrequpdate] = useState("");
+  console.log(content, "12345678--->>>");
+
 
   const typeHandler = (e) => {
     const { name, value } = e.target;
@@ -29,6 +32,7 @@ const ModalBoxInner = ({
     setQuantity(1);
   };
   const QUANTITY_OPTIONS = [...Array(content?.maxQty).keys()].map((n) => n + 1);
+
 
   useEffect(() => {
     if (externalId) {
@@ -158,6 +162,27 @@ const ModalBoxInner = ({
     document.body.style.overflow = "auto";
     document.documentElement.style.overflow = "auto";
   }
+
+  const updateSubscriptionDetails = (selectedFreq) => {
+    let regex = /\d+\s*giorni/gi;
+    const newDetails = String(content.subscriptionBox.desc || "").replace(
+      regex,
+      selectedFreq
+        ? selectedFreq + " "
+        : content?.freq?.length
+        ? content?.freq[0]?.value
+        : "25 giorni"
+    );
+    setFrequpdate(newDetails);
+  };
+
+  useEffect(() => {
+    const initialFreq = content?.freq?.length ? content?.freq[0]?.value : "15 giorni";
+    setFreq(initialFreq);
+    updateSubscriptionDetails(initialFreq);
+  }, [content]);
+
+
 
   return (
     <section>
@@ -307,33 +332,35 @@ const ModalBoxInner = ({
                 onClick={openModal}
                 className={styles.boxFive}
                 dangerouslySetInnerHTML={{
-                  __html: type == "Onetime" ? "" : content.subscriptionBox.desc,
+                  __html: type == "Onetime" ? "" : frequpdate,
                 }}
               />
               <div
                 className={styles.boxSix}
                 dangerouslySetInnerHTML={{ __html: content.onetimeBox.desc }}
               />
-            
-              <div className={styles.boxSeven}>
-           
-                {type == "Subscribe" ? (
-                  
-                  <div className={styles.freqHolder}>
-                   <p>Disponibilita&apos; immediata.</p>
-                    <label className={styles.selectLabel}>Consegna ogni:</label>
-                    <select
-                      className={styles.selectHolder}
-                      onChange={(e) => setFreq(e.target.value)}
-                    >
-                      {sellingPlan.length > 0 &&
-                        sellingPlan.map((element) => (
-                          <option value={element.id} key={element.id + "232d"}>
-                            {element.value}
-                          </option>
-                        ))}
-                    </select>
-                  </div>
+
+                  <div className={styles.boxSeven}>
+      {type == "Subscribe" ? (
+        <div className={styles.freqHolder}>
+          <p>Disponibilita&apos; immediata.</p>
+          <label className={styles.selectLabel}>Consegna ogni:</label>
+          <select
+            className={styles.selectHolder}
+            onChange={(e) => {
+              const selectedFreq = e.target.value;
+              setFreq(selectedFreq);
+              updateSubscriptionDetails(selectedFreq); 
+            }}
+          >
+            {sellingPlan.length > 0 &&
+              sellingPlan.map((element) => (
+                <option value={element.value} key={element.id}>
+                  {element.value}
+                </option>
+              ))}
+          </select>
+        </div>
                 ) : (
                   <>
                     {content?.onetimeBox?.freeShip && (

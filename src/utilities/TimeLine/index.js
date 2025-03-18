@@ -85,7 +85,7 @@ const TimeLine = ({ data, layout }) => {
         breakpoint: 767,
         settings: {
           dots: true,
-          pauseOnHover: false,
+          pauseOnHover: true,
           speed: 1500,
 
 
