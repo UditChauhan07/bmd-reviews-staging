@@ -16,6 +16,7 @@ function LandingBlog({ data, theme, isLanding = null }) {
           </h2>
         </div>
         <div className={styles.v2Container}>
+          
           <Blogs categories={data.details} isLanding={isLanding} />
         </div>
       </div>
