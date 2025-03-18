@@ -83,7 +83,9 @@
 
 .modalHeader p {
     color: #000;
-    font-family: var(--bmd-font-Secondary)
+    font-family: var(--bmd-font-Secondary);
+    max-height: 300px;
+    overflow: auto;
 }
 .p_scrool::-webkit-scrollbar {
     width: 3px; 
