@@ -5,7 +5,7 @@ const SupplementalInfo = ({ moneyBackInfo, termPurchase ,interval}) => {
     const [isAdditionalInfoVisible, setAdditionalInfoVisibility] = useState(false)
 
     let regex = /\d\d giorni/gi
-    let text = termPurchase?.desc ? termPurchase.desc.replaceAll(regex, interval ? interval + ' giorni' : '15 giorni',) : undefined;
+    let text = termPurchase?.desc ? termPurchase.desc.replaceAll(regex, interval ? interval + '' : '15 giorni',) : undefined;
 
     let engV = /\d\d days/gi
     let engVmoneyBackInfo = moneyBackInfo.desc.replaceAll(engV, interval ? interval + ' days' : '30 days',);

@@ -163,15 +163,6 @@ const ModalBoxInner = ({
     document.documentElement.style.overflow = "auto";
   }
 
-  // let regex = /\d+\s*giorni/gi;
-  // let subscriptionDetails = String(content.subscriptionBox.desc || "").replace(
-  //   regex,
-  //   freq
-  //     ? freq + " "
-  //     : content?.freq?.length
-  //     ? content?.freq[0]?.value
-  //     : "25 giorni"
-  // );
   const updateSubscriptionDetails = (selectedFreq) => {
     let regex = /\d+\s*giorni/gi;
     const newDetails = String(content.subscriptionBox.desc || "").replace(
@@ -348,9 +339,11 @@ const ModalBoxInner = ({
                 className={styles.boxSix}
                 dangerouslySetInnerHTML={{ __html: content.onetimeBox.desc }}
               />
+
                   <div className={styles.boxSeven}>
       {type == "Subscribe" ? (
         <div className={styles.freqHolder}>
+          <p>Disponibilita&apos; immediata.</p>
           <label className={styles.selectLabel}>Consegna ogni:</label>
           <select
             className={styles.selectHolder}
@@ -368,8 +361,6 @@ const ModalBoxInner = ({
               ))}
           </select>
         </div>
-
-
                 ) : (
                   <>
                     {content?.onetimeBox?.freeShip && (
@@ -391,6 +382,8 @@ const ModalBoxInner = ({
               </div>
               <div className={styles.boxEight}>
                 <div className={styles.qtyHolder}>
+                <p className={styles.VisibleHidden} >Disponibilita immediata.</p>
+
                   <label className={styles.selectLabel}>Quantita&apos;:</label>
                   <select
                     className={styles.selectHolder}
