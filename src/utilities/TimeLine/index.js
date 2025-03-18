@@ -20,7 +20,7 @@ const TimeLine = ({ data, layout }) => {
       textEnglish: "Bruno Farmaceutici: un nuovo inizio per la salute in Italia Nel luglio del 1996, Bruno Farmaceutici compie un importante passo nel panorama farmaceutico, acquisendo un prestigioso portafoglio di farmaci dalla Hoechst Marion Roussel (Germania). Con questa acquisizione, l'azienda dà avvio alle sue operazioni commerciali sul territorio italiano, inaugurando una nuova era dedicata al benessere e all'innovazione nel settore della salute.",
     },
     {
-      
+
       image: '/images/Frame_4.webp',
       date: '1997-2001',
       textEnglish: 'Bruno Farmaceutici amplia il proprio portafoglio prodotti acquisendo nuovi farmaci da prestigiose multinazionali del settore farmaceutico.',
@@ -115,8 +115,7 @@ const TimeLine = ({ data, layout }) => {
         {timelineData.map((slide, index) => (
           <div
             key={index}
-            className={`${styles.SliderImg} ${activeSlide === index ? styles.active : ''}`}
-          >
+            className={`${styles.SliderImg} ${activeSlide === index ? styles.active : ''}`}>
             <img src={slide.image} alt={`Slide ${index + 1}`} />
             <div className={styles.sliderText}>
               <h2>{slide.date}</h2>
@@ -124,12 +123,11 @@ const TimeLine = ({ data, layout }) => {
             </div>
           </div>
         ))}
-
       </Slider>
 
       <div className={styles.paginationContainer}>
         <div className={styles.paginationDiv}>
-          <svg className={styles.prevButton}  onClick={prevSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.prevButton} onClick={prevSlide} width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.1797 28.4039L23.5406 17.043L34.9015 28.4039" stroke="#56008C" strokeWidth="2" />
           </svg>
 
