@@ -221,6 +221,7 @@
 
     .Bruno_heading {
         right: 0%;
+        min-height: 55px;
     }
 
     .bruno_img1 {
