@@ -89,7 +89,7 @@
   font-size: 10px;
   font-weight: 500;
   margin-top: 7px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   max-width: 275px;
 }
 .selectLabel {
@@ -120,6 +120,10 @@
   border-radius: 5px;
   font-family: var(--bmd-font-Secondary);
   text-align: center;
+}
+
+.VisibleHidden{
+  visibility: hidden;
 }
 .btn,
 .btnThemed {

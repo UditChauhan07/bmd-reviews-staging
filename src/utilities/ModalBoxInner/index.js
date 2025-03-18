@@ -314,9 +314,13 @@ const ModalBoxInner = ({
                 className={styles.boxSix}
                 dangerouslySetInnerHTML={{ __html: content.onetimeBox.desc }}
               />
+            
               <div className={styles.boxSeven}>
+           
                 {type == "Subscribe" ? (
+                  
                   <div className={styles.freqHolder}>
+                   <p>Disponibilita&apos; immediata.</p>
                     <label className={styles.selectLabel}>Consegna ogni:</label>
                     <select
                       className={styles.selectHolder}
@@ -351,6 +355,8 @@ const ModalBoxInner = ({
               </div>
               <div className={styles.boxEight}>
                 <div className={styles.qtyHolder}>
+                <p className={styles.VisibleHidden} >Disponibilita immediata.</p>
+
                   <label className={styles.selectLabel}>Quantita&apos;:</label>
                   <select
                     className={styles.selectHolder}
