@@ -107,80 +107,80 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             dangerouslySetInnerHTML={{
               __html: `
           {
-"@context": "https://schema.org",
-"@type": "Product",
-"name": "TendoActive Plus",
-"image": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/01b-BMD-Tendoactive_Plus-9O3A3013-
-v2.png?v=1727453708",
-"description": "Integratore alimentare con azione completa per tendini e legamenti",
-"brand": {
-"@type": "Brand",
-"name": "Bruno MD"
-},
-"offers": {
-"@type": "Offer",
-"url": "https://brunomd.eu/tendo",
-"priceCurrency": "EUR",
-"price": "25",
-"availability": "https://schema.org/InStock",
-"itemCondition": "https://schema.org/NewCondition"
-},
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "5",
-"ratingCount": "4",
-"reviewCount": "4"
-},
-"review": [{
-"@type": "Review",
-"name": "Risultati dopo solo una settimana",
-"reviewBody": "Ho iniziato a prendere Tendoactive Plus circa un mese fa su consiglio del mio
-fisioterapista per un problema ai tendini che mi affliggeva da tempo. Devo dire che sono rimasto
-piacevolmente sorpreso dai risultati. Già dopo la prima settimana ho iniziato a notare un miglioramento
-nella mobilità e una riduzione del dolore durante le attività quotidiane. Continuero' a
-prenderlo....Grazie",
-"reviewRating": {
-"@type": "Rating",
-"ratingValue": "5"
-},
-
-"datePublished": "2024-09-13",
-"author": {"@type": "Person", "name": "Giacomo"}
-},{
-"@type": "Review",
-"name": "Funziona",
-"reviewBody": "Questo prodotto funziona davvero! Lo riordero' sicuramente.",
-"reviewRating": {
-"@type": "Rating",
-"ratingValue": "5"
-},
-"datePublished": "2024-05-20",
-"author": {"@type": "Person", "name": "Lorella"}
-},{
-"@type": "Review",
-"name": "Ottimo integratore",
-"reviewBody": "La formula sembra ben bilanciata: il collagene, insieme alla vitamina C e al
-manganese, svolge un ruolo chiave nel supportare la salute dei tendini e dei legamenti. Ho anche
-apprezzato il fatto che gli ingredienti siano naturali e mirati a promuovere la rigenerazione del
-tessuto connettivo. Ottimo integratore",
-"reviewRating": {
-"@type": "Rating",
-"ratingValue": "5"
-},
-"datePublished": "2024-09-13",
-"author": {"@type": "Person", "name": "Adriana"}
-},{
-"@type": "Review",
-"name": "Sto molto meglio",
-"reviewBody": "Sono una sportiva e metto a dura prova i miei tendini. Da solo due mesi prendo
-Tendoactive e devo dire che sto molto meglio.",
-"reviewRating": {
-"@type": "Rating",
-"ratingValue": "5"
-},
-"datePublished": "2024-05-22",
-"author": {"@type": "Person", "name": "Simona"}
- }]
+       "@context": "https://schema.org",
+       "@type": "Product",
+       "name": "TendoActive Plus",
+       "image": "https://cdn.shopify.com/s/files/1/0674/0518/5339/files/01b-BMD-Tendoactive_Plus-9O3A3013-
+       v2.png?v=1727453708",
+       "description": "Integratore alimentare con azione completa per tendini e legamenti",
+       "brand": {
+       "@type": "Brand",
+       "name": "Bruno MD"
+       },
+       "offers": {
+       "@type": "Offer",
+       "url": "https://brunomd.eu/tendo",
+       "priceCurrency": "EUR",
+       "price": "25",
+       "availability": "https://schema.org/InStock",
+       "itemCondition": "https://schema.org/NewCondition"
+       },
+       "aggregateRating": {
+       "@type": "AggregateRating",
+       "ratingValue": "5",
+       "ratingCount": "4",
+       "reviewCount": "4"
+       },
+       "review": [{
+       "@type": "Review",
+       "name": "Risultati dopo solo una settimana",
+       "reviewBody": "Ho iniziato a prendere Tendoactive Plus circa un mese fa su consiglio del mio
+       fisioterapista per un problema ai tendini che mi affliggeva da tempo. Devo dire che sono rimasto
+       piacevolmente sorpreso dai risultati. Già dopo la prima settimana ho iniziato a notare un miglioramento
+       nella mobilità e una riduzione del dolore durante le attività quotidiane. Continuero' a
+       prenderlo....Grazie",
+       "reviewRating": {
+       "@type": "Rating",
+       "ratingValue": "5"
+       },
+       
+       "datePublished": "2024-09-13",
+       "author": {"@type": "Person", "name": "Giacomo"}
+       },{
+       "@type": "Review",
+       "name": "Funziona",
+       "reviewBody": "Questo prodotto funziona davvero! Lo riordero' sicuramente.",
+       "reviewRating": {
+       "@type": "Rating",
+       "ratingValue": "5"
+       },
+       "datePublished": "2024-05-20",
+       "author": {"@type": "Person", "name": "Lorella"}
+       },{
+       "@type": "Review",
+       "name": "Ottimo integratore",
+       "reviewBody": "La formula sembra ben bilanciata: il collagene, insieme alla vitamina C e al
+       manganese, svolge un ruolo chiave nel supportare la salute dei tendini e dei legamenti. Ho anche
+       apprezzato il fatto che gli ingredienti siano naturali e mirati a promuovere la rigenerazione del
+       tessuto connettivo. Ottimo integratore",
+       "reviewRating": {
+       "@type": "Rating",
+       "ratingValue": "5"
+       },
+       "datePublished": "2024-09-13",
+       "author": {"@type": "Person", "name": "Adriana"}
+       },{
+       "@type": "Review",
+       "name": "Sto molto meglio",
+       "reviewBody": "Sono una sportiva e metto a dura prova i miei tendini. Da solo due mesi prendo
+       Tendoactive e devo dire che sto molto meglio.",
+       "reviewRating": {
+       "@type": "Rating",
+       "ratingValue": "5"
+       },
+       "datePublished": "2024-05-22",
+       "author": {"@type": "Person", "name": "Simona"}
+        }]
             }
             `
             }}
@@ -192,43 +192,37 @@ Tendoactive e devo dire che sto molto meglio.",
             dangerouslySetInnerHTML={{
               __html: `
          {
-"@context": "https://schema.org",
-"@type": "FAQPage",
-"mainEntity": [{
-"@type": "Question",
-"name": "Per quanto tempo è consigliato il trattamento minimo per la tendinopatia?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto
-lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi. Consigliamo di seguire il trattamento per evitare
-recidive, la tendinopatia può durare anche più di 1 anno."
-}
-},{
-"@type": "Question",
-"name": "Qual è il dosaggio?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "1 bustina/giorno principalmente in 1 dose singola."
-}
-},{
-"@type": "Question",
-"name": "È meglio assumerlo prima o dopo i pasti?",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
-}
-},{
-"@type": "Question",
-"name": "",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": ""
-}
-}]
+          "@context": "https://schema.org",
+
+          "@type": "FAQPage",
+          "mainEntity": [{
+          "@type": "Question",
+          "name": "Per quanto tempo è consigliato il trattamento minimo per la tendinopatia?",
+          "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I tendini e i legamenti sono strutture poco vascolarizzate. Pertanto, tutti i nutrienti per riparare il tendine arrivano molto
+          lentamente. Per questo motivo, raccomandiamo di aderire al trattamento per almeno 3 -6 mesi. Consigliamo di seguire il trattamento per evitare
+          recidive, la tendinopatia può durare anche più di 1 anno."
+          }
+          },{
+          "@type": "Question",
+          "name": "Qual è il dosaggio?",
+          "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "1 bustina/giorno principalmente in 1 dose singola."
+          }
+          }{
+        "@type": "Question",
+        "name": "È meglio assumerlo prima o dopo i pasti?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "È indistinto. Per una corretta compliance terapeutica, si consiglia di assumere la bustina ogni mattina o ogni sera."
+        }
+    }]
 } `
-}}
+            }}
           ></script>
-        
+
         </Head>
         <body>
           <Main />

@@ -23,11 +23,11 @@ const PriceBoxModal = ({
           {isOpen && (
             <div className={styles.exitButton} onClick={ModalHandler}>
               <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-                <g fill="white" fill-rule="evenodd">
+                <g fill="white" fillRule="evenodd">
                   <path fill="none" d="M0 0h40v40H0z" />
                   <path
                     fill="#FFFFFF"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
                   />
                 </g>

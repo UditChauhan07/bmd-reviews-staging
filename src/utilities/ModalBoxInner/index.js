@@ -219,11 +219,11 @@ const ModalBoxInner = ({
               style={themed ? { border: "1px solid #fff" } : {}}
             >
               <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-                <g fill="white" fill-rule="evenodd">
+                <g fill="white" fillRule="evenodd">
                   <path fill={themed ? "none" : "#FFBF3C"} d="M0 0h40v40H0z" />
                   <path
                     fill={themed ? "#fff" : "#00A0DD"}
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
                   />
                 </g>

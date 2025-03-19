@@ -114,12 +114,12 @@ const ReasonsToBelieve = ({
                   >
                     {" "}
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
                     />{" "}
                     <path d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z" />{" "}
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5z"
                     />{" "}
                   </svg>
@@ -142,11 +142,11 @@ const ReasonsToBelieve = ({
                     height="40"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g fill="white" fill-rule="evenodd">
+                    <g fill="white" fillRule="evenodd">
                       <path fill={theme} d="M0 0h40v40H0z" />
                       <path
                         fill="#fff"
-                        fill-rule="nonzero"
+                        fillRule="nonzero"
                         d="M16.93 25.416l3.267-3.266 3.069 3.07 2.09-2.09-3.07-3.07 3.13-3.13-2.338-2.337-3.13 3.13-3.078-3.078-2.09 2.089 3.079 3.078-3.266 3.266z"
                       />
                     </g>
