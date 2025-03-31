@@ -11,6 +11,7 @@ export async function updateCustomerAddress({ address, customerAccessToken }) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({ address }),
+    
   });
 
   let data = JSON.parse(await response.text());
