@@ -139,17 +139,17 @@ const Product = ({ version, script }) => {
         <ProductCard
           onScroll={handleScroll}
           data={{
-            images: shopifyP.images.edges,
+            images: shopifyP?.images?.edges,
             declaimer: {
-              title: shopifyP.title,
-              content: shopifyP.descriptionHtml,
+              title: shopifyP?.title,
+              content: shopifyP?.descriptionHtml,
             },
             priceDescription: {
               EXTERNALID,
               STOREFRONTID,
               SLUG,
               price: shopifyP?.variants?.edges?.length
-                ? parseInt(shopifyP.variants.edges[0].node?.price?.amount)
+                ? parseInt(shopifyP?.variants?.edges[0].node?.price?.amount)
                 : 0,
               theme,
               priceBox,
@@ -157,7 +157,7 @@ const Product = ({ version, script }) => {
             },
             review,
           }}
-          variantId={shopifyP.variants.edges[0].node?.id}
+          variantId={shopifyP?.variants?.edges[0].node?.id}
         />
       )}
       {true && (
@@ -167,13 +167,13 @@ const Product = ({ version, script }) => {
             STOREFRONTID,
             SLUG,
             price: shopifyP?.variants?.edges?.length
-              ? parseFloat(shopifyP.variants.edges[0].node?.price?.amount)
+              ? parseFloat(shopifyP?.variants?.edges[0].node?.price?.amount)
               : 0,
             theme,
             priceBox,
             freq: rechargeProduct?.subscription_preferences,
           }}
-          variantId={shopifyP.variants.edges[0].node?.id}
+          variantId={shopifyP?.variants.edges[0].node?.id}
         />
       )}
       {benefits && <BenefitCards data={benefits} productColorTheme={theme} />}

@@ -36,7 +36,7 @@ const ModalBoxInner = ({
 
   useEffect(() => {
     if (externalId) {
-      getSubscription({ id: externalId })
+      getSubscription({ id: externalId }) && false
         .then((response) => {
           if (response?.plans?.length) {
             let freqs = [];

@@ -160,7 +160,7 @@
         }
     },
     "citrak-forte-4g-con-edulcoranti-30-bustine": {
-        "EXTERNALID": "8097707229499",
+        "EXTERNALID": "8204347769109",
         "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc3MDcyMjk0OTk=",
         "SLUG": "citrak-forte-4g-con-edulcoranti-30-bustine",
         "link": "/prodotti/",
@@ -504,7 +504,7 @@
         }
     },
     "citrak-3g-30-bustine": {
-        "EXTERNALID": "8097634582843",
+        "EXTERNALID": "8204344459541",
         "STOREFRONTID": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzgwOTc2MzQ1ODI4NDM=",
         "SLUG": "citrak-3g-30-bustine",
         "link": "/prodotti/",
@@ -512,8 +512,8 @@
         "title": "CITRAK 3g.",
         "btnText": "Shop",
         "price": 12.00,
-        "sku":"8097634582843",
-        "product_url":"https://brunomd.eu/prodotti/citrak-3g-30-bustine",
+        "sku":"8204344459541",
+        "product_url": "https://bmd-eu-test.myshopify.com/products/citrak-3g",
         "product_title":"CITRAK 3g.",
         "priceBox": {
             "qtyUnitMultiplierLabel": "Unita'",

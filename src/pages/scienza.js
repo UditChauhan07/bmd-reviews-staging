@@ -25,7 +25,7 @@ export default function Scienza({version,script}) {
     return(
         <section>
             <PageHead content={SEO[version].scienza.SEO} />
-            <DynamicVideoComponent  content={masterHead.content} src={masterHead.video}/>
+            {/* <DynamicVideoComponent  content={masterHead.content} src={masterHead.video}/> */}
             <div style={{margin:'3rem auto'}}><TextText data={sectionOne.sectionContent} /></div>
             <img src={sectionOne.sectionImage.src} alt="..." style={{width:'100%'}}/>
             <ImgText2 data={sectionTwo} />

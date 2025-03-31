@@ -211,7 +211,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "@type": "Answer",
           "text": "1 bustina/giorno principalmente in 1 dose singola."
           }
-          }{
+          },{
         "@type": "Question",
         "name": "È meglio assumerlo prima o dopo i pasti?",
         "acceptedAnswer": {
