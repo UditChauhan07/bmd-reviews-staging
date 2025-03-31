@@ -8,14 +8,11 @@ import Loader2 from "../../utilities/Loader/index2";
 export { RouteGuard };
 
 function RouteGuard({ children }) {
-  // console.log(children,"dddd---->");
-  
   const router = useRouter();
   const [authorized, setAuthorized] = useState(false);
   const [loading, setLoading] = useState(false);
  
   useEffect(() => {
-    // on initial load - run auth check
     let path = router.asPath;
     let newPath = path.split("/account/reset/");
     let newPath1 = path.split("/tools/");
@@ -24,11 +21,10 @@ function RouteGuard({ children }) {
     let logoutStatus = path.split("/MghBdR8wHtBU6/");
     if (logoutStatus.length == 2) {
       let statusValue = logoutStatus[1];
-      console.log(statusValue);
       if (statusValue == 1) {
         Destroy(router);
       } else {
-        window.location.href = "https://brunomd.eu/account";
+        window.location.href = "https://bmd-reviews-staging.vercel.app/account";
       }
     }
     if (autologin.length == 2) {
@@ -41,7 +37,6 @@ function RouteGuard({ children }) {
             loginFields: { email: atob(split[0]), password: atob(split[1]) },
           })
             .then((response) => {
-              console.log({ response });
               var errors =
                 response?.data?.customerAccessTokenCreate?.customerUserErrors ||
                 [];
@@ -54,7 +49,7 @@ function RouteGuard({ children }) {
                       label: "Ok",
                       onClick: () =>
                         (window.location.href =
-                          "https://www.brunomd.eu/pages/logged-out"),
+                          "https://bmd-reviews-staging.vercel.app/pages/logged-out"),
                     },
                   ],
                 });
@@ -64,7 +59,7 @@ function RouteGuard({ children }) {
                 );
                 if (split.length == 3) {
                   let cartId = split[2] ?? null;
-                  window.location.href = `https://www.brunomd.eu/cart/c/${cartId}`;
+                  window.location.href = `https://bmd-reviews-staging.vercel.app/cart/c/${cartId}`;
                 } else {
                   window.location.href = window.location.origin + "/account";
                 }
@@ -84,43 +79,35 @@ function RouteGuard({ children }) {
     }
     if (newPath.length == 2) {
       window.location.href =
-        "https://www.brunomd.eu/account/reset/" + newPath[1];
+        "https://bmd-reviews-staging.vercel.app/account/reset/" + newPath[1];
     } else if (newPath1.length == 2) {
-      window.location.href = "https://www.brunomd.eu/tools/" + newPath1[1];
+      window.location.href = "https://bmd-reviews-staging.vercel.app/tools/" + newPath1[1];
     } else if (newPath2.length == 2) {
       window.location.href =
-        "https://www.brunomd.eu/account/activate/" + newPath2[1];
+        "https://bmd-reviews-staging.vercel.app/account/activate/" + newPath2[1];
     } else {
       let check = router.asPath.split("#");
       let check1 = check[0].split("?");
       if (check1[0] == "/account/login") {
-        window.location.href = "https://www.brunomd.eu/account/login";
+        window.location.href = "https://bmd-reviews-staging.vercel.app/account/login";
       }
       if (check1[0] == "/pages/joy-loyalty-page") {
-        window.location.href = "https://www.brunomd.eu/pages/joy-loyalty-page";
+        window.location.href = "https://bmd-reviews-staging.vercel.app/pages/joy-loyalty-page";
       }
       authCheck(check1[0]);
-      // authCheck(router.route ||router.asPath);
     }
 
-    // on route change start - hide page content by setting authorized to false
     const hideContent = () => setAuthorized(false);
     router.events.on("routeChangeStart", hideContent);
-
-    // on route change complete - run auth check
     router.events.on("routeChangeComplete", authCheck);
 
-    // unsubscribe from events in useEffect return function
     return () => {
       router.events.off("routeChangeStart", hideContent);
       router.events.off("routeChangeComplete", authCheck);
     };
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function authCheck(url) {
-    // redirect to login page if accessing a private page and not logged in
     let publicPaths = [
       "/",
       "/carrello",
@@ -181,12 +168,7 @@ function RouteGuard({ children }) {
       "/return",
       "/tendo/return"
 
-      
-      //"/tendo-V2",
     ];
-    if (!publicPaths.length) {
-      //publicPaths = ["/404-page"];
-    }
     if (publicPaths.includes(url)) {
       setAuthorized(true);
     } else {
@@ -196,7 +178,7 @@ function RouteGuard({ children }) {
   }
 
   if (loading) {
-    return  <Loader2 />
+    return <Loader2 />;
   }
   
   return authorized && children;

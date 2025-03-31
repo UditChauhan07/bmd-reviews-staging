@@ -120,7 +120,7 @@ const Index = () => {
       .then((response) => {
         if (response?.data?.cartCreate?.cart) {
           let id = response?.data?.cartCreate?.cart?.id;
-          localStorage.setItem("e6S4JJM9G", id);
+          localStorage.setItem("e6S4JJM9GESES", id);
           router.push("/carrello");
         }
       })
@@ -130,7 +130,7 @@ const Index = () => {
   };
 
   const cartAdd = (lineItems) => {
-    let cId = localStorage.getItem("e6S4JJM9G");
+    let cId = localStorage.getItem("e6S4JJM9GES");
     if (lineItems.length > 0) {
       // console.log("kkkk");
       // console.log(lineItems);
@@ -149,7 +149,7 @@ const Index = () => {
                   })
                     .then((response) => {
                       let id = response?.data?.cartCreate?.cart?.id;
-                      localStorage.setItem("e6S4JJM9G", id);
+                      localStorage.setItem("e6S4JJM9GES", id);
                       //router.push("/carrello");
                       window.location.href = "/carrello";
                     })
@@ -171,7 +171,7 @@ const Index = () => {
           .then((response) => {
             if (response?.data?.cartCreate?.cart) {
               let id = response?.data?.cartCreate?.cart?.id;
-              localStorage.setItem("e6S4JJM9G", id);
+              localStorage.setItem("e6S4JJM9GES", id);
               //router.push("/carrello");
               window.location.href = "/carrello";
             }
@@ -184,7 +184,7 @@ const Index = () => {
   };
 
   const reOrder1 = (id) => {
-    let cId = localStorage.getItem("e6S4JJM9G");
+    let cId = localStorage.getItem("e6S4JJM9GES");
     let lineItems = [];
     let id1 = "";
     let id2 = "";

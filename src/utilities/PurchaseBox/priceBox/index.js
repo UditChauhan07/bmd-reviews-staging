@@ -80,7 +80,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
 
   const cartHandler = () => {
     setIsAddingToCart(true);
-    let cId = localStorage.getItem("e6S4JJM9G");
+    let cId = localStorage.getItem("e6S4JJM9GES");
     let lineItemsToAdd = [];
     if (isActive == 1) {
       lineItemsToAdd = [
@@ -125,7 +125,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
                 AddtoCart({ lineItems: lineItemsToAdd })
                   .then((response) => {
                     let id = response?.data?.cartCreate?.cart?.id;
-                    localStorage.setItem("e6S4JJM9G", id);
+                    localStorage.setItem("e6S4JJM9GES", id);
                     if (data.priceBox.isCheckoutRedirected) {
                       let URL = response.data.cartCreate.cart.checkoutUrl;
                       window.location.href = URL;
@@ -162,7 +162,7 @@ const PriceBox = ({ isActive, data, variantId }) => {
       AddtoCart({ lineItems: lineItemsToAdd })
         .then((response) => {
           let id = response?.data?.cartCreate?.cart?.id;
-          localStorage.setItem("e6S4JJM9G", id);
+          localStorage.setItem("e6S4JJM9GES", id);
           // router.push('/carrello')
           if (data.priceBox.isCheckoutRedirected) {
             let URL = response.data.cartCreate.cart.checkoutUrl;

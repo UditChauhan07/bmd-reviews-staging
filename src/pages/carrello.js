@@ -45,7 +45,7 @@ const Carrelo = () => {
     getCartList()
       .then((response) => {
         if (response?.data?.cart?.lines?.edges?.length == 0)
-          location.removeItem("e6S4JJM9G");
+          location.removeItem("e6S4JJM9GES");
         setData({
           url: response?.data?.cart?.checkoutUrl,
           price: parseFloat(response?.data?.cart?.cost?.totalAmount?.amount),

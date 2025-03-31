@@ -105,7 +105,7 @@ const ModalBoxInner = ({
 
   const AddToCartHandler = () => {
     setCartLoad(true);
-    let cId = localStorage.getItem("e6S4JJM9G");
+    let cId = localStorage.getItem("e6S4JJM9GES");
     if (cId == "undefined") cId = null;
     let lineItemsToAdd = [];
     // console.log({ type, productVariantId, quantity, freq });
@@ -133,7 +133,7 @@ const ModalBoxInner = ({
             window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}?discount=${content?.onetimeBox?.discount}`;
           } else {
             // let id = response?.data?.cartCreate?.cart?.id;
-            // localStorage.setItem("e6S4JJM9G", id);
+            // localStorage.setItem("e6S4JJM9GES", id);
             // window.location.href = "/carrello";
             window.location.href = `${response?.data?.cartCreate?.cart?.checkoutUrl}`;
           }

@@ -1,4 +1,4 @@
-let url = "https://be-cms.brunomd.com/dev/brunoeutest/";
+let url = " https://be-cms.brunomd.com/dev/brunoeutest/";
 
 
 
@@ -227,7 +227,7 @@ export async function getCheckout({ cartId }) {
 }
 
 export async function addCartItems({ items }) {
-  let cartId = localStorage.getItem("e6S4JJM9G");
+  let cartId = localStorage.getItem("e6S4JJM9GES");
   let response = await fetch(url + "XFn5b6evjhr11kL", {
     method: "POST",
     headers: {
@@ -245,7 +245,7 @@ export async function addCartItems({ items }) {
 }
 
 export async function getCartList() {
-  let cartId = localStorage.getItem("e6S4JJM9G");
+  let cartId = localStorage.getItem("e6S4JJM9GES");
   let response = await fetch(url + "mySQvwKGyfE2c3V", {
     method: "POST",
     headers: {
@@ -263,7 +263,7 @@ export async function getCartList() {
 }
 
 export async function updateCartItems({ items, setState }) {
-  let cartId = localStorage.getItem("e6S4JJM9G");
+  let cartId = localStorage.getItem("e6S4JJM9GES");
   let response = await fetch(url + "g3MeUq1kPNhb05E", {
     method: "POST",
     headers: {
@@ -281,7 +281,7 @@ export async function updateCartItems({ items, setState }) {
 }
 
 export async function removeCartItems({ lineIds, setState }) {
-  let cartId = localStorage.getItem("e6S4JJM9G");
+  let cartId = localStorage.getItem("e6S4JJM9GES");
   let response = await fetch(url + "l2lipIiIpwC7njC", {
     method: "POST",
     headers: {
@@ -355,7 +355,7 @@ export async function getCustomerDetails({ token, setCustomer }) {
 }
 
 export async function CartItemNumber() {
-  let cId = localStorage.getItem("e6S4JJM9G");
+  let cId = localStorage.getItem("e6S4JJM9GES");
   let response = await fetch(url + "73x3i7aTPuHYTti", {
     method: "POST",
     headers: {
